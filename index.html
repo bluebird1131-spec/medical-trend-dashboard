@@ -509,7 +509,7 @@
     '이나', '처럼', '보다', '와의', '과의', '에는', '에도', '에선', '은', '는', '이', '가', '을', '를', '의', '에', '로', '와', '과', '도', '만', '들'];
   const VERBISH = /(하다|한다|했다|된다|됐다|있다|없다|이다|하고|하며|해야|하는|되는|했던|하여|해서|키로|겠다|이며|으며|한다며|했으며)$/;
 
-  let headers = [], cols = {}, items = [], listItems = [], ctxs = {}, thumbs = {};
+  let headers = [], cols = {}, items = [], listItems = [], ctxs = {}, thumbs = {}, imgFreq = new Map();
   let filter = { q: '', cat: '전체', period: '7' };
   let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true, cloudWords = [];
 
@@ -571,10 +571,12 @@
   const summaryOf = r => get(r, 'summary').replace(TAG, '');
   const judgeOf = r => { const m = get(r, 'summary').match(TAG); return m ? m[1].replace(/^(선별\(필요\)|검토필요|선별|검토)\s*[-·:]\s*/, '') : ''; };
   // 시트에 이미지 열이 있으면 그것을, 없으면 수집 스크립트가 원문에서 가져온 대표 이미지를 씀
+  // 수집 스크립트가 열리는지 확인해 고른 사진(thumbs)을 먼저 쓰고, 확인하지 못한 경우에만 시트 사진을 시도
+  // 여러 기사에 똑같이 들어간 시트 사진은 기관 배너로 보고 쓰지 않음
   const imgOf = r => {
     const v = get(r, 'image'), t = thumbs[get(r, 'link')] || '';
-    const sheet = /^https?:\/\//i.test(v) ? v : '';
-    return { src: sheet || t, fb: sheet && t && t !== sheet ? t : '' };
+    const sheet = /^https?:\/\//i.test(v) && (imgFreq.get(v) || 0) < 3 ? v : '';
+    return { src: t || sheet, fb: t && sheet && sheet !== t ? sheet : '' };
   };
   // 화면을 나누는 기준: 분류 열이 있으면 분류, 없으면 출처(기관·매체)
   const groupLabel = () => cols.category !== undefined ? '분류' : '출처';
@@ -681,6 +683,8 @@
       return v.length && v.filter(x => /^(선별|검토|제외)/.test(x)).length / v.length >= 0.5;
     });
     if (st >= 0) { for (const k in cols) if (cols[k] === st) delete cols[k]; cols.status = st; }
+    imgFreq = new Map();
+    if (cols.image !== undefined) rows.forEach(r => { const v = String(r[cols.image] ?? '').trim(); if (v) imgFreq.set(v, (imgFreq.get(v) || 0) + 1); });
     items = rows.filter(r => !/^제외/.test(get(r, 'status'))).map(r => {
       const date = parseDate(get(r, 'date'));
       const collected = parseDate(get(r, 'collected')) || date;

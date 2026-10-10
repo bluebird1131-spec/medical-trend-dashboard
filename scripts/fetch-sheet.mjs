@@ -1,8 +1,12 @@
 /**
  * 구글 시트를 CSV로 읽어 data.json 으로 저장함 (GitHub Actions 에서 30분마다 실행).
- * - 시트 주소: 저장소 Settings → Variables 의 SHEET_URL
+ * - 시트 주소: 저장소 Settings → Secrets 의 SHEET_URL
  * - '제외(중복)', '제외(불필요)' 행은 올리지 않음 (선별·검토필요만 공개)
- * - 기사 원문의 대표 이미지(og:image)를 모아 thumbs.json 에 캐시 → 목록 썸네일로 사용
+ * - 기사마다 쓸 수 있는 대표 사진 1장을 골라 data.json 의 thumbs 에 넣음 (조회 결과는 thumbs.json 에 캐시)
+ *   1) 시트의 대표사진 URL — 실제로 열리는 이미지일 때만
+ *   2) 원문의 og:image — 사이트 로고 제외
+ *   3) 원문 본문의 첫 기사 사진
+ *   여러 기사(3건 이상)에 똑같이 쓰인 사진은 기관 배너·로고로 보고 쓰지 않음
  * - 내용이 그대로면 파일을 건드리지 않음 → 바뀐 날만 커밋되어 이력이 깔끔하게 남음
  */
 import { readFile, writeFile } from 'node:fs/promises';
@@ -11,9 +15,16 @@ const OUT = new URL('../data.json', import.meta.url);
 const THUMBS = new URL('../thumbs.json', import.meta.url);
 const title = process.env.SITE_TITLE || '의료계 동향';
 const src = toCsvUrl(process.env.SHEET_URL || '');
-const MAX_NEW_THUMBS = 80;  // 한 번 실행에서 새로 조회할 기사 수 (처음 연결 시 과부하 방지)
-const BAD_IMG = /logo|noimage|no_image|no-image|default|blank|spacer|homeimg|og_img|og-img/i;  // 사이트 로고·기본 이미지는 대표 사진으로 쓰지 않음
-const NONE = '-';  // 조회했지만 쓸 만한 사진이 없음
+const MAX_NEW = 80;          // 한 번 실행에서 새로 조회할 주소 수 (처음 연결 시 과부하 방지)
+const CACHE_V = 2;           // 사진 찾는 규칙이 바뀌면 올려서 '못 찾음' 기록을 다시 조회
+const GENERIC = 3;           // 이만큼 많은 기사에 같은 사진이 쓰이면 배너·로고로 봄
+const BAD_IMG = /logo|noimage|no_image|no-image|default|blank|spacer|homeimg|og_img|og-img|icon|btn_|banner/i;
+const BODY_IMG = /\/(news\/photo|news\/thumbnail|data\/photos|data\/news_cont|data\/editor|upload\/news|upload\/editor|files\/attach)\//i;
+const NONE = '-';            // 조회했지만 쓸 만한 사진이 없음
+const UA = {
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36',
+  'accept-language': 'ko-KR,ko;q=0.9',
+};
 
 if (!src) {
   console.log('SHEET_URL 이 설정되지 않아 건너뜀');
@@ -38,29 +49,52 @@ if (statusCol >= 0) {
   console.log(`상태 열 "${headers[statusCol]}" 기준 제외 ${before - rows.length}건 숨김`);
 }
 
-// 링크 열: 머리글 이름 또는 값이 대부분 http 로 시작하는 열
-let linkCol = headers.findIndex(h => /링크|url|주소|원문|link/i.test(h));
+// 사진 열(대표사진 URL 등)과 링크 열(기사 URL 등). "대표사진 URL"이 링크로 잡히지 않게 사진 열부터 찾음
+const imageCol = headers.findIndex(h => /이미지|썸네일|사진|image|thumb/i.test(h));
+let linkCol = headers.findIndex((h, i) => i !== imageCol && /링크|url|주소|원문|link/i.test(h));
 if (linkCol < 0) linkCol = findCol(v => /^https?:\/\//i.test(v), 0.6);
+const cell = (r, i) => (i >= 0 ? (r[i] || '').trim() : '');
+const isUrl = u => /^https?:\/\//i.test(u);
 
 const cache = await readFile(THUMBS, 'utf8').then(JSON.parse).catch(() => ({}));
-// 예전 방식으로 비어 있거나 로고가 잡힌 항목은 다시 조회
-for (const k of Object.keys(cache)) if (cache[k] === '' || BAD_IMG.test(cache[k])) delete cache[k];
-if (linkCol >= 0) await collectThumbs(rows.map(r => (r[linkCol] || '').trim()).filter(u => /^https?:\/\//i.test(u)));
+if (cache.__v !== CACHE_V) {
+  for (const k of Object.keys(cache)) {
+    const old = !/^(page|chk):/.test(k);  // 예전 형식(기사 주소만 키로 쓴 기록)
+    if (k !== '__v' && (old || cache[k] === NONE || BAD_IMG.test(cache[k]))) delete cache[k];
+  }
+  cache.__v = CACHE_V;
+}
+
+const links = rows.map(r => cell(r, linkCol)).filter(isUrl);
+const sheetImgs = rows.map(r => cell(r, imageCol)).filter(isUrl);
+await collect(links, 'page', pageImage);                                 // 원문에서 사진 찾기
+await collect(sheetImgs.filter(u => !BAD_IMG.test(u)), 'chk', checkImage); // 시트 사진이 실제로 열리는지
+
+// 기사별 최종 사진 고르기
+const candidates = rows.map(r => {
+  const s = cell(r, imageCol), p = cache['page:' + cell(r, linkCol)];
+  return [cache['chk:' + s] === 'ok' ? s : '', p && p !== NONE ? p : ''];
+});
+const used = new Map();
+candidates.flat().filter(Boolean).forEach(u => used.set(u, (used.get(u) || 0) + 1));
 const thumbs = {};
-if (linkCol >= 0) rows.forEach(r => { const u = (r[linkCol] || '').trim(); if (cache[u] && cache[u] !== NONE) thumbs[u] = cache[u]; });
+rows.forEach((r, i) => {
+  const pick = candidates[i].find(u => u && used.get(u) < GENERIC);
+  if (pick) thumbs[cell(r, linkCol)] = pick;
+});
 await writeFile(THUMBS, JSON.stringify(cache, null, 1) + '\n');
 
 const data = { title, headers, rows, thumbs };
 const prev = await readFile(OUT, 'utf8').then(JSON.parse).catch(() => null);
 if (prev && prev.title === data.title &&
     JSON.stringify([prev.headers, prev.rows, prev.thumbs || {}]) === JSON.stringify([data.headers, data.rows, data.thumbs])) {
-  console.log(`변경 없음 (${data.rows.length}건)`);
+  console.log(`변경 없음 (${data.rows.length}건, 사진 ${Object.keys(thumbs).length}건)`);
   process.exit(0);
 }
 
 data.fetchedAt = new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Seoul' }).slice(0, 16);
 await writeFile(OUT, JSON.stringify(data, null, 1) + '\n');
-console.log(`data.json 갱신: ${data.rows.length}건, 썸네일 ${Object.keys(thumbs).length}건 (${data.fetchedAt})`);
+console.log(`data.json 갱신: ${data.rows.length}건, 사진 ${Object.keys(thumbs).length}건 (${data.fetchedAt})`);
 
 function fail(msg) {
   console.error(`::error::${msg}`);
@@ -74,28 +108,37 @@ function findCol(test, ratio) {
   });
 }
 
-// 원문 HTML 의 og:image / twitter:image 주소를 모음. 로고뿐이면 본문 첫 기사 사진을 씀.
-// 찾지 못하면 '-' 로 기록해 다시 조회하지 않음
-async function collectThumbs(urls) {
-  const todo = [...new Set(urls)].filter(u => !(u in cache)).slice(0, MAX_NEW_THUMBS);
-  let found = 0;
+// 주소마다 한 번만 조회하고 결과를 '<종류>:<주소>' 키로 캐시
+async function collect(urls, kind, fn) {
+  const todo = [...new Set(urls)].filter(u => !((kind + ':' + u) in cache)).slice(0, MAX_NEW);
+  let hit = 0;
   for (let i = 0; i < todo.length; i += 6) {
     await Promise.all(todo.slice(i, i + 6).map(async u => {
-      cache[u] = await ogImage(u);
-      if (cache[u] !== NONE) found++;
+      const v = await fn(u);
+      if (v === null) return;  // 접속 자체가 실패하면 기록하지 않고 다음 실행에서 다시 시도
+      cache[kind + ':' + u] = v;
+      if (v !== NONE && v !== 'bad') hit++;
     }));
   }
-  if (todo.length) console.log(`대표 이미지 조회 ${todo.length}건 중 ${found}건 찾음`);
+  if (todo.length) console.log(`${kind === 'page' ? '원문 사진 조회' : '시트 사진 확인'} ${todo.length}건 중 ${hit}건 사용 가능`);
 }
 
-async function ogImage(url) {
+// 시트 사진 주소가 실제 이미지로 열리면 'ok', 404·이미지 아님이면 'bad'
+async function checkImage(url) {
   try {
-    const r = await fetch(url, {
-      signal: AbortSignal.timeout(8000),
-      headers: { 'user-agent': 'Mozilla/5.0 (compatible; medical-trend-dashboard/1.0)', 'accept-language': 'ko-KR,ko;q=0.9' },
-    });
+    const r = await fetch(url, { signal: AbortSignal.timeout(8000), headers: UA });
+    const ok = r.ok && /^image\//i.test(r.headers.get('content-type') || '');
+    r.body?.cancel().catch(() => {});
+    return ok ? 'ok' : 'bad';
+  } catch { return null; }
+}
+
+// 원문 HTML 에서 og:image(로고 제외) → 본문 기사 사진 순으로 찾음
+async function pageImage(url) {
+  try {
+    const r = await fetch(url, { signal: AbortSignal.timeout(10000), headers: UA });
     if (!r.ok || !/html/i.test(r.headers.get('content-type') || '')) return NONE;
-    const html = (await r.text()).slice(0, 400000);
+    const html = (await r.text()).slice(0, 500000);
     const abs = v => new URL(v.replace(/&amp;/g, '&').trim(), r.url).href.replace(/^http:\/\//i, 'https://');
     for (const m of html.matchAll(/<meta\b[^>]*>/gi)) {
       const tag = m[0];
@@ -104,13 +147,13 @@ async function ogImage(url) {
       const content = (tag.match(/\bcontent\s*=\s*["']([^"']+)["']/i) || [])[1];
       if (content && !BAD_IMG.test(content)) return abs(content);
     }
-    // 국내 언론사 CMS 의 기사 사진 경로 (/news/photo/, /data/photos/ 등)
-    for (const m of html.matchAll(/<img\b[^>]*\bsrc\s*=\s*["']([^"']+)["']/gi)) {
-      if (/\/(news\/photo|news\/thumbnail|data\/photos|upload\/news)\//i.test(m[1]) && !BAD_IMG.test(m[1])) return abs(m[1]);
+    for (const m of html.matchAll(/<img\b[^>]*\b(?:data-src|src)\s*=\s*["']([^"']+)["']/gi)) {
+      if (BODY_IMG.test(m[1]) && !BAD_IMG.test(m[1])) return abs(m[1]);
     }
-  } catch {}
-  return NONE;
+    return NONE;
+  } catch { return null; }
 }
+
 
 // 일반 시트 주소(/edit), 웹에 게시 주소(/pubhtml), CSV 주소 모두 받아 CSV 주소로 변환
 export function toCsvUrl(url) {
