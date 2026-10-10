@@ -50,6 +50,29 @@
   .narrow { max-width: 760px; margin: 0 auto; padding: 0 16px; }
   :focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
 
+  /* ---------- 주요 기관 바로가기 ---------- */
+  .util { background: var(--background); border-bottom: 1px solid var(--border); }
+  .util-in { display: flex; align-items: center; gap: 12px; min-height: 46px; }
+  .util-label { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+  .util-links { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+  .util-links::-webkit-scrollbar { display: none; }
+  .qlink {
+    display: inline-flex; align-items: center; gap: 5px; height: 30px; padding: 0 12px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--card); font-size: 13px; font-weight: 600; color: var(--body);
+    text-decoration: none; white-space: nowrap; transition: border-color .15s, color .15s;
+  }
+  .qlink:hover { border-color: var(--accent); color: var(--accent); }
+  .qlink .lucide { width: 13px; height: 13px; color: var(--faint); }
+  .qlink:hover .lucide { color: var(--accent); }
+
+  /* 국고사업 탭 안내 */
+  .gov-intro {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    margin-bottom: 14px; padding: 14px 16px; border-radius: 12px; border: 1px solid var(--border); background: var(--card);
+  }
+  .gov-intro p { margin: 0; display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--soft); }
+  .gov-intro p .lucide { color: var(--accent); }
+
   /* ---------- 상단 바 + 화면 탭 ---------- */
   .topbar { position: sticky; top: 0; z-index: 30; background: var(--card); border-bottom: 1px solid var(--border); }
   .tb { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; height: 64px; }
@@ -313,7 +336,9 @@
     .dash { padding: 0 16px; }
     .tb { grid-template-columns: 1fr auto; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 10px; }
     .vtabs { grid-column: 1 / -1; grid-row: 2; }
-    .vtabs button { flex: 1; justify-content: center; padding: 0 8px; font-size: 14px; }
+    .vtabs button { flex: 1; justify-content: center; padding: 0 4px; font-size: 13.5px; }
+    .vtabs button .lucide { display: none; }
+    .util-label span { display: none; }
     .tb-right .updated { display: none; }
     .subbar h1 { font-size: 22px; }
     .seg { width: 100%; }
@@ -334,12 +359,26 @@
 </style>
 </head>
 <body>
+<!-- 주요 기관 바로가기: 기관을 바꾸려면 아래 a 태그의 주소·이름만 수정 -->
+<div class="util">
+  <div class="dash util-in">
+    <span class="util-label"><i data-lucide="landmark"></i><span>주요 기관 바로가기</span></span>
+    <nav class="util-links" aria-label="주요 기관 바로가기">
+      <a class="qlink" href="https://www.mohw.go.kr" rel="noopener">보건복지부<i data-lucide="arrow-up-right"></i></a>
+      <a class="qlink" href="https://www.nhis.or.kr" rel="noopener">국민건강보험공단<i data-lucide="arrow-up-right"></i></a>
+      <a class="qlink" href="https://www.hira.or.kr" rel="noopener">건강보험심사평가원<i data-lucide="arrow-up-right"></i></a>
+      <a class="qlink" href="https://www.kdca.go.kr" rel="noopener">질병관리청<i data-lucide="arrow-up-right"></i></a>
+    </nav>
+  </div>
+</div>
+
 <header class="topbar" id="topbar">
   <div class="dash tb">
     <div class="logo"><span class="logo-mark"><i data-lucide="activity"></i></span><span id="brand">의료계 동향</span></div>
     <nav class="vtabs" id="vtabs" role="tablist" aria-label="화면">
       <button type="button" role="tab" data-view="brief"><i data-lucide="layout-dashboard"></i>오늘의 브리핑</button>
       <button type="button" role="tab" data-view="cats"><i data-lucide="columns-3"></i>분류별 보기</button>
+      <button type="button" role="tab" data-view="gov"><i data-lucide="landmark"></i>국고사업</button>
       <button type="button" role="tab" data-view="list"><i data-lucide="newspaper"></i>전체 기사</button>
     </nav>
     <div class="tb-right">
@@ -390,6 +429,12 @@
 
   <!-- 전체 기사: 훑어보는 목록 -->
   <section class="view" id="v-list" hidden>
+    <div class="narrow" id="govIntro" hidden>
+      <div class="gov-intro">
+        <p><i data-lucide="landmark"></i>보건복지부 보도자료·사업 공고 등 복지부 관련 자료만 모았습니다</p>
+        <a class="btn btn-sm" href="https://www.mohw.go.kr" rel="noopener">보건복지부 홈페이지<i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </div>
     <div class="toolbar" id="toolbar">
       <div class="narrow">
         <div class="tabs" id="tabs" role="tablist" aria-label="분류"></div>
@@ -444,6 +489,7 @@
   const VIEWS = {
     brief: { title: '오늘의 브리핑' },
     cats:  { title: '분류별 보기' },
+    gov:   { title: '국고사업' },
     list:  { title: '전체 기사' },
   };
   const PAGE = 60;
@@ -517,6 +563,10 @@
   const imgOf = r => { const v = get(r, 'image'); return /^https?:\/\//i.test(v) ? v : (thumbs[get(r, 'link')] || ''); };
   // 화면을 나누는 기준: 분류 열이 있으면 분류, 없으면 출처(기관·매체)
   const groupLabel = () => cols.category !== undefined ? '분류' : '출처';
+  // 국고사업 탭: 출처·기관 열 또는 원문 주소가 보건복지부인 자료
+  const MOHW = /보건복지부|복지부|mohw\.go\.kr/i;
+  const isMohw = r => MOHW.test(get(r, 'source')) || MOHW.test(get(r, 'link')) ||
+    headers.some((h, i) => /기관/.test(h) && MOHW.test(String(r[i] ?? '')));
   const groups = r => cols.category !== undefined ? cats(r) : (get(r, 'source') ? [get(r, 'source')] : []);
 
   function stripJosa(w) {
@@ -740,9 +790,10 @@
   }
 
   /* ---------- 화면 3: 전체 기사 ---------- */
+  const scopeItems = () => view === 'gov' ? periodItems().filter(it => isMohw(it.r)) : periodItems();
   function renderTabs() {
     const count = new Map();
-    const base = periodItems();
+    const base = scopeItems();
     base.forEach(it => groups(it.r).forEach(c => count.set(c, (count.get(c) || 0) + 1)));
     const list = [['전체', base.length], ...[...count].sort((a, b) => b[1] - a[1])];
     if (filter.cat !== '전체' && !count.has(filter.cat)) list.push([filter.cat, 0]);
@@ -781,7 +832,7 @@
     const q = filter.q.toLowerCase();
     $('status').hidden = cols.status === undefined;
     document.querySelectorAll('#status button').forEach(b => b.classList.toggle('on', b.dataset.status === filter.status));
-    listItems = periodItems().filter(it =>
+    listItems = scopeItems().filter(it =>
       (filter.cat === '전체' || groups(it.r).includes(filter.cat)) && (!q || it.text.includes(q)) &&
       (filter.status === 'all' || (filter.status === '검토') === isReview(it.r)));
     ctxs.list = listItems;
@@ -792,7 +843,11 @@
       ${active ? `<button type="button" class="link-btn" data-act="reset">${icon('rotate-ccw')}필터 초기화</button>` : ''}`;
 
     if (!listItems.length) {
-      $('newsList').innerHTML = items.length
+      $('newsList').innerHTML = items.length && view === 'gov' && !scopeItems().length
+        ? `<div class="state">${icon('landmark')}<h3>${PERIOD_LABEL[filter.period]} 보건복지부 자료가 없습니다</h3>
+            <p>기간을 넓혀 보거나, 출처·기관 열에 '보건복지부'가 들어간 자료가 있는지 확인해 주세요.</p>
+            <button class="btn" type="button" data-act="reset-all">${icon('rotate-ccw')}전체 기간으로 보기</button></div>`
+        : items.length
         ? `<div class="state">${icon('search-x')}<h3>조건에 맞는 기사가 없습니다</h3>
             <p>검색어를 바꾸거나 기간·분류를 넓혀 보세요.</p>
             <button class="btn" type="button" data-act="reset-all">${icon('rotate-ccw')}전체 기간·전체 분류로 보기</button></div>`
@@ -826,6 +881,7 @@
     const today = items.filter(it => daysAgo(it.date) === 0).length;
     $('vTitle').textContent = VIEWS[view].title;
     $('vDesc').innerHTML = !items.length ? '아직 등록된 동향이 없습니다. 구글 시트 2행부터 입력하면 30분 안에 표시됩니다.'
+      : view === 'gov' ? `${PERIOD_LABEL[filter.period]} 보건복지부 자료 <b>${fmt(list.filter(it => isMohw(it.r)).length)}건</b> · 제목이나 원문 보기를 누르면 원문으로 이동합니다`
       : view === 'list' ? `${PERIOD_LABEL[filter.period]} 기사 <b>${fmt(list.length)}건</b> · 제목이나 원문 보기를 누르면 기사 원문으로 이동합니다`
       : `${PERIOD_LABEL[filter.period]} 기사 <b>${fmt(list.length)}건</b> · 오늘 등록 <b>${fmt(today)}건</b>`;
     document.querySelectorAll('#period button').forEach(b => b.classList.toggle('on', b.dataset.period === filter.period));
@@ -833,7 +889,8 @@
       const on = b.dataset.view === view;
       b.classList.toggle('on', on); b.setAttribute('aria-selected', on);
     });
-    ['brief', 'cats', 'list'].forEach(v => { $('v-' + v).hidden = v !== view; });
+    ['brief', 'cats', 'list'].forEach(v => { $('v-' + v).hidden = v !== (view === 'gov' ? 'list' : view); });
+    $('govIntro').hidden = view !== 'gov';
     ctxs = {};
     renderBrief(list);
     renderCats(list);
@@ -844,6 +901,7 @@
   function update() { shown = PAGE; renderAll(); }
   function setView(v, scroll = true) {
     if (!VIEWS[v]) v = 'brief';
+    if (v !== view && (v === 'gov' || view === 'gov')) filter.cat = '전체';
     view = v;
     try { history.replaceState(null, '', '#' + v); } catch {}
     renderAll();
@@ -957,13 +1015,13 @@
       }
       return;
     }
-    if (e.key === '/' && view === 'list' && document.activeElement !== $('q')) { e.preventDefault(); $('q').focus(); }
+    if (e.key === '/' && (view === 'list' || view === 'gov') && document.activeElement !== $('q')) { e.preventDefault(); $('q').focus(); }
   });
   const syncTopbar = () => document.documentElement.style.setProperty('--tb-h', $('topbar').offsetHeight + 'px');
   let rt;
   window.addEventListener('resize', () => { syncTopbar(); clearTimeout(rt); rt = setTimeout(layoutCloud, 120); });
   window.addEventListener('scroll', () => {
-    $('toolbar').classList.toggle('stuck', view === 'list' && $('toolbar').getBoundingClientRect().top <= $('topbar').offsetHeight);
+    $('toolbar').classList.toggle('stuck', (view === 'list' || view === 'gov') && $('toolbar').getBoundingClientRect().top <= $('topbar').offsetHeight);
   }, { passive: true });
   window.addEventListener('hashchange', () => { const v = location.hash.slice(1); if (VIEWS[v] && v !== view) setView(v); });
   if (document.fonts) document.fonts.ready.then(layoutCloud);
@@ -998,6 +1056,10 @@
         row(8, '의료기기', '의료기기 인허가 절차 간소화', 1),
         row(12, '병원경영', '상급종합병원 중환자실 운영 현황', 3),
         row(40, '정책', '40일 전 정책 동향', 0),
+        [d(0), '정책', '[예시] 지역 필수의료 강화 국고보조사업 공모 안내', '보건복지부', 'https://www.mohw.go.kr',
+          '보건복지부 자료 예시입니다. 국고사업 탭에는 출처가 보건복지부인 자료만 모입니다.\n- 사업 목적\n- 지원 규모\n- 신청 기간', '선별(필요)', '자료수집'],
+        [d(2), '정책', '[예시] 응급의료 전달체계 개선 시범사업 참여기관 모집', '보건복지부', 'https://www.mohw.go.kr', '보건복지부 시범사업 공모 예시입니다.', '선별(필요)', '자료수집'],
+        [d(5), '정책', '[예시] 의료기관 디지털 전환 지원사업 결과 발표', '보건복지부', 'https://www.mohw.go.kr', '보건복지부 사업 결과 예시입니다.', '검토필요', '자료수집'],
       ],
     };
   })();
