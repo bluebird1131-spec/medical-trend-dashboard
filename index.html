@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<base target="_blank">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>의료계 동향</title>
+<link rel="preload" href="assets/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+<script src="assets/lucide.min.js"></script>
+<style>
+  /* 외부 CDN이 막힌 망에서도 보이도록 폰트·아이콘을 사이트에 함께 올림 */
+  @font-face {
+    font-family: "Pretendard Variable"; font-weight: 45 920; font-style: normal; font-display: swap;
+    src: url("assets/PretendardVariable.woff2") format("woff2-variations");
+  }
+
+  /* shadcn/ui (zinc) 토큰 */
+  :root {
+    --background: #f8f8f9; --card: #ffffff; --foreground: #09090b;
+    --muted: #f4f4f5; --muted-foreground: #71717a; --border: #e4e4e7; --input: #e4e4e7;
+    --primary: #18181b; --primary-foreground: #fafafa;
+    --accent: #f4f4f5; --ring: #a1a1aa; --body-text: #3f3f46; --brand: #2563eb; --brand-soft: #eff6ff;
+    --mark: #fef08a; --radius: 10px;
+    --shadow: 0 1px 2px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #09090b; --card: #111113; --foreground: #fafafa;
+      --muted: #1c1c1f; --muted-foreground: #a1a1aa; --border: #27272a; --input: #27272a;
+      --primary: #fafafa; --primary-foreground: #18181b;
+      --accent: #1c1c1f; --ring: #52525b; --body-text: #d4d4d8; --brand: #60a5fa; --brand-soft: #172554;
+      --mark: #713f12; --shadow: none;
+    }
+  }
+
+  /* 분류 배지 색상 (분류 이름으로 고정 배정) */
+  .c0 { --bb: #eff6ff; --bf: #1d4ed8; } .c1 { --bb: #ecfdf5; --bf: #047857; }
+  .c2 { --bb: #f5f3ff; --bf: #6d28d9; } .c3 { --bb: #fffbeb; --bf: #b45309; }
+  .c4 { --bb: #fff1f2; --bf: #be123c; } .c5 { --bb: #ecfeff; --bf: #0e7490; }
+  .c6 { --bb: #fff7ed; --bf: #c2410c; } .c7 { --bb: #f1f5f9; --bf: #334155; }
+  @media (prefers-color-scheme: dark) {
+    .c0 { --bb: #172554; --bf: #93c5fd; } .c1 { --bb: #022c22; --bf: #6ee7b7; }
+    .c2 { --bb: #2e1065; --bf: #c4b5fd; } .c3 { --bb: #451a03; --bf: #fcd34d; }
+    .c4 { --bb: #4c0519; --bf: #fda4af; } .c5 { --bb: #083344; --bf: #67e8f9; }
+    .c6 { --bb: #431407; --bf: #fdba74; } .c7 { --bb: #1e293b; --bf: #cbd5e1; }
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--background); color: var(--foreground);
+    font-family: "Pretendard Variable", Pretendard, -apple-system, "Malgun Gothic", sans-serif;
+    font-size: 15px; line-height: 1.7; word-break: keep-all; -webkit-font-smoothing: antialiased;
+  }
+  button { font: inherit; color: inherit; }
+  .lucide { width: 16px; height: 16px; stroke-width: 2; flex-shrink: 0; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+
+  /* 헤더 */
+  .site-header { background: var(--card); border-bottom: 1px solid var(--border); }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 18px; padding-bottom: 18px; }
+  .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .brand-icon {
+    width: 40px; height: 40px; border-radius: var(--radius); display: grid; place-items: center;
+    background: var(--primary); color: var(--primary-foreground);
+  }
+  .brand-icon .lucide { width: 20px; height: 20px; }
+  .brand h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; margin: 0; line-height: 1.3; }
+  .brand p { margin: 0; font-size: 14px; color: var(--muted-foreground); }
+
+  /* 버튼 */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    height: 36px; padding: 0 14px; border-radius: 8px; font-size: 13px; font-weight: 500;
+    border: 1px solid var(--input); background: var(--card); cursor: pointer; white-space: nowrap;
+    box-shadow: var(--shadow); transition: background .15s, border-color .15s;
+  }
+  a.btn { color: var(--foreground); text-decoration: none; }
+  .btn:hover { background: var(--accent); }
+  .btn:focus-visible, .seg button:focus-visible, .chip:focus-visible, .stat:focus-visible, input:focus-visible {
+    outline: 2px solid var(--ring); outline-offset: 2px;
+  }
+  .btn-sm { height: 32px; padding: 0 12px; font-size: 13px; }
+  .btn-ghost { border-color: transparent; background: transparent; box-shadow: none; }
+  .btn.loading .lucide { animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* 요약 카드 */
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 20px 0 16px; }
+  .stat {
+    min-width: 0;
+    text-align: left; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 14px 16px; cursor: pointer; box-shadow: var(--shadow); transition: border-color .15s;
+  }
+  .stat:hover { border-color: var(--ring); }
+  .stat.on { border-color: var(--primary); box-shadow: inset 0 0 0 1px var(--primary); }
+  .stat-top { display: flex; align-items: center; justify-content: space-between; color: var(--muted-foreground); font-size: 14px; font-weight: 500; }
+  .stat-value { font-size: 28px; font-weight: 700; letter-spacing: -0.03em; margin-top: 6px; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .stat-value.text { font-size: 20px; }
+  .stat-sub { font-size: 13px; color: var(--muted-foreground); margin-top: 2px; }
+  .up { color: #16a34a; } .down { color: #dc2626; }
+
+  /* 도구 막대 */
+  .toolbar {
+    position: sticky; top: 0; z-index: 10; background: var(--background);
+    padding: 10px 0; margin: 0 -16px; padding-left: 16px; padding-right: 16px;
+  }
+  .toolbar.stuck { border-bottom: 1px solid var(--border); }
+  .tool-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .search { position: relative; flex: 1 1 280px; min-width: 0; }
+  .search .lucide { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--muted-foreground); }
+  .search input {
+    width: 100%; height: 40px; padding: 0 40px 0 36px; font: inherit; font-size: 15px; color: var(--foreground);
+    background: var(--card); border: 1px solid var(--input); border-radius: 8px; box-shadow: var(--shadow);
+  }
+  .search input::placeholder { color: var(--muted-foreground); }
+  .search input::-webkit-search-cancel-button { display: none; }
+  .kbd {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    font-size: 11px; color: var(--muted-foreground); border: 1px solid var(--border);
+    background: var(--muted); border-radius: 4px; padding: 0 6px; line-height: 18px;
+  }
+  .seg { display: inline-flex; background: var(--muted); border-radius: 8px; padding: 3px; gap: 2px; }
+  .seg button {
+    border: 0; background: transparent; height: 34px; padding: 0 14px; border-radius: 6px;
+    font-size: 14px; font-weight: 500; color: var(--muted-foreground); cursor: pointer;
+  }
+  .seg button.on { background: var(--card); color: var(--foreground); box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 12px;
+    border: 1px solid var(--border); background: var(--card); border-radius: 6px; cursor: pointer;
+    font-size: 13px; font-weight: 500;
+  }
+  .chip:hover { border-color: var(--ring); }
+  .chip .dot { width: 8px; height: 8px; border-radius: 2px; background: var(--bf); }
+  .chip .n { color: var(--muted-foreground); font-variant-numeric: tabular-nums; }
+  .chip.on { background: var(--primary); color: var(--primary-foreground); border-color: var(--primary); }
+  .chip.on .n { color: inherit; opacity: .7; }
+
+  .result-bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 10px; min-height: 30px; font-size: 14px; color: var(--muted-foreground); }
+  .result-bar strong { color: var(--foreground); }
+
+  /* 날짜 그룹 */
+  .day { display: flex; align-items: center; gap: 10px; margin: 32px 0 12px; }
+  .day-label { font-size: 15px; font-weight: 700; white-space: nowrap; }
+  .day-label .rel { display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 4px; font-size: 12px; background: var(--brand-soft); color: var(--brand); }
+  .day-line { flex: 1; height: 1px; background: var(--border); }
+  .day-count { font-size: 13px; color: var(--muted-foreground); white-space: nowrap; }
+
+  /* 동향 카드 */
+  .item {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 20px 24px; margin-bottom: 12px; box-shadow: var(--shadow); transition: border-color .15s;
+  }
+  .item:hover { border-color: var(--ring); }
+  .item-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+  .badge {
+    display: inline-flex; align-items: center; height: 24px; padding: 0 9px; border-radius: 6px;
+    font-size: 13px; font-weight: 600; background: var(--bb); color: var(--bf);
+  }
+  .badge-new { background: var(--brand); color: #fff; letter-spacing: .02em; }
+  .src { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--muted-foreground); margin-left: 2px; }
+  .src .lucide { width: 13px; height: 13px; }
+  .item-title { font-size: 18px; font-weight: 700; line-height: 1.5; letter-spacing: -0.02em; margin: 0; overflow-wrap: anywhere; }
+  .item-title a { color: inherit; text-decoration: none; }
+  .item-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .item-summary { margin: 8px 0 0; font-size: 15.5px; line-height: 1.8; color: var(--body-text); white-space: pre-wrap; overflow-wrap: anywhere; }
+  .item-summary.clamp { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .item-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+  .extra { display: flex; gap: 6px 16px; flex-wrap: wrap; font-size: 13px; color: var(--body-text); min-width: 0; }
+  .extra span { overflow-wrap: anywhere; }
+  .extra b { font-weight: 600; color: var(--foreground); margin-right: 4px; }
+  .actions { display: flex; gap: 6px; margin-left: auto; }
+
+  /* 상태 */
+  .state { text-align: center; padding: 64px 16px; color: var(--muted-foreground); }
+  .state .lucide { width: 36px; height: 36px; stroke-width: 1.5; margin-bottom: 10px; }
+  .state h3 { margin: 0 0 4px; font-size: 15px; color: var(--foreground); }
+  .state p { margin: 0 0 16px; font-size: 13px; }
+  .notice {
+    display: flex; gap: 10px; align-items: flex-start; margin-top: 16px; padding: 12px 14px;
+    border: 1px solid var(--border); border-radius: var(--radius); background: var(--card); font-size: 13px;
+  }
+  .notice .lucide { color: var(--brand); margin-top: 2px; }
+  .skeleton { height: 112px; border-radius: var(--radius); margin-bottom: 10px; background: var(--muted); animation: pulse 1.5s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .5; } }
+  .more { display: flex; margin: 18px auto 0; }
+  footer { text-align: center; font-size: 12px; color: var(--muted-foreground); padding: 40px 16px 48px; }
+  .to-top {
+    position: fixed; right: 20px; bottom: 20px; width: 40px; height: 40px; padding: 0; border-radius: 50%;
+    opacity: 0; pointer-events: none; transition: opacity .2s;
+  }
+  .to-top.show { opacity: 1; pointer-events: auto; }
+  mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1px; }
+
+  @media (max-width: 760px) {
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .stat { padding: 12px; }
+    .stat-top span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .stat-value { font-size: 22px; }
+    .stat-value.text { font-size: 17px; }
+    .refresh-label, .kbd { display: none; }
+    .seg { width: 100%; }
+    .seg button { flex: 1; }
+    .item { padding: 16px; }
+    .item-title { font-size: 17px; }
+    .item-summary { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-icon"><i data-lucide="activity"></i></div>
+      <div>
+        <h1 id="title">의료계 동향</h1>
+        <p id="meta">데이터를 불러오는 중입니다</p>
+      </div>
+    </div>
+    <button class="btn" id="reload" type="button" title="최신 데이터를 다시 불러옵니다 (시트 수정분은 최대 30분 뒤 반영)">
+      <i data-lucide="refresh-cw"></i><span class="refresh-label">새로고침</span>
+    </button>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="notice"></div>
+
+  <section class="stats" id="stats" aria-label="요약"></section>
+
+  <div class="toolbar" id="toolbar">
+    <div class="tool-row">
+      <label class="search">
+        <i data-lucide="search"></i>
+        <input type="search" id="q" placeholder="제목, 요약, 출처로 검색" aria-label="검색" autocomplete="off">
+        <span class="kbd">/</span>
+      </label>
+      <div class="seg" id="period" role="group" aria-label="기간">
+        <button type="button" data-period="today">오늘</button>
+        <button type="button" data-period="7">7일</button>
+        <button type="button" data-period="30">30일</button>
+        <button type="button" data-period="all" class="on">전체</button>
+      </div>
+    </div>
+    <div class="chips" id="chips" aria-label="분류"></div>
+    <div class="result-bar" id="resultBar"></div>
+  </div>
+
+  <div id="list">
+    <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+  </div>
+</main>
+
+<footer>구글 시트 데이터를 30분마다 가져와 보여주는 페이지입니다. 내용 추가·수정은 시트에서 해주세요.</footer>
+<button class="btn to-top" id="toTop" type="button" title="맨 위로" aria-label="맨 위로"><i data-lucide="arrow-up"></i></button>
+
+<script>
+  // 시트 머리글 이름으로 열의 역할을 자동 판별함. 머리글이 다르면 여기에 단어를 추가.
+  const RULES = {
+    date:     /날짜|일자|게재|등록일|수집일|발행|date/i,
+    title:    /제목|헤드라인|기사명|title|headline/i,
+    category: /분류|카테고리|구분|유형|주제|category|tag/i,
+    source:   /출처|언론|매체|source|media|publisher/i,
+    link:     /링크|url|주소|원문|link/i,
+    summary:  /요약|내용|본문|summary|content/i,
+  };
+  const PAGE = 100;
+  const WEEK = ['일', '월', '화', '수', '목', '금', '토'];
+  const PERIOD_LABEL = { today: '오늘', '7': '최근 7일', '30': '최근 30일', all: '전체 기간' };
+
+  let headers = [], cols = {}, items = [];
+  let filter = { q: '', cat: '전체', period: 'all' };
+  let shown = PAGE;
+
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const icon = (name, cls = '') => `<i data-lucide="${name}"${cls ? ` class="${cls}"` : ''}></i>`;
+  const drawIcons = () => { if (window.lucide) lucide.createIcons(); };
+  const fmt = n => n.toLocaleString('ko-KR');
+
+  function detect(hs) {
+    const c = {};
+    hs.forEach((h, i) => {
+      for (const [k, re] of Object.entries(RULES)) {
+        if (c[k] === undefined && re.test(h)) { c[k] = i; break; }
+      }
+    });
+    if (c.title === undefined) {
+      const used = new Set(Object.values(c));
+      const i = hs.findIndex((_, i) => !used.has(i));
+      if (i >= 0) c.title = i;
+    }
+    return c;
+  }
+
+  // "2026-10-10", "2026. 10. 10.", "2026/10/10 09:00" 등 처리
+  function parseDate(s) {
+    const m = String(s || '').match(/(\d{4})\D{1,3}(\d{1,2})\D{1,3}(\d{1,2})/);
+    return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null;
+  }
+  const dayKey = d => d ? `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}` : '';
+  const today0 = () => { const t = new Date(); t.setHours(0, 0, 0, 0); return t; };
+  const daysAgo = d => d ? Math.round((today0() - d) / 86400000) : Infinity;
+  const get = (r, k) => cols[k] === undefined ? '' : String(r[cols[k]] ?? '').trim();
+  const cats = r => get(r, 'category').split(/[,，]/).map(s => s.trim()).filter(Boolean);
+  const colorOf = name => { let h = 0; for (const ch of name) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return 'c' + (h % 8); };
+
+  function load() {
+    $('reload').classList.add('loading');
+    if (location.protocol === 'file:') {
+      onData(DEMO);  // PC에서 파일을 직접 열었을 때 미리보기
+      $('notice').innerHTML = `<div class="notice">${icon('info')}<div><b>미리보기 모드</b> · 예시 데이터를 표시하고 있습니다. GitHub Pages에 배포하면 실제 시트 데이터가 표시됩니다.</div></div>`;
+      drawIcons();
+      return;
+    }
+    // data.json 은 GitHub Actions 가 30분마다 구글 시트에서 만들어 둠. 브라우저는 구글에 접속하지 않음.
+    fetch('data.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
+      .then(onData)
+      .catch(onError);
+  }
+
+  function onError(e) {
+    $('reload').classList.remove('loading');
+    $('meta').textContent = '데이터를 불러오지 못했습니다';
+    $('list').innerHTML = `<div class="state">${icon('circle-alert')}
+      <h3>데이터를 불러오지 못했습니다</h3>
+      <p>${esc(e && e.message || e)}<br>잠시 후 다시 시도해 주세요. 계속되면 관리자에게 알려 주세요.</p>
+      <button class="btn" type="button" data-act="reload">${icon('refresh-cw')}다시 시도</button></div>`;
+    drawIcons();
+  }
+
+  function onData(d) {
+    $('reload').classList.remove('loading');
+    headers = d.headers || [];
+    cols = detect(headers);
+    items = (d.rows || []).map(r => ({ r, date: parseDate(get(r, 'date')), text: r.join(' ').toLowerCase() }));
+    items.sort((a, b) => (b.date ? b.date.getTime() : -Infinity) - (a.date ? a.date.getTime() : -Infinity));
+    if (d.title) { $('title').textContent = d.title; document.title = d.title; }
+    $('meta').textContent = d.fetchedAt ? `${d.fetchedAt} 업데이트 · 30분마다 시트 확인` : '구글 시트 연결 전';
+    renderAll();
+  }
+
+  function renderStats() {
+    const ago = items.map(it => daysAgo(it.date));
+    const today = ago.filter(a => a === 0).length;
+    const week = ago.filter(a => a >= 0 && a < 7).length;
+    const prevWeek = ago.filter(a => a >= 7 && a < 14).length;
+    const diff = week - prevWeek;
+    const count = new Map();
+    items.forEach((it, i) => { if (ago[i] >= 0 && ago[i] < 30) cats(it.r).forEach(c => count.set(c, (count.get(c) || 0) + 1)); });
+    const top = [...count].sort((a, b) => b[1] - a[1])[0];
+
+    const card = (key, ic, label, value, sub, on, title) =>
+      `<button type="button" class="stat${on ? ' on' : ''}" data-stat="${esc(key)}" title="${esc(title)}">
+        <div class="stat-top"><span>${label}</span>${icon(ic)}</div>
+        <div class="stat-value${typeof value === 'string' ? ' text' : ''}">${typeof value === 'number' ? fmt(value) : esc(value)}</div>
+        <div class="stat-sub">${sub}</div>
+      </button>`;
+    $('stats').innerHTML = [
+      card('all', 'layers', '전체 동향', items.length, '시트에 쌓인 누적 건수',
+        filter.period === 'all' && filter.cat === '전체' && !filter.q, '전체 목록 보기'),
+      card('today', 'calendar-check', '오늘 올라온 동향', today, today ? '눌러서 오늘 것만 보기' : '아직 등록된 동향 없음',
+        filter.period === 'today', '오늘 날짜 동향만 보기'),
+      card('7', 'trending-up', '최근 7일', week,
+        diff > 0 ? `<span class="up">지난주보다 ${diff}건 많음</span>` : diff < 0 ? `<span class="down">지난주보다 ${-diff}건 적음</span>` : '지난주와 같음',
+        filter.period === '7', '최근 7일 동향만 보기'),
+      card(top ? 'cat:' + top[0] : 'none', 'tag', '30일간 가장 많은 분류', top ? top[0] : '-',
+        top ? `${fmt(top[1])}건 · 눌러서 모아보기` : '분류 데이터 없음',
+        top && filter.cat === top[0], top ? `'${top[0]}' 분류만 보기` : ''),
+    ].join('');
+  }
+
+  function renderChips() {
+    if (cols.category === undefined) { $('chips').innerHTML = ''; return; }
+    const count = new Map();
+    items.forEach(it => cats(it.r).forEach(c => count.set(c, (count.get(c) || 0) + 1)));
+    if (filter.cat !== '전체' && !count.has(filter.cat)) filter.cat = '전체';
+    const list = [['전체', items.length], ...[...count].sort((a, b) => b[1] - a[1])];
+    $('chips').innerHTML = list.map(([c, n]) =>
+      `<button type="button" class="chip ${c === '전체' ? '' : colorOf(c)}${c === filter.cat ? ' on' : ''}" data-cat="${esc(c)}">
+        ${c === '전체' ? '' : '<span class="dot"></span>'}${esc(c)}<span class="n">${fmt(n)}</span></button>`
+    ).join('');
+  }
+
+  function renderPeriod() {
+    document.querySelectorAll('#period button').forEach(b => b.classList.toggle('on', b.dataset.period === filter.period));
+  }
+
+  function filtered() {
+    const q = filter.q.toLowerCase();
+    const maxAgo = filter.period === 'all' ? Infinity : filter.period === 'today' ? 0 : +filter.period - 1;
+    return items.filter(it => {
+      const a = daysAgo(it.date);
+      return (filter.cat === '전체' || cats(it.r).includes(filter.cat)) &&
+        (maxAgo === Infinity || (a >= 0 && a <= maxAgo)) &&
+        (!q || it.text.includes(q));
+    });
+  }
+
+  function hl(s) {
+    const t = esc(s);
+    return filter.q ? t.replace(new RegExp(escRe(esc(filter.q)), 'gi'), m => `<mark>${m}</mark>`) : t;
+  }
+
+  function dayLabel(d) {
+    if (!d) return '날짜 미상';
+    const a = daysAgo(d);
+    const rel = a === 0 ? '오늘' : a === 1 ? '어제' : '';
+    const sameYear = d.getFullYear() === new Date().getFullYear();
+    const text = `${sameYear ? '' : d.getFullYear() + '년 '}${d.getMonth() + 1}월 ${d.getDate()}일 (${WEEK[d.getDay()]})`;
+    return (rel ? `<span class="rel">${rel}</span>` : '') + text;
+  }
+
+  function card(it) {
+    const r = it.r, title = get(r, 'title') || '(제목 없음)', link = get(r, 'link');
+    const hasLink = /^https?:\/\//i.test(link);
+    const summary = get(r, 'summary'), src = get(r, 'source');
+    const used = new Set(Object.values(cols));
+    const extra = headers
+      .map((h, i) => (!used.has(i) && h && String(r[i] ?? '').trim()) ? `<span><b>${esc(h)}</b>${hl(r[i])}</span>` : '')
+      .join('');
+    const badges = cats(r).map(c => `<span class="badge ${colorOf(c)}">${esc(c)}</span>`).join('');
+    const isNew = daysAgo(it.date) === 0;
+    const long = summary.length > 160 || summary.split('\n').length > 3;
+    return `<article class="item">
+      ${badges || src || isNew ? `<div class="item-head">
+        ${isNew ? '<span class="badge badge-new">NEW</span>' : ''}${badges}
+        ${src ? `<span class="src">${icon('newspaper')}${hl(src)}</span>` : ''}
+      </div>` : ''}
+      <h3 class="item-title">${hasLink ? `<a href="${esc(link)}" rel="noopener">${hl(title)}</a>` : hl(title)}</h3>
+      ${summary ? `<p class="item-summary${long ? ' clamp' : ''}">${hl(summary)}</p>` : ''}
+      ${extra || hasLink || long ? `<div class="item-foot">
+        <div class="extra">${extra}</div>
+        <div class="actions">
+          ${long ? `<button type="button" class="btn btn-sm btn-ghost" data-act="expand">${icon('chevron-down')}펼치기</button>` : ''}
+          ${hasLink ? `<a class="btn btn-sm" href="${esc(link)}" rel="noopener" >원문 보기${icon('external-link')}</a>` : ''}
+        </div>
+      </div>` : ''}
+    </article>`;
+  }
+
+  function renderList() {
+    const list = filtered();
+    const active = filter.q || filter.cat !== '전체' || filter.period !== 'all';
+    const desc = [PERIOD_LABEL[filter.period], filter.cat !== '전체' ? filter.cat : '', filter.q ? `"${esc(filter.q)}" 검색` : '']
+      .filter(Boolean).join(' · ');
+    $('resultBar').innerHTML = `<span>${desc} · <strong>${fmt(list.length)}건</strong></span>
+      ${active ? `<button type="button" class="btn btn-sm btn-ghost" data-act="reset">${icon('x')}필터 초기화</button>` : ''}`;
+
+    if (!list.length) {
+      $('list').innerHTML = items.length
+        ? `<div class="state">${icon('search-x')}<h3>조건에 맞는 동향이 없습니다</h3>
+            <p>검색어를 바꾸거나 기간·분류 필터를 넓혀 보세요.</p>
+            <button class="btn" type="button" data-act="reset">${icon('rotate-ccw')}필터 초기화</button></div>`
+        : `<div class="state">${icon('inbox')}<h3>아직 등록된 동향이 없습니다</h3>
+            <p>구글 시트 2행부터 데이터를 입력하면 30분 안에 이곳에 표시됩니다.</p></div>`;
+      drawIcons();
+      return;
+    }
+
+    const groupCount = new Map();
+    list.forEach(it => { const k = dayKey(it.date); groupCount.set(k, (groupCount.get(k) || 0) + 1); });
+    let html = '', prev = null;
+    list.slice(0, shown).forEach(it => {
+      const k = dayKey(it.date);
+      if (k !== prev) {
+        html += `<div class="day"><span class="day-label">${dayLabel(it.date)}</span><span class="day-line"></span><span class="day-count">${fmt(groupCount.get(k))}건</span></div>`;
+        prev = k;
+      }
+      html += card(it);
+    });
+    if (list.length > shown) {
+      html += `<button type="button" class="btn more" data-act="more">${icon('chevrons-down')}더 보기 (${fmt(list.length - shown)}건 남음)</button>`;
+    }
+    $('list').innerHTML = html;
+    drawIcons();
+  }
+
+  function renderAll() { renderStats(); renderChips(); renderPeriod(); renderList(); drawIcons(); }
+  function update() { shown = PAGE; renderAll(); }
+  function resetFilters() { filter = { q: '', cat: '전체', period: 'all' }; $('q').value = ''; update(); }
+
+  // 이벤트
+  let timer;
+  $('q').addEventListener('input', e => { clearTimeout(timer); timer = setTimeout(() => { filter.q = e.target.value.trim(); update(); }, 200); });
+  $('q').addEventListener('keydown', e => { if (e.key === 'Escape') { e.target.value = ''; filter.q = ''; update(); } });
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && document.activeElement !== $('q')) { e.preventDefault(); $('q').focus(); }
+  });
+  $('reload').addEventListener('click', load);
+  $('period').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    filter.period = b.dataset.period; update();
+  });
+  $('chips').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    filter.cat = b.dataset.cat; update();
+  });
+  $('stats').addEventListener('click', e => {
+    const b = e.target.closest('.stat'); if (!b) return;
+    const k = b.dataset.stat;
+    if (k === 'all') return resetFilters();
+    if (k === 'none') return;
+    if (k.startsWith('cat:')) filter.cat = filter.cat === k.slice(4) ? '전체' : k.slice(4);
+    else filter.period = filter.period === k ? 'all' : k;
+    update();
+  });
+  document.addEventListener('click', e => {
+    const b = e.target.closest('[data-act]'); if (!b) return;
+    const act = b.dataset.act;
+    if (act === 'reset') resetFilters();
+    else if (act === 'reload') load();
+    else if (act === 'more') { shown += PAGE; renderList(); }
+    else if (act === 'expand') {
+      const p = b.closest('.item').querySelector('.item-summary');
+      const open = p.classList.toggle('clamp') === false;
+      b.innerHTML = icon(open ? 'chevron-up' : 'chevron-down') + (open ? '접기' : '펼치기');
+      drawIcons();
+    }
+  });
+  window.addEventListener('scroll', () => {
+    $('toTop').classList.toggle('show', window.scrollY > 600);
+    $('toolbar').classList.toggle('stuck', $('toolbar').getBoundingClientRect().top <= 0);
+  }, { passive: true });
+  $('toTop').addEventListener('click', () => window.scrollTo({ top: 0 }));
+
+  // 미리보기 전용 예시 데이터 (실제 배포 시에는 사용되지 않음)
+  const DEMO = (() => {
+    const d = n => { const t = new Date(); t.setDate(t.getDate() - n); return dayKey(t); };
+    return {
+      title: '의료계 동향',
+      fetchedAt: '미리보기',
+      headers: ['날짜', '분류', '제목', '출처', '링크', '요약', '담당자'],
+      rows: [
+        [d(0), '정책', '[예시] 건강보험 수가 관련 회의 결과', '예시신문', 'https://example.com', '예시 요약 문장입니다. 실제 시트의 요약 열 내용이 여기에 표시됩니다.', '홍길동'],
+        [d(0), '의료기기', '[예시] 신의료기술평가 신청 현황', '예시일보', 'https://example.com', '두 번째 예시 항목입니다.', ''],
+        [d(1), 'AI·디지털', '[예시] 의료 AI 관련 가이드라인 소식', '예시저널', 'https://example.com', '요약이 길면 세 줄까지만 보이고 "펼치기" 버튼이 생깁니다. 팀원이 목록을 빠르게 훑어볼 수 있도록 긴 요약은 접어 두고, 필요한 항목만 펼쳐서 읽을 수 있습니다. 시트에 줄바꿈을 넣은 경우에도 그대로 표시됩니다.\n- 첫째 항목\n- 둘째 항목\n- 셋째 항목', '김철수'],
+        [d(2), '병원경영', '[예시] 상급종합병원 구조전환 관련 동향', '예시뉴스', '', '링크가 없으면 제목이 일반 텍스트로 표시되고 원문 보기 버튼도 숨겨집니다.', '김철수'],
+        [d(4), '정책, 인력', '[예시] 분류를 쉼표로 여러 개 넣은 항목', '예시신문', 'https://example.com', '분류 열에 "정책, 인력"처럼 쉼표로 구분하면 각 분류 필터에 모두 잡힙니다.', ''],
+        [d(9), '정책', '[예시] 지난주 등록된 정책 동향', '예시일보', 'https://example.com', '최근 7일 필터에서는 빠지는 항목입니다.', ''],
+        [d(40), '의료기기', '[예시] 40일 전 의료기기 동향', '예시저널', 'https://example.com', '최근 30일 필터에서는 빠지는 항목입니다.', ''],
+      ],
+    };
+  })();
+
+  drawIcons();
+  load();
+</script>
+</body>
+</html>
