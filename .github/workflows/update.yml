@@ -31,7 +31,7 @@ jobs:
 
       - name: 구글 시트 → data.json
         env:
-          SHEET_URL: ${{ vars.SHEET_URL }}
+          SHEET_URL: ${{ secrets.SHEET_URL }}
           SITE_TITLE: ${{ vars.SITE_TITLE }}
         run: node scripts/fetch-sheet.mjs
 

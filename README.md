@@ -30,9 +30,9 @@ Gemini Spark ─→ 구글 시트 ─(GitHub Actions, 30분마다)→ data.json 
 | `.github/workflows/update.yml` | 30분마다 동기화 + 배포 |
 
 ## 설정
-- **Settings → Secrets and variables → Actions → Variables**
-  - `SHEET_URL`: 구글 시트 주소 (공유는 "링크가 있는 모든 사용자 · 뷰어")
-  - `SITE_TITLE`: 페이지 제목 (선택, 기본값 "의료계 동향")
+- **Settings → Secrets and variables → Actions**
+  - Secrets 탭 `SHEET_URL`: 구글 시트 주소 (공유는 "링크가 있는 모든 사용자 · 뷰어"). 공개 저장소의 실행 로그에 주소가 남지 않도록 반드시 Secret으로 등록
+  - Variables 탭 `SITE_TITLE`: 페이지 제목 (선택, 기본값 "의료계 동향")
 - 즉시 갱신: **Actions → 시트 동기화 및 배포 → Run workflow**
 
 ## 시트 열 인식
