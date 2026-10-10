@@ -12,6 +12,8 @@ const THUMBS = new URL('../thumbs.json', import.meta.url);
 const title = process.env.SITE_TITLE || '의료계 동향';
 const src = toCsvUrl(process.env.SHEET_URL || '');
 const MAX_NEW_THUMBS = 80;  // 한 번 실행에서 새로 조회할 기사 수 (처음 연결 시 과부하 방지)
+const BAD_IMG = /logo|noimage|no_image|no-image|default|blank|spacer|homeimg|og_img|og-img/i;  // 사이트 로고·기본 이미지는 대표 사진으로 쓰지 않음
+const NONE = '-';  // 조회했지만 쓸 만한 사진이 없음
 
 if (!src) {
   console.log('SHEET_URL 이 설정되지 않아 건너뜀');
@@ -41,9 +43,11 @@ let linkCol = headers.findIndex(h => /링크|url|주소|원문|link/i.test(h));
 if (linkCol < 0) linkCol = findCol(v => /^https?:\/\//i.test(v), 0.6);
 
 const cache = await readFile(THUMBS, 'utf8').then(JSON.parse).catch(() => ({}));
+// 예전 방식으로 비어 있거나 로고가 잡힌 항목은 다시 조회
+for (const k of Object.keys(cache)) if (cache[k] === '' || BAD_IMG.test(cache[k])) delete cache[k];
 if (linkCol >= 0) await collectThumbs(rows.map(r => (r[linkCol] || '').trim()).filter(u => /^https?:\/\//i.test(u)));
 const thumbs = {};
-if (linkCol >= 0) rows.forEach(r => { const u = (r[linkCol] || '').trim(); if (cache[u]) thumbs[u] = cache[u]; });
+if (linkCol >= 0) rows.forEach(r => { const u = (r[linkCol] || '').trim(); if (cache[u] && cache[u] !== NONE) thumbs[u] = cache[u]; });
 await writeFile(THUMBS, JSON.stringify(cache, null, 1) + '\n');
 
 const data = { title, headers, rows, thumbs };
@@ -70,14 +74,15 @@ function findCol(test, ratio) {
   });
 }
 
-// 원문 HTML 의 og:image / twitter:image 주소를 모음. 실패하면 빈 값으로 기록해 다시 조회하지 않음
+// 원문 HTML 의 og:image / twitter:image 주소를 모음. 로고뿐이면 본문 첫 기사 사진을 씀.
+// 찾지 못하면 '-' 로 기록해 다시 조회하지 않음
 async function collectThumbs(urls) {
   const todo = [...new Set(urls)].filter(u => !(u in cache)).slice(0, MAX_NEW_THUMBS);
   let found = 0;
   for (let i = 0; i < todo.length; i += 6) {
     await Promise.all(todo.slice(i, i + 6).map(async u => {
       cache[u] = await ogImage(u);
-      if (cache[u]) found++;
+      if (cache[u] !== NONE) found++;
     }));
   }
   if (todo.length) console.log(`대표 이미지 조회 ${todo.length}건 중 ${found}건 찾음`);
@@ -89,17 +94,22 @@ async function ogImage(url) {
       signal: AbortSignal.timeout(8000),
       headers: { 'user-agent': 'Mozilla/5.0 (compatible; medical-trend-dashboard/1.0)', 'accept-language': 'ko-KR,ko;q=0.9' },
     });
-    if (!r.ok || !/html/i.test(r.headers.get('content-type') || '')) return '';
-    const html = (await r.text()).slice(0, 300000);
+    if (!r.ok || !/html/i.test(r.headers.get('content-type') || '')) return NONE;
+    const html = (await r.text()).slice(0, 400000);
+    const abs = v => new URL(v.replace(/&amp;/g, '&').trim(), r.url).href.replace(/^http:\/\//i, 'https://');
     for (const m of html.matchAll(/<meta\b[^>]*>/gi)) {
       const tag = m[0];
       const key = (tag.match(/\b(?:property|name)\s*=\s*["']([^"']+)["']/i) || [])[1] || '';
       if (!/^(og:image|og:image:url|og:image:secure_url|twitter:image|twitter:image:src)$/i.test(key)) continue;
       const content = (tag.match(/\bcontent\s*=\s*["']([^"']+)["']/i) || [])[1];
-      if (content) return new URL(content.replace(/&amp;/g, '&').trim(), r.url).href.replace(/^http:\/\//i, 'https://');
+      if (content && !BAD_IMG.test(content)) return abs(content);
+    }
+    // 국내 언론사 CMS 의 기사 사진 경로 (/news/photo/, /data/photos/ 등)
+    for (const m of html.matchAll(/<img\b[^>]*\bsrc\s*=\s*["']([^"']+)["']/gi)) {
+      if (/\/(news\/photo|news\/thumbnail|data\/photos|upload\/news)\//i.test(m[1]) && !BAD_IMG.test(m[1])) return abs(m[1]);
     }
   } catch {}
-  return '';
+  return NONE;
 }
 
 // 일반 시트 주소(/edit), 웹에 게시 주소(/pubhtml), CSV 주소 모두 받아 CSV 주소로 변환

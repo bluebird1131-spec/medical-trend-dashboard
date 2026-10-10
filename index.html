@@ -194,7 +194,13 @@
   /* ---------- 전체 기사 ---------- */
   .toolbar { position: sticky; top: var(--tb-h); z-index: 20; background: var(--background); padding: 4px 0 10px; }
   .toolbar.stuck { box-shadow: 0 1px 0 var(--border); }
-  .tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+  .tabs {
+    display: flex; gap: 8px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+            mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { flex-shrink: 0; }
   .tab {
     height: 36px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--card);
     font-size: 14px; font-weight: 600; color: var(--soft); cursor: pointer; white-space: nowrap;
@@ -229,7 +235,7 @@
     position: relative; display: block; aspect-ratio: 3 / 2; border-radius: 10px; overflow: hidden; background: var(--hover);
     align-self: start;
   }
-  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .thumb img { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; object-fit: cover; display: block; background: var(--hover); }
   .thumb-ph {
     position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
     padding: 8px; color: var(--faint); font-size: 12.5px; font-weight: 600; text-align: center;
@@ -283,6 +289,7 @@
   .r-title { margin: 12px 0 0; font-size: 26px; line-height: 1.4; font-weight: 800; letter-spacing: -0.03em; color: var(--heading); }
   .r-date { display: flex; align-items: center; gap: 6px; margin-top: 12px; font-size: 14px; color: var(--muted); }
   .r-date .lucide { width: 14px; height: 14px; }
+  .r-date span { display: inline-flex; align-items: center; gap: 6px; }
   .r-rule { height: 1px; background: var(--border); margin: 24px 0 28px; border: 0; }
   .prose { font-size: 17px; line-height: 1.85; color: var(--body); letter-spacing: -0.003em; max-width: 64ch; }
   .prose p { margin: 0 0 1.05em; }
@@ -345,8 +352,7 @@
     .seg button { flex: 1; }
     .tool-row { flex-direction: column; }
     .brief, .bottom { grid-template-columns: minmax(0, 1fr); }
-    .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
-    .tabs::-webkit-scrollbar { display: none; }
+    .tabs { margin: 0 -16px; padding: 0 16px; }
     .news { grid-template-columns: 108px minmax(0, 1fr); gap: 14px; padding: 14px; }
     .news .title { font-size: 16.5px; }
     .news .summary { font-size: 14.5px; }
@@ -359,15 +365,15 @@
 </style>
 </head>
 <body>
-<!-- 주요 기관 바로가기: 기관을 바꾸려면 아래 a 태그의 주소·이름만 수정 -->
+<!-- 주요 사이트 바로가기: 바꾸려면 아래 a 태그의 주소·이름만 수정 -->
 <div class="util">
   <div class="dash util-in">
-    <span class="util-label"><i data-lucide="landmark"></i><span>주요 기관 바로가기</span></span>
-    <nav class="util-links" aria-label="주요 기관 바로가기">
+    <span class="util-label"><i data-lucide="landmark"></i><span>주요 사이트 바로가기</span></span>
+    <nav class="util-links" aria-label="주요 사이트 바로가기">
       <a class="qlink" href="https://www.mohw.go.kr" rel="noopener">보건복지부<i data-lucide="arrow-up-right"></i></a>
-      <a class="qlink" href="https://www.nhis.or.kr" rel="noopener">국민건강보험공단<i data-lucide="arrow-up-right"></i></a>
-      <a class="qlink" href="https://www.hira.or.kr" rel="noopener">건강보험심사평가원<i data-lucide="arrow-up-right"></i></a>
       <a class="qlink" href="https://www.kdca.go.kr" rel="noopener">질병관리청<i data-lucide="arrow-up-right"></i></a>
+      <a class="qlink" href="https://www.docdocdoc.co.kr" rel="noopener">청년의사<i data-lucide="arrow-up-right"></i></a>
+      <a class="qlink" href="https://www.medicaltimes.com" rel="noopener">메디컬타임즈<i data-lucide="arrow-up-right"></i></a>
     </nav>
   </div>
 </div>
@@ -443,11 +449,6 @@
             <i data-lucide="search"></i>
             <input type="search" id="q" placeholder="제목, 요약, 출처 검색  ( / )" aria-label="검색" autocomplete="off">
           </label>
-          <div class="seg" id="status" role="group" aria-label="선별 상태" hidden>
-            <button type="button" data-status="all" class="on">전체</button>
-            <button type="button" data-status="선별">선별</button>
-            <button type="button" data-status="검토">검토필요</button>
-          </div>
         </div>
         <div class="result" id="result"></div>
       </div>
@@ -475,7 +476,8 @@
 <script>
   // 시트 머리글 이름으로 열의 역할을 자동 판별함. 머리글이 다르면 여기에 단어를 추가.
   const RULES = {
-    date:     /날짜|일자|게재|등록일|수집일|발행|date/i,
+    collected: /수집/i,
+    date:     /보도|게재|발행|날짜|일자|등록일|date/i,
     title:    /제목|헤드라인|기사명|title|headline/i,
     status:   /선별|판정|상태|status/i,
     progress: /진행/i,
@@ -500,13 +502,14 @@
   // 키워드 추출: 제목에서 조사를 떼고, 뜻이 약한 단어는 뺌
   const STOP = new Set(('관련 대한 위한 통해 따른 위해 대해 이번 올해 내년 지난해 오늘 내일 최근 지난 예정 경우 가능 필요 이후 이전 ' +
     '가운데 우리 모든 해당 각종 일부 주요 기자 뉴스 단독 속보 종합 예시 결과 현황 소식 동향 방안 계획 추진 발표 개최 진행 ' +
-    '논의 검토 시행 마련 확대 강화 지원 개선 도입 운영 첫 등 및 또 더 것 수 중 위 전 후 간 내 외').split(' '));
+    '논의 검토 시행 마련 확대 강화 지원 개선 도입 운영 달성 가동 구축 개소 선정 확정 추가 대상 기준 넘어 공식 누가 ' +
+    '첫 등 및 또 더 것 수 중 위 전 후 간 내 외').split(' '));
   const JOSA = ['에서는', '으로는', '에게서', '이라는', '이라고', '에서도', '으로도', '까지', '부터', '에서', '으로', '에게', '라는',
     '이나', '처럼', '보다', '와의', '과의', '에는', '에도', '에선', '은', '는', '이', '가', '을', '를', '의', '에', '로', '와', '과', '도', '만', '들'];
   const VERBISH = /(하다|한다|했다|된다|됐다|있다|없다|이다|하고|하며|해야|하는|되는|했던|하여|해서|키로|겠다|이며|으며|한다며|했으며)$/;
 
   let headers = [], cols = {}, items = [], listItems = [], ctxs = {}, thumbs = {};
-  let filter = { q: '', cat: '전체', period: '7', status: 'all' };
+  let filter = { q: '', cat: '전체', period: '7' };
   let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true, cloudWords = [];
 
   const $ = id => document.getElementById(id);
@@ -531,6 +534,8 @@
         if (c[k] === undefined && re.test(h)) { c[k] = i; break; }
       }
     });
+    // 날짜 열이 수집일 하나뿐이면 그것을 기사 날짜로도 씀
+    if (c.date === undefined && c.collected !== undefined) c.date = c.collected;
     if (c.title === undefined) {
       const used = new Set(Object.values(c));
       const i = hs.findIndex((_, i) => !used.has(i));
@@ -557,17 +562,39 @@
   };
   const hash = s => { let h = 0; for (const ch of s) h = (h * 31 + ch.charCodeAt(0)) | 0; return (h >>> 0).toString(36); };
   const titleOf = it => get(it.r, 'title') || '(제목 없음)';
-  const isReview = r => /^검토/.test(get(r, 'status'));
-  const reviewBadge = r => isReview(r) ? `<span class="review">${icon('circle-help')}검토필요</span>` : '';
+  // 사진이 깨지면 다음 후보로, 후보가 없으면 지워서 자리 표시가 보이게 함
+  window.imgErr = el => { const fb = el.dataset.fb; if (fb) { el.dataset.fb = ''; el.src = fb; } else el.remove(); };
+  const isNew = it => daysAgo(it.collected) === 0;
+  // 요약 맨 앞 "[선별(필요)-공적정책]" 같은 판정 태그는 본문에서 떼어 따로 보여 줌
+  const TAG = /^\s*\[([^\]]+)\]\s*/;
+  const summaryOf = r => get(r, 'summary').replace(TAG, '');
+  const judgeOf = r => { const m = get(r, 'summary').match(TAG); return m ? m[1].replace(/^(선별\(필요\)|검토필요|선별|검토)\s*[-·:]\s*/, '') : ''; };
   // 시트에 이미지 열이 있으면 그것을, 없으면 수집 스크립트가 원문에서 가져온 대표 이미지를 씀
-  const imgOf = r => { const v = get(r, 'image'); return /^https?:\/\//i.test(v) ? v : (thumbs[get(r, 'link')] || ''); };
+  const imgOf = r => {
+    const v = get(r, 'image'), t = thumbs[get(r, 'link')] || '';
+    const sheet = /^https?:\/\//i.test(v) ? v : '';
+    return { src: sheet || t, fb: sheet && t && t !== sheet ? t : '' };
+  };
   // 화면을 나누는 기준: 분류 열이 있으면 분류, 없으면 출처(기관·매체)
   const groupLabel = () => cols.category !== undefined ? '분류' : '출처';
   // 국고사업 탭: 출처·기관 열 또는 원문 주소가 보건복지부인 자료
   const MOHW = /보건복지부|복지부|mohw\.go\.kr/i;
   const isMohw = r => MOHW.test(get(r, 'source')) || MOHW.test(get(r, 'link')) ||
     headers.some((h, i) => /기관/.test(h) && MOHW.test(String(r[i] ?? '')));
-  const groups = r => cols.category !== undefined ? cats(r) : (get(r, 'source') ? [get(r, 'source')] : []);
+  // 분류값이 "로봇수술/첨단장비"처럼 세분돼 있으면 "/" 앞 큰 분류로 묶음
+  const mainCat = c => c.split('/')[0].replace(/\(.*?\)/g, '').trim() || c;
+  const groups = r => cols.category !== undefined ? [...new Set(cats(r).map(mainCat))] : (get(r, 'source') ? [get(r, 'source')] : []);
+  const TOP = 5, OTHER = '기타';
+  // 상위 5개 묶음 + 나머지는 '기타'
+  const topNames = list => {
+    const m = new Map();
+    list.forEach(it => groups(it.r).forEach(g => m.set(g, (m.get(g) || 0) + 1)));
+    const sorted = [...m].sort((a, b) => b[1] - a[1]);
+    if (sorted.length <= TOP + 1) return sorted.map(x => x[0]);
+    const multi = sorted.filter(x => x[1] >= 2).slice(0, TOP).map(x => x[0]);
+    return multi.length ? multi : sorted.slice(0, TOP).map(x => x[0]);
+  };
+  const inGroup = (it, g, tops) => g === OTHER ? !groups(it.r).some(x => tops.includes(x)) : groups(it.r).includes(g);
 
   function stripJosa(w) {
     if (!/[가-힣]$/.test(w)) return w;
@@ -579,7 +606,7 @@
       .split(/[^0-9A-Za-z가-힣·]+/)
       .map(w => stripJosa(w.replace(/^·+|·+$/g, '')))
       .filter(w => w.length >= 2 && !/^\d/.test(w) && !STOP.has(w) && !VERBISH.test(w) &&
-        !(w.length >= 3 && /[한된할될]$/.test(w)));
+        !(w.length >= 3 && /[한된할될다고]$/.test(w)));
   }
   // 키워드 열이 있으면 그것을, 없으면 제목에서 뽑음 (기사 1건당 1번만 셈)
   function keywordsOf(it) {
@@ -655,7 +682,8 @@
     if (st >= 0) { for (const k in cols) if (cols[k] === st) delete cols[k]; cols.status = st; }
     items = rows.filter(r => !/^제외/.test(get(r, 'status'))).map(r => {
       const date = parseDate(get(r, 'date'));
-      return { r, date, id: hash(dayKey(date) + '|' + get(r, 'title')), text: r.join(' ').toLowerCase() };
+      const collected = parseDate(get(r, 'collected')) || date;
+      return { r, date, collected, id: hash(dayKey(date) + '|' + get(r, 'title')), text: r.join(' ').toLowerCase() };
     });
     items.sort((a, b) => (b.date ? b.date.getTime() : -Infinity) - (a.date ? a.date.getTime() : -Infinity));
     if (d.title) { $('brand').textContent = d.title; document.title = d.title; }
@@ -678,12 +706,14 @@
     const src = get(it.r, 'source');
     const meta = [shortDate(it.date), withCat ? cats(it.r)[0] : '', src].filter(Boolean).map(esc).join(' · ');
     return `<button type="button" class="pi${readSet.has(it.id) ? ' read' : ''}" data-ctx="${esc(ctxName)}" data-i="${i}" data-id="${it.id}">
-      <span class="pi-meta">${isReview(it.r) ? '<b style="color:var(--warn)">검토필요</b> · ' : ''}${meta}</span><span class="pi-title">${esc(titleOf(it))}</span></button>`;
+      <span class="pi-meta">${meta}</span><span class="pi-title">${esc(titleOf(it))}</span></button>`;
   };
   const byCategory = list => {
-    const m = new Map();
-    list.forEach(it => groups(it.r).forEach(c => { if (!m.has(c)) m.set(c, []); m.get(c).push(it); }));
-    return [...m].sort((a, b) => b[1].length - a[1].length);
+    const tops = topNames(list);
+    const out = tops.map(g => [g, list.filter(it => inGroup(it, g, tops))]);
+    const rest = list.filter(it => inGroup(it, OTHER, tops));
+    if (rest.length && groups(rest[0].r).length) out.push([OTHER, rest]);
+    return out.filter(([, arr]) => arr.length);
   };
   const empty = (msg, ic = 'inbox') => `<div class="state sm">${icon(ic)}<div>${msg}</div></div>`;
 
@@ -792,11 +822,9 @@
   /* ---------- 화면 3: 전체 기사 ---------- */
   const scopeItems = () => view === 'gov' ? periodItems().filter(it => isMohw(it.r)) : periodItems();
   function renderTabs() {
-    const count = new Map();
     const base = scopeItems();
-    base.forEach(it => groups(it.r).forEach(c => count.set(c, (count.get(c) || 0) + 1)));
-    const list = [['전체', base.length], ...[...count].sort((a, b) => b[1] - a[1])];
-    if (filter.cat !== '전체' && !count.has(filter.cat)) list.push([filter.cat, 0]);
+    const list = [['전체', base.length], ...byCategory(base).map(([g, arr]) => [g, arr.length])];
+    if (filter.cat !== '전체' && !list.some(([g]) => g === filter.cat)) list.push([filter.cat, 0]);
     $('tabs').setAttribute('aria-label', groupLabel());
     $('tabs').innerHTML = list.length < 2 ? '' : list.map(([c, n]) =>
       `<button type="button" role="tab" aria-selected="${c === filter.cat}" class="tab${c === filter.cat ? ' on' : ''}" data-cat="${esc(c)}">${esc(c)}<span class="n">${fmt(n)}</span></button>`
@@ -805,7 +833,7 @@
 
   // 뉴스형 카드: 왼쪽 사진, 오른쪽 제목·요약, 원문 버튼
   function card(it, i) {
-    const r = it.r, src = get(r, 'source'), sum = plain(get(r, 'summary')), link = get(r, 'link'), img = imgOf(r);
+    const r = it.r, src = get(r, 'source'), sum = plain(summaryOf(r)), link = get(r, 'link'), img = imgOf(r);
     const ok = /^https?:\/\//i.test(link);
     const meta = [
       ...cats(r).map(c => `<span class="m cat">${esc(c)}</span>`),
@@ -813,11 +841,11 @@
       it.date ? `<span class="m">${shortDate(it.date)}</span>` : '',
     ].join('');
     const ph = `<span class="thumb-ph">${icon('newspaper')}${esc(src)}</span>`;
-    const thumb = `${ph}${img ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}`;
+    const thumb = `${ph}${img.src ? `<img src="${esc(img.src)}" data-fb="${esc(img.fb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="imgErr(this)">` : ''}`;
     return `<article class="news${readSet.has(it.id) ? ' read' : ''}" data-i="${i}" data-id="${it.id}">
       ${ok ? `<a class="thumb" href="${esc(link)}" rel="noopener" tabindex="-1" aria-hidden="true" data-open="${it.id}">${thumb}</a>` : `<div class="thumb">${thumb}</div>`}
       <div class="news-body">
-        <div class="meta">${daysAgo(it.date) === 0 ? '<span class="new">NEW</span>' : ''}${reviewBadge(r)}${meta}</div>
+        <div class="meta">${isNew(it) ? '<span class="new">NEW</span>' : ''}${meta}</div>
         <h3 class="title">${ok ? `<a href="${esc(link)}" rel="noopener" data-open="${it.id}">${hl(titleOf(it))}</a>` : `<a>${hl(titleOf(it))}</a>`}</h3>
         ${sum ? `<p class="summary">${hl(sum)}</p>` : ''}
         <div class="news-foot">
@@ -830,15 +858,12 @@
 
   function renderList() {
     const q = filter.q.toLowerCase();
-    $('status').hidden = cols.status === undefined;
-    document.querySelectorAll('#status button').forEach(b => b.classList.toggle('on', b.dataset.status === filter.status));
+    const tops = topNames(scopeItems());
     listItems = scopeItems().filter(it =>
-      (filter.cat === '전체' || groups(it.r).includes(filter.cat)) && (!q || it.text.includes(q)) &&
-      (filter.status === 'all' || (filter.status === '검토') === isReview(it.r)));
+      (filter.cat === '전체' || inGroup(it, filter.cat, tops)) && (!q || it.text.includes(q)));
     ctxs.list = listItems;
-    const active = filter.q || filter.cat !== '전체' || filter.status !== 'all';
-    const desc = [PERIOD_LABEL[filter.period], filter.cat !== '전체' ? esc(filter.cat) : '', filter.status === '검토' ? '검토필요' : filter.status === '선별' ? '선별' : '',
-      filter.q ? `"${esc(filter.q)}"` : ''].filter(Boolean).join(' · ');
+    const active = filter.q || filter.cat !== '전체';
+    const desc = [PERIOD_LABEL[filter.period], filter.cat !== '전체' ? esc(filter.cat) : '', filter.q ? `"${esc(filter.q)}"` : ''].filter(Boolean).join(' · ');
     $('result').innerHTML = `<span>${desc} <b>${fmt(listItems.length)}건</b></span>
       ${active ? `<button type="button" class="link-btn" data-act="reset">${icon('rotate-ccw')}필터 초기화</button>` : ''}`;
 
@@ -878,7 +903,7 @@
   /* ---------- 전체 렌더 ---------- */
   function renderAll() {
     const list = periodItems();
-    const today = items.filter(it => daysAgo(it.date) === 0).length;
+    const today = items.filter(isNew).length;
     $('vTitle').textContent = VIEWS[view].title;
     $('vDesc').innerHTML = !items.length ? '아직 등록된 동향이 없습니다. 구글 시트 2행부터 입력하면 30분 안에 표시됩니다.'
       : view === 'gov' ? `${PERIOD_LABEL[filter.period]} 보건복지부 자료 <b>${fmt(list.filter(it => isMohw(it.r)).length)}건</b> · 제목이나 원문 보기를 누르면 원문으로 이동합니다`
@@ -918,12 +943,12 @@
   function openReader(i, list) {
     const it = list[i]; if (!it) return;
     ctx = list; current = i;
-    const r = it.r, link = get(r, 'link'), src = get(r, 'source'), summary = get(r, 'summary');
+    const r = it.r, link = get(r, 'link'), src = get(r, 'source'), summary = summaryOf(r), judge = judgeOf(r);
     const ex = extras(r), kw = cols.keywords !== undefined ? splitList(get(r, 'keywords')) : [];
     $('reader').innerHTML = `
-      <div class="meta">${daysAgo(it.date) === 0 ? '<span class="new">NEW</span>' : ''}${reviewBadge(r)}${cats(r).map(c => `<span class="m cat">${esc(c)}</span>`).join('')}${src ? `<span class="m">${hl(src)}</span>` : ''}</div>
+      <div class="meta">${isNew(it) ? '<span class="new">NEW</span>' : ''}${cats(r).map(c => `<span class="m cat">${esc(c)}</span>`).join('')}${src ? `<span class="m">${hl(src)}</span>` : ''}</div>
       <h2 class="r-title" id="rTitle">${hl(titleOf(it))}</h2>
-      <div class="r-date">${icon('calendar')}${fullDate(it.date)}</div>
+      <div class="r-date">${icon('calendar')}${fullDate(it.date)}${judge ? ` <span style="margin-left:10px">${icon('sparkles')}AI 판정 · ${esc(judge)}</span>` : ''}</div>
       <hr class="r-rule">
       ${summary ? `<div class="prose">${prose(summary)}</div>` : '<p class="prose" style="color:var(--muted)">요약이 없는 기사입니다. 원문에서 확인해 주세요.</p>'}
       ${kw.length ? `<div class="kw">${kw.map(k => `<span>#${esc(k)}</span>`).join('')}</div>` : ''}
@@ -981,7 +1006,6 @@
   $('vtabs').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setView(b.dataset.view); });
   $('period').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { filter.period = b.dataset.period; update(); } });
   $('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) { filter.cat = b.dataset.cat; update(); } });
-  $('status').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { filter.status = b.dataset.status; update(); } });
   $('overlay').addEventListener('click', closeReader);
   $('close').addEventListener('click', closeReader);
   $('prev').addEventListener('click', () => step(-1));
@@ -996,8 +1020,8 @@
     if ((el = t.closest('[data-gocat]'))) return goList({ cat: el.dataset.gocat });
     if ((el = t.closest('[data-act]'))) {
       const act = el.dataset.act;
-      if (act === 'reset') { filter.q = ''; filter.cat = '전체'; filter.status = 'all'; $('q').value = ''; update(); }
-      else if (act === 'reset-all') { filter = { q: '', cat: '전체', period: 'all', status: 'all' }; $('q').value = ''; update(); }
+      if (act === 'reset') { filter.q = ''; filter.cat = '전체'; $('q').value = ''; update(); }
+      else if (act === 'reset-all') { filter = { q: '', cat: '전체', period: 'all' }; $('q').value = ''; update(); }
       else if (act === 'more') { shown += PAGE; renderList(); drawIcons(); }
     }
   });
