@@ -609,7 +609,7 @@
     });
     items.sort((a, b) => (b.date ? b.date.getTime() : -Infinity) - (a.date ? a.date.getTime() : -Infinity));
     if (d.title) { $('brand').textContent = d.title; document.title = d.title; }
-    $('updated').textContent = d.fetchedAt ? `${d.fetchedAt} 업데이트` : '구글 시트 연결 전';
+    $('updated').textContent = d.fetchedAt ? `${d.fetchedAt} 업데이트` : '데이터 수집 대기 중';
     // 첫 화면에서 최근 7일 기사가 하나도 없으면 전체 기간으로 보여 줌
     if (firstLoad && items.length && !items.some(inPeriod)) filter.period = 'all';
     firstLoad = false;
