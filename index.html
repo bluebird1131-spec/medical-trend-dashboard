@@ -165,7 +165,6 @@
   .ai-sec-name .lucide { width: 14px; height: 14px; }
   .ai-main { counter-reset: ai; }
   .ai-main .ai-points { counter-reset: none; }
-  .ai-more { height: 24px; padding: 0 6px; font-size: 12px; color: var(--faint); display: inline-flex; align-items: center; }
   .ai-nav { display: flex; align-items: center; gap: 2px; font-size: 13px; color: var(--muted); }
   .ai-nav .icon-btn { width: 30px; height: 30px; }
   .ai-body { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(320px, 1fr); }
@@ -188,7 +187,15 @@
   .ai-ref .src { font-size: 11.5px; font-weight: 700; color: var(--muted); white-space: nowrap; }
   .ai-ref .t { font-size: 13.5px; line-height: 1.5; font-weight: 600; color: var(--body); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .ai-ref:hover .t { color: var(--accent); }
-  .ai-more { padding: 2px 8px 4px; font-size: 12px; color: var(--muted); }
+  .ai-ref.extra { display: none; }
+  .ai-refs.open .ai-ref.extra { display: grid; }
+  .ai-refs.open .ai-more { display: none; }
+  .ai-more {
+    display: inline-flex; align-items: center; gap: 3px; justify-self: start; margin: 2px 4px 2px; padding: 3px 8px; border: 0; border-radius: 6px;
+    background: none; font-size: 12.5px; font-weight: 600; color: var(--accent); cursor: pointer;
+  }
+  .ai-more:hover { background: var(--accent-soft); }
+  .ai-more .lucide { width: 13px; height: 13px; }
   .ai-side { padding: 26px 28px 30px; border-left: 1px solid var(--border); background: var(--surface); min-width: 0; }
   .ai-side-in { position: sticky; top: calc(var(--tb-h) + 20px); }
   .ai-side h3 { display: flex; align-items: center; gap: 8px; margin: 0 0 14px; font-size: 17px; font-weight: 800; color: var(--heading); }
@@ -390,7 +397,7 @@
   /* ---------- 상태·기타 ---------- */
   .tip {
     position: fixed; z-index: 60; transform: translate(-50%, calc(-100% - 8px)); padding: 6px 10px; border-radius: 8px;
-    background: var(--primary); color: var(--primary-foreground); font-size: 13px; font-weight: 600; white-space: nowrap;
+    background: var(--primary); color: var(--primary-foreground); font-size: 13px; font-weight: 600; white-space: pre; max-width: min(560px, 92vw); overflow: hidden; text-overflow: ellipsis;
     pointer-events: none; opacity: 0; transition: opacity .1s;
   }
   .tip.show { opacity: 1; }
@@ -881,9 +888,9 @@
       const k = p.k, refs = (p.links || []).map(l => byLink.get(l)).filter(Boolean);
       ctxs['ai:' + k] = refs;
       return `<li><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p>
-        ${refs.length ? `<div class="ai-refs">${refs.slice(0, SHOW).map((it, i) =>
-          `<button type="button" class="ai-ref" data-ctx="ai:${k}" data-i="${i}" title="${esc(titleOf(it))}">${refName(it)}</button>`).join('')}${
-          refs.length > SHOW ? `<span class="ai-more">외 ${fmt(refs.length - SHOW)}건</span>` : ''}</div>` : ''}</li>`;
+        ${refs.length ? `<div class="ai-refs">${refs.map((it, i) =>
+          `<button type="button" class="ai-ref${i >= SHOW ? ' extra' : ''}" data-ctx="ai:${k}" data-i="${i}" title="${esc(titleOf(it))}">${refName(it)}</button>`).join('')}${
+          refs.length > SHOW ? `<button type="button" class="ai-more" data-more data-tip="${esc(refs.slice(SHOW).map(it => '· ' + titleOf(it)).join(String.fromCharCode(10)))}">외 ${fmt(refs.length - SHOW)}건 더 보기${icon('chevron-down')}</button>` : ''}</div>` : ''}</li>`;
     };
     const pts = hasSec
       ? order.map(sec => [sec, points.filter(p => (p.section || '병원') === sec)]).filter(([, arr]) => arr.length)
@@ -1188,6 +1195,7 @@
     if ((el = t.closest('.bar-row'))) return goList({ q: el.dataset.q });
     if ((el = t.closest('[data-gocat]'))) return goList({ cat: el.dataset.gocat });
     if ((el = t.closest('[data-goview]'))) return setView(el.dataset.goview);
+    if ((el = t.closest('[data-more]'))) { hideTip(); el.closest('.ai-refs').classList.add('open'); return; }
     if ((el = t.closest('[data-act]'))) {
       const act = el.dataset.act;
       if (act === 'reset') { filter.q = ''; filter.cat = '전체'; $('q').value = ''; update(); }
