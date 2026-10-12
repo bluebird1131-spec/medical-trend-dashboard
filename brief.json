@@ -3,50 +3,55 @@
   {
    "date": "2026-10-12",
    "from": "2026-10-12",
-   "headline": "국내 주요 병원의 CAR-T 치료센터 진입과 정부의 중증외상·AI 신약 임상 혁신 정책 동향",
+   "headline": "주요 상급종합병원의 첨단 로봇 및 CAR-T 치료 도입 확산과 보건의료 정책 동향",
    "points": [
     {
      "section": "병원",
-     "title": "경희대병원 CAR-T 세포치료센터 추진",
-     "body": "종양혈액내과 중심 인력과 장비, 시설 점검 및 의료진 교육을 완료하고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계 진입.",
+     "title": "첨단 로봇수술 장비 확대",
+     "body": "아주대병원이 5세대 로봇수술 시스템 '다빈치 5'와 형상 유도 로봇 보조 기관지경 '아이온'을 도입하여 로봇수술 플랫폼을 확충함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=2",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "CAR-T 치료센터 본격화",
+     "body": "경희대병원이 CAR-T 세포치료센터 클린룸 구축과 장비 적격성 평가를 진행하며 임상 적용 검증 단계에 진입함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115&page=2"
      ]
     },
     {
      "section": "정책",
-     "title": "중증외상 최종치료 역량 강화",
-     "body": "정부의 중증외상 최종치료 역량 강화 방침에 따른 권역외상센터 집중 지원 추진.",
+     "title": "거점외상센터 지원 사업",
+     "body": "보건복지부가 거점외상센터 설치지원사업 공모를 통해 아주대병원을 최종 선정하고 최대 77억 원을 지원할 예정임.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511"
      ]
     },
     {
      "section": "정책",
-     "title": "AI·디지털 기반 신약 임상 혁신",
-     "body": "급변하는 글로벌 환경 대응을 위한 AI 및 디지털 기술 접목 신약 임상개발 혁신과 지원 체계 구축 추진.",
+     "title": "휠체어 훈련 건강보험 급여화",
+     "body": "복지부가 휠체어 조작기술 훈련에 대한 요양급여 기준을 개정하여 재활의료기관에서 정식 수가 청구가 가능해짐.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "휠체어 사용 훈련 건보 급여화",
-     "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여화 인정으로 재활의료기관 임상 서비스 확대.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113&page=2"
      ]
     }
    ],
    "implications": [
-    "상급종합병원의 첨단 혈액암 치료 경쟁력 확보를 위한 CAR-T 세포치료센터 구축 및 임상 적용 검증 절차 벤치마킹",
-    "정부의 중증외상 최종치료 역량 강화 기조에 연계한 원내 응급 및 외상 인프라 운영 전략 검토",
-    "AI·디지털 기반 신약 임상개발 지원 체계 및 재활치료 건강보험 급여 확대에 따른 원내 임상 서비스 적용 검토"
+    "상급종합병원 고도화를 위한 5세대 로봇수술 장비 및 차세대 기관지경 등 첨단 진료 인프라 도입 검토",
+    "종양혈액내과 중심의 CAR-T 세포치료센터 구축 및 세포 취급 청정시설 검증 절차 벤치마킹",
+    "재활의료기관 수가 시범사업과 연계한 휠체어 사용 훈련 등 급여 확대 항목의 원내 적용 준비"
    ],
-   "count": 11,
+   "count": 56,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-12 22:27",
-   "sig": "3:mv93v9",
+   "generatedAt": "2026-10-12 23:02",
+   "sig": "3:nr1q2q",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
@@ -56,9 +61,54 @@
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941284",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941331&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941349&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941338&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941340&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941239&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941284&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315&page=2",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043526",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043509",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492",
     "https://www.dailymedi.com/news/news_view.php?wr_id=941303",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941303",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941303&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941138&page=3",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941298&page=3",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941186&page=3",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043491",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941262&page=3",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941254&page=3",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941286&page=3",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941325&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941312&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941328&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941304&page=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108&page=2",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043542",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043518",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043504",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043507",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043499",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043490",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043319",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941306&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941308&page=2"
    ]
   }
  ],
