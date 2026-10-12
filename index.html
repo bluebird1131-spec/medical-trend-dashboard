@@ -198,7 +198,11 @@
   .ai-note { margin: 16px 0 0; font-size: 12px; line-height: 1.6; color: var(--faint); }
 
   /* ---------- 분류별 보기 ---------- */
-  .ccols { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+  .ccols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  /* 분류별 보기 목록은 제목만: 한 줄에 한 기사, 마우스를 올리면 날짜·출처 */
+  .ccol-list .pi { padding: 8px 0; }
+  .ccol-list .pi-title { -webkit-line-clamp: 1; font-size: 14.5px; font-weight: 600; }
+  .ccol-list .pi-rv { margin-right: 6px; vertical-align: 1px; }
   .ccol { display: flex; flex-direction: column; }
   .ccol-name { display: inline-flex; align-items: center; gap: 4px; padding: 0; border: 0; background: none; font-size: 16px; font-weight: 700; color: var(--heading); cursor: pointer; }
   .ccol-name:hover { color: var(--accent); }
@@ -392,6 +396,7 @@
 
   @media (prefers-reduced-motion: reduce) { .sheet, .overlay { transition: none; } }
   @media (max-width: 1100px) {
+    .ccols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .brief { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
     .brief .cloud-card { grid-column: 1 / -1; }
     .ai-points { grid-template-columns: minmax(0, 1fr); }
@@ -399,6 +404,7 @@
     .bottom > :nth-child(2) { grid-column: 1 / -1; order: -1; }
   }
   @media (max-width: 760px) {
+    .ccols { grid-template-columns: minmax(0, 1fr); }
     .dash { padding: 0 16px; }
     .tb { grid-template-columns: 1fr auto; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 10px; }
     .vtabs { grid-column: 1 / -1; grid-row: 2; }
@@ -659,8 +665,8 @@
   // 분류값이 "로봇수술/첨단장비"처럼 세분돼 있으면 "/" 앞 큰 분류로 묶음
   const mainCat = c => c.split('/')[0].replace(/\(.*?\)/g, '').trim() || c;
   const groups = r => cols.category !== undefined ? [...new Set(cats(r).map(mainCat))] : (get(r, 'source') ? [get(r, 'source')] : []);
-  const TOP = 5, OTHER = '기타';
-  // 상위 5개 묶음 + 나머지는 '기타'
+  const TOP = 8, OTHER = '기타';
+  // 상위 8개 묶음 + 나머지는 '기타' (고정 분류 9개가 모두 보이게)
   const topNames = list => {
     const m = new Map();
     // 분류값 자체가 '기타'인 기사는 맨 끝 '기타' 묶음으로 (같은 이름 묶음이 두 번 나오지 않게)
@@ -784,6 +790,11 @@
   const periodItems = () => items.filter(inPeriod);
 
   /* ---------- 공통 조각 ---------- */
+  const piTitle = (it, ctxName, i) => {
+    const tip = [shortDate(it.date), get(it.r, 'source')].filter(Boolean).join(' · ');
+    return `<button type="button" class="pi${readSet.has(it.id) ? ' read' : ''}" data-ctx="${esc(ctxName)}" data-i="${i}" data-id="${it.id}" title="${esc(tip + ' · ' + titleOf(it))}">
+      <span class="pi-title">${isReview(it.r) ? '<span class="pi-rv">검토</span>' : ''}${esc(titleOf(it))}</span></button>`;
+  };
   const pi = (it, ctxName, i, withCat) => {
     const src = get(it.r, 'source');
     const meta = [shortDate(it.date), withCat ? cats(it.r)[0] : '', src].filter(Boolean).map(esc).join(' · ');
@@ -922,7 +933,7 @@
         <button type="button" class="ccol-name" data-gocat="${esc(cat)}">${esc(cat)}${icon('chevron-right')}</button>
         <div class="ccol-num"><b>${fmt(arr.length)}</b>건 · 전체의 ${share}%</div>
         <div class="share" data-tip="${esc(cat)} · 전체 기사의 ${share}%"><span style="width:${share}%"></span></div>
-        <div class="ccol-list">${arr.map((it, i) => pi(it, 'c:' + cat, i)).join('')}</div>
+        <div class="ccol-list">${arr.map((it, i) => piTitle(it, 'c:' + cat, i)).join('')}</div>
       </section>`;
     }).join('') : `<div class="card">${empty('이 기간에 등록된 기사가 없습니다')}</div>`;
 
