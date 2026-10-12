@@ -156,6 +156,40 @@
   .word:hover, .word.on { color: var(--accent); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
   .cloud-note { margin: 12px 0 0; text-align: center; font-size: 13px; color: var(--muted); }
 
+  /* AI 데일리 브리핑 */
+  .ai { margin-bottom: 16px; padding: 0; overflow: hidden; }
+  .ai-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--surface); }
+  .ai-label { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; font-size: 15px; font-weight: 700; color: var(--heading); }
+  .ai-label .ai-mark { width: 26px; height: 26px; border-radius: 7px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
+  .ai-label .ai-mark .lucide { width: 15px; height: 15px; }
+  .ai-label small { font-size: 13px; font-weight: 500; color: var(--muted); }
+  .ai-nav { display: flex; align-items: center; gap: 2px; font-size: 13px; color: var(--muted); }
+  .ai-nav .icon-btn { width: 30px; height: 30px; }
+  .ai-body { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); }
+  .ai-main { padding: 20px 24px 22px; min-width: 0; }
+  .ai-headline { margin: 0 0 16px; font-size: 20px; line-height: 1.5; font-weight: 800; letter-spacing: -0.02em; color: var(--heading); }
+  .ai-points { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 24px; margin: 0; padding: 0; list-style: none; counter-reset: ai; }
+  .ai-points li { counter-increment: ai; position: relative; padding-left: 30px; min-width: 0; }
+  .ai-points li::before {
+    content: counter(ai); position: absolute; left: 0; top: 1px; width: 20px; height: 20px; border-radius: 6px;
+    display: grid; place-items: center; background: var(--primary); color: var(--primary-foreground); font-size: 12px; font-weight: 700;
+  }
+  .ai-points h3 { margin: 0; font-size: 15px; line-height: 1.45; font-weight: 700; color: var(--heading); }
+  .ai-points p { margin: 3px 0 0; font-size: 14px; line-height: 1.65; color: var(--soft); }
+  .ai-refs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .ai-ref {
+    max-width: 100%; height: 24px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--border); background: var(--card);
+    font-size: 12px; font-weight: 500; color: var(--muted); cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .ai-ref:hover { border-color: var(--accent); color: var(--accent); }
+  .ai-side { padding: 20px 24px 22px; border-left: 1px solid var(--border); background: var(--surface); min-width: 0; }
+  .ai-side h3 { display: flex; align-items: center; gap: 6px; margin: 0 0 10px; font-size: 14px; font-weight: 700; color: var(--heading); }
+  .ai-side h3 .lucide { color: var(--accent); }
+  .ai-side ul { margin: 0; padding-left: 1.1em; font-size: 14px; line-height: 1.7; color: var(--body); }
+  .ai-side li { margin-bottom: 6px; }
+  .ai-side li::marker { color: var(--faint); }
+  .ai-note { margin: 16px 0 0; font-size: 12px; line-height: 1.6; color: var(--faint); }
+
   /* ---------- 분류별 보기 ---------- */
   .ccols { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
   .ccol { display: flex; flex-direction: column; }
@@ -336,6 +370,7 @@
   @media (max-width: 1100px) {
     .brief { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
     .brief .cloud-card { grid-column: 1 / -1; order: -1; }
+    .ai-points { grid-template-columns: minmax(0, 1fr); }
     .bottom { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
     .bottom > :nth-child(2) { grid-column: 1 / -1; order: -1; }
   }
@@ -352,6 +387,10 @@
     .seg button { flex: 1; }
     .tool-row { flex-direction: column; }
     .brief, .bottom { grid-template-columns: minmax(0, 1fr); }
+    .ai-body { grid-template-columns: minmax(0, 1fr); }
+    .ai-side { border-left: 0; border-top: 1px solid var(--border); }
+    .ai-head, .ai-main, .ai-side { padding-left: 16px; padding-right: 16px; }
+    .ai-headline { font-size: 18px; }
     .tabs { margin: 0 -16px; padding: 0 16px; }
     .news { grid-template-columns: 108px minmax(0, 1fr); gap: 14px; padding: 14px; }
     .news .title { font-size: 16.5px; }
@@ -413,6 +452,7 @@
 <main>
   <!-- 오늘의 브리핑: 가운데 키워드, 양옆 분류 패널 -->
   <section class="dash view" id="v-brief">
+    <div id="aiBrief"></div>
     <div class="brief" id="briefGrid">
       <div class="side" id="sideL"></div>
       <div class="card cloud-card">
@@ -511,6 +551,7 @@
 
   let headers = [], cols = {}, items = [], listItems = [], ctxs = {}, thumbs = {}, imgFreq = new Map();
   let filter = { q: '', cat: '전체', period: '7' };
+  let brief = { days: [] }, briefAt = 0;
   let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true, cloudWords = [];
 
   const $ = id => document.getElementById(id);
@@ -652,15 +693,19 @@
   function load() {
     $('reload').classList.add('loading');
     if (location.protocol === 'file:') {
+      brief = DEMO_BRIEF;
       onData(DEMO);  // PC에서 파일을 직접 열었을 때 미리보기
       $('notice').innerHTML = `<div class="notice">${icon('info')}<div><b>미리보기 모드</b> · 예시 데이터입니다. GitHub Pages에서는 실제 시트 데이터가 표시됩니다.</div></div>`;
       drawIcons();
       return;
     }
     // data.json 은 GitHub Actions 가 30분마다 구글 시트에서 만들어 둠. 브라우저는 구글에 접속하지 않음.
+    // brief.json(AI 브리핑)은 없어도 페이지는 그대로 보임
+    const aiReq = fetch('brief.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(res => res.ok ? res.json() : { days: [] }).catch(() => ({ days: [] }));
     fetch('data.json?t=' + Date.now(), { cache: 'no-store' })
       .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
-      .then(onData)
+      .then(d => aiReq.then(b => { brief = b && Array.isArray(b.days) ? b : { days: [] }; briefAt = 0; onData(d); }))
       .catch(onError);
   }
 
@@ -775,6 +820,50 @@
       }
     });
     box.innerHTML = html;
+  }
+
+  // AI 데일리 브리핑: GitHub Actions 가 Gemini 로 그날 새로 올라온 기사를 정리해 둔 brief.json
+  function renderAi() {
+    const day = brief.days[briefAt];
+    if (!day) { $('aiBrief').innerHTML = ''; return; }
+    const byLink = new Map(items.map(it => [get(it.r, 'link'), it]));
+    const d = parseDate(day.date), a = daysAgo(d);
+    const when = a === 0 ? '오늘' : a === 1 ? '어제' : '';
+    const refName = it => {
+      const t = titleOf(it), who = get(it.r, 'source');
+      return `${who ? esc(who) + ' · ' : ''}${esc(t.length > 22 ? t.slice(0, 22).replace(/[.…·\s]+$/, '') + '…' : t)}`;
+    };
+    const pts = (day.points || []).map((p, k) => {
+      const refs = (p.links || []).map(l => byLink.get(l)).filter(Boolean);
+      ctxs['ai:' + k] = refs;
+      return `<li><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p>
+        ${refs.length ? `<div class="ai-refs">${refs.map((it, i) =>
+          `<button type="button" class="ai-ref" data-ctx="ai:${k}" data-i="${i}" title="${esc(titleOf(it))}">${refName(it)}</button>`).join('')}</div>` : ''}</li>`;
+    }).join('');
+    const imp = day.implications || [];
+    const nav = brief.days.length > 1 ? `<div class="ai-nav">
+        <button class="icon-btn" type="button" data-ai="1" ${briefAt >= brief.days.length - 1 ? 'disabled' : ''} aria-label="이전 브리핑">${icon('chevron-left')}</button>
+        <span>${briefAt === 0 ? '최신' : '지난 브리핑'}</span>
+        <button class="icon-btn" type="button" data-ai="-1" ${briefAt === 0 ? 'disabled' : ''} aria-label="다음 브리핑">${icon('chevron-right')}</button>
+      </div>` : '';
+    $('aiBrief').innerHTML = `<section class="card ai" aria-label="AI 데일리 브리핑">
+      <div class="ai-head">
+        <div class="ai-label"><span class="ai-mark">${icon('sparkles')}</span>AI 데일리 브리핑
+          <small>${d ? `${d.getMonth() + 1}월 ${d.getDate()}일 ${WEEK[d.getDay()]}` : esc(day.date)}${when ? ` (${when})` : ''} · 새 기사 ${fmt(day.count || 0)}건 기준</small></div>
+        ${nav}
+      </div>
+      <div class="ai-body">
+        <div class="ai-main">
+          ${day.headline ? `<p class="ai-headline">${esc(day.headline)}</p>` : ''}
+          <ol class="ai-points">${pts}</ol>
+        </div>
+        <aside class="ai-side">
+          <h3>${icon('lightbulb')}우리 병원 시사점</h3>
+          ${imp.length ? `<ul>${imp.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="ai-note" style="margin:0">이번 브리핑에는 시사점이 없습니다.</p>'}
+          <p class="ai-note">Gemini가 선별 기사 요약을 바탕으로 자동 작성했습니다${day.generatedAt ? ` (${esc(day.generatedAt)})` : ''}. 판단 전에 근거 기사를 확인해 주세요.</p>
+        </aside>
+      </div>
+    </section>`;
   }
 
   /* ---------- 화면 2: 분류별 보기 ---------- */
@@ -922,6 +1011,7 @@
     ['brief', 'cats', 'list'].forEach(v => { $('v-' + v).hidden = v !== (view === 'gov' ? 'list' : view); });
     $('govIntro').hidden = view !== 'gov';
     ctxs = {};
+    renderAi();
     renderBrief(list);
     renderCats(list);
     renderTabs();
@@ -1020,6 +1110,7 @@
     let el;
     if ((el = t.closest('[data-open]'))) return markRead(el.dataset.open);
     if ((el = t.closest('[data-ctx]'))) return openReader(+el.dataset.i, ctxs[el.dataset.ctx] || []);
+    if ((el = t.closest('[data-ai]'))) { briefAt += +el.dataset.ai; renderAi(); drawIcons(); return; }
     if ((el = t.closest('[data-word]'))) return goList({ q: filter.q === el.dataset.word && view === 'list' ? '' : el.dataset.word });
     if ((el = t.closest('.bar-row'))) return goList({ q: el.dataset.q });
     if ((el = t.closest('[data-gocat]'))) return goList({ cat: el.dataset.gocat });
@@ -1092,6 +1183,21 @@
       ],
     };
   })();
+
+  // 미리보기 전용 AI 브리핑 예시
+  const DEMO_BRIEF = { days: [0, 1].map(n => {
+    const t = new Date(); t.setDate(t.getDate() - n);
+    return {
+      date: dayKey(t), count: 6, generatedAt: dayKey(t) + ' 09:42', model: 'demo',
+      headline: n ? '[예시] 어제 브리핑 한 줄 요약' : '[예시] 필수의료 수가 개선 논의와 의료 AI 급여화 검토가 함께 진행',
+      points: [
+        { title: '[예시] 필수의료 수가 개선 공청회', body: '예시 문장입니다. 아래 근거 기사를 누르면 요약 패널이 열림.', links: ['https://example.com'] },
+        { title: '[예시] 의료 AI 건강보험 적용 논의', body: '판독 보조 소프트웨어 급여 기준 마련 논의 예정.', links: [] },
+        { title: '[예시] 상급종합병원 구조전환 2차 발표', body: '참여 병원 명단 공개 및 후속 지원 추진.', links: [] },
+      ],
+      implications: ['[예시] 우리 병원이 검토할 만한 점이 이 자리에 표시됩니다.', '[예시] 기사 근거가 분명한 것만 1~3개 작성됩니다.'],
+    };
+  }) };
 
   syncTopbar();
   const startView = location.hash.slice(1);

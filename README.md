@@ -14,7 +14,7 @@
 ## 화면
 | 탭 | 구성 |
 |---|---|
-| 오늘의 브리핑 | 가운데 핵심 키워드 클라우드 + 양옆 분류별 패널 (최신 3건) |
+| 오늘의 브리핑 | 맨 위 AI 데일리 브리핑(Gemini) + 가운데 핵심 키워드 클라우드 + 양옆 분류별 패널 (최신 3건) |
 | 분류별 보기 | 분류별 열(건수·비중·기사 목록) + 키워드 TOP 10 · 일자별 기사 수 · 출처별 기사 수 |
 | 국고사업 | 보건복지부 자료만 모은 뉴스형 목록 (출처·기관 열 또는 원문 주소 mohw.go.kr 기준) |
 | 전체 기사 | 뉴스형 목록 (대표 이미지 · 제목 · 요약 · 원문 보기) |
@@ -30,12 +30,16 @@
 | `data.json` | 시트에서 가져온 데이터 (자동 생성, 직접 수정하지 않음) |
 | `thumbs.json` | 기사 원문 대표 이미지(og:image) 주소 캐시 (자동 생성) |
 | `scripts/fetch-sheet.mjs` | 시트 CSV → `data.json` 변환, 제외 기사 숨김, 대표 이미지 수집 |
+| `scripts/ai-brief.mjs` | 그날 새로 올라온 기사를 Gemini API로 정리해 `brief.json` 생성 (키 없으면 건너뜀) |
+| `brief.json` | AI 데일리 브리핑 최근 30일분 (자동 생성) |
 | `.github/workflows/update.yml` | 30분마다 동기화 + 배포 |
 
 ## 설정
 - **Settings → Secrets and variables → Actions**
   - Secrets 탭 `SHEET_URL`: 구글 시트 주소 (공유는 "링크가 있는 모든 사용자 · 뷰어"). 공개 저장소의 실행 로그에 주소가 남지 않도록 반드시 Secret으로 등록
+  - Secrets 탭 `GEMINI_API_KEY`: Google AI Studio에서 발급한 Gemini API 키 (AI 데일리 브리핑용, 없으면 브리핑만 생략)
   - Variables 탭 `SITE_TITLE`: 페이지 제목 (선택, 기본값 "의료계 동향")
+  - Variables 탭 `GEMINI_MODEL`: 사용할 모델 (선택, 기본값 gemini-2.5-flash)
 - 즉시 갱신: **Actions → 시트 동기화 및 배포 → Run workflow**
 
 ## 시트 열 인식
