@@ -1,0 +1,251 @@
+{
+ "days": [
+  {
+   "date": "2026-10-12",
+   "from": "2026-10-12",
+   "headline": "대학병원 첨단치료·의료 AI 도입 가속화 및 재활 수가 확대",
+   "points": [
+    {
+     "title": "첨단세포치료 및 로봇수술 역량 고도화",
+     "body": "경희대병원이 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 검증에 착수하고, 한림대동탄성심병원이 경방광 단일공 로봇 전립선절제술의 회복 속도 및 정밀도 성과를 입증함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+      "http://www.docdocdoc.co.kr/news/articleViewAmp.html?idxno=3043396"
+     ]
+    },
+    {
+     "title": "임상 맞춤형 의료 AI 진단·솔루션 도입",
+     "body": "서울아산병원이 피부종양 합성 생성형 AI 및 간암 병리 AI 모델을 개발하고, 이대목동병원이 심방세동 예측 등 AI 솔루션의 임상 적용을 본격화함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?wr_id=941247",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398",
+      "https://www.dailymedi.com/news/news_view.php?wr_id=941137"
+     ]
+    },
+    {
+     "title": "휠체어 사용 훈련 건강보험 급여 인정",
+     "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 청구가 인정되어 재활의료 서비스 확대 기반 마련.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
+     ]
+    },
+    {
+     "title": "의료 AI 제도권 진입 및 가이드라인 정비",
+     "body": "정신건강 목적 생성형 AI 가이드라인이 발표된 가운데, 의료 AI 기술의 건보 수가 진입 장벽 해소 요구와 원내 AI 도입 시 의료진 검증(Human-in-the-loop) 체계 수립 필요성이 제기됨.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
+      "https://www.dailymedi.com/news/news_view.php?wr_id=941129"
+     ]
+    }
+   ],
+   "implications": [
+    "중증 혈액암 환자 치료 역량 강화를 위한 CAR-T 세포치료 인력·장비·시설 점검 및 센터 개소 검토 필요",
+    "뇌졸중 및 척수손상 환자 대상 휠체어 일상 적응 훈련 프로그램 신설 및 건보 급여 청구 프로세스 정비 추진",
+    "원내 생성형 AI 도입 시 진단보다 행정·업무 지원을 우선 검토하고 의료진 검증 체계를 반영한 도입 지침 마련 필요"
+   ],
+   "count": 60,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-12 13:03",
+   "sig": "15hfxd9",
+   "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
+    "https://www.dailymedi.com/news/news_view.php?wr_id=941247",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
+    "http://www.docdocdoc.co.kr/news/articleViewAmp.html?idxno=3043396",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398",
+    "https://www.mohw.go.kr/menu.es?mid=a10503010200",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?wr_id=941137",
+    "https://www.dailymedi.com/news/news_view.php?wr_id=941066",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492128&tag=&nPage=2",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492095&tag=&nPage=3",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492041&tag=&nPage=4",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491983&tag=&nPage=6",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491944&tag=&nPage=7",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491672&tag=&nPage=10",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491416&tag=&nPage=16",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491391&tag=&nPage=17",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491366&tag=&nPage=17",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491345&tag=&nPage=17",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491119&tag=&nPage=22",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491023&tag=&nPage=24",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490959&tag=&nPage=26",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490925&tag=&nPage=26",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490901&tag=&nPage=27",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490673&tag=&nPage=31",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490633&tag=&nPage=32",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490587&tag=&nPage=33",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490521&tag=&nPage=35",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490474&tag=&nPage=36",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490433&tag=&nPage=37",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490426&tag=&nPage=37",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490286&tag=&nPage=40",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490117&tag=&nPage=43",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489911&tag=&nPage=47",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171103",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171102",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171088",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941322",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=939109",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941305",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941316",
+    "https://dailymedi.com/news/news_view.php?ca_id=2112&wr_id=941266",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?wr_id=941129",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492156&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492155&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492142&tag=&nPage=2",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492124&tag=&nPage=2",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492120&tag=&nPage=2"
+   ]
+  }
+ ],
+ "weekly": {
+  "date": "2026-10-12",
+  "from": "2026-10-06",
+  "headline": "주요 병원들의 첨단 AI 진단 및 세포치료 도입과 복지부의 의료AI 가이드라인 발표",
+  "points": [
+   {
+    "title": "첨단 CAR-T 센터 개소",
+    "body": "경희대병원은 인력, 장비, 시설 점검 및 의료진 교육을 완료하고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
+    ]
+   },
+   {
+    "title": "피부암 진단 AI 개발",
+    "body": "서울아산병원은 어두운 피부 임상데이터 부족에 따른 진단 격차를 해소하고자 생성형 AI(STTN)를 개발하여 양성·악성 피부종양 분류 정확도를 대폭 개선함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?wr_id=941247"
+    ]
+   },
+   {
+    "title": "중증응급 이송망 확대",
+    "body": "보건복지부는 응급 중증질환 환자의 골든타임 사수를 위해 권역 책임의료기관 중심 닥터헬기 및 중증환자 광역 이송 체계를 호남권 전역으로 확대 개시함.",
+    "links": [
+     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1"
+    ]
+   },
+   {
+    "title": "정신건강 AI 가이드라인",
+    "body": "보건복지부와 대한신경정신의학회는 의료기관 및 기업의 안전한 AI 상담·진료 보조 환경 조성을 위한 국내 최초 '정신건강 목적 생성형 AI 이용 가이드라인'을 공식 발표함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1"
+    ]
+   },
+   {
+    "title": "재활치료 건보 적용",
+    "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여화가 인정되면서 재활의료기관의 임상 서비스가 확대됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
+    ]
+   }
+  ],
+  "implications": [
+   "울산대학교병원은 중증·암 환자 치료 역량 강화를 위해 CAR-T 세포치료 및 AI 기반 의료영상·병리 분석 솔루션 도입 검토",
+   "복지부의 AI 가이드라인 및 임상 현장 적용 추세에 맞춰 병원 내 생성형 AI 활용 시 의료진 검증 체계 구축 필요",
+   "권역외상센터 및 중증응급 이송 안전망 확충 기조에 발맞춘 지역 완결형 응급의료 대응 체계 강화 추진"
+  ],
+  "count": 30,
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-12 13:04",
+  "sig": "1opjell"
+ },
+ "monthly": {
+  "date": "2026-10-12",
+  "from": "2026-09-13",
+  "headline": "수도권 대형병원의 CAR-T·의료AI 임상 도입 가속과 정부의 권역외상 및 중증응급 최종치료 집중 지원",
+  "points": [
+   {
+    "title": "CAR-T 및 첨단재생의료 임상 진입 본격화",
+    "body": "경희대병원이 CAR-T 세포치료센터 개소를 위해 인력과 장비를 점검하고 임상 검증에 착수함. 복지부의 첨단재생의료 1호 치료 승인과 맞물려 중대·난치질환 대상 첨단세포치료의 제도권 임상 적용 본격 추진.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492041&tag=&nPage=4"
+    ]
+   },
+   {
+    "title": "병원 특화 질환 AI 진단 및 연구 적용 가속",
+    "body": "서울아산병원의 피부암 및 간암 정밀 AI 모델 제시와 이대목동병원의 심방세동 예측 AI 적용 등 3개 이상 대형병원에서 임상 도입 확대. AI 기반 신약 임상시험 영상 분석과 글로벌 병리 진단 소프트웨어 공급 등 정밀의료 영역 전반으로 기술 도입 확산 추세.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117",
+     "https://www.dailymedi.com/news/news_view.php?wr_id=941247",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398",
+     "https://www.dailymedi.com/news/news_view.php?wr_id=941137",
+     "https://www.dailymedi.com/news/news_view.php?wr_id=941066"
+    ]
+   },
+   {
+    "title": "단일공 로봇수술 술기 고도화 및 성과 입증",
+    "body": "한림대동탄성심병원 등 주요 대학병원에서 경방광 단일공 로봇 전립선절제술을 통해 수술 콘솔시간 단축과 조기 회복 효과 입증. 비뇨종양 등 고난도 중증 질환에서 환자 회복 속도와 정밀도를 강조한 단일공 술기 연구 지속 확대.",
+    "links": [
+     "http://www.docdocdoc.co.kr/news/articleViewAmp.html?idxno=3043396"
+    ]
+   },
+   {
+    "title": "권역외상 및 중증응급 최종치료 집중 지원",
+    "body": "보건복지부가 중증외상 최종치료 역량 강화와 권역외상센터 집중 지원을 발표하고 호남권 광역 중증환자 이송망 확대 가동. 응급환자 이송부터 최종치료까지 아우르는 응급체계 혁신 및 상급종합병원 배후진료 강화 요구 지속 제기.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492124&tag=&nPage=2"
+    ]
+   },
+   {
+    "title": "병원 연계 AI 실증 및 돌봄로봇 도입 추진",
+    "body": "정부 주도로 병원과 기업 간 현장 소통을 통한 의료 AI 실증 생태계 조성과 돌봄로봇의 간호·간병 현장 연계 포럼 개최. 실제 병원 및 주거 환경과 결합한 에이지테크 실증 사업을 통해 스마트 돌봄 기술의 임상 적용 추진.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492095&tag=&nPage=3",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491983&tag=&nPage=6"
+    ]
+   },
+   {
+    "title": "생성형 AI 안전 가이드라인 및 수가 진입 논의",
+    "body": "복지부의 정신건강 생성형 AI 가이드라인 발표와 서울대병원 강남센터의 생성형 AI 도입 시 의료진 검증 체계 수립 필요성 제기. 혁신 의료 AI 기술의 신속한 시장 안착을 위한 건강보험 수가 체계 개편과 병원 행정 절차 표준화 논의 본격화.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?wr_id=941129"
+    ]
+   },
+   {
+    "title": "간호간병 중증병실 도입 및 입원서비스 개편",
+    "body": "복지부가 중증환자 전담병실 도입을 포함한 간호·간병통합서비스 질적 개선 로드맵 수립에 착수함. 휠체어 훈련 건강보험 급여화 인정 등 환자 일상 복귀를 지원하는 재활 및 입원 진료 서비스 확대 흐름.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492094&tag=&nPage=3",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492006&tag=&nPage=6"
+    ]
+   }
+  ],
+  "implications": [
+   "권역외상센터 및 권역책임의료기관으로서 정부의 중증외상 최종치료 집중 지원 정책과 연계한 외상·응급 배후진료 전문의 진료체계 강화 검토",
+   "경희대병원 등 타권역 상급종합병원의 CAR-T 세포치료센터 개소 및 첨단재생의료 1호 치료 승인 흐름에 대응한 난치질환 첨단세포치료 프로세스 및 시설 인프라 선제 검토",
+   "정부의 간호·간병통합서비스 중증환자 전담병실 도입 정책과 돌봄로봇 병원 실증 사업에 맞춘 스마트 간호간병 입원 환경 개선 방안 검토"
+  ],
+  "count": 51,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-12 13:05",
+  "sig": "1whlulk"
+ }
+}
