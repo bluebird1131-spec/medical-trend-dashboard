@@ -3,12 +3,12 @@
   {
    "date": "2026-10-12",
    "from": "2026-10-12",
-   "headline": "경희대병원 CAR-T센터 개소 추진 및 보건복지부의 중증외상 최종치료 역량 강화 정책 발표",
+   "headline": "국내 주요 병원의 CAR-T 치료센터 진입과 정부의 중증외상·AI 신약 임상 혁신 정책 동향",
    "points": [
     {
      "section": "병원",
-     "title": "경희대병원 CAR-T센터 추진",
-     "body": "종양혈액내과 중심의 인력과 장비, 시설 점검을 마치고 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계 진입.",
+     "title": "경희대병원 CAR-T 세포치료센터 추진",
+     "body": "종양혈액내과 중심 인력과 장비, 시설 점검 및 의료진 교육을 완료하고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계 진입.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
      ]
@@ -16,53 +16,49 @@
     {
      "section": "정책",
      "title": "중증외상 최종치료 역량 강화",
-     "body": "정부 차원에서 중증외상 최종치료 역량을 높이기 위해 권역외상센터 집중 지원 추진.",
+     "body": "정부의 중증외상 최종치료 역량 강화 방침에 따른 권역외상센터 집중 지원 추진.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1"
      ]
     },
     {
      "section": "정책",
-     "title": "AI·디지털 신약 임상개발 혁신",
-     "body": "보건복지부가 급변하는 글로벌 환경에 대응하기 위해 AI와 디지털 기술을 접목한 신약 임상개발 혁신 및 지원 체계 구축 추진.",
+     "title": "AI·디지털 기반 신약 임상 혁신",
+     "body": "급변하는 글로벌 환경 대응을 위한 AI 및 디지털 기술 접목 신약 임상개발 혁신과 지원 체계 구축 추진.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1"
      ]
     },
     {
      "section": "정책",
-     "title": "휠체어 사용 훈련 건보 청구",
-     "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여화 인정으로 재활의료 서비스 확대.",
+     "title": "휠체어 사용 훈련 건보 급여화",
+     "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여화 인정으로 재활의료기관 임상 서비스 확대.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
      ]
     }
    ],
    "implications": [
-    "상급종합병원으로서 첨단 혈액암 치료 역량 강화를 위해 CAR-T 세포치료센터 운영 프로세스 검토",
-    "권역외상센터 집중 지원 기조에 맞추어 중증외상 최종치료 인프라 및 배후진료 전문의 확보 방안 점검",
-    "재활치료 분야 건보 급여화 확대에 따른 원내 재활 프로그램 및 청구 시스템 정비"
+    "상급종합병원의 첨단 혈액암 치료 경쟁력 확보를 위한 CAR-T 세포치료센터 구축 및 임상 적용 검증 절차 벤치마킹",
+    "정부의 중증외상 최종치료 역량 강화 기조에 연계한 원내 응급 및 외상 인프라 운영 전략 검토",
+    "AI·디지털 기반 신약 임상개발 지원 체계 및 재활치료 건강보험 급여 확대에 따른 원내 임상 서비스 적용 검토"
    ],
-   "count": 15,
+   "count": 11,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-12 22:11",
-   "sig": "3:rhqdpc",
+   "generatedAt": "2026-10-12 22:27",
+   "sig": "3:mv93v9",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941284",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
     "https://www.dailymedi.com/news/news_view.php?wr_id=941303",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941303",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171106",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171102",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941306",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941308"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
    ]
   }
  ],
