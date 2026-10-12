@@ -4,6 +4,7 @@
 <base target="_blank">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <title>의료계 동향</title>
 <link rel="preload" href="assets/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
 <script src="assets/lucide.min.js"></script>
@@ -14,25 +15,16 @@
     src: url("assets/PretendardVariable.woff2") format("woff2-variations");
   }
 
-  /* shadcn/ui (zinc) 토큰 + 포인트 색 1개(indigo) */
+  /* 아이보리 톤 고정 (기기 다크 모드와 관계없이 밝게) + 포인트 색 1개(indigo) */
   :root {
-    --background: #f7f7f8; --surface: #fafafa; --card: #ffffff;
-    --foreground: #09090b; --heading: #18181b; --body: #27272a; --soft: #52525b; --muted: #71717a; --faint: #a1a1aa;
-    --border: #e4e4e7; --border-strong: #d4d4d8; --hover: #f4f4f5;
-    --primary: #18181b; --primary-foreground: #fafafa;
-    --accent: #4f46e5; --accent-soft: #eef2ff; --on-accent: #ffffff;
+    --background: #f7f4ec; --surface: #fbf9f3; --card: #fffdf8;
+    --foreground: #1c1917; --heading: #1c1917; --body: #292524; --soft: #57534e; --muted: #78716c; --faint: #a8a29e;
+    --border: #e8e2d4; --border-strong: #d8d0bd; --hover: #f2ede2;
+    --primary: #1c1917; --primary-foreground: #fafaf9;
+    --accent: #4f46e5; --accent-soft: #eceefb; --on-accent: #ffffff;
     --mark: #fef08a; --overlay: rgba(9, 9, 11, .4); --ring: #a1a1aa;
-    --radius: 14px; --tb-h: 64px; --warn: #b45309; --warn-soft: #fffbeb;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background: #09090b; --surface: #0c0c0e; --card: #111113;
-      --foreground: #fafafa; --heading: #fafafa; --body: #e4e4e7; --soft: #b4b4bb; --muted: #a1a1aa; --faint: #71717a;
-      --border: #27272a; --border-strong: #3f3f46; --hover: #1c1c1f;
-      --primary: #fafafa; --primary-foreground: #18181b;
-      --accent: #a5b4fc; --accent-soft: #1e1b4b; --on-accent: #1e1b4b;
-      --mark: #713f12; --overlay: rgba(0, 0, 0, .6); --ring: #52525b; --warn: #fcd34d; --warn-soft: #451a03;
-    }
+    --radius: 14px; --tb-h: 64px; --warn: #b45309; --warn-soft: #fdf3dc;
+    color-scheme: light;
   }
 
   * { box-sizing: border-box; }
@@ -427,7 +419,6 @@
     <span class="util-label"><i data-lucide="landmark"></i><span>주요 사이트 바로가기</span></span>
     <nav class="util-links" aria-label="주요 사이트 바로가기">
       <a class="qlink" href="https://www.mohw.go.kr" rel="noopener">보건복지부<i data-lucide="arrow-up-right"></i></a>
-      <a class="qlink" href="https://www.kdca.go.kr" rel="noopener">질병관리청<i data-lucide="arrow-up-right"></i></a>
       <a class="qlink" href="https://www.docdocdoc.co.kr" rel="noopener">청년의사<i data-lucide="arrow-up-right"></i></a>
       <a class="qlink" href="https://www.medicaltimes.com" rel="noopener">메디컬타임즈<i data-lucide="arrow-up-right"></i></a>
       <a class="qlink" href="https://www.dailymedi.com" rel="noopener">데일리메디<i data-lucide="arrow-up-right"></i></a>
@@ -650,7 +641,8 @@
   // 상위 5개 묶음 + 나머지는 '기타'
   const topNames = list => {
     const m = new Map();
-    list.forEach(it => groups(it.r).forEach(g => m.set(g, (m.get(g) || 0) + 1)));
+    // 분류값 자체가 '기타'인 기사는 맨 끝 '기타' 묶음으로 (같은 이름 묶음이 두 번 나오지 않게)
+    list.forEach(it => groups(it.r).forEach(g => g !== OTHER && m.set(g, (m.get(g) || 0) + 1)));
     const sorted = [...m].sort((a, b) => b[1] - a[1]);
     if (sorted.length <= TOP + 1) return sorted.map(x => x[0]);
     const multi = sorted.filter(x => x[1] >= 2).slice(0, TOP).map(x => x[0]);
@@ -892,7 +884,7 @@
         <aside class="ai-side">
           <h3>${icon('lightbulb')}우리 병원 시사점</h3>
           ${imp.length ? `<ul>${imp.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="ai-note" style="margin:0">이번 브리핑에는 시사점이 없습니다.</p>'}
-          <p class="ai-note">Gemini가 선별 기사 요약을 바탕으로 자동 작성했습니다${b.generatedAt ? ` (${esc(b.generatedAt)})` : ''}. 판단 전에 근거 기사를 확인해 주세요.</p>
+          <p class="ai-note">${/claude/i.test(b.model || '') ? 'Claude' : 'Gemini'}가 선별 기사 요약을 바탕으로 작성했습니다${b.generatedAt ? ` (${esc(b.generatedAt)})` : ''}. 판단 전에 근거 기사를 확인해 주세요.</p>
         </aside>
       </div>
     </section>`;

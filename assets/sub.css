@@ -1,27 +1,17 @@
-/* 관리자·게시판 페이지 공통 스타일 (index.html 과 같은 토큰: shadcn/ui zinc + indigo) */
+/* 관리자·게시판 페이지 공통 스타일 (index.html 과 같은 토큰: 아이보리 + indigo, 밝은 화면 고정) */
 @font-face {
   font-family: "Pretendard Variable"; font-weight: 45 920; font-style: normal; font-display: swap;
   src: url("PretendardVariable.woff2") format("woff2-variations");
 }
 :root {
-  --background: #f7f7f8; --surface: #fafafa; --card: #ffffff;
-  --foreground: #09090b; --heading: #18181b; --body: #27272a; --soft: #52525b; --muted: #71717a; --faint: #a1a1aa;
-  --border: #e4e4e7; --border-strong: #d4d4d8; --hover: #f4f4f5;
-  --primary: #18181b; --primary-foreground: #fafafa;
-  --accent: #4f46e5; --accent-soft: #eef2ff; --on-accent: #ffffff;
+  --background: #f7f4ec; --surface: #fbf9f3; --card: #fffdf8;
+  --foreground: #1c1917; --heading: #1c1917; --body: #292524; --soft: #57534e; --muted: #78716c; --faint: #a8a29e;
+  --border: #e8e2d4; --border-strong: #d8d0bd; --hover: #f2ede2;
+  --primary: #1c1917; --primary-foreground: #fafaf9;
+  --accent: #4f46e5; --accent-soft: #eceefb; --on-accent: #ffffff;
   --ok: #15803d; --ok-soft: #f0fdf4; --warn: #b45309; --warn-soft: #fffbeb; --bad: #b91c1c; --bad-soft: #fef2f2;
   --radius: 14px;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #09090b; --surface: #0c0c0e; --card: #111113;
-    --foreground: #fafafa; --heading: #fafafa; --body: #e4e4e7; --soft: #b4b4bb; --muted: #a1a1aa; --faint: #71717a;
-    --border: #27272a; --border-strong: #3f3f46; --hover: #1c1c1f;
-    --primary: #fafafa; --primary-foreground: #18181b;
-    --accent: #a5b4fc; --accent-soft: #1e1b4b; --on-accent: #1e1b4b;
-    --ok: #86efac; --ok-soft: #052e16; --warn: #fcd34d; --warn-soft: #451a03; --bad: #fca5a5; --bad-soft: #450a0a;
-    color-scheme: dark;
-  }
+  color-scheme: light;
 }
 * { box-sizing: border-box; }
 body {
