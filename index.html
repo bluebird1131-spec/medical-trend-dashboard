@@ -569,7 +569,7 @@
   // 요약 맨 앞 "[선별(필요)-공적정책]" 같은 판정 태그는 본문에서 떼어 따로 보여 줌
   const TAG = /^\s*\[([^\]]+)\]\s*/;
   const summaryOf = r => get(r, 'summary').replace(TAG, '');
-  const judgeOf = r => { const m = get(r, 'summary').match(TAG); return m ? m[1].replace(/^(선별\(필요\)|검토필요|선별|검토)\s*[-·:]\s*/, '') : ''; };
+  const judgeOf = r => { const m = get(r, 'summary').match(TAG); return m ? m[1].replace(/^(선별\(필요\)|검토필요|선별|검토|필요)\s*[-·:]\s*/, '') : ''; };
   // 시트에 이미지 열이 있으면 그것을, 없으면 수집 스크립트가 원문에서 가져온 대표 이미지를 씀
   // 수집 스크립트가 열리는지 확인해 고른 사진(thumbs)을 먼저 쓰고, 확인하지 못한 경우에만 시트 사진을 시도
   // 여러 기사에 똑같이 들어간 시트 사진은 기관 배너로 보고 쓰지 않음
@@ -676,16 +676,16 @@
     headers = d.headers || [];
     cols = detect(headers);
     thumbs = d.thumbs || {};
-    // 머리글 이름과 관계없이 '선별(필요)/검토필요/제외(…)' 값이 대부분인 열을 상태 열로 봄
+    // 머리글 이름과 관계없이 '필요/검토필요/불필요'(예전 '선별(필요)/제외(…)') 값이 대부분인 열을 상태 열로 봄
     const rows = d.rows || [];
     const st = headers.findIndex((_, i) => {
       const v = rows.map(r => String(r[i] ?? '').trim()).filter(Boolean);
-      return v.length && v.filter(x => /^(선별|검토|제외)/.test(x)).length / v.length >= 0.5;
+      return v.length && v.filter(x => /^\[?\s*(필요|불필요|선별|검토|제외)/.test(x)).length / v.length >= 0.5;
     });
     if (st >= 0) { for (const k in cols) if (cols[k] === st) delete cols[k]; cols.status = st; }
     imgFreq = new Map();
     if (cols.image !== undefined) rows.forEach(r => { const v = String(r[cols.image] ?? '').trim(); if (v) imgFreq.set(v, (imgFreq.get(v) || 0) + 1); });
-    items = rows.filter(r => !/^제외/.test(get(r, 'status'))).map(r => {
+    items = rows.filter(r => !/^\[?\s*(불필요|제외)/.test(get(r, 'status'))).map(r => {
       const date = parseDate(get(r, 'date'));
       const collected = parseDate(get(r, 'collected')) || date;
       return { r, date, collected, id: hash(dayKey(date) + '|' + get(r, 'title')), text: r.join(' ').toLowerCase() };

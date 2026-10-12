@@ -1,7 +1,8 @@
 /**
  * 구글 시트를 CSV로 읽어 data.json 으로 저장함 (GitHub Actions 에서 30분마다 실행).
  * - 시트 주소: 저장소 Settings → Secrets 의 SHEET_URL
- * - '제외(중복)', '제외(불필요)' 행은 올리지 않음 (선별·검토필요만 공개)
+ * - 선별상태가 '필요'·'검토필요'(예전 시트의 '선별(필요)' 포함)인 행만 공개
+ *   '불필요'·'제외(…)' 행과, 수집 봇이 넣었지만 아직 AI가 분석하지 않은 빈 행은 올리지 않음
  * - 기사마다 쓸 수 있는 대표 사진 1장을 골라 data.json 의 thumbs 에 넣음 (조회 결과는 thumbs.json 에 캐시)
  *   1) 시트의 대표사진 URL — 실제로 열리는 이미지일 때만
  *   2) 원문의 og:image — 사이트 로고 제외
@@ -41,12 +42,15 @@ const [rawHeaders = [], ...rawRows] = parseCsv(text.replace(/^﻿/, ''));
 const headers = rawHeaders.map(h => h.trim());
 let rows = rawRows.filter(r => r.some(c => c.trim() !== ''));
 
-// 상태 열: '선별(필요)/검토필요/제외(…)' 값이 대부분인 열
-const statusCol = findCol(v => /^(선별|검토|제외)/.test(v), 0.5);
+// 상태 열: '필요/검토필요/불필요'(예전 시트는 '선별(필요)/제외(…)') 값이 대부분인 열.
+// 아직 분석 전이라 값이 비어 있으면 머리글(선별상태)로 찾음
+const SHOW = /^\[?\s*(필요|선별|검토)/;
+const statusCol = (i => i >= 0 ? i : headers.findIndex(h => /선별|상태|status/i.test(h)))(
+  findCol(v => /^\[?\s*(필요|불필요|선별|검토|제외)/.test(v), 0.5));
 if (statusCol >= 0) {
   const before = rows.length;
-  rows = rows.filter(r => !/^제외/.test((r[statusCol] || '').trim()));
-  console.log(`상태 열 "${headers[statusCol]}" 기준 제외 ${before - rows.length}건 숨김`);
+  rows = rows.filter(r => SHOW.test((r[statusCol] || '').trim()));
+  console.log(`상태 열 "${headers[statusCol]}" 기준 ${before}건 중 ${rows.length}건 공개 (불필요·제외·미분석 숨김)`);
 }
 
 // 사진 열(대표사진 URL 등)과 링크 열(기사 URL 등). "대표사진 URL"이 링크로 잡히지 않게 사진 열부터 찾음
@@ -156,6 +160,7 @@ async function pageImage(url) {
 
 
 // 일반 시트 주소(/edit), 웹에 게시 주소(/pubhtml), CSV 주소 모두 받아 CSV 주소로 변환
+// 주소에 gid 가 없으면 첫 번째 탭을 읽음
 export function toCsvUrl(url) {
   url = url.trim();
   if (!url) return '';
@@ -166,7 +171,7 @@ export function toCsvUrl(url) {
   }
   const id = url.match(/\/spreadsheets\/d\/([\w-]+)/);
   if (id) {
-    return `https://docs.google.com/spreadsheets/d/${id[1]}/export?format=csv&gid=${gid || 0}`;
+    return `https://docs.google.com/spreadsheets/d/${id[1]}/export?format=csv` + (gid ? `&gid=${gid}` : '');
   }
   return url;
 }
