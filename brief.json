@@ -3,93 +3,55 @@
   {
    "date": "2026-10-12",
    "from": "2026-10-12",
-   "headline": "대학병원 첨단치료·의료 AI 도입 가속화 및 재활 수가 확대",
+   "headline": "첨단세포치료 및 AI 도입 등 진료 혁신 가속화와 중증외상·배후진료 지원 강화 추진",
    "points": [
     {
-     "title": "첨단세포치료 및 로봇수술 역량 고도화",
-     "body": "경희대병원이 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 검증에 착수하고, 한림대동탄성심병원이 경방광 단일공 로봇 전립선절제술의 회복 속도 및 정밀도 성과를 입증함.",
+     "title": "경희대병원 CAR-T 치료센터 검증 착수",
+     "body": "경희대병원이 종양혈액내과 중심 인력과 장비 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-      "http://www.docdocdoc.co.kr/news/articleViewAmp.html?idxno=3043396"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
      ]
     },
     {
-     "title": "임상 맞춤형 의료 AI 진단·솔루션 도입",
-     "body": "서울아산병원이 피부종양 합성 생성형 AI 및 간암 병리 AI 모델을 개발하고, 이대목동병원이 심방세동 예측 등 AI 솔루션의 임상 적용을 본격화함.",
+     "title": "AI 기반 신약 임상 및 병리 솔루션 확장",
+     "body": "정부의 AI 신약 임상개발 지원 체계 구축과 민간의 글로벌 AI 병리 소프트웨어 공급 착수 등 디지털 기술 임상 적용이 가속화됨.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?wr_id=941247",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398",
-      "https://www.dailymedi.com/news/news_view.php?wr_id=941137"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117",
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1"
      ]
     },
     {
-     "title": "휠체어 사용 훈련 건강보험 급여 인정",
-     "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 청구가 인정되어 재활의료 서비스 확대 기반 마련.",
+     "title": "권역외상 집중 지원 및 재활 훈련 급여화",
+     "body": "보건복지부의 중증외상 최종치료 역량 강화 및 권역외상센터 집중 지원과 함께, 척수손상·뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여가 인정됨.",
      "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
      ]
     },
     {
-     "title": "의료 AI 제도권 진입 및 가이드라인 정비",
-     "body": "정신건강 목적 생성형 AI 가이드라인이 발표된 가운데, 의료 AI 기술의 건보 수가 진입 장벽 해소 요구와 원내 AI 도입 시 의료진 검증(Human-in-the-loop) 체계 수립 필요성이 제기됨.",
+     "title": "의료AI 수가 진입 및 배후진료 확충 논의",
+     "body": "의료AI 기술의 실제 건강보험 수가 적용 및 병원 행정 절차 표준화 필요성이 제기되고, 상급종합병원 배후진료 전문의 확보 등 중증 응급 인프라 개선 요구가 이어짐.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
-      "https://www.dailymedi.com/news/news_view.php?wr_id=941129"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315"
      ]
     }
    ],
    "implications": [
-    "중증 혈액암 환자 치료 역량 강화를 위한 CAR-T 세포치료 인력·장비·시설 점검 및 센터 개소 검토 필요",
-    "뇌졸중 및 척수손상 환자 대상 휠체어 일상 적응 훈련 프로그램 신설 및 건보 급여 청구 프로세스 정비 추진",
-    "원내 생성형 AI 도입 시 진단보다 행정·업무 지원을 우선 검토하고 의료진 검증 체계를 반영한 도입 지침 마련 필요"
+    "보건복지부 권역외상센터 집중 지원 기조에 맞춘 중증외상 최종치료 프로세스 및 배후진료 전문의 협진 체계 점검 필요",
+    "재활의학과 척수손상·뇌졸중 입원·외래 환자 대상 휠체어 일상 적응 훈련 건강보험 급여 청구 기준 마련 및 임상 서비스 확대 검토",
+    "타 상급종합병원의 CAR-T 세포치료센터 개소 준비에 대응한 혈액암 분야 첨단세포치료 인력·시설 인프라 벤치마킹 검토"
    ],
-   "count": 60,
+   "count": 16,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-12 13:03",
-   "sig": "15hfxd9",
+   "generatedAt": "2026-10-12 13:07",
+   "sig": "ebkf8e",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
-    "https://www.dailymedi.com/news/news_view.php?wr_id=941247",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
-    "http://www.docdocdoc.co.kr/news/articleViewAmp.html?idxno=3043396",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398",
-    "https://www.mohw.go.kr/menu.es?mid=a10503010200",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?wr_id=941137",
-    "https://www.dailymedi.com/news/news_view.php?wr_id=941066",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492128&tag=&nPage=2",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492095&tag=&nPage=3",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492041&tag=&nPage=4",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491983&tag=&nPage=6",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491944&tag=&nPage=7",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491672&tag=&nPage=10",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491416&tag=&nPage=16",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491391&tag=&nPage=17",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491366&tag=&nPage=17",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491345&tag=&nPage=17",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491119&tag=&nPage=22",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491023&tag=&nPage=24",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490959&tag=&nPage=26",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490925&tag=&nPage=26",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490901&tag=&nPage=27",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490673&tag=&nPage=31",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490633&tag=&nPage=32",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490587&tag=&nPage=33",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490521&tag=&nPage=35",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490474&tag=&nPage=36",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490433&tag=&nPage=37",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490426&tag=&nPage=37",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490286&tag=&nPage=40",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490117&tag=&nPage=43",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489911&tag=&nPage=47",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171103",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171102",
@@ -100,16 +62,7 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941305",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941316",
-    "https://dailymedi.com/news/news_view.php?ca_id=2112&wr_id=941266",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?wr_id=941129",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492156&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492155&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492142&tag=&nPage=2",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492124&tag=&nPage=2",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492120&tag=&nPage=2"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941316"
    ]
   }
  ],
