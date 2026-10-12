@@ -108,8 +108,12 @@
       <div class="row-tools">
         <input class="input" id="q" type="search" placeholder="제목·요약·출처·기관 검색" autocomplete="off">
         <select class="select" id="period" aria-label="보도일자 기간">
+          <option value="1">오늘</option>
+          <option value="2" selected>어제~오늘</option>
+          <option value="3">최근 3일</option>
+          <option value="4">최근 4일</option>
           <option value="7">최근 7일</option>
-          <option value="30" selected>최근 30일</option>
+          <option value="30">최근 30일</option>
           <option value="all">전체 기간</option>
         </select>
         <button class="btn" type="button" id="refresh"><i data-lucide="refresh-cw"></i><span class="hide-sm">시트 다시 읽기</span></button>
