@@ -40,6 +40,11 @@
   .seg button.on[data-s="불필요"] { background: var(--primary); color: var(--primary-foreground); }
   .seg button:disabled { cursor: wait; }
   .saved { font-size: 12px; font-weight: 600; color: var(--ok); }
+  .pend { display: inline-flex; align-items: center; gap: 4px; height: 20px; padding: 0 7px; border-radius: 5px; background: var(--accent-soft); color: var(--accent); font-size: 12px; font-weight: 700; }
+  .pend .lucide { width: 12px; height: 12px; }
+  .chip.pend-tab { border-color: var(--accent); color: var(--accent); }
+  .chip.pend-tab.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+  .pub-btns { display: flex; gap: 8px; }
   .publish {
     position: sticky; bottom: 0; z-index: 25; margin-top: 16px; padding: 12px 0 calc(12px + env(safe-area-inset-bottom, 0px));
     background: var(--background); border-top: 1px solid var(--border);
@@ -95,7 +100,7 @@
   <div class="wrap">
     <div class="head">
       <h1>기사 선별</h1>
-      <p>구글 시트에서 AI 분석이 끝난 기사입니다. 상태를 누르면 바로 시트에 저장되고, 아래 <b>사이트에 반영</b>을 누르면 1~2분 뒤 대시보드에 나타납니다. 대시보드에는 필요·검토필요만 공개됩니다.</p>
+      <p>구글 시트에서 AI 분석이 끝난 기사입니다. 상태를 눌러 바꿀 기사를 모두 고른 뒤, 아래 <b>적용</b>을 누르면 한꺼번에 시트에 저장되고 1~2분 뒤 대시보드에 반영됩니다. 대시보드에는 필요·검토필요만 공개됩니다.</p>
     </div>
     <div class="toolbar">
       <div class="chips" id="tabs"></div>
@@ -115,7 +120,10 @@
   <div class="publish">
     <div class="wrap">
       <div class="publish-msg" id="pubMsg">바꾼 기사가 없습니다</div>
-      <button class="btn btn-dark" type="button" id="publish"><i data-lucide="upload-cloud"></i>사이트에 반영</button>
+      <div class="pub-btns">
+        <button class="btn" type="button" id="undo" hidden><i data-lucide="undo-2"></i>되돌리기</button>
+        <button class="btn btn-dark" type="button" id="publish"><i data-lucide="upload-cloud"></i><span id="pubLabel">사이트에 반영</span></button>
+      </div>
     </div>
   </div>
 </main>
@@ -140,7 +148,10 @@
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const icons = () => window.lucide && lucide.createIcons();
-  let key = '', headers = [], rows = [], C = {}, tab = '필요', shown = PAGE, changed = 0, view = 'news';
+  let key = '', headers = [], rows = [], C = {}, tab = '필요', shown = PAGE, view = 'news';
+  // 적용 전까지 고른 상태를 모아 둠 (기사 주소 → 상태). 시트를 다시 읽어도 유지됨
+  const pending = new Map();
+  let busy = false;
   try { key = sessionStorage.getItem('mt-admin') || ''; } catch {}
 
   function toast(msg) {
@@ -201,7 +212,9 @@
             summary: col(/요약|내용/), org: col(/병원|기관/), region: col(/지역/), date: col(/보도/), link: col(/url/i) };
       rows = (j.rows || []).map(r => ({ ...r, st: norm(val(r, 'status')) }));
       rows.sort((a, b) => ymd(val(b, 'date')).localeCompare(ymd(val(a, 'date'))) || b.row - a.row);
-      shown = PAGE; render();
+      const now = new Map(rows.map(r => [val(r, 'link'), r.st]));
+      for (const [link, s] of pending) if (!now.has(link) || now.get(link) === s) pending.delete(link);
+      shown = PAGE; render(); paintPublish();
     } catch (e) {
       $('items').innerHTML = `<div class="notice bad"><i data-lucide="circle-alert"></i><div>시트를 읽지 못했습니다: ${esc(e.message)}</div></div>`; icons();
     } finally { $('refresh').disabled = false; }
@@ -216,10 +229,12 @@
   function render() {
     const base = filtered();
     const n = s => base.filter(r => r.st === s).length;
+    if (tab === '변경' && !pending.size) tab = '필요';
     $('tabs').innerHTML = [...STATUSES, '전체'].map(s =>
-      `<button type="button" class="chip${s === tab ? ' on' : ''}" data-tab="${s}">${s}<span class="n">${(s === '전체' ? base.length : n(s)).toLocaleString()}</span></button>`).join('');
-    const list = tab === '전체' ? base : base.filter(r => r.st === tab);
-    $('sumLine').innerHTML = `<span>${esc($('period').selectedOptions[0].text)} · ${esc(tab)} <b>${list.length.toLocaleString()}건</b></span><span>시트 분석 완료 ${rows.length.toLocaleString()}건</span>`;
+      `<button type="button" class="chip${s === tab ? ' on' : ''}" data-tab="${s}">${s}<span class="n">${(s === '전체' ? base.length : n(s)).toLocaleString()}</span></button>`).join('') +
+      (pending.size ? `<button type="button" class="chip pend-tab${tab === '변경' ? ' on' : ''}" data-tab="변경">적용 대기<span class="n">${pending.size.toLocaleString()}</span></button>` : '');
+    const list = tab === '전체' ? base : tab === '변경' ? rows.filter(r => pending.has(val(r, 'link'))) : base.filter(r => r.st === tab);
+    $('sumLine').innerHTML = `<span>${tab === '변경' ? '' : esc($('period').selectedOptions[0].text) + ' · '}${esc(tab === '변경' ? '적용 대기' : tab)} <b>${list.length.toLocaleString()}건</b></span><span>시트 분석 완료 ${rows.length.toLocaleString()}건</span>`;
     $('items').innerHTML = list.length ? list.slice(0, shown).map(item).join('') +
       (list.length > shown ? `<button class="btn" style="display:flex;margin:16px auto 0" type="button" id="more">더 보기 (${(list.length - shown).toLocaleString()}건 남음)</button>` : '')
       : `<div class="card state"><i data-lucide="inbox"></i><div>조건에 맞는 기사가 없습니다</div></div>`;
@@ -228,13 +243,14 @@
   function item(r) {
     const link = val(r, 'link'), sum = val(r, 'summary').replace(/^\s*\[[^\]]*\]\s*/, '');
     const meta = [val(r, 'date'), val(r, 'source'), val(r, 'org'), val(r, 'region')].filter(Boolean).map(esc);
-    return `<article class="card item${r.changedTo ? ' changed' : ''}" data-row="${r.row}">
+    const want = pending.get(link), cur = want || r.st;
+    return `<article class="card item${want ? ' changed' : ''}" data-row="${r.row}">
       <div>
-        <div class="meta">${val(r, 'category') ? `<span class="cat">${esc(val(r, 'category'))}</span>` : ''}${meta.join(' · ')}${r.changedTo ? ` <span class="saved">· 시트에 저장됨</span>` : ''}</div>
+        <div class="meta">${want ? `<span class="pend">${esc(r.st)}<i data-lucide="arrow-right"></i>${esc(want)}</span>` : ''}${val(r, 'category') ? `<span class="cat">${esc(val(r, 'category'))}</span>` : ''}${meta.join(' · ')}${r.saved && !want ? ` <span class="saved">· 시트에 저장됨</span>` : ''}</div>
         <h3 class="title">${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(val(r, 'title'))}</a>` : esc(val(r, 'title'))}</h3>
         ${sum ? `<p class="sum" title="눌러서 펼치기">${esc(sum)}</p>` : ''}
       </div>
-      <div class="seg" role="group" aria-label="선별상태">${STATUSES.map(s => `<button type="button" data-s="${s}" class="${r.st === s ? 'on' : ''}">${s}</button>`).join('')}</div>
+      <div class="seg" role="group" aria-label="선별상태">${STATUSES.map(s => `<button type="button" data-s="${s}" class="${cur === s ? 'on' : ''}"${busy ? ' disabled' : ''}>${s}</button>`).join('')}</div>
     </article>`;
   }
   $('tabs').addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) { tab = b.dataset.tab; shown = PAGE; render(); } });
@@ -244,36 +260,44 @@
   $('items').addEventListener('click', async e => {
     if (e.target.id === 'more') { shown += PAGE; render(); return; }
     const sum = e.target.closest('.sum'); if (sum) { sum.classList.toggle('open'); return; }
-    const b = e.target.closest('.seg button'); if (!b) return;
+    const b = e.target.closest('.seg button'); if (!b || busy) return;
     const el = b.closest('.item'), r = rows.find(x => x.row === +el.dataset.row), s = b.dataset.s;
-    if (!r || r.st === s) return;
-    el.querySelectorAll('.seg button').forEach(x => x.disabled = true);
-    try {
-      const j = await api('/api/admin/status', { method: 'POST', body: JSON.stringify({ updates: [{ row: r.row, link: val(r, 'link'), status: s }] }) });
-      if (j.missing && j.missing.length) throw new Error('시트에서 이 기사를 찾지 못했습니다. 시트 다시 읽기를 눌러 주세요.');
-      const d = (j.done || [])[0]; if (d) r.row = d.row;
-      r.st = s; r.v[C.status] = s; r.changedTo = s;
-      changed++; paintPublish();
-      toast(`"${s}"(으)로 바꿨습니다`);
-      render();
-    } catch (err) {
-      toast(err.message);
-      el.querySelectorAll('.seg button').forEach(x => x.disabled = false);
-    }
+    if (!r) return;
+    const link = val(r, 'link');
+    if (!link) { toast('기사 주소가 없어 바꿀 수 없습니다'); return; }
+    if (r.st === s) pending.delete(link); else pending.set(link, s);
+    // 목록 전체를 다시 그리지 않고 이 기사와 하단 바만 고침
+    el.outerHTML = item(r); icons();
+    paintTabs(); paintPublish();
   });
+  function paintTabs() {
+    let chip = $('tabs').querySelector('[data-tab="변경"]');
+    if (!chip && pending.size) {
+      $('tabs').insertAdjacentHTML('beforeend', `<button type="button" class="chip pend-tab" data-tab="변경">적용 대기<span class="n"></span></button>`);
+      chip = $('tabs').lastElementChild;
+    }
+    if (!chip) return;
+    if (!pending.size && tab !== '변경') chip.remove();
+    else chip.querySelector('.n').textContent = pending.size.toLocaleString();
+  }
+  window.addEventListener('beforeunload', e => { if (pending.size) { e.preventDefault(); e.returnValue = ''; } });
 
   /* ---------- 사이트에 반영 ---------- */
-  let lastRun = null, watching = null;
+  let lastRun = null, watching = null, progress = '';
   function paintPublish(run) {
     if (run) lastRun = run;
     const r = lastRun;
     const running = r && r.status !== 'completed';
     const t = r ? new Date(r.updated_at).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }) : '';
-    $('pubMsg').innerHTML = running
-      ? `<i data-lucide="loader" class="spin"></i>사이트에 반영하는 중입니다 · 1~2분 걸립니다`
-      : changed ? `이번에 바꾼 기사 <b>${changed}건</b> · 반영하려면 오른쪽 버튼을 눌러 주세요`
+    const cnt = STATUSES.map(s => [s, [...pending.values()].filter(v => v === s).length]).filter(([, n]) => n).map(([s, n]) => `${s} ${n}`).join(' · ');
+    $('undo').hidden = !pending.size || busy;
+    $('pubLabel').textContent = pending.size ? `${pending.size.toLocaleString()}건 적용` : '사이트에 반영';
+    $('pubMsg').innerHTML = busy
+      ? `<i data-lucide="loader" class="spin"></i>${progress}`
+      : pending.size ? `적용 대기 <b>${pending.size.toLocaleString()}건</b> (${cnt}) · 적용을 누르면 시트에 저장하고 사이트에 반영합니다`
+      : running ? `<i data-lucide="loader" class="spin"></i>사이트에 반영하는 중입니다 · 1~2분 걸립니다`
       : r ? `${r.conclusion === 'success' ? `<i data-lucide="circle-check" style="color:var(--ok)"></i>마지막 반영 ${t} 완료` : `<i data-lucide="circle-alert" style="color:var(--bad)"></i>마지막 반영 ${t} 실패 · <a href="${esc(r.url)}" target="_blank" rel="noopener">기록 보기</a>`}` : '바꾼 기사가 없습니다';
-    $('publish').disabled = !!running;
+    $('publish').disabled = busy || (!pending.size && !!running);
     icons();
   }
   async function watchRuns() {
@@ -284,16 +308,49 @@
       if (lastRun && lastRun.status !== 'completed') watching = setTimeout(watchRuns, 8000);
     } catch {}
   }
-  $('publish').addEventListener('click', async () => {
-    $('publish').disabled = true;
+  async function publish() {
+    await api('/api/admin/publish', { method: 'POST', body: '{}' });
+    paintPublish({ status: 'queued', updated_at: new Date().toISOString() });
+    setTimeout(watchRuns, 5000);
+  }
+  // 대기 중인 변경을 200건씩 나눠 시트에 저장한 뒤 사이트 반영까지
+  async function applyAll() {
+    const ups = rows.filter(r => pending.has(val(r, 'link')) && pending.get(val(r, 'link')) !== r.st)
+      .map(r => ({ row: r.row, link: val(r, 'link'), status: pending.get(val(r, 'link')) }));
+    if (!ups.length) { pending.clear(); render(); paintPublish(); return; }
+    busy = true; render();
+    let saved = 0, missing = 0;
     try {
-      await api('/api/admin/publish', { method: 'POST', body: '{}' });
-      changed = 0;
-      paintPublish({ status: 'queued', updated_at: new Date().toISOString() });
-      toast('반영을 시작했습니다');
-      setTimeout(watchRuns, 5000);
-    } catch (err) { toast(err.message); $('publish').disabled = false; }
+      for (let i = 0; i < ups.length; i += 200) {
+        progress = `시트에 저장하는 중 · ${Math.min(i + 200, ups.length).toLocaleString()} / ${ups.length.toLocaleString()}건`; paintPublish();
+        const chunk = ups.slice(i, i + 200);
+        const j = await api('/api/admin/status', { method: 'POST', body: JSON.stringify({ updates: chunk }) });
+        for (const d of j.done || []) {
+          rows.filter(r => val(r, 'link') === d.link).forEach(r => { r.st = d.status; r.v[C.status] = d.status; r.saved = true; });
+          saved++;
+        }
+        missing += (j.missing || []).length;
+        chunk.forEach(u => pending.delete(u.link));
+      }
+      progress = '사이트 반영을 요청하는 중'; paintPublish();
+      let pubErr = '';
+      try { await publish(); } catch (err) { pubErr = err.message; }
+      toast(`${saved.toLocaleString()}건을 시트에 저장했습니다` + (missing ? ` · ${missing}건은 시트에서 찾지 못해 건너뜀` : '') +
+        (pubErr ? ` · 사이트 반영 요청 실패: ${pubErr}` : ' · 사이트 반영 시작'));
+    } catch (err) {
+      toast(`저장 중 멈췄습니다 (${saved}건 저장됨): ${err.message}`);
+    } finally {
+      busy = false; progress = ''; render(); paintPublish();
+    }
+  }
+  $('publish').addEventListener('click', async () => {
+    if (busy) return;
+    if (pending.size) return applyAll();
+    $('publish').disabled = true;
+    try { await publish(); toast('반영을 시작했습니다'); }
+    catch (err) { toast(err.message); $('publish').disabled = false; }
   });
+  $('undo').addEventListener('click', () => { pending.clear(); render(); paintPublish(); toast('고른 변경을 모두 취소했습니다'); });
 
   /* ---------- 의견 관리 ---------- */
   const STATES = ['접수', '확인', '반영', '보류'];
