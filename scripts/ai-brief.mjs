@@ -12,7 +12,9 @@ import { readFile, writeFile } from 'node:fs/promises';
 const DATA = new URL('../data.json', import.meta.url);
 const OUT = new URL('../brief.json', import.meta.url);
 const KEY = (process.env.GEMINI_API_KEY || '').trim();
-const MODELS = [...new Set([process.env.GEMINI_MODEL, 'gemini-2.5-flash', 'gemini-flash-latest'].filter(Boolean))];
+// 앞에서부터 시도. 붐비면 가벼운 모델(lite)로 넘어감
+const MODELS = [...new Set([process.env.GEMINI_MODEL, 'gemini-2.5-flash', 'gemini-flash-latest',
+  'gemini-2.5-flash-lite', 'gemini-flash-lite-latest'].filter(Boolean))];
 const KEEP_DAYS = 30;
 const RECENT = 3;       // 이 일수 안에 수집·보도된 기사만 '오늘 새 기사'로 봄
 const REGEN_HOURS = 3;  // 주간·월간 다시 만드는 최소 간격
@@ -111,7 +113,7 @@ for (const [kind, K] of Object.entries(KINDS)) {
     if (await make(kind, K)) changed = true;
   } catch (e) {
     console.log(`::warning::AI ${K.label} 브리핑을 만들지 못했습니다 (${e.message}). 기사 페이지는 그대로 갱신됩니다.`);
-    if (e.fatal) break;  // 키 문제는 다음 종류도 똑같이 실패
+    if (e.fatal || e.busy) break;  // 키 문제·서버 혼잡은 다음 종류도 똑같이 실패 → 다음 실행에서 다시 시도
   }
 }
 if (changed) await writeFile(OUT, JSON.stringify(brief, null, 1) + '\n');
@@ -165,11 +167,32 @@ async function make(kind, K) {
   return true;
 }
 
-// 모델이 없거나(404) 일시적으로 바쁘면(429·5xx) 다음 모델·재시도
+// 이 키로 쓸 수 있는 모델만 남김 (목록 조회가 실패하면 후보 그대로 시도)
+async function usableModels() {
+  if (usableModels.list) return usableModels.list;
+  try {
+    const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=200', {
+      headers: { 'x-goog-api-key': KEY }, signal: AbortSignal.timeout(30000),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const names = new Set(((await res.json()).models || [])
+      .filter(m => (m.supportedGenerationMethods || []).includes('generateContent'))
+      .map(m => m.name.replace(/^models\//, '')));
+    const ok = MODELS.filter(m => names.has(m));
+    console.log(`사용 가능한 후보 모델: ${ok.join(', ') || '(없음)'}`);
+    usableModels.list = ok.length ? ok : MODELS;
+  } catch (e) {
+    console.log(`모델 목록 조회 실패 (${e.message}), 후보 모델을 차례로 시도`);
+    usableModels.list = MODELS;
+  }
+  return usableModels.list;
+}
+
+// 모델이 없으면(404) 다음 모델, 일시적으로 바쁘면(429·5xx) 기다렸다 재시도 후 다음 모델
 async function generate(prompt) {
   let last;
-  for (const m of MODELS) {
-    for (let attempt = 0; attempt < 2; attempt++) {
+  for (const m of await usableModels()) {
+    for (let attempt = 0; attempt < 3; attempt++) {
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`, {
         method: 'POST',
         headers: { 'content-type': 'application/json', 'x-goog-api-key': KEY },
@@ -187,12 +210,13 @@ async function generate(prompt) {
       }
       const body = (await res.text()).slice(0, 300).replace(/\s+/g, ' ');
       last = `${m}: HTTP ${res.status} ${body}`;
+      console.log(`  ${m} ${attempt + 1}차 시도 실패: HTTP ${res.status} ${body.match(/"status":\s*"(\w+)"/)?.[1] || ''}`);
       if (res.status === 400 || res.status === 401 || res.status === 403) throw Object.assign(new Error(last), { fatal: true });
       if (res.status === 404) break;
-      await new Promise(r => setTimeout(r, 15000));
+      if (attempt < 2) await new Promise(r => setTimeout(r, (attempt + 1) * 20000));
     }
   }
-  throw new Error(last || '응답 없음');
+  throw Object.assign(new Error(last || '응답 없음'), { busy: /HTTP (429|5\d\d)/.test(last || '') });
 }
 
 function hash(s) {
