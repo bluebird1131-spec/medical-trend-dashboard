@@ -164,10 +164,11 @@
   .ai-label .ai-mark .lucide { width: 15px; height: 15px; }
   .ai-label small { font-size: 13px; font-weight: 500; color: var(--muted); }
   .ai-tools { display: flex; align-items: center; gap: 8px; }
-  .ai-kinds { display: inline-flex; padding: 3px; gap: 2px; border-radius: 9px; background: var(--hover); }
-  .ai-kinds button { height: 28px; padding: 0 12px; border: 0; border-radius: 6px; background: transparent; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; }
-  .ai-kinds button:hover { color: var(--foreground); }
-  .ai-kinds button.on { background: var(--card); color: var(--heading); box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .ai-sec + .ai-sec { margin-top: 20px; padding-top: 18px; border-top: 1px dashed var(--border); }
+  .ai-sec-name { display: flex; align-items: center; gap: 6px; margin: 0 0 12px; font-size: 13px; font-weight: 700; color: var(--accent); letter-spacing: .02em; }
+  .ai-sec-name .lucide { width: 14px; height: 14px; }
+  .ai-main { counter-reset: ai; }
+  .ai-main .ai-points { counter-reset: none; }
   .ai-more { height: 24px; padding: 0 6px; font-size: 12px; color: var(--faint); display: inline-flex; align-items: center; }
   .ai-nav { display: flex; align-items: center; gap: 2px; font-size: 13px; color: var(--muted); }
   .ai-nav .icon-btn { width: 30px; height: 30px; }
@@ -830,7 +831,8 @@
   function renderAi() {
     const kinds = Object.keys(AI_KINDS).filter(k => k === 'daily' ? brief.days.length : brief[k]);
     if (!kinds.length) { $('aiBrief').innerHTML = ''; return; }
-    if (!kinds.includes(aiKind)) aiKind = kinds[0];
+    const want = { today: 'daily', '7': 'weekly', '30': 'monthly', all: 'monthly' }[filter.period];
+    aiKind = kinds.includes(want) ? want : kinds[0];
     const b = aiOf(aiKind);
     const byLink = new Map(items.map(it => [get(it.r, 'link'), it]));
     const d = parseDate(b.date), from = parseDate(b.from), a = daysAgo(d);
@@ -843,17 +845,24 @@
       return `${who ? esc(who) + ' · ' : ''}${esc(t.length > 22 ? t.slice(0, 22).replace(/[.…·\s]+$/, '') + '…' : t)}`;
     };
     const SHOW = 4;  // 동향 하나에 근거 기사 버튼은 4개까지 (나머지는 패널에서 ←/→ 로 넘겨 봄)
-    const pts = (b.points || []).map((p, k) => {
-      const refs = (p.links || []).map(l => byLink.get(l)).filter(Boolean);
+    // 동향을 '정책 방향' / '병원 현장'으로 나눠 보여 줌 (주간·월간은 정책 먼저)
+    const SEC = { 정책: '정책 방향', 병원: '병원 현장' };
+    const order = aiKind === 'daily' ? ['병원', '정책'] : ['정책', '병원'];
+    const points = (b.points || []).map((p, k) => ({ ...p, k }));
+    const hasSec = points.some(p => p.section);
+    const item = p => {
+      const k = p.k, refs = (p.links || []).map(l => byLink.get(l)).filter(Boolean);
       ctxs['ai:' + k] = refs;
       return `<li><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p>
         ${refs.length ? `<div class="ai-refs">${refs.slice(0, SHOW).map((it, i) =>
           `<button type="button" class="ai-ref" data-ctx="ai:${k}" data-i="${i}" title="${esc(titleOf(it))}">${refName(it)}</button>`).join('')}${
           refs.length > SHOW ? `<span class="ai-more">외 ${fmt(refs.length - SHOW)}건</span>` : ''}</div>` : ''}</li>`;
-    }).join('');
+    };
+    const pts = hasSec
+      ? order.map(sec => [sec, points.filter(p => (p.section || '병원') === sec)]).filter(([, arr]) => arr.length)
+          .map(([sec, arr]) => `<div class="ai-sec"><h4 class="ai-sec-name">${icon(sec === '정책' ? 'landmark' : 'hospital')}${SEC[sec]}</h4><ol class="ai-points">${arr.map(item).join('')}</ol></div>`).join('')
+      : `<ol class="ai-points">${points.map(item).join('')}</ol>`;
     const imp = b.implications || [];
-    const tabs = kinds.length > 1 ? `<div class="ai-kinds" role="tablist" aria-label="브리핑 기간">${kinds.map(k =>
-      `<button type="button" role="tab" aria-selected="${k === aiKind}" class="${k === aiKind ? 'on' : ''}" data-aikind="${k}">${AI_KINDS[k]}</button>`).join('')}</div>` : '';
     const nav = aiKind === 'daily' && brief.days.length > 1 ? `<div class="ai-nav">
         <button class="icon-btn" type="button" data-ai="1" ${briefAt >= brief.days.length - 1 ? 'disabled' : ''} aria-label="이전 날 브리핑">${icon('chevron-left')}</button>
         <button class="icon-btn" type="button" data-ai="-1" ${briefAt === 0 ? 'disabled' : ''} aria-label="다음 날 브리핑">${icon('chevron-right')}</button>
@@ -861,12 +870,12 @@
     $('aiBrief').innerHTML = `<section class="card ai" aria-label="AI 브리핑">
       <div class="ai-head">
         <div class="ai-label"><span class="ai-mark">${icon('sparkles')}</span>AI ${AI_KINDS[aiKind]} 브리핑<small>${span}</small></div>
-        <div class="ai-tools">${nav}${tabs}</div>
+        <div class="ai-tools">${nav}</div>
       </div>
       <div class="ai-body">
         <div class="ai-main">
           ${b.headline ? `<p class="ai-headline">${esc(b.headline)}</p>` : ''}
-          <ol class="ai-points">${pts}</ol>
+          ${pts}
         </div>
         <aside class="ai-side">
           <h3>${icon('lightbulb')}우리 병원 시사점</h3>
@@ -1121,7 +1130,6 @@
     if ((el = t.closest('[data-open]'))) return markRead(el.dataset.open);
     if ((el = t.closest('[data-ctx]'))) return openReader(+el.dataset.i, ctxs[el.dataset.ctx] || []);
     if ((el = t.closest('[data-ai]'))) { briefAt += +el.dataset.ai; renderAi(); drawIcons(); return; }
-    if ((el = t.closest('[data-aikind]'))) { aiKind = el.dataset.aikind; renderAi(); drawIcons(); return; }
     if ((el = t.closest('[data-word]'))) return goList({ q: filter.q === el.dataset.word && view === 'list' ? '' : el.dataset.word });
     if ((el = t.closest('.bar-row'))) return goList({ q: el.dataset.q });
     if ((el = t.closest('[data-gocat]'))) return goList({ cat: el.dataset.gocat });
@@ -1201,9 +1209,9 @@
     const one = (n, from, count, headline) => ({
       date: ago(n), from: ago(from), count, generatedAt: ago(n) + ' 09:42', model: 'demo', headline,
       points: [
-        { title: '[예시] 필수의료 수가 개선 공청회', body: '예시 문장입니다. 아래 근거 기사를 누르면 요약 패널이 열림.', links: ['https://example.com'] },
-        { title: '[예시] 의료 AI 건강보험 적용 논의', body: '판독 보조 소프트웨어 급여 기준 마련 논의 예정.', links: [] },
-        { title: '[예시] 상급종합병원 구조전환 2차 발표', body: '참여 병원 명단 공개 및 후속 지원 추진.', links: [] },
+        { section: '정책', title: '[예시] 필수의료 수가 개선 공청회', body: '예시 문장입니다. 아래 근거 기사를 누르면 요약 패널이 열림.', links: ['https://example.com'] },
+        { section: '정책', title: '[예시] 의료 AI 건강보험 적용 논의', body: '판독 보조 소프트웨어 급여 기준 마련 논의 예정.', links: [] },
+        { section: '병원', title: '[예시] 상급종합병원 구조전환 2차 발표', body: '참여 병원 명단 공개 및 후속 지원 추진.', links: [] },
       ],
       implications: ['[예시] 우리 병원이 검토할 만한 점이 이 자리에 표시됩니다.', '[예시] 기사 근거가 분명한 것만 작성됩니다.'],
     });

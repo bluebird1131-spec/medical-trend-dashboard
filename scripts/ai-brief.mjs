@@ -53,7 +53,11 @@ const SYSTEM = `너는 울산대학교병원(울산 지역 상급종합병원) �
 - 아래 기사 목록에 적힌 사실만 쓴다. 목록에 없는 수치·병원명·일정을 지어내지 않는다.
 - 보고서 개조식 문체로 쓴다. 문장은 "~ 도입", "~ 추진", "~ 예정"처럼 명사형으로 끝낸다.
 - 비슷한 기사는 하나의 동향으로 묶고, 각 동향에 근거 기사 번호를 refs 로 단다.
-- '필요' 기사(실제 병원의 신기술 도입·센터 개소)를 먼저, '검토필요' 기사(정책·제도·가이드라인)를 그다음에 다룬다.`;
+- 각 동향의 section 은 '정책'(정부·공공기관의 정책·제도·수가·사업 방향) 또는 '병원'(병원 현장의 신기술 도입·센터 개소·연구 성과) 중 하나로 단다.
+- 기사 앞의 '[정부 발표]' 표시는 보건복지부 등 정부가 직접 낸 자료라는 뜻이다.`;
+// 지시문을 바꾸면 올려서 같은 기사라도 브리핑을 다시 만들게 함
+const PROMPT_V = 2;
+const GOV = /보건복지부|복지부|질병관리청|식품의약품안전처|식약처|건강보험심사평가원|심평원|국민건강보험공단|건보공단/;
 
 const KINDS = {
   daily: {
@@ -66,27 +70,33 @@ const KINDS = {
     max: 60, sumLen: 400, from: today,
     ask: `오늘(${today}) 새로 선별된 기사다. 오늘의 동향 브리핑을 작성하라.
 - headline: 오늘 동향 전체를 한 문장(60자 안팎)으로
-- points: 핵심 동향 3~5개. title 은 20자 안팎, body 는 1~2문장
+- points: 핵심 동향 3~5개. 병원 현장의 신기술 도입 소식을 먼저, 정책 소식을 그다음에. title 은 20자 안팎, body 는 1~2문장
 - implications: 울산대학교병원이 벤치마킹하거나 검토할 만한 점 1~3개 (기사 근거가 분명한 것만)`,
   },
   weekly: {
     label: '주간',
     pick: () => rows.filter(r => pubDate(r) >= daysBack(7) && pubDate(r) <= today),
     max: 150, sumLen: 220, from: daysBack(7),
-    ask: `최근 7일(${daysBack(7)} ~ ${today}) 선별 기사다. 주간 동향 브리핑을 작성하라.
-- headline: 이번 주 흐름을 한 문장(70자 안팎)으로
-- points: 이번 주 핵심 동향 4~6개. 여러 기사에 걸친 흐름을 우선하고, title 은 20자 안팎, body 는 2문장 이내
-- implications: 울산대학교병원이 벤치마킹하거나 검토할 만한 점 2~3개 (기사 근거가 분명한 것만)`,
+    ask: `최근 7일(${daysBack(7)} ~ ${today}) 선별 기사다. 주간 브리핑을 작성하라. 이번 주 **정부 정책 방향이 중심**이다.
+- headline: 이번 주 정부 보건의료 정책의 방향을 한 문장(70자 안팎)으로
+- points: 5~6개. 먼저 section '정책' 3~4개 — 정부가 이번 주 무엇을 발표·추진했고 어디로 가는지
+  (수가·급여, 의료전달체계, 필수·응급의료, 지역의료, 의료인력, 의료 AI·디지털 제도, 국고 지원사업·공모 등).
+  [정부 발표] 자료와 정책·제도 기사를 근거로 삼는다. 그다음 section '병원' 1~2개 — 정책과 맞물린 병원 현장 움직임.
+  title 은 20자 안팎, body 는 2문장 이내
+- implications: 정책 방향에 비추어 울산대학교병원이 대응·준비할 점 2~3개 (신청할 만한 사업, 바뀌는 수가·제도에 대한 준비 등, 기사 근거가 분명한 것만)`,
   },
   monthly: {
     label: '월간',
     pick: () => rows.filter(r => pubDate(r) >= daysBack(30) && pubDate(r) <= today),
     max: 300, sumLen: 120, from: daysBack(30),
-    ask: `최근 30일(${daysBack(30)} ~ ${today}) 선별 기사다. 월간 동향 브리핑을 작성하라.
-- headline: 한 달 흐름을 한 문장(70자 안팎)으로
-- points: 한 달간 반복해서 나타난 핵심 흐름 5~7개. 분야별(로봇수술, AI·디지털, 첨단치료, 전문센터, 정책·수가 등) 경향과
-  여러 병원·지역에 걸친 패턴을 우선한다. title 은 20자 안팎, body 는 2문장 이내이며 가능하면 관련 기사 수나 병원명을 담는다
-- implications: 울산대학교병원의 중기 전략 관점에서 검토할 점 2~4개 (기사 근거가 분명한 것만)`,
+    ask: `최근 30일(${daysBack(30)} ~ ${today}) 선별 기사다. 월간 브리핑을 작성하라. 한 달간의 **국가 보건의료 정책 방향이 중심**이다.
+- headline: 이번 달 정부 정책이 향하는 방향을 한 문장(70자 안팎)으로
+- points: 6~7개. 먼저 section '정책' 4~5개 — 한 달간 여러 발표에 걸쳐 반복된 정책 기조와 그 방향
+  (수가·급여 개편, 의료전달체계·상급종합병원 구조전환, 필수·응급·외상의료, 지역완결 의료, 의료인력, 의료 AI·디지털 제도, 국고 지원사업 등).
+  개별 발표 나열이 아니라 '어떤 방향으로 가고 있는지'를 쓰고, 가능하면 관련 발표 수를 담는다.
+  그다음 section '병원' 2개 — 한 달간 여러 병원에 걸쳐 나타난 신기술 도입·센터 개소 패턴.
+  title 은 20자 안팎, body 는 2문장 이내
+- implications: 정책 방향에 비추어 울산대학교병원이 중기적으로 대응·준비할 점 2~4개 (기사 근거가 분명한 것만)`,
   },
 };
 
@@ -98,8 +108,11 @@ const SCHEMA = {
       type: 'ARRAY',
       items: {
         type: 'OBJECT',
-        properties: { title: { type: 'STRING' }, body: { type: 'STRING' }, refs: { type: 'ARRAY', items: { type: 'INTEGER' } } },
-        required: ['title', 'body', 'refs'],
+        properties: {
+          section: { type: 'STRING', enum: ['정책', '병원'] },
+          title: { type: 'STRING' }, body: { type: 'STRING' }, refs: { type: 'ARRAY', items: { type: 'INTEGER' } },
+        },
+        required: ['section', 'title', 'body', 'refs'],
       },
     },
     implications: { type: 'ARRAY', items: { type: 'STRING' } },
@@ -122,17 +135,18 @@ async function make(kind, K) {
   const list = K.pick().sort(order).slice(0, K.max);
   if (!list.length) { console.log(`${K.label}: 대상 기사가 없어 건너뜀`); return false; }
 
-  const sig = hash(list.map(r => [cell(r, 'link'), cell(r, 'status'), cell(r, 'summary')].join('|')).sort().join('\n'));
+  const sig = PROMPT_V + ':' + hash(list.map(r => [cell(r, 'link'), cell(r, 'status'), cell(r, 'summary')].join('|')).sort().join('\n'));
   const prev = kind === 'daily' ? brief.days.find(d => d.date === today) : brief[kind];
   if (prev && prev.sig === sig) { console.log(`${K.label}: 이미 최신 (${list.length}건)`); return false; }
-  if (kind !== 'daily' && prev && prev.date === today && prev.generatedAt &&
+  // 지시문이 바뀐 경우(PROMPT_V)는 기다리지 않고 바로 다시 만듦
+  if (kind !== 'daily' && prev && prev.date === today && prev.generatedAt && String(prev.sig).startsWith(PROMPT_V + ':') &&
       now - new Date(prev.generatedAt.replace(' ', 'T') + ':00+09:00').getTime() < REGEN_HOURS * 3600e3) {
     console.log(`${K.label}: ${REGEN_HOURS}시간 안에 만든 브리핑이 있어 다음 실행으로 미룸`);
     return false;
   }
 
   const text = list.map((r, i) => [
-    `[${i + 1}] ${cell(r, 'title')}`,
+    `[${i + 1}] ${GOV.test(cell(r, 'source')) ? '[정부 발표] ' : ''}${cell(r, 'title')}`,
     `선별: ${cell(r, 'status')} | 분류: ${cell(r, 'category')} | 출처: ${cell(r, 'source')} | 보도: ${pubDate(r)}`,
     `기관: ${cell(r, 'org') || '-'} | 지역: ${cell(r, 'region') || '-'}`,
     `요약: ${cell(r, 'summary').replace(/^\s*\[[^\]]*\]\s*/, '').replace(/\s+/g, ' ').slice(0, K.sumLen)}`,
@@ -145,6 +159,7 @@ async function make(kind, K) {
     from: K.from,
     headline: String(out.headline || '').trim(),
     points: (out.points || []).map(p => ({
+      section: p.section === '정책' ? '정책' : '병원',
       title: String(p.title || '').trim(),
       body: String(p.body || '').trim(),
       links: [...new Set((p.refs || []).map(linkOf).filter(Boolean))],
