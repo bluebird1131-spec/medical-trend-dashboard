@@ -1,7 +1,6 @@
 /**
  * 선별 기사를 Gemini API 로 정리해 brief.json 에 저장함 (fetch-sheet.mjs 다음에 실행).
- * - 오늘(daily): 앞선 날짜의 브리핑에 들어가지 않은, 최근 3일 안에 보도된 새 기사 → 30일치 보관
- *   (수집 봇의 과거분 일괄 수집으로 오늘 분석된 옛 기사는 빼고, 주간·월간에서 다룸)
+ * - 오늘(daily): 어제~오늘 보도된 기사 (아침에 전날부터 그날까지를 함께 공유하는 용도) → 30일치 보관
  * - 주간(weekly): 최근 7일 보도 기사 / 월간(monthly): 최근 30일 보도 기사 → 최신본만 보관 (이력은 git 커밋에 남음)
  * - API 키: 저장소 Settings → Secrets 의 GEMINI_API_KEY (없으면 건너뜀)
  * - 모델: Variables 의 GEMINI_MODEL (선택, 기본 gemini-2.5-flash)
@@ -17,7 +16,7 @@ const KEY = (process.env.GEMINI_API_KEY || '').trim();
 const MODELS = [...new Set([process.env.GEMINI_MODEL, 'gemini-flash-latest', 'gemini-flash-lite-latest',
   'gemini-2.5-flash', 'gemini-2.5-flash-lite'].filter(Boolean))];
 const KEEP_DAYS = 30;
-const RECENT = 3;       // 이 일수 안에 보도된 기사만 '오늘 새 기사'로 봄
+const RECENT = 2;       // 오늘 브리핑 범위: 어제~오늘
 const REGEN_HOURS = 3;  // 주간·월간 다시 만드는 최소 간격
 
 if (!KEY) {
@@ -62,14 +61,10 @@ const GOV = /보건복지부|복지부|질병관리청|식품의약품안전처|
 const KINDS = {
   daily: {
     label: '오늘',
-    pick: () => {
-      const covered = new Set(brief.days.filter(d => d.date < today).flatMap(d => d.links || []));
-      const cutoff = daysBack(RECENT);
-      return rows.filter(r => !covered.has(cell(r, 'link')) && pubDate(r) >= cutoff && pubDate(r) <= today);
-    },
-    max: 60, sumLen: 400, from: today,
-    ask: `오늘(${today}) 새로 선별된 기사다. 오늘의 동향 브리핑을 작성하라.
-- headline: 오늘 동향 전체를 한 문장(60자 안팎)으로
+    pick: () => rows.filter(r => pubDate(r) >= daysBack(RECENT) && pubDate(r) <= today),
+    max: 80, sumLen: 300, from: daysBack(RECENT),
+    ask: `어제~오늘(${daysBack(RECENT)} ~ ${today}) 선별 기사다. 아침 공유용 일일 동향 브리핑을 작성하라.
+- headline: 어제~오늘 동향 전체를 한 문장(60자 안팎)으로
 - points: 핵심 동향 3~5개. 병원 현장의 신기술 도입 소식을 먼저, 정책 소식을 그다음에. title 은 20자 안팎, body 는 1~2문장
 - implications: 울산대학교병원이 벤치마킹하거나 검토할 만한 점 1~3개 (기사 근거가 분명한 것만)`,
   },

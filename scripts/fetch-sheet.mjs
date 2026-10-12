@@ -60,6 +60,22 @@ if (linkCol < 0) linkCol = findCol(v => /^https?:\/\//i.test(v), 0.6);
 const cell = (r, i) => (i >= 0 ? (r[i] || '').trim() : '');
 const isUrl = u => /^https?:\/\//i.test(u);
 
+// 같은 기사가 주소만 조금 달라 여러 번 들어간 경우(데일리메디 &page=1 등) 하나만 남김
+// 기준: 목록 쪽수·추적용 값을 뺀 주소, 또는 같은 출처의 같은 제목
+const titleCol = headers.findIndex(h => /제목/.test(h)), sourceCol = headers.findIndex(h => /출처|매체/.test(h));
+const linkKey = u => u.replace(/^https?:\/\//i, '').replace(/^www\./, '').replace(/([?&])(page|nPage|sca|sfl|stx)=[^&]*/gi, '$1').replace(/[?&]+$/, '').replace(/&&+/g, '&');
+const titleKey = r => cell(r, sourceCol) + '|' + cell(r, titleCol).replace(/[\s'"‘’“”·….]/g, '').replace(/^﻿/, '');
+{
+  const seen = new Set(), before = rows.length;
+  rows = rows.filter(r => {
+    const keys = [isUrl(cell(r, linkCol)) && linkKey(cell(r, linkCol)), cell(r, titleCol) && titleKey(r)].filter(Boolean);
+    if (keys.some(k => seen.has(k))) return false;
+    keys.forEach(k => seen.add(k));
+    return true;
+  });
+  if (rows.length < before) console.log(`중복 기사 ${before - rows.length}건 제외`);
+}
+
 const cache = await readFile(THUMBS, 'utf8').then(JSON.parse).catch(() => ({}));
 if (cache.__v !== CACHE_V) {
   for (const k of Object.keys(cache)) {

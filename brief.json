@@ -2,61 +2,91 @@
  "days": [
   {
    "date": "2026-10-12",
-   "from": "2026-10-12",
-   "headline": "주요 상급종합병원의 첨단 장비 및 CAR-T 센터 도입 확대와 보건의료 정책 동향",
+   "from": "2026-10-11",
+   "headline": "CAR-T·5세대 로봇수술 도입 확산, 거점외상센터 선정·정신응급 필수의료 지정과 의료 AI 안전관리 공백 지적",
    "points": [
     {
      "section": "병원",
-     "title": "첨단 로봇수술 및 세포치료 도입",
-     "body": "아주대병원이 5세대 로봇수술기 다빈치 5와 아이온을 도입했고, 경희대병원과 건국대병원이 CAR-T 세포치료센터 구축 및 킴리아주 투여를 본격화함.",
+     "title": "CAR-T 세포치료 도입 확산",
+     "body": "건국대병원이 CAR-T 치료제 킴리아주 첫 투여를 시행했고, 경희대병원은 인력·장비·시설 점검을 마치고 CAR-T 세포치료센터 개소 검증 단계에 진입함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115&page=2",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
      ]
     },
     {
      "section": "병원",
-     "title": "거점외상센터 선정 및 지원",
-     "body": "보건복지부 거점외상센터 설치지원사업 공모에서 아주대병원과 원주세브란스기독병원이 선정되어 지원을 받음.",
+     "title": "다빈치 5 등 로봇수술 고도화",
+     "body": "아주대병원이 5세대 다빈치 5와 로봇 보조 기관지경 아이온을 도입해 로봇수술 장비 4대 체계를 갖춤. 아인병원 갑상선암센터는 개인 로봇수술 2000례를 달성함.",
      "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941349&page=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "거점외상센터·정신응급 체계 강화",
+     "body": "거점외상센터 설치지원사업에 아주대병원(최종)·원주세브란스기독병원(조건부)이 선정되어 최대 77억1000만원 지원 예정. 제6차 자살예방기본계획으로 정신응급을 필수의료로 지정하고 집중치료병상을 2030년까지 2000개로 확충 예정.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "비대면 진료 및 자살예방 정책",
-     "body": "정부가 비대면진료 초진 30일 처방 허용을 검토 중이며, 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 병상을 확충할 예정임.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302&page=2",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
      ]
     },
     {
      "section": "정책",
-     "title": "의료 AI 안전관리 및 제도 정비",
-     "body": "AI 의료기기의 허가 증가에도 불구하고 이상사례 보고가 전무하여 능동적 관리 기준 마련 지적이 제기됨.",
+     "title": "비대면진료·실손 전산화 쟁점",
+     "body": "정부가 비대면진료 초진 환자 최대 30일 처방 허용을 검토하자 개원가가 안전기준 명시를 요구함. 실손24 미연계 병·의원 제재 추진에도 의료계 반발이 이어짐.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941284"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료 AI 안전관리 공백 지적",
+     "body": "AI·디지털 의료기기 허가가 누적 382건으로 늘었으나 최근 3년 이상사례 보고는 0건으로 국감에서 지적됨. 정부는 AI·디지털 기반 신약 임상개발 혁신 지원 체계 구축을 발표함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941338&page=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043509"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043509",
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "배후진료·소아의료 인력난",
+     "body": "중증환자단체가 상급종합병원 배후진료 전문의 확보를 요구함. 소아청소년병원 74.6%가 전문의 부족을 호소하며 야간·휴일 진료를 축소하는 상황임.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941298&page=3",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043491"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "간납사 독점·병원 상속공제 논란",
+     "body": "사립대병원 진료재료의 특정 간납사 독점 납품과 학교법인 특수관계 거래 의혹이 국감에서 제기됨. 병원을 가업상속공제에서 제외하는 개정안은 국회에서 재검토 목소리가 나옴.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043526",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941239&page=2"
      ]
     }
    ],
    "implications": [
-    "타지역 상급종합병원의 다빈치 5 등 5세대 로봇수술 플랫폼과 CAR-T 세포치료 센터 구축 사례를 참고하여 원내 첨단 의료장비 및 특성화 센터 고도화 검토",
-    "보건복지부의 거점외상센터 지원 사업 및 응급·중증 진료 인프라 강화 기조에 맞추어 원내 중증외상 및 응급 배후진료 역량 정비",
-    "의료 AI 및 디지털 헬스케어 도입 시 식약처 이상사례 보고 등 원내 안전관리 및 품질 모니터링 체계 선제적 구축"
+    "타 상급종합병원의 CAR-T 첫 투여·센터 개소, 다빈치 5 도입 사례를 참고한 원내 세포치료·로봇수술 장비 구성 점검",
+    "거점외상센터 선정 결과와 정신응급 거점의료기관 지정·긴급진료 별도 보상 등 후속 사업 공모 일정 확인",
+    "진료재료 구매 대행(간납) 구조에 대한 국감 지적과 의료 AI 이상사례 관리 공백 지적을 고려한 원내 구매·AI 도입 관리 체계 점검"
    ],
    "count": 31,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-12 23:18",
-   "sig": "3:1eeoa2y",
+   "model": "claude-opus-5-5",
+   "generatedAt": "2026-10-12 23:39",
+   "sig": "3:e6ci5x",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
@@ -74,21 +104,21 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941338&page=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941340&page=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=2",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108&page=2",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302&page=2",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941239&page=2",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115&page=2",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258&page=2",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941284&page=2",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315&page=2",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043526",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043507",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043509",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492",
+    "https://www.dailymedi.com/news/news_view.php?wr_id=941303",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941306&page=2",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941138&page=3",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941298&page=3",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941186&page=3",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043491"
    ]
   },
   {
