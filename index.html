@@ -40,8 +40,8 @@
   .lucide { width: 16px; height: 16px; stroke-width: 2; flex-shrink: 0; }
   .dash { max-width: 1440px; margin: 0 auto; padding: 0 24px; }
   .narrow { max-width: 760px; margin: 0 auto; padding: 0 16px; }
-  .wide { max-width: 1440px; margin: 0 auto; padding: 0 24px; }
-  #govIntro { max-width: 1440px; padding: 0 24px; }
+  .wide { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  #govIntro { max-width: 1080px; padding: 0 24px; }
   :focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
 
   /* ---------- 주요 기관 바로가기 ---------- */
@@ -271,18 +271,18 @@
   .day { display: flex; align-items: baseline; gap: 8px; margin: 32px 0 12px; font-size: 15px; font-weight: 700; color: var(--heading); }
   .day .rel { font-size: 13px; font-weight: 700; color: var(--accent); }
   .day .cnt { margin-left: auto; font-size: 13px; font-weight: 500; color: var(--faint); }
-  #newsList { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 12px; align-items: start; }
-  #newsList > .day, #newsList > .more, #newsList > .state { grid-column: 1 / -1; }
-  #newsList > .day { margin: 24px 0 0; }
+  #newsList { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  #newsList > .day { margin: 24px 0 4px; }
   #newsList > .day:first-child { margin-top: 8px; }
   .news {
-    display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 14px; padding: 14px; height: 100%;
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; padding: 14px 18px; align-items: start;
     background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); transition: border-color .15s, box-shadow .15s;
   }
   .news { cursor: pointer; }
   .news:hover { border-color: var(--border-strong); box-shadow: 0 4px 16px -8px rgba(0,0,0,.12); }
   .news:hover .title span { color: var(--accent); }
-  .news.is-review { border-left: 3px solid var(--warn); padding-left: 12px; }
+  .news.is-review { border-left: 3px solid var(--warn); padding-left: 16px; }
+  .news-side { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; padding-top: 2px; }
   .thumb {
     position: relative; display: block; aspect-ratio: 1 / 1; border-radius: 10px; overflow: hidden; background: var(--hover);
     align-self: start;
@@ -293,7 +293,7 @@
     padding: 8px; background: var(--ph-bg, var(--hover)); color: var(--ph-fg, var(--muted)); font-size: 12.5px; font-weight: 800; letter-spacing: -0.01em; text-align: center; line-height: 1.3;
   }
   .thumb-ph .lucide { width: 24px; height: 24px; stroke-width: 1.6; }
-  .news-body { display: flex; flex-direction: column; min-width: 0; padding: 2px 4px 0 0; }
+  .news-body { display: flex; flex-direction: column; min-width: 0; }
   .meta { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 0; font-size: 12.5px; color: var(--muted); }
   .meta .m + .m::before { content: "·"; margin: 0 7px; color: var(--faint); }
   .meta .cat { font-weight: 700; color: var(--accent); }
@@ -315,7 +315,7 @@
     margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: var(--soft);
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   }
-  .news-foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 10px; margin-top: auto; padding-top: 8px; }
+  .news-foot { margin-top: 8px; }
   .orig {
     display: inline-flex; align-items: center; gap: 3px; flex-shrink: 0; margin-left: auto; height: 28px; padding: 0 10px; border-radius: 7px;
     border: 1px solid var(--border); font-size: 12.5px; font-weight: 600; color: var(--soft); text-decoration: none; background: var(--card);
@@ -424,9 +424,10 @@
     .ai-head, .ai-main, .ai-side { padding-left: 16px; padding-right: 16px; }
     .ai-headline { font-size: 18px; }
     .tabs { margin: 0 -16px; padding: 0 16px; }
-    #newsList { grid-template-columns: minmax(0, 1fr); }
     .wide { padding: 0 16px; }
-    .news { grid-template-columns: 84px minmax(0, 1fr); gap: 12px; padding: 12px; }
+    #govIntro { padding: 0 16px; }
+    .news { grid-template-columns: minmax(0, 1fr); gap: 8px; padding: 12px 14px; }
+    .news-side { flex-direction: row; justify-content: flex-end; }
     .news .title { font-size: 16px; }
     .sheet { border-left: 0; }
     .sheet-body { padding: 28px 20px 48px; }
@@ -978,9 +979,9 @@
     ).join('');
   }
 
-  // 뉴스형 카드: 카드를 누르면 요약 패널, 원문은 오른쪽 아래 작은 링크. 같은 사건의 다른 기사는 아래에 묶어 보여 줌
+  // 목록형 카드(관리자 페이지와 같은 짜임): 사진 없이 메타·제목·요약, 오른쪽에 원문. 카드를 누르면 요약 패널. 같은 사건의 다른 기사는 아래에 묶음
   function card(it, i, rel = [], idx) {
-    const r = it.r, src = get(r, 'source'), sum = plain(summaryOf(r)), link = get(r, 'link'), img = imgOf(r);
+    const r = it.r, src = get(r, 'source'), sum = plain(summaryOf(r)), link = get(r, 'link');
     const ok = /^https?:\/\//i.test(link), rv = isReview(r);
     const meta = [
       (dl => dl ? `<span class="dl ${dl.kind}">${icon(dl.open ? 'clock' : 'calendar')}${dl.text}</span>` : '')(dlOf(it)),
@@ -989,20 +990,17 @@
       src ? `<span class="m">${hl(src)}</span>` : '',
       it.date ? `<span class="m">${shortDate(it.date)}</span>` : '',
     ].join('');
-    const st = srcStyle(src);
-    const ph = `<span class="thumb-ph" style="${st.css}">${icon(st.ic)}${esc(src.replace(/\(.*?\)/g, '') || '기사')}</span>`;
-    const thumb = `${ph}${img.src ? `<img src="${esc(img.src)}" data-fb="${esc(img.fb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="imgErr(this)">` : ''}`;
     const relHtml = rel.length ? `<div class="rel"><span class="rel-h">같은 소식 ${fmt(rel.length)}건 더</span>${rel.slice(0, 3).map(x =>
       `<button type="button" data-ctx="list" data-i="${idx.get(x)}"><b>${esc(get(x.r, 'source').replace(/\(.*?\)/g, ''))}</b>${esc(titleOf(x))}</button>`).join('')}</div>` : '';
     return `<article class="news${rv ? ' is-review' : ''}${readSet.has(it.id) ? ' read' : ''}" data-ctx="list" data-i="${i}" data-id="${it.id}" tabindex="0" aria-label="${esc(titleOf(it))} 요약 보기">
-      <div class="thumb">${thumb}</div>
       <div class="news-body">
         <div class="meta">${isNew(it) ? '<span class="new">NEW</span>' : ''}${meta}</div>
         <h3 class="title"><span>${hl(titleOf(it))}</span></h3>
         ${sum ? `<p class="summary">${hl(sum)}</p>` : ''}
-        <div class="news-foot">${relHtml}
-          ${ok ? `<a class="orig" href="${esc(link)}" rel="noopener" data-open="${it.id}">원문${icon('arrow-up-right')}</a>` : ''}
-        </div>
+        ${relHtml ? `<div class="news-foot">${relHtml}</div>` : ''}
+      </div>
+      <div class="news-side">
+        ${ok ? `<a class="orig" href="${esc(link)}" rel="noopener" data-open="${it.id}">원문${icon('arrow-up-right')}</a>` : ''}
       </div>
     </article>`;
   }
