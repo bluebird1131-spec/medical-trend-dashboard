@@ -1,0 +1,9 @@
+# 의료계 동향 API — 배포: npx wrangler deploy
+name = "medical-trend-api"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "medical-trend-db"
+database_id = "5fb11e94-1949-49b7-9e2b-eb74c49bcd69"

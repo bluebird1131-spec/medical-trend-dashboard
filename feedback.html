@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>의견 게시판 · 의료계 동향</title>
+<link rel="preload" href="assets/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/sub.css">
+<script src="assets/lucide.min.js"></script>
+<style>
+  .layout { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 20px; align-items: start; }
+  .write { padding: 20px; position: sticky; top: 76px; display: grid; gap: 14px; }
+  .write h2 { margin: 0; font-size: 16px; font-weight: 700; color: var(--heading); display: flex; align-items: center; gap: 8px; }
+  .write h2 .lucide { color: var(--accent); }
+  .ref { display: flex; align-items: flex-start; gap: 8px; padding: 10px 12px; border-radius: 10px; background: var(--surface); border: 1px solid var(--border); font-size: 13.5px; color: var(--body); }
+  .ref .lucide { margin-top: 3px; color: var(--accent); }
+  .ref > div { flex: 1; min-width: 0; }
+  .ref button { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 2px; border-radius: 4px; }
+  .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  .hint { font-size: 12.5px; color: var(--faint); margin: 0; }
+  .list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+  .post { padding: 16px 18px; display: grid; gap: 8px; }
+  .post + .post { margin-top: 10px; }
+  .post-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .post-meta b { color: var(--heading); font-weight: 700; }
+  .post-meta .sep { color: var(--faint); }
+  .post-body { margin: 0; font-size: 15px; line-height: 1.75; color: var(--body); white-space: pre-wrap; }
+  .post-ref { display: inline-flex; align-items: center; gap: 6px; max-width: 100%; font-size: 13px; color: var(--accent); text-decoration: none; }
+  .post-ref span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .post-ref:hover span { text-decoration: underline; }
+  .reply { margin-top: 2px; padding: 10px 12px; border-radius: 10px; background: var(--surface); border-left: 3px solid var(--accent); font-size: 14px; color: var(--body); white-space: pre-wrap; }
+  .reply b { display: block; font-size: 12.5px; color: var(--accent); margin-bottom: 2px; }
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: minmax(0, 1fr); }
+    .write { position: static; }
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap tb">
+    <a class="logo" href="./" target="_self"><span class="logo-mark"><i data-lucide="activity"></i></span>의료계 동향 <small class="hide-sm">· 의견 게시판</small></a>
+    <div class="tb-right"><a class="btn btn-sm" href="./" target="_self"><i data-lucide="arrow-left"></i>대시보드로</a></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="head">
+    <h1>의견 게시판</h1>
+    <p>대시보드에 대한 의견, 잘못 분류된 기사, 필요한 기능, 함께 보면 좋을 기사를 자유롭게 남겨 주세요. 누구나 읽고 쓸 수 있습니다.</p>
+  </div>
+
+  <div class="layout">
+    <form class="card write" id="form" autocomplete="off">
+      <h2><i data-lucide="pen-line"></i>글쓰기</h2>
+      <div class="field">
+        <label>종류</label>
+        <div class="chips" id="kinds" role="radiogroup" aria-label="종류"></div>
+      </div>
+      <div class="ref" id="ref" hidden>
+        <i data-lucide="link"></i><div><b>관련 기사</b><br><span id="refTitle"></span></div>
+        <button type="button" id="refClear" aria-label="관련 기사 빼기"><i data-lucide="x"></i></button>
+      </div>
+      <div class="field">
+        <label for="name">이름 (부서·이름 등)</label>
+        <input class="input" id="name" maxlength="20" placeholder="예: 기획팀 홍길동" required>
+      </div>
+      <div class="field">
+        <label for="body">내용</label>
+        <textarea class="textarea" id="body" maxlength="2000" placeholder="의견을 적어 주세요" required></textarea>
+      </div>
+      <div class="field">
+        <label for="link">관련 기사 주소 (선택)</label>
+        <input class="input" id="link" type="url" maxlength="500" placeholder="https://">
+      </div>
+      <input class="hp" id="website" tabindex="-1" aria-hidden="true">
+      <button class="btn btn-dark" type="submit" id="submit"><i data-lucide="send"></i>올리기</button>
+      <p class="hint">환자 정보나 개인정보는 적지 마세요. 올린 글은 누구나 볼 수 있습니다.</p>
+    </form>
+
+    <section>
+      <div class="list-head">
+        <div class="chips" id="filter"></div>
+        <button class="btn btn-sm btn-ghost" type="button" id="reload"><i data-lucide="refresh-cw"></i>새 글 확인</button>
+      </div>
+      <div id="posts"><div class="state"><i data-lucide="loader" class="spin"></i><div>불러오는 중입니다</div></div></div>
+    </section>
+  </div>
+</main>
+
+<footer>의견은 관리자가 확인해 상태(확인·반영·보류)와 답변을 남깁니다.</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+  const API = 'https://medical-trend-api.bluebird1131.workers.dev';
+  const KINDS = ['의견', '오류 신고', '기능 요청', '기사 제보'];
+  const STATE_PILL = { 접수: 'no', 확인: 'need', 반영: 'ok', 보류: 'review' };
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const icons = () => window.lucide && lucide.createIcons();
+  let posts = [], kind = KINDS[0], show = '전체', refTitle = '';
+
+  // 대시보드의 "이 기사에 의견 남기기"에서 넘어온 경우 관련 기사 채우기
+  const qs = new URLSearchParams(location.search);
+  if (qs.get('link')) {
+    $('link').value = qs.get('link');
+    refTitle = qs.get('title') || '';
+    kind = qs.get('kind') && KINDS.includes(qs.get('kind')) ? qs.get('kind') : '오류 신고';
+  }
+  try { $('name').value = localStorage.getItem('fb-name') || ''; } catch {}
+
+  function paintRef() {
+    const on = !!refTitle && !!$('link').value;
+    $('ref').hidden = !on;
+    $('refTitle').textContent = refTitle;
+  }
+  $('refClear').addEventListener('click', () => { refTitle = ''; $('link').value = ''; paintRef(); });
+
+  function paintKinds() {
+    $('kinds').innerHTML = KINDS.map(k => `<button type="button" role="radio" aria-checked="${k === kind}" class="chip${k === kind ? ' on' : ''}" data-kind="${k}">${k}</button>`).join('');
+  }
+  $('kinds').addEventListener('click', e => { const b = e.target.closest('[data-kind]'); if (b) { kind = b.dataset.kind; paintKinds(); } });
+
+  // 저장 시각은 UTC → 한국 시간으로
+  function when(s) {
+    const d = new Date(s.replace(' ', 'T') + 'Z'), diff = (Date.now() - d) / 60000;
+    if (diff < 1) return '방금';
+    if (diff < 60) return `${Math.floor(diff)}분 전`;
+    if (diff < 1440) return `${Math.floor(diff / 60)}시간 전`;
+    return d.toLocaleDateString('ko-KR', { timeZone: 'Asia/Seoul', month: 'long', day: 'numeric' });
+  }
+
+  function render() {
+    const counts = KINDS.map(k => [k, posts.filter(p => p.kind === k).length]);
+    $('filter').innerHTML = [['전체', posts.length], ...counts].map(([k, n]) =>
+      `<button type="button" class="chip${k === show ? ' on' : ''}" data-show="${k}">${k}<span class="n">${n}</span></button>`).join('');
+    const list = show === '전체' ? posts : posts.filter(p => p.kind === show);
+    $('posts').innerHTML = list.length ? list.map(p => `<article class="card post">
+        <div class="post-meta"><span class="pill ${p.kind === '오류 신고' ? 'bad' : p.kind === '기능 요청' ? 'need' : 'no'}">${esc(p.kind)}</span>
+          <b>${esc(p.name)}</b><span class="sep">·</span><span>${when(p.created_at)}</span>
+          <span style="margin-left:auto" class="pill ${STATE_PILL[p.state] || 'no'}">${esc(p.state)}</span></div>
+        <p class="post-body">${esc(p.body)}</p>
+        ${p.link ? `<a class="post-ref" href="${esc(p.link)}" target="_blank" rel="noopener"><i data-lucide="link"></i><span>${esc(p.title || p.link)}</span></a>` : ''}
+        ${p.reply ? `<div class="reply"><b>관리자 답변</b>${esc(p.reply)}</div>` : ''}
+      </article>`).join('')
+      : `<div class="card state"><i data-lucide="message-square"></i><div>${posts.length ? '이 종류의 글이 없습니다' : '아직 올라온 의견이 없습니다. 첫 의견을 남겨 주세요.'}</div></div>`;
+    icons();
+  }
+  $('filter').addEventListener('click', e => { const b = e.target.closest('[data-show]'); if (b) { show = b.dataset.show; render(); } });
+
+  async function load() {
+    $('reload').disabled = true;
+    try {
+      const r = await fetch(API + '/api/posts', { cache: 'no-store' });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || r.status);
+      posts = j.posts || [];
+      render();
+    } catch (e) {
+      $('posts').innerHTML = `<div class="notice bad"><i data-lucide="circle-alert"></i><div>게시판을 불러오지 못했습니다 (${esc(e.message)}). 잠시 후 새 글 확인을 눌러 주세요.</div></div>`;
+      icons();
+    } finally { $('reload').disabled = false; }
+  }
+  $('reload').addEventListener('click', load);
+
+  function toast(msg) {
+    const t = $('toast'); t.textContent = msg; t.classList.add('show');
+    clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 2400);
+  }
+
+  $('form').addEventListener('submit', async e => {
+    e.preventDefault();
+    const btn = $('submit'); btn.disabled = true;
+    const data = { name: $('name').value.trim(), body: $('body').value.trim(), kind, link: $('link').value.trim(), title: refTitle, website: $('website').value };
+    try {
+      const r = await fetch(API + '/api/posts', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(data) });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || r.status);
+      try { localStorage.setItem('fb-name', data.name); } catch {}
+      $('body').value = ''; $('link').value = ''; refTitle = ''; paintRef();
+      toast('의견을 올렸습니다');
+      show = '전체';
+      await load();
+    } catch (err) {
+      toast(err.message);
+    } finally { btn.disabled = false; }
+  });
+
+  paintKinds(); paintRef(); icons(); load();
+</script>
+</body>
+</html>

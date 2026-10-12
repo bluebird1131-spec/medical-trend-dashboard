@@ -87,6 +87,13 @@
   .vtabs button.on { background: var(--card); color: var(--heading); box-shadow: 0 1px 3px rgba(0,0,0,.1); }
   .vtabs button.on .lucide { color: var(--accent); }
   .tb-right { display: flex; align-items: center; justify-content: flex-end; gap: 8px; font-size: 13px; color: var(--muted); }
+  .fb-link {
+    display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 12px; margin-left: 6px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--card); font-size: 13.5px; font-weight: 600; color: var(--body); text-decoration: none; white-space: nowrap;
+  }
+  .fb-link:hover { border-color: var(--accent); color: var(--accent); }
+  .r-fb { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 10px; font-size: 13.5px; font-weight: 600; color: var(--muted); text-decoration: none; }
+  .r-fb:hover { color: var(--accent); }
   .icon-btn {
     width: 36px; height: 36px; display: inline-grid; place-items: center; border-radius: 8px;
     border: 1px solid transparent; background: transparent; cursor: pointer; color: var(--soft);
@@ -436,6 +443,7 @@
     </nav>
     <div class="tb-right">
       <span class="updated" id="updated"></span>
+      <a class="fb-link" href="feedback.html" target="_self"><i data-lucide="message-square"></i><span>의견</span></a>
     </div>
   </div>
 </header>
@@ -504,7 +512,7 @@
   </section>
 </main>
 
-<footer>구글 시트 데이터를 자동으로 가져와 보여주는 페이지입니다 (매일 오전 Gemini 분석 후 반영). 내용 추가·수정은 시트에서 해주세요.</footer>
+<footer>구글 시트 데이터를 자동으로 가져와 보여주는 페이지입니다 (매일 오전 Gemini 분석 후 반영). · <a href="feedback.html" target="_self">의견 게시판</a> · <a href="admin.html" target="_self">관리자</a></footer>
 
 <div class="tip" id="tip" role="tooltip"></div>
 <div class="overlay" id="overlay"></div>
@@ -1068,7 +1076,8 @@
       ${summary ? `<div class="prose">${prose(summary)}</div>` : '<p class="prose" style="color:var(--muted)">요약이 없는 기사입니다. 원문에서 확인해 주세요.</p>'}
       ${kw.length ? `<div class="kw">${kw.map(k => `<span>#${esc(k)}</span>`).join('')}</div>` : ''}
       ${ex.length ? `<dl class="fields">${ex.map(e => `<div><dt>${esc(e.h)}</dt><dd>${hl(e.v)}</dd></div>`).join('')}</dl>` : ''}
-      ${/^https?:\/\//i.test(link) ? `<a class="cta" href="${esc(link)}" rel="noopener">원문 기사 읽기${icon('arrow-up-right')}</a>` : ''}
+      ${/^https?:\/\//i.test(link) ? `<a class="cta" href="${esc(link)}" rel="noopener">원문 기사 읽기${icon('arrow-up-right')}</a>
+        <a class="r-fb" href="feedback.html?link=${encodeURIComponent(link)}&title=${encodeURIComponent(titleOf(it))}" target="_self">${icon('message-square-warning')}분류가 잘못됐거나 의견이 있으면 남겨 주세요</a>` : ''}
       <div class="hint"><kbd>←</kbd> <kbd>→</kbd> 이전·다음 기사 &nbsp; <kbd>Esc</kbd> 닫기</div>`;
     $('pos').textContent = `${i + 1} / ${list.length}`;
     $('prev').disabled = i === 0;

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>관리자 · 의료계 동향</title>
+<link rel="preload" href="assets/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/sub.css">
+<script src="assets/lucide.min.js"></script>
+<style>
+  .login { max-width: 380px; margin: 72px auto; padding: 28px; display: grid; gap: 14px; }
+  .login h1 { margin: 0; font-size: 20px; font-weight: 800; color: var(--heading); display: flex; align-items: center; gap: 8px; }
+  .login h1 .lucide { color: var(--accent); width: 20px; height: 20px; }
+  .login p { margin: 0; font-size: 14px; color: var(--muted); }
+  .vtabs { display: inline-flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--hover); }
+  .vtabs button { display: inline-flex; align-items: center; gap: 6px; height: 34px; padding: 0 14px; border: 0; border-radius: 9px; background: transparent; font-size: 14px; font-weight: 600; color: var(--muted); cursor: pointer; }
+  .vtabs button.on { background: var(--card); color: var(--heading); box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+  .toolbar { position: sticky; top: 60px; z-index: 20; background: var(--background); padding: 8px 0 12px; display: grid; gap: 10px; }
+  .row-tools { display: flex; gap: 8px; flex-wrap: wrap; }
+  .row-tools .input { flex: 1; min-width: 200px; }
+  .row-tools .select { width: auto; }
+  .summary-line { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 14px; color: var(--muted); min-height: 28px; }
+  .summary-line b { color: var(--foreground); }
+  .item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; padding: 14px 18px; align-items: start; }
+  .item + .item { margin-top: 8px; }
+  .item.changed { border-color: var(--accent); }
+  .meta { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; font-size: 13px; color: var(--muted); }
+  .meta .cat { color: var(--accent); font-weight: 700; }
+  .title { margin: 4px 0 0; font-size: 16px; line-height: 1.5; font-weight: 700; }
+  .title a { color: var(--heading); text-decoration: none; }
+  .title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .sum { margin: 4px 0 0; font-size: 14px; line-height: 1.65; color: var(--soft); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
+  .sum.open { -webkit-line-clamp: unset; display: block; }
+  .seg { display: inline-flex; padding: 3px; gap: 2px; border-radius: 10px; background: var(--hover); flex-shrink: 0; }
+  .seg button { height: 32px; padding: 0 12px; border: 0; border-radius: 7px; background: transparent; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; white-space: nowrap; }
+  .seg button:hover { color: var(--foreground); }
+  .seg button.on[data-s="필요"] { background: var(--accent); color: var(--on-accent); }
+  .seg button.on[data-s="검토필요"] { background: var(--warn); color: var(--card); }
+  .seg button.on[data-s="불필요"] { background: var(--primary); color: var(--primary-foreground); }
+  .seg button:disabled { cursor: wait; }
+  .saved { font-size: 12px; font-weight: 600; color: var(--ok); }
+  .publish {
+    position: sticky; bottom: 0; z-index: 25; margin-top: 16px; padding: 12px 0 calc(12px + env(safe-area-inset-bottom, 0px));
+    background: var(--background); border-top: 1px solid var(--border);
+  }
+  .publish .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .publish-msg { font-size: 14px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+  .publish-msg b { color: var(--foreground); }
+  /* 의견 관리 */
+  .post { padding: 16px 18px; display: grid; gap: 10px; }
+  .post + .post { margin-top: 10px; }
+  .post.hidden-post { opacity: .55; }
+  .post-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .post-meta b { color: var(--heading); }
+  .post-body { margin: 0; font-size: 15px; line-height: 1.7; color: var(--body); white-space: pre-wrap; }
+  .post-ref { font-size: 13px; color: var(--accent); }
+  .post-tools { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .post-tools .textarea { min-height: 60px; }
+  @media (max-width: 760px) {
+    .item { grid-template-columns: minmax(0, 1fr); }
+    .seg { justify-self: start; }
+    .toolbar { top: 60px; }
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap tb">
+    <a class="logo" href="./" target="_self"><span class="logo-mark"><i data-lucide="activity"></i></span>의료계 동향 <small>· 관리자</small></a>
+    <div class="tb-right">
+      <nav class="vtabs" id="vtabs" hidden>
+        <button type="button" data-view="news" class="on"><i data-lucide="list-checks"></i><span class="hide-sm">기사 선별</span></button>
+        <button type="button" data-view="posts"><i data-lucide="message-square"></i><span class="hide-sm">의견 관리</span></button>
+      </nav>
+      <button class="btn btn-sm btn-ghost" type="button" id="logout" hidden><i data-lucide="log-out"></i><span class="hide-sm">나가기</span></button>
+    </div>
+  </div>
+</header>
+
+<!-- 로그인 -->
+<form class="card login" id="login">
+  <h1><i data-lucide="lock-keyhole"></i>관리자 로그인</h1>
+  <p>기사 선별상태를 고치고 사이트에 반영하는 화면입니다.</p>
+  <div class="field">
+    <label for="pw">관리자 암호</label>
+    <input class="input" id="pw" type="password" autocomplete="current-password" required>
+  </div>
+  <div class="notice bad" id="loginErr" hidden></div>
+  <button class="btn btn-dark" type="submit" id="loginBtn">들어가기</button>
+</form>
+
+<!-- 기사 선별 -->
+<main id="newsView" hidden>
+  <div class="wrap">
+    <div class="head">
+      <h1>기사 선별</h1>
+      <p>구글 시트에서 AI 분석이 끝난 기사입니다. 상태를 누르면 바로 시트에 저장되고, 아래 <b>사이트에 반영</b>을 누르면 1~2분 뒤 대시보드에 나타납니다. 대시보드에는 필요·검토필요만 공개됩니다.</p>
+    </div>
+    <div class="toolbar">
+      <div class="chips" id="tabs"></div>
+      <div class="row-tools">
+        <input class="input" id="q" type="search" placeholder="제목·요약·출처·기관 검색" autocomplete="off">
+        <select class="select" id="period" aria-label="보도일자 기간">
+          <option value="7">최근 7일</option>
+          <option value="30" selected>최근 30일</option>
+          <option value="all">전체 기간</option>
+        </select>
+        <button class="btn" type="button" id="refresh"><i data-lucide="refresh-cw"></i><span class="hide-sm">시트 다시 읽기</span></button>
+      </div>
+      <div class="summary-line" id="sumLine"></div>
+    </div>
+    <div id="items"></div>
+  </div>
+  <div class="publish">
+    <div class="wrap">
+      <div class="publish-msg" id="pubMsg">바꾼 기사가 없습니다</div>
+      <button class="btn btn-dark" type="button" id="publish"><i data-lucide="upload-cloud"></i>사이트에 반영</button>
+    </div>
+  </div>
+</main>
+
+<!-- 의견 관리 -->
+<main id="postsView" hidden>
+  <div class="wrap narrow">
+    <div class="head">
+      <h1>의견 관리</h1>
+      <p>게시판 글에 상태와 답변을 남기거나, 부적절한 글을 숨길 수 있습니다. 숨긴 글은 게시판에 보이지 않습니다.</p>
+    </div>
+    <div id="posts"></div>
+  </div>
+</main>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+  const API = 'https://medical-trend-api.bluebird1131.workers.dev';
+  const STATUSES = ['필요', '검토필요', '불필요'];
+  const PAGE = 80;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const icons = () => window.lucide && lucide.createIcons();
+  let key = '', headers = [], rows = [], C = {}, tab = '필요', shown = PAGE, changed = 0, view = 'news';
+  try { key = sessionStorage.getItem('mt-admin') || ''; } catch {}
+
+  function toast(msg) {
+    const t = $('toast'); t.textContent = msg; t.classList.add('show');
+    clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 2600);
+  }
+  async function api(path, opt = {}) {
+    const r = await fetch(API + path, { ...opt, headers: { 'content-type': 'application/json', 'x-admin-key': key, ...(opt.headers || {}) }, cache: 'no-store' });
+    const j = await r.json().catch(() => ({}));
+    if (r.status === 401) { logout(); throw new Error('관리자 암호가 맞지 않습니다'); }
+    if (!r.ok) throw new Error(j.error || `HTTP ${r.status}`);
+    return j;
+  }
+
+  /* ---------- 로그인 ---------- */
+  $('login').addEventListener('submit', async e => {
+    e.preventDefault();
+    key = $('pw').value; $('loginBtn').disabled = true; $('loginErr').hidden = true;
+    try {
+      await api('/api/admin/check');
+      try { sessionStorage.setItem('mt-admin', key); } catch {}
+      enter();
+    } catch (err) {
+      $('loginErr').hidden = false; $('loginErr').textContent = err.message;
+    } finally { $('loginBtn').disabled = false; }
+  });
+  function logout() {
+    key = ''; try { sessionStorage.removeItem('mt-admin'); } catch {}
+    $('login').hidden = false; $('newsView').hidden = $('postsView').hidden = $('vtabs').hidden = $('logout').hidden = true;
+  }
+  $('logout').addEventListener('click', logout);
+  function enter() {
+    $('login').hidden = true; $('vtabs').hidden = $('logout').hidden = false;
+    setView(view);
+    loadRows(); watchRuns();
+  }
+  function setView(v) {
+    view = v;
+    document.querySelectorAll('#vtabs button').forEach(b => b.classList.toggle('on', b.dataset.view === v));
+    $('newsView').hidden = v !== 'news'; $('postsView').hidden = v !== 'posts';
+    if (v === 'posts') loadPosts();
+  }
+  $('vtabs').addEventListener('click', e => { const b = e.target.closest('[data-view]'); if (b) setView(b.dataset.view); });
+
+  /* ---------- 기사 선별 ---------- */
+  const col = re => headers.findIndex(h => re.test(h));
+  const ymd = s => { const m = String(s).match(/(\d{4})\D{1,3}(\d{1,2})\D{1,3}(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
+  const norm = s => /^\[?\s*불필요|^\[?\s*제외/.test(s) ? '불필요' : /^\[?\s*검토/.test(s) ? '검토필요' : /^\[?\s*(필요|선별)/.test(s) ? '필요' : s;
+  const val = (r, k) => C[k] >= 0 ? String(r.v[C[k]] ?? '').trim() : '';
+
+  async function loadRows() {
+    $('items').innerHTML = `<div class="state"><i data-lucide="loader" class="spin"></i><div>구글 시트를 읽는 중입니다 (10초쯤 걸릴 수 있습니다)</div></div>`;
+    icons(); $('refresh').disabled = true;
+    try {
+      const j = await api('/api/admin/rows');
+      headers = j.headers || [];
+      C = { collected: col(/수집/), source: col(/출처|매체/), title: col(/제목/), status: col(/선별|상태/), category: col(/분류/),
+            summary: col(/요약|내용/), org: col(/병원|기관/), region: col(/지역/), date: col(/보도/), link: col(/url/i) };
+      rows = (j.rows || []).map(r => ({ ...r, st: norm(val(r, 'status')) }));
+      rows.sort((a, b) => ymd(val(b, 'date')).localeCompare(ymd(val(a, 'date'))) || b.row - a.row);
+      shown = PAGE; render();
+    } catch (e) {
+      $('items').innerHTML = `<div class="notice bad"><i data-lucide="circle-alert"></i><div>시트를 읽지 못했습니다: ${esc(e.message)}</div></div>`; icons();
+    } finally { $('refresh').disabled = false; }
+  }
+  $('refresh').addEventListener('click', loadRows);
+
+  function filtered() {
+    const q = $('q').value.trim().toLowerCase(), p = $('period').value;
+    const cut = p === 'all' ? '' : new Date(Date.now() + 9 * 3600e3 - (+p - 1) * 86400e3).toISOString().slice(0, 10);
+    return rows.filter(r => (!cut || ymd(val(r, 'date')) >= cut) && (!q || r.v.join(' ').toLowerCase().includes(q)));
+  }
+  function render() {
+    const base = filtered();
+    const n = s => base.filter(r => r.st === s).length;
+    $('tabs').innerHTML = [...STATUSES, '전체'].map(s =>
+      `<button type="button" class="chip${s === tab ? ' on' : ''}" data-tab="${s}">${s}<span class="n">${(s === '전체' ? base.length : n(s)).toLocaleString()}</span></button>`).join('');
+    const list = tab === '전체' ? base : base.filter(r => r.st === tab);
+    $('sumLine').innerHTML = `<span>${esc($('period').selectedOptions[0].text)} · ${esc(tab)} <b>${list.length.toLocaleString()}건</b></span><span>시트 분석 완료 ${rows.length.toLocaleString()}건</span>`;
+    $('items').innerHTML = list.length ? list.slice(0, shown).map(item).join('') +
+      (list.length > shown ? `<button class="btn" style="display:flex;margin:16px auto 0" type="button" id="more">더 보기 (${(list.length - shown).toLocaleString()}건 남음)</button>` : '')
+      : `<div class="card state"><i data-lucide="inbox"></i><div>조건에 맞는 기사가 없습니다</div></div>`;
+    icons();
+  }
+  function item(r) {
+    const link = val(r, 'link'), sum = val(r, 'summary').replace(/^\s*\[[^\]]*\]\s*/, '');
+    const meta = [val(r, 'date'), val(r, 'source'), val(r, 'org'), val(r, 'region')].filter(Boolean).map(esc);
+    return `<article class="card item${r.changedTo ? ' changed' : ''}" data-row="${r.row}">
+      <div>
+        <div class="meta">${val(r, 'category') ? `<span class="cat">${esc(val(r, 'category'))}</span>` : ''}${meta.join(' · ')}${r.changedTo ? ` <span class="saved">· 시트에 저장됨</span>` : ''}</div>
+        <h3 class="title">${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(val(r, 'title'))}</a>` : esc(val(r, 'title'))}</h3>
+        ${sum ? `<p class="sum" title="눌러서 펼치기">${esc(sum)}</p>` : ''}
+      </div>
+      <div class="seg" role="group" aria-label="선별상태">${STATUSES.map(s => `<button type="button" data-s="${s}" class="${r.st === s ? 'on' : ''}">${s}</button>`).join('')}</div>
+    </article>`;
+  }
+  $('tabs').addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) { tab = b.dataset.tab; shown = PAGE; render(); } });
+  let qt; $('q').addEventListener('input', () => { clearTimeout(qt); qt = setTimeout(() => { shown = PAGE; render(); }, 200); });
+  $('period').addEventListener('change', () => { shown = PAGE; render(); });
+
+  $('items').addEventListener('click', async e => {
+    if (e.target.id === 'more') { shown += PAGE; render(); return; }
+    const sum = e.target.closest('.sum'); if (sum) { sum.classList.toggle('open'); return; }
+    const b = e.target.closest('.seg button'); if (!b) return;
+    const el = b.closest('.item'), r = rows.find(x => x.row === +el.dataset.row), s = b.dataset.s;
+    if (!r || r.st === s) return;
+    el.querySelectorAll('.seg button').forEach(x => x.disabled = true);
+    try {
+      const j = await api('/api/admin/status', { method: 'POST', body: JSON.stringify({ updates: [{ row: r.row, link: val(r, 'link'), status: s }] }) });
+      if (j.missing && j.missing.length) throw new Error('시트에서 이 기사를 찾지 못했습니다. 시트 다시 읽기를 눌러 주세요.');
+      const d = (j.done || [])[0]; if (d) r.row = d.row;
+      r.st = s; r.v[C.status] = s; r.changedTo = s;
+      changed++; paintPublish();
+      toast(`"${s}"(으)로 바꿨습니다`);
+      render();
+    } catch (err) {
+      toast(err.message);
+      el.querySelectorAll('.seg button').forEach(x => x.disabled = false);
+    }
+  });
+
+  /* ---------- 사이트에 반영 ---------- */
+  let lastRun = null, watching = null;
+  function paintPublish(run) {
+    if (run) lastRun = run;
+    const r = lastRun;
+    const running = r && r.status !== 'completed';
+    const t = r ? new Date(r.updated_at).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }) : '';
+    $('pubMsg').innerHTML = running
+      ? `<i data-lucide="loader" class="spin"></i>사이트에 반영하는 중입니다 · 1~2분 걸립니다`
+      : changed ? `이번에 바꾼 기사 <b>${changed}건</b> · 반영하려면 오른쪽 버튼을 눌러 주세요`
+      : r ? `${r.conclusion === 'success' ? `<i data-lucide="circle-check" style="color:var(--ok)"></i>마지막 반영 ${t} 완료` : `<i data-lucide="circle-alert" style="color:var(--bad)"></i>마지막 반영 ${t} 실패 · <a href="${esc(r.url)}" target="_blank" rel="noopener">기록 보기</a>`}` : '바꾼 기사가 없습니다';
+    $('publish').disabled = !!running;
+    icons();
+  }
+  async function watchRuns() {
+    clearTimeout(watching);
+    try {
+      const j = await api('/api/admin/runs');
+      paintPublish((j.runs || [])[0]);
+      if (lastRun && lastRun.status !== 'completed') watching = setTimeout(watchRuns, 8000);
+    } catch {}
+  }
+  $('publish').addEventListener('click', async () => {
+    $('publish').disabled = true;
+    try {
+      await api('/api/admin/publish', { method: 'POST', body: '{}' });
+      changed = 0;
+      paintPublish({ status: 'queued', updated_at: new Date().toISOString() });
+      toast('반영을 시작했습니다');
+      setTimeout(watchRuns, 5000);
+    } catch (err) { toast(err.message); $('publish').disabled = false; }
+  });
+
+  /* ---------- 의견 관리 ---------- */
+  const STATES = ['접수', '확인', '반영', '보류'];
+  let posts = [];
+  async function loadPosts() {
+    $('posts').innerHTML = `<div class="state"><i data-lucide="loader" class="spin"></i><div>불러오는 중입니다</div></div>`; icons();
+    try {
+      posts = (await api('/api/posts?all=1')).posts || [];
+      renderPosts();
+    } catch (e) { $('posts').innerHTML = `<div class="notice bad"><i data-lucide="circle-alert"></i><div>${esc(e.message)}</div></div>`; icons(); }
+  }
+  function renderPosts() {
+    $('posts').innerHTML = posts.length ? posts.map(p => `<article class="card post${p.hidden ? ' hidden-post' : ''}" data-id="${p.id}">
+      <div class="post-meta"><span class="pill no">${esc(p.kind)}</span><b>${esc(p.name)}</b>
+        <span>${new Date(p.created_at.replace(' ', 'T') + 'Z').toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' })}</span>
+        ${p.hidden ? '<span class="pill bad">숨김</span>' : ''}</div>
+      <p class="post-body">${esc(p.body)}</p>
+      ${p.link ? `<a class="post-ref" href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.title || p.link)}</a>` : ''}
+      <div class="post-tools">
+        <select class="select" data-act="state" aria-label="처리 상태" style="width:auto">${STATES.map(s => `<option${s === p.state ? ' selected' : ''}>${s}</option>`).join('')}</select>
+        <button class="btn btn-sm" type="button" data-act="hide">${p.hidden ? '다시 보이기' : '숨기기'}</button>
+      </div>
+      <div class="post-tools"><textarea class="textarea" data-act="reply" placeholder="답변 (게시판에 보입니다)">${esc(p.reply)}</textarea>
+        <button class="btn btn-sm btn-dark" type="button" data-act="save-reply">답변 저장</button></div>
+    </article>`).join('') : `<div class="card state"><i data-lucide="message-square"></i><div>아직 올라온 의견이 없습니다</div></div>`;
+    icons();
+  }
+  async function patch(id, body, msg) {
+    try { await api('/api/posts/' + id, { method: 'PATCH', body: JSON.stringify(body) }); toast(msg); await loadPosts(); }
+    catch (e) { toast(e.message); }
+  }
+  $('posts').addEventListener('change', e => {
+    if (e.target.dataset.act === 'state') patch(e.target.closest('.post').dataset.id, { state: e.target.value }, '상태를 바꿨습니다');
+  });
+  $('posts').addEventListener('click', e => {
+    const b = e.target.closest('button[data-act]'); if (!b) return;
+    const el = b.closest('.post'), p = posts.find(x => x.id === +el.dataset.id);
+    if (b.dataset.act === 'hide') patch(p.id, { hidden: !p.hidden }, p.hidden ? '다시 보이게 했습니다' : '숨겼습니다');
+    if (b.dataset.act === 'save-reply') patch(p.id, { reply: el.querySelector('[data-act="reply"]').value }, '답변을 저장했습니다');
+  });
+
+  icons();
+  if (key) { api('/api/admin/check').then(enter).catch(() => {}); }
+</script>
+</body>
+</html>
