@@ -45,6 +45,20 @@
   ],
   [
    "2026-10-12",
+   "메디컬타임즈",
+   "의사는 없고 약 배송은 논란…국감서 드러난 의료 민낯",
+   "필요",
+   "국가정책/수가제도",
+   "• 국정감사 정치적 공방 및 비대면 약배송 논란 기사로 신기술 도입과 무관.",
+   "국회 보건복지위",
+   "전국",
+   "2026-10-12",
+   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171106",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-10-12",
    "데일리메디",
    "정부 방침 완화되나…의료계 “비대면 진료 당혹”",
    "필요",
@@ -16105,6 +16119,7 @@
  "thumbs": {
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261003_1948346438_GVTHrgW9_2968032b10aed72969fe7f246a954fcbda09e636_800x600.jpg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261002_3555380049_Gx7DzmBA_b66868e6fc7869325f9a358882e623172b7eda2d_800x600.jpg",
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171106": "https://pds.medicaltimes.com/Thumnail/20261008/1791456192.png",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261011_3695652532_BDqeACE9_263324a99738e5839cba2d635a198cd75d9c0d45_800x600.jpg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261008_3660002597_dq1gIrJQ_e1084925febd71af4d44dbf59840279f4c07bd98_800x520.png",
   "https://www.dailymedi.com/news/news_view.php?wr_id=941247": "https://dailymedi.com/data/news_cont/2610/d20261008_990878898_w8omcpK0_b95e47afd6562ad31d2482879f1e2d7cf69f23c1.jpg",
@@ -16612,5 +16627,5 @@
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043491": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043491_3047322_4030_v150.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043478": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043478_3047304_3040_v150.jpg"
  },
- "fetchedAt": "2026-10-12 23:52"
+ "fetchedAt": "2026-10-13 01:28"
 }
