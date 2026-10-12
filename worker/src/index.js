@@ -145,11 +145,12 @@ async function gas(env, payload) {
 }
 
 function gh(env, path, init = {}) {
-  if (!env.GITHUB_TOKEN) throw new Error('GitHub 토큰이 설정되지 않았습니다.');
+  const token = env.GITHUB_TOKEN || env.GITHB_TOKEN;  // 대시보드에서 GITHB_TOKEN 으로 등록됨
+  if (!token) throw new Error('GitHub 토큰이 설정되지 않았습니다.');
   return fetch('https://api.github.com' + path, {
     ...init,
     headers: {
-      authorization: `Bearer ${env.GITHUB_TOKEN}`, accept: 'application/vnd.github+json',
+      authorization: `Bearer ${token}`, accept: 'application/vnd.github+json',
       'x-github-api-version': '2022-11-28', 'user-agent': 'medical-trend-api', 'content-type': 'application/json',
     },
   });
