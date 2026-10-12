@@ -599,7 +599,7 @@
   let headers = [], cols = {}, items = [], listItems = [], ctxs = {}, thumbs = {}, imgFreq = new Map();
   // 국고사업 공고의 접수기간 (GitHub Actions 가 복지부 공지 원문에서 읽어 둔 deadlines.json)
   let deadlines = {}, openOnly = false;
-  let filter = { q: '', cat: '전체', period: '7' };
+  let filter = { q: '', cat: '전체', period: 'today' };  // 처음 열면 '어제~오늘'
   let brief = { days: [] }, briefAt = 0, aiKind = 'daily';
   let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true;
 
@@ -788,7 +788,8 @@
     items.sort((a, b) => (b.date ? b.date.getTime() : -Infinity) - (a.date ? a.date.getTime() : -Infinity));
     if (d.title) { $('brand').textContent = d.title; document.title = d.title; }
     $('updated').textContent = d.fetchedAt ? `${d.fetchedAt} 업데이트` : '데이터 수집 대기 중';
-    // 첫 화면에서 최근 7일 기사가 하나도 없으면 전체 기간으로 보여 줌
+    // 어제~오늘 기사가 아직 없으면(분석 전 이른 아침 등) 7일 → 전체 순으로 넓혀 보여 줌
+    if (firstLoad && items.length && !items.some(inPeriod)) filter.period = '7';
     if (firstLoad && items.length && !items.some(inPeriod)) filter.period = 'all';
     firstLoad = false;
     renderAll();
