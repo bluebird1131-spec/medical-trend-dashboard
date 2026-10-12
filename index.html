@@ -163,6 +163,12 @@
   .ai-label .ai-mark { width: 26px; height: 26px; border-radius: 7px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
   .ai-label .ai-mark .lucide { width: 15px; height: 15px; }
   .ai-label small { font-size: 13px; font-weight: 500; color: var(--muted); }
+  .ai-tools { display: flex; align-items: center; gap: 8px; }
+  .ai-kinds { display: inline-flex; padding: 3px; gap: 2px; border-radius: 9px; background: var(--hover); }
+  .ai-kinds button { height: 28px; padding: 0 12px; border: 0; border-radius: 6px; background: transparent; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; }
+  .ai-kinds button:hover { color: var(--foreground); }
+  .ai-kinds button.on { background: var(--card); color: var(--heading); box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .ai-more { height: 24px; padding: 0 6px; font-size: 12px; color: var(--faint); display: inline-flex; align-items: center; }
   .ai-nav { display: flex; align-items: center; gap: 2px; font-size: 13px; color: var(--muted); }
   .ai-nav .icon-btn { width: 30px; height: 30px; }
   .ai-body { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); }
@@ -429,7 +435,6 @@
     </nav>
     <div class="tb-right">
       <span class="updated" id="updated"></span>
-      <button class="icon-btn" id="reload" type="button" title="최신 데이터 다시 불러오기 (시트 수정분은 최대 30분 뒤 반영)" aria-label="새로고침"><i data-lucide="refresh-cw"></i></button>
     </div>
   </div>
 </header>
@@ -498,7 +503,7 @@
   </section>
 </main>
 
-<footer>구글 시트 데이터를 30분마다 가져와 보여주는 페이지입니다. 내용 추가·수정은 시트에서 해주세요.</footer>
+<footer>구글 시트 데이터를 자동으로 가져와 보여주는 페이지입니다 (매일 오전 Gemini 분석 후 반영). 내용 추가·수정은 시트에서 해주세요.</footer>
 
 <div class="tip" id="tip" role="tooltip"></div>
 <div class="overlay" id="overlay"></div>
@@ -551,7 +556,7 @@
 
   let headers = [], cols = {}, items = [], listItems = [], ctxs = {}, thumbs = {}, imgFreq = new Map();
   let filter = { q: '', cat: '전체', period: '7' };
-  let brief = { days: [] }, briefAt = 0;
+  let brief = { days: [] }, briefAt = 0, aiKind = 'daily';
   let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true, cloudWords = [];
 
   const $ = id => document.getElementById(id);
@@ -691,7 +696,6 @@
 
   /* ---------- 데이터 ---------- */
   function load() {
-    $('reload').classList.add('loading');
     if (location.protocol === 'file:') {
       brief = DEMO_BRIEF;
       onData(DEMO);  // PC에서 파일을 직접 열었을 때 미리보기
@@ -705,19 +709,17 @@
       .then(res => res.ok ? res.json() : { days: [] }).catch(() => ({ days: [] }));
     fetch('data.json?t=' + Date.now(), { cache: 'no-store' })
       .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
-      .then(d => aiReq.then(b => { brief = b && Array.isArray(b.days) ? b : { days: [] }; briefAt = 0; onData(d); }))
+      .then(d => aiReq.then(b => { brief = b && typeof b === 'object' ? b : {}; brief.days = Array.isArray(brief.days) ? brief.days : []; briefAt = 0; onData(d); }))
       .catch(onError);
   }
 
   function onError(e) {
-    $('reload').classList.remove('loading');
     $('vDesc').textContent = '데이터를 불러오지 못했습니다';
     $('notice').innerHTML = `<div class="notice">${icon('circle-alert')}<div><b>데이터를 불러오지 못했습니다</b> · ${esc(e && e.message || e)} · 잠시 후 새로고침해 주세요.</div></div>`;
     drawIcons();
   }
 
   function onData(d) {
-    $('reload').classList.remove('loading');
     headers = d.headers || [];
     cols = detect(headers);
     thumbs = d.thumbs || {};
@@ -822,45 +824,54 @@
     box.innerHTML = html;
   }
 
-  // AI 데일리 브리핑: GitHub Actions 가 Gemini 로 그날 새로 올라온 기사를 정리해 둔 brief.json
+  // AI 브리핑: GitHub Actions 가 Gemini 로 정리해 둔 brief.json (오늘 새 기사 · 최근 7일 · 최근 30일)
+  const AI_KINDS = { daily: '오늘', weekly: '주간', monthly: '월간' };
+  const aiOf = k => k === 'daily' ? brief.days[briefAt] : brief[k];
   function renderAi() {
-    const day = brief.days[briefAt];
-    if (!day) { $('aiBrief').innerHTML = ''; return; }
+    const kinds = Object.keys(AI_KINDS).filter(k => k === 'daily' ? brief.days.length : brief[k]);
+    if (!kinds.length) { $('aiBrief').innerHTML = ''; return; }
+    if (!kinds.includes(aiKind)) aiKind = kinds[0];
+    const b = aiOf(aiKind);
     const byLink = new Map(items.map(it => [get(it.r, 'link'), it]));
-    const d = parseDate(day.date), a = daysAgo(d);
-    const when = a === 0 ? '오늘' : a === 1 ? '어제' : '';
+    const d = parseDate(b.date), from = parseDate(b.from), a = daysAgo(d);
+    const md = x => `${x.getMonth() + 1}월 ${x.getDate()}일`;
+    const span = aiKind === 'daily'
+      ? `${d ? `${md(d)} ${WEEK[d.getDay()]}` : esc(b.date)}${a === 0 ? ' (오늘)' : a === 1 ? ' (어제)' : ''} · 새 기사 ${fmt(b.count || 0)}건`
+      : `${from && d ? `${md(from)} ~ ${md(d)}` : ''} · 기사 ${fmt(b.count || 0)}건`;
     const refName = it => {
       const t = titleOf(it), who = get(it.r, 'source');
       return `${who ? esc(who) + ' · ' : ''}${esc(t.length > 22 ? t.slice(0, 22).replace(/[.…·\s]+$/, '') + '…' : t)}`;
     };
-    const pts = (day.points || []).map((p, k) => {
+    const SHOW = 4;  // 동향 하나에 근거 기사 버튼은 4개까지 (나머지는 패널에서 ←/→ 로 넘겨 봄)
+    const pts = (b.points || []).map((p, k) => {
       const refs = (p.links || []).map(l => byLink.get(l)).filter(Boolean);
       ctxs['ai:' + k] = refs;
       return `<li><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p>
-        ${refs.length ? `<div class="ai-refs">${refs.map((it, i) =>
-          `<button type="button" class="ai-ref" data-ctx="ai:${k}" data-i="${i}" title="${esc(titleOf(it))}">${refName(it)}</button>`).join('')}</div>` : ''}</li>`;
+        ${refs.length ? `<div class="ai-refs">${refs.slice(0, SHOW).map((it, i) =>
+          `<button type="button" class="ai-ref" data-ctx="ai:${k}" data-i="${i}" title="${esc(titleOf(it))}">${refName(it)}</button>`).join('')}${
+          refs.length > SHOW ? `<span class="ai-more">외 ${fmt(refs.length - SHOW)}건</span>` : ''}</div>` : ''}</li>`;
     }).join('');
-    const imp = day.implications || [];
-    const nav = brief.days.length > 1 ? `<div class="ai-nav">
-        <button class="icon-btn" type="button" data-ai="1" ${briefAt >= brief.days.length - 1 ? 'disabled' : ''} aria-label="이전 브리핑">${icon('chevron-left')}</button>
-        <span>${briefAt === 0 ? '최신' : '지난 브리핑'}</span>
-        <button class="icon-btn" type="button" data-ai="-1" ${briefAt === 0 ? 'disabled' : ''} aria-label="다음 브리핑">${icon('chevron-right')}</button>
+    const imp = b.implications || [];
+    const tabs = kinds.length > 1 ? `<div class="ai-kinds" role="tablist" aria-label="브리핑 기간">${kinds.map(k =>
+      `<button type="button" role="tab" aria-selected="${k === aiKind}" class="${k === aiKind ? 'on' : ''}" data-aikind="${k}">${AI_KINDS[k]}</button>`).join('')}</div>` : '';
+    const nav = aiKind === 'daily' && brief.days.length > 1 ? `<div class="ai-nav">
+        <button class="icon-btn" type="button" data-ai="1" ${briefAt >= brief.days.length - 1 ? 'disabled' : ''} aria-label="이전 날 브리핑">${icon('chevron-left')}</button>
+        <button class="icon-btn" type="button" data-ai="-1" ${briefAt === 0 ? 'disabled' : ''} aria-label="다음 날 브리핑">${icon('chevron-right')}</button>
       </div>` : '';
-    $('aiBrief').innerHTML = `<section class="card ai" aria-label="AI 데일리 브리핑">
+    $('aiBrief').innerHTML = `<section class="card ai" aria-label="AI 브리핑">
       <div class="ai-head">
-        <div class="ai-label"><span class="ai-mark">${icon('sparkles')}</span>AI 데일리 브리핑
-          <small>${d ? `${d.getMonth() + 1}월 ${d.getDate()}일 ${WEEK[d.getDay()]}` : esc(day.date)}${when ? ` (${when})` : ''} · 새 기사 ${fmt(day.count || 0)}건 기준</small></div>
-        ${nav}
+        <div class="ai-label"><span class="ai-mark">${icon('sparkles')}</span>AI ${AI_KINDS[aiKind]} 브리핑<small>${span}</small></div>
+        <div class="ai-tools">${nav}${tabs}</div>
       </div>
       <div class="ai-body">
         <div class="ai-main">
-          ${day.headline ? `<p class="ai-headline">${esc(day.headline)}</p>` : ''}
+          ${b.headline ? `<p class="ai-headline">${esc(b.headline)}</p>` : ''}
           <ol class="ai-points">${pts}</ol>
         </div>
         <aside class="ai-side">
           <h3>${icon('lightbulb')}우리 병원 시사점</h3>
           ${imp.length ? `<ul>${imp.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="ai-note" style="margin:0">이번 브리핑에는 시사점이 없습니다.</p>'}
-          <p class="ai-note">Gemini가 선별 기사 요약을 바탕으로 자동 작성했습니다${day.generatedAt ? ` (${esc(day.generatedAt)})` : ''}. 판단 전에 근거 기사를 확인해 주세요.</p>
+          <p class="ai-note">Gemini가 선별 기사 요약을 바탕으로 자동 작성했습니다${b.generatedAt ? ` (${esc(b.generatedAt)})` : ''}. 판단 전에 근거 기사를 확인해 주세요.</p>
         </aside>
       </div>
     </section>`;
@@ -1097,7 +1108,6 @@
   let timer;
   $('q').addEventListener('input', e => { clearTimeout(timer); timer = setTimeout(() => { filter.q = e.target.value.trim(); update(); }, 200); });
   $('q').addEventListener('keydown', e => { if (e.key === 'Escape') { e.target.value = ''; filter.q = ''; update(); } });
-  $('reload').addEventListener('click', load);
   $('vtabs').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setView(b.dataset.view); });
   $('period').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { filter.period = b.dataset.period; update(); } });
   $('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) { filter.cat = b.dataset.cat; update(); } });
@@ -1111,6 +1121,7 @@
     if ((el = t.closest('[data-open]'))) return markRead(el.dataset.open);
     if ((el = t.closest('[data-ctx]'))) return openReader(+el.dataset.i, ctxs[el.dataset.ctx] || []);
     if ((el = t.closest('[data-ai]'))) { briefAt += +el.dataset.ai; renderAi(); drawIcons(); return; }
+    if ((el = t.closest('[data-aikind]'))) { aiKind = el.dataset.aikind; renderAi(); drawIcons(); return; }
     if ((el = t.closest('[data-word]'))) return goList({ q: filter.q === el.dataset.word && view === 'list' ? '' : el.dataset.word });
     if ((el = t.closest('.bar-row'))) return goList({ q: el.dataset.q });
     if ((el = t.closest('[data-gocat]'))) return goList({ cat: el.dataset.gocat });
@@ -1185,19 +1196,23 @@
   })();
 
   // 미리보기 전용 AI 브리핑 예시
-  const DEMO_BRIEF = { days: [0, 1].map(n => {
-    const t = new Date(); t.setDate(t.getDate() - n);
-    return {
-      date: dayKey(t), count: 6, generatedAt: dayKey(t) + ' 09:42', model: 'demo',
-      headline: n ? '[예시] 어제 브리핑 한 줄 요약' : '[예시] 필수의료 수가 개선 논의와 의료 AI 급여화 검토가 함께 진행',
+  const DEMO_BRIEF = (() => {
+    const ago = n => { const t = new Date(); t.setDate(t.getDate() - n); return dayKey(t); };
+    const one = (n, from, count, headline) => ({
+      date: ago(n), from: ago(from), count, generatedAt: ago(n) + ' 09:42', model: 'demo', headline,
       points: [
         { title: '[예시] 필수의료 수가 개선 공청회', body: '예시 문장입니다. 아래 근거 기사를 누르면 요약 패널이 열림.', links: ['https://example.com'] },
         { title: '[예시] 의료 AI 건강보험 적용 논의', body: '판독 보조 소프트웨어 급여 기준 마련 논의 예정.', links: [] },
         { title: '[예시] 상급종합병원 구조전환 2차 발표', body: '참여 병원 명단 공개 및 후속 지원 추진.', links: [] },
       ],
-      implications: ['[예시] 우리 병원이 검토할 만한 점이 이 자리에 표시됩니다.', '[예시] 기사 근거가 분명한 것만 1~3개 작성됩니다.'],
+      implications: ['[예시] 우리 병원이 검토할 만한 점이 이 자리에 표시됩니다.', '[예시] 기사 근거가 분명한 것만 작성됩니다.'],
+    });
+    return {
+      days: [one(0, 0, 6, '[예시] 오늘 새 기사 한 줄 요약'), one(1, 1, 4, '[예시] 어제 브리핑 한 줄 요약')],
+      weekly: one(0, 6, 15, '[예시] 최근 7일 흐름 한 줄 요약'),
+      monthly: one(0, 29, 20, '[예시] 최근 30일 흐름 한 줄 요약'),
     };
-  }) };
+  })();
 
   syncTopbar();
   const startView = location.hash.slice(1);
