@@ -3,49 +3,58 @@
   {
    "date": "2026-10-12",
    "from": "2026-10-12",
-   "headline": "첨단세포치료 및 AI 도입 등 진료 혁신 가속화와 중증외상·배후진료 지원 강화 추진",
+   "headline": "병원계 첨단 세포치료 도입 속 정부의 중증외상 역량 지원 및 AI 임상·재활 급여화 정책 추진",
    "points": [
     {
-     "title": "경희대병원 CAR-T 치료센터 검증 착수",
-     "body": "경희대병원이 종양혈액내과 중심 인력과 장비 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
+     "section": "병원",
+     "title": "경희대병원 CAR-T 세포치료센터 개소 추진",
+     "body": "경희대병원이 종양혈액내과 중심 인력·장비·시설 점검 및 의료진 교육을 완료하고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
      ]
     },
     {
-     "title": "AI 기반 신약 임상 및 병리 솔루션 확장",
-     "body": "정부의 AI 신약 임상개발 지원 체계 구축과 민간의 글로벌 AI 병리 소프트웨어 공급 착수 등 디지털 기술 임상 적용이 가속화됨.",
+     "section": "병원",
+     "title": "루닛 글로벌 제약사 대상 AI 병리 분석 공급 착수",
+     "body": "루닛이 미국 기업과 협력하여 글로벌 빅파마를 대상으로 AI 병리 분석 소프트웨어 공급에 착수함.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "정부 권역외상센터 집중 지원 및 중증외상 최종치료 역량 강화",
+     "body": "보건복지부가 중증외상 환자의 최종치료 역량을 높이기 위해 권역외상센터 대상 집중 지원 방침을 발표함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "AI·디지털 기반 신약 임상개발 혁신 지원 체계 구축",
+     "body": "보건복지부가 급변하는 글로벌 환경 대응을 위해 AI 및 디지털 기술을 접목한 신약 임상개발 혁신과 지원 체계 구축을 추진함.",
+     "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1"
      ]
     },
     {
-     "title": "권역외상 집중 지원 및 재활 훈련 급여화",
-     "body": "보건복지부의 중증외상 최종치료 역량 강화 및 권역외상센터 집중 지원과 함께, 척수손상·뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여가 인정됨.",
+     "section": "정책",
+     "title": "척수손상·뇌졸중 휠체어 훈련 건강보험 급여화 인정",
+     "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여 청구가 인정되어 재활의료기관의 임상 서비스 확대가 예상됨.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
-     ]
-    },
-    {
-     "title": "의료AI 수가 진입 및 배후진료 확충 논의",
-     "body": "의료AI 기술의 실제 건강보험 수가 적용 및 병원 행정 절차 표준화 필요성이 제기되고, 상급종합병원 배후진료 전문의 확보 등 중증 응급 인프라 개선 요구가 이어짐.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315"
      ]
     }
    ],
    "implications": [
-    "보건복지부 권역외상센터 집중 지원 기조에 맞춘 중증외상 최종치료 프로세스 및 배후진료 전문의 협진 체계 점검 필요",
-    "재활의학과 척수손상·뇌졸중 입원·외래 환자 대상 휠체어 일상 적응 훈련 건강보험 급여 청구 기준 마련 및 임상 서비스 확대 검토",
-    "타 상급종합병원의 CAR-T 세포치료센터 개소 준비에 대응한 혈액암 분야 첨단세포치료 인력·시설 인프라 벤치마킹 검토"
+    "보건복지부의 권역외상센터 집중 지원 방침에 발맞추어 원내 중증외상 최종치료 및 배후진료 역량 강화 방안 점검 필요",
+    "경희대병원 등 수도권 병원의 CAR-T 세포치료센터 개소 동향을 참조하여 동남권 지역 암환자 유출 방지를 위한 첨단세포치료 인프라 및 인력 교육 체계 검토 필요",
+    "척수손상·뇌졸중 환자 대상 휠체어 사용 훈련의 건강보험 급여화 인정에 따른 재활의학과 환자 맞춤형 수가 청구 및 훈련 프로토콜 도입 검토"
    ],
    "count": 16,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-12 13:07",
-   "sig": "ebkf8e",
+   "generatedAt": "2026-10-12 13:14",
+   "sig": "2:ebkf8e",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117",
@@ -69,136 +78,159 @@
  "weekly": {
   "date": "2026-10-12",
   "from": "2026-10-06",
-  "headline": "주요 병원들의 첨단 AI 진단 및 세포치료 도입과 복지부의 의료AI 가이드라인 발표",
+  "headline": "정부는 권역외상센터 집중 지원과 중증환자 광역 이송망 확충 등 필수의료 안전망을 강화하고 AI 임상·진료 가이드라인 마련을 추진함.",
   "points": [
    {
-    "title": "첨단 CAR-T 센터 개소",
-    "body": "경희대병원은 인력, 장비, 시설 점검 및 의료진 교육을 완료하고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
+    "section": "정책",
+    "title": "중증외상 권역외상센터 집중 지원 강화",
+    "body": "보건복지부가 중증외상 환자의 최종치료 역량을 높이기 위해 권역외상센터 대상 집중 지원 방침을 발표함. 중증외상 분야 진료 인프라 확충과 최종치료 기능 고도화에 정책 역량이 집중될 예정임.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1"
     ]
    },
    {
-    "title": "피부암 진단 AI 개발",
-    "body": "서울아산병원은 어두운 피부 임상데이터 부족에 따른 진단 격차를 해소하고자 생성형 AI(STTN)를 개발하여 양성·악성 피부종양 분류 정확도를 대폭 개선함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?wr_id=941247"
-    ]
-   },
-   {
-    "title": "중증응급 이송망 확대",
-    "body": "보건복지부는 응급 중증질환 환자의 골든타임 사수를 위해 권역 책임의료기관 중심 닥터헬기 및 중증환자 광역 이송 체계를 호남권 전역으로 확대 개시함.",
+    "section": "정책",
+    "title": "중증환자 병원 간 광역 이송 안전망 확대",
+    "body": "보건복지부가 권역 책임의료기관 및 닥터헬기 중심의 중증환자 광역 이송 체계를 호남권 전역으로 확대 개시함. 응급 중증질환자의 골든타임 확보를 위한 병원 간 이송 연계망 구축이 가속화될 전망임.",
     "links": [
      "https://www.mohw.go.kr/menu.es?mid=a10503010200",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1"
     ]
    },
    {
-    "title": "정신건강 AI 가이드라인",
-    "body": "보건복지부와 대한신경정신의학회는 의료기관 및 기업의 안전한 AI 상담·진료 보조 환경 조성을 위한 국내 최초 '정신건강 목적 생성형 AI 이용 가이드라인'을 공식 발표함.",
+    "section": "정책",
+    "title": "필수의료 분야 의료사고 수사 절차 개선 추진",
+    "body": "보건복지부와 경찰청이 필수의료 분야 의료사고 발생 시 수사 절차를 개선하기 위한 실무 논의를 진행함. 필수진료과 의료진의 사법적 부담을 완화해 필수의료 기피 현상을 해소하려는 조치로 풀이됨.",
     "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "AI 기반 신약 임상 지원 및 가이드라인 제정",
+    "body": "정부가 신약 임상개발 혁신을 위한 AI·디지털 기술 접목 지원 체계를 수립하고 정신건강 목적 생성형 AI 가이드라인을 발표함. 임상 연구 고도화 지원과 함께 의료기관의 안전한 생성형 AI 활용 기준이 구체화되는 추세임.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1"
     ]
    },
    {
-    "title": "재활치료 건보 적용",
-    "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여화가 인정되면서 재활의료기관의 임상 서비스가 확대됨.",
+    "section": "병원",
+    "title": "수도권 대형병원 CAR-T 세포치료센터 개소",
+    "body": "경희대병원이 인력·장비·시설 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 검증 단계에 진입함. 혈액암 등 고난도 중증질환에 대응하기 위한 첨단 바이오 치료 인프라 확충이 가속화되는 양상임.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
-    ]
-   }
-  ],
-  "implications": [
-   "울산대학교병원은 중증·암 환자 치료 역량 강화를 위해 CAR-T 세포치료 및 AI 기반 의료영상·병리 분석 솔루션 도입 검토",
-   "복지부의 AI 가이드라인 및 임상 현장 적용 추세에 맞춰 병원 내 생성형 AI 활용 시 의료진 검증 체계 구축 필요",
-   "권역외상센터 및 중증응급 이송 안전망 확충 기조에 발맞춘 지역 완결형 응급의료 대응 체계 강화 추진"
-  ],
-  "count": 30,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-12 13:04",
-  "sig": "1opjell"
- },
- "monthly": {
-  "date": "2026-10-12",
-  "from": "2026-09-13",
-  "headline": "수도권 대형병원의 CAR-T·의료AI 임상 도입 가속과 정부의 권역외상 및 중증응급 최종치료 집중 지원",
-  "points": [
-   {
-    "title": "CAR-T 및 첨단재생의료 임상 진입 본격화",
-    "body": "경희대병원이 CAR-T 세포치료센터 개소를 위해 인력과 장비를 점검하고 임상 검증에 착수함. 복지부의 첨단재생의료 1호 치료 승인과 맞물려 중대·난치질환 대상 첨단세포치료의 제도권 임상 적용 본격 추진.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492041&tag=&nPage=4"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
     ]
    },
    {
-    "title": "병원 특화 질환 AI 진단 및 연구 적용 가속",
-    "body": "서울아산병원의 피부암 및 간암 정밀 AI 모델 제시와 이대목동병원의 심방세동 예측 AI 적용 등 3개 이상 대형병원에서 임상 도입 확대. AI 기반 신약 임상시험 영상 분석과 글로벌 병리 진단 소프트웨어 공급 등 정밀의료 영역 전반으로 기술 도입 확산 추세.",
+    "section": "병원",
+    "title": "임상 및 신약 연구 목적 의료 AI 도입 확산",
+    "body": "서울아산병원과 이대목동병원 등이 영상·병리 AI 기반 질환 예측 모델을 개발하고 신약 임상시험 정량 분석 심포지엄을 개최함. 병원 현장에서 중증질환 정밀의료 실증과 임상시험 혁신을 위한 AI 기술 적용이 활발히 전개되는 흐름임.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171117",
      "https://www.dailymedi.com/news/news_view.php?wr_id=941247",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398",
      "https://www.dailymedi.com/news/news_view.php?wr_id=941137",
      "https://www.dailymedi.com/news/news_view.php?wr_id=941066"
     ]
-   },
+   }
+  ],
+  "implications": [
+   "보건복지부의 중증외상 최종치료 역량 강화 방침에 발맞추어 울산 권역외상센터의 배후 진료과 연계 진료 역량 점검 및 정부 집중 지원 사업 공모 연계 검토",
+   "정부의 중증환자 병원 간 광역 이송망 확대 기조에 대비한 권역 내 닥터헬기·중증응급 전원 핫라인 및 신속 수용 프로토콜 고도화",
+   "복지부의 정신건강 생성형 AI 가이드라인 발표에 대응한 원내 의료·상담 목적 AI 솔루션 도입 안전성 검증 및 표준 운영 지침 수립"
+  ],
+  "count": 30,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-12 13:14",
+  "sig": "2:1opjell"
+ },
+ "monthly": {
+  "date": "2026-10-12",
+  "from": "2026-09-13",
+  "headline": "보건복지부의 AI 기반 신약 임상 및 지역 응급·돌봄 통합 이송 체계 혁신 가속화",
+  "points": [
    {
-    "title": "단일공 로봇수술 술기 고도화 및 성과 입증",
-    "body": "한림대동탄성심병원 등 주요 대학병원에서 경방광 단일공 로봇 전립선절제술을 통해 수술 콘솔시간 단축과 조기 회복 효과 입증. 비뇨종양 등 고난도 중증 질환에서 환자 회복 속도와 정밀도를 강조한 단일공 술기 연구 지속 확대.",
-    "links": [
-     "http://www.docdocdoc.co.kr/news/articleViewAmp.html?idxno=3043396"
-    ]
-   },
-   {
-    "title": "권역외상 및 중증응급 최종치료 집중 지원",
-    "body": "보건복지부가 중증외상 최종치료 역량 강화와 권역외상센터 집중 지원을 발표하고 호남권 광역 중증환자 이송망 확대 가동. 응급환자 이송부터 최종치료까지 아우르는 응급체계 혁신 및 상급종합병원 배후진료 강화 요구 지속 제기.",
+    "section": "정책",
+    "title": "응급의료 및 이송체계 강화",
+    "body": "정부는 중증외상 최종치료 역량 강화와 권역외상센터 집중 지원을 추진하고 있으며, 전남광주 권역까지 중증환자 광역 이송 체계를 확대 개시함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
      "https://www.mohw.go.kr/menu.es?mid=a10503010200",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492124&tag=&nPage=2"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492124&tag=&nPage=2",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492052&tag=&nPage=4",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492021&tag=&nPage=5"
     ]
    },
    {
-    "title": "병원 연계 AI 실증 및 돌봄로봇 도입 추진",
-    "body": "정부 주도로 병원과 기업 간 현장 소통을 통한 의료 AI 실증 생태계 조성과 돌봄로봇의 간호·간병 현장 연계 포럼 개최. 실제 병원 및 주거 환경과 결합한 에이지테크 실증 사업을 통해 스마트 돌봄 기술의 임상 적용 추진.",
+    "section": "정책",
+    "title": "AI·디지털 의료 생태계 조성",
+    "body": "정부는 인공지능 기술을 접목한 신약 임상개발 혁신을 지원하고 있으며, 의료 AI 실증 생태계 조성 및 정신건강 목적 생성형 AI 가이드라인을 발표함.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492095&tag=&nPage=3",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491983&tag=&nPage=6"
-    ]
-   },
-   {
-    "title": "생성형 AI 안전 가이드라인 및 수가 진입 논의",
-    "body": "복지부의 정신건강 생성형 AI 가이드라인 발표와 서울대병원 강남센터의 생성형 AI 도입 시 의료진 검증 체계 수립 필요성 제기. 혁신 의료 AI 기술의 신속한 시장 안착을 위한 건강보험 수가 체계 개편과 병원 행정 절차 표준화 논의 본격화.",
-    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?wr_id=941129"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1"
     ]
    },
    {
-    "title": "간호간병 중증병실 도입 및 입원서비스 개편",
-    "body": "복지부가 중증환자 전담병실 도입을 포함한 간호·간병통합서비스 질적 개선 로드맵 수립에 착수함. 휠체어 훈련 건강보험 급여화 인정 등 환자 일상 복귀를 지원하는 재활 및 입원 진료 서비스 확대 흐름.",
+    "section": "정책",
+    "title": "의료·요양·돌봄 통합 지원",
+    "body": "재가 생애말기 의료·요양·돌봄 통합 지원 모델 시범 추진과 함께 지역사회 중심의 돌봄 네트워크 및 전문인력 양성 계획을 논의함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492095&tag=&nPage=3",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491983&tag=&nPage=6",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492156&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492142&tag=&nPage=2",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492120&tag=&nPage=2",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492092&tag=&nPage=3"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "취약계층 건강보험 보장 확대",
+    "body": "휠체어 사용 훈련에 대한 건강보험 급여화 인정 및 희귀·소외 암 치료제의 건강보험 적용 확대로 환자 치료비 부담을 낮춤.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492094&tag=&nPage=3",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492006&tag=&nPage=6"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492089&tag=&nPage=3"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "필수의료 및 인력 실태 점검",
+    "body": "필수의료 분야 의료사고 수사 절차 개선을 논의하고, 제2차 보건의료인력 실태조사 결과를 발표하여 인력 수급 분석을 시행함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492074&tag=&nPage=3"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "첨단세포치료센터 개소 추진",
+    "body": "경희대병원이 인력과 장비 점검을 완료하고 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "특성화센터 및 AI 도입 확산",
+    "body": "이대목동병원이 전문 암센터와 부서별 중점센터를 확대하고 심방세동 예측 AI 솔루션 등 정밀의료 임상 적용을 선포함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398"
     ]
    }
   ],
   "implications": [
-   "권역외상센터 및 권역책임의료기관으로서 정부의 중증외상 최종치료 집중 지원 정책과 연계한 외상·응급 배후진료 전문의 진료체계 강화 검토",
-   "경희대병원 등 타권역 상급종합병원의 CAR-T 세포치료센터 개소 및 첨단재생의료 1호 치료 승인 흐름에 대응한 난치질환 첨단세포치료 프로세스 및 시설 인프라 선제 검토",
-   "정부의 간호·간병통합서비스 중증환자 전담병실 도입 정책과 돌봄로봇 병원 실증 사업에 맞춘 스마트 간호간병 입원 환경 개선 방안 검토"
+   "정부의 중증응급 및 광역 이송 체계 확대 기조에 발맞춰 권역 내 응급·외상 최종치료 역량을 지속적으로 고도화해야 함.",
+   "정신건강 및 신약 임상 등 보건복지부의 AI 가이드라인과 실증 생태계 정책에 연계한 원내 의료 AI 솔루션 도입 및 검증 체계를 정비할 필요가 있음.",
+   "정부의 지역 국립대병원 연구역량 강화 및 첨단바이오 전략산업 육성 정책과 연계하여 임상 연구 인프라를 확충해야 함."
   ],
   "count": 51,
-  "model": "gemini-flash-latest",
-  "generatedAt": "2026-10-12 13:05",
-  "sig": "1whlulk"
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-12 13:15",
+  "sig": "2:1whlulk"
  }
 }
