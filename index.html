@@ -92,6 +92,7 @@
     border: 1px solid var(--border); background: var(--card); font-size: 13.5px; font-weight: 600; color: var(--body); text-decoration: none; white-space: nowrap;
   }
   .fb-link:hover { border-color: var(--accent); color: var(--accent); }
+  .fb-link + .fb-link { margin-left: 0; }
   .r-fb { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 10px; font-size: 13.5px; font-weight: 600; color: var(--muted); text-decoration: none; }
   .r-fb:hover { color: var(--accent); }
   .icon-btn {
@@ -396,6 +397,8 @@
     .vtabs button .lucide { display: none; }
     .util-label span { display: none; }
     .tb-right .updated { display: none; }
+    .admin-link { width: 34px; padding: 0; justify-content: center; }
+    .admin-link span { display: none; }
     .subbar h1 { font-size: 22px; }
     .seg { width: 100%; }
     .seg button { flex: 1; }
@@ -444,6 +447,7 @@
     <div class="tb-right">
       <span class="updated" id="updated"></span>
       <a class="fb-link" href="feedback.html" target="_self"><i data-lucide="message-square"></i><span>의견</span></a>
+      <a class="fb-link admin-link" href="admin.html" target="_self" title="관리자 페이지" aria-label="관리자 페이지"><i data-lucide="shield-check"></i><span>관리자</span></a>
     </div>
   </div>
 </header>
