@@ -153,32 +153,32 @@
   .cloud-card .bar-row { grid-template-columns: 110px minmax(0, 1fr) 32px; }
 
   /* AI 데일리 브리핑 */
-  .ai { margin-bottom: 16px; padding: 0; overflow: hidden; }
+  .ai { margin-bottom: 16px; padding: 0; overflow: clip; }  /* hidden 이면 시사점 고정(sticky)이 안 됨 */
   .ai-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--surface); }
   .ai-label { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; font-size: 15px; font-weight: 700; color: var(--heading); }
   .ai-label .ai-mark { width: 26px; height: 26px; border-radius: 7px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
   .ai-label .ai-mark .lucide { width: 15px; height: 15px; }
   .ai-label small { font-size: 13px; font-weight: 500; color: var(--muted); }
   .ai-tools { display: flex; align-items: center; gap: 8px; }
-  .ai-sec + .ai-sec { margin-top: 20px; padding-top: 18px; border-top: 1px dashed var(--border); }
-  .ai-sec-name { display: flex; align-items: center; gap: 6px; margin: 0 0 12px; font-size: 13px; font-weight: 700; color: var(--accent); letter-spacing: .02em; }
+  .ai-sec + .ai-sec { margin-top: 28px; padding-top: 24px; border-top: 1px dashed var(--border-strong); }
+  .ai-sec-name { display: flex; align-items: center; gap: 6px; margin: 0 0 16px; font-size: 14px; font-weight: 800; color: var(--accent); letter-spacing: .02em; }
   .ai-sec-name .lucide { width: 14px; height: 14px; }
   .ai-main { counter-reset: ai; }
   .ai-main .ai-points { counter-reset: none; }
   .ai-more { height: 24px; padding: 0 6px; font-size: 12px; color: var(--faint); display: inline-flex; align-items: center; }
   .ai-nav { display: flex; align-items: center; gap: 2px; font-size: 13px; color: var(--muted); }
   .ai-nav .icon-btn { width: 30px; height: 30px; }
-  .ai-body { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); }
-  .ai-main { padding: 20px 24px 22px; min-width: 0; }
-  .ai-headline { margin: 0 0 16px; font-size: 20px; line-height: 1.5; font-weight: 800; letter-spacing: -0.02em; color: var(--heading); }
-  .ai-points { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 24px; margin: 0; padding: 0; list-style: none; counter-reset: ai; }
-  .ai-points li { counter-increment: ai; position: relative; padding-left: 30px; min-width: 0; }
+  .ai-body { display: grid; grid-template-columns: minmax(0, 1.75fr) minmax(320px, 1fr); }
+  .ai-main { padding: 26px 32px 30px; min-width: 0; }
+  .ai-headline { margin: 0 0 24px; font-size: 25px; line-height: 1.45; font-weight: 800; letter-spacing: -0.03em; color: var(--heading); text-wrap: balance; }
+  .ai-points { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; margin: 0; padding: 0; list-style: none; counter-reset: ai; }
+  .ai-points li { counter-increment: ai; position: relative; padding-left: 36px; min-width: 0; }
   .ai-points li::before {
-    content: counter(ai); position: absolute; left: 0; top: 1px; width: 20px; height: 20px; border-radius: 6px;
-    display: grid; place-items: center; background: var(--primary); color: var(--primary-foreground); font-size: 12px; font-weight: 700;
+    content: counter(ai); position: absolute; left: 0; top: 1px; width: 24px; height: 24px; border-radius: 7px;
+    display: grid; place-items: center; background: var(--primary); color: var(--primary-foreground); font-size: 13px; font-weight: 700;
   }
-  .ai-points h3 { margin: 0; font-size: 15px; line-height: 1.45; font-weight: 700; color: var(--heading); }
-  .ai-points p { margin: 3px 0 0; font-size: 14px; line-height: 1.65; color: var(--soft); }
+  .ai-points h3 { margin: 0; font-size: 18px; line-height: 1.45; font-weight: 750; letter-spacing: -0.02em; color: var(--heading); }
+  .ai-points p { margin: 6px 0 0; font-size: 15.5px; line-height: 1.75; color: var(--body); }
   .ai-refs { display: grid; gap: 2px; margin-top: 8px; padding: 4px; border-radius: 10px; background: var(--surface); border: 1px solid var(--border); }
   .ai-ref {
     display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: baseline; gap: 8px; width: 100%;
@@ -189,13 +189,26 @@
   .ai-ref .t { font-size: 13.5px; line-height: 1.5; font-weight: 600; color: var(--body); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .ai-ref:hover .t { color: var(--accent); }
   .ai-more { padding: 2px 8px 4px; font-size: 12px; color: var(--muted); }
-  .ai-side { padding: 20px 24px 22px; border-left: 1px solid var(--border); background: var(--surface); min-width: 0; }
-  .ai-side h3 { display: flex; align-items: center; gap: 6px; margin: 0 0 10px; font-size: 14px; font-weight: 700; color: var(--heading); }
+  .ai-side { padding: 26px 28px 30px; border-left: 1px solid var(--border); background: var(--surface); min-width: 0; }
+  .ai-side-in { position: sticky; top: calc(var(--tb-h) + 20px); }
+  .ai-side h3 { display: flex; align-items: center; gap: 8px; margin: 0 0 14px; font-size: 17px; font-weight: 800; color: var(--heading); }
+  .ai-side h3 .lucide { width: 18px; height: 18px; }
   .ai-side h3 .lucide { color: var(--accent); }
-  .ai-side ul { margin: 0; padding-left: 1.1em; font-size: 14px; line-height: 1.7; color: var(--body); }
-  .ai-side li { margin-bottom: 6px; }
+  .ai-side ul { margin: 0; padding-left: 1.1em; font-size: 15.5px; line-height: 1.75; color: var(--heading); }
+  .ai-side li { margin-bottom: 12px; }
   .ai-side li::marker { color: var(--faint); }
-  .ai-note { margin: 16px 0 0; font-size: 12px; line-height: 1.6; color: var(--faint); }
+  .ai-note { margin: 16px 0 0; font-size: 12px; line-height: 1.6; color: var(--muted); }
+  /* 다른 화면으로 넘어가는 버튼 */
+  .ai-go { display: grid; gap: 8px; margin-top: 22px; padding-top: 20px; border-top: 1px solid var(--border); }
+  .ai-go button {
+    display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--card); text-align: left; cursor: pointer; font-size: 15px; font-weight: 700; color: var(--heading);
+  }
+  .ai-go button:hover { border-color: var(--accent); color: var(--accent); }
+  .ai-go button .lucide:first-child { color: var(--accent); }
+  .ai-go button span { flex: 1; }
+  .ai-go button small { font-size: 12.5px; font-weight: 600; color: var(--muted); }
+  .go-only { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin: 8px 0 0; }
 
   /* ---------- 분류별 보기 ---------- */
   .ccols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
@@ -399,7 +412,6 @@
     .ccols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .brief { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
     .brief .cloud-card { grid-column: 1 / -1; }
-    .ai-points { grid-template-columns: minmax(0, 1fr); }
     .bottom { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
     .bottom > :nth-child(2) { grid-column: 1 / -1; order: -1; }
   }
@@ -422,7 +434,9 @@
     .ai-body { grid-template-columns: minmax(0, 1fr); }
     .ai-side { border-left: 0; border-top: 1px solid var(--border); }
     .ai-head, .ai-main, .ai-side { padding-left: 16px; padding-right: 16px; }
-    .ai-headline { font-size: 18px; }
+    .ai-headline { font-size: 20px; }
+    .ai-points h3 { font-size: 16.5px; }
+    .ai-points p { font-size: 15px; }
     .tabs { margin: 0 -16px; padding: 0 16px; }
     .wide { padding: 0 16px; }
     #govIntro { padding: 0 16px; }
@@ -487,15 +501,6 @@
   <!-- 오늘의 브리핑: 가운데 키워드, 양옆 분류 패널 -->
   <section class="dash view" id="v-brief">
     <div id="aiBrief"></div>
-    <div class="brief" id="briefGrid">
-      <div class="side" id="sideL"></div>
-      <div class="card cloud-card">
-        <div class="card-head"><h2><span class="dot"></span>많이 나온 키워드</h2><span id="cloudSub"></span></div>
-        <div id="cloud"></div>
-        <p class="cloud-note">누르면 그 키워드가 들어간 기사만 모아 봅니다</p>
-      </div>
-      <div class="side" id="sideR"></div>
-    </div>
   </section>
 
   <!-- 분류별 보기: 분류 열 + 하단 3분할 -->
@@ -589,7 +594,7 @@
   let deadlines = {}, openOnly = false;
   let filter = { q: '', cat: '전체', period: '7' };
   let brief = { days: [] }, briefAt = 0, aiKind = 'daily';
-  let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true, cloudWords = [];
+  let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true;
 
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -835,32 +840,13 @@
     [/데일리메디/, '#e5f2e8', '#2d6a43', 'newspaper'], [/청년의사/, '#f7eedb', '#8a5a12', 'newspaper']];
   const srcStyle = src => { const m = SRC_COLOR.find(([re]) => re.test(src)); return m ? { css: `--ph-bg:${m[1]};--ph-fg:${m[2]}`, ic: m[3] } : { css: '', ic: 'newspaper' }; };
 
-  /* ---------- 화면 1: 오늘의 브리핑 ---------- */
-  function renderBrief(list) {
-    const groups = byCategory(list).slice(0, 6);
-    const panel = ([cat, arr]) => {
-      ctxs['p:' + cat] = arr;
-      return `<section class="card">
-        <div class="card-head"><h2>${esc(cat)}</h2><span class="panel-count"><b>${fmt(arr.length)}</b>건</span></div>
-        <div>${arr.slice(0, 3).map((it, i) => pi(it, 'p:' + cat, i)).join('')}</div>
-        ${arr.length > 3 ? `<button type="button" class="more-link" data-gocat="${esc(cat)}">${fmt(arr.length - 3)}건 더 보기${icon('chevron-right')}</button>` : ''}
-      </section>`;
-    };
-    const half = Math.ceil(groups.length / 2);
-    $('sideL').innerHTML = groups.slice(0, half).map(panel).join('');
-    $('sideR').innerHTML = groups.slice(half).map(panel).join('');
-    $('briefGrid').classList.toggle('solo', !groups.length);
-    $('sideL').hidden = $('sideR').hidden = !groups.length;
-
-    cloudWords = countBy(list, keywordsOf).slice(0, 40);
-    $('cloudSub').textContent = `${PERIOD_LABEL[filter.period]} 기사 ${fmt(list.length)}건 기준`;
-    layoutCloud();
-  }
-
-  // 첫 화면 가운데: 많이 나온 키워드 막대 (분류별 보기의 막대와 같은 모양)
-  function layoutCloud() {
-    $('cloud').innerHTML = kwBarsHtml(cloudWords.slice(0, 12));
-    drawIcons();
+  // 브리핑 아래·옆의 다른 화면 바로가기 (현재 기간의 기사 수와 함께)
+  function goButtons(inline) {
+    const list = periodItems(), gov = list.filter(it => isMohw(it.r)).length;
+    const b = (v, ic, label, n) => inline
+      ? `<button type="button" class="btn" data-goview="${v}">${icon(ic)}${label}</button>`
+      : `<button type="button" data-goview="${v}">${icon(ic)}<span>${label}</span><small>${PERIOD_LABEL[filter.period]} ${fmt(n)}건</small>${icon('chevron-right')}</button>`;
+    return `${inline ? '' : '<div class="ai-go">'}${b('list', 'newspaper', '전체 기사 보기', list.length)}${b('cats', 'columns-3', '분류별로 보기', list.length)}${b('gov', 'landmark', '국고사업 보기', gov)}${inline ? '' : '</div>'}`;
   }
 
   // AI 브리핑: GitHub Actions 가 정리해 둔 brief.json (오늘 새 기사 · 최근 7일 · 최근 30일)
@@ -868,7 +854,10 @@
   const aiOf = k => k === 'daily' ? brief.days[briefAt] : brief[k];
   function renderAi() {
     const kinds = Object.keys(AI_KINDS).filter(k => k === 'daily' ? brief.days.length : brief[k]);
-    if (!kinds.length) { $('aiBrief').innerHTML = ''; return; }
+    if (!kinds.length) {
+      $('aiBrief').innerHTML = `<section class="card">${empty('아직 AI 브리핑이 없습니다. 매일 아침 기사 분석 후 만들어집니다.', 'sparkles')}<div class="go-only">${goButtons(true)}</div></section>`;
+      return;
+    }
     const want = { today: 'daily', '7': 'weekly', '30': 'monthly', all: 'monthly' }[filter.period];
     aiKind = kinds.includes(want) ? want : kinds[0];
     const b = aiOf(aiKind);
@@ -916,9 +905,12 @@
           ${pts}
         </div>
         <aside class="ai-side">
+          <div class="ai-side-in">
           <h3>${icon('lightbulb')}우리 병원 시사점</h3>
           ${imp.length ? `<ul>${imp.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="ai-note" style="margin:0">이번 브리핑에는 시사점이 없습니다.</p>'}
           <p class="ai-note">${/claude/i.test(b.model || '') ? 'Claude' : 'Gemini'}가 선별 기사 요약을 바탕으로 작성했습니다${b.generatedAt ? ` (${esc(b.generatedAt)})` : ''}. 판단 전에 근거 기사를 확인해 주세요.</p>
+          ${goButtons()}
+          </div>
         </aside>
       </div>
     </section>`;
@@ -1093,7 +1085,6 @@
     }
     ctxs = {};
     renderAi();
-    renderBrief(list);
     renderCats(list);
     renderTabs();
     renderList();
@@ -1196,6 +1187,7 @@
     if ((el = t.closest('[data-word]'))) return goList({ q: filter.q === el.dataset.word && view === 'list' ? '' : el.dataset.word });
     if ((el = t.closest('.bar-row'))) return goList({ q: el.dataset.q });
     if ((el = t.closest('[data-gocat]'))) return goList({ cat: el.dataset.gocat });
+    if ((el = t.closest('[data-goview]'))) return setView(el.dataset.goview);
     if ((el = t.closest('[data-act]'))) {
       const act = el.dataset.act;
       if (act === 'reset') { filter.q = ''; filter.cat = '전체'; $('q').value = ''; update(); }
