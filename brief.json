@@ -3,12 +3,21 @@
   {
    "date": "2026-10-13",
    "from": "2026-10-12",
-   "headline": "타 주요 병원들의 첨단 로봇수술 및 CAR-T 센터 도입 확대와 함께 보건당국의 필수의료·정신응급 체계 개편 추진 동향",
+   "headline": "주요 병원의 CAR-T·로봇 등 첨단 진료 인프라 도입과 거점외상센터 지정 등 정부 필수의료 강화 추진",
    "points": [
     {
      "section": "병원",
-     "title": "아주대병원 로봇수술기 4대 체계 구축",
-     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입하여 총 4대의 로봇수술 플랫폼 체계를 갖춤.",
+     "title": "CAR-T 세포치료 임상 도입 및 센터 구축 가속화",
+     "body": "건국대병원이 다학제 진료 체계를 갖춰 킴리아주 첫 투여를 마쳤으며, 경희대병원은 하반기 센터 개소 및 임상 적용을 위한 검증 단계 진입.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "최신 5세대 수술로봇 및 첨단 기관지경 장비 도입",
+     "body": "아주대병원이 5세대 로봇수술 시스템 '다빈치 5'와 형상 유도 로봇 보조 기관지경 '아이온'을 도입해 총 4대의 로봇수술 플랫폼 구축 완료.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
@@ -16,18 +25,19 @@
     },
     {
      "section": "병원",
-     "title": "타 병원 CAR-T 치료센터 및 투여",
-     "body": "경희대병원이 CAR-T 세포치료센터 개소 및 검증 단계를 진입했고, 건국대병원이 재발·불응성 환자 대상 CAR-T 치료제 킴리아주 첫 투여를 시행함.",
+     "title": "AI 생체신호 모니터링 및 랜섬웨어 보안 솔루션 도입",
+     "body": "아주대병원이 AI 기반 입원환자 실시간 생체신호 추적 시스템을 도입하고 인천나은병원은 의료정보 분산 백업·복구 솔루션을 도입해 전산망 장애 대비.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941348"
      ]
     },
     {
      "section": "정책",
-     "title": "거점외상센터 최종치료 기관 선정",
-     "body": "보건복지부가 거점외상센터 설치지원사업 공모 결과 아주대병원과 원주세브란스기독병원을 최종 및 조건부 선정함.",
+     "title": "중증외상 거점외상센터 선정 및 최종치료 지원",
+     "body": "보건복지부가 거점외상센터 설치지원사업 대상으로 아주대병원을 최종 선정하고 원주세브란스기독병원을 조건부 선정해 기관당 최대 77억1000만원 지원 예정.",
      "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119"
@@ -35,33 +45,29 @@
     },
     {
      "section": "정책",
-     "title": "정신응급 필수의료 지정 및 병상 확충",
-     "body": "정부가 제6차 자살예방기본계획을 확정하여 정신응급을 필수의료로 지정하고 급성기 정신질환 집중치료병상을 2030년까지 2000개로 확충할 예정임.",
+     "title": "정신응급 필수의료 지정 및 집중치료병상 확충",
+     "body": "정부가 제6차 자살예방기본계획을 확정해 정신응급을 필수의료로 지정하고 2030년까지 급성기 집중치료병상 2000개 확충 및 긴급진료 별도 보상 추진.",
      "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
      ]
     }
    ],
    "implications": [
-    "최근 타 상급종합병원이 5세대 다빈치 5 등 최첨단 로봇수술 장비를 추가 도입하는 추세에 맞춰 본원의 수술봇 운영 현황 및 추가 도입 필요성 검토",
-    "경희대병원 및 건국대병원의 CAR-T 치료센터 운영 및 첫 투여 사례를 참고하여 본원 혈액종양내과 중심의 CAR-T 세포치료 인프라 구축 검토",
-    "복지부의 거점외상센터 선정 및 지원 확대 기조에 발맞춰 권역외상센터의 최종치료 역량 강화 방안 점검"
+    "보건복지부 거점외상센터 공모 및 최대 77억원 국비 지원 사업과 연계한 권역외상센터 최종치료 역량 고도화 방안 검토",
+    "건국대병원·경희대병원 사례를 참고한 다학제 진료 기반 CAR-T 세포치료 인프라 및 전담 프로세스 벤치마킹 검토",
+    "아주대병원의 AI 기반 입원환자 실시간 생체신호·심전도 모니터링 솔루션 도입 모델 검토"
    ],
-   "count": 62,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-13 18:56",
-   "sig": "3:a6tufc",
+   "count": 57,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-13 19:04",
+   "sig": "3:13koxtg",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492213&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492211&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171143",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171142",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171141",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171140",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171137",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171133",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941397",
