@@ -874,8 +874,8 @@
     const d = parseDate(b.date), from = parseDate(b.from), a = daysAgo(d);
     const md = x => `${x.getMonth() + 1}월 ${x.getDate()}일`;
     const span = aiKind === 'daily'
-      ? `${from && d && b.from !== b.date ? `${md(from)} ~ ${md(d)} ${WEEK[d.getDay()]}` : d ? `${md(d)} ${WEEK[d.getDay()]}` : esc(b.date)}${a === 0 ? ' (오늘)' : a === 1 ? ' (어제)' : ''} · 기사 ${fmt(b.count || 0)}건`
-      : `${from && d ? `${md(from)} ~ ${md(d)}` : ''} · 기사 ${fmt(b.count || 0)}건`;
+      ? `${from && d && b.from !== b.date ? `${md(from)} ~ ${md(d)} ${WEEK[d.getDay()]}` : d ? `${md(d)} ${WEEK[d.getDay()]}` : esc(b.date)}${a === 0 ? ' (오늘)' : a === 1 ? ' (어제)' : ''} · 기사 ${fmt(b.count || 0)}건${b.picks ? ` · 관리자 선정 ${fmt(b.picks)}건 우선` : ''}`
+      : `${from && d ? `${md(from)} ~ ${md(d)}` : ''} · 기사 ${fmt(b.count || 0)}건${b.picks ? ` · 관리자 선정 ${fmt(b.picks)}건 우선` : ''}`;
     const refName = it => {
       const who = get(it.r, 'source').replace(/\(.*?\)/g, '');
       return `<span class="src">${esc(who || '기사')}</span><span class="t">${esc(titleOf(it))}</span>`;

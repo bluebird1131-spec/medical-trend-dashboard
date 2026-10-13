@@ -2,6 +2,7 @@
  * 의료계 동향 API (Cloudflare Worker)
  * - 관리자: 구글 시트 기사 목록 읽기 · 선별상태 수정 · 사이트 재배포 (Apps Script 웹앱 경유)
  * - 게시판: 팀원 의견 읽기·쓰기 (D1 데이터베이스), 관리자는 숨김·답변 가능
+ * - AI 브리핑 우선 기사: 관리자가 고르고(D1 brief_picks), ai-brief.mjs 가 읽음 (기사 주소뿐이라 읽기는 공개)
  * 병원망은 구글을 막지만 Cloudflare 는 열려 있어, 브라우저는 이 Worker 에만 접속함.
  *
  * Secrets (wrangler secret put):
@@ -96,6 +97,13 @@ export default {
         return json({ ok: true });
       }
 
+      /* ---------- AI 브리핑 우선 기사 (읽기는 누구나: GitHub Actions 의 ai-brief.mjs 가 읽음) ---------- */
+      if (path === '/api/brief-picks' && req.method === 'GET') {
+        const { results } = await env.DB.prepare(
+          `SELECT link, title, picked_at FROM brief_picks WHERE picked_at > datetime('now', '-40 days') ORDER BY picked_at DESC`).all();
+        return json({ picks: results });
+      }
+
       /* ---------- 관리자 ---------- */
       if (path.startsWith('/api/admin/')) {
         if (!isAdmin) return json({ error: '관리자 암호가 맞지 않습니다.' }, 401);
@@ -115,6 +123,22 @@ export default {
           if (!updates.length) return json({ error: '수정할 항목이 없습니다.' }, 400);
           const r = await gas(env, { action: 'setStatus', updates });
           return json(r);
+        }
+        // AI 브리핑 우선 기사 고르기·빼기: { link, title, pick }
+        if (path === '/api/admin/brief-picks' && req.method === 'POST') {
+          const b = await req.json().catch(() => ({}));
+          const link = /^https?:\/\//i.test(b.link || '') ? clean(b.link, 500) : '';
+          if (!link) return json({ error: '기사 주소가 없습니다.' }, 400);
+          if (b.pick) {
+            await env.DB.batch([
+              env.DB.prepare(`INSERT INTO brief_picks (link, title, picked_at) VALUES (?, ?, datetime('now'))
+                                ON CONFLICT(link) DO UPDATE SET title = excluded.title, picked_at = excluded.picked_at`).bind(link, clean(b.title, 200)),
+              env.DB.prepare(`DELETE FROM brief_picks WHERE picked_at < datetime('now', '-60 days')`),
+            ]);
+          } else {
+            await env.DB.prepare(`DELETE FROM brief_picks WHERE link = ?`).bind(link).run();
+          }
+          return json({ ok: true });
         }
         // 사이트 재배포 (GitHub Actions 실행)
         // brief 가 daily·weekly·monthly·all 이면 AI 브리핑도 새로 만듦

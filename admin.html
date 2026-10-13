@@ -33,6 +33,18 @@
   .title a:hover { text-decoration: underline; text-underline-offset: 3px; }
   .sum { margin: 4px 0 0; font-size: 14px; line-height: 1.65; color: var(--soft); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
   .sum.open { -webkit-line-clamp: unset; display: block; }
+  .acts { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .pick {
+    display: inline-flex; align-items: center; gap: 5px; height: 38px; padding: 0 11px; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--card); font-size: 13px; font-weight: 700; color: var(--muted); cursor: pointer; white-space: nowrap;
+  }
+  .pick .lucide { width: 15px; height: 15px; }
+  .pick:hover { color: var(--accent); border-color: var(--accent); }
+  .pick.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .pick.on .lucide { fill: currentColor; }
+  .item.picked { box-shadow: inset 3px 0 0 var(--accent); }
+  .chip.pick-tab { border-color: var(--accent); color: var(--accent); }
+  .chip.pick-tab.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
   .seg { display: inline-flex; padding: 3px; gap: 2px; border-radius: 10px; background: var(--hover); flex-shrink: 0; }
   .seg button { height: 32px; padding: 0 12px; border: 0; border-radius: 7px; background: transparent; font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer; white-space: nowrap; }
   .seg button:hover { color: var(--foreground); }
@@ -82,7 +94,7 @@
   .post-tools .textarea { min-height: 60px; }
   @media (max-width: 760px) {
     .item { grid-template-columns: minmax(0, 1fr); }
-    .seg { justify-self: start; }
+    .acts { justify-self: start; }
     .toolbar { top: 60px; }
   }
 </style>
@@ -118,7 +130,8 @@
   <div class="wrap">
     <div class="head">
       <h1>기사 선별</h1>
-      <p>구글 시트에서 AI 분석이 끝난 기사입니다. 상태를 눌러 바꿀 기사를 모두 고른 뒤, 아래 <b>적용</b>을 누르면 한꺼번에 시트에 저장되고 1~2분 뒤 대시보드에 반영됩니다. 대시보드에는 필요·검토필요만 공개됩니다.</p>
+      <p>구글 시트에서 AI 분석이 끝난 기사입니다. 상태를 눌러 바꿀 기사를 모두 고른 뒤, 아래 <b>적용</b>을 누르면 한꺼번에 시트에 저장되고 1~2분 뒤 대시보드에 반영됩니다. 대시보드에는 필요·검토필요만 공개됩니다.
+        <b>브리핑</b>을 누른 기사는 AI 브리핑에서 먼저 다루고, 나머지 기사는 참고로만 씁니다.</p>
     </div>
     <div class="toolbar">
       <div class="chips" id="tabs"></div>
@@ -178,6 +191,8 @@
   // 적용 전까지 고른 상태를 모아 둠 (기사 주소 → 상태). 시트를 다시 읽어도 유지됨
   const pending = new Map();
   let busy = false;
+  // AI 브리핑 우선 기사 (기사 주소 → 고른 시각). 누르면 바로 저장됨
+  const picks = new Map();
   try { key = sessionStorage.getItem('mt-admin') || ''; } catch {}
 
   function toast(msg) {
@@ -212,7 +227,7 @@
   function enter() {
     $('login').hidden = true; $('vtabs').hidden = $('logout').hidden = false;
     setView(view);
-    loadRows(); watchRuns();
+    loadRows(); watchRuns(); loadPicks();
   }
   function setView(v) {
     view = v;
@@ -259,8 +274,10 @@
     $('tabs').innerHTML = [...STATUSES, '전체'].map(s =>
       `<button type="button" class="chip${s === tab ? ' on' : ''}" data-tab="${s}">${s}<span class="n">${(s === '전체' ? base.length : n(s)).toLocaleString()}</span></button>`).join('') +
       (pending.size ? `<button type="button" class="chip pend-tab${tab === '변경' ? ' on' : ''}" data-tab="변경">적용 대기<span class="n">${pending.size.toLocaleString()}</span></button>` : '');
-    const list = tab === '전체' ? base : tab === '변경' ? rows.filter(r => pending.has(val(r, 'link'))) : base.filter(r => r.st === tab);
-    $('sumLine').innerHTML = `<span>${tab === '변경' ? '' : esc($('period').selectedOptions[0].text) + ' · '}${esc(tab === '변경' ? '적용 대기' : tab)} <b>${list.length.toLocaleString()}건</b></span><span>시트 분석 완료 ${rows.length.toLocaleString()}건</span>`;
+    $('tabs').insertAdjacentHTML('beforeend', pickChip());
+    const list = tab === '전체' ? base : tab === '변경' ? rows.filter(r => pending.has(val(r, 'link')))
+      : tab === '브리핑' ? rows.filter(r => picks.has(val(r, 'link'))) : base.filter(r => r.st === tab);
+    $('sumLine').innerHTML = `<span>${tab === '변경' || tab === '브리핑' ? '' : esc($('period').selectedOptions[0].text) + ' · '}${esc(tab === '변경' ? '적용 대기' : tab === '브리핑' ? '브리핑 우선 기사 (기간과 관계없이)' : tab)} <b>${list.length.toLocaleString()}건</b></span><span>시트 분석 완료 ${rows.length.toLocaleString()}건</span>`;
     $('items').innerHTML = list.length ? list.slice(0, shown).map(item).join('') +
       (list.length > shown ? `<button class="btn" style="display:flex;margin:16px auto 0" type="button" id="more">더 보기 (${(list.length - shown).toLocaleString()}건 남음)</button>` : '')
       : `<div class="card state"><i data-lucide="inbox"></i><div>조건에 맞는 기사가 없습니다</div></div>`;
@@ -270,13 +287,17 @@
     const link = val(r, 'link'), sum = val(r, 'summary').replace(/^\s*\[[^\]]*\]\s*/, '');
     const meta = [val(r, 'date'), val(r, 'source'), val(r, 'org'), val(r, 'region')].filter(Boolean).map(esc);
     const want = pending.get(link), cur = want || r.st;
-    return `<article class="card item${want ? ' changed' : ''}" data-row="${r.row}">
+    const picked = picks.has(link);
+    return `<article class="card item${want ? ' changed' : ''}${picked ? ' picked' : ''}" data-row="${r.row}">
       <div>
         <div class="meta">${want ? `<span class="pend">${esc(r.st)}<i data-lucide="arrow-right"></i>${esc(want)}</span>` : ''}${val(r, 'category') ? `<span class="cat">${esc(val(r, 'category'))}</span>` : ''}${meta.join(' · ')}${r.saved && !want ? ` <span class="saved">· 시트에 저장됨</span>` : ''}</div>
         <h3 class="title">${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(val(r, 'title'))}</a>` : esc(val(r, 'title'))}</h3>
         ${sum ? `<p class="sum" title="눌러서 펼치기">${esc(sum)}</p>` : ''}
       </div>
-      <div class="seg" role="group" aria-label="선별상태">${STATUSES.map(s => `<button type="button" data-s="${s}" class="${cur === s ? 'on' : ''}"${busy ? ' disabled' : ''}>${s}</button>`).join('')}</div>
+      <div class="acts">
+        <button type="button" class="pick${picked ? ' on' : ''}" data-pick aria-pressed="${picked}" title="${picked ? 'AI 브리핑 우선 기사에서 빼기' : 'AI 브리핑에서 먼저 다룰 기사로 고르기'}"><i data-lucide="star"></i>브리핑</button>
+        <div class="seg" role="group" aria-label="선별상태">${STATUSES.map(s => `<button type="button" data-s="${s}" class="${cur === s ? 'on' : ''}"${busy ? ' disabled' : ''}>${s}</button>`).join('')}</div>
+      </div>
     </article>`;
   }
   $('tabs').addEventListener('click', e => { const b = e.target.closest('[data-tab]'); if (b) { tab = b.dataset.tab; shown = PAGE; render(); } });
@@ -286,6 +307,7 @@
   $('items').addEventListener('click', async e => {
     if (e.target.id === 'more') { shown += PAGE; render(); return; }
     const sum = e.target.closest('.sum'); if (sum) { sum.classList.toggle('open'); return; }
+    const pb = e.target.closest('[data-pick]'); if (pb) return togglePick(pb);
     const b = e.target.closest('.seg button'); if (!b || busy) return;
     const el = b.closest('.item'), r = rows.find(x => x.row === +el.dataset.row), s = b.dataset.s;
     if (!r) return;
@@ -306,6 +328,37 @@
     if (!pending.size && tab !== '변경') chip.remove();
     else chip.querySelector('.n').textContent = pending.size.toLocaleString();
   }
+  /* ---------- AI 브리핑 우선 기사 ---------- */
+  function pickChip() {
+    return picks.size || tab === '브리핑'
+      ? `<button type="button" class="chip pick-tab${tab === '브리핑' ? ' on' : ''}" data-tab="브리핑">브리핑 우선<span class="n">${picks.size.toLocaleString()}</span></button>` : '';
+  }
+  function paintPickChip() {
+    $('tabs').querySelector('[data-tab="브리핑"]')?.remove();
+    $('tabs').insertAdjacentHTML('beforeend', pickChip());
+  }
+  async function loadPicks() {
+    try {
+      const j = await api('/api/brief-picks');
+      picks.clear(); (j.picks || []).forEach(p => picks.set(p.link, p.picked_at));
+      if (rows.length) render();
+    } catch {}
+  }
+  async function togglePick(b) {
+    const el = b.closest('.item'), r = rows.find(x => x.row === +el.dataset.row);
+    const link = r && val(r, 'link');
+    if (!link) { toast('기사 주소가 없어 고를 수 없습니다'); return; }
+    const pick = !picks.has(link);
+    b.disabled = true;
+    try {
+      await api('/api/admin/brief-picks', { method: 'POST', body: JSON.stringify({ link, title: val(r, 'title'), pick }) });
+      if (pick) picks.set(link, new Date().toISOString()); else picks.delete(link);
+      if (tab === '브리핑' && !pick) el.remove(); else { el.outerHTML = item(r); icons(); }
+      paintPickChip();
+      toast(pick ? "브리핑 우선 기사로 골랐습니다 · 아래 'AI 브리핑 새로 만들기'로 바로 반영" : '브리핑 우선 기사에서 뺐습니다');
+    } catch (err) { toast(err.message); b.disabled = false; }
+  }
+
   window.addEventListener('beforeunload', e => { if (pending.size) { e.preventDefault(); e.returnValue = ''; } });
 
   /* ---------- 사이트에 반영 ---------- */
@@ -401,7 +454,7 @@
   const when = x => (x?.generatedAt ? `${x.generatedAt.slice(5).replace('-', '/')} 생성` : '아직 없음');
   function paintBriefMenu() {
     $('briefMenu').innerHTML = `<h4>AI 브리핑 새로 만들기</h4>
-      <p>시트를 다시 읽고 Gemini가 브리핑을 새로 써서 사이트에 반영합니다. 2~5분 걸립니다.${pending.size ? ` 적용 대기 ${pending.size.toLocaleString()}건을 먼저 저장합니다.` : ''}</p>
+      <p>시트를 다시 읽고 Gemini가 브리핑을 새로 써서 사이트에 반영합니다. 2~5분 걸립니다.${picks.size ? ` 고른 우선 기사 ${picks.size.toLocaleString()}건을 먼저 다루고 나머지는 참고합니다.` : ''}${pending.size ? ` 적용 대기 ${pending.size.toLocaleString()}건을 먼저 저장합니다.` : ''}</p>
       ${BRIEFS.map(b => `<button type="button" data-brief="${b.k}">${b.label} 브리핑<small>${b.desc} · 지금 것은 ${when(briefNow[b.k])}</small><i data-lucide="play"></i></button>`).join('')}
       <button type="button" class="all" data-brief="all">셋 다 새로 만들기<small>오늘·주간·월간 차례로 (4~6분)</small><i data-lucide="play"></i></button>`;
     icons();

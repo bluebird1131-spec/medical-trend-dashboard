@@ -14,3 +14,10 @@ CREATE TABLE IF NOT EXISTS posts (
   ip_hash    TEXT NOT NULL DEFAULT ''    -- 연속 글쓰기 제한용 (원래 IP는 저장하지 않음)
 );
 CREATE INDEX IF NOT EXISTS posts_ip_time ON posts (ip_hash, created_at);
+
+-- AI 브리핑 우선 기사 (관리자가 고름). ai-brief.mjs 가 /api/brief-picks 로 읽어 [중점] 표시
+CREATE TABLE IF NOT EXISTS brief_picks (
+  link      TEXT PRIMARY KEY,           -- 기사 주소 (시트 J열과 같은 값)
+  title     TEXT NOT NULL DEFAULT '',
+  picked_at TEXT NOT NULL               -- UTC
+);

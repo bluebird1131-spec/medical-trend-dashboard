@@ -6,6 +6,8 @@
  * - 모델: Variables 의 GEMINI_MODEL (선택, 기본 gemini-2.5-flash)
  * - 기사 묶음이 그대로면 다시 부르지 않음. 주간·월간은 바뀌어도 3시간에 한 번만 → 하루 호출 수가 적어 무료 한도 안에서 운영
  * - 실패해도 페이지 갱신은 계속되도록 경고만 남기고 끝냄
+ * - 관리자가 고른 우선 기사(Worker /api/brief-picks)는 목록 맨 앞에 [중점]으로 넣어 먼저 다루게 하고, 나머지는 참고로 씀.
+ *   오늘 브리핑은 최근 2일 안에 고른 기사면 보도일이 조금 지나도 넣음. 고른 기사가 바뀌면 기사 묶음 서명도 바뀌어 다시 만듦
  * - BRIEF_FORCE(daily, weekly, monthly, all — 쉼표로 여럿): 관리자 페이지 'AI 브리핑 새로 만들기' 버튼.
  *   지정한 종류만 기사 묶음·3시간 제한과 관계없이 바로 다시 만듦
  */
@@ -17,6 +19,7 @@ const OUT = new URL('../brief.json', import.meta.url);
 const KEEP_DAYS = 30;
 const RECENT = 2;       // 오늘 브리핑 범위: 어제~오늘
 const REGEN_HOURS = 3;  // 주간·월간 다시 만드는 최소 간격
+const PICKS_URL = process.env.BRIEF_PICKS_URL || 'https://medical-trend-api.bluebird1131.workers.dev/api/brief-picks';
 const FORCE = new Set((process.env.BRIEF_FORCE || '').split(/[\s,]+/).filter(Boolean)
   .flatMap(k => (k === 'all' ? ['daily', 'weekly', 'monthly'] : [k])));
 
@@ -43,6 +46,16 @@ const today = kst(now);
 const daysBack = n => kst(now - (n - 1) * 86400e3);   // n일 기간의 첫날
 const stamp = () => new Date().toLocaleString('sv-SE', { timeZone: 'Asia/Seoul' }).slice(0, 16);
 const rows = data.rows.filter(r => cell(r, 'link'));
+// 관리자가 고른 우선 기사 (주소 → 고른 날짜 KST). 못 읽으면 고른 기사 없이 평소대로
+const picks = new Map();
+try {
+  const j = await (await fetch(PICKS_URL, { signal: AbortSignal.timeout(20000) })).json();
+  for (const p of j.picks || []) picks.set(p.link, kst(new Date(p.picked_at.replace(' ', 'T') + 'Z').getTime()));
+  console.log(`관리자가 고른 우선 기사: ${picks.size}건`);
+} catch (e) {
+  console.log(`::warning::우선 기사 목록을 읽지 못해 고른 기사 없이 만듭니다 (${e.message})`);
+}
+const isPick = r => picks.has(cell(r, 'link'));
 const pubDate = r => ymd(cell(r, 'date')) || ymd(cell(r, 'collected'));
 // '필요'(병원 신기술 도입) 먼저, 같은 상태면 최신 보도 먼저
 const order = (a, b) => (/^\[?\s*검토/.test(cell(a, 'status')) - /^\[?\s*검토/.test(cell(b, 'status'))) || pubDate(b).localeCompare(pubDate(a));
@@ -62,7 +75,7 @@ const GOV = /보건복지부|복지부|질병관리청|식품의약품안전처|
 const KINDS = {
   daily: {
     label: '오늘',
-    pick: () => rows.filter(r => pubDate(r) >= daysBack(RECENT) && pubDate(r) <= today),
+    pick: () => rows.filter(r => (pubDate(r) >= daysBack(RECENT) && pubDate(r) <= today) || (isPick(r) && picks.get(cell(r, 'link')) >= daysBack(RECENT))),
     max: 80, sumLen: 300, from: daysBack(RECENT),
     ask: `어제~오늘(${daysBack(RECENT)} ~ ${today}) 선별 기사다. 아침 공유용 일일 동향 브리핑을 작성하라.
 - headline: 어제~오늘 동향 전체를 한 문장(60자 안팎)으로
@@ -137,10 +150,11 @@ if (changed) await writeFile(OUT, JSON.stringify(brief, null, 1) + '\n');
 if (forceFailed) console.log('::error::요청한 AI 브리핑 중 만들지 못한 것이 있습니다. 위 경고를 확인해 주세요.');
 
 async function make(kind, K) {
-  const list = K.pick().sort(order).slice(0, K.max);
+  const list = K.pick().sort((a, b) => isPick(b) - isPick(a) || order(a, b)).slice(0, K.max);
+  const nPick = list.filter(isPick).length;
   if (!list.length) { console.log(`${K.label}: 대상 기사가 없어 건너뜀`); return false; }
 
-  const sig = PROMPT_V + ':' + hash(list.map(r => [cell(r, 'link'), cell(r, 'status'), cell(r, 'summary')].join('|')).sort().join('\n'));
+  const sig = PROMPT_V + ':' + hash(list.map(r => [cell(r, 'link'), cell(r, 'status'), cell(r, 'summary'), isPick(r) ? 'P' : ''].join('|')).sort().join('\n'));
   const prev = kind === 'daily' ? brief.days.find(d => d.date === today) : brief[kind];
   const forced = FORCE.has(kind);
   if (!forced && prev && prev.sig === sig) { console.log(`${K.label}: 이미 최신 (${list.length}건)`); return false; }
@@ -152,13 +166,14 @@ async function make(kind, K) {
   }
 
   const text = list.map((r, i) => [
-    `[${i + 1}] ${GOV.test(cell(r, 'source')) ? '[정부 발표] ' : ''}${cell(r, 'title')}`,
+    `[${i + 1}] ${isPick(r) ? '[중점] ' : ''}${GOV.test(cell(r, 'source')) ? '[정부 발표] ' : ''}${cell(r, 'title')}`,
     `선별: ${cell(r, 'status')} | 분류: ${cell(r, 'category')} | 출처: ${cell(r, 'source')} | 보도: ${pubDate(r)}`,
     `기관: ${cell(r, 'org') || '-'} | 지역: ${cell(r, 'region') || '-'}`,
     `요약: ${cell(r, 'summary').replace(/^\s*\[[^\]]*\]\s*/, '').replace(/\s+/g, ' ').slice(0, K.sumLen)}`,
   ].join('\n')).join('\n\n');
 
-  const { out, model } = await gemini({ system: SYSTEM, schema: SCHEMA, prompt: `${K.ask}\n\n기사 ${list.length}건:\n\n${text}` });
+  const { out, model } = await gemini({ system: SYSTEM, schema: SCHEMA, prompt: `${K.ask}${nPick ? `
+- [중점] 표시 기사 ${nPick}건은 관리자가 직접 고른 우선 기사다. headline 과 points 는 [중점] 기사를 먼저, 빠짐없이 다루고(비슷한 것끼리는 묶어도 됨), 나머지 기사는 흐름 파악과 보충 근거로만 참고한다.` : ''}\n\n기사 ${list.length}건:\n\n${text}` });
   const linkOf = n => (Number.isInteger(n) && list[n - 1] ? cell(list[n - 1], 'link') : '');
   const item = {
     date: today,
@@ -172,6 +187,7 @@ async function make(kind, K) {
     })).filter(p => p.title || p.body),
     implications: (out.implications || []).map(s => String(s).trim()).filter(Boolean),
     count: list.length,
+    picks: nPick,
     model,
     generatedAt: stamp(),
     sig,
@@ -184,7 +200,7 @@ async function make(kind, K) {
   } else {
     brief[kind] = item;
   }
-  console.log(`${K.label}: 브리핑 저장 — 기사 ${list.length}건, 동향 ${item.points.length}개 (${model})`);
+  console.log(`${K.label}: 브리핑 저장 — 기사 ${list.length}건(우선 ${nPick}건), 동향 ${item.points.length}개 (${model})`);
   return true;
 }
 
