@@ -3,21 +3,22 @@
   {
    "date": "2026-10-13",
    "from": "2026-10-12",
-   "headline": "병원계 첨단장비·CAR-T 도입 가속 속 정부 중증외상 및 정신응급 인프라 지원 강화",
+   "headline": "주요 병원 첨단 장비·치료 도입 확대 속 거점외상센터 선정 및 정신응급 필수의료 지정 등 정부 지원 본격화",
    "points": [
     {
      "section": "병원",
-     "title": "첨단 로봇수술 '다빈치 5' 및 기관지경 도입",
-     "body": "아주대병원이 5세대 로봇수술 시스템 '다빈치 5'와 형상 유도 로봇 보조 기관지경 '아이온'을 도입하여 총 4대의 로봇수술 플랫폼 구축 완료.",
+     "title": "첨단 로봇수술 인프라 확충",
+     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 로봇 보조 기관지경 아이온을 도입해 총 4대의 로봇수술 플랫폼을 구축함. 아인병원 등 전문병원에서도 로봇수술 누적 2000례를 달성하는 등 술기 적용이 확대되는 추세임.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941349&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
      ]
     },
     {
      "section": "병원",
-     "title": "대학병원 CAR-T 세포치료센터 구축 및 투여 본격화",
-     "body": "건국대병원이 다학제 체계를 통해 킴리아주 첫 투여를 시행하였으며, 경희대병원은 인력·장비 점검을 마치고 하반기 CAR-T 세포치료센터 개소 및 임상 검증 단계 진입.",
+     "title": "CAR-T 세포치료 역량 강화",
+     "body": "건국대병원이 다학제 협진 체계를 바탕으로 재발·불응성 DLBCL 환자 대상 킴리아 첫 투여를 시행함. 경희대병원도 인력·장비 교육을 완료하고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
@@ -25,8 +26,8 @@
     },
     {
      "section": "정책",
-     "title": "거점외상센터 선정 및 중증외상 최종치료 역량 지원",
-     "body": "보건복지부가 거점외상센터 설치지원사업 공모를 통해 아주대병원을 최종 선정하고 원주세브란스기독병원을 조건부 선정하여 기관당 최대 77억1000만원 지원 예정.",
+     "title": "거점외상센터 지원 및 선정",
+     "body": "보건복지부가 거점외상센터 설치지원사업 공모 결과 아주대병원을 최종 선정하고 원주세브란스기독병원을 조건부 선정함. 선정 기관당 최대 77억1000만원이 지원되며 최중증 외상환자의 최종치료 역량 강화를 전담할 예정임.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
@@ -36,24 +37,23 @@
     },
     {
      "section": "정책",
-     "title": "정신응급 필수의료 지정 및 집중치료병상 대폭 확충",
-     "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고, 2030년까지 급성기 정신질환 집중치료병상 2000개 확충 및 거점의료기관 긴급진료 별도 보상 추진.",
+     "title": "정신응급 필수의료 지정",
+     "body": "정부가 제6차 자살예방기본계획을 확정하고 정신응급을 필수의료로 지정함. 급성기 정신질환 집중치료병상을 2030년까지 2000개로 확충하고 거점의료기관 지정 및 긴급진료 별도 보상을 추진할 계획임.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941371",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
      ]
     }
    ],
    "implications": [
-    "보건복지부 거점외상센터 지원사업(최대 77.1억원 지원) 선정 결과와 관련하여 본원 권역외상센터의 최중증 외상 최종치료 시설·인력 역량 점검 및 정부 후속 지원사업 참여 검토.",
-    "수도권 대학병원의 CAR-T 세포치료제 투여 및 센터 구축 흐름에 대응하여 혈액종양내과·진단검사의학과·약제팀 등 원내 다학제 진료 협력 인프라 정비 검토.",
-    "정부의 정신응급 필수의료 지정 및 급성기 집중치료병상 확충 방향에 맞추어 24시간 정신응급 대응체계 및 신설 보상 수가 연계 방안 검토."
+    "보건복지부 거점외상센터 지원사업 선정 결과(기관당 최대 77억1000만원)를 고려하여 권역외상센터의 중증 외상환자 수용 및 최종치료 인프라 고도화 방안 검토",
+    "정신응급의 필수의료 지정 및 2030년까지 급성기 집중치료병상 2000개 확충, 긴급진료 별도 보상 추진에 맞춘 원내 정신응급 진료체계 점검",
+    "수도권 주요 대학병원의 CAR-T 세포치료센터 개소 및 다학제 투여 사례를 참고하여 중증 혈액암 환자 대상 고난도 세포치료제 도입 및 협진 프로토콜 벤치마킹"
    ],
-   "count": 55,
+   "count": 53,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-13 16:19",
-   "sig": "3:ji2b7l",
+   "generatedAt": "2026-10-13 16:21",
+   "sig": "3:1cxdoug",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941369",
@@ -61,7 +61,6 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941358",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941363",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941361",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941359",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941330",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941351",
@@ -94,12 +93,9 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043507",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043509",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171129",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171124",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171126",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171120",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941353",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941348",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941252",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941318",
@@ -108,6 +104,8 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043568",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043565",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043551",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171129",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941353",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941333",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941304"
    ]
