@@ -8,15 +8,32 @@
  *   ADMIN_PASSWORD  관리자 암호
  *   GAS_URL         구글 시트 Apps Script 웹앱 주소 (…/exec)
  *   GAS_TOKEN       Apps Script 에 넣은 관리자 토큰과 같은 값
- *   GITHUB_TOKEN    대시보드 저장소 Actions 쓰기 권한만 있는 fine-grained 토큰
+ *   GITHUB_TOKEN    대시보드·수집 봇 저장소 Actions 쓰기 권한만 있는 fine-grained 토큰
+ *
+ * 예약 실행 (wrangler.toml 의 crons, UTC) — GitHub 자체 예약은 몇 시간씩 밀리거나 빠져서 여기서 깨움
+ *   매 30분          대시보드 update.yml (새 기사 분석 → 시트 → 홈페이지)
+ *   06:10·13:10 KST  수집 봇 scrape.yml
  */
 const REPO = 'bluebird1131-spec/medical-trend-dashboard';
 const WORKFLOW = 'update.yml';
+const BOT_REPO = 'bluebird1131-spec/medical-news-bot';
+const BOT_WORKFLOW = 'scrape.yml';
+const CRON_BOT = '10 21,4 * * *';
 const ALLOWED_ORIGINS = ['https://bluebird1131-spec.github.io', 'http://localhost:8811'];
 const STATUSES = ['필요', '검토필요', '불필요'];
 const KINDS = ['의견', '오류 신고', '기능 요청', '기사 제보'];
 
 export default {
+  async scheduled(event, env, ctx) {
+    const [repo, wf, inputs] = event.cron === CRON_BOT ? [BOT_REPO, BOT_WORKFLOW, {}] : [REPO, WORKFLOW, { auto: '1' }];
+    const res = await gh(env, `/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs }) });
+    if (res.status === 204) console.log(`예약 실행 요청: ${repo} ${wf}`);
+    else console.log(`예약 실행 실패: ${repo} ${wf} HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+    // TEMP-BOTCHECK: 토큰이 수집 봇 저장소에 닿는지 확인 (확인 후 삭제)
+    const chk = await gh(env, `/repos/${BOT_REPO}/actions/workflows/${BOT_WORKFLOW}`);
+    console.log(`수집 봇 저장소 접근: HTTP ${chk.status}`);
+  },
+
   async fetch(req, env) {
     const origin = req.headers.get('origin') || '';
     const cors = {

@@ -2,13 +2,16 @@ name: 시트 동기화 및 배포
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # 30분마다 시트 확인 (GitHub 사정으로 몇 시간씩 밀릴 수 있음)
-    - cron: '40 0 * * *'      # 09:40 KST — Gemini Spark 분석(09:00) 직후 반영
-    - cron: '20 1 * * *'      # 10:20 KST — 분석이 늦어진 경우 대비
+    # 주 실행은 Cloudflare Worker 예약(30분마다 workflow_dispatch, auto=1). GitHub 예약은 몇 시간씩 밀리거나 빠져서 예비로만 둠
+    - cron: '43 * * * *'
   workflow_dispatch:          # Actions 탭에서 "Run workflow"로 즉시 갱신
     inputs:
       brief:
         description: 'AI 브리핑 새로 만들기 (비우면 바뀐 경우에만): daily, weekly, monthly, all'
+        required: false
+        default: ''
+      auto:
+        description: '자동 실행 표시 (Worker 예약이 1로 보냄 — 데이터가 그대로면 배포 생략)'
         required: false
         default: ''
   push:
@@ -30,11 +33,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main   # 앞 실행이 데이터를 커밋했어도 최신 상태에서 시작 (push 충돌 방지)
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
@@ -80,15 +83,15 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # 정기 실행에서 데이터가 그대로면 배포 생략
-      - if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
+      # 정기·자동 실행에서 데이터가 그대로면 배포 생략
+      - if: steps.commit.outputs.changed == 'true' || (github.event_name != 'schedule' && inputs.auto != '1')
         uses: actions/configure-pages@v5
 
-      - if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
-        uses: actions/upload-pages-artifact@v3
+      - if: steps.commit.outputs.changed == 'true' || (github.event_name != 'schedule' && inputs.auto != '1')
+        uses: actions/upload-pages-artifact@v4
         with:
           path: .
 
-      - if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
+      - if: steps.commit.outputs.changed == 'true' || (github.event_name != 'schedule' && inputs.auto != '1')
         id: deploy
         uses: actions/deploy-pages@v4
