@@ -6,6 +6,8 @@
  * - 모델: Variables 의 GEMINI_MODEL (선택, 기본 gemini-2.5-flash)
  * - 기사 묶음이 그대로면 다시 부르지 않음. 주간·월간은 바뀌어도 3시간에 한 번만 → 하루 호출 수가 적어 무료 한도 안에서 운영
  * - 실패해도 페이지 갱신은 계속되도록 경고만 남기고 끝냄
+ * - BRIEF_FORCE(daily, weekly, monthly, all — 쉼표로 여럿): 관리자 페이지 'AI 브리핑 새로 만들기' 버튼.
+ *   지정한 종류만 기사 묶음·3시간 제한과 관계없이 바로 다시 만듦
  */
 import { readFile, writeFile } from 'node:fs/promises';
 
@@ -18,6 +20,8 @@ const MODELS = [...new Set([process.env.GEMINI_MODEL, 'gemini-flash-latest', 'ge
 const KEEP_DAYS = 30;
 const RECENT = 2;       // 오늘 브리핑 범위: 어제~오늘
 const REGEN_HOURS = 3;  // 주간·월간 다시 만드는 최소 간격
+const FORCE = new Set((process.env.BRIEF_FORCE || '').split(/[\s,]+/).filter(Boolean)
+  .flatMap(k => (k === 'all' ? ['daily', 'weekly', 'monthly'] : [k])));
 
 if (!KEY) {
   console.log('GEMINI_API_KEY 가 없어 AI 브리핑을 건너뜀');
@@ -116,7 +120,10 @@ const SCHEMA = {
 };
 
 let changed = false;
-for (const [kind, K] of Object.entries(KINDS)) {
+let forceFailed = false;
+if (FORCE.size) console.log(`관리자 요청으로 새로 만듦: ${[...FORCE].map(k => KINDS[k]?.label || k).join(', ')}`);
+// 새로 만들기를 요청한 경우 그 종류만 처리 (나머지는 다음 정기 실행에서)
+for (const [kind, K] of Object.entries(KINDS).filter(([k]) => !FORCE.size || FORCE.has(k))) {
   try {
     if (await make(kind, K)) {
       changed = true;
@@ -124,10 +131,13 @@ for (const [kind, K] of Object.entries(KINDS)) {
     }
   } catch (e) {
     console.log(`::warning::AI ${K.label} 브리핑을 만들지 못했습니다 (${e.message}). 기사 페이지는 그대로 갱신됩니다.`);
+    if (FORCE.has(kind)) forceFailed = true;
     if (e.fatal || e.busy) break;  // 키 문제·서버 혼잡은 다음 종류도 똑같이 실패 → 다음 실행에서 다시 시도
   }
 }
 if (changed) await writeFile(OUT, JSON.stringify(brief, null, 1) + '\n');
+// 관리자가 요청한 브리핑이 실패하면 실행 기록에 남김 (관리자 페이지는 생성 시각으로 확인)
+if (forceFailed) console.log('::error::요청한 AI 브리핑 중 만들지 못한 것이 있습니다. 위 경고를 확인해 주세요.');
 
 async function make(kind, K) {
   const list = K.pick().sort(order).slice(0, K.max);
@@ -135,9 +145,10 @@ async function make(kind, K) {
 
   const sig = PROMPT_V + ':' + hash(list.map(r => [cell(r, 'link'), cell(r, 'status'), cell(r, 'summary')].join('|')).sort().join('\n'));
   const prev = kind === 'daily' ? brief.days.find(d => d.date === today) : brief[kind];
-  if (prev && prev.sig === sig) { console.log(`${K.label}: 이미 최신 (${list.length}건)`); return false; }
+  const forced = FORCE.has(kind);
+  if (!forced && prev && prev.sig === sig) { console.log(`${K.label}: 이미 최신 (${list.length}건)`); return false; }
   // 지시문이 바뀐 경우(PROMPT_V)는 기다리지 않고 바로 다시 만듦
-  if (kind !== 'daily' && prev && prev.date === today && prev.generatedAt && String(prev.sig).startsWith(PROMPT_V + ':') &&
+  if (!forced && kind !== 'daily' && prev && prev.date === today && prev.generatedAt && String(prev.sig).startsWith(PROMPT_V + ':') &&
       now - new Date(prev.generatedAt.replace(' ', 'T') + ':00+09:00').getTime() < REGEN_HOURS * 3600e3) {
     console.log(`${K.label}: ${REGEN_HOURS}시간 안에 만든 브리핑이 있어 다음 실행으로 미룸`);
     return false;

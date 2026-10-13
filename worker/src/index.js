@@ -96,8 +96,11 @@ export default {
           return json(r);
         }
         // 사이트 재배포 (GitHub Actions 실행)
+        // brief 가 daily·weekly·monthly·all 이면 AI 브리핑도 새로 만듦
         if (path === '/api/admin/publish' && req.method === 'POST') {
-          const res = await gh(env, `/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main' }) });
+          const b = await req.json().catch(() => ({}));
+          const brief = ['daily', 'weekly', 'monthly', 'all'].includes(b.brief) ? b.brief : '';
+          const res = await gh(env, `/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs: { brief } }) });
           if (res.status !== 204) return json({ error: `GitHub 실행 요청 실패 (HTTP ${res.status}) ${(await res.text()).slice(0, 200)}` }, 502);
           return json({ ok: true });
         }

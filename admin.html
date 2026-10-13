@@ -46,6 +46,23 @@
   .chip.pend-tab { border-color: var(--accent); color: var(--accent); }
   .chip.pend-tab.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
   .pub-btns { display: flex; gap: 8px; }
+  /* AI 브리핑 새로 만들기 */
+  .brief-wrap { position: relative; }
+  .brief-menu {
+    position: absolute; right: 0; bottom: calc(100% + 8px); z-index: 30; width: 340px; max-width: calc(100vw - 32px);
+    padding: 8px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); box-shadow: 0 10px 30px rgba(0,0,0,.14);
+  }
+  .brief-menu.down { bottom: auto; top: calc(100% + 8px); }
+  .brief-menu h4 { margin: 4px 8px 4px; font-size: 14px; font-weight: 800; color: var(--heading); }
+  .brief-menu p { margin: 0 8px 8px; font-size: 12.5px; line-height: 1.55; color: var(--muted); }
+  .brief-menu button {
+    display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 10px; width: 100%; padding: 10px; border: 0; border-radius: 8px;
+    background: transparent; text-align: left; cursor: pointer; font-size: 14px; font-weight: 700; color: var(--heading);
+  }
+  .brief-menu button:hover { background: var(--hover); }
+  .brief-menu button small { grid-column: 1; font-size: 12px; font-weight: 500; color: var(--muted); }
+  .brief-menu button .lucide { grid-row: 1 / 3; grid-column: 2; width: 16px; height: 16px; color: var(--accent); }
+  .brief-menu button.all { margin-top: 4px; border-top: 1px solid var(--border); border-radius: 0 0 8px 8px; }
   .publish {
     position: sticky; bottom: 0; z-index: 25; margin-top: 16px; padding: 12px 0 calc(12px + env(safe-area-inset-bottom, 0px));
     background: var(--background); border-top: 1px solid var(--border);
@@ -127,6 +144,10 @@
       <div class="publish-msg" id="pubMsg">바꾼 기사가 없습니다</div>
       <div class="pub-btns">
         <button class="btn" type="button" id="undo" hidden><i data-lucide="undo-2"></i>되돌리기</button>
+        <div class="brief-wrap">
+          <button class="btn" type="button" id="briefBtn" aria-haspopup="true" aria-expanded="false"><i data-lucide="sparkles"></i><span class="hide-sm">AI 브리핑 새로 만들기</span></button>
+          <div class="brief-menu" id="briefMenu" hidden></div>
+        </div>
         <button class="btn btn-dark" type="button" id="publish"><i data-lucide="upload-cloud"></i><span id="pubLabel">사이트에 반영</span></button>
       </div>
     </div>
@@ -289,6 +310,7 @@
 
   /* ---------- 사이트에 반영 ---------- */
   let lastRun = null, watching = null, progress = '';
+  let briefNow = {}, briefReq = null;  // AI 브리핑 새로 만들기 (아래)
   function paintPublish(run) {
     if (run) lastRun = run;
     const r = lastRun;
@@ -300,26 +322,31 @@
     $('pubMsg').innerHTML = busy
       ? `<i data-lucide="loader" class="spin"></i>${progress}`
       : pending.size ? `적용 대기 <b>${pending.size.toLocaleString()}건</b> (${cnt}) · 적용을 누르면 시트에 저장하고 사이트에 반영합니다`
-      : running ? `<i data-lucide="loader" class="spin"></i>사이트에 반영하는 중입니다 · 1~2분 걸립니다`
+      : running ? `<i data-lucide="loader" class="spin"></i>${briefReq ? `AI ${briefReq.label} 브리핑을 만들고 사이트에 반영하는 중입니다 · 2~5분 걸립니다` : '사이트에 반영하는 중입니다 · 1~2분 걸립니다'}`
       : r ? `${r.conclusion === 'success' ? `<i data-lucide="circle-check" style="color:var(--ok)"></i>마지막 반영 ${t} 완료` : `<i data-lucide="circle-alert" style="color:var(--bad)"></i>마지막 반영 ${t} 실패 · <a href="${esc(r.url)}" target="_blank" rel="noopener">기록 보기</a>`}` : '바꾼 기사가 없습니다';
     $('publish').disabled = busy || (!pending.size && !!running);
+    $('briefBtn').disabled = busy || !!running;
     icons();
   }
   async function watchRuns() {
     clearTimeout(watching);
     try {
       const j = await api('/api/admin/runs');
-      paintPublish((j.runs || [])[0]);
-      if (lastRun && lastRun.status !== 'completed') watching = setTimeout(watchRuns, 8000);
+      const r = (j.runs || [])[0];
+      // 방금 요청한 실행이 아직 목록에 안 보이면 (최대 3분) 기다림
+      const stale = briefReq && (!r || new Date(r.created_at).getTime() < briefReq.at - 15000);
+      paintPublish(stale ? undefined : r);
+      if (stale ? Date.now() - briefReq.at < 180000 : lastRun && lastRun.status !== 'completed') watching = setTimeout(watchRuns, 8000);
+      else if (briefReq) checkBrief();
     } catch {}
   }
-  async function publish() {
-    await api('/api/admin/publish', { method: 'POST', body: '{}' });
+  async function publish(brief = '') {
+    await api('/api/admin/publish', { method: 'POST', body: JSON.stringify({ brief }) });
     paintPublish({ status: 'queued', updated_at: new Date().toISOString() });
     setTimeout(watchRuns, 5000);
   }
   // 대기 중인 변경을 200건씩 나눠 시트에 저장한 뒤 사이트 반영까지
-  async function applyAll() {
+  async function applyAll(brief = '') {
     const ups = rows.filter(r => pending.has(val(r, 'link')) && pending.get(val(r, 'link')) !== r.st)
       .map(r => ({ row: r.row, link: val(r, 'link'), status: pending.get(val(r, 'link')) }));
     if (!ups.length) { pending.clear(); render(); paintPublish(); return; }
@@ -339,7 +366,7 @@
       }
       progress = '사이트 반영을 요청하는 중'; paintPublish();
       let pubErr = '';
-      try { await publish(); } catch (err) { pubErr = err.message; }
+      try { await publish(brief); } catch (err) { pubErr = err.message; }
       toast(`${saved.toLocaleString()}건을 시트에 저장했습니다` + (missing ? ` · ${missing}건은 시트에서 찾지 못해 건너뜀` : '') +
         (pubErr ? ` · 사이트 반영 요청 실패: ${pubErr}` : ' · 사이트 반영 시작'));
     } catch (err) {
@@ -356,6 +383,66 @@
     catch (err) { toast(err.message); $('publish').disabled = false; }
   });
   $('undo').addEventListener('click', () => { pending.clear(); render(); paintPublish(); toast('고른 변경을 모두 취소했습니다'); });
+
+  /* ---------- AI 브리핑 새로 만들기 ----------
+     시트를 다시 읽은 뒤 고른 브리핑을 Gemini 로 바로 다시 만들어 brief.json 에 저장하고 사이트에 반영함
+     (평소에는 기사 묶음이 바뀔 때만, 주간·월간은 3시간에 한 번만 만듦) */
+  const BRIEFS = [
+    { k: 'daily', label: '오늘', desc: '어제~오늘 기사' },
+    { k: 'weekly', label: '주간', desc: '최근 7일 기사' },
+    { k: 'monthly', label: '월간', desc: '최근 30일 기사' },
+  ];
+  async function loadBrief() {
+    try {
+      const b = await (await fetch('brief.json?t=' + Date.now(), { cache: 'no-store' })).json();
+      return { daily: b.days?.[0], weekly: b.weekly, monthly: b.monthly };
+    } catch { return {}; }
+  }
+  const when = x => (x?.generatedAt ? `${x.generatedAt.slice(5).replace('-', '/')} 생성` : '아직 없음');
+  function paintBriefMenu() {
+    $('briefMenu').innerHTML = `<h4>AI 브리핑 새로 만들기</h4>
+      <p>시트를 다시 읽고 Gemini가 브리핑을 새로 써서 사이트에 반영합니다. 2~5분 걸립니다.${pending.size ? ` 적용 대기 ${pending.size.toLocaleString()}건을 먼저 저장합니다.` : ''}</p>
+      ${BRIEFS.map(b => `<button type="button" data-brief="${b.k}">${b.label} 브리핑<small>${b.desc} · 지금 것은 ${when(briefNow[b.k])}</small><i data-lucide="play"></i></button>`).join('')}
+      <button type="button" class="all" data-brief="all">셋 다 새로 만들기<small>오늘·주간·월간 차례로 (4~6분)</small><i data-lucide="play"></i></button>`;
+    icons();
+  }
+  function closeBriefMenu() { $('briefMenu').hidden = true; $('briefBtn').setAttribute('aria-expanded', 'false'); }
+  $('briefBtn').addEventListener('click', async e => {
+    e.stopPropagation();
+    if (!$('briefMenu').hidden) return closeBriefMenu();
+    $('briefMenu').hidden = false; $('briefBtn').setAttribute('aria-expanded', 'true');
+    $('briefMenu').classList.toggle('down', $('briefBtn').getBoundingClientRect().top < 400);  // 위쪽 공간이 모자라면 아래로 펼침
+    paintBriefMenu();
+    briefNow = await loadBrief(); paintBriefMenu();
+  });
+  document.addEventListener('click', e => { if (!e.target.closest('.brief-wrap')) closeBriefMenu(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBriefMenu(); });
+  $('briefMenu').addEventListener('click', async e => {
+    const k = e.target.closest('[data-brief]')?.dataset.brief;
+    if (!k || busy) return;
+    closeBriefMenu();
+    const kinds = k === 'all' ? BRIEFS.map(b => b.k) : [k];
+    briefNow = await loadBrief();
+    briefReq = { kinds, at: Date.now(), label: k === 'all' ? '오늘·주간·월간' : BRIEFS.find(b => b.k === k).label,
+      before: Object.fromEntries(kinds.map(x => [x, briefNow[x]?.generatedAt || ''])) };
+    if (pending.size) return applyAll(k);
+    $('briefBtn').disabled = true;
+    try { await publish(k); toast(`AI ${briefReq.label} 브리핑을 만들기 시작했습니다`); }
+    catch (err) { toast(err.message); briefReq = null; paintPublish(); }
+  });
+  // 실행이 끝나면 brief.json 의 생성 시각이 바뀌었는지로 성공 여부 확인 (Pages 반영이 늦을 수 있어 몇 번 다시 봄)
+  async function checkBrief(tries = 0) {
+    const req = briefReq; if (!req) return;
+    const now = await loadBrief();
+    const done = req.kinds.filter(x => (now[x]?.generatedAt || '') !== req.before[x]);
+    if (done.length < req.kinds.length && tries < 4) return setTimeout(() => checkBrief(tries + 1), 15000);
+    briefReq = null; briefNow = now; paintPublish();
+    const name = x => BRIEFS.find(b => b.k === x).label;
+    const fail = req.kinds.filter(x => !done.includes(x));
+    toast(fail.length
+      ? `${fail.map(name).join('·')} 브리핑을 만들지 못했습니다 (Gemini 혼잡·한도 또는 대상 기사 없음). 잠시 뒤 다시 눌러 주세요`
+      : `AI ${req.label} 브리핑을 새로 만들어 사이트에 반영했습니다`);
+  }
 
   /* ---------- 의견 관리 ---------- */
   const STATES = ['접수', '확인', '반영', '보류'];

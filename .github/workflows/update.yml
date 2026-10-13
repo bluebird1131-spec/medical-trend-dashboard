@@ -6,6 +6,11 @@ on:
     - cron: '40 0 * * *'      # 09:40 KST — Gemini Spark 분석(09:00) 직후 반영
     - cron: '20 1 * * *'      # 10:20 KST — 분석이 늦어진 경우 대비
   workflow_dispatch:          # Actions 탭에서 "Run workflow"로 즉시 갱신
+    inputs:
+      brief:
+        description: 'AI 브리핑 새로 만들기 (비우면 바뀐 경우에만): daily, weekly, monthly, all'
+        required: false
+        default: ''
   push:
     branches: [main]
 
@@ -46,6 +51,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          BRIEF_FORCE: ${{ inputs.brief }}
         run: node scripts/ai-brief.mjs
 
       - name: 바뀐 경우 data.json·thumbs.json·brief.json·deadlines.json 커밋 (이력 보관)
