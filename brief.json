@@ -735,86 +735,97 @@
   "sig": "3:18m22of"
  },
  "monthly": {
-  "date": "2026-10-13",
-  "from": "2026-09-14",
-  "headline": "정부는 필수의료·응급대응 안전망 강화와 AI·디지털 기반 지역완결형 의료 체계 구축을 추진함",
+  "date": "2026-10-14",
+  "from": "2026-09-15",
+  "headline": "정부는 필수의료·응급체계 재편과 AI 디지털 헬스케어 제도화를 다각도로 추진하고 있다.",
   "points": [
    {
     "section": "정책",
-    "title": "응급·중증외상 이송체계 강화",
-    "body": "복지부가 권역 책임의료기관 중심의 닥터헬기 및 중증환자 광역 이송 체계를 호남권 전역으로 확대하고 거점외상센터를 추가 선정함",
+    "title": "중증·응급의료 및 필수의료 강화",
+    "body": "복지부는 중증외상 최종치료 역량 강화 및 거점외상센터 선정, 응급의료체계 혁신방안과 정신응급 필수의료 지정을 추진함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료 AI 및 디지털 가이드라인",
-    "body": "복지부와 민간 학계가 정신건강 목적의 생성형 AI 이용 가이드라인을 발표하고 AI 신약 임상개발 혁신을 추진함",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "필수의료 및 지역완결 돌봄",
-    "body": "정신응급의 필수의료 지정, 루게릭병 전문요양병원 시범사업 시행, 지역사회 일차의료 혁신 시범사업을 추진함",
-    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492128&tag=&nPage=2",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "지역완결형 의료 및 공공의료 개편",
+    "body": "지방의료원 역할 차등화와 국립대병원 지역완결의료 거점 육성을 위한 R&D 2기 및 시설 확충 지원이 논의됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941262&page=3",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941254&page=3",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492011&tag=&nPage=5",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170790"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "수가·급여 체계 개편 및 약가 조정",
+    "body": "파드셉 및 빌로이 등 중증 항암제 급여 확대와 함께 휠체어 사용 훈련 등 재활 의료 급여화 및 만성질환 치료제 약가 인하가 병행됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171101",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492089&tag=&nPage=3",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170934",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170788"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI·디지털 가이드라인 마련",
+    "body": "복지부와 정신의학회의 정신건강 목적 생성형 AI 가이드라인 발표 등 보건의료 AI 활용 기준과 실증 생태계 조성이 추진됨.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171105",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "지역사회 통합돌봄 및 일차의료",
+    "body": "데이터 기반 지역맞춤형 통합돌봄 고도화와 지역사회 일차의료 혁신 시범사업을 통한 포괄적 만성질환 관리가 본격 가동됨.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492092&tag=&nPage=3",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492060&tag=&nPage=3"
     ]
    },
    {
-    "section": "정책",
-    "title": "중증·희귀질환 치료제 급여 확대",
-    "body": "파드셉, 키트루다 등 주요 항암제 및 희귀질환 치료제의 건강보험 급여를 확대 적용함",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492089&tag=&nPage=3",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170934",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170860"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료인력 및 수련 제도 정비",
-    "body": "제2차 보건의료인력 실태조사 결과를 발표하고 전공의 보호수련시간 보장 및 대체인력 마련 요구에 대응함",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171126",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492074&tag=&nPage=3"
-    ]
-   },
-   {
     "section": "병원",
-    "title": "첨단 로봇수술 및 플랫폼 도입",
-    "body": "주요 대학병원이 5세대 다빈치 로봇수술 시스템과 형상 유도 기관지경 등을 잇달아 도입함",
+    "title": "첨단 로봇수술 장비 확대 도입",
+    "body": "주요 대학병원들이 5세대 로봇수술 시스템 다빈치 5와 형상유도 기관지경 등을 도입하며 첨단 수술 인프라를 확장함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170837"
     ]
    },
    {
     "section": "병원",
-    "title": "특성화 치료센터 및 AI 적용",
-    "body": "의료기관들이 CAR-T 세포치료센터와 태아심장센터를 개소하고 실시간 생체신호 모니터링 AI를 도입함",
+    "title": "특성화 센터 신설 및 스마트 진료",
+    "body": "일부 상급종합병원들이 CAR-T 세포치료센터와 태아심장센터 등 고난도 중증 질환 전문 인프라를 구축하고 AI 기반 실시간 모니터링을 도입함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170884"
     ]
    }
   ],
   "implications": [
-   "권역외상센터 및 응급의료 이송체계 개편에 발맞추어 중증·응급환자 최종치료 역량 강화",
-   "정부의 AI 가이드라인에 부합하는 원내 생성형 AI 및 디지털 헬스케어 솔루션 검증 체계 수립",
-   "CAR-T 세포치료 및 첨단 재생의료 관련 인프라 구축과 전문 인력 확보 검토"
+   "정부의 중증·응급의료 체계 개편 및 거점외상센터 지원 기조에 맞춰 지역 상급종합병원으로서 중증외상 및 응급 최종치료 역량을 선제적으로 강화해야 함.",
+   "국립대병원 및 지역 거점병원 R&D 2기 사업과 연계하여 첨단 의료기술 연구 및 임상 인프라 확충 전략을 수립해야 함.",
+   "정신건강 및 의료 AI 가이드라인 도입 추세에 발맞추어 원내 AI 솔루션 활용 시 환자 안전과 보안 거버넌스 체계를 정비해야 함."
   ],
-  "count": 185,
+  "count": 169,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-13 19:33",
-  "sig": "3:iof1gc"
+  "generatedAt": "2026-10-14 01:02",
+  "sig": "3:wqiujj"
  }
 }
