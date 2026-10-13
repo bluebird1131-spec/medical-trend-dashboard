@@ -3,54 +3,54 @@
   {
    "date": "2026-10-13",
    "from": "2026-10-12",
-   "headline": "주요 병원들의 첨단 장비 및 CAR-T 센터 도입 확산과 함께 정부의 필수의료 및 정신응급 대책 추진",
+   "headline": "대학병원 첨단의료 도입 가속 및 거점외상센터·정신응급 중심 필수의료 강화 추진",
    "points": [
     {
      "section": "병원",
-     "title": "주요 병원 첨단 장비 및 치료 도입",
-     "body": "아주대병원이 5세대 로봇수술기 다빈치5와 아이온을 도입했고, 건국대병원은 CAR-T 치료제 킴리아주 첫 투여를 시행함. 경희대병원은 하반기 CAR-T 세포치료센터 개소를 앞두고 검증 단계를 진행 중임.",
+     "title": "대학병원 CAR-T 치료 도입 및 센터 구축",
+     "body": "건국대병원이 다학제 협력 체계를 구축해 CAR-T 치료제 첫 투여를 시행했으며, 경희대병원은 장비와 인력 점검을 마치고 하반기 CAR-T 세포치료센터 개소를 추진.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "아주대병원 다빈치5·아이온 등 첨단 로봇 도입",
+     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입해 총 4대의 로봇수술 인프라 구축.",
+     "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
      ]
     },
     {
      "section": "정책",
-     "title": "정부 거점외상센터 최종 선정",
-     "body": "보건복지부가 거점외상센터 설치지원사업 공모를 통해 아주대병원을 최종 선정하고 원주세브란스기독병원을 조건부 선정하여 최대 77억원을 지원함.",
+     "title": "거점외상센터에 아주대·원주세브란스 선정",
+     "body": "보건복지부 거점외상센터 설치지원사업 공모 결과 아주대병원 최종 선정, 원주세브란스기독병원 조건부 선정으로 최중증 외상환자 최종치료 역량 강화 지원 예정.",
      "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511"
      ]
     },
     {
      "section": "정책",
-     "title": "정신응급 필수의료 지정 및 병상 확충",
-     "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 급성기 정신질환 집중치료병상을 2030년까지 2000개로 확충할 예정임.",
+     "title": "정신응급 필수의료 지정 및 집중치료병상 확충",
+     "body": "정부가 제6차 자살예방기본계획을 확정해 정신응급을 필수의료로 지정하고, 2030년까지 급성기 집중치료병상 2000개 확충 및 거점의료기관 긴급진료 별도 보상 추진.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
      ]
-    },
-    {
-     "section": "정책",
-     "title": "비대면진료 제도 개편 추진",
-     "body": "보건복지부가 비대면진료 초진 환자의 진료 및 처방 이력 확인 시 최대 30일 처방 허용을 검토 중이며 의료계가 반발함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492"
-     ]
     }
    ],
    "implications": [
-    "타 상급종합병원의 다빈치5 등 최신 로봇수술 플랫폼 및 CAR-T 세포치료 센터 도입 추세에 발맞춘 원내 첨단 치료 인프라 점검 필요",
-    "정부의 거점외상센터 육성 및 정신응급 집중치료병상 확충 기조에 연계한 원내 중증외상 및 응급 인프라 지원 사업 참여 검토"
+    "보건복지부 거점외상센터 설치지원사업 확대 동향을 모니터링하고 울산 지역 권역외상센터의 중증외상 최종치료 역량 강화 및 추가 국비 확보 방안 검토",
+    "타 상급종합병원의 CAR-T 세포치료제 투여 및 센터 구축 절차를 참고한 원내 다학제 진료·투여 관리 프로세스 벤치마킹",
+    "정신응급 필수의료 지정 및 급성기 정신질환 집중치료병상 확충 정책에 맞춘 병상 운영 및 긴급진료 보상 수가 연계 방안 검토"
    ],
    "count": 25,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-13 01:29",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-13 13:13",
    "sig": "3:1h3gl08",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
