@@ -3,63 +3,83 @@
   {
    "date": "2026-10-13",
    "from": "2026-10-12",
-   "headline": "주요 병원들의 첨단 장비 및 치료센터 도입과 함께 정부의 응급·외상 및 정신건강 분야 정책 강화 동향.",
+   "headline": "타 주요 병원들의 첨단 로봇수술 및 CAR-T 센터 도입 확대와 함께 보건당국의 필수의료·정신응급 체계 개편 추진 동향",
    "points": [
     {
      "section": "병원",
-     "title": "첨단 로봇수술 및 세포치료 확대",
-     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입했으며, 경희대병원과 건국대병원이 CAR-T 세포치료센터 개소 및 킴리아주 첫 투여를 시행함.",
+     "title": "아주대병원 로봇수술기 4대 체계 구축",
+     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입하여 총 4대의 로봇수술 플랫폼 체계를 갖춤.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
      ]
     },
     {
      "section": "병원",
-     "title": "의료기관 정보보안 인프라 강화",
-     "body": "인천나은병원이 랜섬웨어와 전산망 장애 대비를 위해 대웅제약의 의료정보 분산 백업·복구 솔루션 메디세이프를 도입함.",
+     "title": "타 병원 CAR-T 치료센터 및 투여",
+     "body": "경희대병원이 CAR-T 세포치료센터 개소 및 검증 단계를 진입했고, 건국대병원이 재발·불응성 환자 대상 CAR-T 치료제 킴리아주 첫 투여를 시행함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941348"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
      ]
     },
     {
      "section": "정책",
-     "title": "거점외상센터 및 정신응급 지정",
-     "body": "보건복지부가 최중증 외상환자 최종치료를 위해 아주대병원과 원주세브란스기독병원을 거점외상센터로 선정했으며, 정신응급을 필수의료로 지정하고 집중치료병상을 확충할 예정임.",
+     "title": "거점외상센터 최종치료 기관 선정",
+     "body": "보건복지부가 거점외상센터 설치지원사업 공모 결과 아주대병원과 원주세브란스기독병원을 최종 및 조건부 선정함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119"
      ]
     },
     {
      "section": "정책",
-     "title": "AI 의료기기 및 비대면진료 제도",
-     "body": "AI 의료기기 허가 증가에 비해 이상사례 보고가 부재하다는 지적이 제기되었으며, 정부는 비대면진료 시 30일 처방 허용을 검토 중임.",
+     "title": "정신응급 필수의료 지정 및 병상 확충",
+     "body": "정부가 제6차 자살예방기본계획을 확정하여 정신응급을 필수의료로 지정하고 급성기 정신질환 집중치료병상을 2030년까지 2000개로 확충할 예정임.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941338&page=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043509",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
      ]
     }
    ],
    "implications": [
-    "최신 로봇수술 장비(다빈치 5) 및 CAR-T 세포치료 등 타 상급종합병원의 첨단 의료기술 도입 추세에 발맞춘 원내 도입 타당성 검토",
-    "랜섬웨어 등 지능화되는 사이버 위협에 대비한 원내 EMR 및 의료정보 백업·보안 인프라 점검",
-    "보건복지부 거점외상센터 사업 등 정부의 중증·필수의료 인프라 확충 정책과 연계한 원내 특성화센터 역량 강화 방안 모색"
+    "최근 타 상급종합병원이 5세대 다빈치 5 등 최첨단 로봇수술 장비를 추가 도입하는 추세에 맞춰 본원의 수술봇 운영 현황 및 추가 도입 필요성 검토",
+    "경희대병원 및 건국대병원의 CAR-T 치료센터 운영 및 첫 투여 사례를 참고하여 본원 혈액종양내과 중심의 CAR-T 세포치료 인프라 구축 검토",
+    "복지부의 거점외상센터 선정 및 지원 확대 기조에 발맞춰 권역외상센터의 최종치료 역량 강화 방안 점검"
    ],
-   "count": 36,
+   "count": 62,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-13 18:29",
-   "sig": "3:1h7keht",
+   "generatedAt": "2026-10-13 18:56",
+   "sig": "3:a6tufc",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492213&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492211&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171143",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171142",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171141",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171140",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171137",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171133",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941397",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941389",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941388",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941382",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941374",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043589",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043585",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043582",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043541",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043577",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043567",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043572",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171106",
