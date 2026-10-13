@@ -29,9 +29,6 @@ export default {
     const res = await gh(env, `/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs }) });
     if (res.status === 204) console.log(`예약 실행 요청: ${repo} ${wf}`);
     else console.log(`예약 실행 실패: ${repo} ${wf} HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
-    // TEMP-BOTCHECK: 토큰이 수집 봇 저장소에 닿는지 확인 (확인 후 삭제)
-    const chk = await gh(env, `/repos/${BOT_REPO}/actions/workflows/${BOT_WORKFLOW}`);
-    console.log(`수집 봇 저장소 접근: HTTP ${chk.status}`);
   },
 
   async fetch(req, env) {
