@@ -3,49 +3,58 @@
   {
    "date": "2026-10-14",
    "from": "2026-10-13",
-   "headline": "타 의료기관의 AI 기반 생체신호 모니터링 도입 및 건보 재정·안전성 정책 동향",
+   "headline": "병원계 AI 모니터링 도입 확산 속 지역 돌봄 고도화 및 건보 재정 적자 경고",
    "points": [
     {
      "section": "병원",
-     "title": "AI 생체신호 모니터링 도입",
-     "body": "아주대병원이 입원환자 생체신호와 심전도를 실시간 추적·관리하는 AI 기반 시스템을 도입함.",
+     "title": "아주대병원 환자 모니터링 도입",
+     "body": "아주대병원이 입원환자의 생체신호와 심전도를 실시간 추적 및 관리하는 AI 기반 모니터링 시스템을 도입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
      ]
     },
     {
      "section": "병원",
-     "title": "공공병원 AI 전환 및 협력",
-     "body": "경기도의료원이 공공병원 AI 전환과 민간 의료기관과의 협력을 통해 지역완결형 의료 체계 구축에 나섬.",
+     "title": "공공병원 AI 전환 및 협력 추진",
+     "body": "경기도의료원이 공공병원 AI 전환과 민간 의료기관 간 협력을 바탕으로 지역완결형 의료 체계 구축을 추진함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130"
      ]
     },
     {
-     "section": "정책",
-     "title": "건보 재정 적자 전망",
-     "body": "국민건강보험공단 중장기 재무관리계획에 따라 향후 5년간 매년 수조 원대 영업적자가 발생할 것으로 전망됨.",
+     "section": "병원",
+     "title": "병원 EMR 보안 인프라 투자 촉구",
+     "body": "AI 기반 해킹 위협 증가에 따라 병원 EMR 마비 방지를 위한 보안 인프라 구축 및 예산 투자의 시급성이 지적됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275"
      ]
     },
     {
      "section": "정책",
-     "title": "외국인 건보 자격 검증 강화",
-     "body": "국민건강보험공단이 외국인 건강보험 자격취득 및 피부양자 등록 시 국외 발급 증빙서류의 위변조 검증을 강화하는 시스템을 운영함.",
+     "title": "지역맞춤형 통합돌봄 본격 가동",
+     "body": "보건복지부가 지역사회 통합돌봄 실태조사 결과를 발표하고 2030년까지 지역별 맞춤형 고도화 계획을 추진함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "건보 재정 5년 연속 적자 전망",
+     "body": "국민건강보험공단 중장기 재무관리계획에 따라 향후 5년간 매년 수조 원대 영업적자가 발생할 것으로 전망됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
      ]
     }
    ],
    "implications": [
-    "입원환자 안전 관리를 위한 AI 기반 실시간 생체신호 모니터링 시스템 도입 검토",
-    "향후 건보 재정 적자 전망에 대비한 원내 재무 건전성 및 경영 효율화 전략 수립"
+    "입원환자 안전 강화를 위한 실시간 생체신호 AI 모니터링 시스템 도입 검토",
+    "의료정보시스템(EMR) 마비 방지 및 AI 기반 사이버 위협 대응을 위한 원내 보안 인프라 점검",
+    "정부의 지역맞춤형 통합돌봄 고도화 계획에 맞춘 퇴원환자 연계 및 지역 필수의료 협력 모델 검토"
    ],
-   "count": 18,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-14 06:33",
-   "sig": "3:fdsr1v",
+   "count": 13,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-14 07:08",
+   "sig": "3:11xkmac",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
@@ -57,13 +66,8 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171152",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171150",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171148",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941409",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941404",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941403",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941395"
    ]
   },
