@@ -3,12 +3,12 @@
   {
    "date": "2026-10-13",
    "from": "2026-10-12",
-   "headline": "타지역 주요 병원들의 첨단 로봇수술 장비 도입 및 AI 생체신호 모니터링 시스템 구축 활발",
+   "headline": "국내 주요 병원들의 첨단 로봇수술 장비 도입과 AI 모니터링 시스템 구축이 활발한 가운데, 정부의 정신응급 필수의료 지정 및 거점외상센터 선정 등 보건의료 정책 개편이 추진됨.",
    "points": [
     {
      "section": "병원",
-     "title": "아주대병원 로봇수술기 확대",
-     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입해 총 4대의 로봇수술 체계를 구축함.",
+     "title": "아주대병원 로봇수술 도입",
+     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
@@ -16,48 +16,39 @@
     },
     {
      "section": "병원",
-     "title": "입원환자 AI 생체신호 도입",
-     "body": "아주대병원이 입원환자의 생체신호와 심전도를 실시간 추적·관리하는 AI 기반 모니터링 시스템 씽크를 도입함.",
+     "title": "경희대병원 CAR-T 센터",
+     "body": "경희대병원이 종양혈액내과 중심의 인프라 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "인천나은병원 보안 솔루션 도입",
-     "body": "인천나은병원이 랜섬웨어와 전산망 장애에 대비해 의료정보 분산 백업·복구 솔루션 메디세이프를 도입함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941348"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
      ]
     },
     {
      "section": "정책",
-     "title": "거점외상센터 최종치료 선정",
-     "body": "보건복지부 거점외상센터 설치지원사업 공모에서 아주대병원과 원주세브란스기독병원이 최종 및 조건부 선정되어 최중증 외상환자 최종치료를 맡게 됨.",
+     "title": "정신응급 필수의료 지정",
+     "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 집중치료병상을 2030년까지 2000개로 확충할 예정임.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "거점외상센터 최종 선정",
+     "body": "보건복지부가 최중증 외상환자 최종 치료를 담당할 거점외상센터 설치지원사업 공모 결과 아주대병원과 원주세브란스기독병원을 선정함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119"
      ]
-    },
-    {
-     "section": "정책",
-     "title": "정신응급 필수의료 지정 추진",
-     "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 집중치료병상을 2030년까지 2000개로 확충할 예정임.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
-     ]
     }
    ],
    "implications": [
-    "5세대 다빈치 5 등 최신 로봇수술 플랫폼 도입 확대에 따른 수술 경쟁력 강화 검토",
-    "입원환자 대상 AI 기반 실시간 생체신호 모니터링 시스템 도입을 통한 환자 안전 관리 체계 고도화 검토",
-    "랜섬웨어 및 사이버 위협 증가에 따른 원내 의료정보 백업 및 보안 인프라 점검"
+    "최신 로봇수술 장비(다빈치 5) 및 AI 기반 실시간 모니터링 씽크 도입 등 타 대학병원의 첨단 의료 인프라 확충 동향 벤치마킹",
+    "정부의 정신응급 필수의료 지정 및 거점외상센터 육성 정책에 발맞춘 중증 응급 및 특성화센터 인프라 정비 검토"
    ],
-   "count": 42,
+   "count": 43,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-13 21:33",
-   "sig": "3:x3e8fl",
+   "generatedAt": "2026-10-13 21:38",
+   "sig": "3:1gbgukv",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
@@ -66,6 +57,7 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
