@@ -13,22 +13,29 @@
  * 예약 실행 (wrangler.toml 의 crons, UTC) — GitHub 자체 예약은 몇 시간씩 밀리거나 빠져서 여기서 깨움
  *   매 30분          대시보드 update.yml (새 기사 분석 → 시트 → 홈페이지)
  *   06:10·13:10 KST  수집 봇 scrape.yml
+ *   매시 정각        02 이슈 키워드 collect.yml (30분 예약의 정각 회차에 같이 실행)
  */
 const REPO = 'bluebird1131-spec/medical-trend-dashboard';
 const WORKFLOW = 'update.yml';
 const BOT_REPO = 'bluebird1131-spec/medical-news-bot';
 const BOT_WORKFLOW = 'scrape.yml';
 const CRON_BOT = '10 21,4 * * *';
+const KW_REPO = 'bluebird1131-spec/issue-keyword';   // 02 이슈 키워드 사이트 (매시 정각)
+const KW_WORKFLOW = 'collect.yml';
 const ALLOWED_ORIGINS = ['https://bluebird1131-spec.github.io', 'http://localhost:8811'];
 const STATUSES = ['필요', '검토필요', '불필요'];
 const KINDS = ['의견', '오류 신고', '기능 요청', '기사 제보'];
 
 export default {
   async scheduled(event, env, ctx) {
-    const [repo, wf, inputs] = event.cron === CRON_BOT ? [BOT_REPO, BOT_WORKFLOW, {}] : [REPO, WORKFLOW, { auto: '1' }];
-    const res = await gh(env, `/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs }) });
-    if (res.status === 204) console.log(`예약 실행 요청: ${repo} ${wf}`);
-    else console.log(`예약 실행 실패: ${repo} ${wf} HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+    const jobs = event.cron === CRON_BOT ? [[BOT_REPO, BOT_WORKFLOW, {}]] : [[REPO, WORKFLOW, { auto: '1' }]];
+    // 02 이슈 키워드 사이트: 30분 예약 중 정각 회차에 같이 깨움 (무료 플랜 예약 개수 한도 때문에 예약을 새로 만들지 않음)
+    if (event.cron !== CRON_BOT && new Date(event.scheduledTime).getUTCMinutes() < 30) jobs.push([KW_REPO, KW_WORKFLOW, {}]);
+    for (const [repo, wf, inputs] of jobs) {
+      const res = await gh(env, `/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs }) });
+      if (res.status === 204) console.log(`예약 실행 요청: ${repo} ${wf}`);
+      else console.log(`예약 실행 실패: ${repo} ${wf} HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+    }
   },
 
   async fetch(req, env) {
