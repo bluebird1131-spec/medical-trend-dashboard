@@ -3,49 +3,49 @@
   {
    "date": "2026-10-14",
    "from": "2026-10-13",
-   "headline": "병원계의 AI 환자 모니터링 도입과 정부의 지역 맞춤형 통합돌봄 추진 동향.",
+   "headline": "병원계 AI 생체 모니터링 도입과 연구 수주가 잇따르는 가운데 정부의 맞춤형 통합돌봄 고도화가 본격화됨.",
    "points": [
     {
      "section": "병원",
-     "title": "아주대병원 생체신호 모니터링 도입",
-     "body": "아주대병원이 입원환자의 생체신호와 심전도를 실시간 추적·관리하는 AI 기반 모니터링 시스템 '씽크'를 도입함.",
+     "title": "아주대병원, AI 기반 실시간 환자 모니터링 도입",
+     "body": "아주대병원이 입원환자의 생체신호와 심전도를 실시간 추적·관리하는 AI 모니터링 시스템 '씽크'를 도입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
      ]
     },
     {
      "section": "병원",
-     "title": "전남대병원 ARPA-H 프로젝트 선정",
+     "title": "전남대병원, 한국형 ARPA-H 연구기관 선정",
      "body": "전남대병원이 5년간 75억원 규모의 보건복지부 주관 2026년 한국형 ARPA-H 프로젝트 고령자 통증 분야 주관연구기관으로 최종 선정됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043557"
      ]
     },
     {
-     "section": "정책",
-     "title": "정부 데이터 기반 통합돌봄 고도화",
-     "body": "보건복지부가 지역사회 통합돌봄 첫 실태조사 결과를 발표하고 2030년까지 지역 맞춤형 고도화 계획을 본격 추진함.",
+     "section": "병원",
+     "title": "의료기관 EMR 보호 위한 보안 인프라 투자 촉구",
+     "body": "AI 기반 해킹 위협이 병원계로 확산됨에 따라 전산 마비 방지를 위한 의료정보 보안 인프라 구축과 예산 편성 필요성 대두됨.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275"
      ]
     },
     {
      "section": "정책",
-     "title": "수도권 대형병원 병상 확대 논란",
-     "body": "국회 국정감사에서 수도권 6천 병상 규모의 분원 확립에 따른 지역 및 필수의료 붕괴 우려와 통제 수단 부재 문제가 제기됨.",
+     "title": "복지부, 데이터 기반 지역맞춤 통합돌봄 추진",
+     "body": "보건복지부가 첫 실태조사를 바탕으로 취약 요소를 정밀 분석해 2030년까지 지역별 맞춤형 통합돌봄 고도화 계획을 본격 추진함.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "입원환자 안전 관리 및 모니터링 강화를 위한 AI 기반 실시간 생체신호 분석 시스템 도입 검토",
-    "보건복지부 한국형 ARPA-H 등 대형 정부 국책 R&D 과제 주관기관 진입을 위한 원내 연구 역량 강화 검토",
-    "정부의 2030 지역 맞춤형 통합돌봄 고도화 계획에 대응한 울산 권역 연계 진료·돌봄 전달체계 모형 검토"
+    "입원환자 안전 관리 강화를 위한 AI 기반 실시간 생체신호 모니터링 솔루션 도입 검토",
+    "한국형 ARPA-H 등 정부 주관 대형 보건의료 R&D 사업 수주를 위한 원내 연구 지원 체계 정비",
+    "랜섬웨어 등 침해사고 대비 EMR 시스템 보안 인프라 점검 및 대응 예산 확보 추진"
    ],
    "count": 16,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-14 07:11",
+   "generatedAt": "2026-10-14 08:27",
    "sig": "3:1gfe2to",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
