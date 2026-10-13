@@ -1,6 +1,66 @@
 {
  "days": [
   {
+   "date": "2026-10-14",
+   "from": "2026-10-13",
+   "headline": "국내 주요 병원들의 AI 기반 모니터링 및 보안 시스템 도입과 정부의 보건복지 정책 동향",
+   "points": [
+    {
+     "section": "병원",
+     "title": "아주대병원, 실시간 생체신호 모니터링 도입",
+     "body": "아주대병원이 입원환자 생체신호와 심전도를 실시간 추적 및 관리하는 AI 기반 모니터링 시스템을 도입함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "병원계 AI 기반 보안 인프라 구축 시급",
+     "body": "AI 기반 해킹 위협 확산에 따라 EMR 마비 방지를 위한 보안 인프라 구축과 예산 투자가 시급함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "데이터 기반 지역맞춤형 통합돌봄 추진",
+     "body": "보건복지부가 지역사회 통합돌봄 실태조사 결과를 발표하고 2030년까지 지역별 고도화 계획을 추진함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "외국인 건강보험 자격 검증 강화",
+     "body": "국민건강보험공단이 외국인 건강보험 자격취득 및 피부양자 등록 시 국외 발급 증빙서류의 위변조 검증 시스템을 운영함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376"
+     ]
+    }
+   ],
+   "implications": [
+    "입원환자 안전 관리를 위해 AI 기반 생체신호 실시간 모니터링 시스템 도입 검토",
+    "EMR 등 원내 핵심 의료정보 보호를 위한 보안 인프라 및 예산 투자 강화",
+    "향후 건보 재정 적자 전망 및 지역별 의료 정책 변화에 따른 선제적 경영 전략 수립"
+   ],
+   "count": 10,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-10-14 00:05",
+   "sig": "3:s92ce0",
+   "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492215&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
+   ]
+  },
+  {
    "date": "2026-10-13",
    "from": "2026-10-12",
    "headline": "국내 주요 병원들의 첨단 로봇수술 장비 도입과 AI 모니터링 시스템 구축이 활발한 가운데, 정부의 정신응급 필수의료 지정 및 거점외상센터 선정 등 보건의료 정책 개편이 추진됨.",
@@ -602,33 +662,34 @@
   }
  ],
  "weekly": {
-  "date": "2026-10-13",
-  "from": "2026-10-07",
-  "headline": "정부가 정신응급 필수의료 지정 및 중증외상·광역 이송망 강화 등 지역완결형 의료 체계 개편을 본격 추진함.",
+  "date": "2026-10-14",
+  "from": "2026-10-08",
+  "headline": "정부는 중증외상·정신응급 등 필수의료 인프라 투자와 AI 안전 가이드라인 수립을 본격화하며 지역완결형 의료체계 구축을 가속화함.",
   "points": [
    {
     "section": "정책",
-    "title": "정신응급 필수의료 지정 및 병상 확충",
-    "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고, 2030년까지 급성기 정신질환 집중치료병상을 2000개로 확충할 예정임.",
+    "title": "거점외상센터 2곳 선정 및 최대 77억 지원",
+    "body": "보건복지부 거점외상센터 설치지원사업 공모 결과 아주대병원이 최종 선정되고 원주세브란스기독병원이 조건부 선정되어 기관당 최대 77억1000만원을 지원받을 예정. 최중증 외상환자 전담 최종치료 역량 강화를 통해 권역 내 응급의료 인프라를 집중 육성할 방침.",
     "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "정신응급 필수의료 지정 및 집중병상 확충",
+    "body": "정부가 제6차 자살예방기본계획을 심의·확정하고 정신응급을 필수의료로 신규 지정하여 급성기 집중치료병상을 2030년까지 2000개로 확충할 계획. 정신응급 거점의료기관 지정 및 긴급진료에 대한 별도 건보 보상 체계 마련을 동시 추진.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
     ]
    },
    {
     "section": "정책",
-    "title": "중증외상 및 광역 이송 안전망 확대",
-    "body": "복지부가 거점외상센터 설치지원사업 공모를 통해 아주대병원과 원주세브란스기독병원을 선정하고, 전남·광주 권역까지 닥터헬기 및 중증환자 광역 이송 체계를 확대함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
-     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "정신건강 AI 가이드라인 공식 발표",
-    "body": "보건복지부와 대한신경정신의학회가 의료기관 및 기업의 안전한 AI 상담·진료 보조 환경 조성을 위한 국내 최초 생성형 AI 이용 가이드라인을 발표함.",
+    "title": "정신건강 목적 생성형 AI 가이드라인 발표",
+    "body": "보건복지부와 대한신경정신의학회가 의료기관의 안전한 AI 상담 및 진료 보조 환경 조성을 위한 국내 첫 '정신건강 목적 생성형 AI 이용 가이드라인'을 공식 발표. 의료 현장과 개발 기업이 준수해야 할 생성형 AI 안전 활용 기준을 구체화.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
@@ -637,40 +698,41 @@
    },
    {
     "section": "정책",
-    "title": "의료사고 수사 절차 개선 및 대책 논의",
-    "body": "복지부와 경찰청이 필수의료 분야 의료사고 수사 절차 개선과 응급의료 기관 압수수색 지침 마련에 착수함.",
+    "title": "휠체어 일상 적응 훈련 건강보험 급여 인정",
+    "body": "보건복지부와 건강보험공단이 척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여 청구를 공식 인정. 재활의료 분야 임상 서비스 확대 및 신규 건보 수가 청구 체계 구축이 가시화.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171056"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
     ]
    },
    {
     "section": "병원",
-    "title": "첨단 로봇수술 플랫폼 및 장비 도입",
-    "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입해 고난도 수술 인프라를 강화함.",
+    "title": "상급종합병원 CAR-T 세포치료 도입 확산",
+    "body": "건국대병원이 다학제 협진 체계를 바탕으로 DLBCL 환자 대상 CAR-T 치료제 '킴리아주' 첫 투여를 성공적으로 완료. 경희대병원도 전용 인력·시설 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "권역 거점병원 첨단 장비 및 암 인프라 증설",
+    "body": "충남대병원이 중부권 암병원 신설을, 경북대병원이 양성자치료센터 구축을 추진하며 권역 암 치료 인프라 확충에 착수. 아주대병원은 5세대 로봇수술기 다빈치 5와 로봇 보조 기관지경 아이온을 신규 도입해 중증 질환 치료 역량을 보강.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "CAR-T 세포치료센터 구축 가속화",
-    "body": "경희대병원이 2026년 하반기 CAR-T 세포치료센터 개소를 목표로 인력과 장비 점검 등 임상 적용 검증 단계에 진입함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941254&page=3"
     ]
    }
   ],
   "implications": [
-   "정부의 정신응급 필수의료 지정 및 집중치료병상 확충 기조에 발맞추어 원내 관련 인프라 및 치료 체계 정비를 검토함.",
-   "거점외상센터 및 권역 이송망 확대 정책과 연계하여 중증외상 최종치료 역량 강화 방안을 준비함.",
-   "보건복지부의 정신건강 AI 가이드라인 등 디지털 헬스케어 규제 방향을 고려하여 원내 AI 도입 시 준수 기준을 마련함."
+   "정부의 정신응급 필수의료 지정 및 긴급진료 별도 보상 추진에 대비한 급성기 정신질환 집중치료병상 운영 및 권역 거점의료기관 지정 공모 신청 검토.",
+   "척수손상·뇌졸중 환자 대상 휠체어 일상 적응 훈련 급여화에 대응한 재활의학과 수가 청구 기준 정비 및 임상 훈련 프로그램 도입 검토.",
+   "수도권 상급종합병원의 CAR-T 세포치료센터 개소 가속화에 대응한 원내 세포치료 인프라 점검 및 중증 혈액암 환자 역외 유출 방지 전략 검토."
   ],
-  "count": 85,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-13 23:03",
-  "sig": "3:e5gpbm"
+  "count": 70,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-14 00:10",
+  "sig": "3:18m22of"
  },
  "monthly": {
   "date": "2026-10-13",
