@@ -38,6 +38,16 @@ jobs:
         with:
           node-version: 22
 
+      # Gemini Spark 가 시트에 직접 쓰지 못해(보안 정책 차단) 여기서 새 기사를 분석해 시트에 기록
+      - name: 새 기사 AI 분석 → 시트 (선별상태·분류·요약·기관·지역)
+        env:
+          SHEET_URL: ${{ secrets.SHEET_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GAS_URL: ${{ secrets.GAS_URL }}
+          GAS_TOKEN: ${{ secrets.GAS_TOKEN }}
+        run: node scripts/classify.mjs || echo "::warning::새 기사 분석이 중간에 멈췄습니다 (다음 실행에서 다시 시도)"
+
       - name: 구글 시트 → data.json
         env:
           SHEET_URL: ${{ secrets.SHEET_URL }}
