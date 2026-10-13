@@ -604,20 +604,31 @@
  "weekly": {
   "date": "2026-10-13",
   "from": "2026-10-07",
-  "headline": "정부는 필수의료 안전망 강화와 AI·디지털 가이드라인 마련을 추진 중임",
+  "headline": "정부가 정신응급 필수의료 지정 및 중증외상·광역 이송망 강화 등 지역완결형 의료 체계 개편을 본격 추진함.",
   "points": [
    {
     "section": "정책",
     "title": "정신응급 필수의료 지정 및 병상 확충",
-    "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 2030년까지 집중치료병상을 2000개로 확충 추진.",
+    "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고, 2030년까지 급성기 정신질환 집중치료병상을 2000개로 확충할 예정임.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
     ]
    },
    {
     "section": "정책",
-    "title": "정신건강 생성형 AI 가이드라인 발표",
-    "body": "보건복지부와 대한신경정신의학회가 의료기관의 안전한 AI 진료 보조 환경 조성을 위한 가이드라인 공식 발표.",
+    "title": "중증외상 및 광역 이송 안전망 확대",
+    "body": "복지부가 거점외상센터 설치지원사업 공모를 통해 아주대병원과 원주세브란스기독병원을 선정하고, 전남·광주 권역까지 닥터헬기 및 중증환자 광역 이송 체계를 확대함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
+     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "정신건강 AI 가이드라인 공식 발표",
+    "body": "보건복지부와 대한신경정신의학회가 의료기관 및 기업의 안전한 AI 상담·진료 보조 환경 조성을 위한 국내 최초 생성형 AI 이용 가이드라인을 발표함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
@@ -626,17 +637,8 @@
    },
    {
     "section": "정책",
-    "title": "중증환자 이송 안전망 호남권 확대",
-    "body": "응급 중증질환 골든타임 사수를 위해 권역 책임의료기관 중심의 닥터헬기 및 중증환자 광역 이송 체계 확대 개시.",
-    "links": [
-     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "응급의료 수사·압수수색 지침 마련",
-    "body": "보건복지부와 경찰청이 필수의료 분야 의료사고 수사 절차 개선 및 응급의료 압수수색 지침 마련 착수.",
+    "title": "의료사고 수사 절차 개선 및 대책 논의",
+    "body": "복지부와 경찰청이 필수의료 분야 의료사고 수사 절차 개선과 응급의료 기관 압수수색 지침 마련에 착수함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171056"
@@ -644,32 +646,31 @@
    },
    {
     "section": "병원",
-    "title": "타지역 상급병원의 첨단 인프라 도입",
-    "body": "아주대병원이 다빈치 5와 아이온을 도입하고, 건국대병원이 CAR-T 세포치료제 킴리아주 첫 투여를 시행함.",
+    "title": "첨단 로봇수술 플랫폼 및 장비 도입",
+    "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입해 고난도 수술 인프라를 강화함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
     ]
    },
    {
     "section": "병원",
-    "title": "응급·심뇌혈관 네트워크 성과 인정",
-    "body": "동아대병원이 응급심뇌혈관질환 네트워크 시범사업 성과평가에서 우수한 성과를 거두어 사후지원금 지급률 상향 조정.",
+    "title": "CAR-T 세포치료센터 구축 가속화",
+    "body": "경희대병원이 2026년 하반기 CAR-T 세포치료센터 개소를 목표로 인력과 장비 점검 등 임상 적용 검증 단계에 진입함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941138&page=3"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
     ]
    }
   ],
   "implications": [
-   "정부의 정신응급 필수의료 지정 및 집중치료병상 확충 정책에 맞춰 원내 정신건강의학과 병상 및 인력 운영 계획 검토",
-   "복지부·신경정신의학회의 정신건강 생성형 AI 가이드라인에 부합하는 원내 디지털 헬스케어 및 AI 진료 보조 시스템 도입 검토",
-   "응급의료 수사·압수수색 지침 마련과 연계하여 원내 응급실 및 필수의료 진료과정의 법적 리스크 관리 체계 점검"
+   "정부의 정신응급 필수의료 지정 및 집중치료병상 확충 기조에 발맞추어 원내 관련 인프라 및 치료 체계 정비를 검토함.",
+   "거점외상센터 및 권역 이송망 확대 정책과 연계하여 중증외상 최종치료 역량 강화 방안을 준비함.",
+   "보건복지부의 정신건강 AI 가이드라인 등 디지털 헬스케어 규제 방향을 고려하여 원내 AI 도입 시 준수 기준을 마련함."
   ],
-  "count": 99,
+  "count": 85,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-13 19:31",
-  "sig": "3:1ghyq1t"
+  "generatedAt": "2026-10-13 23:03",
+  "sig": "3:e5gpbm"
  },
  "monthly": {
   "date": "2026-10-13",
