@@ -3,50 +3,49 @@
   {
    "date": "2026-10-14",
    "from": "2026-10-13",
-   "headline": "국내 주요 병원들의 AI 기반 모니터링 및 보안 시스템 도입과 정부의 보건복지 정책 동향",
+   "headline": "타 의료기관의 AI 기반 생체신호 모니터링 도입 및 건보 재정·안전성 정책 동향",
    "points": [
     {
      "section": "병원",
-     "title": "아주대병원, 실시간 생체신호 모니터링 도입",
-     "body": "아주대병원이 입원환자 생체신호와 심전도를 실시간 추적 및 관리하는 AI 기반 모니터링 시스템을 도입함.",
+     "title": "AI 생체신호 모니터링 도입",
+     "body": "아주대병원이 입원환자 생체신호와 심전도를 실시간 추적·관리하는 AI 기반 시스템을 도입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
      ]
     },
     {
      "section": "병원",
-     "title": "병원계 AI 기반 보안 인프라 구축 시급",
-     "body": "AI 기반 해킹 위협 확산에 따라 EMR 마비 방지를 위한 보안 인프라 구축과 예산 투자가 시급함.",
+     "title": "공공병원 AI 전환 및 협력",
+     "body": "경기도의료원이 공공병원 AI 전환과 민간 의료기관과의 협력을 통해 지역완결형 의료 체계 구축에 나섬.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130"
      ]
     },
     {
      "section": "정책",
-     "title": "데이터 기반 지역맞춤형 통합돌봄 추진",
-     "body": "보건복지부가 지역사회 통합돌봄 실태조사 결과를 발표하고 2030년까지 지역별 고도화 계획을 추진함.",
+     "title": "건보 재정 적자 전망",
+     "body": "국민건강보험공단 중장기 재무관리계획에 따라 향후 5년간 매년 수조 원대 영업적자가 발생할 것으로 전망됨.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
      ]
     },
     {
      "section": "정책",
-     "title": "외국인 건강보험 자격 검증 강화",
-     "body": "국민건강보험공단이 외국인 건강보험 자격취득 및 피부양자 등록 시 국외 발급 증빙서류의 위변조 검증 시스템을 운영함.",
+     "title": "외국인 건보 자격 검증 강화",
+     "body": "국민건강보험공단이 외국인 건강보험 자격취득 및 피부양자 등록 시 국외 발급 증빙서류의 위변조 검증을 강화하는 시스템을 운영함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376"
      ]
     }
    ],
    "implications": [
-    "입원환자 안전 관리를 위해 AI 기반 생체신호 실시간 모니터링 시스템 도입 검토",
-    "EMR 등 원내 핵심 의료정보 보호를 위한 보안 인프라 및 예산 투자 강화",
-    "향후 건보 재정 적자 전망 및 지역별 의료 정책 변화에 따른 선제적 경영 전략 수립"
+    "입원환자 안전 관리를 위한 AI 기반 실시간 생체신호 모니터링 시스템 도입 검토",
+    "향후 건보 재정 적자 전망에 대비한 원내 재무 건전성 및 경영 효율화 전략 수립"
    ],
-   "count": 10,
+   "count": 18,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-14 00:05",
-   "sig": "3:s92ce0",
+   "generatedAt": "2026-10-14 06:33",
+   "sig": "3:fdsr1v",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
@@ -57,7 +56,15 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171152",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171150",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171148",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941409",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941404",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941403",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941395"
    ]
   },
   {
@@ -664,23 +671,12 @@
  "weekly": {
   "date": "2026-10-14",
   "from": "2026-10-08",
-  "headline": "정부는 중증외상·정신응급 등 필수의료 인프라 투자와 AI 안전 가이드라인 수립을 본격화하며 지역완결형 의료체계 구축을 가속화함.",
+  "headline": "이번 주 정부는 정신응급 필수의료 지정, 데이터 기반 돌봄 및 AI 가이드라인 발표 등 공공·필수·디지털 의료 중심의 제도 개편을 본격화함.",
   "points": [
    {
     "section": "정책",
-    "title": "거점외상센터 2곳 선정 및 최대 77억 지원",
-    "body": "보건복지부 거점외상센터 설치지원사업 공모 결과 아주대병원이 최종 선정되고 원주세브란스기독병원이 조건부 선정되어 기관당 최대 77억1000만원을 지원받을 예정. 최중증 외상환자 전담 최종치료 역량 강화를 통해 권역 내 응급의료 인프라를 집중 육성할 방침.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "정신응급 필수의료 지정 및 집중병상 확충",
-    "body": "정부가 제6차 자살예방기본계획을 심의·확정하고 정신응급을 필수의료로 신규 지정하여 급성기 집중치료병상을 2030년까지 2000개로 확충할 계획. 정신응급 거점의료기관 지정 및 긴급진료에 대한 별도 건보 보상 체계 마련을 동시 추진.",
+    "title": "정신응급 필수의료 지정 및 병상 확충",
+    "body": "정부가 제6차 자살예방기본계획을 확정함에 따라 정신응급이 필수의료로 지정되고 2030년까지 급성기 정신질환 집중치료병상이 2000개로 확충될 예정임.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
@@ -688,8 +684,16 @@
    },
    {
     "section": "정책",
-    "title": "정신건강 목적 생성형 AI 가이드라인 발표",
-    "body": "보건복지부와 대한신경정신의학회가 의료기관의 안전한 AI 상담 및 진료 보조 환경 조성을 위한 국내 첫 '정신건강 목적 생성형 AI 이용 가이드라인'을 공식 발표. 의료 현장과 개발 기업이 준수해야 할 생성형 AI 안전 활용 기준을 구체화.",
+    "title": "데이터 기반 지역 통합돌봄 고도화",
+    "body": "보건복지부가 첫 지역사회 통합돌봄 실태조사 결과를 발표하고 2030년까지 데이터 기반 지역맞춤형 통합돌봄 고도화 계획을 추진함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "정신건강 목적 생성형 AI 가이드라인",
+    "body": "보건복지부와 대한신경정신의학회가 의료기관의 안전한 AI 상담 및 진료 보조 환경 조성을 위한 국내 최초 이용 가이드라인을 공식 발표함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
@@ -698,134 +702,127 @@
    },
    {
     "section": "정책",
-    "title": "휠체어 일상 적응 훈련 건강보험 급여 인정",
-    "body": "보건복지부와 건강보험공단이 척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여 청구를 공식 인정. 재활의료 분야 임상 서비스 확대 및 신규 건보 수가 청구 체계 구축이 가시화.",
+    "title": "휠체어 사용 훈련 건강보험 급여화",
+    "body": "척수손상 및 뇌졸중 환자의 휠체어 일상 적응 훈련에 대한 건강보험 급여화가 인정되어 재활의료기관의 임상 서비스 범위가 확대됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113"
     ]
    },
    {
     "section": "병원",
-    "title": "상급종합병원 CAR-T 세포치료 도입 확산",
-    "body": "건국대병원이 다학제 협진 체계를 바탕으로 DLBCL 환자 대상 CAR-T 치료제 '킴리아주' 첫 투여를 성공적으로 완료. 경희대병원도 전용 인력·시설 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입.",
+    "title": "첨단 로봇수술 시스템 및 장비 도입",
+    "body": "일부 상급종합병원이 5세대 로봇수술 시스템인 다빈치 5와 형상 유도 로봇 보조 기관지경 등을 도입하며 첨단 수술 인프라를 확충함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
     ]
    },
    {
     "section": "병원",
-    "title": "권역 거점병원 첨단 장비 및 암 인프라 증설",
-    "body": "충남대병원이 중부권 암병원 신설을, 경북대병원이 양성자치료센터 구축을 추진하며 권역 암 치료 인프라 확충에 착수. 아주대병원은 5세대 로봇수술기 다빈치 5와 로봇 보조 기관지경 아이온을 신규 도입해 중증 질환 치료 역량을 보강.",
+    "title": "CAR-T 세포치료센터 운영 및 검증",
+    "body": "주요 대형병원들이 종양혈액내과 중심의 인력과 시설 점검을 완료하고 CAR-T 세포치료센터 개소 및 난치성 혈액암 환자 치료를 본격 시행함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941254&page=3"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1"
     ]
    }
   ],
   "implications": [
-   "정부의 정신응급 필수의료 지정 및 긴급진료 별도 보상 추진에 대비한 급성기 정신질환 집중치료병상 운영 및 권역 거점의료기관 지정 공모 신청 검토.",
-   "척수손상·뇌졸중 환자 대상 휠체어 일상 적응 훈련 급여화에 대응한 재활의학과 수가 청구 기준 정비 및 임상 훈련 프로그램 도입 검토.",
-   "수도권 상급종합병원의 CAR-T 세포치료센터 개소 가속화에 대응한 원내 세포치료 인프라 점검 및 중증 혈액암 환자 역외 유출 방지 전략 검토."
+   "정부의 정신응급 필수의료 지정 및 집중치료병상 확충 기조에 맞춰 원내 정신건강의학과 응급 및 입원 인프라 정비 검토",
+   "복지부의 정신건강 목적 생성형 AI 가이드라인 발표에 따라 원내 AI 기반 진료 보조 및 상담 솔루션 도입 시 보안 및 활용 기준 준수 검토",
+   "재활치료 분야 휠체어 사용 훈련 건보 급여화에 발맞추어 관련 재활치료 프로그램 및 청구 체계 정비 추진"
   ],
-  "count": 70,
-  "model": "gemini-flash-latest",
-  "generatedAt": "2026-10-14 00:10",
-  "sig": "3:18m22of"
+  "count": 78,
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-14 06:34",
+  "sig": "3:17l80gm"
  },
  "monthly": {
   "date": "2026-10-14",
   "from": "2026-09-15",
-  "headline": "정부는 필수의료·응급체계 재편과 AI 디지털 헬스케어 제도화를 다각도로 추진하고 있다.",
+  "headline": "정부는 필수의료 체계 개편과 AI 및 지역완결형 의료 인프라 강화를 본격 추진",
   "points": [
    {
     "section": "정책",
-    "title": "중증·응급의료 및 필수의료 강화",
-    "body": "복지부는 중증외상 최종치료 역량 강화 및 거점외상센터 선정, 응급의료체계 혁신방안과 정신응급 필수의료 지정을 추진함.",
+    "title": "필수·응급의료 체계 및 수가 개편",
+    "body": "정부는 중증외상 최종치료 역량 강화, 응급의료체계 혁신, 정신응급 필수의료 지정 등을 통해 필수의료 안전망 구축을 다수 추진함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492052&tag=&nPage=4"
     ]
    },
    {
     "section": "정책",
-    "title": "지역완결형 의료 및 공공의료 개편",
-    "body": "지방의료원 역할 차등화와 국립대병원 지역완결의료 거점 육성을 위한 R&D 2기 및 시설 확충 지원이 논의됨.",
+    "title": "지역완결형 의료 및 통합돌봄 확대",
+    "body": "지역사회 통합돌봄 실태조사 및 고도화, 한국형 주치의 시범사업 도입 등 지역 중심의 의료·돌봄 전달체계 개편을 여러 차례 발표함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941262&page=3",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941254&page=3",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492011&tag=&nPage=5",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170790"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492092&tag=&nPage=3",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492060&tag=&nPage=3",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170889"
     ]
    },
    {
     "section": "정책",
-    "title": "수가·급여 체계 개편 및 약가 조정",
-    "body": "파드셉 및 빌로이 등 중증 항암제 급여 확대와 함께 휠체어 사용 훈련 등 재활 의료 급여화 및 만성질환 치료제 약가 인하가 병행됨.",
+    "title": "의료 AI 및 디지털헬스 제도 정비",
+    "body": "정부는 신약 임상개발 혁신 지원 및 정신건강 목적 생성형 AI 이용 가이드라인 제정 등 디지털헬스 안전 활용 기준을 다수 마련함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941113",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171101",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492089&tag=&nPage=3",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170934",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170788"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료 AI·디지털 가이드라인 마련",
-    "body": "복지부와 정신의학회의 정신건강 목적 생성형 AI 가이드라인 발표 등 보건의료 AI 활용 기준과 실증 생태계 조성이 추진됨.",
-    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171105",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2"
     ]
    },
    {
     "section": "정책",
-    "title": "지역사회 통합돌봄 및 일차의료",
-    "body": "데이터 기반 지역맞춤형 통합돌봄 고도화와 지역사회 일차의료 혁신 시범사업을 통한 포괄적 만성질환 관리가 본격 가동됨.",
+    "title": "중증·희귀질환 치료제 급여 확대",
+    "body": "희귀·소외 암 치료제 및 항암제 병용요법 등 환자 부담을 낮추기 위한 건강보험 급여 적용 확대를 연속적으로 추진함.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492092&tag=&nPage=3",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492060&tag=&nPage=3"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171101",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492089&tag=&nPage=3",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170934"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "보건의료인력 수급 및 수련 체계 개선",
+    "body": "보건의료인력 실태조사 발표 및 군의관·공보의 복무 단축 논의 등 인력난 해소를 위한 제도 보완을 지속 검토함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492074&tag=&nPage=3",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170771",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170745"
     ]
    },
    {
     "section": "병원",
-    "title": "첨단 로봇수술 장비 확대 도입",
-    "body": "주요 대학병원들이 5세대 로봇수술 시스템 다빈치 5와 형상유도 기관지경 등을 도입하며 첨단 수술 인프라를 확장함.",
+    "title": "첨단 로봇수술 장비 도입 확산",
+    "body": "아주대병원 등 주요 대형병원들이 5세대 로봇수술 시스템 '다빈치 5' 등 최첨단 수술 플랫폼을 잇따라 도입함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170837"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
     ]
    },
    {
     "section": "병원",
-    "title": "특성화 센터 신설 및 스마트 진료",
-    "body": "일부 상급종합병원들이 CAR-T 세포치료센터와 태아심장센터 등 고난도 중증 질환 전문 인프라를 구축하고 AI 기반 실시간 모니터링을 도입함.",
+    "title": "특화 센터 개소 및 인프라 확충",
+    "body": "서울아산병원의 태아심장센터 개소와 경희대병원의 CAR-T 세포치료센터 검증 진입 등 전문 진료 역량 강화가 활발함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170884"
     ]
    }
   ],
   "implications": [
-   "정부의 중증·응급의료 체계 개편 및 거점외상센터 지원 기조에 맞춰 지역 상급종합병원으로서 중증외상 및 응급 최종치료 역량을 선제적으로 강화해야 함.",
-   "국립대병원 및 지역 거점병원 R&D 2기 사업과 연계하여 첨단 의료기술 연구 및 임상 인프라 확충 전략을 수립해야 함.",
-   "정신건강 및 의료 AI 가이드라인 도입 추세에 발맞추어 원내 AI 솔루션 활용 시 환자 안전과 보안 거버넌스 체계를 정비해야 함."
+   "정부의 필수의료 및 응급·외상 최종치료 역량 강화 기조에 맞춘 원내 중증진료 프로세스 점검",
+   "복지부의 AI 가이드라인 준수 및 실증 사업 연계를 통한 원내 의료 AI 및 디지털 솔루션 도입 검토",
+   "지역완결형 의료 요구에 대응하기 위한 지역사회 의료기관 및 협력 네트워크 강화 검토"
   ],
-  "count": 169,
+  "count": 177,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-14 01:02",
-  "sig": "3:wqiujj"
+  "generatedAt": "2026-10-14 06:36",
+  "sig": "3:l0z5r8"
  }
 }
