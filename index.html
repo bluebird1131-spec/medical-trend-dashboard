@@ -241,6 +241,8 @@
     width: 100%; padding: 6px 8px; margin: 0 -8px; border: 0; border-radius: 6px; background: none; cursor: pointer; text-align: left;
   }
   .bar-row:hover { background: var(--hover); }
+  /* 키워드는 2~3단어 구문이라 이름 칸을 넓게 */
+  #kwBars .bar-row { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) 32px; }
   .bar-label { font-size: 14px; font-weight: 500; color: var(--body); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .bar-track { display: block; }
   .bar-fill { display: block; height: 8px; min-width: 2px; border-radius: 0 4px 4px 0; background: var(--accent); }
@@ -515,7 +517,7 @@
   <section class="dash view" id="v-cats" hidden>
     <div class="ccols" id="ccols"></div>
     <div class="bottom">
-      <div class="card"><div class="card-head"><h2><span class="dot"></span>키워드 TOP 10</h2><span>기사 수</span></div><div id="kwBars"></div></div>
+      <div class="card"><div class="card-head"><h2><span class="dot"></span>키워드 TOP 10</h2><span id="kwSub">기사 수</span></div><div id="kwBars"></div></div>
       <div class="card"><div class="card-head"><h2><span class="dot"></span>일자별 기사 수</h2><span id="trendSub"></span></div><div id="trend"></div></div>
       <div class="card"><div class="card-head"><h2><span class="dot"></span>출처별 기사 수</h2><span>상위 8곳</span></div><div id="srcBars"></div></div>
     </div>
@@ -600,6 +602,8 @@
   let headers = [], cols = {}, items = [], listItems = [], ctxs = {}, thumbs = {}, imgFreq = new Map();
   // 국고사업 공고의 접수기간 (GitHub Actions 가 복지부 공지 원문에서 읽어 둔 deadlines.json)
   let deadlines = {}, openOnly = false;
+  // 키워드 TOP 10 (GitHub Actions 가 불필요 기사까지 모든 제목에서 Gemini 로 고르고 기사 수를 센 keywords.json)
+  let kwData = {};
   let filter = { q: '', cat: '전체', period: 'today' };  // 처음 열면 '어제~오늘'
   let brief = { days: [] }, briefAt = 0, aiKind = 'daily';
   let view = 'brief', shown = PAGE, ctx = [], current = -1, lastFocus = null, firstLoad = true;
@@ -752,6 +756,8 @@
     }
     // data.json 은 GitHub Actions 가 30분마다 구글 시트에서 만들어 둠. 브라우저는 구글에 접속하지 않음.
     // brief.json(AI 브리핑)은 없어도 페이지는 그대로 보임
+    fetch('keywords.json?t=' + Date.now(), { cache: 'no-store' }).then(res => res.ok ? res.json() : {})
+      .then(d => { kwData = d?.periods || {}; if (items.length) renderAll(); }).catch(() => {});
     fetch('deadlines.json?t=' + Date.now(), { cache: 'no-store' }).then(res => res.ok ? res.json() : {})
       .then(d => { deadlines = d || {}; if (items.length) renderAll(); }).catch(() => {});
     const aiReq = fetch('brief.json?t=' + Date.now(), { cache: 'no-store' })
@@ -824,10 +830,10 @@
     return out.filter(([, arr]) => arr.length);
   };
   const empty = (msg, ic = 'inbox') => `<div class="state sm">${icon(ic)}<div>${msg}</div></div>`;
-  const kwBarsHtml = rows => {
+  const kwBarsHtml = (rows, all = false) => {
     if (!rows.length) return empty('표시할 키워드가 없습니다');
     const max = Math.max(...rows.map(r => r.n));
-    return rows.map(r => `<button type="button" class="bar-row" data-q="${esc(r.label)}" data-tip="${esc(r.label)} · 기사 ${r.n}건 · 눌러서 보기">
+    return rows.map(r => `<button type="button" class="bar-row" data-q="${esc(r.q ?? r.label)}" data-tip="${esc(r.label)} · 기사 ${r.n}건${all ? '(불필요 포함)' : ''} · 눌러서 ${all ? '공개 기사 ' : ''}보기">
       <span class="bar-label">${esc(r.label)}</span>
       <span class="bar-track"><span class="bar-fill" style="width:${(r.n / max * 100).toFixed(1)}%"></span></span>
       <span class="bar-val">${fmt(r.n)}</span></button>`).join('');
@@ -939,8 +945,11 @@
       </section>`;
     }).join('') : `<div class="card">${empty('이 기간에 등록된 기사가 없습니다')}</div>`;
 
-    const bars = (rows, kind) => rows.length ? kwBarsHtml(rows) : empty(kind === 'kw' ? '표시할 키워드가 없습니다' : '출처 정보가 없습니다');
-    $('kwBars').innerHTML = bars(countBy(list, keywordsOf).slice(0, 10), 'kw');
+    const bars = (rows, kind, all) => rows.length ? kwBarsHtml(rows, all) : empty(kind === 'kw' ? '표시할 키워드가 없습니다' : '출처 정보가 없습니다');
+    // 불필요 기사까지 센 키워드가 있으면 그것을, 없으면 공개 기사 제목의 단어를 셈
+    const kw = kwData[filter.period]?.items || [];
+    $('kwSub').textContent = kw.length ? '기사 수 · 불필요 포함' : '기사 수';
+    $('kwBars').innerHTML = kw.length ? bars(kw, 'kw', true) : bars(countBy(list, keywordsOf).slice(0, 10), 'kw');
     $('srcBars').innerHTML = bars(countBy(list, it => get(it.r, 'source') ? [get(it.r, 'source')] : []).slice(0, 8), 'src');
     renderTrend();
   }

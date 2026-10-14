@@ -57,6 +57,13 @@ jobs:
           SITE_TITLE: ${{ vars.SITE_TITLE }}
         run: node scripts/fetch-sheet.mjs
 
+      - name: 키워드 TOP 10 (불필요 기사 포함) → keywords.json
+        env:
+          SHEET_URL: ${{ secrets.SHEET_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: node scripts/keywords.mjs || echo "::warning::키워드를 만들지 못했습니다 (페이지는 그대로 갱신)"
+
       - name: 국고사업 공고 접수기간 → deadlines.json
         run: node scripts/fetch-deadlines.mjs || echo "::warning::접수기간을 읽지 못했습니다 (페이지는 그대로 갱신)"
 
@@ -67,15 +74,15 @@ jobs:
           BRIEF_FORCE: ${{ inputs.brief }}
         run: node scripts/ai-brief.mjs
 
-      - name: 바뀐 경우 data.json·thumbs.json·brief.json·deadlines.json 커밋 (이력 보관)
+      - name: 바뀐 경우 data.json·thumbs.json·brief.json·deadlines.json·keywords.json 커밋 (이력 보관)
         id: commit
         run: |
-          if [ -z "$(git status --porcelain -- data.json thumbs.json brief.json deadlines.json)" ]; then
+          if [ -z "$(git status --porcelain -- data.json thumbs.json brief.json deadlines.json keywords.json)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data.json thumbs.json $(ls brief.json deadlines.json 2>/dev/null)
+            git add data.json thumbs.json $(ls brief.json deadlines.json keywords.json 2>/dev/null)
             git commit -m "data: 시트 동기화 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
             # 실행 중에 코드가 push 된 경우 대비: 최신 main 위에 얹고(데이터 파일은 이번 결과 우선) push
             git pull --rebase -X theirs origin main
