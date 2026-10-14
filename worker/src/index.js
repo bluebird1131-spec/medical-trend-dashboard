@@ -29,7 +29,8 @@ const KINDS = ['의견', '오류 신고', '기능 요청', '기사 제보'];
 
 export default {
   async scheduled(event, env, ctx) {
-    const jobs = event.cron === CRON_BOT ? [[BOT_REPO, BOT_WORKFLOW, {}]] : [[REPO, WORKFLOW, { auto: '1' }]];
+    // auto=1: 예약이 드물게 두 번 와도 각 워크플로가 중복 실행을 건너뜀
+    const jobs = event.cron === CRON_BOT ? [[BOT_REPO, BOT_WORKFLOW, { auto: '1' }]] : [[REPO, WORKFLOW, { auto: '1' }]];
     // 02 이슈 키워드 사이트: 30분 예약 중 정각 회차에 같이 깨움 (무료 플랜 예약 개수 한도 때문에 예약을 새로 만들지 않음)
     if (event.cron !== CRON_BOT && new Date(event.scheduledTime).getUTCMinutes() < 30) jobs.push([KW_REPO, KW_WORKFLOW, {}]);
     for (const [repo, wf, inputs] of jobs) {
