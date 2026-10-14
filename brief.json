@@ -3,89 +3,81 @@
   {
    "date": "2026-10-14",
    "from": "2026-10-13",
-   "headline": "국내 주요 병원의 AI·디지털헬스 도입이 가속화되는 한편, 복지부는 민간구급차 실시간 전송 의무화 등 제도 정비에 나섬",
+   "headline": "대학병원 스마트병동 도입과 노사 갈등 속에 상급종합병원 병상 규정 개편 및 건보 재정 관리 정책이 본격화됨.",
    "points": [
     {
      "section": "병원",
-     "title": "첨단 로봇 및 AI 모니터링 도입",
-     "body": "서울아산병원이 국내 최초로 MRI와 로봇 기술을 결합한 전립선 조직검사 시스템 모나리자를 도입했으며, 아주대병원은 입원환자 생체신호를 실시간 관리하는 AI 모니터링 시스템을 구축함.",
+     "title": "부산대병원 스마트병동 구축 추진",
+     "body": "부산대학교병원이 동아에스티 등과 협약을 맺고 스마트병동 구축과 AI·웨어러블 기반 해상의료 지원시스템 공동개발에 착수함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "스마트병동 및 환자경험 플랫폼",
-     "body": "부산대학교병원이 스마트병동 구축 및 해상의료 지원시스템 공동개발에 착수했고, 길병원은 AI 기반 환자경험 통합 플랫폼을 본격 가동함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941437",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941435",
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175"
      ]
     },
     {
-     "section": "정책",
-     "title": "민간구급차 운행정보 실시간 전송",
-     "body": "보건복지부가 가짜 구급차 근절을 위해 응급의료법 시행규칙에 따라 10월 14일부터 민간구급차의 GPS 기반 운행정보 실시간 전송을 의무화함.",
+     "section": "병원",
+     "title": "서울대병원 노조 쟁의 절차 돌입",
+     "body": "서울대병원 노동조합이 공공의료 강화와 필수인력 충원을 촉구하며 노동쟁의 조정신청 및 찬반투표 등 파업 수순에 돌입함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492221&tag=&nPage=1",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941436",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043618"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598"
      ]
     },
     {
      "section": "정책",
-     "title": "건보 재정 적자 전망 및 수가 개편",
-     "body": "국민건강보험공단 중장기 재무관리계획에 따라 향후 5년간 매년 수조 원대 영업적자가 전망되며, 2028년도 수가 계약을 위한 신규 환산지수 모형 실증 연구가 착수됨.",
+     "title": "상급종합병원 병상 기준 개정 및 분원 논란",
+     "body": "보건복지부가 권역별 최소 지정에 따른 초과 병상을 전국 소요병상 산정에서 제외하는 규정을 시행함. 국감에서는 수도권 6천 병상 분원 확장에 대한 통제 수단 미비와 지역의료 붕괴 우려가 제기됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "건보 재정 적자 대비 환산지수 개편 착수",
+     "body": "국민건강보험공단이 향후 5년간 매년 수조 원대 적자 전망에 대응해 2028년도 대비 BAP 환산지수 모형 실증 연구에 착수함. 동시에 국외 증빙서류 검증 시스템을 통해 외국인 건강보험 자격 관리를 강화함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "지역 맞춤 통합돌봄 가동 및 공공의료 재편",
+     "body": "보건복지부가 지역사회 통합돌봄 실태조사 결과를 바탕으로 2030년까지 지역 맞춤형 고도화를 추진함. 경영난을 겪는 지방의료원에 대해서는 지역별 의료공백 해소 역할에 맞춘 차등 보상 방안이 대두됨.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "원내 스마트병동 구축 및 환자경험 통합 플랫폼 도입 시 타 병원 우수 사례를 참고하여 추진 검토",
-    "입원환자 생체신호 실시간 관리 등 AI 기반 환자 모니터링 기술 도입 확대 검토"
+    "동남권역 내 부산대병원의 스마트병동 및 웨어러블 원격 모니터링 협력 모델을 참고한 원내 디지털 병동 고도화 방안 검토.",
+    "상급종합병원 진료권역별 소요병상 산정 개정안 시행에 따른 울산 권역 병상 현황 점검 및 차기 상급종합병원 평가 영향 분석 추진.",
+    "정부의 2030 지역사회 맞춤형 통합돌봄 추진 계획과 연계하여 울산 지역 내 중증 퇴원환자 케어 및 지역 의료·돌봄 연계 체계 구축 검토."
    ],
-   "count": 45,
-   "picks": 5,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-14 20:05",
-   "sig": "3:31x3wc",
+   "count": 29,
+   "picks": 9,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-14 20:23",
+   "sig": "3:1ofkk3b",
    "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492221&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941405",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941414",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941408",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043601",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043597",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043594",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171163",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941436",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941429",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941437",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941435",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941428",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941426",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043623",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043619",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043618",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492228&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941427",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043591",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941355",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043634",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043630",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043557",
@@ -97,8 +89,7 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171148",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941395",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941393",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043591"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941393"
    ]
   },
   {
