@@ -3,51 +3,74 @@
   {
    "date": "2026-10-14",
    "from": "2026-10-13",
-   "headline": "타지역 주요 병원들의 첨단 AI 생체신호 모니터링 시스템과 신규 의료기술 도입이 이어지고 건강보험 재정 및 필수의료 관련 제도 개편 논의가 지속됨.",
+   "headline": "지방의료원 경영난 심화와 건보 재정 적자 전망 속에서 정부의 민간구급차 운행정보 실시간 전송 의무화와 지역 맞춤형 통합돌봄 추진 동향",
    "points": [
     {
      "section": "병원",
-     "title": "서울아산병원 모나리자 도입",
-     "body": "서울아산병원이 MRI와 로봇 기술을 결합해 경회음부로 접근하는 전립선 조직검사 시스템인 모나리자를 국내 최초로 도입함.",
+     "title": "서울아산병원, 모나리자 도입",
+     "body": "서울아산병원이 MRI와 로봇 기술을 결합해 경회음부로 접근하는 전립선 조직검사 시스템 모나리자를 국내 최초로 도입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373"
      ]
     },
     {
      "section": "병원",
-     "title": "아주대병원 씽크 시스템 도입",
-     "body": "아주대병원이 입원환자의 생체신호와 심전도를 실시간으로 추적하고 관리하는 인공지능 기반 모니터링 시스템을 도입함.",
+     "title": "아주대병원, AI 모니터링 도입",
+     "body": "아주대병원이 입원환자 생체신호와 심전도를 실시간 추적 및 관리하는 AI 기반 모니터링 시스템을 도입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
      ]
     },
     {
      "section": "정책",
-     "title": "건보 재정 적자 전망 및 심사",
-     "body": "국민건강보험공단 중장기 재무관리계획에 따라 향후 5년간 매년 수조 원대 영업적자가 전망되며 국감에서 재정 건전성 확보 방안이 다뤄짐.",
+     "title": "지방의료원 역할 차등화",
+     "body": "지방의료원의 경영난 심화에 따라 지역별 의료공백 기준 역할 구분과 보상 체계 마련 필요성이 제기됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043594"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357"
      ]
     },
     {
      "section": "정책",
-     "title": "지방의료원 및 필수인력 대책",
-     "body": "코로나19 전담병원 해제 이후 지방의료원의 경영난 심화에 따라 지역별 역할 구분과 보상 체계 마련 필요성이 제기됨.",
+     "title": "지역맞춤형 통합돌봄 가동",
+     "body": "보건복지부가 지역사회 통합돌봄 첫 실태조사 결과를 발표하고 2030년까지 지역별 고도화 계획을 추진함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "건보공단 외국인 서류 검증",
+     "body": "국민건강보험공단이 외국인 건강보험 자격취득 및 피부양자 등록 시 국외 발급 증빙서류의 위변조 검증을 강화하는 시스템을 운영함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "건보 재정 적자 전망",
+     "body": "국민건강보험공단 중장기 재무관리계획에 따라 향후 5년간 매년 수조 원대 영업적자가 발생할 것으로 전망됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "수도권 대형병원 분원 논란",
+     "body": "국회 국정감사에서 수도권 대형병원의 병상 확대와 이로 인한 지역 및 필수의료 붕괴 우려가 제기됨.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
      ]
     }
    ],
    "implications": [
-    "타병원의 실시간 AI 생체신호 모니터링 시스템 도입 사례를 참고하여 입원환자 안전 관리 체계 고도화 검토",
-    "건강보험 재정 적자 전망 및 환산지수 개편 등 수가 제도 변화에 선제적인 경영 전략 수립 검토"
+    "AI 기반 환자 생체신호 모니터링 및 첨단 진단 장비 도입 검토",
+    "건강보험 재정 적자 전망 및 지역별 의료 환경 변화에 따른 경영 전략 수립 필요"
    ],
-   "count": 26,
+   "count": 37,
    "picks": 5,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-14 11:05",
-   "sig": "3:qjv4vf",
+   "generatedAt": "2026-10-14 13:34",
+   "sig": "3:nf92xf",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
@@ -64,6 +87,16 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043597",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043594",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171163",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941436",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941429",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941437",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941435",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941428",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941426",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043623",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043619",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043618",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043557",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492215&tag=&nPage=1",
@@ -74,7 +107,8 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171148",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941395",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941393"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941393",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043591"
    ]
   },
   {
