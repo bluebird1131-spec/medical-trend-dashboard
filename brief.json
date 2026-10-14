@@ -3,71 +3,75 @@
   {
    "date": "2026-10-15",
    "from": "2026-10-14",
-   "headline": "타지역 주요 병원들의 첨단 스마트병동 및 신기술 도입과 건강보험 수가 개편 등 보건의료 정책 동향",
+   "headline": "스마트병동 도입과 인력 갈등 속 상급종합병원 병상 규정 개편 및 건보 재정 관리 강화 본격화",
    "points": [
     {
      "section": "병원",
-     "title": "부산대병원, 스마트병동 구축 협력",
-     "body": "부산대학교병원이 동아에스티 등과 스마트병동 구축 및 AI·웨어러블 기반 해상의료 지원시스템 공동개발 협약을 체결함.",
+     "title": "스마트병동 도입 협력 및 병원 보안 취약 확인",
+     "body": "부산대학교병원의 스마트병동 구축 및 AI·웨어러블 해상의료 협약 체결과 상급종합·종합병원 43%의 보안체계 부실 실태 확인.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383"
      ]
     },
     {
      "section": "병원",
-     "title": "서울아산병원, 모나리자 시스템 도입",
-     "body": "서울아산병원이 MRI와 로봇 기술을 결합해 경회음부로 접근하는 전립선 조직검사 시스템 모나리자를 국내 최초로 도입함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "서울대병원 노조, 공공의료 강화 촉구",
-     "body": "서울대학교병원 노동조합이 공공의료 강화와 필수인력 충원을 요구하며 쟁의행위 조정신청과 찬반투표 등 절차에 돌입함.",
+     "title": "서울대병원 노조 쟁의 절차 및 지방의료원 경영난",
+     "body": "서울대병원 노조의 인력 충원 요구 및 파업 절차 돌입과 코로나19 이후 지방의료원의 경영난 심화에 따른 지역별 역할 차등화 대두.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941450"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357"
      ]
     },
     {
      "section": "정책",
-     "title": "공단, 신규 환산지수 BAP 모형 착수",
-     "body": "국민건강보험공단이 2028년도 수가 계약을 대비해 신규 환산지수 산정 모형인 BAP 실증 검증 및 유형별 수가밴드 배분 연구 용역에 착수함.",
+     "title": "상급종합병원 병상 규정 개정 및 수도권 분원 논란",
+     "body": "복지부의 권역별 최소 지정 초과 병상 제외 규정 시행과 국정감사에서 제기된 수도권 대형병원 6천 병상 분원 확충 통제 수단 부재 논란.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
      ]
     },
     {
      "section": "정책",
-     "title": "상급종합병원 초과 병상 산정 제외",
-     "body": "보건복지부가 진료권역별 최소 1곳 지정에 따른 초과 병상수를 다른 권역 소요병상 산정에서 제외하는 규정 개정안을 시행함.",
+     "title": "건보 재정 적자 속 환산지수 개편 및 검증 강화",
+     "body": "향후 5년간 수조 원대 건보 적자 전망 속 2028년 BAP 모형 실증 연구 착수 및 외국인 국외 발급 증빙서류 위변조 검증 시스템 운영.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "데이터 기반 지역맞춤형 통합돌봄 본격 가동",
+     "body": "보건복지부의 지역사회 통합돌봄 실태조사 결과 발표 및 2030년 고도화를 목표로 한 데이터 기반 지역맞춤형 통합돌봄 추진.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "부산대병원의 스마트병동 및 해상의료 지원시스템 구축 사례를 참고하여 원내 스마트 의료 인프라 고도화 검토",
-    "서울아산병원의 신규 로봇·MRI 결합 전립선 조직검사 시스템 도입과 같은 첨단 의료장비 선제적 도입 검토",
-    "상급종합병원 병상 관리 규정 개정 및 건보공단 재정 전망에 따른 원내 중장기 경영 전략 수립"
+    "상급종합병원 보안체계 부실 지적에 따른 원내 실시간 보안관제 및 의료정보 보호 체계 점검 검토",
+    "부산대병원 스마트병동 및 웨어러블 협력 모델을 참고한 스마트 헬스케어 인프라 확충 방안 검토",
+    "상급종합병원 초과 병상 산정 규정 개정에 대응한 울산 권역 내 중증 병상 운영 전략 점검"
    ],
-   "count": 25,
-   "picks": 9,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-15 06:33",
-   "sig": "3:t0izyl",
+   "count": 21,
+   "picks": 10,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-15 08:27",
+   "sig": "3:13ld4td",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941433",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941405",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941414",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373",
@@ -77,12 +81,8 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043591",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941355",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043630",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941441",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941462",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941454",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941450",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941449",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171176"
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171176",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941462"
    ]
   },
   {
