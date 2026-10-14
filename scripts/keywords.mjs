@@ -13,7 +13,7 @@ import { KEY, generate as gemini } from './gemini.mjs';
 
 const OUT = new URL('../keywords.json', import.meta.url);
 const src = toCsvUrl(process.env.SHEET_URL || '');
-const PROMPT_V = 1;      // 지시문을 바꾸면 올려서 키워드를 다시 고르게 함
+const PROMPT_V = 2;      // 지시문을 바꾸면 올려서 키워드를 다시 고르게 함
 const ASK = 16;          // Gemini 에게 받을 후보 수 (기사 수로 다시 줄 세워 10개 표시)
 const SHOW = 10;
 const MAX_TITLES = 2500; // 한 번에 보여 줄 제목 수 (전체 기간은 최근 기사부터)
@@ -60,7 +60,10 @@ const SYSTEM = `너는 울산대학교병원 기획 부서의 의료계 동향 �
 - 키워드(label)는 1~3단어의 명사구로, 2~3단어 구문을 우선한다 (예: '식약처 국정감사', '비대면 진료', '의대 정원', '민간구급차 운행정보', '비만치료제').
 - '병원', '환자', '의사', '진료', '국내', '우려', '관리', 'AI' 같은 넓은 단어 하나만으로 된 키워드는 쓰지 않는다. 'AI'는 '의료 AI', 'AI 진단'처럼 구체적으로 쓴다.
 - 채용·합격자·인사·부고·행사 안내 같은 공지성 제목, 특정 기사 1건에만 나오는 고유명사는 키워드로 고르지 않는다.
+- 숫자·건수(예: '500례')나 병원 한 곳의 이름은 키워드에 넣지 않는다.
 - 여러 기사에 반복해 나오는 이슈를 고르고, 같은 이슈를 다른 표현으로 두 번 고르지 않는다.
+  같은 이슈의 제품명·세부 표현은 따로 고르지 말고 한 키워드의 groups 표기로 묶는다 (예: '비만치료제' → [["비만","위고비","마운자로"]]).
+- label 은 제목에 쓰인 표현을 그대로 살려 맞춤법에 맞게 쓴다.
 - groups 는 제목에서 그 키워드를 찾는 표기다. 바깥 배열의 각 묶음이 모두 제목에 들어 있어야 하고, 묶음 안에서는 표기 하나만 있으면 된다.
   예: '식약처 국정감사' → [["식약처","식품의약품안전처"],["국감","국정감사"]], '비대면 진료' → [["비대면"]], '의대 정원' → [["의대","의과대학"],["정원","증원"]]
   표기는 제목에 실제로 쓰인 글자 그대로, 짧고 흔한 형태(조사 없이)로 적는다. 묶음은 1~3개.
@@ -93,9 +96,11 @@ const clean = t => ({
 const has = (low, v) => (/^[a-z0-9 .+-]+$/.test(v)
   ? new RegExp(`(^|[^a-z])${v.replace(/[.+]/g, c => '\\' + c)}($|[^a-z])`).test(low) : low.includes(v));
 const hit = (a, t) => t.groups.length && t.groups.every(g => g.some(v => has(a.low, v)));
-// 기사 수로 줄 세우기. 같은 기사 묶음을 세는 키워드가 겹치면 아래 것은 뺌
+// 기사 수로 줄 세우기. 앞 키워드와 기사가 대부분(60% 이상) 겹치면 같은 이슈로 보고 뺌
+// 키워드 단어가 기간 안 어느 제목에도 없으면(오타·지어낸 말) 뺌
 function rank(terms, list) {
-  const rows = terms.map(t => {
+  const inTitles = w => list.some(a => has(a.low, w.toLowerCase()));
+  const rows = terms.filter(t => t.label.split(/\s+/).every(w => w.length < 2 || inTitles(w) || t.groups.flat().includes(w.toLowerCase()))).map(t => {
     const ms = list.filter(a => hit(a, t));
     const lows = ms.map(a => a.low);
     const q = [t.search.toLowerCase(), ...t.groups.flat()].find(v => v && lows.some(l => has(l, v))) || '';
@@ -103,7 +108,7 @@ function rank(terms, list) {
   }).filter(x => x.n > 0 && x.label).sort((a, b) => b.n - a.n || a.label.localeCompare(b.label, 'ko'));
   const out = [];
   for (const x of rows) {
-    if (out.some(y => y.label === x.label || (x.n === y.n && [...x.ids].every(a => y.ids.has(a))))) continue;
+    if (out.some(y => y.label === x.label || [...x.ids].filter(a => y.ids.has(a)).length >= x.n * 0.6)) continue;
     out.push(x);
     if (out.length === SHOW) break;
   }
