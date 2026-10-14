@@ -3,65 +3,75 @@
   {
    "date": "2026-10-14",
    "from": "2026-10-13",
-   "headline": "병원계의 AI 환자 모니터링 도입 및 R&D 수주와 정부의 지역 통합돌봄 고도화 정책 추진",
+   "headline": "수도권 대형병원 분원 신설 및 건보 재정 적자 우려 속 지역 맞춤형 통합돌봄 고도화 추진",
    "points": [
     {
      "section": "병원",
-     "title": "아주대병원, 실시간 생체신호 모니터링 시스템 도입",
-     "body": "아주대병원이 입원환자의 생체신호와 심전도를 실시간으로 추적·관리하는 AI 기반 모니터링 시스템을 도입함.",
+     "title": "타병원 AI 환자관리 도입 및 연구과제 수주",
+     "body": "아주대병원이 입원환자 생체신호 실시간 AI 모니터링 시스템을 도입함. 전남대병원은 복지부 주관 5년간 75억원 규모의 한국형 ARPA-H 프로젝트 통증 분야 주관기관으로 선정됨.",
      "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043557",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
      ]
     },
     {
-     "section": "병원",
-     "title": "전남대병원, 한국형 ARPA-H 통증 연구 주관기관 선정",
-     "body": "전남대병원이 5년간 75억원 규모의 복지부 주관 2026년 한국형 ARPA-H 프로젝트 고령자 통증 분야 주관연구기관으로 최종 선정됨.",
+     "section": "정책",
+     "title": "수도권 대형병원 분원 확대 국감 지적",
+     "body": "국회 국정감사에서 수도권 6천 병상 분원 확대에 따른 통제 수단 부재 및 지역·필수의료 붕괴 우려가 제기됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043557"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "병원계, AI 기반 해킹 위협 대응 보안 인프라 투자 대두",
-     "body": "AI 기반 해킹 위협의 병원계 확산에 대응하여 EMR 마비 방지를 위한 보안 인프라 구축 및 예산 투자의 시급성이 지적됨.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
      ]
     },
     {
      "section": "정책",
-     "title": "복지부, 지역맞춤형 통합돌봄 2030 고도화 계획 추진",
-     "body": "보건복지부가 지역사회 통합돌봄 실태조사 결과를 발표하고 데이터 기반 2030년 지역별 고도화 계획을 본격 추진함.",
+     "title": "지방의료원 경영난 및 역할 차등화 논의",
+     "body": "코로나19 전담병원 해제 이후 지방의료원의 경영난 심화에 따라 지역별 의료공백 기준에 맞춘 역할 구분 및 보상 체계 마련 필요성이 대두됨.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "데이터 기반 지역 맞춤형 통합돌봄 추진",
+     "body": "보건복지부가 첫 실태조사 결과를 바탕으로 2030년까지 지역별 맞춤형 통합돌봄 고도화 계획을 본격 추진함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "건보 재정 적자 경고 및 외국인 검증 강화",
+     "body": "국민건강보험공단 재정 전망 결과 향후 5년간 매년 수조 원대 적자가 예상됨. 이에 건보공단은 외국인 건보 자격취득 및 피부양자 등록 시 국외 서류 위변조 검증을 강화함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
      ]
     }
    ],
    "implications": [
-    "입원환자 안전 관리 강화를 위한 AI 기반 생체신호 및 심전도 실시간 모니터링 시스템 도입 검토",
-    "한국형 ARPA-H 등 정부 대형 바이오헬스 R&D 프로젝트 주관기관 참여 전략 수립",
-    "AI 기반 해킹 위협에 대비한 원내 EMR 등 핵심 정보시스템 보안 인프라 점검 및 투자 검토"
+    "보건복지부의 2030 지역 맞춤형 통합돌봄 고도화 계획에 대응한 울산 지역 퇴원환자 연계 돌봄 프로그램 모델 검토",
+    "입원환자 안전 강화를 위한 실시간 생체신호 AI 모니터링 시스템 벤치마킹 및 도입 타당성 검토",
+    "외국인 건강보험 자격 및 피부양자 증빙 검증 강화에 따른 원무·원내 수납 행정 프로세스 점검"
    ],
    "count": 16,
-   "picks": 0,
+   "picks": 5,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-14 08:36",
-   "sig": "3:2dl5uu",
+   "generatedAt": "2026-10-14 09:29",
+   "sig": "3:1nc64i6",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043557",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492215&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492211&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171148",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941395",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941393"
