@@ -696,132 +696,118 @@
  "weekly": {
   "date": "2026-10-14",
   "from": "2026-10-08",
-  "headline": "이번 주 정부 보건의료 정책은 지역 맞춤형 통합돌봄 고도화, 정신응급 필수의료 지정 및 자살예방 책임 강화, 그리고 필수의료 인력 확충과 응급의료 체계 정비에 초점을 맞추고 있음.",
+  "headline": "정부는 건보 재정 효율화와 환산지수 개편, 필수의료·정신응급 체계 강화 정책을 추진 중임",
   "points": [
    {
     "section": "정책",
-    "title": "지역맞춤형 통합돌봄 본격 추진",
-    "body": "보건복지부가 첫 지역사회 통합돌봄 실태조사 결과를 바탕으로 2030년까지 지역별 고도화 계획을 추진함.",
+    "title": "건보공단 환산지수 개편 및 BAP 모형 실증",
+    "body": "국민건강보험공단이 2028년도 수가 계약을 대비하여 신규 환산지수 산정 모형인 BAP 실증 검증 및 유형별 수가밴드 배분 연구 용역에 착수함.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354"
     ]
    },
    {
     "section": "정책",
-    "title": "정신응급 필수의료 지정 및 병상 확충",
-    "body": "정부가 제6차 자살예방기본계획을 확정하여 정신응급을 필수의료로 지정하고 2030년까지 급성기 정신질환 집중치료병상을 2000개로 확충함.",
+    "title": "상급종합병원 초과 병상 소요병상 산정 제외",
+    "body": "보건복지부가 진료권역별 최소 지정에 따른 초과 병상수를 다른 권역 소요병상 산정에서 제외하는 규정 개정안을 시행함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "정신응급 필수의료 지정 및 집중치료병상 확충",
+    "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고, 급성기 정신질환 집중치료병상을 2030년까지 2000개로 확충 추진함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
     ]
    },
    {
     "section": "정책",
-    "title": "필수의료 전문의 융합 수련 도입",
-    "body": "보건복지부가 필수의료 8개 과목 전문의가 예방의학과 수련 시 수련 기간을 2년으로 단축하는 융합 수련 시범사업을 예고함.",
+    "title": "필수의료 전문의 예방의학 융합 수련 시범사업",
+    "body": "보건복지부가 필수의료 8개 과목 전문의가 예방의학과 수련 시 기간을 2년으로 단축하는 융합 수련 시범사업을 예고함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941414"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "민간구급차 실시간 운행정보 전송",
-    "body": "복지부가 개정 응급의료법 시행규칙에 따라 민간구급차의 GPS 기반 운행정보 실시간 전송을 의무화하여 가짜 구급차 근절에 나섬.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492221&tag=&nPage=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941414",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043630"
     ]
    },
    {
     "section": "병원",
-    "title": "지방의료원 역할 차등화 및 경영난",
-    "body": "코로나19 전담병원 해제 이후 지방의료원의 경영난이 심화됨에 따라 지역별 의료공백 기준 역할 구분과 보상 체계 마련 필요성이 제기됨.",
+    "title": "부산대병원 스마트병동 구축 및 AI 협력",
+    "body": "부산대학교병원이 동아에스티 등과 스마트병동 구축 및 AI·웨어러블 기반 해상의료 지원시스템 공동개발 협약을 체결함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175"
     ]
    },
    {
     "section": "병원",
-    "title": "국립대병원 인력난과 국감 지적",
-    "body": "국정감사에서 지역 국립대병원들의 필수 의료인력 및 시설 부족 문제가 도마 위에 올랐으며 자구노력과 책임론이 제기됨.",
+    "title": "서울아산병원 생성형 AI 피부진단 모델 개발",
+    "body": "서울아산병원이 어두운 피부 임상데이터 부족으로 인한 진단 격차를 해소하기 위해 합성 생성형 AI를 개발하여 진단 정확도를 대폭 개선함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941355",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171083"
+     "https://www.dailymedi.com/news/news_view.php?wr_id=941247"
     ]
    }
   ],
   "implications": [
-   "정부의 정신응급 필수의료 지정 및 집중치료병상 확충 계획에 발맞추어 원내 정신건강 관련 인프라 및 병상 운영 체계를 정비함",
-   "복지부가 추진하는 필수의료 전문의 대상 예방의학 융합 수련 시범사업 참여 가능성을 검토함",
-   "지방의료원 및 국립대병원에 요구되는 지역완결형 의료 책임 강화 기조에 대응하여 필수의료 인력 확보 및 경영 효율화 방안을 마련함"
+   "정부의 환산지수 개편(BAP 모형) 및 건보 재정 관리 강화 기조에 맞추어 수가 계약 전략 및 원가 분석 체계 정비",
+   "상급종합병원 병상 관리 규정 개정안 시행에 연동하여 병원 운영 효율성 및 진료권역별 공급 전략 재검토",
+   "정신응급 필수의료 지정 및 집중치료병상 확충 계획에 발맞춘 원내 정신건강 응급 인프라 및 병상 확충 검토"
   ],
-  "count": 105,
-  "picks": 5,
+  "count": 89,
+  "picks": 9,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-14 20:09",
-  "sig": "3:4wpj51"
+  "generatedAt": "2026-10-14 23:31",
+  "sig": "3:1pzuz0k"
  },
  "monthly": {
   "date": "2026-10-14",
   "from": "2026-09-15",
-  "headline": "정부는 건보 재정 누수 차단과 병상 관리, 응급·외상 중심의 지역완결형 의료체계 구축을 가속화하고 있다.",
+  "headline": "정부는 필수의료·응급체계 재편과 AI·디지털 기반 제도 정비를 가속화함.",
   "points": [
    {
     "section": "정책",
-    "title": "건보 재정 적자 경고 및 누수 방지 강화",
-    "body": "건보공단은 향후 5년간 수조원대 재정 적자가 전망됨에 따라 외국인 자격취득 및 피부양자 서류 검증을 고도화함. 차기 수가계약을 대비한 신규 환산지수 BAP 모형 실증 연구 등 지출 효율화 작업에도 착수함.",
+    "title": "상급종합병원 구조전환 및 병상 관리",
+    "body": "진료권역별 최소 지정 초과 병산의 소요병상 산정 제외 규정 시행 및 수도권 대형병원 분원 통제 강화 추진.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
     ]
    },
    {
     "section": "정책",
-    "title": "지역 병상 통제 및 의료전달체계 정비",
-    "body": "수도권 대형병원의 분원 설립에 따른 6천 병상 쏠림 및 필수의료 공백 우려가 제기되면서 병상 총량 관리 필요성이 부각됨. 복지부는 권역별 최소 지정에 따른 초과 병상을 전국 소요병상 산정에서 제외하는 등 제도 개편을 시행함.",
+    "title": "필수·응급의료 체계 및 수가 개편",
+    "body": "중증외상 최종치료 역량 강화를 위한 거점외상센터 선정 및 2028년도 수가 계약 대비 신규 환산지수 BAP 모형 실증 착수.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "데이터 기반 지역 맞춤형 통합돌봄 가동",
-    "body": "보건복지부는 첫 실태조사를 바탕으로 지역사회 맞춤형 통합돌봄 체계를 2030년까지 고도화하기로 발표함. 퇴원환자 연계, 의료·요양·돌봄 통합판정 등 지역 거점 중심의 공공의료 전달체계 확립을 유도함.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492092&tag=&nPage=3"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "지방의료원 경영난과 기능 차등화 추진",
-    "body": "감염병 전담병원 해제 이후 적자가 지속되는 지방의료원에 대해 지역별 의료공백 수준을 반영한 역할 구분과 보상 체계 마련이 논의됨. 공공의료 인력난 해소를 위한 거점병원 연계 및 지원 차등화가 모색됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170988"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "중증응급·외상 이송체계 및 거점 집중 육성",
-    "body": "복지부는 민간구급차 GPS 실시간 전송을 의무화하고 아주대병원과 원주세브란스기독병원을 거점외상센터로 선정해 최중증 외상 최종치료를 전담하도록 지원함. 10여 건 이상의 관련 정책 발표를 통해 권역별 응급·외상 이송망 재정비에 집중함.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492221&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941436",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043618",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119",
-     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료인력 수급 및 융합 수련 지원",
+    "body": "필수의료 과목 전문의의 예방의학과 수련 기간 단축 시범사업 예고 및 국립대병원 인력·시설 한계 점검.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941414",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043630",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941262&page=3"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI·디지털 가이드라인 제정",
+    "body": "보건복지부와 대한신경정신의학회의 정신건강 목적 생성형 AI 이용 가이드라인 공식 발표 및 실증 생태계 조성.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492119&tag=&nPage=2"
     ]
    },
    {
     "section": "병원",
-    "title": "첨단 로봇수술기 및 정밀 생검 장비 도입 확산",
-    "body": "아주대병원이 다빈치 5와 아이온을 동시 도입하고 서울아산병원이 국내 최초로 MRI-로봇 결합 모나리자 시스템을 구축함. 주요 대학병원들이 중증 수술 경쟁력을 높이기 위해 최소침습·초정밀 수술 장비 인프라를 대폭 보강함.",
+    "title": "첨단 로봇수술 장비 본격 도입",
+    "body": "주요 대형병원들을 중심으로 5세대 로봇수술 시스템 다빈치 5 및 전립선 조직검사 시스템 등 첨단 장비 도입 확산.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
@@ -830,25 +816,24 @@
    },
    {
     "section": "병원",
-    "title": "차세대 CAR-T 치료센터 및 세포치료 인프라 구축",
-    "body": "건국대병원이 킴리아주 첫 투여를 성공적으로 마친 데 이어 경희대병원이 CAR-T 세포치료센터 개소를 위한 검증 단계에 진입함. 대형병원들을 중심으로 첨단재생바이오법 개정에 발맞춘 중증 혈액암 세포치료 전담 인프라 확충이 가속화됨.",
+    "title": "AI 기반 스마트 병원 플랫폼 구축",
+    "body": "입원환자 생체신호 실시간 모니터링 시스템과 환자경험 통합 플랫폼을 연계한 스마트 병동 구축 추진.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492041&tag=&nPage=4",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170850"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941435",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
     ]
    }
   ],
   "implications": [
-   "정부의 거점외상센터 지정 확대와 중증환자 이송망 정비에 대응하여 울산 권역응급의료센터 및 외상 배후진료 수용 체계 재정비 검토",
-   "외국인 건강보험 서류 검증 강화 및 심평원의 AI 심사 확대 기조에 대비한 원내 원무·원가·청구 프로세스 사전 점검",
-   "지자체 지역맞춤형 통합돌봄 및 퇴원환자 연계 사업 본격화에 발맞춘 공공의료사업팀 중심의 지역 의료·돌봄 전달체계 협력 모델 구축"
+   "상급종합병원 구조전환 및 병상 관리 강화 기조에 맞춘 진료권역별 병상 운영 효율화 검토",
+   "정부의 필수·응급의료 및 거점외상센터 지원 정책에 연계한 중증 진료 인프라 고도화 추진",
+   "의료 AI 도입 확산에 발맞춘 원내 생성형 AI 및 스마트 병동 보안·안전 관리 체계 마련"
   ],
-  "count": 204,
-  "picks": 5,
-  "model": "gemini-flash-latest",
-  "generatedAt": "2026-10-14 20:12",
-  "sig": "3:tc6p8p"
+  "count": 188,
+  "picks": 9,
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-10-14 23:33",
+  "sig": "3:1ruchos"
  }
 }
