@@ -15876,6 +15876,48 @@
    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043658",
    "자료수집",
    ""
+  ],
+  [
+   "2026-10-16",
+   "메디컬타임즈",
+   "소아 악화 조기 발견… 서울아산병원, '소아신속대응팀' 신설",
+   "필요",
+   "특성화센터/인프라",
+   "[필요-신속대응팀신설] 서울아산병원 어린이병원이 입원환자의 상태 악화 징후를 조기에 발견하고 선제 치료를 지원하는 소아신속대응팀을 신설함.",
+   "서울아산병원",
+   "서울",
+   "2026-10-15",
+   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171198",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-10-16",
+   "메디컬타임즈",
+   "최신식 장비 홍보 실제로는 노후 장비?...영상 '우수' 21.7%",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-국감지적] 전국 병·의원에 설치된 CT·MRI·유방촬영기 등 특수의료장비 중 15년 이상 노후 장비가 23.7%에 달한다는 국감 분석이 나옴.",
+   "국회",
+   "전국",
+   "2026-10-14",
+   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171189",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-10-16",
+   "메디컬타임즈",
+   "가짜 구급차' 잡는다…민간구급차 GPS 운행정보 전송 의무화",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-이송체계개편] 민간구급차의 사적 운행을 방지하기 위해 환자 이송과 관련된 GPS 운행정보 전송을 의무화하는 제도가 추진됨.",
+   "보건복지부",
+   "전국",
+   "2026-10-14",
+   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171187",
+   "자료수집",
+   ""
   ]
  ],
  "thumbs": {
@@ -16378,7 +16420,10 @@
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043663": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043663_3047513_4627_v150.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043657": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043657_3047507_4546_v150.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043661": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043661_3047512_4949_v150.jpg",
-  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043658": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043658_3047508_3749_v150.jpg"
+  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043658": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043658_3047508_3749_v150.jpg",
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171198": "https://pds.medicaltimes.com/Thumnail/20261015/1792024368.JPG",
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171189": "https://pds.medicaltimes.com/Thumnail/20261014/1791955022.png",
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171187": "https://pds.medicaltimes.com/Thumnail/20261014/1791952194.jpg"
  },
- "fetchedAt": "2026-10-16 01:07"
+ "fetchedAt": "2026-10-16 06:31"
 }
