@@ -1,6 +1,75 @@
 {
  "days": [
   {
+   "date": "2026-10-16",
+   "from": "2026-10-15",
+   "headline": "상급종합병원 정보보안 인프라 취약 지적 속 소아신속대응체계 도입 및 바이오빅데이터 개방 추진.",
+   "points": [
+    {
+     "section": "병원",
+     "title": "상급·종합병원 실시간 보안관제 체계 미흡",
+     "body": "전국 상급종합병원 및 종합병원의 43%가 보안체계 부실 판정을 받았으며 4곳 중 1곳 이상이 실시간 보안관제 체계를 구축하지 못한 상태로 확인.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "서울아산병원 소아신속대응팀 신설",
+     "body": "입원 소아환자의 상태 악화 징후를 조기에 감지하고 신속하게 대응하기 위해 국내 최초로 소아신속대응팀을 신설.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "국가통합바이오빅데이터 전 국민 대상 확대",
+     "body": "보건복지부가 사업 참여 대상을 기존 건강검진 대상자에서 일반 국민 전체로 확대하고 연내 1차 데이터 개방을 추진.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492233&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "계약형 지역필수의사제 전공의 참여 저조",
+     "body": "배후진료 인프라 부족과 법적 부담 등으로 인해 전공의 응답자의 약 90%가 정부의 계약형 지역필수의사제 시범사업 불참 의사를 표명.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941459",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043635"
+     ]
+    }
+   ],
+   "implications": [
+    "원내 실시간 정보보안 관제 체계 가동 여부 점검 및 전산 시스템 보안 인프라 보강 검토.",
+    "입원 소아환자 안전 관리 강화를 위한 원내 소아 악화 조기 대응 프로세스 벤치마킹 검토.",
+    "연내 예정된 정부 1차 바이오빅데이터 개방에 맞춘 원내 임상연구 연계 및 활용 방안 검토."
+   ],
+   "count": 17,
+   "picks": 1,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-16 00:05",
+   "sig": "3:1dl8j8r",
+   "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492233&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941474",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941339",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941459",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941460",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941466",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043656",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043651",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043620",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043642",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043635",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941356",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043652",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043653"
+   ]
+  },
+  {
    "date": "2026-10-15",
    "from": "2026-10-14",
    "headline": "타지역 상급종합병원의 첨단 의료시스템 및 스마트병동 도입이 가속화되는 한편 정부는 수가 개편과 환산지수 산정 연구에 착수함.",
@@ -786,21 +855,29 @@
   }
  ],
  "weekly": {
-  "date": "2026-10-15",
-  "from": "2026-10-09",
-  "headline": "정부가 건강보험 환산지수 개편, 바이오빅데이터 확대 및 정신응급 필수의료 지정을 추진하는 가운데, 의료계와 병원 현장은 인력난과 보안 관리 강화에 직면함.",
+  "date": "2026-10-16",
+  "from": "2026-10-10",
+  "headline": "정부가 수가 체계 개편과 바이오 빅데이터 개방 등 보건의료 정책 고도화에 착수했다.",
   "points": [
    {
     "section": "정책",
-    "title": "건보공단 환산지수 개편 착수",
-    "body": "국민건강보험공단이 2028년도 수가 계약을 대비하여 신규 환산지수 산정 모형인 BAP 실증 검증 및 유형별 수가밴드 배분 연구 용역에 착수함.",
+    "title": "환산지수 개편 및 BAP 모형 실증",
+    "body": "국민건강보험공단이 2028년도 수가 계약을 대비해 신규 환산지수 산정 모형인 BAP 실증 검증 및 수가밴드 배분 연구 용역에 착수함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오빅데이터 참여 확대",
+    "title": "상급종합병원 초과 병상 제외",
+    "body": "보건복지부가 진료권역별 최소 1곳 지정에 따른 초과 병상수를 다른 권역 소요병상 산정에서 제외하는 규정 개정안을 시행함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "국가통합바이오빅데이터 대상 확대",
     "body": "정부가 국가통합바이오빅데이터구축사업 참여 대상을 건강검진 대상자에서 일반 국민 전체로 확대하고 연내 1차 데이터 개방을 추진함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492233&tag=&nPage=1"
@@ -808,130 +885,125 @@
    },
    {
     "section": "정책",
-    "title": "정신응급 필수의료 지정",
-    "body": "정부가 제6차 자살예방기본계획을 확정하여 정신응급을 필수의료로 지정하고, 2030년까지 급성기 정신질환 집중치료병상을 2000개로 확충할 예정임.",
+    "title": "정신응급 필수의료 지정 및 병상 확충",
+    "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 급성기 정신질환 집중치료병상을 2030년까지 2000개로 확충할 예정임.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
     ]
    },
    {
-    "section": "정책",
-    "title": "상급종합병원 초과병상 제외",
-    "body": "보건복지부가 진료권역별 최소 1곳 지정에 따른 초과 병상수를 다른 권역 소요병상 산정에서 제외하는 규정 개정안을 시행함.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638"
-    ]
-   },
-   {
     "section": "병원",
     "title": "스마트병동 및 해상의료 협력",
-    "body": "부산대학교병원이 동아에스티 등과 협력하여 스마트병동 구축 및 AI·웨어러블 기반 해상의료 지원시스템 공동개발에 나섬.",
+    "body": "부산대학교병원이 동아에스티 등과 스마트병동 구축 및 AI·웨어러블 기반 해상의료 지원시스템 공동개발 협약을 체결함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175"
     ]
    },
    {
     "section": "병원",
-    "title": "병원 보안관제 체계 점검",
-    "body": "전국 상급종합병원과 종합병원의 상당수가 실시간 보안관제 체계를 구축하지 못한 것으로 나타나 대책 마련이 시급함.",
+    "title": "CAR-T 세포치료센터 개소 추진",
+    "body": "경희대학교병원이 종양혈액내과 중심의 인력과 장비 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
     ]
    }
   ],
   "implications": [
-   "정부의 환산지수 개편 및 수가밴드 배분 연구에 발맞춘 원가 분석 및 수가 전략 수립 필요",
-   "국가통합바이오빅데이터구축사업 확대에 따른 원내 임상·유전체 데이터 연계 연구 인프라 정비 검토",
-   "사이버 위협 증가에 대응하여 실시간 보안관제 체계 및 EMR 방어 인프라 보완"
+   "정부의 환산지수 개편 및 BAP 모형 실증 추이에 맞춰 향후 수가 계약 변화에 선제적으로 대응해야 함.",
+   "정부의 바이오 빅데이터 사업 확대에 발맞추어 원내 임상 연구 및 데이터 활용 체계를 정비할 필요가 있음.",
+   "정신응급 지정 및 필수의료 강화 기조에 발맞춰 관련 진료 인프라와 병상 운영 계획을 점검해야 함."
   ],
-  "count": 97,
+  "count": 93,
   "picks": 10,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-15 13:37",
-  "sig": "3:1gpaou3"
+  "generatedAt": "2026-10-16 00:07",
+  "sig": "3:jhywof"
  },
  "monthly": {
-  "date": "2026-10-15",
-  "from": "2026-09-16",
-  "headline": "정부는 건보 재정 효율화와 필수의료 강화를 추진하며, 상급종합병원 구조전환과 지역완결형 의료체계 개편에 집중하고 있음",
+  "date": "2026-10-16",
+  "from": "2026-09-17",
+  "headline": "건보 재정 위기 속 지불제도 개편과 상급종합병원 병상 규제, 지역완결형 필수의료 강화 중심의 구조 전환 가속화",
   "points": [
    {
     "section": "정책",
-    "title": "건보 재정 안정화 및 수가 제도 개편",
-    "body": "건국대병원 등의 킴리아주 투여 등 고가 항암제 급여 확대와 함께, 공단은 2028년도 수가 계약을 위한 환산지수 BAP 모형 실증에 착수함. 향후 5년간 대규모 적자 전망에 따라 만성질환 치료제 약가 인하 등 재정 방어 조치가 병행됨.",
+    "title": "건보 재정 건전화 및 환산지수 지불구조 개편 착수",
+    "body": "향후 5년간 매년 수조 원대 건보 적자가 전망됨에 따라 국민건강보험공단이 2028년도 수가 계약 대비 신규 환산지수 산정 모형(BAP) 실증 검증과 유형별 수가밴드 배분 연구 용역에 착수함. 더불어 외국인 건강보험 자격취득 및 피부양자 등록 시 국외 증빙서류 위변조 검증 시스템을 운영하여 누수 방지 강화 추진.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170788"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
     ]
    },
    {
     "section": "정책",
-    "title": "상급종합병원 구조전환 및 병상 관리",
-    "body": "복지부는 진료권역별 최소 지정 초과 병상을 소요병상 산정에서 제외하는 규정 개정을 시행하며 수도권 대형병원의 병상 확대를 통제함. 이와 함께 상급종합병원 구조전환 지원사업 등 재정 투입 대비 성과 평가 체계 확립이 요구됨.",
+    "title": "상급종합병원 병상 규정 개편 및 수도권 분원 억제 논의",
+    "body": "보건복지부가 진료권역별 최소 1곳 지정에 따른 초과 병상수를 다른 권역 소요병상 산정에서 제외하는 규정 개정안을 시행함. 국정감사에서는 수도권 6천 병상 분원 확립으로 인한 지역·필수의료 붕괴 우려와 병상 통제 기제 마련 필요성이 집중 제기됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
     ]
    },
    {
     "section": "정책",
-    "title": "필수·응급의료 체계 재편 및 인력 확충",
-    "body": "정부는 정신응급을 필수의료로 지정하고 집중치료병상을 확충하는 한편, 권역 중심 중증환자 이송 및 거점외상센터 지원을 강화함. 다만 계약형 지역필수의사제에 대한 전공의들의 낮은 참여 의사와 법적 부담으로 현장 실효성 논란이 지속됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941459",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
-     "https://www.mohw.go.kr/menu.es?mid=a10503010200"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "지역완결 의료 및 통합돌봄 전달체계",
-    "body": "복지부는 데이터 기반 지역맞춤형 통합돌봄을 가동하고 2030년까지 고도화 계획을 추진함. 또한 지방의료원 경영난 심화에 따라 지역별 역할 차등화와 보상 체계 마련의 필요성이 대두됨.",
+    "title": "지역맞춤형 통합돌봄 가동 및 지방의료원 역할 차등화",
+    "body": "정부가 지역사회 통합돌봄 첫 실태조사 결과를 발표하고 2030년까지 데이터 기반 지역별 고도화 계획을 본격 가동함. 경영난을 겪는 지방의료원에 대해서는 지역별 의료공백 수준에 따른 역할 차등화 및 맞춤형 보상 체계 마련 검토.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492092&tag=&nPage=3"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오빅데이터 및 AI 제도 기반 구축",
-    "body": "정부는 국가통합바이오빅데이터구축사업 참여 대상을 일반 국민으로 확대하고 연내 1차 데이터 개방을 추진함. 아울러 정신건강 목적 생성형 AI 이용 가이드라인을 발표하여 안전한 AI 활용 기준을 제시함.",
+    "title": "중증외상·응급 최종치료 체계 및 광역 이송망 강화",
+    "body": "복지부가 거점외상센터 설치지원사업을 통해 아주대병원과 원주세브란스기독병원을 선정하고 최대 77억1000만원의 지원을 확정함. 권역 책임의료기관 중심의 중증환자 광역 이송망을 점검하고 응급환자 수용 및 배후진료 체계 혁신방안 지속 추진.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492233&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119",
+     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492118&tag=&nPage=2"
     ]
    },
    {
     "section": "병원",
-    "title": "첨단 로봇수술 및 정밀의료 장비 도입",
-    "body": "아주대병원이 5세대 로봇수술기 다빈치 5를 도입하는 등 대형 병원들을 중심으로 최첨단 수술 및 진단 장비 도입 경쟁이 가속화됨. 서울아산병원은 전립선 조직검사 시스템 모나리자를 국내 최초로 도입함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "스마트병동 및 환자안전 플랫폼 구축",
-    "body": "부산대학교병원이 동아에스티 등과 스마트병동 구축 및 AI·웨어러블 기반 해상의료 지원시스템 개발 협약을 체결함. 길병원은 AI 기반 환자경험 통합 플랫폼을 본격 가동하며 의료 서비스 질 개선에 나섬.",
+    "title": "스마트병동 구축 확산 및 의료기관 사이버 보안 대응",
+    "body": "부산대병원, 아주대병원 등 주요 병원이 AI 기반 스마트병동 구축과 생체신호 실시간 모니터링 시스템을 적극 도입함. 반면 상급종합병원·종합병원의 43%가 실시간 보안관제 미비 등 보안체계 부실로 확인되어 랜섬웨어 차단 백업 솔루션 도입 등 대응 강화 추세.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941435"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941348"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "의료인력 갈등 지속 속 중증·특성화 암 진료 인프라 확장",
+    "body": "서울대병원 노조의 쟁의 절차 돌입 등 필수인력 충원 갈등 속에서도 주요 대형병원들은 차별화된 중증 치료 인프라 확충을 지속함. 경희대병원과 건국대병원의 CAR-T 치료 체계 가동 및 서울아산병원의 소아신속대응팀 신설 등 중증 고난도 진료 역량 집중.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043651",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941462",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170884",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1170775"
     ]
    }
   ],
   "implications": [
-   "상급종합병원 구조전환 정책에 발맞추어 중증·희귀질환 중심의 진료 포트폴리오를 재편하고 성과 평가 체계에 대비함",
-   "정부의 지역완결형 의료 및 거점외상·응급의료 지원 기조에 연계하여 원내 응급 및 필수의료 인프라 운영 효율성을 제고함",
-   "바이오빅데이터 구축사업 확대와 연계한 임상 연구 역량 강화 및 원내 스마트병동·AI 기반 환자 안전 관리 시스템 도입을 검토함"
+   "정부의 상급종합병원 소요병상 산정 기준 개편 및 구조전환 기조에 맞추어 중증 질환 중심의 병상 운용 효율화 및 배후진료 협력체계 정비 추진",
+   "권역외상·응급의료센터 중심의 중증 최종치료 역량 강화 정책에 대응하여 부울경 권역 내 중증외상 이송·수용 네트워크 유지 및 지원사업 참여 검토",
+   "상급종합병원 대상 보안 취약점 지적에 대비한 실시간 보안관제 및 분산 백업 체계 점검과 AI·스마트병동 모니터링 기술 도입 검토"
   ],
-  "count": 205,
+  "count": 199,
   "picks": 10,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-15 13:38",
-  "sig": "3:15d316t"
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-16 00:08",
+  "sig": "3:11t5hfe"
  }
 }
