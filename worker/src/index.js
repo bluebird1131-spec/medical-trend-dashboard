@@ -34,7 +34,17 @@ export default {
     // 02 이슈 키워드 사이트: 30분 예약 중 정각 회차에 같이 깨움 (무료 플랜 예약 개수 한도 때문에 예약을 새로 만들지 않음)
     if (event.cron !== CRON_BOT && new Date(event.scheduledTime).getUTCMinutes() < 30) jobs.push([KW_REPO, KW_WORKFLOW, {}]);
     for (const [repo, wf, inputs] of jobs) {
-      const res = await gh(env, `/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs }) });
+      const dispatch = () => gh(env, `/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs }) });
+      let res = await dispatch();
+      // 공개 저장소는 60일 동안 커밋이 없으면 GitHub 이 워크플로를 꺼 버림 → 꺼져 있으면 다시 켜고 한 번 더 요청
+      if (res.status !== 204) {
+        const st = await (await gh(env, `/repos/${repo}/actions/workflows/${wf}`)).json().catch(() => ({}));
+        if (String(st.state || '').startsWith('disabled')) {
+          const en = await gh(env, `/repos/${repo}/actions/workflows/${wf}/enable`, { method: 'PUT' });
+          console.log(`꺼져 있던 워크플로 다시 켬 (${st.state}): ${repo} ${wf} HTTP ${en.status}`);
+          res = await dispatch();
+        }
+      }
       if (res.status === 204) console.log(`예약 실행 요청: ${repo} ${wf}`);
       else console.log(`예약 실행 실패: ${repo} ${wf} HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
     }
