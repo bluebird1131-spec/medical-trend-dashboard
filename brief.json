@@ -1,6 +1,93 @@
 {
  "days": [
   {
+   "date": "2026-10-17",
+   "from": "2026-10-16",
+   "headline": "국내 상급종합병원 소아신속대응팀 신설 및 권역외상센터 인력기준 미충족 지적 등 의료계 주요 동향",
+   "points": [
+    {
+     "section": "병원",
+     "title": "국내 첫 소아신속대응팀 신설",
+     "body": "서울아산병원 어린이병원이 입원 소아환자의 상태 악화 징후에 조기 대응하기 위해 국내 최초로 소아신속대응팀을 신설함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "권역외상센터 법정 인력 미충족",
+     "body": "울산대병원을 포함한 전국 5개 권역외상센터가 전문의 법정 인력기준을 미충족한 것으로 국정감사에서 확인됨.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941482"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "CSO 관리·감독 강화 입법 추진",
+     "body": "정부가 불법 리베이트 차단을 위해 의약품 판촉영업대행사의 계약서 분석 및 관리·감독과 관련된 행정규제와 입법을 추진함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941469"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "상종 구조전환 사업 성과평가 부재",
+     "body": "상급종합병원 구조전환 지원사업을 포함해 건보 재정이 대거 투입된 시범사업 대다수가 성과평가를 거치지 않았다는 국감 지적이 제기됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "국립중앙의료원 이전 심의 통과",
+     "body": "총 776병상 규모의 국립중앙의료원 신축·이전 및 중앙감염병병원 건립사업이 서울시 건축심의를 통과해 본격 추진됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043656"
+     ]
+    }
+   ],
+   "implications": [
+    "본원 권역외상센터의 전문의 법정 인력기준 충족 여부를 재점검하고 인력 확보 대책을 마련해야 함.",
+    "소아환자 안전 강화를 위해 서울아산병원의 소아신속대응팀 운영 사례를 벤치마킹하여 도입을 검토할 필요가 있음."
+   ],
+   "count": 29,
+   "picks": 6,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-10-17 00:33",
+   "sig": "3:3p8n3s",
+   "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941469",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941466",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043656",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941482",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941500",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941516",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941515",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941518",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941517",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941511",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941512",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941505",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941493",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941509",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941502",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941496",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043693",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043692",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043690",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043691",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043689",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043681",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043683",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043684",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043667",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043670",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043673"
+   ]
+  },
+  {
    "date": "2026-10-16",
    "from": "2026-10-15",
    "headline": "국내 첫 소아신속대응팀 신설 등 병원계 신기술 도입과 상급종합병원 구조전환 및 보건의료 정책 동향",
