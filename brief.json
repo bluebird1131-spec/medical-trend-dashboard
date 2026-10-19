@@ -3,36 +3,44 @@
   {
    "date": "2026-10-20",
    "from": "2026-10-19",
-   "headline": "독립 모듈형 수술로봇과 AI EMR 도입 등 첨단 기술 동향과 함께 비대면진료 및 지방의료원 전문의 채용난 등 정책 현안이 부각됨.",
+   "headline": "독립 모듈형 수술로봇 등장과 응급실·비대면진료 등 정책 기준 변화",
    "points": [
     {
      "section": "병원",
-     "title": "독립 모듈형 수술로봇 등장",
-     "body": "리브스메드가 기존 복강경 및 수술로봇의 한계를 극복하는 독립 모듈형 수술로봇 '스타크'를 선보임.",
+     "title": "독립 모듈형 수술로봇 '스타크' 공개",
+     "body": "리브스메드가 기존 복강경 및 수술로봇 시스템의 한계를 극복하는 독립 모듈형 수술로봇 '스타크'를 선보임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043717"
      ]
     },
     {
      "section": "병원",
-     "title": "AI 진료 에이전트 탑재 EMR 공개",
-     "body": "비트컴퓨터가 진료 흐름에 맞춰 실시간 의무기록 생성을 지원하는 인공지능 EMR을 공개함.",
+     "title": "소아청소년기 소화기질환 심층진료실 개설",
+     "body": "삼성서울병원이 원인을 알 수 없는 복통과 구토 등을 겪는 소아청소년을 위한 심층진료실을 개설하여 진료를 시작함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941592"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043729"
      ]
     },
     {
      "section": "정책",
-     "title": "비대면진료 법정 기준 마련",
-     "body": "보건복지부가 6개월 내 대면진료 의료기관 원칙과 비만약 처방 제외 등을 담은 비대면진료 규칙 개정안을 입법예고함.",
+     "title": "비대면진료 세부기준 규칙 개정안 입법예고",
+     "body": "보건복지부가 6개월 내 대면진료 의료기관 원칙, 비만약 처방 제외, 처방일수 7일 제한 등을 담은 비대면진료 법정 기준 관련 규칙 개정안을 입법예고함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716"
      ]
     },
     {
      "section": "정책",
-     "title": "지방의료원 전문의 채용난 심화",
-     "body": "올해 상반기 전국 지방의료원 35곳 중 26곳에서 전문의 채용난으로 진료 차질이 발생하고 재정난이 심화됨.",
+     "title": "응급실 평일 특정과 전문의 배치 의무화 추진",
+     "body": "권역응급의료센터 응급실에 평일 주간 내과·외과·신경과·신경외과 전문의 각 1인 이상 배치를 의무화하는 법안이 국회 복지위 심사에 돌입함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "지방의료원 재정난 및 전문의 채용난 심화",
+     "body": "전국 지방의료원의 진료부문 적자가 심화되고 상반기 35곳 중 26곳에서 전문의 채용난으로 진료 차질이 발생함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941594",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737"
@@ -40,17 +48,18 @@
     }
    ],
    "implications": [
-    "리브스메드의 신규 독립 모듈형 수술로봇 '스타크' 등 차세대 수술 장비 도입 동향 모니터링",
-    "비트컴퓨터의 AI 진료 에이전트 EMR 공개를 참고하여 원내 전자의무기록 고도화 및 진료 효율화 방안 검토",
-    "보건복지부의 비대면진료 제도화 개정안에 따른 원내 비대면진료 운영 기준 정비"
+    "권역응급의료센터의 평일 주간 주요 진료과 전문의 배치 의무화 법안 심사에 따른 원내 인력 배치 현황 점검",
+    "보건복지부의 비대면진료 세부 기준 개정안(6개월 내 대면진료 원칙 및 처방 제한 등)에 따른 원내 대응 체계 검토",
+    "소아청소년 소화기질환 심층진료실과 같은 특화 진료 인프라 구축 사례 검토"
    ],
-   "count": 11,
-   "picks": 5,
+   "count": 12,
+   "picks": 6,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-20 06:49",
-   "sig": "3:j6joa7",
+   "generatedAt": "2026-10-20 06:50",
+   "sig": "3:jy3giq",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043723",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043717",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941594",
