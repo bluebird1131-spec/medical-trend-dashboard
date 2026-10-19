@@ -3,85 +3,63 @@
   {
    "date": "2026-10-20",
    "from": "2026-10-19",
-   "headline": "국산 수술로봇 임상 성과 발표와 비대면진료 기준 입법 및 권역응급센터 전문의 배치 의무화 법안 추진",
+   "headline": "독립 모듈형 수술로봇 등장과 함께 비대면진료 기준 입법예고, 지방의료원 및 중환자실 의료격차 심화 지속",
    "points": [
     {
      "section": "병원",
-     "title": "국산 수술로봇 임상 성과 보고 및 신규 장비 개발",
-     "body": "서울대병원이 국산 AI 기반 신장결석 수술로봇 자메닉스를 활용한 난치성 결석 완전 제거 사례를 국제학술지에 게재함. 한편 의료기기 기업 리브스메드는 기존 복강경과 수술로봇 한계를 극복하는 독립 모듈형 수술로봇 스타크를 공개함.",
+     "title": "독립 모듈형 수술로봇 '스타크' 등장",
+     "body": "리브스메드가 기존 복강경 및 로봇 시스템 한계를 극복하는 독립 모듈형 수술로봇 '스타크'를 공개함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941583",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043717"
      ]
     },
     {
-     "section": "병원",
-     "title": "희귀소아질환 심층진료 및 고난도 내시경 수술 임상 확대",
-     "body": "삼성서울병원이 원인 모를 복통과 구토 등을 겪는 소아청소년 환자를 위한 심층진료실을 신설함. 우리들병원은 하버드 의대와 공동 연구로 흉추 디스크 환자 대상 개복 없는 내시경 수술의 유효성과 안전성을 입증함.",
+     "section": "정책",
+     "title": "비대면진료 세부 법정 기준 입법예고",
+     "body": "보건복지부가 6개월 내 대면진료 의료기관 원칙, 비만약 처방 제외, 처방일수 7일 제한 등을 명시한 규칙 개정안을 발표함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043729",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941602"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716"
      ]
     },
     {
      "section": "정책",
-     "title": "비대면진료 세부기준 입법예고 및 직역별 이견 표출",
-     "body": "보건복지부가 6개월 내 대면진료 의료기관 원칙, 비만약 처방 제외, 초진 처방일수 7일 제한 등을 담은 비대면진료 규칙 개정안을 입법예고함. 이에 대해 대한의사협회와 신경과의사회 등 의료계와 산업계가 처방 제한 및 만성질환 가이드라인을 두고 재검토를 촉구함.",
+     "title": "중환자실 전담의 운영 종별 격차 지적",
+     "body": "중환자실 전담전문의 운영률이 상급종합병원 100% 대비 종합병원은 37.6%에 불과해 종별 치료역량 불균형 문제가 제기됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043727",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941591",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043743"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043723"
      ]
     },
     {
      "section": "정책",
-     "title": "권역응급의료센터 내 주요 특정과 전문의 배치 의무화 추진",
-     "body": "국회 보건복지위원회가 권역응급의료센터 응급실 내 평일 주간 내과·외과·신경과·신경외과 전문의 각 1인 이상 배치를 의무화하는 법안 심사에 착수함.",
+     "title": "지방의료원 재정난 및 진료 차질 심화",
+     "body": "전국 35개 지방의료원의 2025년 의료적자가 5,573억 원에 달하고, 26곳에서 전문의 구인난으로 인한 진료 공백 발생이 확인됨.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941594",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737"
      ]
     }
    ],
    "implications": [
-    "권역응급의료센터 평일 내과·외과·신경과·신경외과 전문의 배치 의무화 법안 심사에 따른 당직 인력 운용 및 전문과 협진 체계 영향 사전 검토",
-    "서울대병원 사례 기반 국산 AI 신장결석 수술로봇(자메닉스) 등 국산 첨단 로봇수술 장비의 비뇨의학과 임상 도입 가능성 검토",
-    "소아청소년 원인불명 소화기질환 심층진료실 개설 사례 벤치마킹을 통한 중증·희귀질환 특화 진료 서비스 발굴 검토"
+    "국산 독립 모듈형 신규 수술로봇(스타크) 등 첨단 의료장비 동향 모니터링 및 도입 타당성 검토",
+    "비대면진료 세부기준(6개월 내 대면진료 환자 원칙, 처방 제한 등) 입법예고에 따른 외래 진료 연계 체계 검토",
+    "지방 공공의료원 진료 공백 및 중환자실 운영 격차 심화에 대응한 지역 거점 상급종합병원 중증·응급 이송 수용 체계 점검"
    ],
-   "count": 29,
-   "picks": 0,
+   "count": 11,
+   "picks": 5,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-20 06:37",
-   "sig": "3:smv1q0",
+   "generatedAt": "2026-10-20 06:48",
+   "sig": "3:1n1wvdb",
    "links": [
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043713",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941592",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941583",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941406",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043727",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043715",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043723",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043724",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043728",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043708",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043729",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043717",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492263&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941577",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941594",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941602",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941596",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941591",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941597",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043743",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043730",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941570",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171215",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171232",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941595",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941592",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043728",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043729",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043730",
     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492264&tag=&nPage=1"
    ]
   },
