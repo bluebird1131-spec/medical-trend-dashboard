@@ -62,10 +62,12 @@ const cell = (r, i) => (i >= 0 ? (r[i] || '').trim() : '');
 const isUrl = u => /^https?:\/\//i.test(u);
 
 // 같은 기사가 주소만 조금 달라 여러 번 들어간 경우(데일리메디 &page=1 등) 하나만 남김
-// 기준: 목록 쪽수·추적용 값을 뺀 주소, 또는 같은 출처의 같은 제목
+// 기준: 목록 쪽수·추적용 값을 뺀 주소, 또는 같은 출처·같은 보도일의 같은 제목
+// (보도일까지 봄: 복지부는 '○○ 공모'처럼 같은 제목의 공고를 날짜만 바꿔 여러 번 올리므로 다른 공고로 남김)
 const titleCol = headers.findIndex(h => /제목/.test(h)), sourceCol = headers.findIndex(h => /출처|매체/.test(h));
+const dateCol = headers.findIndex(h => /보도|게재|발행/.test(h));
 const linkKey = u => u.replace(/^https?:\/\//i, '').replace(/^www\./, '').replace(/([?&])(page|nPage|sca|sfl|stx)=[^&]*/gi, '$1').replace(/[?&]+$/, '').replace(/&&+/g, '&');
-const titleKey = r => cell(r, sourceCol) + '|' + cell(r, titleCol).replace(/[\s'"‘’“”·….]/g, '').replace(/^﻿/, '');
+const titleKey = r => cell(r, sourceCol) + '|' + cell(r, dateCol) + '|' + cell(r, titleCol).replace(/[\s'"‘’“”·….]/g, '').replace(/^﻿/, '');
 {
   const seen = new Set(), before = rows.length;
   rows = rows.filter(r => {

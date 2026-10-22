@@ -29,13 +29,13 @@ if (C.title < 0) { console.log('::warning::제목 열을 찾지 못해 키워드
 const cell = (r, i) => (i >= 0 ? String(r[i] ?? '').trim() : '');
 const ymd = s => { const m = String(s).match(/(\d{4})\D{1,3}(\d{1,2})\D{1,3}(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
 
-// 같은 출처의 같은 제목은 한 번만 (데일리메디 &page=1 중복 등)
+// 같은 출처·같은 보도일의 같은 제목은 한 번만 (데일리메디 &page=1 중복 등. 날짜만 다른 복지부 재공고는 따로 셈)
 const seen = new Set();
 const arts = [];
 for (const r of raw) {
   const title = cell(r, C.title).replace(/\s+/g, ' ');
   if (!title) continue;
-  const key = cell(r, C.source) + '|' + title.replace(/[\s'"‘’“”·….]/g, '');
+  const key = cell(r, C.source) + '|' + cell(r, C.date) + '|' + title.replace(/[\s'"‘’“”·….]/g, '');
   if (seen.has(key)) continue;
   seen.add(key);
   arts.push({ title, low: title.toLowerCase(), date: ymd(cell(r, C.date)) });
