@@ -3,87 +3,69 @@
   {
    "date": "2026-10-23",
    "from": "2026-10-22",
-   "headline": "울산대병원 대장항문 로봇수술 1,000례 달성과 타지역 의료원의 첨단 기술·원격의료 도입 확대",
+   "headline": "의료 AI 및 디지털 치료제 개발 활성화와 비대면진료·비만치료제 관리 강화 정책 추진",
    "points": [
     {
      "section": "병원",
-     "title": "울산대병원 로봇수술 1,000례",
-     "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1,000례를 달성함.",
+     "title": "조현병 디지털 치료제 공동 개발 추진",
+     "body": "삼성서울병원이 부광약품 및 블루시그넘과 협력하여 조현병 환자의 사회인지기능 개선을 위한 디지털 치료제 소프트웨어 공동 개발에 착수함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941726",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171320"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "AI 기반 목 CT 누락 폐암 탐지 성과",
+     "body": "코어라인소프트의 AI 폐결절 분석 소프트웨어가 목 CT 판독에서 누락된 폐암 사례를 50% 이상 탐지한 연구 결과가 발표됨.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171318"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "부울경 최초 대장항문 로봇수술 1000례 달성",
+     "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
      ]
     },
     {
-     "section": "병원",
-     "title": "타지역 병원 신기술·원격의료",
-     "body": "부산백병원이 로봇을 이용한 췌십이지장절제술을 성공했고, 부산대병원은 북극항로 선원 대상 원격의료 지원을 수행함.",
+     "section": "정책",
+     "title": "비대면진료 시행규칙 개정안 이견 심화",
+     "body": "정부의 초진 비대면진료 범위 확대 및 처방일수 제한 추진에 대해 의료계는 환자 안전 문제를 제기하고 산업계는 전면 재검토를 촉구함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043875",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043869"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043848",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865"
      ]
     },
     {
      "section": "정책",
-     "title": "비만 자가주사제 현장 조사",
-     "body": "보건복지부가 지자체와 함께 의약분업 원칙을 위반해 비만치료 자가주사제를 원내 조제·판매하는 의료기관 현장 조사를 실시함.",
+     "title": "비만치료 자가주사제 불법 조제 조사",
+     "body": "보건복지부가 의약분업 원칙을 위반해 비만치료 자가주사제를 불법으로 원내 조제·판매하는 의심 의료기관 대상 현장 조사를 실시함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492302&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043866",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941751"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "신포괄수가제도 개편 추진",
-     "body": "정부가 마취료를 비포괄로 전환하고 MRI·PET 등 영상검사를 포괄 영역에 편입하는 방향으로 신포괄수가 개편을 추진함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941723"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492302&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "부울경 지역 최초 대장항문 로봇수술 1,000례 달성 성과를 바탕으로 한 중증질환 로봇수술 역량 대외 홍보 및 고도화 검토",
-    "정부의 비만치료 자가주사제 원내 조제·판매 단속 강화에 따른 원내 처방 및 조제 프로세스 점검",
-    "정부의 신포괄수가제도 개편(마취료 비포괄 전환, MRI·PET 포괄 편입)에 따른 원내 수가 영향 분석 및 대응 전략 수립"
+    "목 CT 등 타 부위 영상 검사에서 폐암 결절을 보조 탐지하는 AI 영상 판독 솔루션 도입 검토",
+    "정신건강의학과 중심의 디지털 치료제 개발 및 임상 실증 협력 모델 벤치마킹 검토",
+    "복지부 합동 점검 대비 원내 비만치료 자가주사제 처방·조제 프로세스 준수 여부 자체 점검"
    ],
-   "count": 36,
+   "count": 11,
    "picks": 0,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-23 06:35",
-   "sig": "3:sunhdm",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-23 08:42",
+   "sig": "3:4ad2s3",
    "links": [
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492302&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171313",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171312",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171309",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941742",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941754",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941723",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941716",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941573",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043866",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043860",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043848",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043851",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043845",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043847",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492303&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171325",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941763",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941725",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941735",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941721",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941743",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941748",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941751",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941747",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941744",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043884",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043875",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043874",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043870",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043869",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941726",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171320",
