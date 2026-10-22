@@ -1462,48 +1462,50 @@
  "weekly": {
   "date": "2026-10-22",
   "from": "2026-10-16",
-  "headline": "정부가 비대면진료 세부기준 입법예고와 필수응급의료 체계 개편을 추진하는 가운데 현장 의료계의 반발과 제도적 보완 요구가 이어짐.",
+  "headline": "정부가 비대면진료 초진 범위 확대 및 상급종합병원 지정 의무화를 추진하고 의료 AI 확산을 위한 국제 협력을 강화함.",
   "points": [
    {
     "section": "정책",
     "title": "비대면진료 세부기준 입법예고",
-    "body": "보건복지부가 6개월 내 동일 증상 재진 원칙 및 처방일수 7일 제한 등을 담은 비대면진료 시행규칙 개정안을 입법예고함.",
+    "body": "보건복지부가 6개월 내 동일 증상 재진 중심 및 주소지 동일 시·도 의원급 초진 허용, 7일 이내 처방 제한을 담은 시행규칙 개정안을 입법예고함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
     ]
    },
    {
     "section": "정책",
-    "title": "응급실 전문의 배치 의무화 추진",
-    "body": "권역응급의료센터 응급실에 평일 주간 내과·외과·신경과·신경외과 전문의 각 1인 이상 배치를 의무화하는 법안이 국회 심사에 돌입함.",
+    "title": "진료권역별 상급종병 의무 지정",
+    "body": "보건복지부가 진료권역별로 병상 수요와 무관하게 요건을 갖춘 종합병원이 있다면 최소 1곳을 상급종합병원으로 의무 지정하는 방안을 추진함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941509"
     ]
    },
    {
     "section": "정책",
-    "title": "한국·WHO 의료AI 서울선언",
-    "body": "한국 정부와 WHO가 보건의료 분야 AI의 안전하고 책임 있는 사용과 혁신 혜택의 공평한 공유를 위한 공동선언을 발표함.",
+    "title": "한-WHO 의료 AI 서울선언",
+    "body": "보건복지부와 WHO가 의료 인공지능 혁신 혜택의 공평한 공유와 안전하고 책임 있는 사용을 위한 국제적 연대 공동선언을 발표함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043825",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171296",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941695",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941687"
     ]
    },
    {
     "section": "정책",
-    "title": "응급환자이송업 품질 인증제",
-    "body": "보건복지부와 국립중앙의료원이 우수한 민간구급차의 이송 서비스 품질을 높이기 위한 인증제 시범사업 참여 업체를 모집함.",
+    "title": "응급·필수 인력 및 제도 개편",
+    "body": "권역응급의료센터 평일 주요 과 전문의 1인 이상 배치 의무화 법안 심사와 함께 응급기관 평가 지표가 개편됨.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492269&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171270"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941675"
     ]
    },
    {
     "section": "병원",
-    "title": "응급 심혈관질환 핫라인 구축",
+    "title": "창원파티마-양산부산대 핫라인",
     "body": "창원파티마병원이 양산부산대학교병원과 중증 응급 심혈관질환자 24시간 전원 협력체계를 구축함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629"
@@ -1511,22 +1513,22 @@
    },
    {
     "section": "병원",
-    "title": "암 환자 신속진료체계 도입",
-    "body": "한양대암병원이 환자의 최초 진단부터 수술까지 1주일 이내에 완료하는 신속진료체계를 구축함.",
+    "title": "한양대암병원 신속진료체계",
+    "body": "한양대암병원이 환자 진단부터 수술까지 1주일 이내에 진행하는 신속진료체계를 구축함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941665"
     ]
    }
   ],
   "implications": [
-   "정부의 비대면진료 제도화 및 초진·재진 기준 변화에 맞춰 원내 진료 프로세스 및 EMR 연계 방안을 점검함.",
-   "응급실 전문의 배치 의무화 및 응급의료기관 평가지표 개편에 대응하여 필수·응급의료 인력 운용 계획을 수립함."
+   "정부의 상급종합병원 지정 및 평가 규정 개정에 발맞추어 지역별 필수·중증 의료 제공 역량과 지정 요건을 선제적으로 점검함.",
+   "정부와 WHO의 의료 AI 서울선언 발표 등 디지털헬스케어 정책 기조에 맞추어 원내 안전한 의료 AI 도입 및 활용 방안을 검토함."
   ],
-  "count": 142,
+  "count": 118,
   "picks": 10,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-22 06:38",
-  "sig": "3:122ackn"
+  "generatedAt": "2026-10-22 10:02",
+  "sig": "3:10e3kxf"
  },
  "monthly": {
   "date": "2026-10-22",
