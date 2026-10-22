@@ -4,7 +4,7 @@
    "sig": "2:1b9sklu",
    "at": "2026-10-22 06:36",
    "model": "gemini-flash-lite-latest",
-   "total": 388,
+   "total": 390,
    "items": [
     {
      "label": "의료 AI",
@@ -220,7 +220,7 @@
    "sig": "2:b4mju6",
    "at": "2026-10-22 06:36",
    "model": "gemini-flash-lite-latest",
-   "total": 1174,
+   "total": 1177,
    "items": [
     {
      "label": "의료 AI",
@@ -684,7 +684,7 @@
    "sig": "2:1agk6r5",
    "at": "2026-10-22 00:32",
    "model": "gemini-flash-lite-latest",
-   "total": 4349,
+   "total": 4440,
    "items": [
     {
      "label": "의료 AI",
@@ -935,5 +935,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-22 06:36"
+ "updatedAt": "2026-10-22 09:01"
 }
