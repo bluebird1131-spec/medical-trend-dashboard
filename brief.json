@@ -3,28 +3,11 @@
   {
    "date": "2026-10-23",
    "from": "2026-10-22",
-   "headline": "의료 AI 및 디지털 치료제 개발 활성화와 비대면진료·비만치료제 관리 강화 정책 추진",
+   "headline": "울산대병원 대장항문 로봇수술 1000례 달성 및 비대면진료·보건의료 주요 정책 동향",
    "points": [
     {
      "section": "병원",
-     "title": "조현병 디지털 치료제 공동 개발 추진",
-     "body": "삼성서울병원이 부광약품 및 블루시그넘과 협력하여 조현병 환자의 사회인지기능 개선을 위한 디지털 치료제 소프트웨어 공동 개발에 착수함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941726",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171320"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "AI 기반 목 CT 누락 폐암 탐지 성과",
-     "body": "코어라인소프트의 AI 폐결절 분석 소프트웨어가 목 CT 판독에서 누락된 폐암 사례를 50% 이상 탐지한 연구 결과가 발표됨.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171318"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "부울경 최초 대장항문 로봇수술 1000례 달성",
+     "title": "대장항문 로봇수술 1000례",
      "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
@@ -32,8 +15,8 @@
     },
     {
      "section": "정책",
-     "title": "비대면진료 시행규칙 개정안 이견 심화",
-     "body": "정부의 초진 비대면진료 범위 확대 및 처방일수 제한 추진에 대해 의료계는 환자 안전 문제를 제기하고 산업계는 전면 재검토를 촉구함.",
+     "title": "비대면진료 제도 반발 확산",
+     "body": "정부의 초진 비대면진료 범위 확대 및 처방일수 연장 추진에 대해 의료계와 산업계가 반발 및 전면 재검토를 촉구함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043848",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865"
@@ -41,23 +24,31 @@
     },
     {
      "section": "정책",
-     "title": "비만치료 자가주사제 불법 조제 조사",
-     "body": "보건복지부가 의약분업 원칙을 위반해 비만치료 자가주사제를 불법으로 원내 조제·판매하는 의심 의료기관 대상 현장 조사를 실시함.",
+     "title": "비만치료 자가주사제 조사",
+     "body": "보건복지부가 의약분업 원칙을 위반해 비만치료 자가주사제를 불법으로 원내 조제·판매하는 의료기관을 대상으로 현장 조사를 실시함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492302&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "건보공단 CT 모바일 알림",
+     "body": "국민건강보험공단이 환자의 합리적 의료 이용을 위해 개인별 CT 검사 이력과 연령대 평균 횟수를 모바일로 안내하는 서비스를 시행함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941735"
      ]
     }
    ],
    "implications": [
-    "목 CT 등 타 부위 영상 검사에서 폐암 결절을 보조 탐지하는 AI 영상 판독 솔루션 도입 검토",
-    "정신건강의학과 중심의 디지털 치료제 개발 및 임상 실증 협력 모델 벤치마킹 검토",
-    "복지부 합동 점검 대비 원내 비만치료 자가주사제 처방·조제 프로세스 준수 여부 자체 점검"
+    "부울경 지역 최초 대장항문 로봇수술 1000례 달성 성과의 대내외 홍보 및 임상 역량 강화 추진",
+    "비만치료 자가주사제 원내 조제·판매 관련 원내 규정 및 의약분업 준수 여부 점검",
+    "정부의 비대면진료 제도 개편 및 CT 이력 안내 등 보건의료 정책 변화에 따른 원내 대응 체계 검토"
    ],
-   "count": 11,
+   "count": 8,
    "picks": 0,
-   "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-23 08:42",
-   "sig": "3:4ad2s3",
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-10-23 08:43",
+   "sig": "3:17sfd3i",
    "links": [
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492302&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941742",
@@ -66,10 +57,7 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941735",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941721",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941726",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171320",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171318"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865"
    ]
   },
   {
