@@ -1702,161 +1702,251 @@
  "weekly": {
   "date": "2026-10-25",
   "from": "2026-10-19",
-  "headline": "정부가 비대면진료 세부기준과 바이오헬스 규제 합리화를 추진하는 가운데 의료계 반발과 현장 인력난이 심화됨.",
+  "headline": "정부가 비대면진료 세부기준 법제화 및 바이오 규제 완화를 추진하는 가운데 응급·중환자 및 지역 공공의료 인프라 위기가 국감 등에서 집중 부각됨.",
   "points": [
    {
     "section": "정책",
-    "title": "비대면진료 시행규칙 개정 입법예고",
-    "body": "보건복지부가 6개월 내 대면진료 의료기관 원칙, 비만약 처방 제외, 처방일수 제한 등을 담은 비대면진료 법정 기준 관련 규칙 개정안을 입법예고했으나 의료계가 환자 안전 위협 등을 이유로 반발함.",
+    "title": "비대면진료 법정 기준 입법예고 및 갈등",
+    "body": "보건복지부가 6개월 내 대면진료 의료기관 원칙, 비만약 처방 제외, 처방일수 제한 등을 담은 의료법 시행규칙 개정안을 입법예고함. 초진 범위 확대 및 처방일수 기준을 둘러싸고 의사협회 및 각 진료과 의사회의 반발이 확산 중임.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043848",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941692",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043754",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043797",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171257",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171241"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오헬스 규제합리화 방안 발표",
-    "body": "정부가 대통령 주재 규제합리화위원회를 열어 자가면역세포 치료 위험도 하향 및 가명 의료정보 활용 등 신산업 및 바이오 규제 빗장을 품.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492315&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "응급의료 및 필수의료 제도 정비",
-    "body": "권역응급의료센터 응급실에 평일 주간 주요과 전문의 배치 의무화 법안이 국회 심사에 돌입하고, 응급환자 이송 지연 시 응급의료상황실 지정 병원의 의무 수용 법안이 시행됨.",
+    "title": "응급·중환자실 의료체계 법안 및 격차",
+    "body": "권역응급의료센터에 평일 주간 내과·외과·신경과·신경외과 전문의 배치를 의무화하는 법안이 국회 복지위 심사에 돌입함. 심평원 분석 결과 중환자실 전담전문의 운영률이 상급종합병원은 100%이나 종합병원은 37.6%에 불과한 것으로 지적됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043723"
     ]
    },
    {
     "section": "정책",
-    "title": "지방의료원 재정난 및 인력난 심화",
-    "body": "전국 지방의료원들이 의료비용 급증과 전문의 채용난으로 진료 차질이 발생하고 대규모 적자를 기록하는 등 공공의료 위기가 대두됨.",
+    "title": "지방의료원 재정난 및 진료 공백 심화",
+    "body": "전국 35개 지방의료원의 2025년 진료부문 적자가 5,573억 원에 달하고 전 병원이 의료손실을 기록함. 올해 상반기 전문의 채용난으로 인해 35곳 중 26곳에서 주요 진료과 휴진이나 단축 등 진료 차질이 발생함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941594",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941659",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171281",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941596"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "재생의료 규제 합리화 및 정부 시범사업 공모",
+    "body": "복지부가 규제합리화위원회를 통해 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 심의 절차를 완화하기로 발표함. 이와 함께 중증근육성희귀질환 전문요양병원 건강보험 시범사업 및 급성기 정신질환 집중치료실 병상 확대 참여기관을 공모함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043900",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492315&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492316&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492280&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "로봇수술 분야 성과 및 국산 로봇 등장",
+    "body": "울산대병원 로봇수술센터가 부울경 대장항문외과 최초로 로봇수술 1000례를 달성함. 리브스메드는 독립 모듈형 수술로봇 '스타크'를 공개해 국산 첨단 수술기기 경쟁력 확대를 예고함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043717",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941683"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "병원 간 응급 핫라인 및 IT·인력 운영난",
+    "body": "창원파티마병원과 양산부산대병원이 중증 응급 심혈관질환자 24시간 전원 핫라인 협력체계를 구축함. 국립암센터는 353억 원 규모 차세대 전산망 구축 지연과 병상 증설 후 신규 간호사 임용 포기율 66%를 겪으며 운영 차질이 부각됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941623",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043763",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043730"
+    ]
+   }
+  ],
+  "implications": [
+   "권역응급의료센터 내 필수과(내·외·신경·신경외과) 전문의 평일 주간 상시 배치 의무화 법안 추진에 대응한 전문의 당직·인력 배치 체계 사전 점검 검토",
+   "자가면역세포 치료 위험도 하향 및 심의 면제 등 재생의료 규제 완화에 발맞춘 난치성 암 임상연구 및 첨단재생의료 신기술 도입 가능성 검토",
+   "보건복지부의 급성기 정신질환 집중치료실 병상 확대 공모사업 검토 및 인근 지역 2차 의료기관과의 중증 응급 핫라인 전원 협력망 강화 추진"
+  ],
+  "count": 122,
+  "picks": 11,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-25 06:20",
+  "sig": "3:wmsqho"
+ },
+ "monthly": {
+  "date": "2026-10-25",
+  "from": "2026-09-26",
+  "headline": "정부는 비대면진료 제도화와 건보 재정 통제를 병행하며 지역완결형 필수의료·중증 응급 안전망 구축에 집중하는 정책 기조를 추진함.",
+  "points": [
+   {
+    "section": "정책",
+    "title": "비대면진료 세부기준 입법예고",
+    "body": "보건복지부가 6개월 내 동일 증상 대면진료 의료기관 원칙, 비만약 처방 제외, 초진 처방일수 7일 제한 등을 담은 비대면진료 시행규칙 개정안을 입법예고함. 초진 허용 범위와 처방일수 제한을 둘러싸고 의료계의 반발과 산업계의 재검토 요구가 동시에 제기됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043848",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941692",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043754",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043797",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171257",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171241",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171230",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043478",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171099",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171050"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "권역 응급·외상 의료체계 강화",
+    "body": "복지부가 거점외상센터 지원사업으로 아주대병원과 원주세브란스기독병원을 선정하고 중증외상 최종치료 역량 강화에 나섬. 권역응급의료센터 내 특정과 전문의 평일 배치 의무화 법안 심사와 응급의료상황실 지정 시 의무 수용 및 면책 제도화가 추진됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941482",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171300",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119",
+     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171064",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171056"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "상종 지정 규정 정비 및 구조전환",
+    "body": "정부는 진료권역별로 최소 1곳의 상급종합병원을 의무 지정하도록 고시를 개정하고 최소 지정에 따른 초과 병상은 전국 소요병상 합산에서 제외함. 한편 4조 원대 재정이 투입된 상급종합병원 구조전환 지원사업의 성과평가 부재 및 수도권 대형병원 분원 쏠림 문제가 국감에서 지적됨.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941509"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "건보 재정 관리 및 비급여 통제",
+    "body": "향후 5년간 건보 재정 수조 원대 적자 전망 속에 공단은 신규 환산지수 산정 모형(BAP) 실증 연구와 외국인 자격 검증 강화에 착수함. 도수치료 관리급여 전환과 비급여 풍선효과 모니터링, 불법 개설 기관 단속을 위한 건보공단 특사경 도입 논의 및 CSO 관리·감독 입법이 추진됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941469",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043843",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171328",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941762",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941604",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171232",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043705",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941554",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941516",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941533",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941520",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941494",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043594",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941318",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171066",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171059"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "지역완결 필수의료·통합돌봄 확충",
+    "body": "복지부는 데이터 기반 지역맞춤형 통합돌봄 실태조사를 바탕으로 지역별 고도화 및 재원 다각화 계획을 추진함. 반면 전국 35개 지방의료원 중 26곳의 진료 차질과 중환자실 전담전문의 종별 격차 등 지역 필수의료 붕괴 위기가 심화되어 역할 차등화 보상 체계가 논의됨.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043723",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941594",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492275&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941659",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171281",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941596"
     ]
    },
    {
     "section": "병원",
-    "title": "부울경 최초 대장항문 로봇수술 1000례",
-    "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성하며 첨단 수술 역량을 입증함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "중증 응급 심혈관질환 전원 핫라인 구축",
-    "body": "창원파티마병원이 양산부산대학교병원과 중증 응급 심혈관질환자 24시간 전원 협력체계를 구축하여 대응 역량을 강화함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629"
-    ]
-   }
-  ],
-  "implications": [
-   "정부의 바이오헬스 규제 완화 및 첨단재생의료 임상연구 활성화 기조에 발맞춰 말기 대장암 등 난치성 질환 면역세포치료 관련 임상 연구 및 신의료기술 도입을 적극 검토함.",
-   "응급실 전담전문의 배치 의무화 및 응급의료체계 개편에 대응하여 원내 응급진료 인프라와 당직 체계를 재점검함."
-  ],
-  "count": 121,
-  "picks": 11,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-25 00:22",
-  "sig": "3:zsijci"
- },
- "monthly": {
-  "date": "2026-10-24",
-  "from": "2026-09-25",
-  "headline": "상급종합병원 구조전환과 지역완결형 필수의료 강화를 중심으로 한 보건의료 정책 추진",
-  "points": [
-   {
-    "section": "정책",
-    "title": "상급종합병원 구조전환 및 지정 개편",
-    "body": "정부는 4조 원 규모의 상급종합병원 구조전환 지원사업과 진료권역별 최소 1곳 지정 의무화 등 전달체계 개편을 추진 중이나, 성과 평가 체계 미비와 초과 병산 산정 제외 등의 과제가 제기됨.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "필수·응급의료 체계 및 인력 강화",
-    "body": "응급실 전문의 배치 의무화, 권역외상센터 및 거점외상센터 지원, 정신응급의료 필수의료 지정 등 응급·필수의료 인프라 확충과 법적 부담 완화 대책이 논의됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941482",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "비대면진료 제도화 및 세부 기준 마련",
-    "body": "보건복지부는 6개월 내 동일 의료기관 재진 원칙, 주소지 한정 초진, 최대 7일 처방 등의 제한을 둔 비대면진료 시행규칙 개정안을 입법예고하며 의료계의 반발을 낳음.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "바이오헬스 규제 완화 및 디지털 의료",
-    "body": "자가면역세포 치료의 위험도 하향 및 심의 면제 등 신의료기술 규제가 완화되는 한편, WHO와 공동으로 안전한 의료 AI 활용을 위한 서울선언이 발표됨.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941687"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "건강보험 재정 관리 및 수가 개편",
-    "body": "향후 5년간 대규모 적자 전망에 따라 건보공단은 환산지수 BAP 모형 실증에 착수하고, 비급여 관리 강화 및 불법 개설 기관 단속을 위한 특사경 도입 논의가 진행됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941554",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941520"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "첨단 로봇수술 및 스마트 인프라 도입",
-    "body": "울산대병원이 부울경 최초 대장항문 로봇수술 1000례를 달성했으며, 아주대병원은 5세대 다빈치5 로봇수술기를 도입하는 등 주요 병원의 첨단 장비 도입이 확대됨.",
+    "title": "로봇수술 고도화 및 임상 실적 확대",
+    "body": "울산대병원이 부울경 최초 대장항문 로봇수술 1000례를 달성하고, 부산대병원 간담췌 500례 달성 및 아주대병원의 다빈치5 도입 등 다수 병원에서 고난도 로봇수술 인프라를 확충함. 분당차병원의 순수 단일공 전립선암 수술과 대구파티마병원의 하이브리드 로봇수술 성공 등 임상 적용 영역도 고도화됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043717",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941759",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941683",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171273",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941575",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941517",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171211",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941349&page=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
     ]
    },
    {
     "section": "병원",
-    "title": "원격의료 및 환자안전 특화센터 신설",
-    "body": "서울아산병원이 국내 최초로 소아신속대응팀을 신설하고, 부산대병원이 해양 원격의료 지원과 스마트병동 구축 협력을 추진하는 등 환자 안전과 비대면 지원 역량이 강화됨.",
+    "title": "스마트병동 구축 및 AI 진료 도입",
+    "body": "부산대병원이 동아ST 등과 스마트병동 및 웨어러블 해상의료 지원시스템 구축 협약을 체결하고, 유성선병원·아주대병원이 뇌졸중 AI 판독 및 생체신호 실시간 모니터링을 도입함. 한편 국립암센터 차세대 전산망 지연과 의료기관 대상 랜섬웨어 등 사이버 보안 위협 대비가 병원계 주요 현안으로 부상함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941623",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941738"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941383",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941799",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941766",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941782",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171314",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043728",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043730",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941542",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941464",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941435",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941348"
     ]
    }
   ],
   "implications": [
-   "상급종합병원 구조전환 지원사업과 연계하여 중증·필수의료 중심의 진료 비중을 높이고 법정 인력 기준을 선제적으로 충족해야 함.",
-   "권역외상센터 및 권역응급의료센터 운영에 있어 전문의 인력 확보와 최종 치료 역량 강화를 위한 내부 프로세스를 정비해야 함.",
-   "정부의 비대면진료 제도화 및 디지털 헬스케어 규제 완화 기조에 맞춰 원격협진 및 AI 기반 진료 보조 시스템 도입을 검토해야 함."
+   "상급종합병원 구조전환 및 권역별 최소 1곳 지정 규정 개정에 대응하여 중증·희귀질환 최종치료 역량 중심의 진료체계 강화 및 병상·진료협력 운영계획 재정비 추진",
+   "권역외상센터 법정 전문의 인력기준 충족 점검 및 권역응급의료센터 내 필수과목 전문의 배치 의무화 법안 심사에 대비한 배후진료 당직·전담 운영체계 사전 검토",
+   "부울경 최초 대장항문 로봇수술 1000례 등 축적된 수술 실적을 바탕으로 다빈치5 등 첨단 장비 고도화 및 스마트병동·임상 AI 모니터링 솔루션 도입 검토",
+   "비대면진료 법정 기준 확립 및 도수치료 등 비급여 항목의 관리급여 전환 추이에 맞춰 원내 비급여 관리 체계 정비와 사이버 보안 전산망 방어 인프라 확충"
   ],
   "count": 300,
   "picks": 27,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-24 13:37",
-  "sig": "3:1evnypj"
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-25 06:21",
+  "sig": "3:1c2i7l4"
  }
 }
