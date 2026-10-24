@@ -3,11 +3,11 @@
   {
    "date": "2026-10-24",
    "from": "2026-10-23",
-   "headline": "울산대병원의 부울경 최초 대장항문 로봇수술 1000례 달성과 함께 첨단재생의료 규제 완화 및 바이오헬스 혁신 정책이 추진됨",
+   "headline": "울산대병원 부울경 첫 대장항문 로봇수술 1000례 달성 및 바이오헬스 규제 완화와 정책 동향",
    "points": [
     {
      "section": "병원",
-     "title": "울산대병원, 대장항문 로봇수술 1000례",
+     "title": "울산대병원 로봇수술 1000례",
      "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
@@ -15,44 +15,47 @@
     },
     {
      "section": "병원",
-     "title": "타기관 신기술 및 인프라 도입 확산",
-     "body": "분당차병원이 국내 최초로 단일공 로봇 전립선 전적출술을 성공했고, 강북삼성병원은 LLM 기반 임상 의무기록 자동화 AX 플랫폼 개발에 착수함.",
+     "title": "타병원 첨단 수술·진료 도입",
+     "body": "분당차병원이 국내 최초 단일공 로봇 전립선 전적출술을 성공했고 유성선병원이 AI 기반 뇌졸중 판독 시스템을 도입함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941799"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941766"
      ]
     },
     {
      "section": "정책",
-     "title": "자가면역세포 치료 규제 완화",
-     "body": "정부가 바이오헬스 규제합리화 방안을 통해 자가면역세포 치료 위험도를 낮추고 말기 대장암 등의 맞춤형 면역세포치료 임상연구를 적합 의결함.",
+     "title": "면역세포치료 규제 완화 추진",
+     "body": "정부가 자가면역세포 치료의 위험도를 낮추고 말기 대장암 환자 대상 면역세포치료 임상연구를 적합 의결하는 등 바이오헬스 규제를 완화함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171350"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904"
      ]
     },
     {
      "section": "정책",
-     "title": "의료기관 정보보호 및 경영 현안",
-     "body": "정부가 반복되는 해킹 등 침해사고 병원에 매출액의 3% 과징금을 부과하는 등 정보보호 의무를 대폭 강화함.",
+     "title": "PA 제도 및 필수진료 과제",
+     "body": "진료지원업무 전담간호사의 기준이 마련됐으나 역할 중복 등 제도 정착 과제가 지적됐으며 시니어의사 지원사업은 예산 한계로 현장 수요를 채우지 못하고 있음.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941782"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043931",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043897"
      ]
     }
    ],
    "implications": [
-    "부울경 지역 최초로 대장항문 로봇수술 1000례를 달성한 울산대학교병원의 임상 성과를 대외적으로 홍보하고 로봇수술 선도 입지를 공고히 함",
-    "정부의 자가면역세포 치료 및 첨단재생의료 규제 완화 기조에 맞춰 원내 난치성 질환 면역세포 치료 연구 및 임상 적용 방안을 검토함",
-    "의료정보 전산 해킹 시도 증가 및 침해사고 제재 강화에 대응하여 원내 정보보호 체계와 보안 시스템을 재점검함"
+    "부울경 지역 최초로 대장항문 로봇수술 1000례를 달성한 성과를 원내외에 홍보하고 로봇수술 센터의 위상을 강화함.",
+    "정부의 면역세포치료 규제 완화 및 첨단재생의료 임상연구 적합 의결 기조에 맞춰 원내 관련 연구 및 신의료기술 도입 방안을 검토함."
    ],
-   "count": 37,
+   "count": 40,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-24 06:46",
-   "sig": "3:p0ed48",
+   "generatedAt": "2026-10-24 13:36",
+   "sig": "3:7z6b2h",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043931",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171331",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941803",
@@ -1654,23 +1657,24 @@
  "weekly": {
   "date": "2026-10-24",
   "from": "2026-10-18",
-  "headline": "정부가 비대면진료 세부기준과 응급·바이오헬스 규제 개편을 본격 추진함",
+  "headline": "정부가 비대면진료 세부기준과 바이오헬스 규제합리화 방안을 입법예고하고 필수·응급의료 체계 개편을 추진함.",
   "points": [
    {
     "section": "정책",
-    "title": "비대면진료 시행규칙 개정 입법예고",
-    "body": "보건복지부가 6개월 내 대면진료 의료기관 원칙, 초진 시 주소지 동일 시도 제한, 최대 7일 처방 등의 기준을 담은 비대면진료 시행규칙 개정안을 입법예고함.",
+    "title": "비대면진료 세부기준 입법예고",
+    "body": "보건복지부가 6개월 내 동일 증상 의료기관 이용 원칙, 초진 시 동일 시·도 의원급 및 7일 처방 제한 등을 담은 의료법 하위법령 개정안을 입법예고함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043754",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오헬스 규제합리화 방안 발표",
-    "body": "정부가 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 없이 치료가 가능하도록 규제를 완화하는 바이오헬스 규제혁신 방안을 발표함.",
+    "title": "바이오헬스 규제 합리화 추진",
+    "body": "정부가 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 심의를 면제하는 등 첨단재생의료 규제를 완화함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904"
@@ -1678,25 +1682,24 @@
    },
    {
     "section": "정책",
-    "title": "응급실 전원 및 수용체계 법제화 추진",
-    "body": "중증응급환자 이송 지연 시 응급의료상황실이 지정한 병원의 의무 수용을 골자로 하는 개정 응급의료법이 시행되며 평일 응급실 전문의 배치 의무화 법안도 심사에 돌입함.",
+    "title": "응급의료 및 이송체계 법제화",
+    "body": "권역응급의료센터 평일 주간 필수과 전문의 배치 의무화와 응급의료상황실 지정 시 의무 수용 법안이 추진됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
     ]
    },
    {
     "section": "정책",
-    "title": "상급종합병원 지역별 지정 의무화",
-    "body": "보건복지부가 진료권역별로 요건을 갖춘 종합병원이 있다면 병상 수요와 무관하게 최소 1곳을 상급종합병원으로 의무 지정하는 방안을 추진함.",
+    "title": "상급종합병원 권역 지정 추진",
+    "body": "보건복지부가 병상 수요와 무관하게 요건을 갖춘 종합병원이 있다면 진료권역별로 최소 1곳을 상급종합병원으로 의무 지정하는 방안을 추진함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 대장항문 로봇수술 1000례",
+    "title": "울산대병원 로봇수술 1000례",
     "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
@@ -1704,113 +1707,110 @@
    },
    {
     "section": "병원",
-    "title": "국립암센터 전산망 지연 및 인력난",
-    "body": "국립암센터가 추진 중인 353억 원 규모의 차세대 정보시스템 구축 사업이 지연되고 신규 간호사 임용 포기율이 65%를 넘어 운영체계 개선 지적이 제기됨.",
+    "title": "지역 병원간 응급 협력 체계",
+    "body": "창원파티마병원이 양산부산대학교병원과 중증 응급 심혈관질환자 24시간 전원 협력체계를 구축함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941623",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043763"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629"
     ]
    }
   ],
   "implications": [
-   "정부의 비대면진료 시행규칙 개정과 초진 기준 구체화에 발맞추어 원내 관련 진료과의 진료 프로세스 및 시스템 정비를 검토함.",
-   "자가면역세포 치료 규제 완화 및 첨단재생의료 심의 기준 변화에 따라 관련 임상연구 추진 가능성을 검토함.",
-   "응급의료상황실 연계 의무 수용 및 응급실 전문의 배치 기준 강화에 대비하여 원내 응급진료 인프라와 대응 체계를 점검함."
+   "정부의 바이오헬스 규제 완화 기조에 발맞추어 말기 대장암 등 난치성 질환 면역세포치료 임상연구 참여 및 첨단재생의료 기술 확보를 검토함.",
+   "권역응급의료센터 전문의 배치 의무화 및 상급종합병원 지정 기준 변화에 대비하여 원내 필수·응급의료 인력 운영 체계를 점검함."
   ],
-  "count": 127,
+  "count": 130,
   "picks": 11,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-24 06:47",
-  "sig": "3:odss74"
+  "generatedAt": "2026-10-24 13:37",
+  "sig": "3:6br5xb"
  },
  "monthly": {
   "date": "2026-10-24",
   "from": "2026-09-25",
-  "headline": "보건복지부의 비대면진료 제도화 및 상급종합병원 구조전환 추진과 함께 필수·응급의료 체계 개편과 AI 활용 기준 정립이 가속화",
+  "headline": "상급종합병원 구조전환과 지역완결형 필수의료 강화를 중심으로 한 보건의료 정책 추진",
   "points": [
    {
     "section": "정책",
-    "title": "비대면진료 시행규칙 개정 추진",
-    "body": "보건복지부가 6개월 내 동일 증상 의료기관 이용 원칙 및 7일 처방 제한 등을 담은 비대면진료 시행규칙 개정안을 입법예고함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "상급종합병원 구조전환 및 지정",
-    "body": "상급종합병원 구조전환 지원사업이 추진되는 한편 진료권역별 최소 1곳 지정 및 초과 병상 소요병상 산정 제외 규정 개정이 시행됨.",
+    "title": "상급종합병원 구조전환 및 지정 개편",
+    "body": "정부는 4조 원 규모의 상급종합병원 구조전환 지원사업과 진료권역별 최소 1곳 지정 의무화 등 전달체계 개편을 추진 중이나, 성과 평가 체계 미비와 초과 병산 산정 제외 등의 과제가 제기됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941509"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
     ]
    },
    {
     "section": "정책",
-    "title": "필수 및 응급의료 체계 강화",
-    "body": "권역응급의료센터 전문의 배치 의무화 법안 심사 및 응급환자 이송체계 개선과 닥터헬기 광역 이송망 확대가 추진됨.",
+    "title": "필수·응급의료 체계 및 인력 강화",
+    "body": "응급실 전문의 배치 의무화, 권역외상센터 및 거점외상센터 지원, 정신응급의료 필수의료 지정 등 응급·필수의료 인프라 확충과 법적 부담 완화 대책이 논의됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302",
-     "https://www.mohw.go.kr/menu.es?mid=a10503010200",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "정신건강 및 자살예방 정책 수립",
-    "body": "제6차 자살예방기본계획 확정을 통해 정신응급이 필수의료로 지정되고 집중치료병상 확충이 추진됨.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941482",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오헬스 및 AI 규제 합리화",
-    "body": "자가면역세포 치료 위험도 하향 및 가명 의료정보 활용 규제 완화와 함께 정신건강 목적 생성형 AI 가이드라인이 발표됨.",
+    "title": "비대면진료 제도화 및 세부 기준 마련",
+    "body": "보건복지부는 6개월 내 동일 의료기관 재진 원칙, 주소지 한정 초진, 최대 7일 처방 등의 제한을 둔 비대면진료 시행규칙 개정안을 입법예고하며 의료계의 반발을 낳음.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "바이오헬스 규제 완화 및 디지털 의료",
+    "body": "자가면역세포 치료의 위험도 하향 및 심의 면제 등 신의료기술 규제가 완화되는 한편, WHO와 공동으로 안전한 의료 AI 활용을 위한 서울선언이 발표됨.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492181&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492180&tag=&nPage=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941687"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "건강보험 재정 관리 및 수가 개편",
+    "body": "향후 5년간 대규모 적자 전망에 따라 건보공단은 환산지수 BAP 모형 실증에 착수하고, 비급여 관리 강화 및 불법 개설 기관 단속을 위한 특사경 도입 논의가 진행됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941554",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941520"
     ]
    },
    {
     "section": "병원",
-    "title": "로봇수술 및 특화센터 고도화",
-    "body": "울산대병원이 부울경 최초 대장항문 로봇수술 1000례를 달성하고 서울아산병원이 국내 첫 소아신속대응팀을 신설함.",
+    "title": "첨단 로봇수술 및 스마트 인프라 도입",
+    "body": "울산대병원이 부울경 최초 대장항문 로봇수술 1000례를 달성했으며, 아주대병원은 5세대 다빈치5 로봇수술기를 도입하는 등 주요 병원의 첨단 장비 도입이 확대됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1"
     ]
    },
    {
     "section": "병원",
-    "title": "스마트병동 및 원격의료 협력",
-    "body": "부산대병원이 스마트병동 구축 및 해상의료 지원 협약을 체결하고 유성선병원이 뇌졸중 AI 판독 시스템을 도입함.",
+    "title": "원격의료 및 환자안전 특화센터 신설",
+    "body": "서울아산병원이 국내 최초로 소아신속대응팀을 신설하고, 부산대병원이 해양 원격의료 지원과 스마트병동 구축 협력을 추진하는 등 환자 안전과 비대면 지원 역량이 강화됨.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941766",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941738"
     ]
    }
   ],
   "implications": [
-   "정부의 상급종합병원 구조전환 및 진료권역별 지정 정책에 발맞추어 중증·필수 진료 역량 강화 전략을 수립함.",
-   "비대면진료 제도화 및 6개월 재진 원칙 도입에 따른 원내 환자 관리 및 연계 프로세스를 재정비함.",
-   "응급의료센터 전문의 배치 의무화 및 응급환자 수용 지침에 대응하여 필수 의료인력 확보와 당직 체계를 보완함.",
-   "바이오헬스 규제 완화 기조를 활용하여 첨단재생의료 및 면역세포 치료 임상연구 참여를 적극 검토함."
+   "상급종합병원 구조전환 지원사업과 연계하여 중증·필수의료 중심의 진료 비중을 높이고 법정 인력 기준을 선제적으로 충족해야 함.",
+   "권역외상센터 및 권역응급의료센터 운영에 있어 전문의 인력 확보와 최종 치료 역량 강화를 위한 내부 프로세스를 정비해야 함.",
+   "정부의 비대면진료 제도화 및 디지털 헬스케어 규제 완화 기조에 맞춰 원격협진 및 AI 기반 진료 보조 시스템 도입을 검토해야 함."
   ],
   "count": 300,
   "picks": 27,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-24 06:47",
-  "sig": "3:15jhbtz"
+  "generatedAt": "2026-10-24 13:37",
+  "sig": "3:1evnypj"
  }
 }
