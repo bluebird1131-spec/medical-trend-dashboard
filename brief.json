@@ -3,37 +3,61 @@
   {
    "date": "2026-10-26",
    "from": "2026-10-25",
-   "headline": "순천향대부천병원의 해외 건강검진센터 추진 및 지역의사제 정착 과제 대두",
+   "headline": "순천향대부천병원의 해외 진출 추진과 의료AI 수가 개편 및 보건의료 주요 정책 동향",
    "points": [
     {
      "section": "병원",
-     "title": "뉴질랜드 건강검진센터 추진",
-     "body": "순천향대부천병원이 뉴질랜드 기업과 협력하여 한국형 종합건강검진센터 설립을 위한 MOU를 체결함.",
+     "title": "순천향대부천병원 해외 진출 추진",
+     "body": "순천향대부천병원이 뉴질랜드 기업과 손잡고 한국형 종합건강검진센터 설립을 위한 MOU를 체결함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932"
      ]
     },
     {
      "section": "정책",
-     "title": "지역의사제 실습 및 정착 체계 지적",
-     "body": "대한예방의학회에서 지역의사제 및 국립의전원 도입 시 선발 외에도 실습, 수련, 현장 정착 지원체계 마련이 시급하다고 지적함.",
+     "title": "의료AI 수가 개편 구상",
+     "body": "보건복지부가 의료 인공지능 수가 체계를 사용량이 아닌 임상 성과 및 인프라 중심의 기관 단위 보상 방식으로 개편할 예정임.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "중증 희귀질환 시범사업 개시",
+     "body": "보건복지부가 루게릭병 등 중증근육성희귀질환자 전문요양병원 대상 건강보험 시범사업을 11월에 개시함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941832"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "항생제 관리 시범사업 성과 공유",
+     "body": "질병관리청이 항생제 적정사용 관리 시범사업 처방 중재 수용률 82% 등의 성과를 공유함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
      ]
     }
    ],
    "implications": [
-    "국내 의료기관의 해외 의료 서비스 진출 모델 검토 필요",
-    "향후 지역의사제 도입에 따른 수련 및 정착 지원 체계 변화 주시"
+    "보건복지부의 임상 성과 및 인프라 중심 의료AI 수가 개편 구상에 따른 원내 AI 활용 전략 수립 검토",
+    "질병관리청의 항생제 적정사용 관리 시범사업 성과를 참고하여 원내 항생제 처방 관리 체계 점검"
    ],
-   "count": 2,
+   "count": 10,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-26 00:05",
-   "sig": "3:mu6bp1",
+   "generatedAt": "2026-10-26 06:24",
+   "sig": "3:1n0g37r",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171380",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941832",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941830",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941839",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043951",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941627"
    ]
   },
   {
@@ -1754,94 +1778,102 @@
  "weekly": {
   "date": "2026-10-26",
   "from": "2026-10-20",
-  "headline": "정부가 비대면진료 제도화와 첨단바이오 규제 완화를 추진하는 가운데 의료계 반발과 현장 과제가 대두됨",
+  "headline": "이번 주 정부는 비대면진료 확대와 자가면역세포 치료 규제 혁신 등 보건의료 규제합리화와 제도 정비를 추진함",
   "points": [
    {
     "section": "정책",
-    "title": "비대면진료 시행규칙 추진 반발",
-    "body": "정부가 초진 허용 범위 확대 및 최대 30일 처방 허용 등을 담은 의료법 시행규칙 개정안을 입법예고한 것에 대해 의료계가 환자 안전 위협을 이유로 반발함.",
+    "title": "비대면진료·처방일수 확대 추진",
+    "body": "보건복지부가 초진 허용 범위 확대 및 최대 30일 처방을 담은 비대면진료 시행규칙 개정안을 입법예고하였으나 의료계의 반발이 이어짐.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043848"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오헬스 및 세포치료 규제 완화",
-    "body": "정부가 자가면역세포 치료의 위험도를 낮추고 2~3년의 선행 임상연구 절차를 면제하여 해외 원정치료 부담을 줄이는 규제합리화 방안을 추진함.",
+    "title": "자가면역세포 치료 규제 완화",
+    "body": "정부가 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 면제하는 바이오헬스 규제합리화 방안을 발표함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
     ]
    },
    {
     "section": "정책",
-    "title": "의사과학자 예산 삭감 및 인력난",
-    "body": "정부의 의사과학자 육성 기조에도 불구하고 관련 양성 예산이 삭감되었으며 공보의 급감과 의무사관후보생 감소로 군 및 취약지 의료 공백 위기가 심화됨.",
+    "title": "중증근육성희귀질환 시범사업 공모",
+    "body": "보건복지부가 루게릭병 등 중증근육성희귀질환자를 집중 진료하는 전문요양병원을 대상으로 건강보험 시범사업 참여기관 공모를 개시함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043897",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941641"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941832",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492316&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "응급의료체계 개편 및 이송 의무화",
-    "body": "개정 응급의료법 시행에 따라 중증응급환자 이송 지연 시 응급의료상황실이 지정한 병원의 의무 수용 및 면책 조항이 신설됨.",
+    "title": "응급의료법 개정에 따른 이송체계 정비",
+    "body": "응급의료법 시행으로 응급의료상황실 지정 시 중증응급환자 의무 수용 및 면책 조항이 신설되었으며 민간구급차 품질 인증제 시범사업이 추진됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492269&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "부울경 최초 로봇수술 1000례 달성",
+    "title": "부울경 첫 대장항문 로봇수술 1000례",
     "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
     ]
+   },
+   {
+    "section": "병원",
+    "title": "응급 심혈관질환 전원 핫라인 구축",
+    "body": "창원파티마병원이 양산부산대학교병원과 중증 응급 심혈관질환자 24시간 전원 협력체계를 구축함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629"
+    ]
    }
   ],
   "implications": [
-   "정부의 바이오헬스 규제 완화 및 첨단재생의료 임상연구 확대 기조에 발맞춰 자가면역세포 치료 등 신의료기술 연구 및 임상 적용 확대 방안 검토",
-   "응급의료법 개정에 따른 중증응급환자 의무 수용 지침과 응급의료상황실 연계 체계에 맞춘 원내 대응 프로세스 정비"
+   "보건복지부가 추진하는 자가면역세포 치료 등 첨단재생의료 규제 완화 기조에 맞춰 관련 임상연구 및 원내 적용 방안을 검토함",
+   "중증근육성희귀질환 전문요양병원 건강보험 시범사업 등 정부의 신규 정책 사업 공모에 적극 참여를 준비함",
+   "응급의료상황실 지정 및 중증응급환자 의무 수용 제도 시행에 발맞추어 원내 응급진료 전원 핫라인과 수용 체계를 재점검함"
   ],
-  "count": 109,
+  "count": 117,
   "picks": 5,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-26 00:06",
-  "sig": "3:14cexbs"
+  "generatedAt": "2026-10-26 06:25",
+  "sig": "3:53mhpc"
  },
  "monthly": {
-  "date": "2026-10-25",
-  "from": "2026-09-26",
-  "headline": "정부는 상종 구조전환과 필수의료·응급 대응 강화를 추진하는 한편 비대면진료 및 바이오헬스 규제 합리화를 본격화하고 있다.",
+  "date": "2026-10-26",
+  "from": "2026-09-27",
+  "headline": "정부는 상급종합병원 구조전환과 필수의료·응급체계 개편을 추진하며, 의료 AI와 바이오헬스 규제 합리화에 집중하고 있음",
   "points": [
    {
     "section": "정책",
-    "title": "상급종합병원 구조전환 및 지정 개편",
-    "body": "정부는 4조원이 투입되는 상급종합병원 구조전환 지원사업을 추진하는 동시에 진료권역별 최소 1곳의 상급종합병원 지정 의무화를 시행함.",
+    "title": "상급종합병원 구조전환 및 전달체계 개편",
+    "body": "4조 원 규모의 상급종합병원 구조전환 지원사업이 추진되고 있으나 성과평가 부재 등이 지적되었으며, 진료권역별 최소 1곳 지정 의무화와 초과 병산 산정 제외 규정 등이 시행 중임",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941509"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
     ]
    },
    {
     "section": "정책",
-    "title": "필수·응급의료 법제화 및 전달체계 확충",
-    "body": "응급실 내과·외과 등 전문의 배치 의무화 및 응급의료상황실의 중증응급환자 의무 수용 법안이 추진되며 지역 간 이송 안전망이 확대됨.",
+    "title": "필수·응급·외상의료 체계 강화 및 법적 부담 완화",
+    "body": "응급실 전문의 배치 의무화, 중증 응급환자 의무 수용 법제화, 거점외상센터 추가 선정 및 복지부·경찰청 간 필수의료 의료사고 수사 절차 개선 논의가 진행됨",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302",
-     "https://www.mohw.go.kr/menu.es?mid=a10503010200"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "비대면진료 세부기준 및 처방 제한",
-    "body": "보건복지부는 6개월 내 동일 의료기관 재진 원칙과 초진 시 주소지 한정 및 7일 이내 처방 제한을 담은 시행규칙 개정안을 입법예고함.",
+    "title": "비대면진료 제도화 및 세부 기준 입법예고",
+    "body": "6개월 내 동일 의료기관 재진 원칙, 초진 시 주소지 한정 및 최대 7일 처방 제한 등을 담은 비대면진료 시행규칙 개정안이 입법예고되어 의료계의 반발과 논란이 이어짐",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
@@ -1850,28 +1882,26 @@
    },
    {
     "section": "정책",
-    "title": "바이오헬스 및 세포치료 규제 완화",
-    "body": "말기 대장암 등 난치질환 대상 자가면역세포 치료의 위험도를 하향하고 선행 임상연구 절차를 면제하는 규제합리화 방안이 추진됨.",
+    "title": "바이오헬스 및 첨단재생의료 규제 완화",
+    "body": "자가면역세포 치료의 위험도를 하향하고 2~3년의 선행 임상연구 절차를 면제하는 등 선진국 수준의 바이오헬스 규제 혁신 방안이 추진됨",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
     ]
    },
    {
     "section": "정책",
-    "title": "건강보험 재정 관리 및 비급여 통제",
-    "body": "향후 5년간 수조 원대 적자가 전망되는 건보 재정 건전성 확보를 위해 환산지수 모형 개편과 비급여 관리 강화 논의가 진행됨.",
+    "title": "의료 AI 수가 체계 개편 및 국제 연대",
+    "body": "의료 인공지능 수가를 사용량이 아닌 임상 성과 및 인프라 중심으로 개편할 예정이며, 한국 정부와 WHO가 안전한 의료 AI 활용을 위한 서울선언을 발표함",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941520"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941687"
     ]
    },
    {
     "section": "병원",
-    "title": "로봇수술 1000례 및 신기술 도입",
-    "body": "울산대병원이 부울경 최초로 대장항문 로봇수술 1000례를 달성했으며 주요 병원들이 다빈치 5 등 첨단 로봇수술 시스템을 잇달아 도입함.",
+    "title": "로봇수술 1000례 달성 및 스마트 진료 도입",
+    "body": "울산대병원이 부울경 최초로 대장항문 로봇수술 1000례를 달성했으며, 주요 대학병원들이 최신 로봇수술 시스템과 실시간 생체신호 모니터링 체계를 적극 도입함",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
@@ -1880,24 +1910,23 @@
    },
    {
     "section": "병원",
-    "title": "스마트병원 및 원격협력 체계 구축",
-    "body": "주요 상급종합병원과 공공의료기관을 중심으로 AI 기반 모니터링 시스템, 환자경험 통합 플랫폼 구축 및 병원 간 응급 전원 핫라인이 확대됨.",
+    "title": "중증·응급 환자 전원 및 협력 네트워크 구축",
+    "body": "창원파티마병원이 양산부산대병원과 응급 심혈관질환 전원 핫라인을 구축하는 등 병원 간 진료 협력 체계가 확산됨",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629"
     ]
    }
   ],
   "implications": [
-   "상급종합병원 구조전환 및 권역별 지정 의무화 기조에 발맞추어 중증·희귀질환 중심의 진료 비중을 높이고 지역완결형 의료전달체계 내 협력 체계를 강화해야 함.",
-   "권역외상센터 및 중증응급 진료 인력 기준을 점검하고, 필수·응급의료 전문의 확보 및 보호수련시간 보장을 위한 내부 운영 방안을 마련해야 함.",
-   "정부의 비대면진료 제도화와 AI·디지털헬스케어 규제 완화 흐름에 대응하여 원격 협진 및 스마트병동 관련 인프라 도입을 검토해야 함."
+   "상급종합병원 구조전환 지원사업과 연계하여 중증·희귀질환 중심의 진료 역량을 강화하고 인력 운영 체계를 재정비",
+   "응급실 전문의 배치 의무화 및 중증응급환자 수용 정책에 선제적으로 대응하여 원내 응급·외상 의료 인프라 보완",
+   "정부의 의료 AI 및 첨단재생의료 규제 완화 기조에 맞춰 원내 세포치료 임상연구 및 AI 기반 진단 솔루션 도입 검토",
+   "지방 의료기관의 전문의 채용난과 필수의료 인력 이탈 심화에 대응한 자체 유인책 및 수련환경 개선 방안 마련"
   ],
   "count": 300,
   "picks": 27,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-25 13:39",
-  "sig": "3:ufh7wy"
+  "generatedAt": "2026-10-26 06:25",
+  "sig": "3:1oe266k"
  }
 }
