@@ -14,15 +14,12 @@
  * 예약 실행 (wrangler.toml 의 crons, UTC) — GitHub 자체 예약은 몇 시간씩 밀리거나 빠져서 여기서 깨움
  *   매 30분          대시보드 update.yml (새 기사 분석 → 시트 → 홈페이지)
  *   06:10·13:10 KST  수집 봇 scrape.yml
- *   매시 정각        02 이슈 키워드 collect.yml (30분 예약의 정각 회차에 같이 실행)
  */
 const REPO = 'bluebird1131-spec/medical-trend-dashboard';
 const WORKFLOW = 'update.yml';
 const BOT_REPO = 'bluebird1131-spec/medical-news-bot';
 const BOT_WORKFLOW = 'scrape.yml';
 const CRON_BOT = '10 21,4 * * *';
-const KW_REPO = 'bluebird1131-spec/issue-keyword';   // 02 이슈 키워드 사이트 (매시 정각)
-const KW_WORKFLOW = 'collect.yml';
 const ALLOWED_ORIGINS = ['https://bluebird1131-spec.github.io', 'http://localhost:8811'];
 const STATUSES = ['필요', '검토필요', '불필요'];
 const KINDS = ['의견', '오류 신고', '기능 요청', '기사 제보'];
@@ -31,8 +28,6 @@ export default {
   async scheduled(event, env, ctx) {
     // auto=1: 예약이 드물게 두 번 와도 각 워크플로가 중복 실행을 건너뜀
     const jobs = event.cron === CRON_BOT ? [[BOT_REPO, BOT_WORKFLOW, { auto: '1' }]] : [[REPO, WORKFLOW, { auto: '1' }]];
-    // 02 이슈 키워드 사이트: 30분 예약 중 정각 회차에 같이 깨움 (무료 플랜 예약 개수 한도 때문에 예약을 새로 만들지 않음)
-    if (event.cron !== CRON_BOT && new Date(event.scheduledTime).getUTCMinutes() < 30) jobs.push([KW_REPO, KW_WORKFLOW, {}]);
     for (const [repo, wf, inputs] of jobs) {
       const dispatch = () => gh(env, `/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: 'main', inputs }) });
       let res = await dispatch();
