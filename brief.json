@@ -1797,112 +1797,115 @@
  "weekly": {
   "date": "2026-10-26",
   "from": "2026-10-20",
-  "headline": "정부가 비대면진료와 세포치료 규제를 완화하고 상급종합병원 구조 개편을 추진하는 등 보건의료 제도의 전환을 가속화하고 있다.",
+  "headline": "정부가 비대면진료 제도화와 바이오헬스 규제 혁신을 추진하는 가운데 현장의 정책 대응과 의료서비스 개편이 가속화됨.",
   "points": [
    {
     "section": "정책",
-    "title": "비대면진료 시행규칙 개정 추진",
-    "body": "보건복지부가 초진 허가 범위 확대 및 최대 30일 처방을 허용하는 비대면진료 시행규칙 개정안을 입법예고하였으나 의료계와 산업계의 입장이 엇갈리고 있다.",
+    "title": "비대면진료 및 처방 범위 확대",
+    "body": "보건복지부가 초진 허용 범위 확대와 최대 30일 처방을 담은 비대면진료 시행규칙 개정안을 입법예고했으나 의료계의 반발이 제기됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043865",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043754"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043955",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921"
     ]
    },
    {
     "section": "정책",
-    "title": "자가면역세포치료 규제 혁신",
-    "body": "정부가 안전성이 입증된 자가면역세포 치료의 위험도를 하향하고 선행 임상연구 절차를 면제하는 등 바이오헬스 규제 빗장을 푼다.",
+    "title": "자가면역세포치료 규제 완화",
+    "body": "정부가 말기 대장암 등 난치성 질환 치료를 위해 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 면제하는 규제 혁신을 추진함.",
     "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904"
     ]
    },
    {
     "section": "정책",
-    "title": "상급종합병원 지역별 의무화",
-    "body": "보건복지부가 진료권역별로 병상 수요와 무관하게 요건을 갖춘 종합병원이 있다면 최소 1곳을 상급종합병원으로 의무 지정하는 방안을 추진한다.",
+    "title": "의료 인력 수급 및 전공의 배정",
+    "body": "정부가 내년도 레지던트 1년 차 정원을 늘리고 지역 및 필수의료 분야에 별도 정원을 추가 배정할 방침이나 군의관과 공보의 부족 문제가 심화됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171353"
     ]
    },
    {
     "section": "정책",
-    "title": "의사과학자 양성 예산 삭감",
-    "body": "정부의 의사과학자 육성 기조에도 불구하고 2027년도 글로벌 의사과학자 양성 사업 예산은 전년 대비 16.7% 삭감된 것으로 나타났다.",
+    "title": "응급의료 및 이송체계 개편",
+    "body": "개정 응급의료법 시행에 따라 응급의료상황실이 지정한 병원의 중증응급환자 의무 수용이 추진되고 우수 민간구급차 인증제 시범사업이 도입됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941641",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043778"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492269&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 로봇수술 1000례 달성",
-    "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성하며 첨단 의료 역량을 입증했다.",
+    "title": "울산대병원 로봇수술 1000례",
+    "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
     ]
    },
    {
     "section": "병원",
-    "title": "지역 병원 간 응급 협력체계 구축",
-    "body": "창원파티마병원이 양산부산대학교병원과 중증 응급 심혈관질환자 24시간 전원 협력체계를 구축하는 등 지역 내 연계가 강화되고 있다.",
+    "title": "중증 응급 전원 협력체계 구축",
+    "body": "지역 의료기관 간 중증 응급 심혈관질환자 24시간 전원 협력체계와 산전관리 진료연계 플랫폼 구축이 확산됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941684"
     ]
    }
   ],
   "implications": [
-   "정부의 상급종합병원 지정 요건 개편 및 지역별 의무화 기조에 맞추어 울산대학교병원의 중증·필수의료 인프라와 진료 체계를 선제적으로 정비해야 함.",
-   "자가면역세포치료 등 첨단재생의료 관련 규제 완화 기조에 발맞추어 관련 임상연구 및 신의료기술 도입을 적극 검토할 필요가 있음."
+   "정부의 자가면역세포치료 규제 완화 및 첨단재생의료 임상연구 제도 개편에 발맞추어 관련 난치성 질환 세포치료 연구 및 인프라를 정비함.",
+   "내년도 필수의료 및 지역 <b>의대 정원 확대 및 전공의 배정 방침</b>에 대응하여 수련 교육 환경과 인력 운영 계획을 선제적으로 수립함.",
+   "응급의료법 개정에 따른 중증응급환자 수용 의무화 및 응급의료상황실 연계 지침 변화에 맞춰 원내 응급진료 프로세스를 점검함."
   ],
-  "count": 112,
+  "count": 132,
   "picks": 6,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-26 12:31",
-  "sig": "3:ntyr3d"
+  "generatedAt": "2026-10-26 16:07",
+  "sig": "3:jsfdpa"
  },
  "monthly": {
   "date": "2026-10-26",
   "from": "2026-09-27",
-  "headline": "정부는 상급종합병원 구조전환과 필수의료 강화를 추진하며 비대면진료 및 바이오헬스 규제를 합리화하는 방향으로 보건의료 정책을 전개하고 있음.",
+  "headline": "정부가 상급종합병원 구조전환, 비대면진료 제도화, 필수의료 수가 개편 등 의료체계 전면 개혁을 가속화하고 있다.",
   "points": [
    {
     "section": "정책",
-    "title": "상급종합병원 구조전환 및 지정 기준 정비",
-    "body": "복지부가 4조 원 규모의 상급종합병원 구조전환 지원사업을 추진하는 한편 진료권역별 최소 1곳 의무 지정 및 초과 병상 산정 제외 규정을 시행함.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "필수·응급의료 체계 법제화 및 인력난 심화",
-    "body": "응급실 평일 특정과 전문의 배치 의무화와 중증응급환자 이송체계 법제화가 추진되는 가운데 공보의 및 의무사관후보생 급감으로 취약지 의료 공백 우려가 커짐.",
+    "title": "상급종합병원 구조전환 및 필수·응급의료 강화",
+    "body": "4조 원이 투입되는 상급종합병원 구조전환 지원사업이 추진 중이며 권역응급의료센터 내과·외과 등 전문의 배치 의무화와 중증외상 최종치료 역량 강화를 위한 거점외상센터 선정이 진행됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1"
     ]
    },
    {
     "section": "정책",
-    "title": "비대면진료 및 약 배송 제도화 추진",
-    "body": "정부가 6개월 내 동일 증상 재진 및 동일 시·도 의원급 초진 허용, 처방일수 7일 원칙을 담은 비대면진료 시행규칙 개정안을 입법예고하여 의료계와 논의를 지속함.",
+    "title": "비대면진료 제도의 구체화 및 법정 기준 마련",
+    "body": "보건복지부가 6개월 내 동일 증상 재진 중심 및 동일 시·도 의원급 초진 허용, 처방일수 7일 제한 등을 담은 비대면진료 시행규칙 개정안을 입법예고함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오헬스 규제 완화 및 AI 활용 기반 조성",
-    "body": "정부가 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 완화하는 규제합리화 방안을 발표했으며 WHO와 함께 안전한 의료AI 활용을 위한 서울선언을 채택함.",
+    "title": "필수의료 및 지역의료 인력 확충·지원 체계",
+    "body": "공중보건의사 및 의무사관후보생 급감에 대응하여 시니어의사 지원사업이 확대되고 있으며 필수의료 과목 전문의의 예방의학 수련 기간 단축 융합 수련 시범사업이 추진됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043897",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941414"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 및 첨단 바이오헬스 규제 완화",
+    "body": "정부가 자가면역세포 치료의 위험도를 하향하고 선행 임상연구 절차를 면제하는 등 바이오헬스 규제 합리화 방안을 발표하고 의료 AI의 안전한 사용을 위한 국제 연대를 추진함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357",
@@ -1911,45 +1914,41 @@
    },
    {
     "section": "정책",
-    "title": "건강보험 재정 관리 및 비급여 통제 강화",
-    "body": "건보공단이 향후 수조 원대 적자 전망에 따라 재정 건전성 확보에 나선 가운데, 도수치료 관리급여 전환과 비급여 진료 관리 및 실손보험 연계 정책이 쟁점화됨.",
+    "title": "건강보험 재정 관리 및 비급여·실손보험 통제",
+    "body": "향후 수조 원대 적자가 전망되는 건보 재정 건전성 확보를 위해 환산지수 개편 모형 실증에 착수하고 도수치료 관리급여 등 비급여 진료 관리를 강화함.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171232",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941554"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941533"
     ]
    },
    {
     "section": "병원",
-    "title": "첨단 로봇수술 도입 및 치료 성과 확대",
-    "body": "울산대병원이 부울경 최초 대장항문 로봇수술 1000례를 달성했으며 주요 상급종합병원들이 최신 5세대 로봇수술 시스템과 특화 수술을 적극 도입함.",
+    "title": "울산대병원 로봇수술 1000례 달성",
+    "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "주요 병원 첨단 스마트 의료 인프라 도입",
+    "body": "아주대병원이 5세대 로봇수술기 다빈치 5를 도입하고, 삼성서울병원이 항암환자 관리를 위한 AI 챗봇 서비스를 도입함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "AI 기반 실시간 모니터링 및 진료 혁신",
-    "body": "국내 주요 병원들이 입원환자 생체신호 실시간 모니터링 시스템과 AI 기반 임상 의무기록 자동화 및 응급진료 판독 솔루션을 도입함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941799",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941766",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
     ]
    }
   ],
   "implications": [
-   "상급종합병원 구조전환 기조에 발맞추어 중증·희귀질환 중심의 진료 역량을 강화하고 전문의 중심의 진료 체계를 재정비함.",
-   "권역외상센터 및 응급의료 인력 기준을 점검하고 필수·응급의료 분야의 안정적인 의료진 확보 및 수련 환경 개선을 검토함.",
-   "정부의 바이오헬스 규제 완화 및 첨단재생의료 정책에 대응하여 자가면역세포 치료 등 신의료기술 임상 연구 참여를 확대함.",
-   "의료 AI 및 스마트 병동 솔루션 도입을 가속화하여 환자 안전 관리 및 진료 효율성을 제고함."
+   "정부의 상급종합병원 구조전환 기조에 맞추어 중증·희귀질환 중심의 진료 비중을 높이고 적정 진료 체계를 선제적으로 구축해야 함",
+   "응급실 전문의 배치 의무화 및 권역외상센터 법정 인력 기준 강화 추세에 발맞추어 필수 진료과 인력 확보 및 당직 체계를 재정비해야 함",
+   "의료 AI 및 첨단재생의료 규제 완화 흐름을 활용하여 원내 신의료기술 도입과 디지털헬스케어 연구 경쟁력을 선점해야 함"
   ],
   "count": 300,
   "picks": 28,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-26 12:32",
-  "sig": "3:1p847mv"
+  "generatedAt": "2026-10-26 16:12",
+  "sig": "3:1p9m65j"
  }
 }
