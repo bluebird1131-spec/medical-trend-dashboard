@@ -3,52 +3,45 @@
   {
    "date": "2026-10-26",
    "from": "2026-10-25",
-   "headline": "의료기관 해외 진출과 신기술 소개 및 의료AI 성과 기반 수가 개편 등 보건의료 정책 추진",
+   "headline": "울산의대 임상실습 서울 편중 국감 시정 촉구 및 의료AI 성과 기반 보상 개편 등 보건의료 동향",
    "points": [
     {
-     "section": "병원",
-     "title": "순천향대부천병원, 해외 검진센터 설립 추진",
-     "body": "순천향대부천병원이 뉴질랜드 기업과 업무협약을 체결하고 한국형 종합건강검진센터 설립을 추진함.",
+     "section": "정책",
+     "title": "울산의대 임상실습 편중 시정 촉구",
+     "body": "국회 교육위 국정감사에서 울산의대 임상실습의 90.4%가 서울아산병원에서 이뤄지는 실태에 대한 시정 촉구. 지역의사제 도입 논의와 함께 실습·수련 및 현장 정착 지원체계 마련 지적.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933"
      ]
     },
     {
      "section": "병원",
-     "title": "뷰노, 키오스크형 심전도 측정기기 소개",
-     "body": "뷰노가 KIMES BUSAN 2026에서 키오스크형 심전도 측정기기 HATIV K30을 활용한 산업현장 심전도 측정 모델을 선보임.",
+     "title": "뷰노 셀프 심전도 측정기기 공개",
+     "body": "뷰노가 KIMES BUSAN 2026에서 키오스크형 심전도 측정기기 HATIV K30을 선보이며 산업현장 활용 모델 소개.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941846"
      ]
     },
     {
      "section": "정책",
-     "title": "복지부, 의료AI 임상 성과 기반 보상 개편",
-     "body": "보건복지부가 의료 인공지능 수가 체계를 사용량 중심에서 임상 성과 및 인프라 중심의 기관 단위 보상 방식으로 개편하겠다는 구상을 밝힘.",
+     "title": "의료AI 성과 기반 보상 개편",
+     "body": "보건복지부가 의료 인공지능 수가 체계를 단순 사용량이 아닌 임상 성과 및 인프라 중심의 기관 단위 보상 방식으로 개편 추진 구상 발표.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "질병청, 항생제 적정사용 권고 수용률 공유",
-     "body": "질병관리청이 78개 의료기관이 참여한 항생제 적정사용 관리 시범사업 1차연도 성과 공유회를 열고 처방 중재 수용률 82% 결과를 발표함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
      ]
     }
    ],
    "implications": [
-    "보건복지부의 의료AI 기관 단위·임상 성과 중심 수가 개편 방향에 맞춘 원내 인공지능 솔루션 도입 인프라 및 성과 지표 관리 방안 검토",
-    "질병관리청 시범사업 성과를 참고한 원내 항생제 처방 중재 수용률 향상 및 적정사용 관리 프로세스 점검",
-    "활용 기관이 미미한 국립암센터 암 빅데이터 등 공공 암 데이터 자원의 원내 연구 및 임상 연계 활용 가능성 검토"
+    "국감 시정 요구에 맞춘 울산의대생 원내 임상실습 확대 수용 방안 및 지역 정착 연계 수련 체계 점검",
+    "정부의 임상 성과·인프라 기반 의료AI 보상 개편 구상에 대응한 원내 의료 인공지능 도입 및 성과 관리 체계 검토"
    ],
-   "count": 7,
-   "picks": 0,
+   "count": 8,
+   "picks": 1,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-26 09:19",
-   "sig": "3:1r716sa",
+   "generatedAt": "2026-10-26 09:21",
+   "sig": "3:1wfc2if",
    "links": [
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941846",
