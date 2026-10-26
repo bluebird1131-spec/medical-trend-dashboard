@@ -3,52 +3,80 @@
   {
    "date": "2026-10-26",
    "from": "2026-10-25",
-   "headline": "울산의대 임상실습 서울 편중 국감 시정 촉구 및 의료AI 성과 기반 보상 개편 등 보건의료 동향",
+   "headline": "울산의대 실습 수도권 집중 지적과 병원급 항생제 적정사용 관리 확대 추진",
    "points": [
     {
+     "section": "병원",
+     "title": "항암환자 AI 챗봇 도입",
+     "body": "삼성서울병원이 카카오톡 기반 AI 챗봇을 활용해 항암환자의 말초중심정맥관(PICC) 관리를 지원하는 서비스를 도입함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967"
+     ]
+    },
+    {
      "section": "정책",
-     "title": "울산의대 임상실습 편중 시정 촉구",
-     "body": "국회 교육위 국정감사에서 울산의대 임상실습의 90.4%가 서울아산병원에서 이뤄지는 실태에 대한 시정 촉구. 지역의사제 도입 논의와 함께 실습·수련 및 현장 정착 지원체계 마련 지적.",
+     "title": "울산의대 실습 수도권 편중",
+     "body": "국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있어 지역 실태 시정이 촉구됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "뷰노 셀프 심전도 측정기기 공개",
-     "body": "뷰노가 KIMES BUSAN 2026에서 키오스크형 심전도 측정기기 HATIV K30을 선보이며 산업현장 활용 모델 소개.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941846"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
      ]
     },
     {
      "section": "정책",
-     "title": "의료AI 성과 기반 보상 개편",
-     "body": "보건복지부가 의료 인공지능 수가 체계를 단순 사용량이 아닌 임상 성과 및 인프라 중심의 기관 단위 보상 방식으로 개편 추진 구상 발표.",
+     "title": "항생제 관리 병원급 확대",
+     "body": "질병관리청이 항생제 오남용을 방지하기 위해 항생제 적정사용 관리 체계를 병원급 의료기관까지 확대 추진함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043977"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료AI 수가 개편 구상",
+     "body": "보건복지부가 의료 인공지능 수가 체계를 단순 사용량 중심에서 임상 성과 및 기관 단위 보상 방식으로 개편할 계획임.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
      ]
     }
    ],
    "implications": [
-    "국감 시정 요구에 맞춘 울산의대생 원내 임상실습 확대 수용 방안 및 지역 정착 연계 수련 체계 점검",
-    "정부의 임상 성과·인프라 기반 의료AI 보상 개편 구상에 대응한 원내 의료 인공지능 도입 및 성과 관리 체계 검토"
+    "울산의대 소속 대학으로서 향후 지역 의료기관 실습망 구축 및 의대 교육 내실화 요구에 대한 대응 전략 검토 필요",
+    "질병관리청의 병원급 항생제 적정사용 관리 확대 정책에 발맞춘 원내 항생제 관리 체계 점검 필요"
    ],
-   "count": 8,
+   "count": 28,
    "picks": 1,
-   "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-26 09:21",
-   "sig": "3:1wfc2if",
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-10-26 13:36",
+   "sig": "3:wbctu0",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941870",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941860",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941834",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941664",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941631",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941644",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043936",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043977",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043970",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043955",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043945",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043949",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043944",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043946",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043943",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941846",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941839",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941627",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043975"
    ]
   },
   {
