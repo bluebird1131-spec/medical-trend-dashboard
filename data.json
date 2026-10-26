@@ -18512,20 +18512,6 @@
   [
    "2026-10-25",
    "데일리메디",
-   "적자 누적 지방의료원…전북 ‘기부금 모집 특례’ 주목",
-   "필요",
-   "국가정책/수가제도",
-   "[필요-지방의료원지원] 전북특별법 개정안 시행으로 도내 인구감소지역 지방의료원의 기부금품 모집 특례가 허용됨.",
-   "전북특별자치도",
-   "전북",
-   "2026-10-24",
-   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941722",
-   "자료수집",
-   ""
-  ],
-  [
-   "2026-10-25",
-   "데일리메디",
    "의무사관후보생 ‘뚝’…군(軍)·취약지의료 ‘위기’",
    "필요",
    "국가정책/수가제도",
@@ -18534,20 +18520,6 @@
    "전국",
    "2026-10-24",
    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815",
-   "자료수집",
-   ""
-  ],
-  [
-   "2026-10-25",
-   "데일리메디",
-   "순천병원 55억·대전병원 54억·태백병원 51억 적자",
-   "필요",
-   "병원경영/전략",
-   "[필요-공공병원적자] 근로복지공단 산하 산재병원 11곳의 적자 누적 및 의사 퇴사율 상승 등 경영 위기가 지속됨.",
-   "근로복지공단",
-   "전국",
-   "2026-10-24",
-   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941807",
    "자료수집",
    ""
   ],
@@ -19318,9 +19290,7 @@
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043921_3047822_1424_v150.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043915_3047815_4658_v150.jpg",
   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357": "https://pds.medicaltimes.com/Thumnail/20261023/1792734521.jpg",
-  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941722": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261021_832902480_rpLWeSZ3_561b7df2a504d41f3e2517c576bc3177437b8807_800x419.jpg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261023_990500229_1n9gP4yL_3eb9ad2f441051417d91d87a7a3093a0ec209271_800x536.jpg",
-  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941807": "https://www.dailymedi.com/data/news_file/sns/thumb-3076535723_zns2x4dU_351ca843f23db10e4722b6471e3e9abba886ebf5_800x400.png",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941816": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261023_1889198402_2afujtI1_331c4337ecd6a8164a96ba3fdd9f801b82efef32_800x600.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043933_3047837_4635_v150.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3043932_3047834_4716_v150.jpg",
@@ -19330,5 +19300,5 @@
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261022_3698635698_Z2bFMrkH_8e7645b5e5f8a1bfdbb123eb672395b18fe72441_800x600.jpg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829": "https://www.dailymedi.com/data/news_file/sns/thumb-832902480_RectkCJ2_054a452d439e8660eacd52c6b51c441cafd1e8f6_800x400.jpg"
  },
- "fetchedAt": "2026-10-26 09:20"
+ "fetchedAt": "2026-10-26 09:26"
 }
