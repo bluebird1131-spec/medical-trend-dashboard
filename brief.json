@@ -1,6 +1,80 @@
 {
  "days": [
   {
+   "date": "2026-10-27",
+   "from": "2026-10-26",
+   "headline": "국정감사에서 울산의대 실습의 서울아산병원 편중 지적이 제기된 가운데 보건의료 정책과 제도가 개편될 예정임",
+   "points": [
+    {
+     "section": "정책",
+     "title": "울산의대 임상실습 수도권 집중",
+     "body": "국회 교육위 국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있다는 지적과 함께 시정이 촉구됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "내년도 전공의 정원 및 지역 배정",
+     "body": "정부는 내년도 레지던트 1년차 기본정원을 늘리고 지역 및 필수의료 분야에 별도 정원을 추가 배정할 방침임.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "항생제 적정사용 관리 확대",
+     "body": "질병관리청은 항생제 오남용을 줄이기 위해 적정사용 관리 체계를 병원급 의료기관까지 확대 추진함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043977"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "국가건강검진 검체검사 개편",
+     "body": "보건의료계의 우려 속에서 국가건강검진 검체검사가 건보 급여검사와 동일한 위수탁 개편 대상에 포함되어 추진될 예정임.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043944"
+     ]
+    }
+   ],
+   "implications": [
+    "울산의대 실습 교육과 관련하여 지역 의료기관 활용도를 높이고 의대와의 연계 방안을 점검함",
+    "내년도 필수의료 및 지역별 전공의 추가 배정 방침에 맞춰 원내 수련 환경과 정원 확보 전략을 검토함",
+    "질병관리청의 병원급 항생제 적정사용 관리 확대에 선제적으로 원내 항생제 관리 체계를 정비함"
+   ],
+   "count": 21,
+   "picks": 1,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-10-27 00:26",
+   "sig": "3:18vyj60",
+   "links": [
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941870",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941860",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941834",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941664",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941631",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941644",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043936",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043977",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043970",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043955",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043945",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043949",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043944",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043946",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043943",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043975"
+   ]
+  },
+  {
    "date": "2026-10-26",
    "from": "2026-10-25",
    "headline": "울산의대 실습 수도권 집중 지적과 병원급 항생제 적정사용 관리 확대 추진",
@@ -1795,47 +1869,43 @@
   }
  ],
  "weekly": {
-  "date": "2026-10-26",
-  "from": "2026-10-20",
-  "headline": "정부가 비대면진료 제도화와 바이오헬스 규제 혁신을 추진하는 가운데 현장의 정책 대응과 의료서비스 개편이 가속화됨.",
+  "date": "2026-10-27",
+  "from": "2026-10-21",
+  "headline": "정부가 필수의료 및 지역의사제 정비와 함께 AI 수가 체계 개편과 바이오헬스 규제 완화를 추진함.",
   "points": [
    {
     "section": "정책",
-    "title": "비대면진료 및 처방 범위 확대",
-    "body": "보건복지부가 초진 허용 범위 확대와 최대 30일 처방을 담은 비대면진료 시행규칙 개정안을 입법예고했으나 의료계의 반발이 제기됨.",
+    "title": "울산의대 수도권 실습 지적",
+    "body": "국회 교육위 국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있는 수도권 집중 실태에 대한 시정이 촉구됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043955",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
     ]
    },
    {
     "section": "정책",
-    "title": "자가면역세포치료 규제 완화",
-    "body": "정부가 말기 대장암 등 난치성 질환 치료를 위해 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 면제하는 규제 혁신을 추진함.",
+    "title": "필수·지역의료 정원 확대",
+    "body": "정부는 내년도 레지던트 1년차 기본정원을 늘리고 지역 및 필수의료 분야에 별도 정원을 추가 배정할 방침임.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 및 세포치료 규제 완화",
+    "body": "정부는 의료 AI 수가를 임상 성과 기반으로 개편하고 자가면역세포 치료의 위험도를 낮추어 규제를 완화함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 인력 수급 및 전공의 배정",
-    "body": "정부가 내년도 레지던트 1년 차 정원을 늘리고 지역 및 필수의료 분야에 별도 정원을 추가 배정할 방침이나 군의관과 공보의 부족 문제가 심화됨.",
+    "title": "응급의료 수용 의무화 추진",
+    "body": "개정된 응급의료법에 따라 중증응급환자 이송 지연 시 응급의료상황실이 지정한 병원은 의무 수용해야 함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171353"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "응급의료 및 이송체계 개편",
-    "body": "개정 응급의료법 시행에 따라 응급의료상황실이 지정한 병원의 중증응급환자 의무 수용이 추진되고 우수 민간구급차 인증제 시범사업이 도입됨.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492269&tag=&nPage=1"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
     ]
    },
    {
@@ -1845,27 +1915,18 @@
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
     ]
-   },
-   {
-    "section": "병원",
-    "title": "중증 응급 전원 협력체계 구축",
-    "body": "지역 의료기관 간 중증 응급 심혈관질환자 24시간 전원 협력체계와 산전관리 진료연계 플랫폼 구축이 확산됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941684"
-    ]
    }
   ],
   "implications": [
-   "정부의 자가면역세포치료 규제 완화 및 첨단재생의료 임상연구 제도 개편에 발맞추어 관련 난치성 질환 세포치료 연구 및 인프라를 정비함.",
-   "내년도 필수의료 및 지역 <b>의대 정원 확대 및 전공의 배정 방침</b>에 대응하여 수련 교육 환경과 인력 운영 계획을 선제적으로 수립함.",
-   "응급의료법 개정에 따른 중증응급환자 수용 의무화 및 응급의료상황실 연계 지침 변화에 맞춰 원내 응급진료 프로세스를 점검함."
+   "울산의대 실습의 지역 분산 및 울산대학교병원 내 임상실습 인프라 확충 방안 마련 검토",
+   "정부의 임상 성과 중심 의료 AI 수가 개편 및 바이오헬스 규제 완화 기조에 맞춘 원내 첨단 의료기술 도입 검토",
+   "응급의료법 개정에 따른 중증응급환자 수용 의무화 및 응급실 체계 정비 추진"
   ],
-  "count": 132,
-  "picks": 6,
+  "count": 97,
+  "picks": 2,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-26 16:07",
-  "sig": "3:jsfdpa"
+  "generatedAt": "2026-10-27 00:28",
+  "sig": "3:7p5kn"
  },
  "monthly": {
   "date": "2026-10-26",
