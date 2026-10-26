@@ -3,61 +3,59 @@
   {
    "date": "2026-10-26",
    "from": "2026-10-25",
-   "headline": "순천향대부천병원의 해외 진출 추진과 의료AI 수가 개편 및 보건의료 주요 정책 동향",
+   "headline": "의료기관 해외 진출과 신기술 소개 및 의료AI 성과 기반 수가 개편 등 보건의료 정책 추진",
    "points": [
     {
      "section": "병원",
-     "title": "순천향대부천병원 해외 진출 추진",
-     "body": "순천향대부천병원이 뉴질랜드 기업과 손잡고 한국형 종합건강검진센터 설립을 위한 MOU를 체결함.",
+     "title": "순천향대부천병원, 해외 검진센터 설립 추진",
+     "body": "순천향대부천병원이 뉴질랜드 기업과 업무협약을 체결하고 한국형 종합건강검진센터 설립을 추진함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932"
      ]
     },
     {
+     "section": "병원",
+     "title": "뷰노, 키오스크형 심전도 측정기기 소개",
+     "body": "뷰노가 KIMES BUSAN 2026에서 키오스크형 심전도 측정기기 HATIV K30을 활용한 산업현장 심전도 측정 모델을 선보임.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941846"
+     ]
+    },
+    {
      "section": "정책",
-     "title": "의료AI 수가 개편 구상",
-     "body": "보건복지부가 의료 인공지능 수가 체계를 사용량이 아닌 임상 성과 및 인프라 중심의 기관 단위 보상 방식으로 개편할 예정임.",
+     "title": "복지부, 의료AI 임상 성과 기반 보상 개편",
+     "body": "보건복지부가 의료 인공지능 수가 체계를 사용량 중심에서 임상 성과 및 인프라 중심의 기관 단위 보상 방식으로 개편하겠다는 구상을 밝힘.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
      ]
     },
     {
      "section": "정책",
-     "title": "중증 희귀질환 시범사업 개시",
-     "body": "보건복지부가 루게릭병 등 중증근육성희귀질환자 전문요양병원 대상 건강보험 시범사업을 11월에 개시함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941832"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "항생제 관리 시범사업 성과 공유",
-     "body": "질병관리청이 항생제 적정사용 관리 시범사업 처방 중재 수용률 82% 등의 성과를 공유함.",
+     "title": "질병청, 항생제 적정사용 권고 수용률 공유",
+     "body": "질병관리청이 78개 의료기관이 참여한 항생제 적정사용 관리 시범사업 1차연도 성과 공유회를 열고 처방 중재 수용률 82% 결과를 발표함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
      ]
     }
    ],
    "implications": [
-    "보건복지부의 임상 성과 및 인프라 중심 의료AI 수가 개편 구상에 따른 원내 AI 활용 전략 수립 검토",
-    "질병관리청의 항생제 적정사용 관리 시범사업 성과를 참고하여 원내 항생제 처방 관리 체계 점검"
+    "보건복지부의 의료AI 기관 단위·임상 성과 중심 수가 개편 방향에 맞춘 원내 인공지능 솔루션 도입 인프라 및 성과 지표 관리 방안 검토",
+    "질병관리청 시범사업 성과를 참고한 원내 항생제 처방 중재 수용률 향상 및 적정사용 관리 프로세스 점검",
+    "활용 기관이 미미한 국립암센터 암 빅데이터 등 공공 암 데이터 자원의 원내 연구 및 임상 연계 활용 가능성 검토"
    ],
-   "count": 10,
+   "count": 7,
    "picks": 0,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-26 06:24",
-   "sig": "3:1n0g37r",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-26 09:19",
+   "sig": "3:1r716sa",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171380",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941832",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941830",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941846",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941839",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941627",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043951",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941627"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
    ]
   },
   {
