@@ -1877,97 +1877,73 @@
  "weekly": {
   "date": "2026-10-27",
   "from": "2026-10-21",
-  "headline": "정부가 의료 AI 수가 개편과 필수의료 인력 확충 등 제도 정비를 추진하는 가운데, 울산대병원은 지역 의료공백 해소와 첨단 로봇수술 역량 강화에 주력함",
+  "headline": "이번 주 정부는 의료 AI 수가 개편과 바이오헬스 규제 완화를 추진하고 필수의료와 응급의료 체계 정비를 가속화함",
   "points": [
    {
     "section": "정책",
-    "title": "의료 AI 수가 및 제도 개편",
-    "body": "보건복지부가 의료 인공지능 확산에 발맞추어 단순 사용량이 아닌 임상 성과 및 인프라 중심의 기관 단위 보상 방식을 구체화함. 아울러 한국 정부와 WHO가 안전한 의료 AI 활용을 위한 서울선언을 발표함.",
+    "title": "의료 AI 수가 및 국가검진 개편",
+    "body": "정부는 AI 제품별 임상 지표를 평가해 기관에 보상하는 수가 개편안을 구체화하고 국가건강검진 검체검사 위수탁 개편을 추진함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171296",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941687"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
     ]
    },
    {
     "section": "정책",
-    "title": "필수·지역의료 인력 확충",
-    "body": "정부가 내년도 레지던트 1년차 기본정원을 늘리고 지역 및 필수의료 분야에 별도 정원을 추가 배정할 방침임. 국정감사에서는 울산의대 실습의 수도권 집중 실태와 함께 지역의사제 및 교육 체계 보완 필요성이 제기됨.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "응급의료 및 감염병 관리 강화",
-    "body": "중증응급환자 이송 지연 시 응급의료상황실이 지정한 병원의 의무 수용과 면책 조항이 신설됨. 또한 질병관리청이 항생제 오남용 방지를 위해 적정사용 관리(ASP) 시범사업 참여기관을 공모함.",
+    "title": "바이오헬스 규제 완화 및 사업 공고",
+    "body": "정부는 자가면역세포 치료의 임상연구 절차를 면제하고 위험도를 낮추는 규제 혁신을 발표하며 항생제 적정사용 관리 시범사업 참여기관을 공모함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "바이오헬스 규제 합리화 추진",
-    "body": "정부가 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 면제하는 등 바이오헬스 규제 혁신 방안을 추진함. 이에 따라 말기 대장암 환자 대상 면역세포치료 임상연구가 적합 의결됨.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
     ]
    },
    {
-    "section": "병원",
-    "title": "울산대병원 로봇수술 1000례",
-    "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함. 지역 내 고난도 중증 치료 역량을 입증함.",
+    "section": "정책",
+    "title": "응급의료 및 필수의료 체계 정비",
+    "body": "응급의료법 개정에 따라 응급의료상황실이 지정한 중증응급환자에 대해 병원 의무 수용 및 면책 조항이 신설됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "울산의대 실습 수도권 집중 지적",
+    "body": "국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있다는 지적과 함께 지역필수의료 특별회계 대응 논의가 진행됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915"
     ]
    },
    {
     "section": "병원",
-    "title": "울산 지역 필수의료 대응",
-    "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 발맞추어 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함.",
+    "title": "울산대병원 로봇수술 1000례 달성",
+    "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
     ]
    }
   ],
   "implications": [
-   "정부의 임상 성과 및 인프라 기반 의료 AI 수가 개편에 대비하여 원내 도입된 AI 솔루션의 임상 지표 성과 관리 체계를 구축함.",
-   "울산시와 연계한 지역필수의료 특별회계 활용 방안을 검토하고 책임의료기관으로서 지역 의료공백 해소 역할을 강화함.",
-   "정부의 바이오헬스 규제 완화 기조에 발맞추어 자가면역세포 치료 등 첨단 재생의료 임상연구 참여를 적극 검토함."
+   "정부의 의료 AI 수가 개편 방향에 맞춰 원내 AI 진단·판독 솔루션의 임상 성과 지표를 관리하고 관련 수가 확보를 준비함",
+   "질병관리청의 항생제 적정사용 관리(ASP) 시범사업 공모에 적극 참여하여 감염관리 역량을 강화함",
+   "울산시 및 지역 의료기관과의 필수의료 협력 체계를 공고히 하고 지역 책임의료기관으로서의 역할을 구체화함"
   ],
-  "count": 107,
-  "picks": 2,
+  "count": 87,
+  "picks": 6,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-27 06:38",
-  "sig": "3:h6mie0"
+  "generatedAt": "2026-10-27 09:55",
+  "sig": "3:74ztu"
  },
  "monthly": {
   "date": "2026-10-27",
   "from": "2026-09-28",
-  "headline": "보건복지부는 비대면진료 세부기준 정비, 상종 구조전환 및 필수의료 수가 개편과 함께 의료 AI 성과 중심 보상 체계를 본격 추진하고 있다.",
+  "headline": "정부가 상종 구조전환과 필수의료 강화를 추진하는 가운데 AI 수가 개편과 세포치료 규제 완화가 본격화됨.",
   "points": [
    {
     "section": "정책",
-    "title": "비대면진료 법정 기준 및 시행규칙 입법예고",
-    "body": "보건복지부는 6개월 내 동일 대면진료 의료기관 이용 원칙과 최대 7일 처방 제한 등을 담은 비대면진료 시행규칙 개정안을 입법예고하고 제도 시행을 준비하고 있음.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "상급종합병원 구조전환 및 병상 관리 강화",
-    "body": "정부는 4조 원 규모의 상급종합병원 구조전환 지원사업을 추진하는 한편, 진료권역별 최소 지정 초과 병상을 소요병상 산정에서 제외하는 등 병상 관리 규정을 정비함.",
+    "title": "상급종합병원 구조전환과 전달체계 개편",
+    "body": "정부가 4조 원 이상을 투입한 상급종합병원 구조전환 지원사업을 추진하는 한편, 진료권역별 최소 1곳의 상급종합병원 지정을 의무화하고 초과 병상을 소요병상 산정에서 제외함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
@@ -1976,65 +1952,72 @@
    },
    {
     "section": "정책",
-    "title": "필수의료·응급실 및 자살예방 책임 강화",
-    "body": "권역응급의료센터 평일 주요 과 전문의 배치 의무화 법안 심사와 함께, 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 집중치료병상을 확대할 예정임.",
+    "title": "필수·응급의료 및 인력난 대응 강화",
+    "body": "권역응급의료센터 내과·외과 등 주요 진료과 전문의 평일 주간 배치 의무화 법안 추진과 함께, 소아 및 지역 의료공백 해소를 위한 대책이 논의됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941466"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 수가 체계 개편 및 규제 완화",
-    "body": "정부는 의료 AI 확산에 맞춰 단순 사용량이 아닌 임상 성과 지표에 기반한 기관 단위 보상 수가 개편안을 구체화하고 바이오헬스 규제 합리화를 추진함.",
+    "title": "의료 AI 수가 및 디지털 제도 구체화",
+    "body": "보건복지부가 AI 제품별 임상 지표 달성 여부를 평가하여 기관 단위로 보상하는 의료 AI 수가 개편안을 구체화하고, WHO와 함께 안전한 의료 AI 활용을 위한 서울선언을 발표함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171296"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "바이오헬스 및 세포치료 규제 합리화",
+    "body": "정부가 안전성이 입증된 자가면역세포 치료의 위험도를 하향하고 선행 임상연구 절차를 완화하여 난치성 환자의 치료 접근성을 높임.",
+    "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
     ]
    },
    {
     "section": "정책",
-    "title": "지방의료원 진료 공백 및 재정난 심화",
-    "body": "전국 지방의료원 다수에서 전문의 채용난으로 진료 차질이 발생하고 대규모 의료손실을 겪는 등 재정난이 가중되어 지역별 역할 구분과 보상 체계 마련이 대두됨.",
+    "title": "비대면진료 제도화 및 기준 마련",
+    "body": "정부가 6개월 내 동일 증상 재진 및 초진 허용 범위를 담은 비대면진료 시행규칙 개정안을 입법예고했으나 의료계의 반발이 이어짐.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941594",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171281"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "로봇수술 1000례 달성 및 스마트병동 구축",
-    "body": "울산대병원이 부울경 최초 대장항문 로봇수술 1000례를 달성했으며, 아주대병원 등 타 병원은 AI 기반 실시간 모니터링 시스템을 도입하며 스마트병동 확장을 추진함.",
+    "title": "로봇수술 도입 및 고도화 확산",
+    "body": "울산대병원이 부울경 최초로 대장항문 로봇수술 1000례를 달성했으며, 아주대병원은 5세대 로봇수술기 다빈치5를 도입함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1"
     ]
    },
    {
     "section": "병원",
-    "title": "중증 응급 및 환자 안전 인프라 확충",
-    "body": "서울아산병원이 국내 최초로 소아신속대응팀을 신설하였고, 창원파티마병원은 양산부산대병원과 중증 응급 심혈관질환자 24시간 전원 협력체계를 구축함.",
+    "title": "스마트병동 및 실시간 모니터링 구축",
+    "body": "아주대병원과 부산대학교병원이 입원환자 생체신호를 실시간 추적하는 AI 스마트 병상 모니터링 시스템과 플랫폼을 도입함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941629",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
     ]
    }
   ],
   "implications": [
-   "정부의 상급종합병원 구조전환 및 필수의료 수가 개편 기조에 맞추어 중증·응급 중심의 진료 역량을 강화하고 인력 운영 체계를 선제적으로 정비해야 함.",
-   "의료 AI 수가 개편과 스마트병동 확산 추세에 대응하여 원내 AI 기반 모니터링 및 디지털 진료 지원 시스템 도입을 검토해야 함.",
-   "권역외상센터 및 필수의료 분야의 법정 인력 기준 충족 여부를 점검하고, 지역완결형 응급·필수의료 협력 네트워크를 공고히 해야 함."
+   "정부의 의료 AI 수가 개편 및 성과 보상 기조에 발맞추어 원내 임상 지표 연계 AI 솔루션 활용 체계 선제 구축",
+   "상급종합병원 구조전환 및 권역외상·필수의료 법정 인력 기준 강화 추세에 따른 전문인력 확보와 대응 전략 마련",
+   "자가면역세포 치료 규제 완화 및 첨단재생의료 정책 변화에 연계한 난치암 치료 임상 연구 참여 확대 검토"
   ],
   "count": 300,
-  "picks": 28,
+  "picks": 32,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-27 06:39",
-  "sig": "3:vxy2mb"
+  "generatedAt": "2026-10-27 09:55",
+  "sig": "3:6qvxr6"
  }
 }
