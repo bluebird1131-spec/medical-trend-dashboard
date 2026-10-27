@@ -3,81 +3,96 @@
   {
    "date": "2026-10-27",
    "from": "2026-10-26",
-   "headline": "타병원 AI 스마트 병상 및 챗봇 도입 확산 속 의료 AI 수가 개편과 울산지역 필수의료 대응 논의",
+   "headline": "의료 AI 수가 체계 구체화 및 울산 필수의료 강화 논의 속 울산의대 실습 수도권 집중 지적",
    "points": [
     {
      "section": "병원",
-     "title": "아주대병원 AI 스마트 병상 도입",
-     "body": "아주대병원이 대웅제약의 AI 기반 병상 모니터링 시스템 '씽크'를 7개 병동 342병상에 도입하고 향후 1100병상까지 확대 추진.",
+     "title": "타병원 AI 모니터링 및 환자 케어 도입",
+     "body": "아주대병원이 AI 기반 스마트 병상 모니터링 시스템 씽크를 342병상에 도입하고 1100병상까지 확대 추진 중임. 삼성서울병원은 항암환자 말초중심정맥관 관리를 돕는 AI 챗봇 서비스를 도입함.",
      "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
      ]
     },
     {
-     "section": "병원",
-     "title": "삼성서울병원 항암환자 AI 챗봇",
-     "body": "삼성서울병원이 항암환자의 말초중심정맥관 관리를 돕는 카카오톡 AI 챗봇 서비스를 도입.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967"
-     ]
-    },
-    {
      "section": "정책",
-     "title": "의료 AI 수가 개편 추진",
-     "body": "정부가 의료 AI 확산에 대응해 AI 제품별 임상 지표 달성 여부를 평가하여 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함.",
+     "title": "의료 AI 임상 지표 연계 기관 보상안 구체화",
+     "body": "보건복지부가 의료 AI 확산에 대응해 AI 제품별 임상 지표 달성 여부를 평가하고 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
      ]
     },
     {
      "section": "정책",
-     "title": "울산 필수의료 강화 역할 논의",
-     "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함.",
+     "title": "울산 필수의료 강화 논의 및 울산의대 실습 편중 지적",
+     "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 책임의료기관 역할 구체화 방안을 논의함. 한편 국회 국정감사에서는 울산의대 임상실습의 90.4%가 서울아산병원에서 이뤄지는 수도권 편중 실태에 대한 시정이 촉구됨.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "울산의대 수도권 실습 지적",
-     "body": "국회 국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있는 수도권 집중 실태에 대한 시정이 촉구됨.",
-     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
      ]
     },
     {
      "section": "정책",
-     "title": "ASP 3차 시범사업 공모",
-     "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관을 공모함.",
+     "title": "ASP 시범사업 공모 및 검체검사 위수탁 개편",
+     "body": "질병관리청이 상급종합병원과 종합병원 대상 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관을 공모함. 또한 보건복지부는 국가건강검진 검체검사를 건보 급여검사와 동일한 위수탁 개편 대상에 포함하여 추진할 예정임.",
      "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876"
      ]
     }
    ],
    "implications": [
-    "타병원의 AI 스마트 병상 모니터링 및 AI 챗봇 서비스 도입 사례를 벤치마킹하여 원내 디지털헬스케어 적용 분야 확대 검토",
-    "정부의 의료 AI 수가 개편안에 대비하여 원내 도입된 AI 솔루션의 임상 지표 성과 관리 체계 구축 검토",
-    "울산지역 필수의료 특별회계 신설 및 책임의료기관 역할 강화 요구에 맞춰 지역 의료공백 해소 방안 수립"
+    "지역필수의료 특별회계 신설 및 울산의대 임상실습 수도권 집중 지적에 대응한 원내 교육·수련 인프라 및 지역 책임의료기관 기능 강화 방안 검토",
+    "보건복지부의 의료 AI 임상 지표 연계 수가 개편안에 맞춘 원내 도입 AI 솔루션의 임상 지표 관리 체계 수립",
+    "질병관리청 주관 상급종합병원 대상 3차 연도 ASP(항생제 적정사용 관리) 시범사업 공모 참여 검토"
    ],
-   "count": 11,
+   "count": 39,
    "picks": 5,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-27 09:40",
-   "sig": "3:1m7qklf",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-27 13:39",
+   "sig": "3:kmhlgv",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492328&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171418",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941908",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941910",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941914",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941905",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941906",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941598",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941874",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941903",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941900",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044026",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044004",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044025",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044019",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044012",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044011",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044010",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044000",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043992",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043998",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043925",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043911",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941881"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941881",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171402",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171394",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171392"
    ]
   },
   {
@@ -1877,123 +1892,128 @@
  "weekly": {
   "date": "2026-10-27",
   "from": "2026-10-21",
-  "headline": "이번 주 정부는 의료 AI 수가 개편과 바이오헬스 규제 완화를 추진하고 필수의료와 응급의료 체계 정비를 가속화함",
+  "headline": "이번 주 정부는 의료 AI 수가 개편과 필수의료 강화, 국가건강검진 검체검사 제도 개선 등 보건의료 정책 추진을 가속화함",
   "points": [
    {
     "section": "정책",
-    "title": "의료 AI 수가 및 국가검진 개편",
-    "body": "정부는 AI 제품별 임상 지표를 평가해 기관에 보상하는 수가 개편안을 구체화하고 국가건강검진 검체검사 위수탁 개편을 추진함.",
+    "title": "의료 AI 수가 개편 구체화",
+    "body": "정부가 의료 AI 확산에 대응하여 제품별 임상 지표 달성 여부를 평가하고 기관 단위로 보상하는 수가 개편안을 구체화함.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "국가검진 검체검사 개편 추진",
+    "body": "국가건강검진 검체검사가 건보 급여검사와 동일한 위수탁 개편 대상에 포함되어 추진될 예정임.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043914"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오헬스 규제 완화 및 사업 공고",
-    "body": "정부는 자가면역세포 치료의 임상연구 절차를 면제하고 위험도를 낮추는 규제 혁신을 발표하며 항생제 적정사용 관리 시범사업 참여기관을 공모함.",
+    "title": "항생제 관리(ASP) 시범사업",
+    "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리 시범사업 참여기관을 공모함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876"
     ]
    },
    {
     "section": "정책",
-    "title": "응급의료 및 필수의료 체계 정비",
-    "body": "응급의료법 개정에 따라 응급의료상황실이 지정한 중증응급환자에 대해 병원 의무 수용 및 면책 조항이 신설됨.",
+    "title": "울산의대 수도권 실습 지적",
+    "body": "국회 국정감사에서 울산의대의 임상실습 90% 이상이 서울아산병원에서 이뤄지는 수도권 집중 실태에 대한 시정이 촉구됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171302"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "울산의대 실습 수도권 집중 지적",
-    "body": "국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있다는 지적과 함께 지역필수의료 특별회계 대응 논의가 진행됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 로봇수술 1000례 달성",
+    "title": "대장항문 로봇수술 1000례",
     "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
     ]
+   },
+   {
+    "section": "병원",
+    "title": "울산필수의료 협력 방안 논의",
+    "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소 방안을 논의함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
+    ]
    }
   ],
   "implications": [
-   "정부의 의료 AI 수가 개편 방향에 맞춰 원내 AI 진단·판독 솔루션의 임상 성과 지표를 관리하고 관련 수가 확보를 준비함",
-   "질병관리청의 항생제 적정사용 관리(ASP) 시범사업 공모에 적극 참여하여 감염관리 역량을 강화함",
-   "울산시 및 지역 의료기관과의 필수의료 협력 체계를 공고히 하고 지역 책임의료기관으로서의 역할을 구체화함"
+   "정부의 임상 성과 기반 의료 AI 수가 개편 방침에 발맞추어 원내 AI 진단 솔루션 도입 및 성과 지표 관리 체계 구축 검토",
+   "질병관리청의 항생제 적정사용 관리(ASP) 시범사업 공모에 적극 참여하여 원내 감염관리 역량 강화 및 수가 보상 기반 마련",
+   "울산의대 실습 관련 국감 지적 및 지역 의료공백 해소 기조에 대응하여 지역 필수의료 및 임상교육 인프라 강화 방안 검토"
   ],
-  "count": 87,
+  "count": 115,
   "picks": 6,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-27 09:55",
-  "sig": "3:74ztu"
+  "generatedAt": "2026-10-27 13:40",
+  "sig": "3:1lyywn0"
  },
  "monthly": {
   "date": "2026-10-27",
   "from": "2026-09-28",
-  "headline": "정부가 상종 구조전환과 필수의료 강화를 추진하는 가운데 AI 수가 개편과 세포치료 규제 완화가 본격화됨.",
+  "headline": "의료 AI 수가 보상과 비대면진료·응급의료 체계 정비 등 국가 보건의료 정책 고도화 추진",
   "points": [
    {
     "section": "정책",
-    "title": "상급종합병원 구조전환과 전달체계 개편",
-    "body": "정부가 4조 원 이상을 투입한 상급종합병원 구조전환 지원사업을 추진하는 한편, 진료권역별 최소 1곳의 상급종합병원 지정을 의무화하고 초과 병상을 소요병상 산정에서 제외함.",
+    "title": "의료 AI 수가 및 제도적 기반 개편",
+    "body": "정부가 의료 AI 확산에 대응하여 AI 제품별 임상 지표 달성 여부를 평가하고 기관 단위로 보상하는 수가 체계를 구체화하고 있음.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "비대면진료 세부기준 정비 및 반발",
+    "body": "6개월 내 동일 증상 대면진료 의료기관 이용 원칙과 최대 7일 처방 제한 등을 담은 비대면진료 시행규칙 개정안을 두고 의료계의 반발이 이어지고 있음.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "필수·응급·외상의료 체계 강화",
+    "body": "권역응급의료센터 응급실 전문의 배치 의무화 법안 심사와 중증외상 최종치료 역량 강화를 위한 거점외상센터 선정 등이 추진되고 있음.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "상급종합병원 구조전환 및 병상 관리",
+    "body": "상급종합병원 구조전환 지원사업이 추진되는 한편, 진료권역별 최소 1곳 지정 초과 병상을 소요병상 산정에서 제외하는 등 병상 관리 규정이 시행됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941509"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
     ]
    },
    {
     "section": "정책",
-    "title": "필수·응급의료 및 인력난 대응 강화",
-    "body": "권역응급의료센터 내과·외과 등 주요 진료과 전문의 평일 주간 배치 의무화 법안 추진과 함께, 소아 및 지역 의료공백 해소를 위한 대책이 논의됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941541",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043737",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941466"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료 AI 수가 및 디지털 제도 구체화",
-    "body": "보건복지부가 AI 제품별 임상 지표 달성 여부를 평가하여 기관 단위로 보상하는 의료 AI 수가 개편안을 구체화하고, WHO와 함께 안전한 의료 AI 활용을 위한 서울선언을 발표함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171296"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "바이오헬스 및 세포치료 규제 합리화",
-    "body": "정부가 안전성이 입증된 자가면역세포 치료의 위험도를 하향하고 선행 임상연구 절차를 완화하여 난치성 환자의 치료 접근성을 높임.",
+    "title": "바이오헬스 규제 완화 및 첨단재생의료",
+    "body": "자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 완화하는 등 바이오헬스 규제 혁신과 첨단재생의료 치료 기회 확대가 추진됨.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
     ]
    },
    {
-    "section": "정책",
-    "title": "비대면진료 제도화 및 기준 마련",
-    "body": "정부가 6개월 내 동일 증상 재진 및 초진 허용 범위를 담은 비대면진료 시행규칙 개정안을 입법예고했으나 의료계의 반발이 이어짐.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1"
-    ]
-   },
-   {
     "section": "병원",
-    "title": "로봇수술 도입 및 고도화 확산",
-    "body": "울산대병원이 부울경 최초로 대장항문 로봇수술 1000례를 달성했으며, 아주대병원은 5세대 로봇수술기 다빈치5를 도입함.",
+    "title": "최첨단 로봇수술 도입 및 성과",
+    "body": "울산대병원이 부울경 최초 대장항문 로봇수술 1000례를 달성하고, 아주대병원이 5세대 다빈치 5와 아이온을 도입하는 등 첨단 장비 도입이 활발함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1"
@@ -2001,23 +2021,24 @@
    },
    {
     "section": "병원",
-    "title": "스마트병동 및 실시간 모니터링 구축",
-    "body": "아주대병원과 부산대학교병원이 입원환자 생체신호를 실시간 추적하는 AI 스마트 병상 모니터링 시스템과 플랫폼을 도입함.",
+    "title": "스마트병동 및 환자 안전 인프라",
+    "body": "부산대병원과 아주대병원이 AI 기반 생체신호 모니터링 시스템을 도입하고, 서울아산병원이 국내 최초 소아신속대응팀을 신설함.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941471",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
     ]
    }
   ],
   "implications": [
-   "정부의 의료 AI 수가 개편 및 성과 보상 기조에 발맞추어 원내 임상 지표 연계 AI 솔루션 활용 체계 선제 구축",
-   "상급종합병원 구조전환 및 권역외상·필수의료 법정 인력 기준 강화 추세에 따른 전문인력 확보와 대응 전략 마련",
-   "자가면역세포 치료 규제 완화 및 첨단재생의료 정책 변화에 연계한 난치암 치료 임상 연구 참여 확대 검토"
+   "정부의 의료 AI 임상 성과 기반 수가 개편에 맞춰 원내 AI 진단 솔루션의 임상 지표 관리와 수가 청구 대응 체계를 준비함.",
+   "권역응급의료센터 및 권역외상센터의 법정 인력 기준과 전문의 배치 요구에 선제적으로 대응하여 필수 의료 인력을 확보함.",
+   "상급종합병원 구조전환 지원사업과 연계하여 중증·희귀질환 중심의 진료 비중을 높이고 지역완결형 의료전달체계를 정비함."
   ],
   "count": 300,
   "picks": 32,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-27 09:55",
-  "sig": "3:6qvxr6"
+  "generatedAt": "2026-10-27 13:40",
+  "sig": "3:1hyx0vb"
  }
 }
