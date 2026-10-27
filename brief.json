@@ -3,12 +3,12 @@
   {
    "date": "2026-10-27",
    "from": "2026-10-26",
-   "headline": "의료 AI 병상 모니터링 및 챗봇 도입 확산과 함께 정부의 필수의료 및 수가 개편 추진",
+   "headline": "타병원 AI 스마트 병상 및 챗봇 도입 확산 속 의료 AI 수가 개편과 울산지역 필수의료 대응 논의",
    "points": [
     {
      "section": "병원",
-     "title": "AI 스마트 병상 모니터링 도입",
-     "body": "아주대병원이 대웅제약의 AI 기반 병상 모니터링 시스템 '씽크'를 342병상에 도입하고 향후 1100병상까지 확대 추진함.",
+     "title": "아주대병원 AI 스마트 병상 도입",
+     "body": "아주대병원이 대웅제약의 AI 기반 병상 모니터링 시스템 '씽크'를 7개 병동 342병상에 도입하고 향후 1100병상까지 확대 추진.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
@@ -16,31 +16,31 @@
     },
     {
      "section": "병원",
-     "title": "항암환자 관리용 AI 챗봇 도입",
-     "body": "삼성서울병원이 항암환자의 말초중심정맥관(PICC) 관리를 지원하는 카카오톡 AI 챗봇 서비스를 도입함.",
+     "title": "삼성서울병원 항암환자 AI 챗봇",
+     "body": "삼성서울병원이 항암환자의 말초중심정맥관 관리를 돕는 카카오톡 AI 챗봇 서비스를 도입.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967"
      ]
     },
     {
      "section": "정책",
-     "title": "의료 AI 수가 구체화 및 지표 보상",
-     "body": "정부가 AI 제품별 임상 지표 달성 여부를 평가해 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함.",
+     "title": "의료 AI 수가 개편 추진",
+     "body": "정부가 의료 AI 확산에 대응해 AI 제품별 임상 지표 달성 여부를 평가하여 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
      ]
     },
     {
      "section": "정책",
-     "title": "울산 지역필수의료 및 책임의료 강화",
-     "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함.",
+     "title": "울산 필수의료 강화 역할 논의",
+     "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
      ]
     },
     {
      "section": "정책",
-     "title": "울산의대 수도권 실습 문제 지적",
+     "title": "울산의대 수도권 실습 지적",
      "body": "국회 국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있는 수도권 집중 실태에 대한 시정이 촉구됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
@@ -49,7 +49,7 @@
     },
     {
      "section": "정책",
-     "title": "항생제 적정사용 관리 시범사업 공모",
+     "title": "ASP 3차 시범사업 공모",
      "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관을 공모함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876"
@@ -57,16 +57,15 @@
     }
    ],
    "implications": [
-    "아주대병원의 스마트 병상 모니터링 시스템 도입 사례를 참고하여 원내 입원환자 관리 효율화 및 AI 기반 디지털 헬스케어 인프라 확충 검토",
-    "삼성서울병원의 항암환자 관리 AI 챗봇 도입을 벤치마킹하여 중증 환자 비대면 관리 및 복약·치료 순응도 향상 서비스 도입 검토",
-    "정부의 의료 AI 수가 개편 및 임상 지표 연동 보상 체계에 발맞추어 원내 AI 솔루션 도입 및 성과 지표 관리 방안 마련",
-    "울산 지역필수의료 특별회계 신설 논의에 맞춰 울산대학교병원의 지역 책임의료기관 역할 강화 및 필수 의료공백 해소 전략 수립"
+    "타병원의 AI 스마트 병상 모니터링 및 AI 챗봇 서비스 도입 사례를 벤치마킹하여 원내 디지털헬스케어 적용 분야 확대 검토",
+    "정부의 의료 AI 수가 개편안에 대비하여 원내 도입된 AI 솔루션의 임상 지표 성과 관리 체계 구축 검토",
+    "울산지역 필수의료 특별회계 신설 및 책임의료기관 역할 강화 요구에 맞춰 지역 의료공백 해소 방안 수립"
    ],
-   "count": 12,
+   "count": 11,
    "picks": 5,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-27 09:36",
-   "sig": "3:tck45h",
+   "generatedAt": "2026-10-27 09:40",
+   "sig": "3:1m7qklf",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
@@ -78,8 +77,7 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941881",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941869"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941881"
    ]
   },
   {
