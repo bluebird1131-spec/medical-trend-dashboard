@@ -3,27 +3,27 @@
   {
    "date": "2026-10-28",
    "from": "2026-10-27",
-   "headline": "의료 AI 수가 개편과 고위험 분만 지원 방안이 논의되는 가운데 타 병원의 첨단 수술 로봇 도입이 이어짐",
+   "headline": "의료 AI 수가 개편과 울산 지역 필수의료 강화 논의 및 항생제 적정사용 관리(ASP) 시범사업 공모 추진",
    "points": [
     {
      "section": "병원",
-     "title": "서울부민병원, 4종 로봇 도입",
-     "body": "서울부민병원이 차세대 인공관절 수술로봇 벨리스를 도입하며 국내 유일 4종의 정형외과 로봇수술 시스템을 구축함.",
+     "title": "울산 지역 필수의료 강화 추진",
+     "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941933"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
      ]
     },
     {
      "section": "병원",
-     "title": "한양대구리병원 로봇수술 100례",
-     "body": "한양대구리병원 간담췌외과팀이 로봇수술 도입 1년 반 만에 누적 100례를 돌파함.",
+     "title": "항생제 적정사용 관리 공모",
+     "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관을 공모함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941927"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876"
      ]
     },
     {
      "section": "정책",
-     "title": "의료 AI 수가 개편 구체화",
+     "title": "의료 AI 수가 및 기관 보상 구체화",
      "body": "정부가 의료 AI 확산에 대응해 AI 제품별 임상 지표 달성 여부를 평가하여 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
@@ -31,68 +31,46 @@
     },
     {
      "section": "정책",
-     "title": "고위험 분만 인력 지원 검토",
-     "body": "고위험 분만 인력난 해소를 위해 권역모자의료센터 인건비 지원을 전문간호사까지 확대하는 방안이 논의됨.",
+     "title": "고위험 분만 인력 지원 확대 논의",
+     "body": "고위험 분만 인력난 해소를 위해 권역모자의료센터 인건비 지원을 전문간호사 및 PA까지 확대하는 방안이 논의됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
      ]
     },
     {
      "section": "정책",
-     "title": "상급종병 ASP 시범사업 공모",
-     "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관을 공모함.",
+     "title": "응급실 및 건검 수가 개편 현안",
+     "body": "정부가 응급실 재실시간 평가 결과의 수가 연동 제외 방침을 밝힌 가운데, 국가건강검진 검체검사의 위수탁 개편 추진으로 개원가 반발이 제기됨.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826"
      ]
     }
    ],
    "implications": [
-    "정부의 의료 AI 임상 지표 연동 수가 개편안에 발맞추어 원내 도입된 의료 AI 솔루션의 성과 관리 체계 구축 검토",
-    "질병관리청의 항생제 적정사용 관리(ASP) 시범사업 3차 연도 공모 참여 검토"
+    "울산시와 연계한 지역필수의료 특별회계 대응 및 책임의료기관 역할 구체화 방안 마련",
+    "질병관리청 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여 검토",
+    "의료 AI 제품 도입 및 임상 지표 연계 수가 보상 체계 모니터링"
    ],
-   "count": 37,
-   "picks": 8,
+   "count": 12,
+   "picks": 6,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-28 06:42",
-   "sig": "3:1g8ylln",
+   "generatedAt": "2026-10-28 08:40",
+   "sig": "3:1l2mvpo",
    "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941914",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941905",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941910",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941874",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044010",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492329&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171429",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171428",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171415",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941952",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941947",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941946",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941940",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941933",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941927",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941924",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941921",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941919",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941916",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941917",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941873",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044053",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044050",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044037",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044035",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044040",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044034",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044021",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171426",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941932"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044050"
    ]
   },
   {
