@@ -3,12 +3,20 @@
   {
    "date": "2026-10-29",
    "from": "2026-10-28",
-   "headline": "정부가 내년 1월부터 지역·필수의료 수가 2.7조 원 우선 투입을 의결한 가운데, 고위험 분만 인력 지원과 아주대병원 소아응급실 사태 등 필수의료 현장의 구조적 문제가 대두됨.",
+   "headline": "고위험분만·응급실 등 필수의료 정책 개편 속 검진센터 AI 도입 확대",
    "points": [
     {
+     "section": "병원",
+     "title": "검진센터 흉부 CT AI 분석 솔루션 도입 확대",
+     "body": "일선 건강검진센터에서 흉부 CT 영상 기반의 코어라인소프트 AI 분석 솔루션을 도입하여 심혈관 질환까지 분석 범위 확대 추진.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460"
+     ]
+    },
+    {
      "section": "정책",
-     "title": "고위험 분만 인력 인건비 지원",
-     "body": "고위험 분만 인력난 해소를 위해 권역모자의료센터의 인건비 지원 범위를 전문간호사와 PA까지 확대하는 방안이 논의됨.",
+     "title": "고위험분만 전문간호사·PA 인건비 지원 검토",
+     "body": "고위험 분만 분야 인력난 및 의료진 번아웃 해소를 위해 권역모자의료센터 전문간호사 및 PA 인건비 정부 지원 확대 논의 및 정부 공감대 형성.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
@@ -16,83 +24,43 @@
     },
     {
      "section": "정책",
-     "title": "아주대병원 소아응급실 사직 사태",
-     "body": "아주대병원 소아전문응급의료센터 교수 7명이 경찰 수사 부담을 호소하며 사직을 결정한 가운데, 의료계는 소아응급 마비 우려와 함께 수사 관행 개선을 촉구함.",
+     "title": "응급실 재실시간 건보수가 직접 연동 제외",
+     "body": "보건복지부가 응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 결정함에 따라 대형병원 특혜 논란에 대해 중증도 고려 입장 표명.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941950",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044070",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044060",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941972"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018"
      ]
     },
     {
      "section": "정책",
-     "title": "지역·필수의료 수가 2.7조 원 투입",
-     "body": "보건복지부 건정심에서 내년 1월부터 지역·필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억 원을 우선 투입하고 분만·신생아 분야 지역우대 수가를 적용하기로 의결함.",
+     "title": "지역·필수의료 2.7조 투입 및 영상·검체 수가 감축",
+     "body": "건정심에서 지역·필수의료 분야 2조 7000억 원 투입을 의결하고 검체검사 및 CT·MRI 수가 조정을 통해 2조 6000억 원 지출 감축 확정.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
      ]
     }
    ],
    "implications": [
-    "내년 1월부터 시행되는 지역·필수의료 수가 구조 혁신 및 분만·신생아 분야 지역우대 수가 적용에 맞춰 원내 관련 진료과의 수가 청구 및 인프라 대응 전략을 점검할 필요가 있음.",
-    "고위험 분만 및 권역모자의료센터 운영과 관련해 전문간호사 및 PA 인건비 지원 확대 논의 추이를 모니터링하고 원내 인력 운영에 반영할 필요가 있음."
+    "고위험 분만 전문간호사 및 PA 인건비 정부 지원 추진에 대비한 고위험모자의료센터 인력 현황 및 지원 신청 방안 사전 검토",
+    "응급실 재실시간 평가 수가 미연동 방침 및 중증도 기준에 맞춘 중증 응급환자 진료 체계 유지 및 관리 방안 점검",
+    "검체검사 및 CT·MRI 수가 감축에 따른 병원 수익성 영향 분석과 건강검진센터 흉부 CT AI 판독 보조 솔루션 도입 타당성 검토"
    ],
-   "count": 48,
+   "count": 10,
    "picks": 3,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-29 06:32",
-   "sig": "3:ja01d1",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-29 08:35",
+   "sig": "3:kw07me",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492335&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171452",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171447",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171446",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171440",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941966",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941949",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941959",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941465",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941945",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941955",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941944",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941950",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941953",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044070",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044068",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044065",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044063",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044058",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044060",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044056",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044052",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044051",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044055",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044045",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044015",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492341&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941990",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941992",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941980",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941970",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941972",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044090",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044081",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044080",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044075",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044071"
    ]
   },
