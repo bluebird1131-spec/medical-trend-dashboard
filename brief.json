@@ -1,6 +1,81 @@
 {
  "days": [
   {
+   "date": "2026-10-29",
+   "from": "2026-10-28",
+   "headline": "고위험 분만 인건비 국고 지원 논의 및 응급실 재실시간 평가 수가 연동 제외 등 필수의료 정책 쟁점화",
+   "points": [
+    {
+     "section": "병원",
+     "title": "RET 변이 폐암 신약 레테브모 급여 처방 개시",
+     "body": "RET 억제제 레테브모의 건강보험 급여 적용에 따라 삼성서울병원 등 주요 의료기관에서 희귀 유전자 변이 폐암 환자 대상 처방 개시.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941955",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044055"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "고위험 분만 전문간호사·PA 인건비 지원 검토",
+     "body": "고위험 분만 의료진의 번아웃 및 인력난 해소를 위해 권역모자의료센터 전문간호사 및 PA 인건비 정부 지원 확대 논의 및 복지부 공감대 확인.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "응급실 재실시간 평가 수가 연동 제외 논란",
+     "body": "정부가 응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 결정하면서 대형병원 특혜 논란 제기 및 정부 중증 환자 수용 고려 입장 표명.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018"
+     ]
+    }
+   ],
+   "implications": [
+    "권역모자의료센터 내 전문간호사 및 PA 인력 현황 점검과 향후 정부 인건비 지원 확대 사업 신청 대비",
+    "응급실 재실시간 관리 지표 모니터링 및 중증응급환자 수용 역량 중심 프로세스 정비",
+    "RET 변이 폐암 환자 대상 신약 레테브모 급여 처방 활성화 및 신속 원내 도입 검토"
+   ],
+   "count": 30,
+   "picks": 3,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-29 00:07",
+   "sig": "3:1fc2q7g",
+   "links": [
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492335&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171452",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171447",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171446",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171440",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941966",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941949",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941959",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941465",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941945",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941955",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941944",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941950",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941953",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044070",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044068",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044065",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044063",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044058",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044060",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044056",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044052",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044051",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044055",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044045",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044015"
+   ]
+  },
+  {
    "date": "2026-10-28",
    "from": "2026-10-27",
    "headline": "의료 AI 수가 개편과 고위험분만 인력 지원 추진 속 응급실 압수수색 여파로 의료계 반발 확산",
@@ -1981,74 +2056,70 @@
   }
  ],
  "weekly": {
-  "date": "2026-10-28",
-  "from": "2026-10-22",
-  "headline": "정부가 공공기관 재편, 바이오 규제 완화, 의료 AI 수가 개편 등 보건의료 제도 혁신을 본격적으로 추진하고 있습니다.",
+  "date": "2026-10-29",
+  "from": "2026-10-23",
+  "headline": "이번 주 정부는 의료 AI 수가 구체화와 바이오헬스 규제 혁신 등 필수의료 및 디지털 헬스케어 제도 정비에 집중함",
   "points": [
    {
     "section": "정책",
-    "title": "의료 AI 수가 체계 개편",
-    "body": "정부가 의료 AI 확산에 대응해 AI 제품별 임상 지표 달성 여부를 평가하여 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함.",
+    "title": "의료 AI 수가 및 심사 개편",
+    "body": "정부는 의료 AI 확산에 대응하여 제품별 임상 지표 달성 여부를 평가하는 기관 단위 수가 개편안을 구체화함. 또한 국가건강검진 검체검사를 건보 급여검사와 동일한 위수탁 개편 대상에 포함하여 추진할 예정임.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
     ]
    },
    {
     "section": "정책",
-    "title": "바이오헬스 규제 대폭 완화",
-    "body": "정부가 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 면제하는 등 선진국 수준으로 바이오헬스 규제 빗장을 엶.",
+    "title": "바이오헬스 규제 합리화 추진",
+    "body": "정부는 자가면역세포 치료의 위험도를 낮추고 선행 임상연구 절차를 면제하는 등 바이오헬스 규제 빗장을 품. 이와 함께 소아응급 및 중환자 분야 지원을 위해 소아중환자 수가 가산 논의를 진행함.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941940",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171357"
     ]
    },
    {
     "section": "정책",
-    "title": "복지부 소관 공공기관 개편",
-    "body": "보건복지부가 유사 기능 통합과 전문성 강화를 위해 소관 공공기관 조직을 47개에서 39개로 축소하고 재편을 추진함.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492335&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044065"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "고위험 분만 인력 지원 검토",
-    "body": "권역모자의료센터 등 고위험 분만 인력난 해소를 위해 전문간호사 및 PA 인건비 정부 지원 확대 방안이 논의됨.",
+    "title": "필수의료 인력 지원 및 공공 개편",
+    "body": "고위험 분만 인력난 해소를 위해 권역모자의료센터 인건비 지원을 전문간호사까지 확대하는 방안이 논의됨. 아울러 보건복지부는 유사 기능 통합과 전문성 강화를 위해 소관 공공기관의 재편 및 신설을 추진함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492335&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 로봇수술 1000례",
-    "body": "울산대병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
+    "title": "항생제 적정사용 관리 공모",
+    "body": "질병관리청은 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관을 공모함. 관련 시범사업을 통해 다제내성균 감염 예방과 항생제 적정 처방 관리가 강화됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
     ]
    },
    {
     "section": "병원",
-    "title": "지역 필수 의료 공백 대응",
-    "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함.",
+    "title": "울산 지역 필수의료 대응",
+    "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함. 또한 국회 국정감사에서 울산의대 실습의 수도권 집중 실태에 대한 시정이 촉구됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
     ]
    }
   ],
   "implications": [
-   "정부의 의료 AI 수가 개편 구체화에 발맞춰 원내 도입된 AI 진단·모니터링 솔루션의 임상 성과 지표를 체계적으로 관리하고 기관 단위 보상 체계에 대비해야 함",
-   "자가면역세포 치료 등 바이오헬스 분야 규제 완화 기조에 따라 관련 첨단재생의료 임상연구 및 신의료기술 도입을 적극 검토할 필요가 있음",
-   "지역필수의료 특별회계 신설 및 고위험 분만 인력 지원 논의와 연계하여 원내 필수의료 인프라 운영 계획을 수립해야 함"
+   "정부의 의료 AI 기관 단위 수가 개편 구체화에 발맞추어 원내 임상 지표 기반의 AI 진단 및 모니터링 솔루션 도입 전략을 재정비해야 함",
+   "질병관리청의 항생제 적정사용 관리(ASP) 시범사업 3차 연도 공모에 적극 참여하여 원내 감염 관리 체계를 고도화해야 함",
+   "울산시의 지역필수의료 특별회계 신설 논의에 맞추어 지역 의료공백 해소를 위한 책임의료기관으로서의 역할을 구체화하고 대응책을 마련해야 함"
   ],
-  "count": 114,
-  "picks": 9,
+  "count": 102,
+  "picks": 8,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-28 13:34",
-  "sig": "3:f4vfuc"
+  "generatedAt": "2026-10-29 00:10",
+  "sig": "3:1icyhfy"
  },
  "monthly": {
   "date": "2026-10-28",
