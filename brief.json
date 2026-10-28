@@ -3,20 +3,12 @@
   {
    "date": "2026-10-29",
    "from": "2026-10-28",
-   "headline": "고위험분만·응급실 등 필수의료 정책 개편 속 검진센터 AI 도입 확대",
+   "headline": "정부가 지역·필수의료 수가 2.7조 원 투입을 확정한 가운데 고위험 분만 인력 지원과 검체검사 개편이 논의됨.",
    "points": [
     {
-     "section": "병원",
-     "title": "검진센터 흉부 CT AI 분석 솔루션 도입 확대",
-     "body": "일선 건강검진센터에서 흉부 CT 영상 기반의 코어라인소프트 AI 분석 솔루션을 도입하여 심혈관 질환까지 분석 범위 확대 추진.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460"
-     ]
-    },
-    {
      "section": "정책",
-     "title": "고위험분만 전문간호사·PA 인건비 지원 검토",
-     "body": "고위험 분만 분야 인력난 및 의료진 번아웃 해소를 위해 권역모자의료센터 전문간호사 및 PA 인건비 정부 지원 확대 논의 및 정부 공감대 형성.",
+     "title": "고위험 분만 인력 지원 확대",
+     "body": "고위험 분만 인력난 해소를 위해 권역모자의료센터의 전문간호사 및 PA 인건비 정부 지원 필요성이 제기되어 논의가 진행됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
@@ -24,44 +16,54 @@
     },
     {
      "section": "정책",
-     "title": "응급실 재실시간 건보수가 직접 연동 제외",
-     "body": "보건복지부가 응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 결정함에 따라 대형병원 특혜 논란에 대해 중증도 고려 입장 표명.",
+     "title": "응급실 수가 연동 논란",
+     "body": "정부가 응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 한 조치에 대해 특혜 논란이 제기됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018"
      ]
     },
     {
      "section": "정책",
-     "title": "지역·필수의료 2.7조 투입 및 영상·검체 수가 감축",
-     "body": "건정심에서 지역·필수의료 분야 2조 7000억 원 투입을 의결하고 검체검사 및 CT·MRI 수가 조정을 통해 2조 6000억 원 지출 감축 확정.",
+     "title": "지역·필수의료 수가 구조 혁신",
+     "body": "보건복지부 건정심에서 내년부터 지역·필수의료에 2.7조 원을 우선 투입하고 검체 및 CT·MRI 수가를 조정하는 구조 혁신방안이 의결됨.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "검체검사 수가 및 지급 개편",
+     "body": "건보공단이 검체검사 위·수탁기관에 검사료를 각각 직접 지급하는 구분 지급 방식과 의원 분석·관리료 신설 등이 확정됨.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078"
      ]
     }
    ],
    "implications": [
-    "고위험 분만 전문간호사 및 PA 인건비 정부 지원 추진에 대비한 고위험모자의료센터 인력 현황 및 지원 신청 방안 사전 검토",
-    "응급실 재실시간 평가 수가 미연동 방침 및 중증도 기준에 맞춘 중증 응급환자 진료 체계 유지 및 관리 방안 점검",
-    "검체검사 및 CT·MRI 수가 감축에 따른 병원 수익성 영향 분석과 건강검진센터 흉부 CT AI 판독 보조 솔루션 도입 타당성 검토"
+    "정부의 지역·필수의료 수가 2.7조 원 투입 및 수가 구조 개편 방향에 따른 병원 운영 전략 수립 검토",
+    "권역모자의료센터 고위험 분만 인력 관련 전문간호사 및 PA 인건비 지원 정책 동향 모니터링",
+    "검체검사 수가 인하 및 건공단 직접 지급 방식 도입에 따른 원내 대응 체계 점검"
    ],
-   "count": 10,
+   "count": 11,
    "picks": 3,
-   "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-29 08:35",
-   "sig": "3:kw07me",
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-10-29 08:39",
+   "sig": "3:1lfdr6m",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941980",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044071"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078"
    ]
   },
   {
