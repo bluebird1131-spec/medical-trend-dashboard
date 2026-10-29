@@ -3,29 +3,20 @@
   {
    "date": "2026-10-29",
    "from": "2026-10-28",
-   "headline": "정부가 지역·필수의료 수가 2.7조 원 투입을 확정한 가운데 고위험 분만 인력 지원과 검체검사 개편이 논의됨.",
+   "headline": "정부가 지역·필수의료에 2.7조 원 투입과 수가 구조 혁신을 추진하고 건강검진 AI 도입이 확대됨.",
    "points": [
     {
-     "section": "정책",
-     "title": "고위험 분만 인력 지원 확대",
-     "body": "고위험 분만 인력난 해소를 위해 권역모자의료센터의 전문간호사 및 PA 인건비 정부 지원 필요성이 제기되어 논의가 진행됨.",
+     "section": "병원",
+     "title": "흉부 CT 기반 심혈관 AI 검진 확대",
+     "body": "일선 건강검진센터에서 흉부 CT 영상에 AI 분석 솔루션을 도입하여 심혈관 질환까지 분석하는 서비스를 확대함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460"
      ]
     },
     {
      "section": "정책",
-     "title": "응급실 수가 연동 논란",
-     "body": "정부가 응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 한 조치에 대해 특혜 논란이 제기됨.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "지역·필수의료 수가 구조 혁신",
-     "body": "보건복지부 건정심에서 내년부터 지역·필수의료에 2.7조 원을 우선 투입하고 검체 및 CT·MRI 수가를 조정하는 구조 혁신방안이 의결됨.",
+     "title": "지역·필수의료 수가 2.7조 원 투입",
+     "body": "보건복지부는 건정심을 열고 '27년 1월부터 지역·필수의료에 2.7조 원을 우선 투입하는 건강보험 수가 구조 혁신방안을 의결함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
@@ -33,37 +24,56 @@
     },
     {
      "section": "정책",
-     "title": "검체검사 수가 및 지급 개편",
-     "body": "건보공단이 검체검사 위·수탁기관에 검사료를 각각 직접 지급하는 구분 지급 방식과 의원 분석·관리료 신설 등이 확정됨.",
+     "title": "검체검사 수가 및 지급 방식 개편",
+     "body": "건공단이 위·수탁기관에 검사료를 직접 지급하는 구분 지급 방식을 도입하고 분석·관리수가를 신설함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "고위험 분만 인력 지원 및 수가 조정",
+     "body": "권역모자의료센터 등 고위험 분만 인력난 해소를 위해 전문간호사 및 PA 인건비 정부 지원 필요성이 제기되었으며 내년 초진진찰료 인상 등이 의결됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "응급실 재실시간 평가 및 수가 연동",
+     "body": "응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 한 결정에 대해 중증도 고려라는 입장과 특혜 논란이 제기됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018"
      ]
     }
    ],
    "implications": [
-    "정부의 지역·필수의료 수가 2.7조 원 투입 및 수가 구조 개편 방향에 따른 병원 운영 전략 수립 검토",
-    "권역모자의료센터 고위험 분만 인력 관련 전문간호사 및 PA 인건비 지원 정책 동향 모니터링",
-    "검체검사 수가 인하 및 건공단 직접 지급 방식 도입에 따른 원내 대응 체계 점검"
+    "건강검진센터의 흉부 CT 기반 심혈관 AI 분석 솔루션 도입 흐름에 발맞추어 원내 스마트 검진 서비스 고도화 검토",
+    "정부의 지역·필수의료 수가 2.7조 원 투입 및 검체·CT·MRI 수가 감축 기조에 따른 원내 재정 영향 분석 및 대응 전략 수립",
+    "고위험 분만 인력(전문간호사·PA) 인건비 지원 관련 정책 동향을 모니터링하여 원내 분만 인프라 운영 효율화 도모"
    ],
    "count": 11,
-   "picks": 3,
+   "picks": 6,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-29 08:39",
-   "sig": "3:1lfdr6m",
+   "generatedAt": "2026-10-29 09:01",
+   "sig": "3:28vqyg",
    "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941980",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
    ]
   },
   {
