@@ -845,6 +845,8 @@
   function dlOf(it) {
     const d = deadlines[get(it.r, 'link')];
     if (!d || !d.end) return null;
+    // 선정 결과 공고, 기간이 120일을 넘는 공고(지정·사업 기간)는 접수기간이 아니므로 표시 안 함
+    if (/선정\s*결과/.test(get(it.r, 'title')) || (d.start && Date.parse(d.end) - Date.parse(d.start) > 120 * 864e5)) return null;
     const t = kstToday(), left = Math.round((Date.parse(d.end) - Date.parse(t)) / 864e5);
     if (d.start && d.start > t) return { kind: 'plan', text: `접수 예정 ${md(d.start)}~${md(d.end)}`, open: false };
     if (left < 0) return { kind: 'closed', text: `마감 ${md(d.end)}`, open: false };
