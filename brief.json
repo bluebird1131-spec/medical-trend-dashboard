@@ -3,11 +3,11 @@
   {
    "date": "2026-10-30",
    "from": "2026-10-29",
-   "headline": "정부의 지역·필수의료 재정 투입과 검체검사 정산체계 전면 개편 추진",
+   "headline": "지역·필수의료 2조 7천억 투입 및 검체검사 체계 개편, AI 챗봇 개방 등 정부 정책 본격화",
    "points": [
     {
      "section": "정책",
-     "title": "AI 건강도우미 챗봇 개방",
+     "title": "AI 대국민 건강도우미 챗봇 개방",
      "body": "질병관리청과 과학기술정보통신부가 공공 보건데이터를 활용한 AI 대국민 건강도우미 챗봇 서비스를 개방함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976"
@@ -15,16 +15,8 @@
     },
     {
      "section": "정책",
-     "title": "지역·필수의료 2.7조원 투입",
-     "body": "보건복지부 건정심에서 내년 1월부터 지역·필수의료 강화에 2조7000억원을 투입하고 분만·신생아 분야 지역우대 수가를 본격 적용하기로 의결함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "검체검사 수가 인하 및 직불제 도입",
-     "body": "내년 1월부터 검체검사 702개 항목의 수가를 인하하고, 건보공단이 위·수탁기관에 검사료를 직접 지급하는 분리 정산체계로 전환 예정임. 위탁의료기관 분석·관리료 신설 및 수탁기관 가산 등 조건부 보상 계획을 병행 추진함.",
+     "title": "검체검사 702개 수가 인하 및 직접 정산",
+     "body": "보건복지부 건정심이 내년 1월부터 검체검사 702개 항목 수가를 인하하고, 건보공단이 위탁·수탁기관에 검사료를 직접 지급하며 위탁기관 분석·관리료를 신설하기로 의결함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
@@ -33,23 +25,32 @@
     },
     {
      "section": "정책",
-     "title": "원격중환자실 네트워크 확대",
-     "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 원격중환자실 협력 네트워크 사업을 강원·충북에 이어 11월 서울 권역까지 확대함.",
+     "title": "지역·필수의료 2조 7천억원 선투입",
+     "body": "보건복지부가 내년 1월부터 지역·필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억원을 투입하고 분만·신생아 분야 지역우대 수가를 본격 적용하기로 의결함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "AI 접목 원격중환자실 네트워크 확대",
+     "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 인공지능 접목 원격중환자실 협력 네트워크 사업을 강원·충북에 이어 11월 서울 권역까지 확대 추진함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016"
      ]
     }
    ],
    "implications": [
-    "내년 1월 분만·신생아 지역우대 수가 적용에 따른 병원 내 관련 필수 진료과 수가 반영 및 운영 영향 검토",
-    "검체검사 702개 항목 수가 인하 및 위·수탁 직접 지급 방식 전환에 맞춘 원내 검사 원가 분석 및 원무·전산 시스템 개편 착수",
-    "거점병원 중심 원격중환자실 협력 네트워크 확대 흐름에 따른 지역 중환자 연계 진료 모델 도입 검토"
+    "내년 1월 분만·신생아 분야 지역우대 수가 본격 적용 및 2조 7000억원 투입에 따른 원내 관련 필수의료 진료과 영향 및 인프라 운영 검토",
+    "내년 1월 검체검사 702개 항목 수가 인하 및 건보공단 직접 정산체계 개편에 따른 원내 검체검사 수익성 분석 및 위·수탁 정산 프로세스 점검",
+    "거점병원-지역 협력병원 간 인공지능 기반 원격중환자실 협력 네트워크 사업의 권역 확대 흐름 모니터링 및 원내 중환자 진료 연계 검토"
    ],
    "count": 8,
    "picks": 5,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-30 08:31",
-   "sig": "3:1ickx6b",
+   "generatedAt": "2026-10-30 08:34",
+   "sig": "3:19lpk6h",
    "links": [
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
@@ -58,7 +59,7 @@
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492353&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044093"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016"
    ]
   },
   {
