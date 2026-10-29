@@ -19196,6 +19196,34 @@
    ""
   ],
   [
+   "2026-10-29",
+   "청년의사",
+   "원격중환자실 4개 권역으로 확대…서울도 11월 가동",
+   "필요",
+   "AI·디지털헬스",
+   "[필요-원격중환자실확대] 복지부가 거점병원과 AI 등을 활용하는 원격중환자실(e-ICU) 사업을 서울 권역으로 확대함.",
+   "보건복지부",
+   "전국",
+   "2026-10-29",
+   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-10-30",
+   "메디컬타임즈",
+   "대웅제약, 동탄시티병원과 'AI 스마트 병원' 공개",
+   "필요",
+   "업체기술",
+   "[불필요-기업홍보행사] 대웅제약이 동탄시티병원과 함께 AI 스마트 병원 공동전시관을 공개할 예정임.",
+   "대웅제약",
+   "경기",
+   "2026-10-29",
+   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171487",
+   "자료수집",
+   ""
+  ],
+  [
    "2026-10-30",
    "데일리메디",
    "의료진 부족 중환자실…‘원격중환자실’ 활성화",
@@ -19909,7 +19937,9 @@
   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469": "https://pds.medicaltimes.com/Thumnail/20261028/1793170094.jpg",
   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171459": "https://pds.medicaltimes.com/Thumnail/20261028/1793150875.jpg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976": "https://www.dailymedi.com/data/news_cont/2610/thumb-d20261028_832902480_g3Ylj564_5376de023ed7928506d3f7caf3aee3a6e5e1a360_800x422.png",
+  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102": "https://cdn.docdocdoc.co.kr/news/thumbnail/202610/3044102_3048034_1114_v150.jpg",
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171487": "https://pds.medicaltimes.com/Thumnail/20261029/1793239184.PNG",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016": "https://www.dailymedi.com/data/news_cont/2610/d20261029_3555410488_yoqeGAfQ_9c59f9760d71fb01b69fb5eb48a6e2e2d7f50901.jpg"
  },
- "fetchedAt": "2026-10-30 08:32"
+ "fetchedAt": "2026-10-30 08:35"
 }
