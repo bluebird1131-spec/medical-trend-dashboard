@@ -3,97 +3,61 @@
   {
    "date": "2026-10-30",
    "from": "2026-10-29",
-   "headline": "정부가 지역 및 필수의료 선제 투입과 원격중환자실 네트워크 확대를 추진하며 검체검사 지급 체계를 개편함.",
+   "headline": "정부의 지역·필수의료 재정 투입과 검체검사 정산체계 전면 개편 추진",
    "points": [
     {
-     "section": "병원",
-     "title": "첨단 로봇수술 및 AI 진료 도입",
-     "body": "진주제일병원이 단일공 로봇수술 시스템 다빈치 SP를 도입하며, 서울대병원은 X선 영상으로 두개골조기유합증을 판별하는 AI 기술을 개발함.",
+     "section": "정책",
+     "title": "AI 건강도우미 챗봇 개방",
+     "body": "질병관리청과 과학기술정보통신부가 공공 보건데이터를 활용한 AI 대국민 건강도우미 챗봇 서비스를 개방함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942023",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942021"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976"
      ]
     },
     {
      "section": "정책",
-     "title": "지역·필수의료 2조7천억 투입",
-     "body": "보건복지부가 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 건강보험 재정 2조7000억원을 선투입하고 분만·신생아 분야 지역우대 수가를 적용함.",
+     "title": "지역·필수의료 2.7조원 투입",
+     "body": "보건복지부 건정심에서 내년 1월부터 지역·필수의료 강화에 2조7000억원을 투입하고 분만·신생아 분야 지역우대 수가를 본격 적용하기로 의결함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994"
      ]
     },
     {
      "section": "정책",
-     "title": "검체검사 지급체계 개편 및 신설",
-     "body": "건강보험공단이 검체검사료를 위·수탁기관에 직접 지급하는 구분 지급 방식을 도입하고, 위탁의료기관 분석·관리료를 신설함.",
+     "title": "검체검사 수가 인하 및 직불제 도입",
+     "body": "내년 1월부터 검체검사 702개 항목의 수가를 인하하고, 건보공단이 위·수탁기관에 검사료를 직접 지급하는 분리 정산체계로 전환 예정임. 위탁의료기관 분석·관리료 신설 및 수탁기관 가산 등 조건부 보상 계획을 병행 추진함.",
      "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
      ]
     },
     {
      "section": "정책",
      "title": "원격중환자실 네트워크 확대",
-     "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 원격중환자실 협력 네트워크 사업을 기존 강원·충북에 이어 서울 권역까지 확대함.",
+     "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 원격중환자실 협력 네트워크 사업을 강원·충북에 이어 11월 서울 권역까지 확대함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "내년 1월부터 시행되는 검체검사 위·수탁기관 직접 정산체계 개편과 분석·관리료 신설에 따른 원내 관련 프로세스 정비 검토",
-    "정부의 원격중환자실 협력 네트워크 사업 확대 추이에 발맞춘 중환자 진료 디지털 인프라 연계 방안 모색"
+    "내년 1월 분만·신생아 지역우대 수가 적용에 따른 병원 내 관련 필수 진료과 수가 반영 및 운영 영향 검토",
+    "검체검사 702개 항목 수가 인하 및 위·수탁 직접 지급 방식 전환에 맞춘 원내 검사 원가 분석 및 원무·전산 시스템 개편 착수",
+    "거점병원 중심 원격중환자실 협력 네트워크 확대 흐름에 따른 지역 중환자 연계 진료 모델 도입 검토"
    ],
-   "count": 42,
-   "picks": 3,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-30 06:43",
-   "sig": "3:m0kxye",
+   "count": 8,
+   "picks": 5,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-30 08:31",
+   "sig": "3:1ickx6b",
    "links": [
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492353&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492351&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492345&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942015",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941771",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942003",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941993",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942000",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941894",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941901",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941999",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044108",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044104",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044109",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044105",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044106",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044047",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044074",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492362&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492360&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492358&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492357&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492356&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171485",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171482",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171480",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942023",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942012",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942018",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942021",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044116",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044115",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044111",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044093"
    ]
   },
