@@ -3,77 +3,76 @@
   {
    "date": "2026-10-29",
    "from": "2026-10-28",
-   "headline": "정부가 지역·필수의료에 2.7조 원 투입과 수가 구조 혁신을 추진하고 건강검진 AI 도입이 확대됨.",
+   "headline": "지역·필수의료 2.7조 원 투입과 검체검사 수가 개편 및 분만 인력 지원 논의",
    "points": [
     {
      "section": "병원",
-     "title": "흉부 CT 기반 심혈관 AI 검진 확대",
-     "body": "일선 건강검진센터에서 흉부 CT 영상에 AI 분석 솔루션을 도입하여 심혈관 질환까지 분석하는 서비스를 확대함.",
+     "title": "검진센터 흉부 CT 기반 심혈관 AI 도입",
+     "body": "일선 건강검진센터에서 흉부 CT 영상에 코어라인소프트 AI 분석 솔루션을 도입해 심혈관 질환까지 분석하는 서비스를 확대 중임.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460"
      ]
     },
     {
      "section": "정책",
-     "title": "지역·필수의료 수가 2.7조 원 투입",
-     "body": "보건복지부는 건정심을 열고 '27년 1월부터 지역·필수의료에 2.7조 원을 우선 투입하는 건강보험 수가 구조 혁신방안을 의결함.",
+     "title": "지역·필수의료 2.7조 원 투입 및 분만 우대",
+     "body": "보건복지부 건정심에서 내년 1월부터 지역·필수의료 강화를 위해 2조7000억원을 투입하고 분만·신생아 지역우대 수가를 본격 적용하기로 의결함. 검체검사와 CT·MRI 수가 조정을 통한 재정 감축 방안도 함께 의결함.",
      "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
      ]
     },
     {
      "section": "정책",
-     "title": "검체검사 수가 및 지급 방식 개편",
-     "body": "건공단이 위·수탁기관에 검사료를 직접 지급하는 구분 지급 방식을 도입하고 분석·관리수가를 신설함.",
+     "title": "검체검사 위·수탁료 개편 및 직접 지급",
+     "body": "검체검사 위탁의료기관 분석·관리료 신설(회당 1400원) 및 수탁기관 가산이 결정됨. 건보공단이 위탁·수탁기관에 검사료를 각각 직접 지급하는 구분 지급 방식 및 성과 보상이 추진됨.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
      ]
     },
     {
      "section": "정책",
-     "title": "고위험 분만 인력 지원 및 수가 조정",
-     "body": "권역모자의료센터 등 고위험 분만 인력난 해소를 위해 전문간호사 및 PA 인건비 정부 지원 필요성이 제기되었으며 내년 초진진찰료 인상 등이 의결됨.",
+     "title": "고위험 분만 전문간호사·PA 인건비 지원",
+     "body": "권역모자의료센터 등 고위험 분만 의료진의 인력난과 번아웃 해소를 위해 전문간호사 및 PA 인건비 정부 지원 확대 방안이 논의됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
      ]
     },
     {
      "section": "정책",
-     "title": "응급실 재실시간 평가 및 수가 연동",
-     "body": "응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 한 결정에 대해 중증도 고려라는 입장과 특혜 논란이 제기됨.",
+     "title": "응급실 재실시간 평가 수가 직접 연동 제외",
+     "body": "정부가 응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 결정하면서 대형병원 특혜 논란이 제기되었으나 정부는 환자 중증도 등을 고려한 조치임을 밝힘.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018"
      ]
     }
    ],
    "implications": [
-    "건강검진센터의 흉부 CT 기반 심혈관 AI 분석 솔루션 도입 흐름에 발맞추어 원내 스마트 검진 서비스 고도화 검토",
-    "정부의 지역·필수의료 수가 2.7조 원 투입 및 검체·CT·MRI 수가 감축 기조에 따른 원내 재정 영향 분석 및 대응 전략 수립",
-    "고위험 분만 인력(전문간호사·PA) 인건비 지원 관련 정책 동향을 모니터링하여 원내 분만 인프라 운영 효율화 도모"
+    "분만·신생아 지역우대 수가 본격 적용 및 필수의료 재정 투입에 따른 원내 관련 진료과 수가 영향 분석 및 대응책 마련 검토",
+    "검체검사 위·수탁 분리 지급 및 분석·관리료 신설에 대응한 원내 진단검사의학과 프로세스 및 청구 시스템 정비 검토",
+    "검진센터 내 흉부 CT 연계 심혈관 질환 AI 분석 솔루션 도입을 통한 검진 프로그램 경쟁력 강화 검토"
    ],
-   "count": 11,
+   "count": 12,
    "picks": 6,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-29 09:01",
-   "sig": "3:28vqyg",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-10-29 09:13",
+   "sig": "3:wefmcc",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941944",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492341&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941980",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078"
    ]
   },
   {
