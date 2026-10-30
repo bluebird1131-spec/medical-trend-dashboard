@@ -2156,116 +2156,125 @@
  "weekly": {
   "date": "2026-10-30",
   "from": "2026-10-24",
-  "headline": "정부가 지역·필수의료 인프라 강화를 위해 건강보험 수가 구조 혁신과 재정 투입을 본격화함.",
+  "headline": "정부가 지역·필수의료에 2조 7천억 원을 우선 투입하고 검체검사 개편 및 임상 성과 기반 의료 AI 보상체계를 추진함.",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 2.7조원 先투입",
-    "body": "정부는 내년 1월부터 건강보험 재정 2조7000억원을 투입하여 분만·신생아 분야 지역우대 수가 등 수가 구조 혁신을 단행할 예정임. 아울러 검체검사 및 CT·MRI 수가 조정을 통해 재정을 효율적으로 감축할 계획임.",
+    "title": "지역·필수의료 재정 투입 및 중증 수가 개편",
+    "body": "보건복지부 건정심은 내년 1월부터 지역·필수의료 인프라 강화를 위해 건보 재정 2조 7000억 원을 우선 투입하고 분만·신생아 분야 지역우대 수가를 본격 적용하기로 의결함. 아울러 종합병원 이상 1,670개 중증 수술·시술 수가를 20% 인상하는 등 수가 구조 혁신방안을 확정함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "검체검사 수가 및 지급체계 개편",
-    "body": "보건복지부는 내년 1월부터 검체검사 702개 항목의 수가를 인하하고, 건보공단이 위탁 및 수탁기관에 직접 지급하는 구분 지급 방식으로 개편함. 또한 의원급 분석·관리료 신설 및 수탁기관 가산과 함께 성과에 따른 별도 보상을 추진함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료 AI 기관 단위 수가 구체화",
-    "body": "정부는 단순 사용량 중심의 보상에서 벗어나, AI 제품별 임상 지표 달성 여부와 인프라를 종합 평가하여 의료기관에 보상하는 기관 단위 수가 개편안을 추진함. 이를 통해 의료 현장의 AI 확산과 질적 성과 중심의 보상을 강화할 예정임.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "원격중환자실 네트워크 서울 확대",
-    "body": "보건복지부는 거점병원과 지역 협력병원을 인공지능(AI) 등으로 연계하는 원격중환자실 협력 네트워크 사업을 기존 강원·충북 권역에 이어 오는 11월 서울 권역까지 확대 가동함.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "울산대병원, 필수의료 책임 강화",
-    "body": "울산시와 울산대병원 등 지역 의료기관은 지역필수의료 특별회계 신설에 대응하여 지역 의료공백 해소와 책임의료기관의 역할을 구체화하는 방안을 논의함. 또한 수도권 집중으로 인한 지역 소아신경외과 등 필수진료 수술 경험 단절 위기에 대응책을 모색함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941771"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "대형병원 스마트 병상·AI 도입",
-    "body": "아주대병원이 AI 기반 병상 모니터링 시스템을 도입하고 향후 전 병상 확대를 추진하는 등 진료 환경 혁신에 나섬. 삼성서울병원은 항암환자 관리를 위한 AI 챗봇 서비스를 도입하는 등 의료 질 향상을 도모함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
-    ]
-   }
-  ],
-  "implications": [
-   "내년 1월부터 시행되는 지역·필수의료 수가 2.7조 원 투입 및 중증 수술 수가 20% 인상 기조에 맞춰 원내 중증·필수 진료과의 수가 청구 및 보상 체계를 선제적으로 정비함.",
-   "정부의 의료 AI 수가 개편과 원격중환자실 네트워크 사업 확대에 발맞춰 원내 AI 기반 진단 및 중환자 모니터링 인프라를 확충하고 관련 국고 사업 및 성과 보상 체계에 적극 대응함.",
-   "검체검사 위·수탁 직접 정산 체계 및 수가 개편에 대비하여 원내 검체검사 위수탁 프로세스와 행정 시스템을 점검함."
-  ],
-  "count": 88,
-  "picks": 11,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-30 06:44",
-  "sig": "3:oc7cpx"
- },
- "monthly": {
-  "date": "2026-10-30",
-  "from": "2026-10-01",
-  "headline": "정부가 지역 및 필수의료 중심의 건강보험 재정 투입과 수가 구조 개편, 의료 AI 및 디지털헬스 제도 확립을 강력히 추진하고 있다.",
-  "points": [
-   {
-    "section": "정책",
-    "title": "지역·필수의료 선제 투입 및 수가 개편",
-    "body": "정부는 건강보험 재정 2조 7000억원을 투입하여 분만·신생아 분야 지역우대 수가를 본격 적용하고, 상급종합병원 구조전환 및 중증 수술·시술 수가를 인상하는 방향으로 수가 구조를 개편하고 있다.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
     ]
    },
    {
     "section": "정책",
-    "title": "검체검사 위·수탁 직접 정산체계 도입",
-    "body": "보건복지부는 검체검사료 일괄 정산을 폐지하고 건강보험공단이 위탁 및 수탁기관에 검사료를 각각 직접 지급하는 구분 지급 방식을 도입하여 내년 1월부터 시행할 예정이다.",
+    "title": "검체검사 수가 인하 및 지급체계 개편",
+    "body": "내년 1월부터 702개 검체검사 항목 수가를 인하하고, 건보공단이 위·수탁기관에 검사료를 각각 직접 지급하는 구분 지급 방식을 도입하기로 의결함. 위탁기관 분석·관리료 신설 및 수탁기관 가산이 적용되며, 동일 개편안은 국가건강검진 검체검사에도 연계 추진될 예정임.",
     "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 및 원격중환자실 제도 확산",
-    "body": "정부는 AI 제품별 임상 지표 평가를 통한 기관 단위 수가 개편안을 구체화하고 있으며, 거점병원과 지역 협력병원을 연계하는 원격중환자실(e-ICU) 사업을 서울 권역 등으로 확대하고 있다.",
+    "title": "고위험 분만 인력 지원 및 응급 질 지표 완화",
+    "body": "정부는 고위험 분만 인력난과 의료진 번아웃 해소를 위해 권역모자의료센터 전문간호사 및 PA 인건비 정부 지원 확대 방안에 공감대를 표명함. 한편 응급실 과밀화 평가 항목인 재실시간 평가 결과는 중증도를 감안해 건강보험 수가 직접 연동 대상에서 제외하기로 결정함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "임상 성과 기반 의료 AI 수가 도입 추진",
+    "body": "정부는 의료 AI 도입에 대해 단순 사용량이 아닌 제품별 임상 지표 달성 여부를 평가해 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함. 더불어 질병청과 과기정통부는 공공 보건데이터를 활용한 AI 대국민 건강도우미 챗봇 서비스를 개방하고 가이드라인 개정을 추진함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492341&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "울산 필수의료 역할 논의 및 실습 지적",
+    "body": "울산시와 울산대병원 등은 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함. 국회 교육위 국정감사에서는 울산의대 임상실습의 90% 이상이 서울아산병원에서 편중 진행되는 실태가 지적되며 지역 중심 실습 강화가 요구됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "상급종병 AI 병상 모니터링 도입 및 ASP 공모",
+    "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 3차 연도 시범사업 기관을 공모함. 아주대병원 등 주요 병원은 대웅제약의 AI 병상 모니터링 시스템을 도입해 수백 병상 단위로 확산 적용하며 스마트 병동 구축을 가속화함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
+    ]
+   }
+  ],
+  "implications": [
+   "2027년 1월 시행되는 검체검사 702개 항목 수가 인하 및 위·수탁 직접 지급 체계에 대응하여 원내 진단검사의학과 수익성 영향 분석 및 위수탁 정산 프로세스 재정비 착수",
+   "질병관리청 항생제 적정사용 관리(ASP) 시범사업 3차 연도 공모 신청을 검토하고, 권역모자의료센터 고위험 분만 전문간호사 인건비 국고 지원 추진 동향 모니터링 및 선제적 신청 준비",
+   "울산 지역 책임의료기관으로서 지역필수의료 특별회계 신설 연계 신규 사업을 발굴하고, 국감 지적에 따른 울산의대 임상실습의 원내 흡수 및 교육 인프라 확충 방안 마련"
+  ],
+  "count": 56,
+  "picks": 13,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-30 10:01",
+  "sig": "3:15s87b0"
+ },
+ "monthly": {
+  "date": "2026-10-30",
+  "from": "2026-10-01",
+  "headline": "정부가 지역 및 필수의료 중심의 2.7조 원 先투입과 수가 구조 혁신을 추진하고, 의료 AI 및 디지털 헬스케어 제도 정비를 가속화하고 있다.",
+  "points": [
+   {
+    "section": "정책",
+    "title": "지역·필수의료 수가 2.7조원 先투입",
+    "body": "정부는 내년 1월부터 건강보험 재정 2조 7000억 원을 지역 및 필수의료 인프라에 우선 투입하고, 분만·신생아 분야 지역우대 수가와 중증 수술 수가를 인상하기로 의결함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "검체검사 수가 및 지급체계 개편",
+    "body": "보건복지부는 검체검사 702개 항목의 수가를 인하하는 한편, 건강보험공단이 위·수탁기관에 검사료를 직접 지급하고 분석·관리료를 신설하는 구분 지급 방식을 도입하기로 함.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 수가 및 원격중환자실 확충",
+    "body": "정부는 의료 AI 확산에 대응해 사용량 중심에서 제품별 임상 지표와 성과 기반의 기관 단위 보상 체계를 구체화하는 한편, 원격중환자실(e-ICU) 협력 네트워크를 서울 권역 등으로 확대함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
     ]
    },
    {
     "section": "정책",
-    "title": "비대면진료 세부 기준 법제화 추진",
-    "body": "정부는 6개월 내 대면진료 의료기관 원칙, 동일 시·도 의원급 초진 허용, 처방일수 7일 제한 등을 담은 비대면진료 의료법 하위법령 개정안을 입법예고했다.",
+    "title": "비대면진료 시행규칙 및 초진 기준",
+    "body": "보건복지부는 6개월 내 동일 증상 재진 중심의 원칙과 함께 동일 시·도 의원급 의료기관에 한해 초진을 허용하고 처방일수를 7일로 제한하는 의료법 시행규칙 개정안을 입법예고함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492252&tag=&nPage=1",
@@ -2274,42 +2283,39 @@
    },
    {
     "section": "정책",
-    "title": "상급종합병원 최소지정 및 자율 관리",
-    "body": "진료권역별 최소 1곳 지정을 의무화하는 고시가 개정되었으며, 상급종합병원 구조전환 지원사업과 관련해 중증환자 감소 등 실효성과 성과 평가의 필요성이 국정감사에서 제기되었다.",
+    "title": "정신응급·자살예방 필수의료 지정",
+    "body": "정부는 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고, 2030년까지 급성기 정신질환 집중치료병상을 2000개로 확충하며 별도 보상을 추진함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043654",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941944",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171277"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
     ]
    },
    {
     "section": "병원",
-    "title": "로봇수술센터 도입 및 성과 달성",
-    "body": "울산대병원이 부울경 지역 대장항문외과 최초로 로봇수술 1000례를 달성했으며, 분당차병원은 국내 최초 순수 단일공 전립선암 로봇수술을 성공적으로 시행했다.",
+    "title": "대장항문 로봇수술 1000례 달성",
+    "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성하며 고난도 수술 역량을 입증함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
     ]
    },
    {
     "section": "병원",
-    "title": "AI 기반 스마트 병상 모니터링 구축",
-    "body": "아주대병원이 AI 기반 병상 모니터링 시스템 '씽크'를 도입하고 1100병상까지 확대를 추진하는 등 주요 병원들의 스마트 병동 인프라 도입이 가속화되고 있다.",
+    "title": "스마트병상 모니터링 시스템 도입",
+    "body": "국내 주요 상급종합병원과 종합병원 현장에서는 입원환자 생체신호를 실시간 추적·관리하는 AI 기반 스마트 병상 모니터링 시스템 도입이 확산되는 추세를 보임.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 중심 2조 7000억원 투자 및 수가 구조 개편에 맞춰 원내 필수의료 인프라와 중증 진료 체계를 정비함.",
-   "정부의 AI 활용 진료 및 원격중환자실(e-ICU) 네트워크 확대 기조에 발맞추어 원내 스마트 의료 시스템 및 AI 기반 협진 체계를 선제적으로 도입·확장함.",
-   "검체검사 위·수탁 직접 지급 및 비대면진료 제도화 등 강화되는 보건의료 규제와 지불체계 변화에 대응하여 원내 행정 및 회계 시스템을 개편함."
+   "정부의 지역·필수의료 수가 2.7조 원 선투입 및 분만·신생아·중증수술 수가 인상 기조에 맞춰 원내 필수의료 인프라와 진료 프로세스 정비를 선제적으로 준비해야 함.",
+   "복지부의 검체검사 위·수탁 직접 정산 및 수가 개편 시행에 대비하여 원내 수·위탁 검사 프로세스와 관련 행정 시스템을 점검해야 함.",
+   "정부의 성과·임상 지표 기반 의료 AI 수가 개편과 원격중환자실 확대 정책에 발맞추어 원내 AI 진단·모니터링 솔루션 도입과 실증 연구를 확대해야 함."
   ],
   "count": 300,
-  "picks": 38,
+  "picks": 40,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-30 06:44",
-  "sig": "3:1b6qqco"
+  "generatedAt": "2026-10-30 10:02",
+  "sig": "3:1wyxxqs"
  }
 }
