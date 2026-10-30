@@ -1,6 +1,104 @@
 {
  "days": [
   {
+   "date": "2026-10-31",
+   "from": "2026-10-30",
+   "headline": "복지부의 검체검사 수가 인하 및 자가면역세포 치료 고시 개정과 AI 스마트 병상·진단 솔루션 도입 확산",
+   "points": [
+    {
+     "section": "병원",
+     "title": "AI 기반 스마트 병상 모니터링 도입",
+     "body": "대웅제약의 인공지능 기반 스마트 병상 모니터링 시스템 '씽크'가 경기 안산 클래스병원 90병상에 공급되어 스마트병동 구축에 활용됨.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171508",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942070",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044130"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "국산 CAR-T 및 AI 솔루션 활용 확대",
+     "body": "국산 CAR-T 치료제 '림카토'가 분당서울대병원 원내 사용 승인을 받았으며, 에이아이트릭스의 바이탈케어가 홍콩 대학 및 병원 도입을 추진함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942073",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942044"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "검체검사 지급체계 개편 및 수가 인하",
+     "body": "보건복지부 건정심이 내년 1월부터 검체검사 702개 항목의 수가를 인하하고 위·수탁기관 직접 정산체계로 개편하기로 의결함.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "자가면역세포 치료계획 규제 완화",
+     "body": "복지부가 배양 자가면역세포 활용 치료의 위험도를 저위험으로 조정하여 선행 임상연구 없이 문헌 근거로 치료계획 신청이 가능해짐.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492379&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044143"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "필수의약품 약가 개선 및 퇴장방지약 지정",
+     "body": "보건복지부가 소아 및 응급의료 필수의약품인 삼진로라제팜주를 퇴장방지의약품으로 신규 지정하고 14개 품목의 약가를 개선함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492378&tag=&nPage=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044144"
+     ]
+    }
+   ],
+   "implications": [
+    "내년 1월 시행되는 검체검사 수가 인하 및 직접 정산체계 개편에 따른 병원 수익성 영향 분석과 대응 검토",
+    "자가면역세포 치료 위험도 저위험 조정 및 선행 임상연구 면제 고시에 발맞춘 원내 세포치료 연구·임상 적용 방안 검토",
+    "대웅제약 '씽크' 등 AI 기반 스마트 병상 모니터링 시스템의 원내 도입 타당성 검토"
+   ],
+   "count": 33,
+   "picks": 2,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-10-31 00:24",
+   "sig": "3:16rqldq",
+   "links": [
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492379&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492378&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492381&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171510",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171509",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171508",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942074",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942063",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942073",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942070",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942064",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942008",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941988",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942044",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942032",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942052",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044143",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044145",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044138",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044144",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044141",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044140",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044142",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044130",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044131",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044132",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044126",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044127",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044118",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044120"
+   ]
+  },
+  {
    "date": "2026-10-30",
    "from": "2026-10-29",
    "headline": "정부가 내년 검체검사 지급체계 개편 및 지역·필수의료 선투입을 추진하고, 원격중환자실 사업을 서울 권역 등으로 확대함",
@@ -2181,79 +2279,84 @@
   }
  ],
  "weekly": {
-  "date": "2026-10-30",
-  "from": "2026-10-24",
-  "headline": "정부가 내년 지역 및 필수의료 중심의 2조 7천억 원 선투입과 수가 구조 개편을 추진하는 가운데 의료 AI와 원격중환자실 등 디지털 헬스케어 지원이 본격화됨.",
+  "date": "2026-10-31",
+  "from": "2026-10-25",
+  "headline": "정부가 내년 2조 7천억 원 규모 지역·필수의료 선투입과 검체검사 직불 개편을 확정하며 보상 체계 전면 개편을 추진함.",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 2.7조 先투입",
-    "body": "보건복지부는 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억 원을 우선 투입하고, 분만·신생아 분야 지역우대 수가를 본격 적용하기로 의결함.",
+    "title": "지역·필수의료 2.7조 투입 및 보상 강화",
+    "body": "보건복지부 건정심은 내년 1월부터 건강보험 재정 2조 7000억 원을 우선 투입하고 분만·신생아 지역우대 수가 및 1,670개 중증 수술 수가를 인상하기로 결정함. 고위험 분만 인력난 해소를 위한 권역모자의료센터 전문간호사 및 전담간호사(PA) 인건비 국고 지원 방안도 함께 논의됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
     ]
    },
    {
     "section": "정책",
-    "title": "검체검사 수가 및 지급체계 개편",
-    "body": "내년 1월부터 검체검사 702개 항목의 수가가 인하되며, 건보공단이 위·수탁기관에 검사료를 직접 지급하는 구분 지급 방식으로 개편됨.",
+    "title": "검체검사 수가 인하 및 직불체계 전환",
+    "body": "건정심에서 내년 1월부터 검체검사 702개 항목 수가를 인하하고 건보공단이 위·수탁기관에 검사료를 각각 직접 지급하는 체계 개편을 의결함. 위탁의료기관 분석·관리료 신설(회당 1400원) 및 수탁기관 가산이 확정되었으며 국가건강검진 검체검사도 동일 개편이 추진될 예정임.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 및 원격중환자실 확산",
-    "body": "정부는 의료 AI 제품별 임상 지표를 평가하는 기관 단위 보상 방안을 구체화하고, AI 기반 원격중환자실 협력 네트워크 사업을 서울 권역 등으로 확대함.",
+    "title": "의료 AI 임상 성과 기반 기관 보상 개편",
+    "body": "보건복지부가 의료 AI 확산에 맞춰 단순 사용량이 아닌 제품별 임상 지표 달성도와 인프라를 평가해 기관 단위로 보상하는 수가 개편안을 구체화함. 질병관리청과 과학기술정보통신부는 공공 보건데이터를 활용한 AI 대국민 건강도우미 챗봇 서비스를 공식 개방함.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
     ]
    },
    {
     "section": "정책",
-    "title": "자가면역세포 치료 규제 완화",
-    "body": "보건복지부는 배양 자가면역세포를 활용한 치료의 위험도를 저위험으로 조정하여, 선행 임상연구 없이 문헌 근거로 치료계획 신청이 가능하도록 함.",
+    "title": "ASP 시범사업 공모 및 응급실 평가 조정",
+    "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관 공모에 착수함. 한편 복지부는 중증 환자 수용 부담을 고려해 응급실 재실시간 평가 결과를 건강보험 수가에 직접 연동하지 않기로 결정함.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492379&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044143"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
     ]
    },
    {
     "section": "병원",
-    "title": "AI 스마트 병상 모니터링 도입",
-    "body": "주요 병원 현장에서는 대웅제약의 인공지능 기반 스마트 병상 모니터링 시스템인 '씽크'를 도입하여 24시간 생체신호 모니터링 체계를 구축하고 있음.",
+    "title": "울산시·울산대병원 필수의료 공조 논의",
+    "body": "울산시와 울산대병원 등 지역 의료기관이 정부의 지역필수의료 특별회계 신설에 대응해 지역 의료공백 해소 방안을 논의함. 권역책임의료기관으로서 중증·필수의료 네트워크 강화와 세부 실행 역할 구체화를 검토함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044130",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "대형병원 스마트 병상 모니터링 도입 확산",
+    "body": "아주대병원이 AI 기반 스마트 병상 모니터링 시스템 씽크를 342병상에 도입하고 향후 1100병상까지 확대 적용을 추진함. 삼성서울병원 등 주요 상급종병에서도 AI 챗봇을 활용한 항암환자 관리 등 현장 디지털 헬스케어 도입이 지속됨.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "항생제 적정사용 관리 체계 강화",
-    "body": "질병관리청의 항생제 적정사용 관리(ASP) 시범사업에 참여한 의료기관들이 우수 성과를 거두며 감염관리 역량을 높이고 있음.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171509",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
     ]
    }
   ],
   "implications": [
-   "내년 1월부터 시행되는 지역 및 필수의료 수가 2조 7천억 원 선투입 정책에 맞춰 울산대학교병원의 중증·필수의료 수가 산정 체계와 분만·신생아 분야 지원 기준을 점검함.",
-   "정부의 의료 AI 수가 개편 및 원격중환자실 확대 기조에 발맞추어 원내 임상 지표 연계 AI 솔루션 도입과 중환자실 원격 협력 체계 구축을 검토함.",
-   "울산시 및 지역 의료기관과의 협력을 통해 지역필수의료 특별회계 및 책임의료기관 역할 강화 방안에 적극 대응함."
+   "질병관리청 주관 상급종합병원 대상 항생제 적정사용 관리(ASP) 시범사업 3차 연도 공모 신청 및 원내 항생제 관리 전담 체계 점검",
+   "2027년 1월 시행 예정인 702개 검체검사 수가 인하 및 위·수탁 분리 직접 청구 체계에 대비한 원내 검사 처방·원무 청구 전산 시스템 사전 재정비",
+   "정부의 2조 7천억 원 필수의료 선투입 및 분만·신생아 지역우대 수가 도입에 맞춘 권역모자의료센터 인력 확보 및 지자체 필수의료 특별회계 연계 사업 발굴"
   ],
-  "count": 90,
-  "picks": 13,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-30 13:39",
-  "sig": "3:1d1x19c"
+  "count": 85,
+  "picks": 12,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-10-31 00:27",
+  "sig": "3:8md7us"
  },
  "monthly": {
   "date": "2026-10-30",
