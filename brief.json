@@ -1,6 +1,63 @@
 {
  "days": [
   {
+   "date": "2026-11-01",
+   "from": "2026-10-31",
+   "headline": "의료사고 형사특례 기준 구체화와 소아응급 전문의 이탈 우려 속 심평원 AI 심사 도입 동향",
+   "points": [
+    {
+     "section": "병원",
+     "title": "소아전문응급센터 전문의 사직 표명",
+     "body": "아주대병원 소아전문응급의료센터 압수수색 사건 여파로 응급실 전문의들의 사직 의사 표명 확인.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044172"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "심평원 무릎 심사 AI 영상 판독 도입",
+     "body": "건강보험심사평가원이 무릎관절 진료비 심사에 판단 보조 수단으로 AI 영상 판독 기술을 활용 중.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044085"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료사고 형사특례 기준 윤곽 및 논란",
+     "body": "고위험 필수의료행위 후보 1,440건과 12대 중대 과실 기준이 도출되었으나 특례 범위를 둘러싼 의료계와 환자단체의 이견 지속.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044179",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044178"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "신경과 비대면진료 본사업 반대 표명",
+     "body": "대한신경과의사회가 질환 진단 지연 우려를 제기하며 초진 범위 축소와 재진 원칙 강화를 주장.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044171"
+     ]
+    }
+   ],
+   "implications": [
+    "정부의 고위험 필수의료행위 1,440건 선정 동향에 따른 원내 관련 진료과 의료사고 법적 리스크 관리 체계 검토",
+    "심평원의 무릎관절 진료비 AI 영상 판독 심사 도입에 맞춘 원내 영상 및 청구 데이터 관리 점검",
+    "소아응급 등 고위험 필수의료 인력의 법적 분쟁 리스크 대응 및 의료진 보호 방안 검토"
+   ],
+   "count": 5,
+   "picks": 0,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-11-01 00:22",
+   "sig": "3:o9ntky",
+   "links": [
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044179",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044178",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044171",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044085",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044172"
+   ]
+  },
+  {
    "date": "2026-10-31",
    "from": "2026-10-30",
    "headline": "보건복지부의 검체검사 수가 개편 및 내년 1월 시행, 그리고 질병청의 AI 건강도우미 챗봇 서비스 개방",
@@ -2276,77 +2333,87 @@
   }
  ],
  "weekly": {
-  "date": "2026-10-31",
-  "from": "2026-10-25",
-  "headline": "정부가 지역·필수의료 수가 2.7조 원 선제 투입과 검체검사 지급체계 개편을 단행하며 건보 재정 구조 혁신에 집중함.",
+  "date": "2026-11-01",
+  "from": "2026-10-26",
+  "headline": "정부가 지역·필수의료에 2.7조 원을 우선 투입하고 검체검사 등 과보상 분야 수가를 조정하며 의료 AI·원격중환자실 등 디지털 기반 보상 및 인프라 개편을 본격화함.",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 2.7조 원 우선 투입",
-    "body": "보건복지부는 건정심을 통해 내년 1월부터 지역·필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억 원을 선제 투입하고 분만·신생아 분야 지역우대 수가를 본격 적용하기로 의결함.",
+    "title": "지역·필수의료 2.7조 원 투입 및 수가 개편",
+    "body": "보건복지부 건정심이 지역·필수의료 인프라 강화를 위해 내년 1월부터 건강보험 재정 2조 7000억 원을 투입하고 분만·신생아 분야 지역우대 수가 및 중증 수술 20% 인상을 본격 적용하기로 의결함. 반면 재정 건전화를 위해 검체검사와 CT·MRI 등 과보상 분야에서 2조 6000억 원 규모의 수가 감축을 병행 추진함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
     ]
    },
    {
     "section": "정책",
-    "title": "검체검사 지급체계 개편 및 수가 인하",
-    "body": "내년 1월부터 검체검사 702개 항목의 수가가 인하되고, 건보공단이 위탁 및 수탁기관에 검사료를 직접 지급하는 구분 지급 방식과 위탁의료기관 분석·관리료 신설이 추진됨.",
+    "title": "검체검사 수가 인하 및 직접 정산체계 개편",
+    "body": "건정심에서 내년 1월부터 검체검사 702개 항목의 수가를 인하하고, 건보공단이 위탁 및 수탁기관에 검사료를 각각 직접 지급하는 구분 정산체계로 전환하기로 결정함. 위탁의료기관 분석·관리료 신설 및 수탁기관 가산 등 조건부 보상을 마련하며 향후 국가건강검진 검체검사까지 동일 체계 적용을 추진함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 성과 기반 보상 체계 구체화",
-    "body": "정부는 의료 AI 확산에 대응하여 단순 사용량이 아닌 AI 제품별 임상 지표 달성 여부를 평가해 의료기관에 보상하는 기관 단위 수가 개편안을 구체화함.",
+    "title": "의료 AI 기관 보상 체계 및 공공 챗봇 개방",
+    "body": "정부가 의료 AI 도입 확산에 맞춰 개별 제품이 아닌 임상 지표 달성 여부를 평가해 의료기관 단위로 보상하는 수가 개편안을 구체화함. 아울러 질병청과 과기정통부가 공공 보건데이터를 활용한 AI 대국민 건강도우미 챗봇 서비스를 정식 개방함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
     ]
    },
    {
     "section": "정책",
-    "title": "원격중환자실 네트워크 서울 권역 확대",
-    "body": "보건복지부는 거점병원과 지역 협력병원을 AI 기반으로 연계하는 원격중환자실(e-ICU) 협력 네트워크 사업을 강원·충북에 이어 11월 서울 권역까지 확대 가동함.",
+    "title": "고위험 분만·응급 인력 지원 및 제도 정비",
+    "body": "고위험 분만 분야 인력난 및 번아웃 완화를 위해 권역모자의료센터 인건비 지원 대상을 전문간호사 및 PA까지 확대하는 방안이 논의됨. 한편 응급실 재실시간 평가 결과의 건보 수가 직접 연동은 중증도 고려 차원에서 제외되었으며, 소아응급실 강제수사 방지를 위한 진료보호 제도 개선이 검토됨.",
     "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492393&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942078",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044161"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "원격중환자실 확대 및 ASP 시범사업 공모",
+    "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 원격중환자실(e-ICU) 사업을 강원·충북에 이어 11월 서울 권역까지 확대하고 AI 상태 악화 예측 시스템을 도입함. 또한 질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관 공모를 진행함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
     ]
    },
    {
     "section": "병원",
-    "title": "항생제 적정사용 관리(ASP) 시범사업",
-    "body": "질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리 시범사업 참여기관 공모 및 성과 공유를 진행함.",
+    "title": "울산 필수의료 강화 논의 및 스마트병상 확산",
+    "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 발맞춰 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함. 아주대병원 등 주요 병원들은 AI 기반 병상 모니터링 시스템 '씽크'를 수백 병상 규모로 도입하며 스마트 병동 구축을 가속화함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044140",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "울산권 필수의료 책임의료기관 역할 논의",
-    "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설 기조에 맞춰 지역 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
     ]
    }
   ],
   "implications": [
-   "내년 1월부터 시행되는 지역·필수의료 수가 2.7조 원 투입 및 분만·신생아 지역우대 수가 정책에 맞춰 원내 관련 진료과의 수가 청구 및 인프라 운영 전략을 점검함.",
-   "정부의 AI 기반 원격중환자실 및 의료 AI 임상 성과 보상 제도에 대비하여 원내 중환자 모니터링 시스템과 AI 솔루션 활용 성과 지표 체계를 정비함.",
-   "상급종합병원 및 종합병원을 대상으로 확대되는 항생제 적정사용 관리(ASP) 시범사업 등 정부 공모 및 관리 사업에 적극 참여를 검토함."
+   "내년 1월 시행되는 검체검사 위·수탁 직접 지급 체계 및 702개 항목 수가 인하에 대비해 원내 진단검사의학과 수익성 변동 시뮬레이션 및 정산 전산 시스템 재정비 착수 필요",
+   "분만·신생아 지역우대 수가 신설, 권역모자의료센터 전문간호사 인건비 지원 검토, 1670개 중증 수술 수가 20% 인상 등 권역책임의료기관 우대 정책에 맞춘 필수·중증 진료과 운영 계획 수립",
+   "질병관리청 상급종합병원 대상 '항생제 적정사용 관리(ASP) 시범사업 3차 연도' 참여 신청 검토 및 정부의 원격중환자실(e-ICU) 권역망 연계·의료 AI 임상지표 연계 보상안에 부합하는 디지털 모니터링 인프라 구축 검토"
   ],
-  "count": 113,
+  "count": 106,
   "picks": 12,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-10-31 13:32",
-  "sig": "3:158nohe"
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-01 00:25",
+  "sig": "3:1h6o9hs"
  },
  "monthly": {
   "date": "2026-10-31",
