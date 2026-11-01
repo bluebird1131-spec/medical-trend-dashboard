@@ -2333,14 +2333,14 @@
   }
  ],
  "weekly": {
-  "date": "2026-11-01",
-  "from": "2026-10-26",
-  "headline": "정부가 지역·필수의료에 2.7조 원을 우선 투입하고 검체검사 등 과보상 분야 수가를 조정하며 의료 AI·원격중환자실 등 디지털 기반 보상 및 인프라 개편을 본격화함.",
+  "date": "2026-11-02",
+  "from": "2026-10-27",
+  "headline": "정부, 지역·필수의료 2조 7,000억 원 선투입과 검체검사 정산 개편 등 필수의료 중심 수가 구조 혁신 본격 추진",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 2.7조 원 투입 및 수가 개편",
-    "body": "보건복지부 건정심이 지역·필수의료 인프라 강화를 위해 내년 1월부터 건강보험 재정 2조 7000억 원을 투입하고 분만·신생아 분야 지역우대 수가 및 중증 수술 20% 인상을 본격 적용하기로 의결함. 반면 재정 건전화를 위해 검체검사와 CT·MRI 등 과보상 분야에서 2조 6000억 원 규모의 수가 감축을 병행 추진함.",
+    "title": "지역·필수의료 2.7조 투입 및 중증 수가 인상",
+    "body": "보건복지부 건정심은 지역·필수의료 인프라 강화를 위해 내년 1월부터 2조 7,000억 원을 우선 투입하고 분만·신생아 지역우대 수가 및 1,670개 중증 수술 수가 20% 인상 의결. 재정 확보를 위해 검체검사와 CT·MRI 등 영상 검사 수가 조정을 통한 2조 6,000억 원 규모의 지출 감축 병행 추진.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
@@ -2351,69 +2351,70 @@
    {
     "section": "정책",
     "title": "검체검사 수가 인하 및 직접 정산체계 개편",
-    "body": "건정심에서 내년 1월부터 검체검사 702개 항목의 수가를 인하하고, 건보공단이 위탁 및 수탁기관에 검사료를 각각 직접 지급하는 구분 정산체계로 전환하기로 결정함. 위탁의료기관 분석·관리료 신설 및 수탁기관 가산 등 조건부 보상을 마련하며 향후 국가건강검진 검체검사까지 동일 체계 적용을 추진함.",
+    "body": "보건복지부는 검체검사 702개 항목의 수가를 인하하고 내년 1월부터 건보공단이 위탁 및 수탁기관에 검사료를 각각 직접 지급하는 체계로 전환 결정. 위탁의료기관 분석·관리료 회당 1,400원 신설 및 질 관리 성과에 따른 별도 보상 도입 확정.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 기관 보상 체계 및 공공 챗봇 개방",
-    "body": "정부가 의료 AI 도입 확산에 맞춰 개별 제품이 아닌 임상 지표 달성 여부를 평가해 의료기관 단위로 보상하는 수가 개편안을 구체화함. 아울러 질병청과 과기정통부가 공공 보건데이터를 활용한 AI 대국민 건강도우미 챗봇 서비스를 정식 개방함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "고위험 분만·응급 인력 지원 및 제도 정비",
-    "body": "고위험 분만 분야 인력난 및 번아웃 완화를 위해 권역모자의료센터 인건비 지원 대상을 전문간호사 및 PA까지 확대하는 방안이 논의됨. 한편 응급실 재실시간 평가 결과의 건보 수가 직접 연동은 중증도 고려 차원에서 제외되었으며, 소아응급실 강제수사 방지를 위한 진료보호 제도 개선이 검토됨.",
+    "title": "고위험 분만 인력 지원 검토 및 응급 수가 완화",
+    "body": "고위험 분만 인력난과 의료진 번아웃 해소를 위해 권역모자의료센터 전담 간호사 및 PA 인건비 정부 지원 확대 논의. 응급실 재실시간 평가 결과의 경우 현장 중증도를 고려하여 건강보험 수가 직접 연동 대상에서 제외 결정.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492393&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942078",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044161"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
     ]
    },
    {
     "section": "정책",
-    "title": "원격중환자실 확대 및 ASP 시범사업 공모",
-    "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 원격중환자실(e-ICU) 사업을 강원·충북에 이어 11월 서울 권역까지 확대하고 AI 상태 악화 예측 시스템을 도입함. 또한 질병관리청이 상급종합병원과 종합병원을 대상으로 항생제 적정사용 관리(ASP) 시범사업 3차 연도 참여기관 공모를 진행함.",
+    "title": "공공 데이터 기반 AI 건강도우미 챗봇 개방",
+    "body": "질병관리청과 과기정통부는 공공 보건의료 데이터를 연계한 인공지능 대국민 건강도우미 챗봇 서비스 개방. 정부는 AI 발전에 발맞추어 연구자 대상 보건의료데이터 안전 활용 가이드라인 개정 및 교육 추진.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492383&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492341&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "원격중환자실 권역 확대 및 AI 예측 솔루션 도입",
+    "body": "보건복지부는 거점병원과 협력병원을 연계하는 원격중환자실 네트워크를 강원·충북에 이어 서울 권역까지 확대 추진. 일산백병원 등 일선 병원은 중환자 모니터링 강화를 위해 AI 환자 상태 악화 예측 솔루션 원내 도입.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044164",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
     ]
    },
    {
     "section": "병원",
-    "title": "울산 필수의료 강화 논의 및 스마트병상 확산",
-    "body": "울산시와 울산대병원 등 지역 의료기관이 지역필수의료 특별회계 신설에 발맞춰 의료공백 해소와 책임의료기관 역할 구체화 방안을 논의함. 아주대병원 등 주요 병원들은 AI 기반 병상 모니터링 시스템 '씽크'를 수백 병상 규모로 도입하며 스마트 병동 구축을 가속화함.",
+    "title": "소아응급실 수사 논란 속 응급진료보호법 추진",
+    "body": "아주대병원 소아전문응급의료센터 압수수색 여파로 의료진 사직이 잇따르자 필수의료 현장 특수성을 반영한 경찰 수사 지침 제정 요구 확산. 국회와 정부를 중심으로 강제수사 시 응급환자 진료 연속성을 보장하는 형사소송법 개정 본격 추진.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044172",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942052",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044145",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171521",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942078",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942065",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044156"
     ]
    }
   ],
   "implications": [
-   "내년 1월 시행되는 검체검사 위·수탁 직접 지급 체계 및 702개 항목 수가 인하에 대비해 원내 진단검사의학과 수익성 변동 시뮬레이션 및 정산 전산 시스템 재정비 착수 필요",
-   "분만·신생아 지역우대 수가 신설, 권역모자의료센터 전문간호사 인건비 지원 검토, 1670개 중증 수술 수가 20% 인상 등 권역책임의료기관 우대 정책에 맞춘 필수·중증 진료과 운영 계획 수립",
-   "질병관리청 상급종합병원 대상 '항생제 적정사용 관리(ASP) 시범사업 3차 연도' 참여 신청 검토 및 정부의 원격중환자실(e-ICU) 권역망 연계·의료 AI 임상지표 연계 보상안에 부합하는 디지털 모니터링 인프라 구축 검토"
+   "내년 1월 시행 예정인 검체검사 702개 항목 수가 인하 및 공단 직접 지급 전환에 맞춘 원내 처방·수탁 청구 전산 시스템 재정비 및 수익성 영향 분석 추진",
+   "분만·신생아 지역우대 수가 본격 적용 및 1,670개 중증 수술·시술 수가 20% 인상에 대응한 고난도 중증 진료역량 강화 및 진료과별 운영 계획 수립",
+   "정부의 원격중환자실 협력 네트워크 확대 사업에 대비한 지역 연계 체계 검토 및 고위험 분만 전담간호사 인건비 지원 논의에 따른 원내 전문인력 확보 방안 마련"
   ],
-  "count": 106,
-  "picks": 12,
+  "count": 93,
+  "picks": 8,
   "model": "gemini-flash-latest",
-  "generatedAt": "2026-11-01 00:25",
-  "sig": "3:1h6o9hs"
+  "generatedAt": "2026-11-02 00:12",
+  "sig": "3:n9j19a"
  },
  "monthly": {
   "date": "2026-10-31",
