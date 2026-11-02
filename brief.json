@@ -3,46 +3,44 @@
   {
    "date": "2026-11-02",
    "from": "2026-11-01",
-   "headline": "정부 필수의료 수가 개편 본격화 및 소아재활 인프라 감소 등 정책 현안 부각",
+   "headline": "복지부, 필수의료 보상 강화 및 과보상 조정 등 건보 수가 구조 혁신 정례화 본격 추진",
    "points": [
     {
      "section": "정책",
-     "title": "소아재활 환자 급증 대비 치료기관 감소세",
-     "body": "최근 5년간 소아재활 환자가 30% 증가했으나 치료 제공 의료기관은 18% 감소함. 지역 간 격차 해소 및 소아재활 전달체계 개선 요구 대두.",
+     "title": "필수의료 보상 강화 본격 실행",
+     "body": "보건복지부가 건강보험정책심의위원회 의결에 따라 필수의료 분야에 대한 보상 강화를 본격 실행할 계획임.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044174"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
      ]
     },
     {
      "section": "정책",
-     "title": "미프진 도입 대비 처방의사 등록제 제안",
-     "body": "대한산부인과학회가 미프진 국내 도입을 앞두고 처방 의사 및 기관 등록제 추진을 제안함. 약물 임신중지 관련 건강보험 수가 신설 병행 검토 요청.",
+     "title": "의료 과보상 영역 조정 추진",
+     "body": "정부는 재정 확보 목적이 아님을 밝히며 건정심 의결에 따른 과보상 영역 조정을 계획대로 진행할 예정임.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044168"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
      ]
     },
     {
      "section": "정책",
-     "title": "정부 필수의료 보상 강화 및 수가 조정 본격화",
-     "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행할 방침임. 수가 구조 혁신 작업 정례화 추진.",
+     "title": "건강보험 수가 구조 혁신 정례화",
+     "body": "복지부는 건강보험정책심의위원회 의결을 바탕으로 수가 구조 전반의 혁신 작업을 정례화하여 추진할 방침임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
      ]
     }
    ],
    "implications": [
-    "보건복지부의 필수의료 보상 강화 및 과보상 영역 조정 등 수가 구조 혁신 계획에 대응한 원내 진료과별 수익 영향 분석 및 전략 수립 검토",
-    "소아재활 치료기관 감소 추세에 대응하여 지역 상급종합병원으로서 원내 소아재활 치료 인프라 및 전달체계 점검",
-    "대한산부인과학회의 미프진 처방 기관 등록제 및 약물 임신중지 건보 수가 신설 제안에 따른 산부인과 진료 프로세스 모니터링"
+    "정부의 필수의료 보상 강화 실행에 따른 원내 필수의료 관련 진료과 영향 분석 및 대응 검토",
+    "과보상 영역 조정 추진에 따른 원내 관련 비급여·급여 진료 항목의 수가 변동 모니터링 검토",
+    "정례화되는 건강보험 수가 구조 혁신 방향에 발맞춘 병원 진료 운영 체계 점검"
    ],
-   "count": 3,
+   "count": 1,
    "picks": 0,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-11-02 06:36",
-   "sig": "3:oe6jkn",
+   "generatedAt": "2026-11-02 09:03",
+   "sig": "3:lgskvo",
    "links": [
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044174",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044168",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
    ]
   },
