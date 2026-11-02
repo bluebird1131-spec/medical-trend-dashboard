@@ -3,44 +3,36 @@
   {
    "date": "2026-11-02",
    "from": "2026-11-01",
-   "headline": "복지부, 필수의료 보상 강화 및 과보상 조정 등 건보 수가 구조 혁신 정례화 본격 추진",
+   "headline": "보건복지부의 필수의약품 퇴장방지약 지정과 필수의료 보상 강화 및 수가 구조 혁신 추진 동향",
    "points": [
     {
      "section": "정책",
-     "title": "필수의료 보상 강화 본격 실행",
-     "body": "보건복지부가 건강보험정책심의위원회 의결에 따라 필수의료 분야에 대한 보상 강화를 본격 실행할 계획임.",
+     "title": "삼진로라제팜주 등 14개 약가 개선",
+     "body": "보건복지부가 삼진로라제팜주 등 소아 및 응급의료 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정하고 약가를 개선함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071"
      ]
     },
     {
      "section": "정책",
-     "title": "의료 과보상 영역 조정 추진",
-     "body": "정부는 재정 확보 목적이 아님을 밝히며 건정심 의결에 따른 과보상 영역 조정을 계획대로 진행할 예정임.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "건강보험 수가 구조 혁신 정례화",
-     "body": "복지부는 건강보험정책심의위원회 의결을 바탕으로 수가 구조 전반의 혁신 작업을 정례화하여 추진할 방침임.",
+     "title": "필수의료 보상 강화 및 수가 혁신",
+     "body": "복지부가 건강보험정책심의위원회 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
      ]
     }
    ],
    "implications": [
-    "정부의 필수의료 보상 강화 실행에 따른 원내 필수의료 관련 진료과 영향 분석 및 대응 검토",
-    "과보상 영역 조정 추진에 따른 원내 관련 비급여·급여 진료 항목의 수가 변동 모니터링 검토",
-    "정례화되는 건강보험 수가 구조 혁신 방향에 발맞춘 병원 진료 운영 체계 점검"
+    "소아 및 응급의료 필수의약품의 퇴장방지약 지정에 따른 원내 수급 및 약가 변동 상황 모니터링",
+    "정부의 필수의료 보상 강화 및 수가 구조 개편 방향에 맞춘 원내 대응 전략 수립"
    ],
-   "count": 1,
-   "picks": 0,
-   "model": "gemini-flash-latest",
-   "generatedAt": "2026-11-02 09:03",
-   "sig": "3:lgskvo",
+   "count": 2,
+   "picks": 1,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-02 09:15",
+   "sig": "3:k9t446",
    "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
    ]
   },
