@@ -3,52 +3,65 @@
   {
    "date": "2026-11-04",
    "from": "2026-11-03",
-   "headline": "보건복지부의 필수의료 보상 강화 및 26년 만의 보건의료발전계획 추진이 본격화됨.",
+   "headline": "보건복지부의 필수의료 보상 강화 및 26년 만의 보건의료발전계획 추진 등 주요 정책 동향",
    "points": [
     {
      "section": "정책",
-     "title": "필수의료 보상 강화 추진",
-     "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임.",
+     "title": "필수의료 보상 및 수가 조정",
+     "body": "보건복지부가 건강보험정책심의위원회 의결에 따라 필수의료 보상 강화와 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
      ]
     },
     {
      "section": "정책",
-     "title": "보건의료발전계획 수립",
-     "body": "보건복지부가 의료전달체계 개편과 필수의료 강화 등을 포함한 보건의료발전계획을 12월 확정 목표로 26년 만에 추진함.",
+     "title": "보건의료발전계획 수립 추진",
+     "body": "보건복지부가 의료전달체계 개편과 필수의료 강화, 건강보험제도 개혁 등을 담은 제1차 보건의료발전계획을 12월 확정 목표로 수립 중임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "검체검사 원가 및 수가 인하",
+     "body": "보건복지부가 검체검사 수가 인하 근거가 된 원가보상률 산정 오류 주장에 대해 문제가 없음을 밝히고 관련 정책을 예정대로 추진함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044237"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "지역·필수의료 인력 지원 점검",
+     "body": "정부의 지역 및 필수의료 인력 지원 예산 확대에도 불구하고 실제 의료취약지 정착 효과와 실효성에 대한 의문이 국회예산정책처 등에서 제기됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044235"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료사고 수사지침 마련",
+     "body": "경찰청과 보건복지부가 필수의료 현장 의료사고 수사 시 의료기관과 사전 협의를 거치고 비진료 공간 위주로 압수수색을 진행하는 수사지침을 마련 중임.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275"
      ]
     }
    ],
    "implications": [
-    "보건복지부의 필수의료 보상 강화 및 수가 구조 개편 방향에 따른 원내 수가 전략 점검",
-    "12월 확정 예정인 정부의 보건의료발전계획에 발맞춘 의료전달체계 대응 방안 검토"
+    "보건복지부의 필수의료 보상 강화 및 과보상 영역 조정 계획에 따른 병원 수입 구조 변화 대응 검토",
+    "12월 확정 예정인 보건의료발전계획의 의료전달체계 개편 방향에 맞춘 원내 대응 전략 수립",
+    "경찰청과 복지부의 의료사고 수사지침 개정에 따른 원내 비진료 공간 관리 및 대응 절차 점검"
    ],
-   "count": 17,
+   "count": 5,
    "picks": 2,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-04 06:34",
-   "sig": "3:1cnr46q",
+   "generatedAt": "2026-11-04 08:41",
+   "sig": "3:11ygjx",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044259",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044258",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044261",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044257",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044260",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044255",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044254",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044252",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044249",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044250",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044238",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044237",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044235",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044270"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275"
    ]
   },
   {
