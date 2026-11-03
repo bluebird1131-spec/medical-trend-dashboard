@@ -1,6 +1,63 @@
 {
  "days": [
   {
+   "date": "2026-11-04",
+   "from": "2026-11-03",
+   "headline": "정부가 필수의료 보상 강화와 26년 만의 보건의료발전계획 수립을 추진하며 의료체계 개편에 박차를 가하고 있음",
+   "points": [
+    {
+     "section": "병원",
+     "title": "고려대의료원 수련교육 확산",
+     "body": "고려대의료원이 미국 ACGME와 협력해 구축한 역량중심 수련교육 체계를 국내 다른 수련기관으로 확산함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044259"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "필수의료 보상 강화 추진",
+     "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "보건의료발전계획 12월 확정",
+     "body": "보건복지부가 의료전달체계 개편과 필수의료 강화를 포함한 26년 만의 보건의료발전계획을 12월 확정 목표로 추진함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
+     ]
+    }
+   ],
+   "implications": [
+    "정부의 필수의료 보상 강화 및 수가 구조 개편 방향에 맞춰 원내 필수의료 분야 대응 전략을 점검할 필요가 있음",
+    "복지부가 추진하는 보건의료발전계획의 의료전달체계 개편 내용을 모니터링하고 지역완결형 의료체계 대응 방안을 검토해야 함"
+   ],
+   "count": 15,
+   "picks": 2,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-04 00:11",
+   "sig": "3:17k4ol5",
+   "links": [
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044259",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044258",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044261",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044257",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044260",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044255",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044254",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044252",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044249",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044250",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044238",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044237",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044235"
+   ]
+  },
+  {
    "date": "2026-11-03",
    "from": "2026-11-02",
    "headline": "보건복지부의 필수의료 보상 강화 및 보건의료발전계획 추진과 함께 퇴장방지약 지정 등 주요 정책 변화가 이어짐",
@@ -2449,66 +2506,71 @@
   }
  ],
  "weekly": {
-  "date": "2026-11-03",
-  "from": "2026-10-28",
-  "headline": "정부가 지역 및 필수의료 중심의 수가 구조 혁신과 건강보험 재정 투입을 본격화함",
+  "date": "2026-11-04",
+  "from": "2026-10-29",
+  "headline": "정부가 필수의료 수가 보상 강화, 검체검사 개편 및 원격중환자실 확대를 본격 추진함",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 2조7천억 선투입",
-    "body": "보건복지부가 건정심 의결을 통해 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 건강보험 재정 2조7000억원을 투입하고 수가 구조 혁신을 추진함.",
+    "title": "필수의료 보상 강화 및 수가 구조 개편",
+    "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화와 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임. 또한 소아·응급 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정하고 약가를 개선함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171523"
     ]
    },
    {
     "section": "정책",
-    "title": "검체검사 수가 개편 및 정산",
-    "body": "내년 1월부터 검체검사 수가 인하 및 위·수탁기관 직접 정산체계가 도입되며, 위탁의료기관 분석·관리료 신설과 수탁기관 가산이 결정됨.",
+    "title": "검체검사 지급체계 개편 및 수가 인하",
+    "body": "보건복지부 건정심이 내년 1월부터 검체검사 702개 항목의 수가를 인하하고 위·수탁기관 직접 정산체계로 개편하기로 의결함. 이에 대해 의료계는 일차의료 지속가능성에 대한 우려를 제기함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044260",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044237"
     ]
    },
    {
     "section": "정책",
-    "title": "원격중환자실 네트워크 확대",
-    "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 원격중환자실 협력 네트워크 사업을 강원·충북에 이어 서울 권역까지 확대함.",
+    "title": "원격중환자실 네트워크 권역 확대",
+    "body": "보건복지부가 의료진이 부족한 중환자실을 지원하기 위해 거점병원과 지역 협력병원을 연계하는 원격중환자실(e-ICU) 사업을 강원·충북에 이어 서울 권역까지 확대함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
     ]
    },
    {
     "section": "정책",
-    "title": "보건의료발전계획 12월 수립",
-    "body": "보건복지부가 26년 만에 의료전달체계 개편과 필수의료 강화를 포함한 보건의료발전계획을 12월 확정 목표로 추진함.",
+    "title": "보건의료발전계획 수립 및 AI 활용 교육",
+    "body": "보건복지부가 의료전달체계 개편과 필수의료 강화를 담은 보건의료발전계획을 12월 확정 목표로 추진함. 아울러 질병청과 복지부는 AI 대국민 건강도우미 챗봇 서비스를 개방하고 보건의료데이터 안전 활용법 교육을 진행함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492383&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "AI 기반 방광질환 감별 기술",
-    "body": "국내 주요 병원 연구팀이 소변검사와 AI 알고리즘을 결합해 방광질환을 높은 정확도로 감별하는 기술을 개발함.",
+    "title": "공공 보건데이터 및 AI 활용 기술 개발",
+    "body": "서울아산병원과 이대목동병원 공동 연구팀이 소변검사와 AI 알고리즘을 결합해 방광질환을 감별하는 기술을 개발함. 또한 제주대병원은 개원 25주년을 맞아 지역완결형 의료체계 구축 계획을 발표함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044257"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044257",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044250"
     ]
    }
   ],
   "implications": [
-   "정부의 지역 및 필수의료 수가 2조7000억원 선투입 정책에 발맞추어 관련 진료과와 연계된 수가 보상 혜택 확보를 준비함",
-   "원격중환자실 협력 네트워크 사업 확대 추세에 따라 중환자 진료 체계 고도화 및 디지털 헬스케어 도입을 검토함"
+   "정부의 필수의료 보상 강화 및 과보상 영역 조정 기조에 맞추어 원내 필수의료 분야의 수가 청구 및 보상 구조를 철저히 점검함",
+   "내년 1월 시행되는 검체검사 수가 인하 및 위·수탁 직접 정산체계 개편에 따른 병원 진료 수익 영향을 분석하고 대응책을 마련함",
+   "복지부가 추진하는 원격중환자실(e-ICU) 확대 정책 및 AI 기반 중환자 관리 체계 동향을 모니터링하고 관련 사업 참여 가능성을 검토함"
   ],
-  "count": 43,
-  "picks": 8,
+  "count": 32,
+  "picks": 5,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-03 13:33",
-  "sig": "3:cy3cju"
+  "generatedAt": "2026-11-04 00:14",
+  "sig": "3:lcz20n"
  },
  "monthly": {
   "date": "2026-11-03",
