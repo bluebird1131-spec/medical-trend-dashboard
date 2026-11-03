@@ -3,63 +3,48 @@
   {
    "date": "2026-11-03",
    "from": "2026-11-02",
-   "headline": "보건복지부의 필수의약품 퇴장방지약 지정과 함께 타 병원들의 AI 전환 및 임상 성과 발표가 이어짐",
+   "headline": "정부의 필수의료 보상 강화 및 보건의료발전계획 수립 추진 등 의료체계 개편 본격화",
    "points": [
     {
-     "section": "병원",
-     "title": "길병원 의료 AI 전환 성과",
-     "body": "가천대 길병원이 인공지능 전환 1년 성과를 점검하고 미래 전략을 논의하는 심포지엄을 개최함.",
+     "section": "정책",
+     "title": "필수의료 보상 강화 및 과보상 조정 본격 실행",
+     "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화와 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044224"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "이대엄마아기병원 분만 8천건",
-     "body": "이대엄마아기병원이 다학제 진료체계를 바탕으로 누적 분만 8,000건을 돌파함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044212"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
      ]
     },
     {
      "section": "정책",
-     "title": "삼진로라제팜주 등 약가 개선",
-     "body": "보건복지부가 삼진로라제팜주 등 소아·응급의료 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정하고 약가를 개선함.",
+     "title": "첫 보건의료발전계획 12월 확정 추진",
+     "body": "보건복지부가 의료전달체계 개편, 필수의료 강화, 건강보험제도 개혁 등을 포함한 보건의료발전계획을 26년 만에 마련하여 12월 확정 목표로 추진함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "필수의약품 14종 퇴장방지약 지정 및 약가 개선",
+     "body": "보건복지부가 삼진로라제팜주 등 소아 및 응급의료 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정하고 약가를 개선함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "필수의료 보상 강화 및 개편",
-     "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하고 보건의료발전계획 수립을 추진함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
      ]
     }
    ],
    "implications": [
-    "소아·응급의료 필수의약품의 퇴장방지약 지정 및 약가 개선 동향을 원내 약제 수급 관리에 참고함.",
-    "의료 AI 전환 성과 공유 및 다학제 진료 기반 분만 특성화 사례를 원내 진료 경쟁력 강화 전략 수립에 검토함."
+    "보건복지부의 필수의료 보상 강화 및 과보상 조정에 따른 원내 진료과별 수익 영향 분석 및 수가 개편 대응 체계 마련 검토",
+    "12월 확정 예정인 정부 보건의료발전계획 내 의료전달체계 개편 방향에 맞춘 상급종합병원 중증·필수의료 기능 재정립 방안 모색",
+    "퇴장방지의약품 신규 지정 및 약가 개선 14개 품목에 대한 원내 약제 공급 현황 점검 및 필수의약품 관리 계획 수립"
    ],
-   "count": 12,
-   "picks": 1,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-03 06:42",
-   "sig": "3:1l53ixx",
+   "count": 5,
+   "picks": 3,
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-11-03 09:16",
+   "sig": "3:c8waqq",
    "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044201",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044193",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044216",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044224",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044221",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044212",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044217",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044211",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044200"
    ]
   },
