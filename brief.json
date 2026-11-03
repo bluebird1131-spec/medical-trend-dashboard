@@ -3,49 +3,56 @@
   {
    "date": "2026-11-03",
    "from": "2026-11-02",
-   "headline": "정부의 필수의료 보상 강화 및 보건의료발전계획 수립 추진 등 의료체계 개편 본격화",
+   "headline": "정부 필수의료 보상 강화 및 보건의료계획 수립 추진 속 간호계 SNS 가이드라인 제정",
    "points": [
     {
-     "section": "정책",
-     "title": "필수의료 보상 강화 및 과보상 조정 본격 실행",
-     "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화와 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임.",
+     "section": "병원",
+     "title": "간호사 SNS 사용 윤리 가이드라인 제정",
+     "body": "병원간호사회가 간호사의 소셜네트워크서비스 이용에 따른 법적·윤리적 문제 예방을 목적으로 6대 원칙을 담은 가이드라인을 제정함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044216"
      ]
     },
     {
      "section": "정책",
      "title": "첫 보건의료발전계획 12월 확정 추진",
-     "body": "보건복지부가 의료전달체계 개편, 필수의료 강화, 건강보험제도 개혁 등을 포함한 보건의료발전계획을 26년 만에 마련하여 12월 확정 목표로 추진함.",
+     "body": "보건복지부가 의료전달체계 개편, 필수의료 강화, 건보제도 개혁 등을 아우르는 보건의료발전계획을 12월 확정 목표로 수립 추진함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
      ]
     },
     {
      "section": "정책",
-     "title": "필수의약품 14종 퇴장방지약 지정 및 약가 개선",
-     "body": "보건복지부가 삼진로라제팜주 등 소아 및 응급의료 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정하고 약가를 개선함.",
+     "title": "필수의료 보상 강화 및 수가 개편 실행",
+     "body": "보건복지부가 건정심 의결에 따라 필수의료 보상 강화와 과보상 조정 등 수가 구조 혁신을 정례화하고 본격 실행할 계획임.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "소아·응급 필수의약품 퇴장방지약 지정",
+     "body": "보건복지부가 삼진로라제팜주를 포함한 소아·응급의료 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정하고 약가를 개선함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071"
      ]
     }
    ],
    "implications": [
-    "보건복지부의 필수의료 보상 강화 및 과보상 조정에 따른 원내 진료과별 수익 영향 분석 및 수가 개편 대응 체계 마련 검토",
-    "12월 확정 예정인 정부 보건의료발전계획 내 의료전달체계 개편 방향에 맞춘 상급종합병원 중증·필수의료 기능 재정립 방안 모색",
-    "퇴장방지의약품 신규 지정 및 약가 개선 14개 품목에 대한 원내 약제 공급 현황 점검 및 필수의약품 관리 계획 수립"
+    "정부의 필수의료 보상 강화 및 과보상 영역 조정 방침에 따른 원내 진료과별 수가 변화 모니터링 및 대응 전략 마련",
+    "소아·응급의료 필수의약품 14종의 퇴장방지의약품 지정 및 약가 변동에 따른 원내 의약품 수급 안정화 점검",
+    "병원간호사회 6대 원칙 기반 원내 의료진 및 간호인력 SNS 사용 지침 정비 및 윤리 교육 검토"
    ],
-   "count": 5,
+   "count": 4,
    "picks": 3,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-11-03 09:16",
-   "sig": "3:c8waqq",
+   "generatedAt": "2026-11-03 09:17",
+   "sig": "3:6p4zva",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044216",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044200"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044216"
    ]
   },
   {
