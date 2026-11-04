@@ -3,19 +3,19 @@
   {
    "date": "2026-11-05",
    "from": "2026-11-04",
-   "headline": "제1차 보건의료발전계획 연구의 공공병원 수가체계 개편 제안과 국내 주요 병원의 세계 최고 의료관광 병원 선정 동향",
+   "headline": "제1차 보건의료발전계획 연구에서 공공병원 별도 수가체계가 제안되었으며 희귀질환 본인부담률 인하와 의대 신설이 추진됨.",
    "points": [
     {
      "section": "병원",
-     "title": "세계 최고 의료관광 병원 선정",
-     "body": "뉴스위크가 선정한 세계 최고 의료관광 병원 평가에서 삼성서울병원과 서울아산병원이 전 분야 최고 등급을 받는 등 국내 병원 20곳이 선정됨.",
+     "title": "성빈센트병원 소아응급센터 재지정",
+     "body": "성빈센트병원이 보건복지부 주관 경기 남부 소아전문응급의료센터로 재지정됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044295"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617"
      ]
     },
     {
      "section": "정책",
-     "title": "보건의료발전계획 연구 보고",
+     "title": "공공병원 별도 수가체계 제안",
      "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
@@ -23,49 +23,47 @@
     },
     {
      "section": "정책",
-     "title": "신설 의대 정원 배정",
-     "body": "정부가 국립순천대와 국립경국대를 신설 의대로 최종 선정하고 각각 정원 60명과 40명을 배정함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044292",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285"
-     ]
-    },
-    {
-     "section": "정책",
      "title": "희귀난치질환 본인부담률 인하",
-     "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
+     "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하될 예정임.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171618"
      ]
     },
     {
      "section": "정책",
-     "title": "자율형 분석심사 참여기관 공모",
-     "body": "건강보험심사평가원이 뇌혈관질환과 급성심근경색증 영역의 자율형 분석심사 선도사업에 참여할 상급종합병원 및 종합병원을 공모함.",
+     "title": "신설 의대 2곳 확정 및 정원 배정",
+     "body": "정부가 국립순천대 60명, 국립경국대 40명의 정원으로 신설 의대를 최종 확정함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044287"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609"
      ]
     }
    ],
    "implications": [
-    "공공병원 별도 수가체계 및 가치기반수가 전환 제안에 따른 향후 정책 변화 모니터링 검토",
-    "뇌혈관질환 및 급성심근경색증 자율형 분석심사 선도사업 참여 검토",
-    "세계 최고 의료관광 병원 선정 사례를 참고하여 중증질환 및 의료관광 경쟁력 강화 방안 검토"
+    "보건의료발전계획의 공공병원 별도 수가체계 및 가치기반수가 도입 동향 모니터링 검토",
+    "오는 12월 시행되는 희귀 및 중증난치질환 본인부담률 7% 인하에 따른 원내 적용 사항 사전 점검 검토"
    ],
-   "count": 8,
+   "count": 12,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-05 08:35",
-   "sig": "3:ut81ei",
+   "generatedAt": "2026-11-05 08:43",
+   "sig": "3:1g8m88w",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044292",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044283",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044273",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044295",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044287"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044304",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044287",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492443&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171618",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609"
    ]
   },
   {
