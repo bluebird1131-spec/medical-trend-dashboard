@@ -2548,12 +2548,12 @@
  "weekly": {
   "date": "2026-11-05",
   "from": "2026-10-30",
-  "headline": "정부가 26년 만의 보건의료발전계획 수립과 필수의료 보상 강화를 추진하며 지역·수가 체계 개편을 본격화함",
+  "headline": "정부가 26년 만의 보건의료발전계획 수립과 필수의료 보상 강화를 추진하며 지역·수가 체계 개편에 속도를 내고 있음",
   "points": [
    {
     "section": "정책",
     "title": "제1차 보건의료발전계획 추진",
-    "body": "보건복지부가 의료전달체계 개편, 필수의료 강화, 건보제도 개혁 등을 포함한 제1차 보건의료발전계획을 12월 확정 목표로 추진함. 한국보건사회연구원은 동 계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+    "body": "보건복지부가 의료전달체계 개편과 건보제도 개혁을 포함한 제1차 보건의료발전계획을 12월 확정 목표로 추진함. 한국보건사회연구원은 동 보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
@@ -2561,8 +2561,8 @@
    },
    {
     "section": "정책",
-    "title": "필수의료 보상 강화 및 수가 구조 개편",
-    "body": "복지부가 건정심 의결에 따라 검사 분야에 쏠린 재정을 기본진료·중증수술·야간·휴일 응급진료로 옮기는 수가 구조 혁신을 정례화함. 소아·응급 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정하고 약가를 개선함.",
+    "title": "필수의료 보상 강화 및 수가 구조 혁신",
+    "body": "복지부가 건정심 의결에 따라 검사 분야에 쏠린 의료 자원을 기본진료와 중증수술 등으로 옮기는 수가 개편을 본격 실행함. 소아·응급 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정해 약가를 개선함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
@@ -2572,55 +2572,53 @@
    {
     "section": "정책",
     "title": "필수의료 수사 가이드라인 마련",
-    "body": "경찰청과 보건복지부가 아주대병원 소아응급실 압수수색 논란과 관련해 응급실 등 필수의료 현장 의료사고 수사 시 진료 공간 밖에서 우선 압수수색을 진행하고 병원 관리자와 사전에 협의하는 수사지침을 마련해 시행할 예정임.",
+    "body": "경찰청과 보건복지부가 응급실 등 필수의료 현장 의료사고 수사 시 의료기관과 사전 협의하고 비진료 공간 위주로 압수수색을 진행하는 수사지침 마련에 나섬.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942109",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171537"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
     ]
    },
    {
     "section": "정책",
-    "title": "국립 신설 의대 정원 배정",
-    "body": "교육부와 보건복지부가 지역 의료격차 해소를 위해 국립순천대학교(정원 60명)와 국립경국대학교(정원 40명)를 신설 의대로 최종 선정하고 정원을 배정함.",
+    "title": "자가면역세포 치료 규제 완화",
+    "body": "배양 자가면역세포 임상연구·치료 위험도가 중위험에서 저위험으로 조정되어 선행 임상연구 없이 기존 논문만으로 치료계획 신청이 가능해짐. 복지부는 안전성·유효성 심의와 재생의료실시기관 관리를 강화할 방침임.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942223"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171626",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171525"
     ]
    },
    {
     "section": "병원",
-    "title": "응급·특성화센터 지정 및 운영 확대",
-    "body": "세브란스병원이 보건복지부 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 갖고 운영에 들어감. 성빈센트병원은 경기 남부 소아전문응급의료센터로 재지정됨.",
+    "title": "의료진 안전관리 강화 촉구",
+    "body": "세브란스병원 진료실에서 정신건강의학과 교수가 피습당하는 사건이 발생함에 따라 의료계와 전공의협의회가 의료기관 안전관리체계 전면 점검과 폭력 처벌 강화를 촉구함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636"
     ]
    },
    {
     "section": "병원",
-    "title": "의료 AI 및 스마트 진료 인프라 도입",
-    "body": "해운대백병원이 의료진 아이디어와 기업 제조기술을 접목해 환자 맞춤형 3D 모형 구현 및 자동화 미래형 병원 구축을 추진함. 서울성모병원은 AI와 웨어러블 데이터를 활용한 만성콩팥병 위험도 예측 모바일 앱 효용성 검증에 착수함.",
+    "title": "뇌혈관·심근경색 분석심사 공모",
+    "body": "건강보험심사평가원이 뇌혈관질환과 급성심근경색증 영역의 자율형 분석심사 선도사업에 참여할 상급종합병원 및 종합병원을 공모함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044324"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942275",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044287"
     ]
    }
   ],
   "implications": [
-   "정부의 공공병원 별도 수가체계 및 가치기반수가 전환 제안에 발맞추어 원내 공공의료 기능에 대한 수가 적용 방안과 성과 보상 체계 선제 검토",
-   "경찰청과 복지부의 필수의료 수사 가이드라인 마련에 연계하여 원내 응급실 및 중증·필수의료 부서의 법적·행정적 안전망과 대응 지침 정비",
-   "정부의 지역·필수의료 투자 및 수가 구조 개편 방향에 따라 중증수술·야간·휴일 응급진료 영역의 진료 역량과 실적 관리 체계 강화"
+   "정부의 12월 보건의료발전계획 확정 및 공공병원 별도 수가체계 도입 흐름에 맞춰 상급종합병원 차원의 가치기반수가 체계 대응 전략 수립 필요",
+   "심평원이 공모하는 뇌혈관질환 및 급성심근경색증 자율형 분석심사 선도사업 참여 검토",
+   "원내 진료실 및 응급실 등 필수의료 현장의 안전관리 실태를 전면 점검하고 의료진 보호 대책 강화"
   ],
-  "count": 108,
+  "count": 115,
   "picks": 4,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-05 16:27",
-  "sig": "3:72mxsg"
+  "generatedAt": "2026-11-05 23:35",
+  "sig": "3:fmr3cu"
  },
  "monthly": {
   "date": "2026-11-05",
