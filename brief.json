@@ -3,12 +3,12 @@
   {
    "date": "2026-11-05",
    "from": "2026-11-04",
-   "headline": "공공병원 별도 수가체계 도입 추진과 함께 타지역 병원들의 첨단 로봇수술 및 특성화센터 성과가 이어짐",
+   "headline": "보건사회연구원이 제1차 보건의료발전계획에서 공공병원 별도 수가체계 전환을 제안했으며 정부는 신설 의대 정원 배정과 희귀질환 본인부담률 인하를 추진함.",
    "points": [
     {
      "section": "병원",
-     "title": "건양대병원 단일공 로봇 1000례",
-     "body": "건양대학교병원이 중부권 최초로 단일공 로봇수술 1000례 및 산부인과 누적 로봇수술 2000례를 달성함.",
+     "title": "건양대병원, 단일공 로봇수술 1000례 돌파",
+     "body": "건양대병원이 중부권 최초로 단일공 로봇수술 1000례 및 산부인과 누적 로봇수술 2000례를 달성함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221"
      ]
@@ -23,7 +23,7 @@
     },
     {
      "section": "정책",
-     "title": "공공병원 별도 수가체계 제안",
+     "title": "공공병원 별도 수가체계 도입 제안",
      "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
@@ -32,7 +32,7 @@
     {
      "section": "정책",
      "title": "희귀·중증난치질환 본인부담률 인하",
-     "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하될 예정임.",
+     "body": "보건복지부가 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 낮추는 시행령 개정안을 추진함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
@@ -42,8 +42,8 @@
     },
     {
      "section": "정책",
-     "title": "국립대 의대 신설 및 정원 배정",
-     "body": "정부가 국립순천대 60명, 국립경국대 40명의 의대 신설 및 정원 배정을 추진함.",
+     "title": "신설 의대 2곳 확정 및 정원 배정",
+     "body": "정부가 국립순천대 60명, 국립경국대 40명 정원으로 신설 의대를 최종 배정함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
@@ -53,47 +53,43 @@
     }
    ],
    "implications": [
-    "공공병원 별도 수가체계 및 가치기반수가 전환 동향에 맞춰 향후 수가 정책 변화 대응 검토",
-    "건양대병원의 단일공 로봇수술 1000례 달성 사례를 참고하여 본원의 로봇수술 역량 강화 및 확대를 검토",
-    "보건복지부의 환자 의료정보 활용 LLM 국내 서버 운영 원칙 가이드라인 개정 추진에 따른 원내 AI 시스템 점검 검토"
+    "공공병원 별도 수가체계 및 가치기반수가 도입 논의 동향 파악 필요",
+    "희귀·중증난치질환자 본인부담률 인하에 따른 원내 환자 진료비 변화 모니터링",
+    "정부의 뇌혈관질환·급성심근경색 자율형 분석심사 선도사업 공모 참여 검토"
    ],
-   "count": 31,
+   "count": 27,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-05 09:10",
-   "sig": "3:1dl8tmv",
+   "generatedAt": "2026-11-05 10:19",
+   "sig": "3:yju2y5",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044304",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044287",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492443&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171618",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171604",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942218",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171597",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942243",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942045",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942233",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942230",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942231",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942229",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942223",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942215",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942214",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942208",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942207",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942205",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942171",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171619"
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171619",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492443&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942207"
    ]
   },
   {
