@@ -3,96 +3,63 @@
   {
    "date": "2026-11-06",
    "from": "2026-11-05",
-   "headline": "보건사회연구원의 공공병원 별도 수가체계 제안과 타기관 의료 현장 안전관리 강화 및 AI·디지털헬스 도입 동향",
+   "headline": "제1차 보건의료발전계획 연구에서 공공병원 별도 수가체계 도입이 제안되고 보건복지부가 제3차 공공보건의료 기본계획 수립에 착수함",
    "points": [
     {
      "section": "병원",
-     "title": "세브란스병원 진료실 피습",
-     "body": "신촌세브란스병원 진료실에서 정신건강의학과 교수가 환자에게 피습당하는 사건이 발생함에 따라 외래 병동 안전요원 배치와 함께 의료기관 안전관리체계 점검 요구가 확산함.",
+     "title": "AI·웨어러블 콩팥병 예측",
+     "body": "서울성모병원 연구팀이 인공지능과 웨어러블 기기 데이터를 활용한 만성콩팥병 위험도 예측 모바일 앱의 효용성 검증에 착수함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942277",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044327",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171642",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171641"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266"
      ]
     },
     {
      "section": "병원",
-     "title": "타병원 AI 및 자동화 기술 도입",
-     "body": "해운대백병원이 3D 모형 및 자동화 미래형 병원 구축을 추진하고, 삼성서울병원은 수술실 간호 인력 자동 배정 기술로 미국 특허를 획득함.",
+     "title": "AI 기반 안구 질환 표적 발굴",
+     "body": "한림대강남성심병원 등 국내 연구진이 인공지능 기술을 활용해 황반변성 등 안구 신생혈관 질환의 새로운 치료 표적 후보 2종을 발굴함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044324",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171631"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942270"
      ]
     },
     {
      "section": "정책",
-     "title": "공공병원 별도 수가체계 제안",
-     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서를 통해 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+     "title": "제1차 보건의료발전계획 제안",
+     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
      ]
     },
     {
      "section": "정책",
-     "title": "자가면역세포 치료 규제 완화",
-     "body": "정부가 배양 자가면역세포 치료 위험도를 낮춰 선행 임상연구 없이 문헌 근거로 치료계획 신청이 가능해지도록 접근성을 확대함.",
+     "title": "제3차 공공보건의료 기본계획안",
+     "body": "보건복지부가 제3차 공공보건의료 기본계획안 공청회를 열고 지역 간 치료가능사망률 격차 축소 및 공공의료 인력 확보 방향을 논의함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171626"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1"
      ]
     },
     {
      "section": "정책",
-     "title": "호스피스 이용 및 연명의료 현황",
-     "body": "2025년 호스피스 신규 이용 환자가 전년 대비 증가했으며 사전연명의료의향서 누적 등록 건수가 320만 건을 돌파함.",
+     "title": "자가면역치료 규제 완화",
+     "body": "정부가 안전성과 유효성이 확인된 근거문헌을 갖추면 선행 임상연구 없이도 자가면역세포 치료계획을 신청할 수 있도록 접근성을 확대함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492448&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044326",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942274"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259"
      ]
     }
    ],
    "implications": [
-    "원내 진료실 및 외래 병동의 보안 인력 배치와 비상벨 등 의료진 폭력 방지 안전관리 실태 전면 점검 검토",
-    "공공병원 별도 수가체계 도입 등 보건의료발전계획 정책 변화에 따른 울산대학교병원 공공의료 대응 전략 수립",
-    "수술실 간호 인력 자동 배정 및 AI·디지털헬스 기반 의료 서비스 도입 타당성 검토"
+    "공공병원 별도 수가체계 도입 및 가치기반수가 전환 동향에 따른 울산대학교병원 공공의료 사업 수익 구조 검토",
+    "인공지능과 웨어러블 데이터를 활용한 만성질환 예측 및 안구 질환 치료 표적 발굴 등 최신 디지털헬스케어 연구 동향 파악"
    ],
-   "count": 31,
+   "count": 10,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-06 07:21",
-   "sig": "3:1vxvz45",
+   "generatedAt": "2026-11-06 08:35",
+   "sig": "3:11jtsex",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492448&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941453",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044326",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044324",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044325",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044323",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171631",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171626",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942283",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942275",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942277",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044328",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044327",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171642",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171641",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942274",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942163",
     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266",
