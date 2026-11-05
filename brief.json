@@ -3,8 +3,16 @@
   {
    "date": "2026-11-05",
    "from": "2026-11-04",
-   "headline": "제1차 보건의료발전계획 연구에서 공공병원 별도 수가체계가 제안되었으며 희귀질환 본인부담률 인하와 의대 신설이 추진됨.",
+   "headline": "공공병원 별도 수가체계 도입 추진과 함께 타지역 병원들의 첨단 로봇수술 및 특성화센터 성과가 이어짐",
    "points": [
+    {
+     "section": "병원",
+     "title": "건양대병원 단일공 로봇 1000례",
+     "body": "건양대학교병원이 중부권 최초로 단일공 로봇수술 1000례 및 산부인과 누적 로봇수술 2000례를 달성함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221"
+     ]
+    },
     {
      "section": "병원",
      "title": "성빈센트병원 소아응급센터 재지정",
@@ -23,37 +31,42 @@
     },
     {
      "section": "정책",
-     "title": "희귀난치질환 본인부담률 인하",
+     "title": "희귀·중증난치질환 본인부담률 인하",
      "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하될 예정임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171618"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171618",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942230"
      ]
     },
     {
      "section": "정책",
-     "title": "신설 의대 2곳 확정 및 정원 배정",
-     "body": "정부가 국립순천대 60명, 국립경국대 40명의 정원으로 신설 의대를 최종 확정함.",
+     "title": "국립대 의대 신설 및 정원 배정",
+     "body": "정부가 국립순천대 60명, 국립경국대 40명의 의대 신설 및 정원 배정을 추진함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942223"
      ]
     }
    ],
    "implications": [
-    "보건의료발전계획의 공공병원 별도 수가체계 및 가치기반수가 도입 동향 모니터링 검토",
-    "오는 12월 시행되는 희귀 및 중증난치질환 본인부담률 7% 인하에 따른 원내 적용 사항 사전 점검 검토"
+    "공공병원 별도 수가체계 및 가치기반수가 전환 동향에 맞춰 향후 수가 정책 변화 대응 검토",
+    "건양대병원의 단일공 로봇수술 1000례 달성 사례를 참고하여 본원의 로봇수술 역량 강화 및 확대를 검토",
+    "보건복지부의 환자 의료정보 활용 LLM 국내 서버 운영 원칙 가이드라인 개정 추진에 따른 원내 AI 시스템 점검 검토"
    ],
-   "count": 12,
+   "count": 31,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-05 08:43",
-   "sig": "3:1g8m88w",
+   "generatedAt": "2026-11-05 09:10",
+   "sig": "3:1dl8tmv",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044304",
@@ -63,7 +76,24 @@
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171618",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609"
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171604",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942218",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942243",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942045",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942233",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942230",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942231",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942229",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942223",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942215",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942214",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942208",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942207",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942205",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942171",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171619"
    ]
   },
   {
