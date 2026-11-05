@@ -4,7 +4,7 @@
    "sig": "2:1jss6hi",
    "at": "2026-11-06 03:01",
    "model": "gemini-flash-lite-latest",
-   "total": 394,
+   "total": 402,
    "items": [
     {
      "label": "의료 AI",
@@ -249,7 +249,7 @@
    "sig": "2:41ot2c",
    "at": "2026-11-06 02:01",
    "model": "gemini-flash-lite-latest",
-   "total": 2098,
+   "total": 2106,
    "items": [
     {
      "label": "의료 AI",
@@ -485,7 +485,7 @@
    "sig": "2:4q91p8",
    "at": "2026-11-06 00:02",
    "model": "gemini-flash-lite-latest",
-   "total": 66,
+   "total": 74,
    "items": [
     {
      "label": "교수 피습",
@@ -496,6 +496,11 @@
      "label": "의료 AI",
      "n": 5,
      "q": "ai"
+    },
+    {
+     "label": "호스피스 이용",
+     "n": 3,
+     "q": "호스피스"
     },
     {
      "label": "면역세포 치료",
@@ -516,11 +521,6 @@
      "label": "장례식장",
      "n": 2,
      "q": "장례식장"
-    },
-    {
-     "label": "호스피스 이용",
-     "n": 2,
-     "q": "호스피스"
     },
     {
      "label": "바이오시밀러",
@@ -715,7 +715,7 @@
    "sig": "2:v3oy4o",
    "at": "2026-11-05 06:37",
    "model": "gemini-flash-lite-latest",
-   "total": 5657,
+   "total": 5665,
    "items": [
     {
      "label": "의료 AI",
@@ -937,5 +937,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-06 03:01"
+ "updatedAt": "2026-11-06 06:36"
 }
