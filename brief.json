@@ -3,69 +3,56 @@
   {
    "date": "2026-11-06",
    "from": "2026-11-05",
-   "headline": "제1차 보건의료발전계획 연구에서 공공병원 별도 수가체계 도입이 제안되고 보건복지부가 제3차 공공보건의료 기본계획 수립에 착수함",
+   "headline": "국가건강검진의 AI 활용 확대와 제1·3차 보건의료발전계획 및 공공의료 기본계획 추진",
    "points": [
     {
      "section": "병원",
-     "title": "AI·웨어러블 콩팥병 예측",
-     "body": "서울성모병원 연구팀이 인공지능과 웨어러블 기기 데이터를 활용한 만성콩팥병 위험도 예측 모바일 앱의 효용성 검증에 착수함.",
+     "title": "국가건강검진 AI 활용 확대",
+     "body": "제4차 국가건강검진종합계획에 검진 단계별 AI 활용 방안이 포함된 가운데 민간 검진 현장에서도 흉부 CT에 AI를 적용하여 심혈관 지표를 확인하는 등 활용이 확산됨.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "AI 기반 안구 질환 표적 발굴",
-     "body": "한림대강남성심병원 등 국내 연구진이 인공지능 기술을 활용해 황반변성 등 안구 신생혈관 질환의 새로운 치료 표적 후보 2종을 발굴함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942270"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210"
      ]
     },
     {
      "section": "정책",
      "title": "제1차 보건의료발전계획 제안",
-     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서를 통해 공공병원 별도 수가체계와 가치기반수가로의 전환을 제안함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
      ]
     },
     {
      "section": "정책",
-     "title": "제3차 공공보건의료 기본계획안",
-     "body": "보건복지부가 제3차 공공보건의료 기본계획안 공청회를 열고 지역 간 치료가능사망률 격차 축소 및 공공의료 인력 확보 방향을 논의함.",
+     "title": "제3차 공공보건의료 기본계획 공청회",
+     "body": "보건복지부가 제3차 공공보건의료 기본계획(2026~2030)안 공청회를 개최하여 지역 간 치료가능사망률 격차 축소 및 공공의료 인력 확보 방안을 논의함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1"
      ]
     },
     {
      "section": "정책",
-     "title": "자가면역치료 규제 완화",
-     "body": "정부가 안전성과 유효성이 확인된 근거문헌을 갖추면 선행 임상연구 없이도 자가면역세포 치료계획을 신청할 수 있도록 접근성을 확대함.",
+     "title": "자가면역치료 접근성 확대",
+     "body": "정부가 안전성과 유효성 근거문헌을 갖춘 경우 선행 임상연구 없이도 자가면역세포 치료계획을 신청할 수 있도록 규제를 완화함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259"
      ]
     }
    ],
    "implications": [
-    "공공병원 별도 수가체계 도입 및 가치기반수가 전환 동향에 따른 울산대학교병원 공공의료 사업 수익 구조 검토",
-    "인공지능과 웨어러블 데이터를 활용한 만성질환 예측 및 안구 질환 치료 표적 발굴 등 최신 디지털헬스케어 연구 동향 파악"
+    "국가건강검진 및 흉부 CT 판독 과정에서의 AI 도입 및 사후관리 활용 방안 검토",
+    "공공병원 별도 수가체계 도입 및 가치기반수가 전환 동향에 따른 경영 전략 수립",
+    "제3차 공공보건의료 기본계획에 따른 지역 간 치료가능사망률 격차 축소 및 공공의료 인력 확보 체계 점검"
    ],
-   "count": 10,
+   "count": 4,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-06 08:35",
-   "sig": "3:11jtsex",
+   "generatedAt": "2026-11-06 08:36",
+   "sig": "3:11jy77e",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942235",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171629",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942270"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210"
    ]
   },
   {
