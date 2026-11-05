@@ -1,6 +1,91 @@
 {
  "days": [
   {
+   "date": "2026-11-06",
+   "from": "2026-11-05",
+   "headline": "한국보건사회연구원이 제1차 보건의료발전계획에서 공공병원 별도 수가체계 도입을 제안함",
+   "points": [
+    {
+     "section": "병원",
+     "title": "디지털·AI 기술 도입 확산",
+     "body": "해운대백병원이 의료진 아이디어와 기업 기술을 접목해 맞춤형 3D 모형 및 자동화 미래형 병원 구축을 추진함. 삼성서울병원은 수술실 간호사 참여 점수를 활용한 인력 자동 배정 기술로 미국 특허를 확보함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044324",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171631"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "의료기관 안전관리 강화 요구",
+     "body": "세브란스병원 진료실 내 교수 피습 사건을 계기로 대한전공의협의회와 대한병원협회 등이 의료인 보호 대책 마련과 폭력 처벌 강화를 촉구함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942277",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044327"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "공공병원 별도 수가체계 제안",
+     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "자가면역세포 치료 규제 완화",
+     "body": "정부가 배양 자가유래 면역세포 치료 위험도를 낮춰 선행 임상연구 없이 논문 근거만으로 치료계획 신청이 가능해진 가운데, 안전성 심의와 기관 관리를 강화할 예정임.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171626"
+     ]
+    }
+   ],
+   "implications": [
+    "공공병원 별도 수가체계 도입 및 제3차 공공보건의료 기본계획 방향에 따른 울산대학교병원 공공의료 기능 강화 대응 검토",
+    "의료진 안전을 위한 원내 진료실 보안 시스템 및 비상 징후 대응 체계 점검",
+    "타 병원의 수술실 간호 인력 자동 배정 및 AI 기반 의료서비스 도입 사례 벤치마킹 검토"
+   ],
+   "count": 27,
+   "picks": 1,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-06 00:03",
+   "sig": "3:1igjgbc",
+   "links": [
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492448&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941453",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044326",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044324",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044325",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044323",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171631",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171626",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942283",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942275",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942277",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044328",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044327",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942235",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171629",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942270"
+   ]
+  },
+  {
    "date": "2026-11-05",
    "from": "2026-11-04",
    "headline": "제1차 보건의료발전계획 내 공공병원 별도 수가체계 제안 및 자가면역세포 치료 규제 완화 추진",
@@ -2460,100 +2545,17 @@
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171087",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171083"
    ]
-  },
-  {
-   "date": "2026-10-07",
-   "from": "2026-10-07",
-   "headline": "이대목동병원 AI 정밀의료 선포, 중증환자 이송망 확대·필수의료 수사 절차 개선 착수",
-   "points": [
-    {
-     "section": "병원",
-     "title": "이대목동병원, 중증·특성화·AI 선포",
-     "body": "개원 33주년 이대목동병원, 여성암·비뇨기·혈액암 3대 전문병원에 이어 부서별 3개 중점센터 운영. 심방세동 예측 AI 솔루션 등 AI 기반 정밀의료의 임상 현장 적용 선포.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "환자 영상·정보 보안 쟁점 부상",
-     "body": "환자 영상 유포·해킹 등으로 의료기관 보안에 '보건 안보 비상' 제기. 일부 의료기관의 수술실 촬영 영상 제공 대가 요구는 법적 근거 없음으로 지적.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171063",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171052"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "중증환자 이송망 호남권 확대",
-     "body": "복지부, 권역 책임의료기관 중심 닥터헬기·중증환자 광역 이송 체계를 전남·광주까지 확대 개시. 상급종합병원 47곳 중 권역응급의료센터는 33곳에 그쳐 응급의료 개편 요구도 제기.",
-     "links": [
-      "https://www.mohw.go.kr/menu.es?mid=a10503010200",
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171064"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "필수의료 수사 절차 개선 착수",
-     "body": "복지부·경찰청, 필수의료 분야 의료사고 수사 절차 개선과 의료진 사법 부담 완화 논의. 국감에서 소아응급실 압수수색이 도마에 오른 가운데 응급의료 압수수색 지침 마련 착수.",
-     "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171056",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171061"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "복지부 제도 정비·사업 공모",
-     "body": "복지부, 비대면 진료 제도화·지역필수의료 투자 추진 및 정신질환자 지속치료 지원 시범사업 기관 추가 공모. 간납사·CSO 실태조사 후 내년 초 대책 수립, 재난적의료비 지불보증 오남용 실태조사 진행, 국감서 근거 불충분 비급여 남용 지적.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171050",
-      "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492171&tag=&nPage=1",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171059",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171062",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171066"
-     ]
-    }
-   ],
-   "implications": [
-    "이대목동병원의 중점센터 체계와 심방세동 예측 AI 솔루션 임상 적용 사례 벤치마킹 검토",
-    "환자 영상 유포·해킹 위협에 대비한 원내 정보보안 및 수술실 촬영 영상 열람·제공 기준 점검",
-    "정신질환자 지속치료 지원 시범사업 추가 공모 참여 여부 검토"
-   ],
-   "count": 16,
-   "model": "claude-opus-5-5",
-   "generatedAt": "2026-10-12 23:09",
-   "sig": "3:lbzt34",
-   "links": [
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043398",
-    "https://www.mohw.go.kr/menu.es?mid=a10503010200",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492168&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492166&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171066",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492171&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171073",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171064",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171063",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171062",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171061",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171059",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171057",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171056",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171052",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171050"
-   ]
   }
  ],
  "weekly": {
-  "date": "2026-11-05",
-  "from": "2026-10-30",
-  "headline": "정부가 26년 만의 보건의료발전계획 수립과 필수의료 보상 강화를 추진하며 지역·수가 체계 개편에 속도를 내고 있음",
+  "date": "2026-11-06",
+  "from": "2026-10-31",
+  "headline": "제1차 보건의료발전계획 수립과 필수의료 보상 체계 개편을 중심으로 한 정부 보건의료 정책 동향",
   "points": [
    {
     "section": "정책",
     "title": "제1차 보건의료발전계획 추진",
-    "body": "보건복지부가 의료전달체계 개편과 건보제도 개혁을 포함한 제1차 보건의료발전계획을 12월 확정 목표로 추진함. 한국보건사회연구원은 동 보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+    "body": "보건복지부가 의료전달체계 개편과 필수의료 강화를 담은 보건의료발전계획을 12월 확정 목표로 추진함. 한국보건사회연구원은 연구보고서를 통해 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
@@ -2561,64 +2563,50 @@
    },
    {
     "section": "정책",
-    "title": "필수의료 보상 강화 및 수가 구조 혁신",
-    "body": "복지부가 건정심 의결에 따라 검사 분야에 쏠린 의료 자원을 기본진료와 중증수술 등으로 옮기는 수가 개편을 본격 실행함. 소아·응급 필수의약품 14개 품목을 퇴장방지의약품으로 신규 지정해 약가를 개선함.",
+    "title": "필수의료 수가 보상 강화",
+    "body": "보건복지부가 건강보험정책심의위원회 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임. 검사 분야에 쏠린 자원을 기본진료와 중증수술로 옮기는 수가 개편을 추진함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540"
     ]
    },
    {
     "section": "정책",
-    "title": "필수의료 수사 가이드라인 마련",
-    "body": "경찰청과 보건복지부가 응급실 등 필수의료 현장 의료사고 수사 시 의료기관과 사전 협의하고 비진료 공간 위주로 압수수색을 진행하는 수사지침 마련에 나섬.",
+    "title": "공공보건의료체계 및 의대 신설",
+    "body": "보건복지부가 공청회를 열고 지역 간 치료가능사망률 격차 축소와 공공의료 인력 확보 방향을 논의함. 정부가 국립순천대와 국립경국대를 신설 의대로 선정하고 총 100명의 입학 정원을 배정함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "자가면역세포 치료 규제 완화",
-    "body": "배양 자가면역세포 임상연구·치료 위험도가 중위험에서 저위험으로 조정되어 선행 임상연구 없이 기존 논문만으로 치료계획 신청이 가능해짐. 복지부는 안전성·유효성 심의와 재생의료실시기관 관리를 강화할 방침임.",
+    "title": "응급실 수사 가이드라인 마련",
+    "body": "경찰청과 보건복지부가 필수의료 현장 의료사고 수사 시 의료기관과 사전 협의하고 비진료 공간 위주로 압수수색을 진행하는 수사지침을 마련해 시행할 예정임.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171626",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171525"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "의료진 안전관리 강화 촉구",
-    "body": "세브란스병원 진료실에서 정신건강의학과 교수가 피습당하는 사건이 발생함에 따라 의료계와 전공의협의회가 의료기관 안전관리체계 전면 점검과 폭력 처벌 강화를 촉구함.",
+    "title": "응급의료센터 지정 및 개소",
+    "body": "세브란스병원이 보건복지부 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 갖고 운영에 돌입함. 성빈센트병원은 경기 남부 소아전문응급의료센터로 재지정됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "뇌혈관·심근경색 분석심사 공모",
-    "body": "건강보험심사평가원이 뇌혈관질환과 급성심근경색증 영역의 자율형 분석심사 선도사업에 참여할 상급종합병원 및 종합병원을 공모함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942275",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044287"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
     ]
    }
   ],
   "implications": [
-   "정부의 12월 보건의료발전계획 확정 및 공공병원 별도 수가체계 도입 흐름에 맞춰 상급종합병원 차원의 가치기반수가 체계 대응 전략 수립 필요",
-   "심평원이 공모하는 뇌혈관질환 및 급성심근경색증 자율형 분석심사 선도사업 참여 검토",
-   "원내 진료실 및 응급실 등 필수의료 현장의 안전관리 실태를 전면 점검하고 의료진 보호 대책 강화"
+   "정부의 필수의료 보상 강화 및 가치기반수가 전환 기조에 맞춰 중증·응급 수술 분야의 수가 산정 체계 개편을 사전 대비해야 함.",
+   "경찰청과 복지부의 필수의료 수사 가이드라인 마련에 발맞추어 원내 의료사고 대응 매뉴얼과 비진료 공간 중심의 압수수색 대응 절차를 점검해야 함."
   ],
-  "count": 115,
-  "picks": 4,
+  "count": 106,
+  "picks": 3,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-05 23:35",
-  "sig": "3:fmr3cu"
+  "generatedAt": "2026-11-06 00:04",
+  "sig": "3:heibou"
  },
  "monthly": {
   "date": "2026-11-05",
