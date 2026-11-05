@@ -3,33 +3,35 @@
   {
    "date": "2026-11-06",
    "from": "2026-11-05",
-   "headline": "한국보건사회연구원이 제1차 보건의료발전계획에서 공공병원 별도 수가체계 도입을 제안함",
+   "headline": "보건사회연구원의 공공병원 별도 수가체계 제안과 타기관 의료 현장 안전관리 강화 및 AI·디지털헬스 도입 동향",
    "points": [
     {
      "section": "병원",
-     "title": "디지털·AI 기술 도입 확산",
-     "body": "해운대백병원이 의료진 아이디어와 기업 기술을 접목해 맞춤형 3D 모형 및 자동화 미래형 병원 구축을 추진함. 삼성서울병원은 수술실 간호사 참여 점수를 활용한 인력 자동 배정 기술로 미국 특허를 확보함.",
+     "title": "세브란스병원 진료실 피습",
+     "body": "신촌세브란스병원 진료실에서 정신건강의학과 교수가 환자에게 피습당하는 사건이 발생함에 따라 외래 병동 안전요원 배치와 함께 의료기관 안전관리체계 점검 요구가 확산함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942277",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044327",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171642",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171641"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "타병원 AI 및 자동화 기술 도입",
+     "body": "해운대백병원이 3D 모형 및 자동화 미래형 병원 구축을 추진하고, 삼성서울병원은 수술실 간호 인력 자동 배정 기술로 미국 특허를 획득함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044324",
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171631"
      ]
     },
     {
-     "section": "병원",
-     "title": "의료기관 안전관리 강화 요구",
-     "body": "세브란스병원 진료실 내 교수 피습 사건을 계기로 대한전공의협의회와 대한병원협회 등이 의료인 보호 대책 마련과 폭력 처벌 강화를 촉구함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171636",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942277",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044327"
-     ]
-    },
-    {
      "section": "정책",
      "title": "공공병원 별도 수가체계 제안",
-     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서를 통해 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
      ]
@@ -37,24 +39,34 @@
     {
      "section": "정책",
      "title": "자가면역세포 치료 규제 완화",
-     "body": "정부가 배양 자가유래 면역세포 치료 위험도를 낮춰 선행 임상연구 없이 논문 근거만으로 치료계획 신청이 가능해진 가운데, 안전성 심의와 기관 관리를 강화할 예정임.",
+     "body": "정부가 배양 자가면역세포 치료 위험도를 낮춰 선행 임상연구 없이 문헌 근거로 치료계획 신청이 가능해지도록 접근성을 확대함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171626"
      ]
+    },
+    {
+     "section": "정책",
+     "title": "호스피스 이용 및 연명의료 현황",
+     "body": "2025년 호스피스 신규 이용 환자가 전년 대비 증가했으며 사전연명의료의향서 누적 등록 건수가 320만 건을 돌파함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492448&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044326",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942274"
+     ]
     }
    ],
    "implications": [
-    "공공병원 별도 수가체계 도입 및 제3차 공공보건의료 기본계획 방향에 따른 울산대학교병원 공공의료 기능 강화 대응 검토",
-    "의료진 안전을 위한 원내 진료실 보안 시스템 및 비상 징후 대응 체계 점검",
-    "타 병원의 수술실 간호 인력 자동 배정 및 AI 기반 의료서비스 도입 사례 벤치마킹 검토"
+    "원내 진료실 및 외래 병동의 보안 인력 배치와 비상벨 등 의료진 폭력 방지 안전관리 실태 전면 점검 검토",
+    "공공병원 별도 수가체계 도입 등 보건의료발전계획 정책 변화에 따른 울산대학교병원 공공의료 대응 전략 수립",
+    "수술실 간호 인력 자동 배정 및 AI·디지털헬스 기반 의료 서비스 도입 타당성 검토"
    ],
-   "count": 27,
+   "count": 31,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-06 00:03",
-   "sig": "3:1igjgbc",
+   "generatedAt": "2026-11-06 07:21",
+   "sig": "3:1vxvz45",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
@@ -77,6 +89,10 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942277",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044328",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044327",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171642",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171641",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942274",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942163",
     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266",
