@@ -3,27 +3,11 @@
   {
    "date": "2026-11-05",
    "from": "2026-11-04",
-   "headline": "보건사회연구원이 제1차 보건의료발전계획에서 공공병원 별도 수가체계 전환을 제안했으며 정부는 신설 의대 정원 배정과 희귀질환 본인부담률 인하를 추진함.",
+   "headline": "제1차 보건의료발전계획 내 공공병원 별도 수가체계 제안 및 자가면역세포 치료 규제 완화 추진",
    "points": [
     {
-     "section": "병원",
-     "title": "건양대병원, 단일공 로봇수술 1000례 돌파",
-     "body": "건양대병원이 중부권 최초로 단일공 로봇수술 1000례 및 산부인과 누적 로봇수술 2000례를 달성함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "성빈센트병원 소아응급센터 재지정",
-     "body": "성빈센트병원이 보건복지부 주관 경기 남부 소아전문응급의료센터로 재지정됨.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617"
-     ]
-    },
-    {
      "section": "정책",
-     "title": "공공병원 별도 수가체계 도입 제안",
+     "title": "공공병원 별도 수가체계 제안",
      "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
@@ -31,8 +15,17 @@
     },
     {
      "section": "정책",
-     "title": "희귀·중증난치질환 본인부담률 인하",
-     "body": "보건복지부가 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 낮추는 시행령 개정안을 추진함.",
+     "title": "자가면역치료 규제 완화",
+     "body": "복지부가 배양 자가면역세포 치료 위험도를 중위험에서 저위험으로 조정해 선행 임상연구 없이 기존 논문만으로 치료계획 신청이 가능해짐.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "희귀중증질환 본인부담 인하",
+     "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
@@ -42,8 +35,8 @@
     },
     {
      "section": "정책",
-     "title": "신설 의대 2곳 확정 및 정원 배정",
-     "body": "정부가 국립순천대 60명, 국립경국대 40명 정원으로 신설 의대를 최종 배정함.",
+     "title": "신설 의대 정원 배정 확정",
+     "body": "교육부와 보건복지부가 국립순천대 60명, 국립경국대 40명의 의과대학 신설 정원을 최종 배정함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
@@ -53,18 +46,30 @@
     }
    ],
    "implications": [
-    "공공병원 별도 수가체계 및 가치기반수가 도입 논의 동향 파악 필요",
-    "희귀·중증난치질환자 본인부담률 인하에 따른 원내 환자 진료비 변화 모니터링",
-    "정부의 뇌혈관질환·급성심근경색 자율형 분석심사 선도사업 공모 참여 검토"
+    "보건사회연구원의 공공병원 별도 수가체계 및 가치기반수가 전환 제안에 따른 향후 수가 정책 변화 모니터링 필요",
+    "자가면역세포 치료 위험도 조정 및 규제 완화에 따른 원내 첨단재생의료 치료계획 신청 가능성 검토"
    ],
-   "count": 27,
+   "count": 45,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-05 10:19",
-   "sig": "3:yju2y5",
+   "generatedAt": "2026-11-05 13:34",
+   "sig": "3:tym5fe",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492448&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942266",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942264",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942268",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942235",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942251",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941453",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942256",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044324",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044325",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044323",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044322",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044304",
@@ -86,6 +91,11 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942205",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942171",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171619",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171630",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171627",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171623",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171621",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171620",
     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492446&tag=&nPage=1",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044282",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492443&tag=&nPage=1",
