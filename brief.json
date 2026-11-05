@@ -2550,12 +2550,12 @@
  "weekly": {
   "date": "2026-11-06",
   "from": "2026-10-31",
-  "headline": "제1차 보건의료발전계획 수립과 필수의료 보상 체계 개편을 중심으로 한 정부 보건의료 정책 동향",
+  "headline": "정부가 제1차 보건의료발전계획 수립과 필수의료 보상 체계 개편을 본격 추진한다.",
   "points": [
    {
     "section": "정책",
     "title": "제1차 보건의료발전계획 추진",
-    "body": "보건복지부가 의료전달체계 개편과 필수의료 강화를 담은 보건의료발전계획을 12월 확정 목표로 추진함. 한국보건사회연구원은 연구보고서를 통해 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+    "body": "보건복지부가 의료전달체계 개편과 건보제도 개혁을 포함한 보건의료발전계획을 12월 확정 목표로 추진하며, 공공병원 별도 수가체계 전환이 제안됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
@@ -2563,8 +2563,8 @@
    },
    {
     "section": "정책",
-    "title": "필수의료 수가 보상 강화",
-    "body": "보건복지부가 건강보험정책심의위원회 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하고 수가 구조 혁신을 정례화할 계획임. 검사 분야에 쏠린 자원을 기본진료와 중증수술로 옮기는 수가 개편을 추진함.",
+    "title": "필수의료 보상 구조 개편",
+    "body": "복지부가 건정심 의결에 따라 필수의료 보상 강화를 본격 실행하고, 검사 분야에 쏠린 자원을 기본진료와 중증수술 중심으로 전환할 계획임.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540"
@@ -2572,41 +2572,50 @@
    },
    {
     "section": "정책",
-    "title": "공공보건의료체계 및 의대 신설",
-    "body": "보건복지부가 공청회를 열고 지역 간 치료가능사망률 격차 축소와 공공의료 인력 확보 방향을 논의함. 정부가 국립순천대와 국립경국대를 신설 의대로 선정하고 총 100명의 입학 정원을 배정함.",
+    "title": "지역의대 신설 및 정원 배정",
+    "body": "정부가 국립순천대 60명, 국립경국대 40명 정원으로 의과대학 신설을 확정하고 2030년 첫 신입생 입학을 추진함.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942223"
     ]
    },
    {
     "section": "정책",
-    "title": "응급실 수사 가이드라인 마련",
-    "body": "경찰청과 보건복지부가 필수의료 현장 의료사고 수사 시 의료기관과 사전 협의하고 비진료 공간 위주로 압수수색을 진행하는 수사지침을 마련해 시행할 예정임.",
+    "title": "필수의료 수사 및 안전 지침",
+    "body": "경찰청과 복지부가 필수의료 현장 의료사고 수사 시 진료 공간 밖에서 우선 압수수색을 진행하는 수사 가이드라인 마련에 나섬.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
     ]
    },
    {
     "section": "병원",
-    "title": "응급의료센터 지정 및 개소",
-    "body": "세브란스병원이 보건복지부 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 갖고 운영에 돌입함. 성빈센트병원은 경기 남부 소아전문응급의료센터로 재지정됨.",
+    "title": "세브란스병원 응급센터 개소",
+    "body": "세브란스병원이 복지부 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 갖고 운영에 들어감.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "수술실 인력 배정 기술 특허",
+    "body": "삼성서울병원이 간호사 수술 참여 경험을 점수화해 수술실 인력을 자동 배정하는 기술로 미국 특허를 확보함.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171631"
     ]
    }
   ],
   "implications": [
-   "정부의 필수의료 보상 강화 및 가치기반수가 전환 기조에 맞춰 중증·응급 수술 분야의 수가 산정 체계 개편을 사전 대비해야 함.",
-   "경찰청과 복지부의 필수의료 수사 가이드라인 마련에 발맞추어 원내 의료사고 대응 매뉴얼과 비진료 공간 중심의 압수수색 대응 절차를 점검해야 함."
+   "정부의 필수의료 보상 강화 및 수가 구조 개편 방향에 맞춰 중증·응급 수술 분야의 수가 산정 체계와 원가 보전 대책을 점검함.",
+   "정부의 공공병원 별도 수가체계 도입 및 지역·필수의료 인력 지원 정책 흐름에 연계하여 원내 대응 전략을 검토함."
   ],
-  "count": 106,
+  "count": 110,
   "picks": 3,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-06 00:04",
-  "sig": "3:heibou"
+  "generatedAt": "2026-11-06 07:08",
+  "sig": "3:1gddcxh"
  },
  "monthly": {
   "date": "2026-11-06",
