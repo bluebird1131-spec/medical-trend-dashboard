@@ -2520,12 +2520,12 @@
  "weekly": {
   "date": "2026-11-06",
   "from": "2026-10-31",
-  "headline": "정부가 제1차 보건의료발전계획 수립과 필수의료 보상 체계 개편을 본격 추진한다.",
+  "headline": "정부가 26년 만에 제1차 보건의료발전계획 수립에 착수하고, 필수의료 보상 강화 및 수가 구조 혁신을 본격화함.",
   "points": [
    {
     "section": "정책",
     "title": "제1차 보건의료발전계획 추진",
-    "body": "보건복지부가 의료전달체계 개편과 건보제도 개혁을 포함한 보건의료발전계획을 12월 확정 목표로 추진하며, 공공병원 별도 수가체계 전환이 제안됨.",
+    "body": "보건복지부가 의료전달체계 개편, 필수의료 강화 등을 포함한 제1차 보건의료발전계획을 12월 확정 목표로 추진함. 한국보건사회연구원은 동 보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
@@ -2533,8 +2533,8 @@
    },
    {
     "section": "정책",
-    "title": "필수의료 보상 구조 개편",
-    "body": "복지부가 건정심 의결에 따라 필수의료 보상 강화를 본격 실행하고, 검사 분야에 쏠린 자원을 기본진료와 중증수술 중심으로 전환할 계획임.",
+    "title": "필수의료 보상 강화 및 수가 개편",
+    "body": "복지부가 건정심 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하며, 진료량보다 성과 보상 중심으로 수가 구조 혁신을 정례화할 계획임.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540"
@@ -2542,18 +2542,8 @@
    },
    {
     "section": "정책",
-    "title": "지역의대 신설 및 정원 배정",
-    "body": "정부가 국립순천대 60명, 국립경국대 40명 정원으로 의과대학 신설을 확정하고 2030년 첫 신입생 입학을 추진함.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942223"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "필수의료 수사 및 안전 지침",
-    "body": "경찰청과 복지부가 필수의료 현장 의료사고 수사 시 진료 공간 밖에서 우선 압수수색을 진행하는 수사 가이드라인 마련에 나섬.",
+    "title": "필수의료 수사 가이드라인 마련",
+    "body": "경찰청과 보건복지부가 응급실 등 필수의료 현장의 의료사고 수사 시 의료기관과 사전 협의하고 비진료 공간 위주로 압수수색을 진행하는 수사지침 마련에 나섬.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
@@ -2561,31 +2551,41 @@
     ]
    },
    {
+    "section": "정책",
+    "title": "희귀·중증난치질환 본인부담 인하",
+    "body": "보건복지부가 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 낮추는 시행령 개정안을 입법예고함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942230"
+    ]
+   },
+   {
     "section": "병원",
-    "title": "세브란스병원 응급센터 개소",
-    "body": "세브란스병원이 복지부 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 갖고 운영에 들어감.",
+    "title": "권역응급의료센터 신규 지정",
+    "body": "세브란스병원이 보건복지부 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 갖고 운영에 들어감.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
     ]
    },
    {
     "section": "병원",
-    "title": "수술실 인력 배정 기술 특허",
-    "body": "삼성서울병원이 간호사 수술 참여 경험을 점수화해 수술실 인력을 자동 배정하는 기술로 미국 특허를 확보함.",
+    "title": "우주의학센터 설립 및 연구 착수",
+    "body": "강동경희대병원이 우주의학센터를 개소하고 우주환경을 활용한 신약개발과 만성질환 치료기술 연구에 착수함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171631"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942200"
     ]
    }
   ],
   "implications": [
-   "정부의 필수의료 보상 강화 및 수가 구조 개편 방향에 맞춰 중증·응급 수술 분야의 수가 산정 체계와 원가 보전 대책을 점검함.",
-   "정부의 공공병원 별도 수가체계 도입 및 지역·필수의료 인력 지원 정책 흐름에 연계하여 원내 대응 전략을 검토함."
+   "정부의 필수의료 보상 강화 및 가치기반수가 전환 기조에 맞춰 중증·필수의료 진료 프로세스와 성과 지표 체계를 정비함.",
+   "경찰청·복지부의 필수의료 수사 가이드라인 마련에 발맞추어 원내 응급실 및 필수의료 부서의 법적 대응 절차와 사전 협의 매뉴얼을 점검함."
   ],
-  "count": 110,
+  "count": 83,
   "picks": 3,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-06 07:08",
-  "sig": "3:1gddcxh"
+  "generatedAt": "2026-11-06 10:31",
+  "sig": "3:1oapjdu"
  },
  "monthly": {
   "date": "2026-11-06",
