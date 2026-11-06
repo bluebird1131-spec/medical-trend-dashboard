@@ -3,56 +3,95 @@
   {
    "date": "2026-11-06",
    "from": "2026-11-05",
-   "headline": "국가건강검진의 AI 활용 확대와 제1·3차 보건의료발전계획 및 공공의료 기본계획 추진",
+   "headline": "제1차 보건의료발전계획 및 공공보건의료 기본계획에 따른 공공병원 수가체계 개편과 의료현장 디지털·안전 관리 동향",
    "points": [
     {
      "section": "병원",
-     "title": "국가건강검진 AI 활용 확대",
-     "body": "제4차 국가건강검진종합계획에 검진 단계별 AI 활용 방안이 포함된 가운데 민간 검진 현장에서도 흉부 CT에 AI를 적용하여 심혈관 지표를 확인하는 등 활용이 확산됨.",
+     "title": "국립암센터, 디지털 임상연구 플랫폼 운영",
+     "body": "국립암센터가 디지털기술을 활용한 하이브리드 분산형 임상연구 지원 플랫폼 운영을 시작함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044341"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "양산부산대병원, PDA 활용 진료과정 관리",
+     "body": "양산부산대병원이 환자 확인을 넘어 진료 과정까지 관리하는 PDA 시스템의 활용 범위를 확대함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044342"
      ]
     },
     {
      "section": "정책",
-     "title": "제1차 보건의료발전계획 제안",
-     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서를 통해 공공병원 별도 수가체계와 가치기반수가로의 전환을 제안함.",
+     "title": "공공병원 별도 수가체계 및 가치기반수가 제안",
+     "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271"
      ]
     },
     {
      "section": "정책",
-     "title": "제3차 공공보건의료 기본계획 공청회",
-     "body": "보건복지부가 제3차 공공보건의료 기본계획(2026~2030)안 공청회를 개최하여 지역 간 치료가능사망률 격차 축소 및 공공의료 인력 확보 방안을 논의함.",
+     "title": "제3차 공공보건의료 기본계획 추진",
+     "body": "정부가 국립대병원을 중증 최종치료 기관으로 육성하고 지방의료원을 재편하는 공공보건의료체계 개편을 추진함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044333",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
      ]
     },
     {
      "section": "정책",
-     "title": "자가면역치료 접근성 확대",
-     "body": "정부가 안전성과 유효성 근거문헌을 갖춘 경우 선행 임상연구 없이도 자가면역세포 치료계획을 신청할 수 있도록 규제를 완화함.",
+     "title": "희귀질환 치료제 신속등재 시범사업 착수",
+     "body": "보건복지부가 희귀질환 치료제 신속등재를 위해 비용효과성 평가를 사후평가로 전환하는 시범사업에 착수함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492464&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044343"
      ]
     }
    ],
    "implications": [
-    "국가건강검진 및 흉부 CT 판독 과정에서의 AI 도입 및 사후관리 활용 방안 검토",
-    "공공병원 별도 수가체계 도입 및 가치기반수가 전환 동향에 따른 경영 전략 수립",
-    "제3차 공공보건의료 기본계획에 따른 지역 간 치료가능사망률 격차 축소 및 공공의료 인력 확보 체계 점검"
+    "공공병원 별도 수가체계 및 가치기반수가 도입 논의에 대비한 원내 대응 전략 검토",
+    "국립대병원의 중증·필수의료 거점 육성 방향에 맞춘 진료 역량 강화 방안 마련",
+    "디지털 기반 임상연구 플랫폼 및 PDA 시스템 활용 확대를 위한 원내 적용 검토"
    ],
-   "count": 4,
+   "count": 33,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-06 08:36",
-   "sig": "3:11jy77e",
+   "generatedAt": "2026-11-06 13:37",
+   "sig": "3:1sraf30",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492468&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492464&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492463&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492465&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492461&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171653",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942313",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942300",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942303",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942304",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942293",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942297",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942294",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942302",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942292",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942287",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942298",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942252",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044341",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044343",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044342",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044345",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044306",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044335",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044333",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044332",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942259",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942210",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171649",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942295"
    ]
   },
   {
@@ -2520,21 +2559,23 @@
  "weekly": {
   "date": "2026-11-06",
   "from": "2026-10-31",
-  "headline": "정부가 26년 만에 제1차 보건의료발전계획 수립에 착수하고, 필수의료 보상 강화 및 수가 구조 혁신을 본격화함.",
+  "headline": "정부는 제3차 보건의료발전계획과 수가 구조 개편을 통해 필수의료 보상과 공공병원 육성을 가속화하고 있다.",
   "points": [
    {
     "section": "정책",
-    "title": "제1차 보건의료발전계획 추진",
-    "body": "보건복지부가 의료전달체계 개편, 필수의료 강화 등을 포함한 제1차 보건의료발전계획을 12월 확정 목표로 추진함. 한국보건사회연구원은 동 보고서에서 공공병원 별도 수가체계와 가치기반수가 전환을 제안함.",
+    "title": "제1~3차 보건의료발전계획 추진",
+    "body": "보건복지부가 의료전달체계 개편, 필수의료 강화, 건보제도 개혁을 포함한 보건의료발전계획을 12월 확정 목표로 추진함. 아울러 국립대병원을 중증 최종치료 기관으로 육성하는 제3차 공공보건의료 기본계획안을 공개함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044333",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
     ]
    },
    {
     "section": "정책",
     "title": "필수의료 보상 강화 및 수가 개편",
-    "body": "복지부가 건정심 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하며, 진료량보다 성과 보상 중심으로 수가 구조 혁신을 정례화할 계획임.",
+    "body": "복지부가 건정심 의결에 따라 필수의료 보상 강화 및 과보상 영역 조정을 본격 실행하며 수가 구조 혁신을 정례화할 계획임. 검사 분야에 쏠린 의료 자원을 기본진료·중증수술·야간·휴일 응급진료로 옮기도록 유도하는 수가 개편 일정을 확정함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540"
@@ -2542,50 +2583,42 @@
    },
    {
     "section": "정책",
-    "title": "필수의료 수사 가이드라인 마련",
-    "body": "경찰청과 보건복지부가 응급실 등 필수의료 현장의 의료사고 수사 시 의료기관과 사전 협의하고 비진료 공간 위주로 압수수색을 진행하는 수사지침 마련에 나섬.",
+    "title": "희귀질환자 본인부담률 인하",
+    "body": "보건복지부가 희귀·중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 낮추는 시행령 개정안을 입법예고함. 또한 희귀질환 치료제 신속등재 시범사업 대상 약제 5종을 선정해 사전 비용효과성 평가를 사후평가로 전환하는 절차에 착수함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492464&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "희귀·중증난치질환 본인부담 인하",
-    "body": "보건복지부가 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 낮추는 시행령 개정안을 입법예고함.",
+    "title": "필수의료 수사 가이드라인 마련",
+    "body": "경찰청과 보건복지부가 응급실 등 필수의료 현장에서 의료사고 수사 시 진료 공간 밖에서 우선 압수수색을 진행하고 병원 관리자와 사전에 협의하는 가이드라인을 마련함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942230"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
     ]
    },
    {
     "section": "병원",
-    "title": "권역응급의료센터 신규 지정",
-    "body": "세브란스병원이 보건복지부 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 갖고 운영에 들어감.",
+    "title": "중증·응급의료 인프라 재지정",
+    "body": "세브란스병원이 보건복지부 2026년 응급의료기관 재지정 평가를 거쳐 서울 서북권 권역응급의료센터로 신규 지정되어 개소함. 성빈센트병원도 경기 남부 소아전문응급의료센터로 재지정됨.",
     "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "우주의학센터 설립 및 연구 착수",
-    "body": "강동경희대병원이 우주의학센터를 개소하고 우주환경을 활용한 신약개발과 만성질환 치료기술 연구에 착수함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942200"
     ]
    }
   ],
   "implications": [
-   "정부의 필수의료 보상 강화 및 가치기반수가 전환 기조에 맞춰 중증·필수의료 진료 프로세스와 성과 지표 체계를 정비함.",
-   "경찰청·복지부의 필수의료 수사 가이드라인 마련에 발맞추어 원내 응급실 및 필수의료 부서의 법적 대응 절차와 사전 협의 매뉴얼을 점검함."
+   "정부의 공공병원 진료역량 강화 및 국립대병원 육성 기조에 발맞추어 중증·필수의료 인프라 투자와 국고 지원 사업 활용 방안을 선제적으로 검토해야 함.",
+   "정부의 수가 구조 개편 방향에 따라 기본진료, 중증수술, 응급진료 영역의 수익 구조 변화를 분석하고 대응 전략을 수립해야 함."
   ],
-  "count": 83,
+  "count": 112,
   "picks": 3,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-06 10:31",
-  "sig": "3:1oapjdu"
+  "generatedAt": "2026-11-06 13:37",
+  "sig": "3:1pk0fsk"
  },
  "monthly": {
   "date": "2026-11-06",

@@ -1120,5 +1120,17 @@
   "start": "2026-11-02",
   "end": "2026-11-20",
   "at": "2026-11-05"
+ },
+ "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492465&tag=&nPage=1": {
+  "period": "2026-11-06 ~ 2026-11-20",
+  "start": "2026-11-06",
+  "end": "2026-11-20",
+  "at": "2026-11-06"
+ },
+ "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492461&tag=&nPage=1": {
+  "period": "2026-11-06 ~ 2026-11-19",
+  "start": "2026-11-06",
+  "end": "2026-11-19",
+  "at": "2026-11-06"
  }
 }
