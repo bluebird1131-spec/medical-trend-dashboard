@@ -2590,22 +2590,12 @@
  "monthly": {
   "date": "2026-11-06",
   "from": "2026-10-08",
-  "headline": "보건복지부는 필수의료 보상과 수가 구조 혁신을 추진하고 의료 취약지 인프라를 강화하는 정책 기조를 이어가고 있다.",
+  "headline": "정부가 지역 및 필수의료 중심의 수가 구조 혁신과 보건의료발전계획 수립에 총력을 기울이고 있습니다",
   "points": [
    {
     "section": "정책",
-    "title": "필수의료 중심 수가 구조 혁신",
-    "body": "정부는 건강보험 재정 2조 7,000억 원을 지역 및 필수의료에 우선 투입하고, 검체검사 및 CT·MRI 등 비중증 영역의 수가를 조정하는 구조 혁신 방안을 추진하고 있다.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "보건의료발전계획 수립 추진",
-    "body": "보건복지부는 의료전달체계 개편과 공공병원 별도 수가체계 등을 포함한 제1차 보건의료발전계획을 12월 확정을 목표로 추진하고 있다.",
+    "title": "제1차 보건의료발전계획 수립",
+    "body": "보건복지부는 의료전달체계 개편과 필수의료 강화를 담은 제1차 보건의료발전계획을 12월 확정 목표로 추진하며 공공병원 별도 수가체계 도입을 제안함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
@@ -2613,38 +2603,49 @@
    },
    {
     "section": "정책",
-    "title": "비대면진료 법정 기준 마련",
-    "body": "정부는 6개월 내 대면진료 의료기관 이용 원칙과 7일 이내 처방 제한 등을 담은 비대면진료 법정 기준 관련 규칙 개정안을 입법예고했다.",
+    "title": "지역·필수의료 수가 2.7조 원 선투입",
+    "body": "복지부는 건정심 의결을 통해 내년 1월부터 지역·필수의료 인프라 강화를 위해 2조 7,000억 원의 건강보험 재정을 선투입하고 중증수술 수가 등을 인상함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941605",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "검체검사 수가 인하 및 정산체계 개편",
+    "body": "복지부는 내년 1월부터 검체검사 수가를 인하고 건공단이 위·수탁기관에 직접 지급하는 구분 지급 방식으로 정산체계를 개편함.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 수가 및 디지털 제도 정비",
+    "body": "정부는 의료 AI 확산에 발맞춰 제품별 임상 지표를 평가해 보상하는 기관 단위 수가 체계를 구체화하고 관련 가이드라인을 정비함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "비대면진료 세부기준 입법예고",
+    "body": "복지부는 6개월 내 대면진료 의료기관 원칙과 비만약 처방 제외, 초진 처방일수 7일 제한 등을 담은 비대면진료 시행규칙 개정안을 입법예고함.",
+    "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942121",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941564"
     ]
    },
    {
-    "section": "정책",
-    "title": "첨단재생의료 및 면역세포 규제 완화",
-    "body": "보건복지부는 자가면역세포 치료의 위험도를 낮추어 선행 임상연구 없이 치료계획 신청이 가능하도록 규제를 완화하고 심의 문턱을 낮추었다.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044307",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171525",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료 AI 및 원격중환자실 확대",
-    "body": "정부는 의료 AI 제품별 임상 지표 연계 보상 방안을 구체화하고, 거점병원과 협력하는 원격중환자실 네트워크 사업을 서울 권역 등으로 확대하고 있다.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
-    ]
-   },
-   {
     "section": "병원",
-    "title": "첨단 로봇수술 성과 확대",
-    "body": "울산대학교병원이 대장항문외과 로봇수술 1000례를 달성하는 등 주요 상급종합병원을 중심으로 첨단 장비를 활용한 고난도 수술 성과가 이어지고 있다.",
+    "title": "로봇수술 1000례 성과 달성",
+    "body": "울산대학교병원이 부울경 최초 대장항문 로봇수술 1000례를 달성했으며 주요 병원들의 첨단 로봇수술 도입 및 성과가 이어짐.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221",
@@ -2653,24 +2654,24 @@
    },
    {
     "section": "병원",
-    "title": "스마트병동 및 의료 AI 도입",
-    "body": "부산대학교병원과 아주대학교병원 등이 AI 기반 병상 모니터링 시스템 및 스마트병동 구축을 위한 협력과 도입을 본격화하고 있다.",
+    "title": "원격중환자실 및 스마트 병동 확산",
+    "body": "복지부의 원격중환자실 협력 네트워크 사업이 서울 권역 등으로 확대되고 일선 병원들의 AI 기반 스마트 병상 모니터링 도입이 활발해짐.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390"
     ]
    }
   ],
   "implications": [
-   "정부의 필수의료 수가 보상 강화 및 구조 개편 기조에 발맞추어 중증·필수 진료 분야의 수가 청구 및 인프라 운영 전략을 재점검해야 함",
-   "원격중환자실 네트워크 확대와 의료 AI 수가 적용에 대비하여 원내 스마트 모니터링 체계와 임상 데이터 활용 기반을 선제적으로 구축해야 함",
-   "권역외상센터 및 고위험분만 등 필수의료 영역의 법정 인력 기준 충족 여부를 상시 점검하고 인력 운영 효율성을 제고해야 함"
+   "정부의 지역·필수의료 수가 2.7조 원 선투입 및 중증수술 수가 인상 기조에 맞춰 원내 중증진료 프로세스를 정비하고 관련 수가 청구 전략을 수립해야 함",
+   "검체검사 수가 인하 및 위·수탁 직정산 개편에 선제적으로 대응하여 원내 진단검사 부문의 재정 및 운영 효율성을 점검해야 함",
+   "원격중환자실 협력 네트워크 확대 및 AI 기반 병상 모니터링 도입 추세에 발맞추어 원내 스마트 병원 인프라를 확충해야 함"
   ],
   "count": 300,
   "picks": 44,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-06 08:01",
-  "sig": "3:om8ygj"
+  "generatedAt": "2026-11-06 11:34",
+  "sig": "3:lbroza"
  }
 }
