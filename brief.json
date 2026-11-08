@@ -3,57 +3,28 @@
   {
    "date": "2026-11-09",
    "from": "2026-11-08",
-   "headline": "부산대병원의 메디컬센터 건립 추진과 주요 병원 빅데이터 분석센터 개소 등 동향",
+   "headline": "부산대병원의 글로벌 허브 메디컬센터 건립 및 의료질평가 최상위 등급 기반 발전 전략 추진",
    "points": [
     {
      "section": "병원",
-     "title": "부산대병원 메디컬센터 건립",
-     "body": "부산대병원이 개원 70주년 기념식을 통해 글로벌 허브 메디컬센터 건립과 의료질평가 최상위 등급 달성 추진을 발표함.",
+     "title": "부산대병원 메디컬센터 건립 추진",
+     "body": "부산대병원이 개원 70주년을 맞아 글로벌 허브 메디컬센터 건립 추진을 발표함. 의료질평가 최상위 등급 달성을 바탕으로 한 병원 발전 전략 공유.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "건보공단 빅데이터 분석센터 개소",
-     "body": "국민건강보험공단이 보건의료 연구 활성화를 위해 분당차병원, 강원대병원, 충남대병원, 제주대병원에 분석센터를 신규 개소할 예정임.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942307"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "디지털 비대면 진료 규제 강화",
-     "body": "대법원이 비대면 진료 플랫폼의 전문의약품 관련 광고를 유죄로 판단함에 따라 관련 규제 준수 검토가 필요함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942355"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "진료기록 AI 의료기기 규제 쟁점",
-     "body": "진료 대화 요약 AI의 진단 및 처방 보조 기능 결합에 따른 의료기기 규제 대상 해당 여부가 주목됨.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942296"
      ]
     }
    ],
    "implications": [
-    "부산대병원의 글로벌 허브 메디컬센터 건립 및 발전 전략 벤치마킹",
-    "타지역 상급종합병원의 건보공단 빅데이터 분석센터 유치 사례 참고"
+    "동남권 인접 병원의 글로벌 허브 메디컬센터 건립 추진에 따른 권역 내 중증환자 유출입 영향 모니터링",
+    "의료질평가 최상위 등급 획득 및 유지를 위한 지표 관리 체계 점검"
    ],
-   "count": 6,
+   "count": 1,
    "picks": 1,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-09 08:31",
-   "sig": "3:1aij5j0",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-11-09 08:47",
+   "sig": "3:1ise7o7",
    "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942329",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942307",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942355",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942296",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942285"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344"
    ]
   },
   {
