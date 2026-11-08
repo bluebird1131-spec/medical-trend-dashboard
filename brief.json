@@ -3,59 +3,52 @@
   {
    "date": "2026-11-09",
    "from": "2026-11-08",
-   "headline": "국민건강보험공단 빅데이터 분석센터 개소 및 디지털 의료 솔루션 관련 동향",
+   "headline": "부산대병원의 메디컬센터 건립 추진과 주요 병원 빅데이터 분석센터 개소 등 동향",
    "points": [
     {
      "section": "병원",
-     "title": "디지털 비만 관리 솔루션 출시",
-     "body": "한미약품이 비만 치료 환자 앱과 의료진 웹 시스템을 연동한 디지털 비만 관리 솔루션 '에피데이'를 출시함.",
+     "title": "부산대병원 메디컬센터 건립",
+     "body": "부산대병원이 개원 70주년 기념식을 통해 글로벌 허브 메디컬센터 건립과 의료질평가 최상위 등급 달성 추진을 발표함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942329"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344"
      ]
     },
     {
      "section": "병원",
-     "title": "건강보험 빅데이터 분석센터 신규 개소",
-     "body": "국민건강보험공단이 보건의료 연구 활성화를 위해 분당차병원, 강원대병원, 충남대병원, 제주대병원에 건강보험 빅데이터 분석센터를 신규 개소할 예정임.",
+     "title": "건보공단 빅데이터 분석센터 개소",
+     "body": "국민건강보험공단이 보건의료 연구 활성화를 위해 분당차병원, 강원대병원, 충남대병원, 제주대병원에 분석센터를 신규 개소할 예정임.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942307"
      ]
     },
     {
      "section": "정책",
-     "title": "전문의약품 비대면 플랫폼 광고 유죄 판결",
-     "body": "대법원은 비대면 진료 플랫폼에서 특정 전문의약품의 효능과 후기를 제공한 행위에 대해 약사법상 광고 위반으로 유죄를 선고함.",
+     "title": "디지털 비대면 진료 규제 강화",
+     "body": "대법원이 비대면 진료 플랫폼의 전문의약품 관련 광고를 유죄로 판단함에 따라 관련 규제 준수 검토가 필요함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942355"
      ]
     },
     {
      "section": "정책",
-     "title": "진료기록 AI 의료기기 규제 쟁점 부각",
-     "body": "진료 대화를 요약하는 AI에 진단 및 처방 보조 기능이 결합되면서 단순 보조를 넘어 의료기기 규제 대상에 해당하는지가 쟁점으로 부각됨.",
+     "title": "진료기록 AI 의료기기 규제 쟁점",
+     "body": "진료 대화 요약 AI의 진단 및 처방 보조 기능 결합에 따른 의료기기 규제 대상 해당 여부가 주목됨.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942296"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "병원계 원청교섭 지지부진",
-     "body": "노조법 개정안 시행 6개월이 경과했으나 대형병원을 포함한 병원계의 하청 노동자 원청교섭은 지지부진한 상황임.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942285"
      ]
     }
    ],
    "implications": [
-    "보건의료 연구 활성화를 위한 건강보험 빅데이터 분석센터 활용 방안 검토",
-    "진료기록 AI 도입 시 의료기기 규제 해당 여부 검토"
+    "부산대병원의 글로벌 허브 메디컬센터 건립 및 발전 전략 벤치마킹",
+    "타지역 상급종합병원의 건보공단 빅데이터 분석센터 유치 사례 참고"
    ],
-   "count": 5,
-   "picks": 0,
+   "count": 6,
+   "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-09 06:43",
-   "sig": "3:fhv7mv",
+   "generatedAt": "2026-11-09 08:31",
+   "sig": "3:1aij5j0",
    "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942329",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942307",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942355",
