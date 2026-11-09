@@ -3,40 +3,46 @@
   {
    "date": "2026-11-10",
    "from": "2026-11-09",
-   "headline": "부산대병원의 글로벌 허브 메디컬센터 건립 추진과 함께 삼성서울병원 등의 AI 기반 의료 혁신 및 정부의 비급여 관리 정책 반발 동향.",
+   "headline": "국내 주요 병원들의 중증 진료 및 AI 혁신 가속화와 함께 보건당국의 비급여 관리·의료법 개정 추진이 이어짐.",
    "points": [
     {
      "section": "병원",
-     "title": "부산대병원 메디컬센터 건립",
-     "body": "부산대병원이 개원 70주년 기념식을 열고 글로벌 허브 메디컬센터 건립과 의료질평가 최상위 등급 달성을 위한 발전 전략을 추진함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "삼성서울병원 AI 임상연구 확대",
-     "body": "삼성서울병원이 개원 32주년을 맞아 중증·난치·희귀질환 치료 역량 강화와 AI 임상연구 확대를 핵심 운영 방향으로 발표함.",
+     "title": "삼성서울병원, AI 임상연구 강화",
+     "body": "삼성서울병원이 개원 32주년을 맞아 중증·난치·희귀질환 치료 역량 강화와 AX추진단을 통한 AI 임상연구 확대를 추진함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171694",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044399"
      ]
     },
     {
-     "section": "정책",
-     "title": "비급여 관리법 제정 반발 확산",
-     "body": "정부와 국회가 추진하는 비급여항목 관리법안에 대해 의료계가 철회 촉구와 함께 헌법소원 검토 등 강력히 반발함.",
+     "section": "병원",
+     "title": "부산대병원, 글로벌 허브센터 추진",
+     "body": "부산대병원이 개원 70주년을 맞아 글로벌 허브 메디컬센터 건립과 의료질평가 최상위 등급 달성을 위한 발전 전략을 공유함.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171685",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044396",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171695",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044411"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344"
      ]
     },
     {
      "section": "정책",
-     "title": "정신의료기관 운영실태 합동점검",
-     "body": "보건복지부가 환자 안전과 인권 보호를 위해 연말까지 전국 정신의료기관의 인력 배치 및 격리·강박 실태 합동점검을 실시함.",
+     "title": "진료실 전문의 표시 의무화 추진",
+     "body": "의료기관 접수창구와 진료실 입구에 전문의 자격 여부와 전문과목 표시를 명확히 의무화하는 법안이 발의됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044395",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942390"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "만성질환 관리사업 통합 개편 추진",
+     "body": "보건복지부가 분절적으로 운영되던 기존 만성질환 관리사업 간의 통합과 연계를 강화하는 정책 개편을 추진할 계획임.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942350"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "정신의료기관 운영실태 합동점검 실시",
+     "body": "보건복지부가 연말까지 정신의료기관의 인력 배치 및 격리·강박 등 환자 안전과 인권 보호 실태에 대한 점검에 착수함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492478&tag=&nPage=1",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942406"
@@ -44,21 +50,25 @@
     }
    ],
    "implications": [
-    "상급종합병원의 중증·난치 질환 치료 역량 강화 및 인프라 확충 흐름에 맞춰 본원의 특성화센터 운영 전략을 점검함.",
-    "의료 현장의 AI 활용 연구 및 스마트 병원 도입 확대 추세에 대응하여 진료 및 연구 부문의 디지털 전환 방안을 검토함."
+    "상급종합병원 차원에서 진료실 입구 전문의 표시 의무화 법안 등 향후 법제화 동향에 선제적인 원내 안내 체계 정비 검토",
+    "AI 기반 임상연구 및 스마트 병원 모델 도입 확대를 위한 자체 진료·연구 인프라 고도화 방안 모색"
    ],
    "count": 38,
-   "picks": 1,
+   "picks": 6,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-10 06:46",
-   "sig": "3:11xo6hu",
+   "generatedAt": "2026-11-10 08:36",
+   "sig": "3:1e8xsgg",
    "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942375",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044395",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942390",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942350",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942380",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942404",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171685",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171683",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942381",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942375",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942299",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942358",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942360",
@@ -68,7 +78,6 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942254",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942345",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044396",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044395",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044381",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044386",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044382",
@@ -80,10 +89,7 @@
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171695",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171688",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942406",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942390",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942394",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942350",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942380",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942382",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044411",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044394",
