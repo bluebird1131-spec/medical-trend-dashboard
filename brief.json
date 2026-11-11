@@ -1,6 +1,67 @@
 {
  "days": [
   {
+   "date": "2026-11-12",
+   "from": "2026-11-11",
+   "headline": "영월의료원의 의료 AI 도입과 복지부의 국가필수약협의체 확대 개편 등 동향",
+   "points": [
+    {
+     "section": "병원",
+     "title": "영월의료원 의료 AI 도입",
+     "body": "영월의료원이 패혈증 및 심정지 예측 등 의료 AI 4종을 진료 현장에 도입하여 분만 복원 등 필수의료 공백을 해소함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492509&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044475"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "서울아산병원 뇌 AI 연구",
+     "body": "서울아산병원 연구팀이 응급 비조영 뇌 CT 분석 결과 상용 뇌 AI 검출 결과만으로 판독 우선순위를 정하는 데 한계가 있음을 확인함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942364"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "국가필수약협의체 확대",
+     "body": "정부가 개정 약사법 시행에 따라 국가필수의약품 안정공급 협의체를 확대·개편하고 수급불안 의약품에 대한 선제적 대응체계를 구축함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942455"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "건보공단 특사경 추진",
+     "body": "국민건강보험공단이 불법 개설 의료기관 단속을 위한 특사경 도입 및 행정조사 절차 개선 추진 의지를 재확인함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044472"
+     ]
+    }
+   ],
+   "implications": [
+    "영월의료원의 사례를 참고하여 상급종합병원으로서 원내 필수의료 인프라 확충 및 의료 AI 도입 타당성 검토",
+    "서울아산병원의 뇌 AI 연구 결과를 바탕으로 원내 AI 판독 시스템 활용 시 보조적 수단으로서의 한계점 인지 및 신중한 적용 검토"
+   ],
+   "count": 10,
+   "picks": 0,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-12 00:44",
+   "sig": "3:7fptsn",
+   "links": [
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492509&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942455",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942364",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044475",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044472",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044462",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044463",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171733",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942440",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044464"
+   ]
+  },
+  {
    "date": "2026-11-11",
    "from": "2026-11-10",
    "headline": "의료 AI 도입과 필수의료 인프라 확충이 가속화되는 한편, 만성질환 관리 및 보건의료 정책 개편이 추진 중임.",
@@ -2524,101 +2585,6 @@
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171148",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941395",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941393"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "from": "2026-10-12",
-   "headline": "국내 주요 병원들의 첨단 로봇수술 장비 도입과 AI 모니터링 시스템 구축이 활발한 가운데, 정부의 정신응급 필수의료 지정 및 거점외상센터 선정 등 보건의료 정책 개편이 추진됨.",
-   "points": [
-    {
-     "section": "병원",
-     "title": "아주대병원 로봇수술 도입",
-     "body": "아주대병원이 5세대 로봇수술 시스템 다빈치 5와 형상 유도 로봇 보조 기관지경 아이온을 도입함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "경희대병원 CAR-T 센터",
-     "body": "경희대병원이 종양혈액내과 중심의 인프라 점검을 마치고 2026년 하반기 CAR-T 세포치료센터 개소 및 임상 적용 검증 단계에 진입함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "정신응급 필수의료 지정",
-     "body": "정부가 제6차 자살예방기본계획을 통해 정신응급을 필수의료로 지정하고 집중치료병상을 2030년까지 2000개로 확충할 예정임.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "거점외상센터 최종 선정",
-     "body": "보건복지부가 최중증 외상환자 최종 치료를 담당할 거점외상센터 설치지원사업 공모 결과 아주대병원과 원주세브란스기독병원을 선정함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119"
-     ]
-    }
-   ],
-   "implications": [
-    "최신 로봇수술 장비(다빈치 5) 및 AI 기반 실시간 모니터링 씽크 도입 등 타 대학병원의 첨단 의료 인프라 확충 동향 벤치마킹",
-    "정부의 정신응급 필수의료 지정 및 거점외상센터 육성 정책에 발맞춘 중증 응급 및 특성화센터 인프라 정비 검토"
-   ],
-   "count": 43,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-13 21:38",
-   "sig": "3:1gbgukv",
-   "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941115",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941108",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171106",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941302",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941258",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492193&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492191&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941284",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941315",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941331&page=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941329&page=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941323&page=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492203&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941349&page=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941338&page=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941340&page=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941341&page=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941239&page=2",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043538",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043526",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043514",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043511",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043507",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043509",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043492",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171126",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171120",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171119",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941348",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941252",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941318",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941312",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941337",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941304"
    ]
   }
  ],
