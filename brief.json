@@ -3,87 +3,66 @@
   {
    "date": "2026-11-12",
    "from": "2026-11-11",
-   "headline": "타지역 병원 중심 의료 AI 및 첨단장비 도입이 가속화되는 가운데 건보공단 특사경 도입 법안이 국회 소위를 통과함.",
+   "headline": "국립대병원 전문의 채용 지원 예산 편성 등 의료계 주요 동향",
    "points": [
     {
      "section": "병원",
-     "title": "공공의료 AI 및 심부전 치료 성과",
-     "body": "영월의료원이 의료 AI 4종을 도입해 필수의료 공백을 해소하고 있으며, 서울성모병원은 좌심실 보조장치 삽입술 50례를 달성함.",
-     "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492509&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044475",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044473"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "가납 의료기기 RFID 통합관리",
+     "title": "은평성모병원, RFID 통합관리시스템",
      "body": "은평성모병원이 국내 의료기관 최초로 RFID 기술을 활용한 가납 의료기기 통합관리시스템을 구축함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759"
      ]
     },
     {
-     "section": "정책",
-     "title": "건보공단 특사경 법안 소위 통과",
-     "body": "국민건강보험공단에 특별사법경찰 권한을 부여하는 법안이 국회 법사위 법안소위를 통과함.",
+     "section": "병원",
+     "title": "분당서울대병원, 혁신클러스터 비전",
+     "body": "분당서울대병원이 헬스케어혁신파크 개원 10주년을 맞아 병원 중심 글로벌 바이오헬스 혁신클러스터 비전을 선포함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044472",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942484",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044482"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942488"
      ]
     },
     {
      "section": "정책",
-     "title": "비만치료제 등 의약품 안전성 강화",
-     "body": "식약처가 GLP-1 계열 비만치료제의 시력손상 위험에 대한 안전성 서한을 배포하고 허가사항 변경을 추진함.",
+     "title": "국립대병원 전문의 채용 예산 편성",
+     "body": "정부가 지역 국립대병원 필수진료과 전문의 채용 지원 예산을 편성했으나 실제 인력 확보 실효성에 대한 지적이 나옴.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171755",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942470"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "국가필수약협의체 확대 및 의약품 대책",
+     "body": "정부가 국가필수의약품 안정공급 협의체를 확대·개편하고 수급불안 의약품에 대한 선제적 대응체계를 구축함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942455",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044464"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "지역의료 예산 심사 및 제도 개선",
+     "body": "국회 복지위 예산안 심사에서 지역의료 공백 해소사업 편성 방식의 미흡함이 지적됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044463"
      ]
     }
    ],
    "implications": [
-    "원내 가납 의료기기 관리 효율화를 위해 RFID 통합관리시스템 도입 검토",
-    "정부의 공공의료 AI 고속도로 사업 및 원내 의료 AI 활용 확대를 위한 연계 방안 모색"
+    "국립대병원 전문의 채용 지원 예산과 연계한 필수진료과 인력 확보 방안 검토",
+    "타 기관의 의료기기 RFID 통합관리시스템 도입 사례 벤치마킹 검토"
    ],
-   "count": 34,
-   "picks": 0,
+   "count": 9,
+   "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-12 06:45",
-   "sig": "3:zkphcq",
+   "generatedAt": "2026-11-12 08:51",
+   "sig": "3:117opq6",
    "links": [
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492509&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942455",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942364",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044475",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044472",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044462",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044463",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492512&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492511&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171757",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171755",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171754",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942504",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942498",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942362",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942472",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942455",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044463",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942498",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942488",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942486",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942484",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942479",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942480",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942470",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044488",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044491",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044473",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044480",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044484",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044477",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044482",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171733",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942440",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044464"
