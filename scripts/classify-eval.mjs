@@ -1,7 +1,7 @@
 /**
  * 분류 기준 검증 (시트에 쓰지 않음): 담당자가 이미 정리한 최근 기사를 판정 기준별로 다시 판정해 담당자 판정과 비교함
  * - 실행: Actions '분류 기준 검증' (Run workflow). 필요한 값: SHEET_URL, GEMINI_API_KEY
- * - 대상: 담당자가 정리한 날짜(직접 고친 기사가 5건 이상) 중 최근 날짜부터, EVAL_N 건 이상이 되도록 날짜 단위로 채움
+ * - 대상: 담당자가 정리한 날짜(직접 고친 기사가 5건 이상) 중 최근 날짜(EVAL_BEFORE 를 주면 그 앞)부터, EVAL_N 건 이상이 되도록 날짜 단위로 채움
  * - 비교: 당시 실제 판정(요약 열의 [상태] 표시), v1(이전 기준), v2r(새 기준 문구만), v2(새 기준 + 담당자 예시 + 중복 거르기)
  *   v2 의 담당자 예시는 검증 날짜보다 앞선 날짜에서만 뽑음 (답을 미리 보여 주지 않게)
  * - '보임' = 필요·검토필요 (사이트에 올라가는 것). 맞춤률·잘못 올린 기사·놓친 기사를 기준별로 셈
@@ -12,6 +12,7 @@ import { STATUSES, SCHEMA, VERSIONS, buildSystem, buildPrompt, readSheet, userEx
 
 const SHEET = (process.env.SHEET_URL || '').trim();
 const N = Number(process.env.EVAL_N) || 120;
+const BEFORE = (process.env.EVAL_BEFORE || '').trim() || '9999-99-99';  // 이 날짜보다 앞선 날짜만 (기준을 고친 날짜와 다른 날로 확인할 때)
 const BATCH = 20;
 const variants = (process.env.EVAL_VARIANTS || 'v1,v2r,v2').split(/[\s,]+/).filter(v => VERSIONS.includes(v));
 if (!SHEET || !KEY) { console.log('SHEET_URL·GEMINI_API_KEY 가 없어 검증을 건너뜀'); process.exit(0); }
@@ -26,7 +27,7 @@ for (const x of items) {
   fixes[x.collected] = (fixes[x.collected] || 0) + 1;
   lastFix[x.collected] = Math.max(lastFix[x.collected] || 0, x.row);
 }
-const days = Object.keys(fixes).filter(d => fixes[d] >= 5).sort().reverse();
+const days = Object.keys(fixes).filter(d => fixes[d] >= 5 && d < BEFORE).sort().reverse();
 const evalDays = [];
 let count = 0;
 for (const d of days) {
