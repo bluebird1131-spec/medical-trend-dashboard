@@ -1,0 +1,40 @@
+name: 분류 기준 검증 (시트에 쓰지 않음)
+
+# 담당자가 이미 정리한 최근 기사를 판정 기준별(v1·v2r·v2)로 다시 판정해 담당자 판정과 몇 % 맞는지 비교
+# 결과는 실행 화면의 Summary 와 로그에 나옴. 시트·사이트는 바뀌지 않음
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        description: '검증할 기사 수 (최근 정리된 날짜부터 날짜 단위로 채움)'
+        required: false
+        default: '120'
+      variants:
+        description: '비교할 기준 (v1 이전 · v2r 새 문구만 · v2 새 기준 전체)'
+        required: false
+        default: 'v1,v2r,v2'
+      model:
+        description: 'Gemini 모델 (매일 분석이 실제로 쓰는 모델과 같게)'
+        required: false
+        default: 'gemini-flash-lite-latest'
+
+permissions:
+  contents: read
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: 기준별 판정 → 담당자 판정과 비교
+        env:
+          SHEET_URL: ${{ secrets.SHEET_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ inputs.model }}
+          EVAL_N: ${{ inputs.n }}
+          EVAL_VARIANTS: ${{ inputs.variants }}
+        run: node scripts/classify-eval.mjs

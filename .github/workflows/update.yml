@@ -47,6 +47,7 @@ jobs:
           SHEET_URL: ${{ secrets.SHEET_URL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          CLASSIFY_RULES: ${{ vars.CLASSIFY_RULES }}   # 판정 기준 (비우면 코드 기본값, 되돌릴 때 v1)
           GAS_URL: ${{ secrets.GAS_URL }}
           GAS_TOKEN: ${{ secrets.GAS_TOKEN }}
         run: node scripts/classify.mjs || echo "::warning::새 기사 분석이 중간에 멈췄습니다 (다음 실행에서 다시 시도)"
