@@ -1,7 +1,8 @@
 /**
  * 기사 분석(classify.mjs)과 분류 기준 검증(classify-eval.mjs)이 함께 쓰는 판정 기준·프롬프트·시트 읽기
  * - 판정 기준 v1: 2026-10-13~11-12 에 쓰던 기준 (비교·되돌리기용)
- * - 판정 기준 v2: 담당자가 관리자 페이지에서 직접 고친 판정(10/13~11/12)을 분석해 보강한 기준
+ * - 판정 기준 v2(2026-11-12부터 기본): 담당자가 관리자 페이지에서 직접 고친 판정(10/13~11/12)을 분석해 보강한 기준
+ *   검증(classify-eval) 결과 담당자 판정과 일치율 57~64% → 84~88%, 잘못 올린 기사 약 4분의 1로, 대신 담당자 기사 중 45~63%만 잡음
  *   + 실행할 때마다 시트에서 담당자의 최근 판정을 예시로 붙이고(userExamples)
  *   + 최근 3일 고른 기사 제목을 함께 줘서 같은 사건의 후속 보도를 거름(recentPicks)
  * - 담당자 판정 = 선별상태 열, AI 판정 = 요약 열 앞의 [상태-사유] 표시. 둘이 다르면 담당자가 고친 것
@@ -154,7 +155,7 @@ export async function readSheet(sheetUrl) {
  * - drop: AI가 '필요·검토필요'로 판정했는데 담당자가 '불필요'로 바꾼 기사
  * 최근 행부터 maxKeep·maxDrop 건. beforeDate 를 주면 그 날짜보다 앞선 날짜만 (검증용)
  */
-export function userExamples(items, { beforeDate = '9999-99-99', minFix = 5, maxKeep = 30, maxDrop = 50 } = {}) {
+export function userExamples(items, { beforeDate = '9999-99-99', minFix = 3, maxKeep = 30, maxDrop = 50 } = {}) {
   const fixes = {}, lastFix = {};
   for (const x of items) {
     if (!x.ai || !STATUSES.includes(x.status) || x.ai === x.status) continue;

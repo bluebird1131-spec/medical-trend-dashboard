@@ -16,7 +16,7 @@ const GAS_URL = (process.env.GAS_URL || '').trim();
 const GAS_TOKEN = (process.env.GAS_TOKEN || '').trim();
 const MAX = Number(process.env.CLASSIFY_MAX) || 200;
 const BATCH = 20;
-const RULES = VERSIONS.includes((process.env.CLASSIFY_RULES || '').trim()) ? process.env.CLASSIFY_RULES.trim() : 'v1';
+const RULES = VERSIONS.includes((process.env.CLASSIFY_RULES || '').trim()) ? process.env.CLASSIFY_RULES.trim() : 'v2';
 
 if (!SHEET || !KEY || !GAS_URL || !GAS_TOKEN) {
   console.log('SHEET_URL·GEMINI_API_KEY·GAS_URL·GAS_TOKEN 중 빠진 값이 있어 기사 분석을 건너뜀');
