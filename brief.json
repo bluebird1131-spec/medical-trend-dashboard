@@ -1,6 +1,75 @@
 {
  "days": [
   {
+   "date": "2026-11-13",
+   "from": "2026-11-12",
+   "headline": "국립대병원 전문의 채용 실효성 점검과 함께 첨단 로봇수술 및 공공의료 AI 도입 동향 확인",
+   "points": [
+    {
+     "section": "병원",
+     "title": "인하대병원 등 첨단 로봇수술 성과",
+     "body": "인하대병원이 경인지역 최초로 단일공 로봇을 이용한 자궁경부절제술을 성공했으며, 세브란스병원은 두경부 로봇수술 5000례를 달성함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942517",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942493"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "강원 공공병원 의료 AI 도입",
+     "body": "복지부가 강원대병원과 영월의료원을 연결하는 공공의료 AI 고속도로를 시범 개통하고 현장 점검을 시행함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942481",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044493"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "국립대병원 전문의 채용 지원",
+     "body": "정부가 지역 국립대병원 필수진료과 전문의 채용 지원 예산을 편성한 가운데 실제 인력 확보 실효성에 대한 지적이 제기됨.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "환자 중증도별 적정인력 기준 추진",
+     "body": "정부가 병원급 의료기관을 대상으로 환자 중증도에 따른 적정 인력기준 마련을 추진함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
+     ]
+    }
+   ],
+   "implications": [
+    "지역 국립대병원 필수진료과 전문의 채용 지원 사업과 연계한 원내 인력 확보 방안 검토",
+    "정부의 공공의료 AI 고속도로 및 AI 솔루션 도입 확산 추세에 따른 원내 디지털헬스케어 적용 검토",
+    "환자 중증도별 병원급 적정인력 기준 마련 추진에 따른 원내 인력 배치 현황 점검"
+   ],
+   "count": 16,
+   "picks": 1,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-13 00:35",
+   "sig": "3:3zw246",
+   "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492521&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942505",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942517",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942514",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942436",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942510",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942501",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942509",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942503",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942481",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942493",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044514",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044493",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044492"
+   ]
+  },
+  {
    "date": "2026-11-12",
    "from": "2026-11-11",
    "headline": "국립대병원 전문의 채용 및 필수의료 지원 대책과 함께 첨단 로봇수술과 AI 도입 동향 발표",
@@ -2506,98 +2575,6 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941356",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043652",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043653"
-   ]
-  },
-  {
-   "date": "2026-10-14",
-   "from": "2026-10-13",
-   "headline": "대학병원 스마트병동 도입과 노사 갈등 속에 상급종합병원 병상 규정 개편 및 건보 재정 관리 정책이 본격화됨.",
-   "points": [
-    {
-     "section": "병원",
-     "title": "부산대병원 스마트병동 구축 추진",
-     "body": "부산대학교병원이 동아에스티 등과 협약을 맺고 스마트병동 구축과 AI·웨어러블 기반 해상의료 지원시스템 공동개발에 착수함.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "서울대병원 노조 쟁의 절차 돌입",
-     "body": "서울대병원 노동조합이 공공의료 강화와 필수인력 충원을 촉구하며 노동쟁의 조정신청 및 찬반투표 등 파업 수순에 돌입함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "상급종합병원 병상 기준 개정 및 분원 논란",
-     "body": "보건복지부가 권역별 최소 지정에 따른 초과 병상을 전국 소요병상 산정에서 제외하는 규정을 시행함. 국감에서는 수도권 6천 병상 분원 확장에 대한 통제 수단 미비와 지역의료 붕괴 우려가 제기됨.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "건보 재정 적자 대비 환산지수 개편 착수",
-     "body": "국민건강보험공단이 향후 5년간 매년 수조 원대 적자 전망에 대응해 2028년도 대비 BAP 환산지수 모형 실증 연구에 착수함. 동시에 국외 증빙서류 검증 시스템을 통해 외국인 건강보험 자격 관리를 강화함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "지역 맞춤 통합돌봄 가동 및 공공의료 재편",
-     "body": "보건복지부가 지역사회 통합돌봄 실태조사 결과를 바탕으로 2030년까지 지역 맞춤형 고도화를 추진함. 경영난을 겪는 지방의료원에 대해서는 지역별 의료공백 해소 역할에 맞춘 차등 보상 방안이 대두됨.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1"
-     ]
-    }
-   ],
-   "implications": [
-    "동남권역 내 부산대병원의 스마트병동 및 웨어러블 원격 모니터링 협력 모델을 참고한 원내 디지털 병동 고도화 방안 검토.",
-    "상급종합병원 진료권역별 소요병상 산정 개정안 시행에 따른 울산 권역 병상 현황 점검 및 차기 상급종합병원 평가 영향 분석 추진.",
-    "정부의 2030 지역사회 맞춤형 통합돌봄 추진 계획과 연계하여 울산 지역 내 중증 퇴원환자 케어 및 지역 의료·돌봄 연계 체계 구축 검토."
-   ],
-   "count": 29,
-   "picks": 9,
-   "model": "gemini-flash-latest",
-   "generatedAt": "2026-10-14 20:23",
-   "sig": "3:1ofkk3b",
-   "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941354",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043598",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171175",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043638",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941357",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492210&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941376",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043578",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171145",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941405",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941414",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941373",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043601",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043594",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941435",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043591",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941355",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043630",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941275",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043557",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492215&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492211&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171130",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941377",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043583",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043502",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171148",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941395",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941393"
    ]
   }
  ],
