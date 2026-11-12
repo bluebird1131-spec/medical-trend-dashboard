@@ -3,12 +3,12 @@
   {
    "date": "2026-11-12",
    "from": "2026-11-11",
-   "headline": "은평성모병원의 RFID 시스템 도입과 국립대병원 전문의 채용 및 필수의료 관련 동향",
+   "headline": "은평성모병원의 RFID 시스템 도입과 정부의 지역의료 및 필수약 대응 정책 동향",
    "points": [
     {
      "section": "병원",
-     "title": "의료기기 통합관리시스템 구축",
-     "body": "은평성모병원이 국내 의료기관 최초로 RFID 기술을 활용한 가납 의료기기 통합관리시스템을 구축함.",
+     "title": "가납 의료기기 RFID 통합관리 구축",
+     "body": "은평성모병원이 국내 의료기관 최초로 RFID 기술을 활용한 가납 의료기기 통합관리시스템을 도입함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759"
      ]
@@ -23,39 +23,35 @@
     },
     {
      "section": "정책",
-     "title": "국가필수약 수급불안 대응체계",
-     "body": "정부가 개정 약사법 시행에 따라 국가필수의약품 안정공급 협의체를 확대하고 수급불안 의약품 선제 대응체계를 구축함.",
+     "title": "국가필수약협의체 확대 개편",
+     "body": "정부가 개정 약사법 시행에 따라 국가필수의약품 안정공급 협의체를 확대하여 수급불안 의약품에 선제적으로 대응함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942455"
      ]
     },
     {
      "section": "정책",
-     "title": "지역의료 예산 및 필수의료 지적",
-     "body": "국회 예산안 심사에서 지역의료 공백 해소사업 계획의 미흡함이 지적되었으며 재건성형 등의 필수의료 제도 개선 요구가 대두됨.",
+     "title": "지역의료 예산 사업계획 지적",
+     "body": "국회 복지위 예산안 심사에서 지역의료 공백 해소사업 편성 방식과 필수의료 인프라 확충 계획의 미흡함이 지적됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044463",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171733"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044463"
      ]
     }
    ],
    "implications": [
-    "은평성모병원의 RFID 가납 의료기기 통합관리 사례를 참고하여 원내 물류 관리 선진화 검토",
-    "정부의 국립대병원 필수진료과 전문의 채용 지원 예산 집행에 따른 대응 방안 점검"
+    "은평성모병원의 RFID 기반 가납 의료기기 통합관리시스템 도입 사례를 참고하여 원내 물류 및 자산 관리 선진화 검토",
+    "정부의 지역 국립대병원 전문의 채용 지원 예산 편성 및 국회 예산안 심사 동향을 모니터링하여 필수진료과 인력 확보 전략 수립"
    ],
-   "count": 7,
+   "count": 4,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-12 09:04",
-   "sig": "3:1n99ojw",
+   "generatedAt": "2026-11-12 09:25",
+   "sig": "3:18fip5b",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942455",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044463",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171733",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942440",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044464"
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759"
    ]
   },
   {
