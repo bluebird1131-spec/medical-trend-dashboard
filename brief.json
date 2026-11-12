@@ -3,88 +3,53 @@
   {
    "date": "2026-11-13",
    "from": "2026-11-12",
-   "headline": "국립대병원 전문의 채용의 실효성 확보 과제가 대두된 가운데, 주요 병원의 첨단 수술 성과와 정부의 보건의료 정책 동향이 이어짐",
+   "headline": "병원급 의료인력 적정기준 제도화 추진과 함께 정부의 필수진료과 전문의 채용 지원 및 의약품 접근성 개선 정책이 발표됨",
    "points": [
     {
-     "section": "병원",
-     "title": "인하대·부산대 등 첨단 수술 성과",
-     "body": "인하대병원이 경인지역 최초로 단일공 로봇 자궁경부절제술을 성공했으며, 부산대병원은 비수도권 최초로 경피적 승모판막 재치환술을 성공함.",
+     "section": "정책",
+     "title": "병원급 보건의료인력 적정기준 추진",
+     "body": "국회에서 간호법에 이어 병원급 전 의료인력으로 적정기준을 확대하는 의료법 개정안이 발의되었으며, 정부도 환자 중증도에 따른 적정 인력기준 마련을 추진 중임",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942517",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942551"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "세브란스 두경부 로봇수술 5천례",
-     "body": "세브란스병원 이비인후과가 두경부 로봇수술 5000례를 달성하며 임상 성과를 거둠.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942493"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
      ]
     },
     {
      "section": "정책",
-     "title": "국립대병원 필수과 전문의 채용",
-     "body": "정부가 지역 국립대병원 필수진료과 전문의 채용 지원 예산을 편성했으나 실제 인력 확보의 실효성에 의구심이 제기됨.",
+     "title": "국립대병원 전문의 채용 예산 편성",
+     "body": "정부가 지역 국립대병원 필수진료과 전문의 채용 지원 예산을 편성했으나 실제 인력 확보의 실효성에 대한 지적이 제기됨",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348"
      ]
     },
     {
      "section": "정책",
-     "title": "병원급 보건의료인력 적정기준",
-     "body": "국회에서 환자 중증도에 따른 병원급 전 의료인력 적정기준 제도화 및 미이행 시 공표를 담은 법안 개정이 추진됨.",
+     "title": "의약품 접근성 및 정보보호 강화",
+     "body": "군부대와 공항 등에서 안전상비의약품 취급을 확대하는 약사법 시행령 개정이 예고되었으며, 보건복지부는 의료기관 정보보호 강화를 위한 협의체를 구성하기로 함",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171784"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "의료기관 현지조사 및 보안 강화",
-     "body": "복지부가 현지조사 거부 후 폐업한 의료기관의 재개설 추적 등 조사 지침을 개정하고, 민관 의료정보보호 협의체 구성을 추진함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942558",
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492521&tag=&nPage=1",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "국립대병원의 필수진료과 전문의 채용 지원 사업과 연계하여 원내 부족 진료과 인력 확보 전략을 재점검함",
-    "환자 중증도별 보건의료인력 적정기준 제도화 움직임에 선제적으로 대응하여 원내 인력 배치 체계를 검토함",
-    "의료기관 정보보호 및 사이버 위협 대응 강화를 위한 민관 협력 기조에 맞춰 원내 보안 현황을 점검함"
+    "병원급 의료인력 적정기준 제도화 움직임에 따른 원내 인력 배치 현황 점검",
+    "정부의 지역 국립대병원 전문의 채용 지원 정책 연계 방안 검토",
+    "의료기관 정보보호 강화 기조에 따른 원내 보안 체계 점검"
    ],
-   "count": 24,
-   "picks": 1,
+   "count": 7,
+   "picks": 2,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-13 06:38",
-   "sig": "3:1j1eryq",
+   "generatedAt": "2026-11-13 08:57",
+   "sig": "3:dl7gcz",
    "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942558",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044533",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492521&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942505",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942517",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942514",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942436",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942510",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942501",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942509",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942503",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942481",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942493",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044514",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044493",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044492",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492525&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171784",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942551",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942516"
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492525&tag=&nPage=1"
    ]
   },
   {
