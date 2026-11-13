@@ -3,12 +3,12 @@
   {
    "date": "2026-11-13",
    "from": "2026-11-12",
-   "headline": "병원급 의료인력 적정기준 제도화 추진과 함께 정부의 필수진료과 전문의 채용 지원 및 의약품 접근성 개선 정책이 발표됨",
+   "headline": "병원급 보건의료인력 적정기준 제도화 추진 및 정부의 국립대병원 전문의 채용 지원 동향",
    "points": [
     {
      "section": "정책",
-     "title": "병원급 보건의료인력 적정기준 추진",
-     "body": "국회에서 간호법에 이어 병원급 전 의료인력으로 적정기준을 확대하는 의료법 개정안이 발의되었으며, 정부도 환자 중증도에 따른 적정 인력기준 마련을 추진 중임",
+     "title": "병원급 보건의료인력 적정기준 제도화 추진",
+     "body": "국회에서 환자 중증도에 따른 병원급 전 보건의료인력 적정기준 마련을 위한 의료법 개정안이 발의됨.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
@@ -16,16 +16,16 @@
     },
     {
      "section": "정책",
-     "title": "국립대병원 전문의 채용 예산 편성",
-     "body": "정부가 지역 국립대병원 필수진료과 전문의 채용 지원 예산을 편성했으나 실제 인력 확보의 실효성에 대한 지적이 제기됨",
+     "title": "국립대병원 전문의 채용 지원",
+     "body": "정부가 지역 국립대병원 필수진료과 전문의 채용 지원 예산을 편성했으나 실제 인력 확보 실효성에 대한 지적이 제기됨.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348"
      ]
     },
     {
      "section": "정책",
-     "title": "의약품 접근성 및 정보보호 강화",
-     "body": "군부대와 공항 등에서 안전상비의약품 취급을 확대하는 약사법 시행령 개정이 예고되었으며, 보건복지부는 의료기관 정보보호 강화를 위한 협의체를 구성하기로 함",
+     "title": "의약품 접근성 개선 및 보안 강화",
+     "body": "복지부가 군부대 및 공항 등의 의약품 접근성 개선을 추진하고, 의료기관 정보보호 강화를 위한 민관 협의체를 구성함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492521&tag=&nPage=1",
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1"
@@ -33,23 +33,21 @@
     }
    ],
    "implications": [
-    "병원급 의료인력 적정기준 제도화 움직임에 따른 원내 인력 배치 현황 점검",
-    "정부의 지역 국립대병원 전문의 채용 지원 정책 연계 방안 검토",
-    "의료기관 정보보호 강화 기조에 따른 원내 보안 체계 점검"
+    "병원급 보건의료인력 적정기준 제도화 움직임에 따른 선제적 인력 운영 방안 검토",
+    "지역 국립대병원 전문의 채용 지원 정책 연계 방안 및 필수진료과 인력 수급 동향 모니터링"
    ],
-   "count": 7,
+   "count": 6,
    "picks": 2,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-13 08:57",
-   "sig": "3:dl7gcz",
+   "generatedAt": "2026-11-13 09:05",
+   "sig": "3:dx0kb9",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492521&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942503",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492525&tag=&nPage=1"
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1"
    ]
   },
   {
