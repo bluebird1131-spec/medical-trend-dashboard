@@ -21084,6 +21084,62 @@
    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
    "자료수집",
    ""
+  ],
+  [
+   "2026-11-13",
+   "데일리메디",
+   "건보 ﻿일산병원, 로봇수술 누적 3000례",
+   "필요",
+   "로봇수술/첨단장비",
+   "[필요-로봇수술 3000례] 국민건강보험 일산병원이 로봇수술 누적 3000례를 달성함.",
+   "국민건강보험 일산병원",
+   "경기",
+   "2026-11-13",
+   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942562",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-13",
+   "청년의사",
+   "삼성서울병원, 글로벌 의료 AI 기업 '하이디'와 협력",
+   "필요",
+   "AI·디지털헬스",
+   "[필요-의료AI 도입] 삼성서울병원이 글로벌 AI 기업 하이디와 협력해 음성-텍스트 변환 AI 기술 도입을 추진함.",
+   "삼성서울병원",
+   "서울",
+   "2026-11-13",
+   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044540",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-13",
+   "청년의사",
+   "점검 때만 보험 가입' 편법 막는다…구급차 보험관리 강화 법안 발의",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-법안발의] 구급차 정기점검 때만 보험에 가입하는 편법을 막기 위한 보험관리 강화 법안이 발의됨.",
+   "국회",
+   "전국",
+   "2026-11-13",
+   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044542",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-13",
+   "청년의사",
+   "지역·필수의료 예산 대폭 늘렸지만…국회는 ‘실효성’ 지적",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-예산심사] 정부가 지역 및 필수의료 예산을 대폭 늘린 가운데 국회 심사에서 실효성과 집행 가능성이 쟁점이 됨.",
+   "국회",
+   "전국",
+   "2026-11-13",
+   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044534",
+   "자료수집",
+   ""
   ]
  ],
  "thumbs": {
@@ -21901,7 +21957,11 @@
   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171768": "https://pds.medicaltimes.com/Thumnail/20261111/1794362680.png",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942503": "https://dailymedi.com/data/news_cont/2611/thumb-d20261111_1889198402_cgaFQoTK_ae492a3a1ffe382aee5c57ef2ef89bb34da3ff57_800x403.png",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044503_3048475_320_v150.jpg",
-  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528": "https://www.dailymedi.com/data/news_file/sns/3660002597_U1vCepHj_2736f631c6dea39e5b17f4603af4c3835e8786f3.png"
+  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528": "https://www.dailymedi.com/data/news_file/sns/3660002597_U1vCepHj_2736f631c6dea39e5b17f4603af4c3835e8786f3.png",
+  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942562": "https://www.dailymedi.com/data/news_cont/2611/thumb-d20261113_1889198402_b97ARG0Q_b916a554f2210c53be2e9c547fefd9e7efd7a29d_800x467.png",
+  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044540": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044540_3048515_5215_v150.jpg",
+  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044542": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044542_3048518_515_v150.jpg",
+  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044534": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044534_3048509_316_v150.jpg"
  },
- "fetchedAt": "2026-11-13 08:58"
+ "fetchedAt": "2026-11-13 13:37"
 }
