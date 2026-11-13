@@ -21140,6 +21140,48 @@
    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044534",
    "자료수집",
    ""
+  ],
+  [
+   "2026-11-14",
+   "보건복지부(보도자료)",
+   "AI 기반 의료데이터 표준화로 기관 간 정보 연계·활용 확대",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-데이터표준화] 보건복지부가 분당서울대병원에서 성과교류회를 열고 AI 기반 의료데이터 표준화 자동화 소프트웨어와 표준통합운영체계 시제품을 공개함.",
+   "보건복지부",
+   "전국",
+   "2026-11-13",
+   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492533&tag=&nPage=1",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-14",
+   "데일리메디",
+   "경국의대 교육병원 의료진 ‘주택 제공’ 추진",
+   "필요",
+   "병원경영/전략",
+   "[필요-의료인력지원] 안동시가 국립 경국대 의대 교육병원 인력의 정착을 위해 도보 거리에 임대주택 약 300세대를 포함한 메디컬 라이프 타운 조성을 검토 중임.",
+   "안동시",
+   "경북",
+   "2026-11-13",
+   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942587",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-14",
+   "데일리메디",
+   "지방의료원 필수의료 인건비 등 ‘2256억 증액’",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-예산증액] 국회 보건복지위원회가 지방의료원 필수의료 인건비 등을 포함한 2027년도 복지부 예산을 순증 의결함.",
+   "국회 보건복지위원회",
+   "전국",
+   "2026-11-13",
+   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942573",
+   "자료수집",
+   ""
   ]
  ],
  "thumbs": {
@@ -21961,7 +22003,9 @@
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942562": "https://www.dailymedi.com/data/news_cont/2611/thumb-d20261113_1889198402_b97ARG0Q_b916a554f2210c53be2e9c547fefd9e7efd7a29d_800x467.png",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044540": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044540_3048515_5215_v150.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044542": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044542_3048518_515_v150.jpg",
-  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044534": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044534_3048509_316_v150.jpg"
+  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044534": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044534_3048509_316_v150.jpg",
+  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942587": "https://www.dailymedi.com/data/news_file/sns/3666876112_gCOVJhRy_67e0ff7621623b4b5447701533fa25b45c630ef8.png",
+  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942573": "https://www.dailymedi.com/data/news_file/sns/thumb-3076535723_IHtazWUj_47fbcac4f49b5bc22ee14ea964d71f0cc47e305b_800x400.png"
  },
- "fetchedAt": "2026-11-13 13:37"
+ "fetchedAt": "2026-11-14 06:40"
 }
