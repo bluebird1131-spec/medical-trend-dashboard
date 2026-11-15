@@ -3,45 +3,35 @@
   {
    "date": "2026-11-16",
    "from": "2026-11-15",
-   "headline": "정부의 의료행위 재분류 추진 및 의료급여 미지급 대응과 국가검진 개편 동향",
+   "headline": "의료급여 진료비 미지급금 확보 협의 및 국가검진 X-ray 대상 연령 상향 개편 추진",
    "points": [
     {
      "section": "정책",
-     "title": "의료행위 재분류 추진단 12월 가동",
-     "body": "보건복지부가 의료행위 보상체계 개선을 목적으로 건정심 산하 '의료행위 재평가 및 재분류 추진단'을 구성하여 12월부터 가동할 계획임.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044570"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "의료급여 진료비 미지급 해소 예산 협의",
-     "body": "보건복지부가 올해 약 9000억원 규모에 이르는 병·의원 의료급여 진료비 지급 지연을 최소화하기 위해 예비비 등 추가 예산 확보를 협의 중임.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942576"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "국가검진 흉부 X-ray 대상 연령 상향 추진",
-     "body": "보건복지부가 2027년부터 국가건강검진 흉부 X-ray 검사 대상 연령을 기존 20세 이상에서 50세 이상으로 상향 조정하는 개편안을 추진할 예정임.",
+     "title": "국가검진 흉부 X-ray 대상 50세 이상 축소 추진",
+     "body": "보건복지부가 2027년부터 국가건강검진 흉부 X-ray 검사 대상 연령을 기존 20세 이상에서 50세 이상으로 상향하는 개편안을 추진할 예정임.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942451"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료급여 미지급금 9000억원 예비비 확보 협의",
+     "body": "보건복지부가 약 9000억원에 달하는 병·의원 의료급여 진료비 지급 지연을 최소화하기 위해 예비비 등 추가 예산 확보를 협의 중임.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942576"
      ]
     }
    ],
    "implications": [
-    "12월 가동 예정인 의료행위 재평가 및 재분류 추진단의 수가 보상체계 개편 방향 모니터링",
-    "2027년 국가건강검진 흉부 X-ray 대상 연령 상향에 따른 건강증진센터 수검 인원 및 검진 수익 영향 분석",
-    "의료급여 진료비 지급 지연 장기화에 대비한 원내 미수금 추이 점검 및 단기 자금 유동성 영향 검토"
+    "2027년 국가건강검진 흉부 X-ray 대상 연령 상향 추진에 따른 병원 건강증진센터 검진 수요 변화 및 수익 영향 검토",
+    "정부의 의료급여 진료비 예비비 확보 동향 모니터링을 통한 미수금 회수 지연 대비 자금 운용 점검"
    ],
-   "count": 3,
+   "count": 2,
    "picks": 0,
    "model": "gemini-flash-latest",
-   "generatedAt": "2026-11-16 06:45",
-   "sig": "3:un7cgp",
+   "generatedAt": "2026-11-16 08:47",
+   "sig": "3:yt2zei",
    "links": [
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044570",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942576",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942451"
    ]
