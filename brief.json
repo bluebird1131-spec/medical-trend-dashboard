@@ -3,14 +3,22 @@
   {
    "date": "2026-11-17",
    "from": "2026-11-16",
-   "headline": "전남대병원 신축 단축 및 정부의 의료기관 정보보호·비대면진료 제도화 추진 동향",
+   "headline": "의료급여 진료비 부족 사태와 함께 새병원 신축 단축 및 디지털병리 등 정책·현장 동향이 이어짐",
    "points": [
     {
      "section": "병원",
-     "title": "전남대병원 새병원 2031년 완공",
-     "body": "전남대병원이 미래형 뉴 스마트병원 신축 사업 방식을 일괄 신축으로 전환하여 완공 시점을 5년 단축함.",
+     "title": "전남대병원 새병원 완공 단축",
+     "body": "전남대병원이 미래형 뉴 스마트병원 신축 사업 방식을 일괄 신축으로 전환하여 완공 시점을 2031년으로 5년 단축함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942639"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료급여 진료비 9000억 부족",
+     "body": "의료급여 수급자 증가로 올해 지급해야 할 진료비 9000억원이 부족해 정부가 추가 재원 확보에 나섬.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576"
      ]
     },
     {
@@ -23,23 +31,7 @@
     },
     {
      "section": "정책",
-     "title": "의료급여 진료비 부족 재원 확보",
-     "body": "의료급여 수급자 증가로 부족해진 올해 진료비 9000억원에 대해 정부가 추가 재원 확보에 나섬.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "12월 비대면진료 제도화 대비",
-     "body": "복지부가 12월 비대면진료 제도화를 앞두고 플랫폼별 중개 실적과 특정 의료기관 쏠림 현상을 파악할 예정임.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "디지털병리 연구용역비 증액",
+     "title": "디지털병리 연구비 증액 의결",
      "body": "국회 복지위가 디지털병리 국가 지원체계 설계를 위한 연구용역비 10억 원 증액안을 의결함.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171856"
@@ -47,19 +39,19 @@
     }
    ],
    "implications": [
-    "의료기관 평가·인증 제도의 정보보호 항목 추가 검토에 따른 원내 보안 체계 점검",
-    "국회 디지털병리 연구용역비 증액에 발맞춘 디지털병리 시스템 도입 및 국가 지원 사업 연계 검토",
-    "12월 비대면진료 제도화에 따른 플랫폼 중개 실적 및 원내 대응 방안 마련"
+    "의료급여 진료비 부족 등 정부 예산 변동에 따른 재정 리스크 모니터링 강화",
+    "의료기관 평가인증의 정보보호 지표 신설 검토에 따른 원내 보안 체계 점검",
+    "디지털병리 국가 지원체계 설계 연구용역 추진에 맞춘 디지털병리 인프라 도입 검토"
    ],
    "count": 5,
-   "picks": 0,
+   "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-17 06:37",
-   "sig": "3:er8jdk",
+   "generatedAt": "2026-11-17 08:32",
+   "sig": "3:1k5kkpk",
    "links": [
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942639",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171856"
    ]
