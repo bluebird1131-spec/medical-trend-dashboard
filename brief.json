@@ -3,30 +3,30 @@
   {
    "date": "2026-11-17",
    "from": "2026-11-16",
-   "headline": "의료기관 인증 내 정보보호 지표 반영 검토와 의료급여 진료비 부족 등 주요 보건의료 동향",
+   "headline": "의료기관 인증 정보보호 지표 반영 및 의료급여 부족 재원 대응 등 보건의료 동향",
    "points": [
     {
      "section": "병원",
-     "title": "의료기관 인증 정보보호 지표",
-     "body": "정부가 의료기관 지정·평가·인증 제도에 정보보호 지표를 반영하기 위한 검토와 의료계 협의체를 운영함.",
+     "title": "의료기관 인증 정보보호 추가",
+     "body": "정부가 의료기관 지정·평가·인증 제도에 정보보호 지표 반영을 검토하고 의료계 협의체를 운영함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624"
      ]
     },
     {
-     "section": "병원",
-     "title": "발달장애인 응급의료 연계",
-     "body": "복지부 장관이 서울대병원 발달장애인 거점병원을 방문하여 응급의료 연계 방안을 논의함.",
+     "section": "정책",
+     "title": "의료급여 진료비 재원 부족",
+     "body": "의료급여 수급자 증가로 올해 지급해야 할 진료비 9000억원이 부족해 정부가 추가 재원 확보에 나섬.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492560&tag=&nPage=1"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576"
      ]
     },
     {
      "section": "정책",
-     "title": "의료급여 진료비 부족 대응",
-     "body": "의료급여 수급자 증가로 올해 지급할 진료비 9000억원이 부족해져 정부가 추가 재원 확보를 추진함.",
+     "title": "발달장애인 응급의료 연계",
+     "body": "복지부 장관이 서울대병원 발달장애인 거점병원을 방문해 응급의료 연계 방안을 논의함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492560&tag=&nPage=1"
      ]
     },
     {
@@ -39,14 +39,14 @@
     }
    ],
    "implications": [
-    "의료기관 평가·인증 제도의 정보보호 지표 추가 검토에 따른 원내 정보보호 체계 정비",
-    "발달장애인 거점병원 사례를 참고한 지역 내 응급의료 연계 방안 검토",
-    "12월 비대면진료 제도화 및 쏠림 현상 파악에 따른 대응 전략 마련"
+    "의료기관 평가·인증 제도의 정보보호 지표 신설 검토에 따른 원내 보안 체계 사전 점검",
+    "의료급여 진료비 부족 사태와 관련하여 향후 정부의 재원 배분 및 수가 정책 변화 모니터링",
+    "12월 비대면진료 제도화를 앞둔 플랫폼별 중개 실적 및 쏠림 현상 추이 파악"
    ],
    "count": 4,
    "picks": 2,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-17 08:38",
+   "generatedAt": "2026-11-17 08:52",
    "sig": "3:12fvaze",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
