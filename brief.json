@@ -3,57 +3,56 @@
   {
    "date": "2026-11-17",
    "from": "2026-11-16",
-   "headline": "의료급여 진료비 부족 사태와 함께 새병원 신축 단축 및 디지털병리 등 정책·현장 동향이 이어짐",
+   "headline": "의료기관 인증 내 정보보호 지표 반영 검토와 의료급여 진료비 부족 등 주요 보건의료 동향",
    "points": [
     {
      "section": "병원",
-     "title": "전남대병원 새병원 완공 단축",
-     "body": "전남대병원이 미래형 뉴 스마트병원 신축 사업 방식을 일괄 신축으로 전환하여 완공 시점을 2031년으로 5년 단축함.",
+     "title": "의료기관 인증 정보보호 지표",
+     "body": "정부가 의료기관 지정·평가·인증 제도에 정보보호 지표를 반영하기 위한 검토와 의료계 협의체를 운영함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942639"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "발달장애인 응급의료 연계",
+     "body": "복지부 장관이 서울대병원 발달장애인 거점병원을 방문하여 응급의료 연계 방안을 논의함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492560&tag=&nPage=1"
      ]
     },
     {
      "section": "정책",
-     "title": "의료급여 진료비 9000억 부족",
-     "body": "의료급여 수급자 증가로 올해 지급해야 할 진료비 9000억원이 부족해 정부가 추가 재원 확보에 나섬.",
+     "title": "의료급여 진료비 부족 대응",
+     "body": "의료급여 수급자 증가로 올해 지급할 진료비 9000억원이 부족해져 정부가 추가 재원 확보를 추진함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576"
      ]
     },
     {
      "section": "정책",
-     "title": "의료기관 인증에 정보보호 추가",
-     "body": "정부가 의료기관 지정·평가·인증 제도에 정보보호 지표 반영을 검토하고 의료계 협의체를 운영함.",
+     "title": "비대면진료 제도화 대비",
+     "body": "복지부가 12월 비대면진료 제도화를 앞두고 플랫폼별 중개 실적과 특정 의료기관 쏠림 현상을 파악할 예정임.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "디지털병리 연구비 증액 의결",
-     "body": "국회 복지위가 디지털병리 국가 지원체계 설계를 위한 연구용역비 10억 원 증액안을 의결함.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171856"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861"
      ]
     }
    ],
    "implications": [
-    "의료급여 진료비 부족 등 정부 예산 변동에 따른 재정 리스크 모니터링 강화",
-    "의료기관 평가인증의 정보보호 지표 신설 검토에 따른 원내 보안 체계 점검",
-    "디지털병리 국가 지원체계 설계 연구용역 추진에 맞춘 디지털병리 인프라 도입 검토"
+    "의료기관 평가·인증 제도의 정보보호 지표 추가 검토에 따른 원내 정보보호 체계 정비",
+    "발달장애인 거점병원 사례를 참고한 지역 내 응급의료 연계 방안 검토",
+    "12월 비대면진료 제도화 및 쏠림 현상 파악에 따른 대응 전략 마련"
    ],
-   "count": 5,
-   "picks": 1,
+   "count": 4,
+   "picks": 2,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-17 08:32",
-   "sig": "3:1k5kkpk",
+   "generatedAt": "2026-11-17 08:38",
+   "sig": "3:12fvaze",
    "links": [
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942639",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171856"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492560&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861"
    ]
   },
   {

@@ -21144,20 +21144,6 @@
   [
    "2026-11-16",
    "데일리메디",
-   "전남대병원, 새병원 완공 5년 단축 ‘2031년’",
-   "필요",
-   "특성화센터/인프라",
-   "[필요-신축계획변경] 전남대병원이 미래형 뉴 스마트병원 신축 사업 방식을 일괄 신축으로 전환하여 완공 시점을 2031년으로 앞당김.",
-   "전남대병원",
-   "광주",
-   "2026-11-16",
-   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942639",
-   "자료수집",
-   ""
-  ],
-  [
-   "2026-11-16",
-   "데일리메디",
    "의료기관 평가·인증 항목에 ‘정보보호’ 추가",
    "필요",
    "병원경영/전략",
@@ -21185,6 +21171,20 @@
   ],
   [
    "2026-11-17",
+   "보건복지부(보도자료)",
+   "정은경 장관, 발달장애인 의료현장 찾아 응급의료 연계 방안 논의",
+   "필요",
+   "기타",
+   "[불필요-장관현장방문] 복지부 장관이 서울대병원 발달장애인 거점병원을 방문해 응급의료 연계 방안을 논의함.",
+   "서울대학교병원",
+   "서울",
+   "2026-11-16",
+   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492560&tag=&nPage=1",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-17",
    "메디컬타임즈",
    "반토막난 비대면진료 플랫폼..월평균 진료량은 23만건 '껑충'",
    "필요",
@@ -21194,20 +21194,6 @@
    "전국",
    "2026-11-16",
    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861",
-   "자료수집",
-   ""
-  ],
-  [
-   "2026-11-17",
-   "메디컬타임즈",
-   "디지털병리 연구 증액에 산업계 환영 \"국가 지원 가시화\"",
-   "필요",
-   "국가정책/수가제도",
-   "[필요-예산증액] 국회 복지위가 디지털병리 국가 지원체계 설계를 위한 연구용역비 10억 원 증액안을 의결함.",
-   "보건복지부",
-   "전국",
-   "2026-11-16",
-   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171856",
    "자료수집",
    ""
   ]
@@ -22032,11 +22018,9 @@
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942573": "https://www.dailymedi.com/data/news_file/sns/thumb-3076535723_IHtazWUj_47fbcac4f49b5bc22ee14ea964d71f0cc47e305b_800x400.png",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942576": "https://www.dailymedi.com/data/news_cont/2611/thumb-d20261113_3698635698_FRI3WAma_a47f350d7d8f106cf3b922afb44cfbdb3da5d76f_800x589.jpg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942451": "https://www.dailymedi.com/data/news_cont/2611/d20261110_3743896202_4Y9V0cXR_60a767ac317f5fa93caede04363837083ec8e40d.jpeg",
-  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942639": "https://www.dailymedi.com/data/news_file/sns/thumb-3076535723_1aVGCMOt_d11733ee39ea31e3f06faf5b9ddcbabe6c5cd69f_800x400.png",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624": "https://www.dailymedi.com/data/news_cont/2611/thumb-d20261116_3698635698_UaSHe2NW_0fcbc79989f23e2105d581214e63b2dcc5ae9035_800x589.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044576_3048565_3524_v150.jpg",
-  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861": "https://pds.medicaltimes.com/Thumnail/20261116/1794797490.png",
-  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171856": "https://pds.medicaltimes.com/Thumnail/20261116/1794794226.jpg"
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861": "https://pds.medicaltimes.com/Thumnail/20261116/1794797490.png"
  },
- "fetchedAt": "2026-11-17 06:36"
+ "fetchedAt": "2026-11-17 08:35"
 }
