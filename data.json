@@ -21196,6 +21196,48 @@
    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861",
    "자료수집",
    ""
+  ],
+  [
+   "2026-11-17",
+   "보건복지부(공지)",
+   "가명정보 결합전문기관 재지정 사실 공고",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-결합전문기관재지정] 보건복지부가 국민건강보험공단과 건강보험심사평가원을 가명정보 결합전문기관으로 재지정함.",
+   "보건복지부",
+   "전국",
+   "2026-11-17",
+   "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492568&tag=&nPage=1",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-17",
+   "메디컬타임즈",
+   "용인세브란스병원 암센터 착공…120여 병상 추가 확보",
+   "필요",
+   "특성화센터/인프라",
+   "[필요-암센터신축착공] 용인세브란스병원이 암센터를 착공하고 120여 개의 입원 병상을 추가 확보할 예정임.",
+   "용인세브란스병원",
+   "경기",
+   "2026-11-17",
+   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171889",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-17",
+   "데일리메디",
+   "일산백병원, 20병상 응급중환자실 개소·운영",
+   "필요",
+   "특성화센터/인프라",
+   "[필요-응급중환자실개소] 일산백병원이 20병상 규모의 응급중환자실을 개소하고 외과계 중환자실 4병상을 추가 확충해 운영에 들어감.",
+   "일산백병원",
+   "경기",
+   "2026-11-17",
+   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942649",
+   "자료수집",
+   ""
   ]
  ],
  "thumbs": {
@@ -22020,7 +22062,9 @@
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942451": "https://www.dailymedi.com/data/news_cont/2611/d20261110_3743896202_4Y9V0cXR_60a767ac317f5fa93caede04363837083ec8e40d.jpeg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624": "https://www.dailymedi.com/data/news_cont/2611/thumb-d20261116_3698635698_UaSHe2NW_0fcbc79989f23e2105d581214e63b2dcc5ae9035_800x589.jpg",
   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044576_3048565_3524_v150.jpg",
-  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861": "https://pds.medicaltimes.com/Thumnail/20261116/1794797490.png"
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861": "https://pds.medicaltimes.com/Thumnail/20261116/1794797490.png",
+  "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171889": "https://pds.medicaltimes.com/Thumnail/20261117/1794873999.jpg",
+  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942649": "https://www.dailymedi.com/data/news_file/sns/thumb-3555379610_wGWyn71R_7ff64ef3c1ebfeba9742e5c76f3b6a53c26a115f_800x400.jpg"
  },
- "fetchedAt": "2026-11-17 08:35"
+ "fetchedAt": "2026-11-17 13:54"
 }

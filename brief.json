@@ -3,11 +3,11 @@
   {
    "date": "2026-11-17",
    "from": "2026-11-16",
-   "headline": "의료기관 인증 정보보호 지표 반영 및 의료급여 부족 재원 대응 등 보건의료 동향",
+   "headline": "의료기관 평가 정보보호 지표 반영 검토와 의료급여 진료비 부족 대응이 본격화됨.",
    "points": [
     {
      "section": "병원",
-     "title": "의료기관 인증 정보보호 추가",
+     "title": "의료기관 평가 정보보호 추가",
      "body": "정부가 의료기관 지정·평가·인증 제도에 정보보호 지표 반영을 검토하고 의료계 협의체를 운영함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624"
@@ -15,7 +15,7 @@
     },
     {
      "section": "정책",
-     "title": "의료급여 진료비 재원 부족",
+     "title": "의료급여 진료비 9천억 부족",
      "body": "의료급여 수급자 증가로 올해 지급해야 할 진료비 9000억원이 부족해 정부가 추가 재원 확보에 나섬.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576"
@@ -23,34 +23,36 @@
     },
     {
      "section": "정책",
-     "title": "발달장애인 응급의료 연계",
-     "body": "복지부 장관이 서울대병원 발달장애인 거점병원을 방문해 응급의료 연계 방안을 논의함.",
+     "title": "가명정보 결합전문기관 재지정",
+     "body": "보건복지부가 국민건강보험공단과 건강보험심사평가원을 가명정보 결합전문기관으로 재지정함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492560&tag=&nPage=1"
+      "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492568&tag=&nPage=1"
      ]
     },
     {
-     "section": "정책",
-     "title": "비대면진료 제도화 대비",
-     "body": "복지부가 12월 비대면진료 제도화를 앞두고 플랫폼별 중개 실적과 특정 의료기관 쏠림 현상을 파악할 예정임.",
+     "section": "병원",
+     "title": "용인세브란스 암센터 착공",
+     "body": "용인세브란스병원이 암센터를 착공하고 120여 개의 입원 병상을 추가 확보할 예정임.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171889"
      ]
     }
    ],
    "implications": [
-    "의료기관 평가·인증 제도의 정보보호 지표 신설 검토에 따른 원내 보안 체계 사전 점검",
-    "의료급여 진료비 부족 사태와 관련하여 향후 정부의 재원 배분 및 수가 정책 변화 모니터링",
-    "12월 비대면진료 제도화를 앞둔 플랫폼별 중개 실적 및 쏠림 현상 추이 파악"
+    "의료기관 평가·인증 제도의 정보보호 지표 추가 검토에 따른 원내 보안 체계 점검",
+    "의료급여 진료비 재원 부족 상황에 대비한 원내 청구 및 미수금 관리 강화"
    ],
-   "count": 4,
+   "count": 7,
    "picks": 2,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-17 08:52",
-   "sig": "3:12fvaze",
+   "generatedAt": "2026-11-17 13:58",
+   "sig": "3:dny61r",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
+    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492568&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171889",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942649",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492560&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861"
    ]
@@ -2468,14 +2470,15 @@
  "monthly": {
   "date": "2026-11-17",
   "from": "2026-10-19",
-  "headline": "정부가 지역 및 필수의료 중심의 수가 구조 혁신과 보건의료발전계획 수립에 총력을 기울이고 있다.",
+  "headline": "정부가 지역 및 필수의료 중심의 건강보험 수가 구조 혁신과 보건의료발전계획 수립을 본격 추진하고 있다",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 수가 및 재정 선제 투입",
-    "body": "정부가 내년 1월부터 건강보험 재정 2조 7000억원을 지역 및 필수의료 인프라에 우선 투입하고 수가 구조 개편을 본격 추진함.",
+    "title": "지역·필수의료 중심 수가 구조 개편",
+    "body": "정부가 내년 1월부터 건강보험 재정 2조7000억원을 지역 및 필수의료 인프라에 우선 투입하고, 검체검사와 CT·MRI 수가를 조정하여 보상 체계를 혁신할 계획이다.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
@@ -2483,74 +2486,71 @@
    },
    {
     "section": "정책",
-    "title": "검체검사 수가 인하 및 위수탁 개편",
-    "body": "내년 1월부터 검체검사 수가 인하와 함께 건보공단이 위수탁기관에 직접 정산하는 구분 지급 체계가 도입됨.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "비대면진료 제도화 및 기준 확정",
-    "body": "오는 12월 비대면진료 정식 시행을 앞두고 6개월 내 대면진료 의료기관 원칙과 처방일수 제한을 담은 시행규칙이 입법예고됨.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
-     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492497&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942382",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942121"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "희귀·중증난치질환 본인부담 완화",
-    "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942230"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "제1차 보건의료발전계획 추진",
-    "body": "정부가 의료전달체계 개편과 필수의료 강화를 담은 제1차 보건의료발전계획을 12월 확정 목표로 추진함.",
+    "title": "제1차 보건의료발전계획 수립",
+    "body": "보건복지부가 의료전달체계 개편과 필수의료 강화를 담은 제1차 보건의료발전계획을 12월 확정 목표로 추진하고 있다.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
     ]
    },
    {
-    "section": "병원",
-    "title": "로봇수술 및 첨단 장비 도입 확대",
-    "body": "울산대병원이 부울경 최초로 대장항문 로봇수술 1000례를 달성하는 등 주요 병원의 첨단 수술 성과가 이어짐.",
+    "section": "정책",
+    "title": "의료 인력 및 취약지 지원 추진",
+    "body": "병원급 전 보건의료인력 적정기준 제도화 추진과 함께 국립대병원 전문의 채용 및 지방의료원 필수의료 인건비 지원 예산이 논의되고 있다.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171573"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942573"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "비대면진료 제도화 및 세부 기준",
+    "body": "정부가 12월 비대면진료 정식 시행을 앞두고 6개월 내 대면진료 의료기관 원칙과 초진 처방일수 7일 제한 등을 담은 시행규칙을 입법예고하였다.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043716",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492497&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043754"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 및 데이터 활용 제도 정비",
+    "body": "정부가 의료 AI 제품별 임상 지표 연계 기관 단위 보상 방안을 구체화하고, 보건의료데이터 활용 가이드라인 개정 및 원격중환자실 네트워크를 확대하고 있다.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492341&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
     ]
    },
    {
     "section": "병원",
-    "title": "AI 기반 의료 스마트 시스템 도입",
-    "body": "삼성서울병원과 아주대병원 등이 AI 챗봇과 병상 모니터링 시스템을 도입하며 스마트 병원 전환을 가속화함.",
+    "title": "첨단 로봇수술 성과 및 확산",
+    "body": "울산대병원 로봇수술센터가 부울경 대장항문외과 분과 최초로 로봇수술 1000례를 달성하는 등 주요 병원의 첨단 수술 역량이 확대되고 있다.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044422",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "스마트 병상 모니터링 도입",
+    "body": "아주대병원 등이 AI 기반 병상 모니터링 시스템을 도입하며 병원 현장의 디지털 헬스케어 적용이 확산되고 있다.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 수가 집중 투입 및 구조 개편 기조에 맞춰 중증·응급 중심 진료 체계와 연계한 원가 관리 및 대응 전략을 수립해야 함.",
-   "검체검사 수가 인하 및 직접 정산 체계 도입에 대비해 원내 검사 프로세스와 재정 손실 요인을 사전에 점검해야 함.",
-   "정부의 의료 AI 및 디지털 헬스케어 지원 정책에 발맞추어 원격중환자실 및 AI 진단·모니터링 시스템 도입을 적극 검토해야 함."
+   "정부의 지역·필수의료 수가 구조 개편과 재정 투입 방향에 맞춰 중증·응급 중심의 원내 진료 프로세스 및 수가 청구 전략을 선제적으로 정비함",
+   "병원급 의료인력 적정기준 제도화와 간호인력 지원 정책에 대응하여 원내 인력 운영 효율화 및 적정 배치 방안을 마련함",
+   "정부의 AI 수가 및 원격중환자실 확대 기조에 발맞추어 원내 AI 기반 모니터링 및 진료 지원 시스템 도입을 검토함"
   ],
   "count": 300,
   "picks": 37,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-17 10:03",
-  "sig": "3:n3cmpv"
+  "generatedAt": "2026-11-17 14:00",
+  "sig": "3:g545ne"
  }
 }
