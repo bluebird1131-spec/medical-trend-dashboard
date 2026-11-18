@@ -3,51 +3,66 @@
   {
    "date": "2026-11-18",
    "from": "2026-11-17",
-   "headline": "의료기관 정보보호 인증 검토와 의료급여 진료비 부족 등 주요 보건의료 동향",
+   "headline": "보건의료인 국시 감독 강화 및 의료기관 정보보호 인증 검토와 함께 만성질환관리료 적용 등 제도 개편이 추진됨.",
    "points": [
     {
      "section": "병원",
-     "title": "정보보호 인증 지표 반영 검토",
-     "body": "정부가 의료기관 지정 평가 인증 제도에 정보보호 지표를 반영하기 위한 협의체를 운영함.",
+     "title": "의료기관 인증 정보보호 지표 검토",
+     "body": "보건복지부가 의료기관 지정·평가·인증 제도에 정보보호 지표 반영을 검토하고 의료계 협의체를 운영함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624"
      ]
     },
     {
      "section": "정책",
-     "title": "의료급여 진료비 재원 확보 추진",
-     "body": "의료급여 수급자 증가로 발생한 진료비 부족분에 대해 정부가 추가 재원 확보에 나섬.",
+     "title": "보건의료인 국시 감독 방식 강화",
+     "body": "한국보건의료인국가시험원이 AI 스마트안경 등 첨단기기 부정행위 방지를 위해 국가시험 감독 방식을 강화함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료급여 진료비 부족 및 재원 확보",
+     "body": "의료급여 수급자 증가로 올해 지급해야 할 진료비 9000억원이 부족해 정부가 추가 재원 확보에 나섬.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "COPD·천식 만성질환관리료 적용",
+     "body": "정부가 COPD 환자 등을 대상으로 내년부터 만성질환관리료를 적용하고 상급종합병원 심층진찰을 수가 보상함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942673"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "검체검사 위·수탁 제도 개편 추진",
+     "body": "건강보험심사평가원이 내년 1월 검체검사 위·수탁 제도 개편에 따라 검사료 분리 청구와 수탁기관 직접지급 시행 절차를 공개함.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171904"
      ]
     }
    ],
    "implications": [
-    "의료기관 평가 인증 제도의 정보보호 지표 신설에 대비한 원내 보안 체계 점검",
-    "의료급여 진료비 청구 및 재원 관리 모니터링 강화"
+    "의료기관 평가인증 시 정보보호 관련 지표 반영 가능성에 대비한 원내 보안 체계 점검",
+    "내년부터 시행되는 COPD 및 천식 만성질환관리료 적용과 상급종합병원 심층진찰 수가 보상에 따른 청구 시스템 정비",
+    "내년 1월 예정된 검체검사 위·수탁 제도 개편(분리 청구 및 직접지급)에 대한 원내 관련 부서 사전 준비"
    ],
-   "count": 16,
-   "picks": 2,
+   "count": 6,
+   "picks": 3,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-18 06:45",
-   "sig": "3:mhgzfn",
+   "generatedAt": "2026-11-18 09:10",
+   "sig": "3:1qlfy3h",
    "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492568&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171889",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942682",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942673",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942669",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942662",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942649",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492572&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492571&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171904",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942701",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942693",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942697",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695"
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171904"
    ]
   },
   {
