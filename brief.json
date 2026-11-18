@@ -3,65 +3,49 @@
   {
    "date": "2026-11-19",
    "from": "2026-11-18",
-   "headline": "인하대병원의 생성형 AI 전사 도입과 보건복지부의 의료 AI 보상체계 개편 및 국시원 부정행위 방지 강화 추진",
+   "headline": "보건복지부의 의료 AI 투자 확대 및 성과 중심 건보 보상 개편 추진과 국시원의 AI 부정행위 방지 대책 강화 동향",
    "points": [
     {
-     "section": "병원",
-     "title": "인하대병원 AI 전사 도입",
-     "body": "인하대병원이 국내 상급종합병원 최초로 구글의 클라우드 기반 협업 플랫폼과 생성형 AI 제미나이 프로를 전사적으로 도입함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044653",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942744"
-     ]
-    },
-    {
      "section": "정책",
-     "title": "의료 AI 성과 보상체계 개편",
-     "body": "보건복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하는 방안을 검토함.",
-     "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942733"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "국시원 시험 감독 강화",
-     "body": "한국보건의료인국가시험원이 AI 스마트안경 등 첨단기기 부정행위 방지를 위해 국가시험 감독 방식을 강화함.",
+     "title": "국시원, AI 부정행위 방지 감독 강화",
+     "body": "한국보건의료인국가시험원이 AI 스마트안경 등 첨단기기를 이용한 부정행위 방지를 위해 국가시험 감독 방식을 강화함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695"
      ]
     },
     {
      "section": "정책",
-     "title": "의료 AX 민간 투자 연계",
-     "body": "보건복지부가 지역·필수·공공 의료 AX 가속화를 위해 의료 현장과 헬스케어 AI 민간 투자를 연결하는 펀드 운용사 및 서울대병원과의 업무협약을 추진함.",
+     "title": "지역·필수·공공 의료 AX 가속화",
+     "body": "보건복지부가 지역·필수·공공 의료 인공지능 전환을 위해 의료 현장과 헬스케어 AI 민간 투자를 연결하는 펀드 운용사 및 서울대병원과의 업무협약을 추진함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료 AI 보상체계 성과 중심 개편",
+     "body": "보건복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하는 방안을 검토하며 민간 투자 연계를 추진함.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
      ]
     }
    ],
    "implications": [
-    "인하대병원의 구글 생성형 AI 전사 도입 사례를 참고하여 원내 업무 효율화 및 디지털 전환 방안 검토",
-    "보건복지부의 의료 AI 환자 성과 중심 보상체계 개편에 대비하여 원내 도입 AI 솔루션의 임상 성과 입증 체계 준비",
-    "국시원의 AI 스마트안경 등 첨단기기 부정행위 방지 대책을 원내 각종 자격 시험 및 채용 시험 관리 프로세스에 반영"
+    "보건복지부의 환자 편익 및 임상 성과 중심 의료 AI 건보 보상체계 개편에 대비한 원내 AI 솔루션 성과 지표 관리 체계 구축 검토",
+    "지역·필수·공공 의료 AX 가속화 기조와 민간 투자 연계 흐름에 발맞춘 원내 디지털 헬스케어 사업 기획 및 협력 방안 검토",
+    "한국보건의료인국가시험원의 첨단기기 부정행위 방지 감독 강화 추세에 따른 원내 각종 보건의료인 시험 및 평가 관리 기준 정비 검토"
    ],
-   "count": 10,
+   "count": 4,
    "picks": 1,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-19 06:43",
-   "sig": "3:r3afr0",
+   "generatedAt": "2026-11-19 08:35",
+   "sig": "3:1pxq3ww",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942710",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044653",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492580&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492579&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942744",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942733"
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
    ]
   },
   {
