@@ -2367,32 +2367,14 @@
   }
  ],
  "weekly": {
-  "date": "2026-11-18",
-  "from": "2026-11-12",
-  "headline": "이번 주는 국가시험 보안 강화, 의료기관 정보보호 및 보건의료인력 기준 제도화 등 정부의 엄격한 규제와 필수·지역의료 지원 정책이 중심임",
+  "date": "2026-11-19",
+  "from": "2026-11-13",
+  "headline": "정부가 보건의료인력 기준 제도화와 의료급여 재원 확보 등 필수·공공의료 정책을 다각도로 추진함.",
   "points": [
    {
     "section": "정책",
-    "title": "보건의료인력 적정기준 추진",
-    "body": "국회에서 환자 중증도에 따른 병원급 전 보건의료인력 적정기준 제도화를 추진함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료기관 정보보호 인증 검토",
-    "body": "정부가 의료기관 지정·평가·인증 제도에 정보보호 지표를 반영하기 위한 민관 협의체를 운영함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료급여 진료비 부족 대응",
-    "body": "의료급여 수급자 증가로 발생한 진료비 부족분에 대해 정부가 추가 재원 확보를 협의 중임.",
+    "title": "의료급여 진료비 부족분 재원 확보 추진",
+    "body": "의료급여 수급자 증가로 발생한 올해 미지급 진료비 9000억원에 대해 정부가 추가 재원 확보에 나섬.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942576"
@@ -2400,15 +2382,31 @@
    },
    {
     "section": "정책",
-    "title": "보건의료인 국시 감독 강화",
-    "body": "한국보건의료인국가시험원이 AI 스마트안경 등 첨단기기를 이용한 부정행위 방지를 위해 국가시험 감독 방식을 강화함.",
+    "title": "병원급 보건의료인력 적정기준 추진",
+    "body": "간호법에 이어 병원급 전체 보건의료인력으로 적정기준 적용을 확대하는 의료법 개정안이 발의됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "보건의료인력 국가시험 감독 강화",
+    "body": "한국보건의료인국가시험원이 AI 스마트안경 등 첨단기기를 활용한 부정행위를 방지하기 위해 국가시험 감독 방식을 강화함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695"
     ]
    },
    {
+    "section": "정책",
+    "title": "의료기관 평가에 정보보호 지표 검토",
+    "body": "보건복지부가 의료기관 지정·평가·인증 제도에 정보보호 지표를 반영하기 위해 의료계 협의체를 운영함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624"
+    ]
+   },
+   {
     "section": "병원",
-    "title": "상급종합병원 생성형 AI 도입",
+    "title": "인하대병원, 생성형 AI 전사 도입",
     "body": "인하대병원이 국내 상급종합병원 최초로 구글 클라우드 기반 협업 플랫폼과 생성형 AI를 전사적으로 도입함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044653"
@@ -2416,15 +2414,15 @@
    }
   ],
   "implications": [
-   "의료기관 평가·인증 제도의 정보보호 지표 신설 검토에 대비하여 원내 보안 시스템 및 대응 체계를 점검함",
-   "병원급 보건의료인력 적정기준 제도화 추진에 발맞추어 환자 중증도별 인력 배치 현황을 사전에 분석함",
-   "정부의 지역·필수·공공 의료 인공지능(AX) 민간 투자 연결 지원 사업과 연계 방안을 검토함"
+   "의료기관 평가·인증 제도의 정보보호 지표 신설 검토에 대비하여 원내 보안 시스템과 관련 규정 점검",
+   "병원급 보건의료인력 적정기준 제도화 추진 흐름에 맞춰 향후 인력 배치 기준 변화 모니터링",
+   "보건의료인 국가시험의 AI 부정행위 방지 감독 강화를 참고하여 원내 각종 자격·채용 시험 관리 체계 정비"
   ],
-  "count": 21,
+  "count": 17,
   "picks": 4,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-18 13:38",
-  "sig": "3:170kkor"
+  "generatedAt": "2026-11-19 00:15",
+  "sig": "3:1ilq52f"
  },
  "monthly": {
   "date": "2026-11-18",
