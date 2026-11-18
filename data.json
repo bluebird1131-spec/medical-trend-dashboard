@@ -21266,6 +21266,48 @@
    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
    "자료수집",
    ""
+  ],
+  [
+   "2026-11-18",
+   "보건복지부(보도자료)",
+   "지역·필수·공공 의료 AX 가속화 위해 의료 현장-헬스케어 AI 민간 투자 연결 지원",
+   "필요",
+   "AI·디지털헬스",
+   "[필요-정부정책추진] 보건복지부가 지역·필수·공공 의료 AX 가속화를 위해 의료 현장과 헬스케어 AI 민간 투자를 연결하는 펀드 운용사 및 서울대병원과의 업무협약을 추진함.",
+   "보건복지부",
+   "전국",
+   "2026-11-18",
+   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-18",
+   "데일리메디",
+   "건보공단, 사용량 연동 약가인하 ‘年 2회’ 정례화",
+   "필요",
+   "국가정책/수가제도",
+   "[필요-수가개편] 건보공단이 내년 약가 재평가 대상 품목의 공급 관리 협상을 진행하고 사용량-약가 연동 약가인하를 연간 2회 정례화함.",
+   "국민건강보험공단",
+   "강원",
+   "2026-11-18",
+   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942710",
+   "자료수집",
+   ""
+  ],
+  [
+   "2026-11-18",
+   "청년의사",
+   "인하대병원, 구글 AI로 업무 방식 바꾼다…상급종합병원 최초 전사 도입",
+   "필요",
+   "AI·디지털헬스",
+   "[필요-AI전사도입] 인하대병원이 국내 상급종합병원 최초로 구글의 클라우드 기반 협업 플랫폼과 생성형 AI를 전사적으로 도입함.",
+   "인하대병원",
+   "인천",
+   "2026-11-18",
+   "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044653",
+   "자료수집",
+   ""
   ]
  ],
  "thumbs": {
@@ -22095,7 +22137,9 @@
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942673": "https://www.dailymedi.com/data/news_cont/2611/thumb-d20261116_3698635698_0A4iGzBP_c39a1f117af425eb075e017c2cee4422c36c7a98_800x589.jpg",
   "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942662": "https://www.dailymedi.com/data/news_file/sns/thumb-990878898_BbKCteh9_f1c94e2632e6fd95f97981e6b255fe0ee11513a0_800x400.jpg",
   "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171904": "https://pds.medicaltimes.com/Thumnail/20261117/1794884378.png",
-  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695": "https://www.dailymedi.com/data/news_file/sns/thumb-990878898_RPcG2edZ_a848bc7c7481f10e4028eadd750b606fb04fc8da_800x400.jpg"
+  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695": "https://www.dailymedi.com/data/news_file/sns/thumb-990878898_RPcG2edZ_a848bc7c7481f10e4028eadd750b606fb04fc8da_800x400.jpg",
+  "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942710": "https://www.dailymedi.com/data/news_cont/2611/thumb-d20261117_982929850_FYxoAWuT_730bfd3bd1e3218f832335da4f40e4f44d8dab08_800x600.png",
+  "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044653": "https://cdn.docdocdoc.co.kr/news/thumbnail/202611/3044653_3048652_454_v150.jpg"
  },
- "fetchedAt": "2026-11-18 09:00"
+ "fetchedAt": "2026-11-18 13:32"
 }
