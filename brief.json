@@ -2349,86 +2349,91 @@
   "sig": "3:889ldo"
  },
  "monthly": {
-  "date": "2026-11-19",
-  "from": "2026-10-21",
-  "headline": "정부가 지역 및 필수의료 중심의 수가 구조 혁신과 건강보험 보상 체계 개편을 본격 추진하고 있다.",
+  "date": "2026-11-20",
+  "from": "2026-10-22",
+  "headline": "정부가 지역·필수의료 수가 보상 확대와 건강보험 재정 혁신을 본격 추진하며, 의료 AI 도입과 공공병원 진료 역량 강화를 가속화하고 있다.",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 중심 수가 구조 개편",
-    "body": "정부가 내년 1월부터 건강보험 재정 2조 7000억 원을 지역 및 필수의료 인프라에 우선 투입하고 검체·CT·MRI 수가를 조정하는 구조 혁신 방안을 의결함.",
+    "title": "지역·필수의료 수가 보상 및 재정 투입 확대",
+    "body": "정부는 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억 원을 우선 투입하고 고위험 분만 분야 지역우대 수가 등을 적용하기로 의결했다.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 성과 기반 보상 체계 추진",
-    "body": "정부가 단순한 AI 도입 방식을 넘어 환자 편익과 임상 성과 및 인프라 중심으로 의료 인공지능(AI) 수가 보상 체계를 개편하는 방안을 검토 및 구체화함.",
+    "title": "검체검사 수가 인하 및 위·수탁 지급체계 개편",
+    "body": "보건복지부는 702개 검체검사 항목의 수가를 인하하는 동시에 건보공단이 위탁과 수탁기관에 검사료를 직접 지급하는 구분 지급 방식을 내년 1월부터 도입하기로 했다.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079"
     ]
    },
    {
     "section": "정책",
-    "title": "공공병원 중심 지역완결망 및 지원",
-    "body": "한국보건사회연구원이 제1차 보건의료발전계획 연구보고서에서 공공병원 별도 수가체계 도입을 제안했으며, 정부도 국립대병원을 지역 중증 및 필수의료 거점으로 육성하는 체계 개편을 추진함.",
+    "title": "제1차 보건의료발전계획 수립 및 공공병원 개편",
+    "body": "복지부가 의료전달체계 개편과 필수의료 강화를 담은 제1차 보건의료발전계획 수립을 추진하는 가운데, 공공병원 별도 수가체계 전환과 진료역량 강화 전략이 제안됐다.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
     ]
    },
    {
     "section": "정책",
-    "title": "보건의료인력 적정기준 및 수련 제도화",
-    "body": "국회에서 병원급 전체 보건의료인력의 적정기준 제도화 법안이 발의되었고 환자 중증도에 따른 인력 배치 기준 마련이 추진됨.",
+    "title": "의료 AI 수가체계 개편 및 인프라 연계 지원",
+    "body": "정부는 단순 도입 방식에서 벗어나 의료 AI 제품별 임상 지표와 환자 성과를 평가하여 의료기관에 보상하는 기관 단위 수가 개편안을 구체화하고 투자를 연계하고 있다.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
     ]
    },
    {
     "section": "정책",
-    "title": "응급·필수의료 안전망 및 수사 가이드라인",
-    "body": "복지부와 경찰청이 필수의료 분야 의료사고 수사 시 의료기관과 사전 협의하고 진료 공간 외에서 우선 압수수색을 진행하는 수사 가이드라인을 마련함.",
+    "title": "비대면진료 제도화 및 관리 지침 정비",
+    "body": "복지부가 오는 12월 비대면진료 정식 시행을 앞두고 처방 제한 의약품과 비대면진료 비율 산정 및 보고 기준을 담은 실시 및 관리 고시 제정안을 행정예고했다.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492497&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942382"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 대장항문 로봇수술 1000례",
-    "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
+    "title": "첨단 로봇수술 성과 및 인프라 확장",
+    "body": "울산대병원이 부울경 지역 대장항문외과 최초로 로봇수술 1000례를 달성했으며, 주요 대학병원들을 중심으로 로봇수술 도입과 특성화 센터 운영 확대가 이어지고 있다.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800"
     ]
    },
    {
     "section": "병원",
-    "title": "주요 병원 AI 스마트 병원 및 협력 확대",
-    "body": "삼성서울병원이 카카오톡 AI 챗봇을 도입하고 아주대병원이 AI 병상 모니터링 시스템을 확대하는 등 일선 병원의 디지털 전환이 가속화됨.",
+    "title": "스마트 병상 모니터링 및 AI 진료 도입",
+    "body": "국내 주요 상급종합병원들이 AI 기반 병상 모니터링 시스템과 의무기록 자동화 솔루션을 도입하며 스마트 병원 전환과 진료 효율화에 주력하고 있다.",
     "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044422",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 수가 2조 7000억 원 선투입 및 수가 구조 혁신에 맞춰 원내 중증·응급 진료 체계와 연계된 수가 청구 및 보상 전략을 선제적으로 재정비해야 함.",
-   "정부가 추진하는 의료 AI 성과 기반 보상 체계와 원격중환자실 네트워크 확대 기조에 발맞춰 원내 AI 기반 임상 진단 및 환자 모니터링 인프라를 확충해야 함.",
-   "병원급 의료인력 적정기준 제도화 및 수련 환경 변화에 대응하여 간호인력 및 필수의료 전문인력의 효율적 운영과 보호수련 시간 확보 방안을 마련해야 함."
+   "내년 1월부터 시행되는 지역·필수의료 수가 2조 7000억 원 투입과 중증 수술 수가 인상에 발맞춰 원내 진료체계와 중증 중심 수술·시술 역량을 재정비해야 함.",
+   "검체검사 수가 인하 및 위·수탁 직접 정산체계 개편에 대비하여 원내 검사 프로세스와 청구·정산 시스템의 사전 점검이 필요함.",
+   "정부의 의료 AI 성과 기반 보상 정책과 원격중환자실 네트워크 확대 기조에 맞춰 원내 AI 진단 및 모니터링 솔루션 도입을 적극 검토해야 함.",
+   "울산 지역 필수의료 특별회계 신설 및 책임의료기관 역할 요구에 대응해 지자체 및 지역 의료기관과의 협력 체계를 공고히 해야 함."
   ],
-  "count": 280,
+  "count": 264,
   "picks": 28,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-19 13:39",
-  "sig": "3:1d7sw23"
+  "generatedAt": "2026-11-20 00:35",
+  "sig": "3:hocbrf"
  }
 }
