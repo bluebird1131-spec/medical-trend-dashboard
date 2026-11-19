@@ -3,80 +3,49 @@
   {
    "date": "2026-11-20",
    "from": "2026-11-19",
-   "headline": "서울아산병원 EMR 인증 획득과 권역심뇌혈관센터 재지정 및 의료급여 예산 해소 추진 등 보건의료 동향",
+   "headline": "권역심뇌혈관센터 재지정 및 의료급여 예비비 투입 등 정부 정책 발표와 원내 인력 운영 노사 갈등 동향",
    "points": [
     {
      "section": "병원",
-     "title": "서울아산병원 EMR 2주기 인증 획득",
-     "body": "서울아산병원이 자체 개발한 전자의무기록시스템 AMIS 3.0이 한국보건의료정보원의 2주기 인증 심사에서 제품 및 사용인증을 획득함.",
+     "title": "울산대병원 노조 최소 인력 운영 반발",
+     "body": "울산대병원 노조가 흑자 경영 상황에서의 최소 인력 기반 인력 통합 운영 강행에 반발하며 결의대회를 개최함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942770"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
      ]
     },
     {
      "section": "정책",
-     "title": "권역심뇌혈관질환센터 14곳 재지정",
-     "body": "보건복지부가 전국 14개 권역심뇌혈관질환센터를 재지정하고 강원대, 제주대, 안동병원 3개소를 조건부로 지정하여 매년 실적을 재점검함.",
+     "title": "권역심뇌혈관센터 14곳 재지정 평가 발표",
+     "body": "보건복지부가 전국 14개 권역심뇌혈관질환센터 재지정을 심의·의결하고, 강원대·제주대·안동병원 3개소는 조건부 재지정하여 매년 별도 점검·관리 예정.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942776"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
      ]
     },
     {
      "section": "정책",
-     "title": "의료급여 진료비 미지급금 해소 추진",
-     "body": "정부가 연말 의료급여 예산 부족에 따른 미지급금 문제를 정부 예비비 투입과 내년도 예산 대폭 증액을 통해 연내 및 내년 초에 해소할 계획임.",
+     "title": "의료급여 미지급금 해소용 예비비 투입",
+     "body": "연말 의료급여 예산 부족에 따른 미지급금 우려를 정부 예비비와 내년도 예산 투입을 통해 연내 및 내년 초에 해소할 계획임.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942761",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044671"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "지역의사제 첫 수능 및 지원센터 공고",
-     "body": "2027학년도 의대 증원분이 전부 지역의사선발 전형에 배정되어 수능이 치러진 가운데 복지부가 중앙지역의사지원센터 수탁기관 지정을 공고함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942760",
-      "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492600&tag=&nPage=1"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "병원별 표준 사망률 공개 방침 확정",
-     "body": "건강보험심사평가원 의료평가조정위원회가 논란이 큰 병원별 표준 사망률의 의료기관 단위 공개를 확정함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942771"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962"
      ]
     }
    ],
    "implications": [
-    "서울아산병원의 EMR 2주기 인증 획득 사례를 참고하여 본원의 전자의무기록시스템 품질 관리 및 인증 체계 점검을 검토함.",
-    "권역심뇌혈관질환센터 재지정 평가 결과에 따른 조건부 지정 및 매년 별도 점검 제도를 참고하여 심뇌혈관질환 관련 운영 실적 관리를 강화함.",
-    "심평원의 병원별 표준 사망률 공개 확정에 따라 관련 임상 지표와 사망률 관리 체계를 사전에 분석하고 대응함."
+    "권역심뇌혈관질환센터 정부 평가 기준 대비 원내 필수 운영 지표 상시 관리 및 조건부 지정 요건 선제적 점검",
+    "정부 예비비 및 차년도 예산 투입 일정에 맞춘 원내 의료급여 미지급금 정산 현황 및 자금 운용 점검",
+    "인력 통합 운영 추진 시 발생 가능한 노사 갈등 완화를 위한 근무 현장 의견 수렴 및 인력 운용 방안 재검토"
    ],
-   "count": 15,
+   "count": 4,
    "picks": 0,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-20 06:53",
-   "sig": "3:qk9zpm",
+   "model": "gemini-flash-latest",
+   "generatedAt": "2026-11-20 08:55",
+   "sig": "3:zpfla5",
    "links": [
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492590&tag=&nPage=1",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942770",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942761",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942760",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044698",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044677",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044671",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492593&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492600&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942776",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942771"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
    ]
   },
   {
