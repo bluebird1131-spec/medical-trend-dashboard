@@ -2170,7 +2170,7 @@
  "weekly": {
   "date": "2026-11-23",
   "from": "2026-11-17",
-  "headline": "보건복지부가 AI 부정행위 방지 및 의료 AI 성과 중심 수가 개편 등 필수·디지털 의료 정책을 본격 추진함",
+  "headline": "보건복지부의 AI·수가체계 개편과 국가시험 감독 강화 등 이번 주 정부 보건의료 정책 동향",
   "points": [
    {
     "section": "정책",
@@ -2182,9 +2182,10 @@
    },
    {
     "section": "정책",
-    "title": "의료 AI 성과 중심 보상 개편",
-    "body": "보건복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하는 방안을 검토함.",
+    "title": "의료 AI 투자 및 수가 개편",
+    "body": "보건복지부가 지역·필수·공공 의료 AX 가속화를 위한 민간 투자 연결을 추진하고, 의료 AI 보상체계를 환자 성과 중심으로 개편할 예정임.",
     "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
     ]
@@ -2200,15 +2201,24 @@
    {
     "section": "정책",
     "title": "권역심뇌혈관센터 재지정",
-    "body": "보건복지부가 전국 14개 권역심뇌혈관질환센터를 재지정하고 강원대·제주대·안동병원 3곳을 조건부 재지정함.",
+    "body": "보건복지부가 전국 14개 권역심뇌혈관질환센터를 재지정하고 3개소를 조건부 재지정함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
     ]
    },
    {
+    "section": "정책",
+    "title": "만성질환관리료 및 검체검사 개편",
+    "body": "정부가 내년부터 COPD 환자 등을 대상으로 만성질환관리료를 적용하고 심평원이 검체검사 위·수탁 제도 개편 절차를 공개함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942673",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171904"
+    ]
+   },
+   {
     "section": "병원",
-    "title": "뇌동맥류 진료 패스트트랙",
+    "title": "타 병원 뇌동맥류 패스트트랙",
     "body": "계명대 동산병원이 뇌동맥류 의심 환자의 진단부터 치료까지 신속하게 연계하는 패스트트랙을 도입함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044760"
@@ -2216,98 +2226,103 @@
    }
   ],
   "implications": [
-   "상급종합병원 제7기 지정평가에 대비하여 장기기증 면담 연계율 지표 관리 체계 정비",
-   "의료 AI 보상 체계 개편 방향에 맞춰 임상 성과 중심의 AI 기술 활용 및 실증 연계 방안 검토"
+   "보건복지부의 의료 AI 투자 확대 및 임상 성과 중심 보상체계 개편에 발맞추어 원내 AI 도입 및 실증 사업 연계 검토",
+   "상급종합병원 제7기 지정평가 지표인 기증 면담 연계율 반영 검토에 대응하여 장기·인체조직 기증 활성화 프로세스 점검",
+   "내년부터 시행되는 COPD 등 만성질환관리료 적용 및 검체검사 위·수탁 제도 개편에 따른 원내 청구 및 수가 보상 준비"
   ],
-  "count": 15,
+  "count": 14,
   "picks": 1,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-23 00:12",
-  "sig": "3:1rq38vv"
+  "generatedAt": "2026-11-23 09:13",
+  "sig": "3:1yfo8ol"
  },
  "monthly": {
   "date": "2026-11-23",
   "from": "2026-10-25",
-  "headline": "정부가 지역 및 필수의료 중심의 건강보험 수가 구조 혁신과 의료 인프라 강화를 본격 추진하고 있습니다.",
+  "headline": "정부는 지역·필수의료 수가 구조 혁신과 AI·디지털 기반 의료체계 개편을 본격 추진하고 있음",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 선제 투입",
-    "body": "정부가 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억 원을 선제 투입하고 분만·신생아 분야 지역우대 수가를 본격 적용하기로 의결함.",
+    "title": "지역·필수의료 중심 수가 구조 개편",
+    "body": "정부는 내년 1월부터 지역·필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억 원을 우선 투입하고, 검체검사 및 CT·MRI 수가를 조정하여 필수의료 보상을 강화함.",
     "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
     ]
    },
    {
     "section": "정책",
-    "title": "수가 구조 혁신 및 조정",
-    "body": "의원급 초진진찰료 인상 및 1670개 중증 수술·시술 수가를 20% 인상하는 한편, 검체검사 및 CT·MRI 수가 조정을 통해 지출 감축을 병행함.",
+    "title": "보건의료발전계획 및 공공의료 체계 정비",
+    "body": "보건복지부는 26년 만에 제1차 보건의료발전계획 수립과 제3차 공공보건의료 기본계획 추진을 통해 공공병원 별도 수가체계와 진료역량 강화를 모색함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 수가 체계 개편",
-    "body": "단순 도입 방식에서 벗어나 환자 편익과 제품별 임상 지표 및 인프라 달성 여부를 평가하여 의료기관에 보상하는 기관 단위 수가 개편안이 추진됨.",
+    "title": "의료 인력 적정기준 및 처우 개선",
+    "body": "병원급 전체 보건의료인력 적정기준 제도화 추진과 함께 고위험 분만 분야 인력의 번아웃 해소를 위한 PA 등 인건비 지원 필요성이 제기됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 수가 및 디지털 전환 가속화",
+    "body": "복지부는 단순 기술 도입을 넘어 환자 편익과 임상 성과에 기반한 의료 AI 보상체계를 개편하고, 원격중환자실 네트워크를 서울 권역 등으로 확대함.",
+    "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
     ]
    },
    {
     "section": "정책",
-    "title": "보건의료인력 기준 강화",
-    "body": "환자 중증도에 따른 병원급 적정 인력기준 마련을 추진하고, 의료기관 내 전문의와 일반의 표시를 의무화하는 법안이 발의됨.",
+    "title": "의료기관 정보보호 및 안전관리 강화",
+    "body": "정부는 의료기관 지정·평가·인증 제도에 정보보호 지표 반영을 검토하고, 응급실 수사 가이드라인 마련과 국가시험 감독 방식 강화를 추진함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942390",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "원격중환자실 및 공공의료",
-    "body": "거점병원과 지역 협력병원을 연계하는 원격중환자실 협력 네트워크 사업이 서울 권역 등으로 확대되며 AI 기반 환자 악화 예측 시스템이 도입됨.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275"
     ]
    },
    {
     "section": "병원",
-    "title": "특성화센터 신설 및 개소",
-    "body": "세브란스병원이 서울 서북권 권역응급의료센터로 신규 지정되어 개소식을 가졌으며, 강동경희대병원은 우주의학센터를 설립하여 미래의료 연구에 착수함.",
+    "title": "스마트 병원 및 AI 시스템 도입",
+    "body": "삼성서울병원 등이 카카오톡 AI 챗봇을 활용한 환자 관리 시스템을 도입하는 등 병원 현장의 디지털 전환이 가속화되고 있음.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942200",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "스마트 시스템 고도화",
-    "body": "은평성모병원이 국내 의료기관 최초로 RFID 기술을 활용한 가납 의료기기 통합관리시스템을 구축하였고, 삼성서울병원은 항암환자 관리를 위한 AI 챗봇 서비스를 도입함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171694",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "특성화센터 인프라 및 패스트트랙 구축",
+    "body": "부산대병원이 글로벌 허브 메디컬센터 건립 전략을 공유하고 계명대 동산병원이 뇌동맥류 진료 패스트트랙을 도입하는 등 중증 치료 역량을 확충함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044760",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171870"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 중심 수가 구조 개편과 예산 투입 방향에 발맞추어 중증·응급 중심의 원내 진료체계 및 인프라 정비를 서둘러야 함.",
-   "의료 AI 도입 및 성과 중심 보상 체계에 대비하여 원내 임상 데이터 활용 기반을 다지고 AI 기반 환자 모니터링 및 예측 시스템 도입을 검토해야 함.",
-   "병원급 전 보건의료인력 적정기준 제도화 움직임과 정보보호 지표 반영 검토에 선제적으로 대응하여 원내 인력 관리 및 보안 체계를 강화해야 함."
+   "내년 1월부터 시행되는 검체검사 수가 인하 및 지역·필수의료 수가 구조 개편에 발맞추어 병원 수익 구조와 진료 실적에 미치는 영향을 분석하고 대응 전략을 수립해야 함.",
+   "정부의 의료 AI 보상체계 개편과 원격중환자실 확대 기조에 따라 원내 AI 진단 솔루션과 중환자 모니터링 시스템의 임상 성과를 체계적으로 관리할 필요가 있음.",
+   "의료기관 평가·인증 제도의 정보보호 지표 반영 검토에 대응하여 원내 사이버 보안 인력과 시스템을 점검해야 함."
   ],
-  "count": 207,
+  "count": 206,
   "picks": 26,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-23 00:16",
-  "sig": "3:1gnbud8"
+  "generatedAt": "2026-11-23 09:13",
+  "sig": "3:mdjfjq"
  }
 }
