@@ -2128,22 +2128,32 @@
   }
  ],
  "weekly": {
-  "date": "2026-11-23",
-  "from": "2026-11-17",
-  "headline": "보건의료인 국시 감독 강화와 의료 AI 및 필수·지역의료 수가·수가제도 개편 추진",
+  "date": "2026-11-24",
+  "from": "2026-11-18",
+  "headline": "이번 주 정부는 CAR-T 등 신약 급여 확대와 함께 의료 AI 성과 중심 보상 및 필수·공공의료 체계 정비에 집중함.",
   "points": [
    {
     "section": "정책",
-    "title": "국시 AI 부정행위 방지 감독 강화",
-    "body": "한국보건의료인국가시험원이 AI 스마트안경 등 첨단기기를 이용한 부정행위를 방지하기 위해 국가시험 감독 방식을 강화함.",
+    "title": "국산 CAR-T 및 당뇨 기기 급여",
+    "body": "국산 첫 CAR-T 치료제 림카토가 28억 원의 건강보험 급여로 12월 등재되며, 중증 당뇨병 환자용 인슐린자동주입기 요양비 보험급여 기준 개정안이 발령됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 수가·투자 및 AX 추진",
-    "body": "보건복지부가 단순 도입 방식에서 환자 성과 중심으로 의료 인공지능 보상체계 개편을 검토하고 민간 투자를 연계함.",
+    "title": "권역심뇌혈관센터 재지정 평가",
+    "body": "보건복지부가 전국 14개 권역심뇌혈관질환센터 재지정 평가를 완료하고 3개소를 조건부 재지정하여 매년 별도 점검과 관리를 추진함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 보상체계 개편 및 투자",
+    "body": "보건복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하고 민간 투자 연계를 추진함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
@@ -2152,51 +2162,39 @@
    },
    {
     "section": "정책",
-    "title": "필수·지역의료 및 수가제도 개편",
-    "body": "복지부가 14개 권역심뇌혈관질환센터를 재지정하고 장기·인체조직 기증 인센티브 도입과 만성질환관리료 적용을 추진함.",
+    "title": "장기기증 인센티브 및 상급종합병원 지표",
+    "body": "복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상 적정화를 추진하고 제7기 상급종합병원 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942673"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "CAR-T 및 중증 당뇨 급여 확대",
-    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 받아 12월 등재되고 중증 당뇨병 환자 의료기기 요양비 보험급여 기준이 개정됨.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
     ]
    },
    {
     "section": "병원",
-    "title": "상반기 전공의 임용시험 시행",
-    "body": "보건복지부 수련환경평가위원회가 서울대 등 빅5 병원을 포함한 2027년도 상반기 전공의 임용시험 시행계획을 공지함.",
+    "title": "전공의 임용시험 시행계획 공지",
+    "body": "복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 노조 인력운영 반발",
-    "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원 운영을 강행한다고 반발하며 결의대회를 개최함.",
+    "title": "울산대병원 노조 인력 운영 반발",
+    "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원을 운영하는 인력 통합 운영을 강행한다고 반발하며 결의대회를 개최함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
     ]
    }
   ],
   "implications": [
-   "정부의 의료 AI 보상체계 개편 및 민간 투자 연계 기조에 맞춰 원내 AI 진단·치료 솔루션의 임상 성과 입증 및 실증 사업 참여 준비",
-   "상급종합병원 제7기 지정평가 지표에 반영 검토 중인 장기·인체조직 기증 면담 연계율 지표에 대한 원내 프로세스 정비",
-   "권역심뇌혈관질환센터 재지정 및 필수·지역의료 정책 강화 흐름에 발맞춘 대응 체계 점검"
+   "제7기 상급종합병원 지정평가에 장기기증 면담 연계율 지표 반영 검토에 대비하여 원내 장기·인체조직 기증 활성화 프로세스를 점검함.",
+   "정부의 의료 AI 보상체계가 환자 성과 중심으로 개편됨에 따라 원내 도입된 AI 솔루션의 임상 성과를 체계적으로 관리함.",
+   "권역심뇌혈관질환센터의 사후 관리 강화 기조에 맞추어 센터 운영 실태와 질 관리 체계를 재정비함."
   ],
-  "count": 16,
-  "picks": 1,
+  "count": 12,
+  "picks": 0,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-23 16:01",
-  "sig": "3:4nc7ht"
+  "generatedAt": "2026-11-24 00:37",
+  "sig": "3:1ohdno4"
  },
  "monthly": {
   "date": "2026-11-23",
