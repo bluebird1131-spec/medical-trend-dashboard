@@ -2181,27 +2181,27 @@
   "sig": "3:1ohdno4"
  },
  "monthly": {
-  "date": "2026-11-23",
-  "from": "2026-10-25",
-  "headline": "정부가 지역 및 필수의료 중심의 수가 체계 혁신과 AI·디지털 기반 의료체계 개편을 본격화하고 있다.",
+  "date": "2026-11-24",
+  "from": "2026-10-26",
+  "headline": "정부가 지역 및 필수의료 중심의 건강보험 수가 구조 개편과 공공의료 강화를 본격 추진함",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 선제 투입 및 수가 구조 개편",
-    "body": "정부는 내년 1월부터 건강보험 재정 2조7000억원을 지역 및 필수의료 인프라에 선투입하고, 검체검사와 CT·MRI 수가를 조정하여 필수의료 보상을 강화하는 수가 구조 혁신을 추진함.",
+    "title": "지역·필수의료 수가 구조 개편 추진",
+    "body": "정부가 지역 및 필수의료 인프라 강화를 위해 연간 2조 7000억 원의 건강보험 재정을 선투입하고, 검체검사 및 CT·MRI 수가 조정을 통한 지출 감축과 중증 수술 수가 인상을 추진함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
     ]
    },
    {
     "section": "정책",
-    "title": "공공·지역완결형 의료체계 확립 추진",
-    "body": "제3차 공공보건의료 기본계획과 보건의료발전계획을 통해 국립대병원을 중증·필수의료 거점으로 육성하고, 공공병원 별도 수가체계 및 지역완결형 네트워크 구축을 추진함.",
+    "title": "보건의료발전계획 및 기본계획 수립",
+    "body": "보건복지부가 26년 만에 제1차 보건의료발전계획을 12월 확정 목표로 추진하며, 공공병원 별도 수가체계 전환과 제3차 공공보건의료 기본계획을 통해 진료 역량 강화를 도모함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942375",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
@@ -2210,69 +2210,67 @@
    },
    {
     "section": "정책",
-    "title": "의료 AI 수가 및 디지털 전환 제도화",
-    "body": "단순 기기 도입 방식을 넘어 환자 성과와 임상 지표를 연계한 의료 AI 기관 단위 보상체계를 구체화하고, 원격중환자실 네트워크를 서울 권역 등으로 확대함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "보건의료인력 적정기준 및 수련 체계 개편",
-    "body": "병원급 전체 보건의료인력의 적정기준 제도화를 추진하는 동시에, 2027년도 전공의 정원 배정 및 수련환경 개선 방안을 논의함.",
+    "title": "의료 인력 및 수련 제도 정비",
+    "body": "국회와 정부가 병원급 전체 보건의료인력 적정기준 제도화 및 전문의·일반의 표시 의무화를 추진하고, 전공의 정원 배정 및 수련환경 개선 방안을 논의함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942390",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171735",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171735"
     ]
    },
    {
     "section": "정책",
-    "title": "취약계층 의료 안전망 및 지원 강화",
-    "body": "희귀·중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 인하하고, 소아·응급 필수의약품 퇴장방지약 지정 및 의료급여 진료비 부족분에 대한 예비비 투입을 추진함.",
+    "title": "의료 AI 및 디지털 헬스케어 제도화",
+    "body": "정부가 의료 AI 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하고, 12월 비대면진료 제도화에 따른 고시 제정과 원격중환자실 네트워크를 확대함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171523"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492497&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "필수의료 안전망 및 환자안전 강화",
+    "body": "의료기관 평가·인증 항목에 정보보호 지표 반영을 검토하고, 필수의료 분야 의료사고 수사 가이드라인 마련과 국가지원 확대를 추진함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942214",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "주요 대형병원 진료역량 강화 및 인프라 확충",
-    "body": "부산대병원이 글로벌 허브 메디컬센터 건립 계획을 공유하고, 전남대병원은 새병원 통합동 건립을 추진하는 등 지역 상급종합병원의 인프라 고도화가 진행됨.",
+    "title": "주요 병원 특성화 및 인프라 확충",
+    "body": "부산대병원이 글로벌 허브 메디컬센터 건립 전략을 공유하고, 세브란스병원이 서울 서북권 권역응급의료센터로 신규 지정되어 운영에 돌입함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171870"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
     ]
    },
    {
     "section": "병원",
-    "title": "의료 현장 AI 및 스마트 시스템 도입 확산",
-    "body": "삼성서울병원이 AI 챗봇을 활용한 환자 관리 서비스를 도입하고, 아주대병원이 AI 기반 병상 모니터링 시스템을 확대 적용하는 등 스마트 병원 전환이 가속화됨.",
+    "title": "의료현장 AI 및 스마트 시스템 도입",
+    "body": "삼성서울병원이 항암환자 관리용 AI 챗봇을 도입하고, 아주대병원이 AI 기반 병상 모니터링 시스템을 확대 적용하는 등 스마트 병원 전환이 가속화됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 중심 수가 구조 개편과 2조 7000억 원 규모의 재정 투입 기조에 맞춰 중증·응급 진료 역량을 정비하고 관련 수가 보상 체계에 대비해야 함.",
-   "의료 AI 도입 시 단순 사용량을 넘어 환자 성과와 임상 지표를 반영하려는 정부 정책 방향에 발맞추어 원내 AI 솔루션의 임상적 유효성 검증 체계를 마련해야 함.",
-   "병원급 전 보건의료인력 적정기준 제도화 추진에 선제적으로 대응하여 원내 적정 인력 배치 및 관리 체계를 점검해야 함."
+   "정부의 지역·필수의료 수가 2조 7000억 원 선투입 및 중증 수술 수가 20% 인상 기조에 발맞춘 중증·필수진료 중심의 원내 수가 청구 및 진료 체계 정비",
+   "의료 AI 보상 체계가 임상 성과 중심으로 개편됨에 따라 원내 도입된 AI 솔루션의 실제 환자 기여도 및 임상 지표 성과 관리 체계 구축",
+   "의료기관 평가·인증 시 정보보호 지표 반영 검토에 대응하여 원내 사이버 보안 현황 점검 및 정보보호 인프라 강화",
+   "원격중환자실 네트워크 확대 및 AI 기반 모니터링 시스템 확산 흐름에 맞춘 중증환자 관리 프로세스 고도화 검토"
   ],
-  "count": 208,
+  "count": 201,
   "picks": 26,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-23 16:02",
-  "sig": "3:1fczd84"
+  "generatedAt": "2026-11-24 07:05",
+  "sig": "3:vya0io"
  }
 }
