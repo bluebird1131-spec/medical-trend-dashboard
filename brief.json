@@ -3,55 +3,37 @@
   {
    "date": "2026-11-24",
    "from": "2026-11-23",
-   "headline": "국산 첫 CAR-T 치료제 급여 등재와 2027년 상반기 전공의 임용 추진 등 보건의료 동향",
+   "headline": "국산 CAR-T 치료제 건강보험 급여 적용 및 인슐린자동주입기 지원 확대 추진",
    "points": [
     {
-     "section": "병원",
-     "title": "국산 첫 CAR-T 치료제 급여",
-     "body": "국산 첫 CAR-T 치료제인 림카토가 건강보험 급여를 적용받아 12월부터 등재될 예정.",
+     "section": "정책",
+     "title": "국산 CAR-T 급여 적용",
+     "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여 적용을 받아 12월부터 등재됨.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054"
      ]
     },
     {
      "section": "정책",
-     "title": "2027년 상반기 전공의 임용",
-     "body": "보건복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861"
-     ]
-    },
-    {
-     "section": "정책",
      "title": "인슐린자동주입기 급여 확대",
-     "body": "보건복지부가 중증 당뇨병 환자 의료기기 지원을 위해 요양비 보험급여 기준 개정안을 발령함.",
+     "body": "보건복지부가 중증 당뇨병 환자 의료기기 지원 확대를 위한 요양비 보험급여 기준 개정안을 발령함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "제4차 기초생활보장 계획 추진",
-     "body": "2030년까지 생계급여 선정기준 인상 및 중증장애인 가구 부양의무자 기준 폐지를 추진할 예정.",
-     "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492628&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "국산 첫 CAR-T 치료제 림카토의 12월 급여 등재에 따른 원내 처방 및 환자 적용 준비 검토",
-    "중증 당뇨병 환자 대상 지속주입형 및 디지털펜형 인슐린자동주입기 급여 기준 개정 사항 원내 진료과 공유"
+    "국산 CAR-T 치료제 림카토의 건강보험 급여 등재에 따른 원내 처방 및 환자 적용 준비 검토",
+    "복지부의 인슐린자동주입기 요양비 보험급여 기준 개정안에 따른 당뇨병 환자 지원 확대 사항 확인"
    ],
-   "count": 4,
+   "count": 2,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-24 07:37",
-   "sig": "3:1woiagh",
+   "generatedAt": "2026-11-24 08:55",
+   "sig": "3:1i9e81x",
    "links": [
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492628&tag=&nPage=1"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
    ]
   },
   {
