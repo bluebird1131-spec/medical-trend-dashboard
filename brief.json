@@ -1,6 +1,60 @@
 {
  "days": [
   {
+   "date": "2026-11-23",
+   "from": "2026-11-22",
+   "headline": "국산 CAR-T 치료제 급여화 및 2027년도 상반기 전공의 임용 추진",
+   "points": [
+    {
+     "section": "정책",
+     "title": "국산 첫 CAR-T 급여 적용",
+     "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 받아 12월부터 등재 예정",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "2027년 상반기 전공의 임용",
+     "body": "보건복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "인슐린자동주입기 급여 기준",
+     "body": "보건복지부가 중증 당뇨병 환자 의료기기 지원 확대를 위한 요양비 보험급여 기준 개정안을 발령함",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "요양병원 과징금 소송 판결",
+     "body": "법원이 간호인력 부풀리기 요양병원 과징금 부과 소송에서 공동개설자 합류 전 책임을 취소함",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942842"
+     ]
+    }
+   ],
+   "implications": [
+    "국산 CAR-T 치료제 림카토의 12월 급여 등재에 따른 원내 처방 및 환자 안내 체계 정비 검토",
+    "보건복지부 수련환경평가위원회의 2027년도 상반기 전공의 임용 일정에 따른 원내 채용 절차 준비"
+   ],
+   "count": 4,
+   "picks": 0,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-23 13:40",
+   "sig": "3:t800qv",
+   "links": [
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942842"
+   ]
+  },
+  {
    "date": "2026-11-22",
    "from": "2026-11-21",
    "headline": "의사면허 취소 처분 관련 법원 판결 확인 및 의료계 동향 분석",
@@ -2070,100 +2124,6 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941815",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941807",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941816"
-   ]
-  },
-  {
-   "date": "2026-10-24",
-   "from": "2026-10-23",
-   "headline": "울산대병원 부울경 첫 대장항문 로봇수술 1000례 달성 및 바이오헬스 규제 완화와 정책 동향",
-   "points": [
-    {
-     "section": "병원",
-     "title": "울산대병원 로봇수술 1000례",
-     "body": "울산대학교병원 로봇수술센터가 부울경 지역 대장항문외과 분과 최초로 로봇수술 1000례를 달성함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "타병원 첨단 수술·진료 도입",
-     "body": "분당차병원이 국내 최초 단일공 로봇 전립선 전적출술을 성공했고 유성선병원이 AI 기반 뇌졸중 판독 시스템을 도입함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941766"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "면역세포치료 규제 완화 추진",
-     "body": "정부가 자가면역세포 치료의 위험도를 낮추고 말기 대장암 환자 대상 면역세포치료 임상연구를 적합 의결하는 등 바이오헬스 규제를 완화함.",
-     "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "PA 제도 및 필수진료 과제",
-     "body": "진료지원업무 전담간호사의 기준이 마련됐으나 역할 중복 등 제도 정착 과제가 지적됐으며 시니어의사 지원사업은 예산 한계로 현장 수요를 채우지 못하고 있음.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043931",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043897"
-     ]
-    }
-   ],
-   "implications": [
-    "부울경 지역 최초로 대장항문 로봇수술 1000례를 달성한 성과를 원내외에 홍보하고 로봇수술 센터의 위상을 강화함.",
-    "정부의 면역세포치료 규제 완화 및 첨단재생의료 임상연구 적합 의결 기조에 맞춰 원내 관련 연구 및 신의료기술 도입 방안을 검토함."
-   ],
-   "count": 40,
-   "picks": 1,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-24 13:36",
-   "sig": "3:7z6b2h",
-   "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941739",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043931",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043921",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492310&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171331",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941803",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941800",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941799",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941759",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941766",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941781",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941776",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043891",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043896",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043900",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043897",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043895",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043893",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043881",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043843",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492315&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492314&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492316&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171352",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171353",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171350",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171346",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941824",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941820",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941775",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941738",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941809",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941793",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941782",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043913",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043914",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043907",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043904",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171330"
    ]
   }
  ],
