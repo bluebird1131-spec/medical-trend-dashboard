@@ -3,46 +3,55 @@
   {
    "date": "2026-11-24",
    "from": "2026-11-23",
-   "headline": "국산 CAR-T 급여 적용과 전공의 임용 추진 및 인슐린 주입기 급여 확대 동향",
+   "headline": "국산 첫 CAR-T 치료제 급여 등재와 2027년 상반기 전공의 임용 추진 등 보건의료 동향",
    "points": [
     {
-     "section": "정책",
-     "title": "국산 CAR-T 림카토 급여 등재",
-     "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 적용받아 12월부터 등재 예정",
+     "section": "병원",
+     "title": "국산 첫 CAR-T 치료제 급여",
+     "body": "국산 첫 CAR-T 치료제인 림카토가 건강보험 급여를 적용받아 12월부터 등재될 예정.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054"
      ]
     },
     {
      "section": "정책",
-     "title": "2027년 상반기 전공의 임용 추진",
-     "body": "보건복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함",
+     "title": "2027년 상반기 전공의 임용",
+     "body": "보건복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861"
      ]
     },
     {
      "section": "정책",
-     "title": "인슐린자동주입기 급여기준 개정",
-     "body": "중증 당뇨병 환자 의료기기 지원 확대를 위한 요양비 보험급여 기준 개정안을 발령함",
+     "title": "인슐린자동주입기 급여 확대",
+     "body": "보건복지부가 중증 당뇨병 환자 의료기기 지원을 위해 요양비 보험급여 기준 개정안을 발령함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "제4차 기초생활보장 계획 추진",
+     "body": "2030년까지 생계급여 선정기준 인상 및 중증장애인 가구 부양의무자 기준 폐지를 추진할 예정.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492628&tag=&nPage=1"
      ]
     }
    ],
    "implications": [
-    "국산 CAR-T 치료제 급여화에 따른 원내 처방 및 환자 적용 방안 검토",
-    "2027년 상반기 전공의 임용 일정에 맞춘 수련 환경 정비 추진"
+    "국산 첫 CAR-T 치료제 림카토의 12월 급여 등재에 따른 원내 처방 및 환자 적용 준비 검토",
+    "중증 당뇨병 환자 대상 지속주입형 및 디지털펜형 인슐린자동주입기 급여 기준 개정 사항 원내 진료과 공유"
    ],
-   "count": 3,
+   "count": 4,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-24 01:34",
-   "sig": "3:102td24",
+   "generatedAt": "2026-11-24 07:37",
+   "sig": "3:1woiagh",
    "links": [
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492628&tag=&nPage=1"
    ]
   },
   {
@@ -2114,30 +2123,12 @@
  "weekly": {
   "date": "2026-11-24",
   "from": "2026-11-18",
-  "headline": "이번 주 정부는 CAR-T 등 신약 급여 확대와 함께 의료 AI 성과 중심 보상 및 필수·공공의료 체계 정비에 집중함.",
+  "headline": "정부가 의료 AI 보상체계 개편, 중증·필수 의료 수가 신설 및 지역의료 강화를 추진함",
   "points": [
    {
     "section": "정책",
-    "title": "국산 CAR-T 및 당뇨 기기 급여",
-    "body": "국산 첫 CAR-T 치료제 림카토가 28억 원의 건강보험 급여로 12월 등재되며, 중증 당뇨병 환자용 인슐린자동주입기 요양비 보험급여 기준 개정안이 발령됨.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "권역심뇌혈관센터 재지정 평가",
-    "body": "보건복지부가 전국 14개 권역심뇌혈관질환센터 재지정 평가를 완료하고 3개소를 조건부 재지정하여 매년 별도 점검과 관리를 추진함.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료 AI 보상체계 개편 및 투자",
-    "body": "보건복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하고 민간 투자 연계를 추진함.",
+    "title": "의료 AI 보상 및 투자 개편",
+    "body": "보건복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하는 방안을 검토함. 아울러 지역·필수·공공 의료 AX 가속화를 위해 의료 현장과 헬스케어 AI 민간 투자를 연결하는 펀드 운용사 및 서울대병원과의 업무협약을 추진함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
@@ -2146,23 +2137,35 @@
    },
    {
     "section": "정책",
-    "title": "장기기증 인센티브 및 상급종합병원 지표",
-    "body": "복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상 적정화를 추진하고 제7기 상급종합병원 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
+    "title": "필수·취약 의료 수가 및 지원",
+    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여 적용을 받아 12월부터 등재될 예정임. 또한 중증 당뇨병 환자 지원 확대를 위한 인슐린자동주입기 요양비 보험급여 기준 개정안이 발령됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "장기기증 및 심뇌혈관 지표",
+    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상 적정화를 추진하고 상급종합병원 지정평가에 기증 면담 연계율 지표 반영을 검토함. 아울러 전국 14개 권역심뇌혈관질환센터 재지정 평가를 완료하고 조건부 재지정 기관에 대한 매년 점검을 실시함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "전공의 수련 및 예산 지원",
+    "body": "보건복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함. 또한 연말 의료급여 예산 부족에 따른 미지급금 문제를 정부 예비비와 내년도 예산을 통해 연내 및 연초에 해소할 계획임.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962"
     ]
    },
    {
     "section": "병원",
-    "title": "전공의 임용시험 시행계획 공지",
-    "body": "복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "울산대병원 노조 인력 운영 반발",
+    "title": "울산대병원 인력 운영 갈등",
     "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원을 운영하는 인력 통합 운영을 강행한다고 반발하며 결의대회를 개최함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
@@ -2170,15 +2173,14 @@
    }
   ],
   "implications": [
-   "제7기 상급종합병원 지정평가에 장기기증 면담 연계율 지표 반영 검토에 대비하여 원내 장기·인체조직 기증 활성화 프로세스를 점검함.",
-   "정부의 의료 AI 보상체계가 환자 성과 중심으로 개편됨에 따라 원내 도입된 AI 솔루션의 임상 성과를 체계적으로 관리함.",
-   "권역심뇌혈관질환센터의 사후 관리 강화 기조에 맞추어 센터 운영 실태와 질 관리 체계를 재정비함."
+   "보건복지부가 추진하는 의료 AI 보상체계 개편과 민간 투자 연계 사업에 발맞추어 원내 AI 기반 임상 성과 창출 및 실증 사업 참여를 준비함.",
+   "상급종합병원 지정평가 지표 반영이 검토되는 장기기증 활성화 정책에 대응하여 뇌사추정자 상담·신고 체계 및 기증 면담 연계 프로세스를 점검함."
   ],
-  "count": 12,
+  "count": 13,
   "picks": 0,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-24 00:37",
-  "sig": "3:1ohdno4"
+  "generatedAt": "2026-11-24 07:40",
+  "sig": "3:19l9s55"
  },
  "monthly": {
   "date": "2026-11-24",
