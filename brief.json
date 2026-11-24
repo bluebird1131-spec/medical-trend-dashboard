@@ -1,6 +1,60 @@
 {
  "days": [
   {
+   "date": "2026-11-25",
+   "from": "2026-11-24",
+   "headline": "정부와 국회의 백신 예산 및 희귀질환 지정 논의와 간호사 교대제 시범사업 성과 주목",
+   "points": [
+    {
+     "section": "정책",
+     "title": "간호사 교대제 시범사업",
+     "body": "간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 감소하여 정부가 본사업 전환을 검토함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "질병청 예산 심사 공방",
+     "body": "국회 보건복지위원회 예산안 심사에서 질병관리청의 mRNA 백신 개발 지원사업 및 감염병 병상 확충 예산을 두고 공방이 발생함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942903"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의·한 협진 활성화 추진",
+     "body": "보건복지부가 의·한 협진 활성화를 위해 질환별 표준진료 모형 개발과 합리적인 협진 수가체계 도입을 추진함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "희귀질환 77개 신규 지정",
+     "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825"
+     ]
+    }
+   ],
+   "implications": [
+    "간호사 교대제 개선 시범사업의 본사업 전환 검토에 따른 원내 간호 인력 운영 체계 점검",
+    "질병관리청의 국가관리대상 희귀질환 신규 지정에 따른 원내 관련 진료과 대응 검토"
+   ],
+   "count": 4,
+   "picks": 0,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-25 01:10",
+   "sig": "3:1g1ae92",
+   "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942903",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
+   ]
+  },
+  {
    "date": "2026-11-24",
    "from": "2026-11-23",
    "headline": "대구가톨릭대병원 파업 대응과 국산 CAR-T 급여 등 주요 보건의료 정책 동향",
@@ -2050,85 +2104,6 @@
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171402",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171394",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171392"
-   ]
-  },
-  {
-   "date": "2026-10-26",
-   "from": "2026-10-25",
-   "headline": "울산의대 실습 수도권 집중 지적과 병원급 항생제 적정사용 관리 확대 추진",
-   "points": [
-    {
-     "section": "병원",
-     "title": "항암환자 AI 챗봇 도입",
-     "body": "삼성서울병원이 카카오톡 기반 AI 챗봇을 활용해 항암환자의 말초중심정맥관(PICC) 관리를 지원하는 서비스를 도입함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "울산의대 실습 수도권 편중",
-     "body": "국정감사에서 울산의대 임상실습의 90% 이상이 서울아산병원에서 이뤄지고 있어 지역 실태 시정이 촉구됨.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "항생제 관리 병원급 확대",
-     "body": "질병관리청이 항생제 오남용을 방지하기 위해 항생제 적정사용 관리 체계를 병원급 의료기관까지 확대 추진함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043977"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "의료AI 수가 개편 구상",
-     "body": "보건복지부가 의료 인공지능 수가 체계를 단순 사용량 중심에서 임상 성과 및 기관 단위 보상 방식으로 개편할 계획임.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829"
-     ]
-    }
-   ],
-   "implications": [
-    "울산의대 소속 대학으로서 향후 지역 의료기관 실습망 구축 및 의대 교육 내실화 요구에 대한 대응 전략 검토 필요",
-    "질병관리청의 병원급 항생제 적정사용 관리 확대 정책에 발맞춘 원내 항생제 관리 체계 점검 필요"
-   ],
-   "count": 28,
-   "picks": 1,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-26 13:36",
-   "sig": "3:wbctu0",
-   "links": [
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043915",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941870",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941860",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941834",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941664",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941631",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941852",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941644",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941831",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043936",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043977",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043970",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043955",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043945",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043949",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043944",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043946",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043943",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043933",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043932",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941846",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941839",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941627",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941730",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941829",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043975"
    ]
   }
  ],
