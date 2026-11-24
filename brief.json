@@ -3,8 +3,24 @@
   {
    "date": "2026-11-25",
    "from": "2026-11-24",
-   "headline": "복지부와 질병청의 의한 협진 추진 및 희귀질환 국가관리 확대 등 주요 보건의료 정책 동향",
+   "headline": "인천세종병원 단일공 로봇 동시 수술 성공과 복지부의 특수의료장비 규제 개편 검토",
    "points": [
+    {
+     "section": "병원",
+     "title": "단일공 로봇 동시 수술 성공",
+     "body": "인천세종병원이 아시아 최초로 다빈치SP 단일공 로봇을 이용한 직장류수술과 비만대사수술 동시 시행에 성공함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942940"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "특수의료장비 공동활용병상제 폐지 검토",
+     "body": "보건복지부가 CT와 MRI 등 특수의료장비 설치 기준 개선을 위해 공동활용병상제 폐지를 검토함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044847"
+     ]
+    },
     {
      "section": "정책",
      "title": "의·한 협진 표준진료 모형 추진",
@@ -15,23 +31,15 @@
     },
     {
      "section": "정책",
-     "title": "국가관리대상 희귀질환 77개 지정",
-     "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "간호사 교대제 시범사업 본사업 검토",
-     "body": "간호사 교대제 개선 시범사업 참여 이후 신규 간호사 이직률이 감소하여 정부가 본사업 전환을 검토함.",
+     "title": "간호사 교대제 시범사업 성과",
+     "body": "간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 낮아지고 정부가 본사업 전환을 검토함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
      ]
     },
     {
      "section": "정책",
-     "title": "희귀·중증난치질환자 본인부담 인하",
+     "title": "희귀·중증난치질환 본인부담률 인하",
      "body": "오는 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
@@ -39,19 +47,26 @@
     }
    ],
    "implications": [
-    "간호사 교대제 개선 시범사업 성과에 따른 본사업 전환 검토에 선제적 대응 검토",
-    "국가관리대상 희귀질환 신규 지정 및 12월부터 시행되는 본인부담률 7% 인하에 따른 원내 환자 관리 체계 정비"
+    "다빈치SP 단일공 로봇을 활용한 다중 술기 적용 사례를 벤치마킹하여 고난도 로봇 수술 영역 확대를 검토함",
+    "복지부의 특수의료장비 공동활용병상제 폐지 검토 동향에 따른 향후 CT·MRI 등 장비 도입 전략을 점검함"
    ],
-   "count": 5,
+   "count": 12,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-25 06:38",
-   "sig": "3:123x7c3",
+   "generatedAt": "2026-11-25 07:11",
+   "sig": "3:5hbwp9",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942903",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492646&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942945",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942940",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942931",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942917",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044847",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
    ]
   },
@@ -2111,69 +2126,69 @@
  "weekly": {
   "date": "2026-11-25",
   "from": "2026-11-19",
-  "headline": "정부가 의·한 협진, 장기기증 인센티브, 신규 급여 등 보건의료 제도 개선을 본격 추진한다.",
+  "headline": "이번 주 정부 보건의료 정책은 국립의전원, 전공의 배분, 취약계층 수가 개선 및 장기기증 활성화를 중심으로 추진됨.",
   "points": [
    {
     "section": "정책",
-    "title": "의·한 협진 표준진료 모형 개발 추진",
-    "body": "보건복지부가 질환별 표준진료 모형 개발과 합리적인 협진 수가체계 도입을 추진함.",
+    "title": "국립의전원 설립 및 운영 기준",
+    "body": "정부가 국립의학전문대학원 설립 및 운영에 관한 법률 시행령 제정안을 국무회의에서 의결함. 이를 통해 조직, 운영 및 재정지원 기준이 마련됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492646&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "장기기증 활성화 수가 신설 및 지표 반영",
-    "body": "보건복지부가 뇌사추정자 상담·신고 수가를 신설하고 상급종합병원 제7기 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
+    "title": "전공의 수도권·지방 5대 5 배분",
+    "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진함. 이로 인해 부실수련 우려 등 의료계 반발이 확산됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
     ]
    },
    {
     "section": "정책",
-    "title": "권역심뇌혈관질환센터 14곳 재지정",
-    "body": "보건복지부가 14개 권역심뇌혈관질환센터를 재지정하고 3개소를 조건부 재지정하여 매년 별도 점검·관리할 예정임.",
+    "title": "취약계층 및 중증질환 보장 강화",
+    "body": "희귀·중증난치질환자의 건강보험 본인부담률이 7%로 인하되고 국산 첫 CAR-T 치료제 림카토가 12월부터 급여 적용됨. 또한 중증 당뇨병 환자 의료기기 요양비 보험급여 기준 개정안이 발령됨.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "CAR-T 치료제 및 당뇨 기기 급여",
-    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 받아 등재되고 중증 당뇨병 환자용 인슐린자동주입기 급여 기준이 개정됨.",
-    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
     ]
    },
    {
-    "section": "병원",
-    "title": "대구가톨릭대의료원 총파업 예고",
-    "body": "대구가톨릭대학교의료원이 노사 조정 결렬로 총파업을 예고하며 비상진료체계 가동에 나섬.",
+    "section": "정책",
+    "title": "장기기증 인센티브 및 수가 신설",
+    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상 적정화를 추진함. 나아가 상급종합병원 제7기 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 노조 인력 운영 반발",
-    "body": "울산대학교병원 노조가 흑자 경영 중에도 최소 인력으로 병원을 운영하는 인력 통합 운영에 반발하며 결의대회를 개최함.",
+    "title": "인천세종병원 단일공 로봇 동시 수술",
+    "body": "인천세종병원이 아시아 최초로 다빈치SP 단일공 로봇을 이용한 직장류수술과 비만대사수술 동시 시행에 성공함. 첨단 로봇수술 영역 확대의 선례를 보여줌.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942940"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "대구가톨릭의료원 파업 예고",
+    "body": "대구가톨릭대학교의료원이 노사 조정 결렬로 총파업을 예고하며 비상진료체계 가동에 나섬. 병원 현장의 인력 및 노사 갈등 대응 체계 점검이 요구됨.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
     ]
    }
   ],
   "implications": [
-   "상급종합병원 제7기 지정평가에 대비하여 장기기증 면담 연계율 지표 관리 체계를 사전 점검해야 함",
-   "정부의 장기기증 활성화 수가 신설 및 뇌사추정자 관리료 보상 정책에 발맞추어 원내 기증 활성화 프로세스를 재정비함",
-   "노조의 인력 운영 반발 및 타지역 병원 파업 사례와 관련하여 원내 인력 수급 및 비상진료대책을 면밀히 검토함"
+   "상급종합병원 제7기 지정평가에 장기기증 면담 연계율 지표 반영 검토에 따라 원내 장기기증 활성화 프로세스 정비",
+   "전공의 5대 5 지역 배분 정책에 대비하여 수련 교육 질 관리 및 비수도권 수련 환경 개선 대책 마련",
+   "희귀·중증난치질환 본인부담률 인하 및 신규 급여 항목(국산 CAR-T 등) 적용에 따른 원내 처방 및 환자 안내 체계 준비"
   ],
-  "count": 13,
+  "count": 21,
   "picks": 0,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-25 01:36",
-  "sig": "3:abaz0m"
+  "generatedAt": "2026-11-25 07:11",
+  "sig": "3:9frgi1"
  },
  "monthly": {
   "date": "2026-11-25",
