@@ -3,37 +3,67 @@
   {
    "date": "2026-11-24",
    "from": "2026-11-23",
-   "headline": "국산 CAR-T 치료제 건강보험 급여 적용 및 인슐린자동주입기 지원 확대 추진",
+   "headline": "대구가톨릭대병원 파업 대응과 국산 CAR-T 급여 등 주요 보건의료 정책 동향",
    "points": [
     {
+     "section": "병원",
+     "title": "대구가톨릭대병원 총파업 예고",
+     "body": "노사 조정 결렬로 대구가톨릭대학교의료원이 총파업을 예고하면서 병원 현장의 비상진료체계 준비가 추진됨.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
+     ]
+    },
+    {
      "section": "정책",
-     "title": "국산 CAR-T 급여 적용",
-     "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여 적용을 받아 12월부터 등재됨.",
+     "title": "국산 CAR-T 림카토 급여",
+     "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 적용받아 12월 등재 예정임.",
      "links": [
       "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054"
      ]
     },
     {
      "section": "정책",
-     "title": "인슐린자동주입기 급여 확대",
-     "body": "보건복지부가 중증 당뇨병 환자 의료기기 지원 확대를 위한 요양비 보험급여 기준 개정안을 발령함.",
+     "title": "의·한 협진 활성화 추진",
+     "body": "보건복지부가 의·한 협진 활성화를 위해 질환별 표준진료 모형 개발과 합리적인 협진 수가체계 도입을 추진함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "희귀질환 77개 신규 지정",
+     "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "간호사 교대제 시범사업",
+     "body": "간호사 교대제 개선 시범사업 참여 후 이직률이 감소함에 따라 정부의 본사업 전환 검토가 진행 중임.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
      ]
     }
    ],
    "implications": [
-    "국산 CAR-T 치료제 림카토의 건강보험 급여 등재에 따른 원내 처방 및 환자 적용 준비 검토",
-    "복지부의 인슐린자동주입기 요양비 보험급여 기준 개정안에 따른 당뇨병 환자 지원 확대 사항 확인"
+    "국산 CAR-T 치료제 림카토의 12월 급여 등재에 발맞춘 원내 투여 프로토콜 점검",
+    "정부의 간호사 교대제 시범사업 성과 확산에 따른 원내 근무 환경 개선 방안 검토",
+    "보건복지부의 의·한 협진 표준진료 모형 개발 동향 모니터링"
    ],
-   "count": 2,
+   "count": 7,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-24 08:55",
-   "sig": "3:1i9e81x",
+   "generatedAt": "2026-11-24 13:38",
+   "sig": "3:1dixm2s",
    "links": [
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942903",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
    ]
   },
   {
@@ -2174,90 +2204,83 @@
  "monthly": {
   "date": "2026-11-24",
   "from": "2026-10-26",
-  "headline": "보건복지부는 필수의료 보상 강화와 수가 구조 혁신을 본격 추진하는 동시에, 의료 AI와 정보보호 등 디지털 제도 정비를 가속화하고 있습니다.",
+  "headline": "정부는 필수의료·지역완결 보상 강화와 건강보험 수가 구조 혁신에 집중하고 있다.",
   "points": [
    {
     "section": "정책",
-    "title": "필수의료 중심 수가 구조 대수술",
-    "body": "정부는 지역·필수의료 인프라 강화를 위해 내년 1월부터 건강보험 재정 2조7000억원을 투입하며, 분만·신생아 분야 지역우대 수가 적용과 종합병원 이상 중증 수술 수가 20% 인상을 본격 추진합니다.",
+    "title": "지역·필수의료 선제 투입과 수가 개편",
+    "body": "정부는 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 건강보험 재정 2조7000억원을 선투입하고, 검체·CT·MRI 수가 조정을 추진함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
     ]
    },
    {
     "section": "정책",
-    "title": "검체검사 수가 인하 및 정산 개편",
-    "body": "내년 1월부터 검체검사 702개 항목의 수가를 인하하고, 건강보험공단이 위탁 및 수탁기관에 검사료를 직접 지급하는 구분 지급 방식을 도입합니다.",
+    "title": "의료전달체계 개편 및 공공의료 강화",
+    "body": "제1차 보건의료발전계획을 통해 의료전달체계 개편과 공공병원 별도 수가체계 및 가치기반수가 전환을 제안함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171904"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 보상 체계 및 제도 정비",
-    "body": "단순 기술 도입 방식에서 벗어나 환자 편익과 임상 성과 및 제품별 지표를 평가하여 의료기관에 보상하는 기관 단위 의료 AI 수가 개편을 추진합니다.",
+    "title": "의료인력 적정기준 및 처우 개선 추진",
+    "body": "병원급 전체 보건의료인력 적정기준 제도화가 추진되며 간호사 교대제 시범사업 성과에 따라 본사업 전환이 검토됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI·디지털 보상 체계 전환",
+    "body": "의료 AI 확산에 대응하여 단순 도입 방식에서 환자 편익과 임상 성과 및 제품별 임상 지표 달성에 따른 기관 보상으로 개편을 추진함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951"
     ]
    },
    {
     "section": "정책",
-    "title": "의료기관 정보보호 및 평가 강화",
-    "body": "보건복지부는 의료기관 사이버 위협 대응과 정보보호 강화를 위해 민관 협력체계를 마련하고, 의료기관 지정·평가·인증 제도에 정보보호 지표 반영을 검토합니다.",
+    "title": "환자 안전 및 정보보호 관리 강화",
+    "body": "의료기관 평가·인증 항목에 정보보호 지표 반영이 검토되며, 국시원의 AI 부정행위 방지 감독 방식이 강화됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "원격중환자실 및 지역 협력 확대",
-    "body": "거점병원과 지역 협력병원을 연계하는 원격중환자실(e-ICU) 협력 네트워크 사업을 강원·충북에 이어 서울 권역까지 확대합니다.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624"
     ]
    },
    {
     "section": "병원",
-    "title": "스마트 병원 및 AI 도입 가속화",
-    "body": "주요 대형병원들이 AI 기반 병상 모니터링 시스템과 챗봇 등 디지털 기술을 도입하여 임상 및 환자 관리 업무를 자동화하고 있습니다.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044422",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043967",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941887"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "특성화센터 건립 및 인프라 확충",
-    "body": "일부 대학병원은 글로벌 허브 메디컬센터 건립과 새병원 통합동 신축 등 중증 진료 인프라 확충을 추진하고 있습니다.",
+    "title": "상급종합병원 첨단·특성화 인프라 확충",
+    "body": "삼성서울병원과 부산대병원이 각각 AI 임상연구 확대와 글로벌 허브 메디컬센터 건립 등 중증진료 역량 강화를 추진함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171870"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171694"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "스마트 병원 시스템 및 물류 자동화 도입",
+    "body": "은평성모병원이 가납 의료기기 RFID 통합관리시스템을 구축하였고, 아주대병원은 AI 기반 병상 모니터링 시스템을 도입함.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171390"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 수가 구조 혁신 및 2.7조 원 선투입 기조에 맞춰 중증·응급 중심의 원내 진료체계를 재정비해야 함.",
-   "내년 1월 시행되는 검체검사 수가 인하 및 위·수탁 직접 정산 체계 개편에 따른 병원 수입 구조 변화에 선제적으로 대응해야 함.",
-   "의료기관 평가 인증 시 정보보호 지표 반영 검토에 따라 원내 보안 인프라와 사이버 위협 대응 체계를 강화해야 함."
+   "정부의 지역·필수의료 수가 구조 혁신과 재정 투입 방향에 맞춰 중증·응급 중심의 진료체계 개편과 대응 전략을 수립해야 함.",
+   "의료 AI 도입 및 성과 중심 보상 체계 전환에 대비하여 원내 AI 기반 임상 실증 및 디지털 헬스케어 인프라를 확충해야 함.",
+   "병원급 의료인력 적정기준 제도화 및 정보보호 인증 지표 신설 움직임에 발맞추어 원내 인력 운영 관리와 보안 체계를 정비해야 함."
   ],
-  "count": 200,
+  "count": 205,
   "picks": 26,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-24 10:32",
-  "sig": "3:6rwao9"
+  "generatedAt": "2026-11-24 13:39",
+  "sig": "3:1kat692"
  }
 }
