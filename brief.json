@@ -3,27 +3,11 @@
   {
    "date": "2026-11-25",
    "from": "2026-11-24",
-   "headline": "정부와 국회의 백신 예산 및 희귀질환 지정 논의와 간호사 교대제 시범사업 성과 주목",
+   "headline": "복지부와 질병청의 의한 협진 추진 및 희귀질환 국가관리 확대 등 주요 보건의료 정책 동향",
    "points": [
     {
      "section": "정책",
-     "title": "간호사 교대제 시범사업",
-     "body": "간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 감소하여 정부가 본사업 전환을 검토함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "질병청 예산 심사 공방",
-     "body": "국회 보건복지위원회 예산안 심사에서 질병관리청의 mRNA 백신 개발 지원사업 및 감염병 병상 확충 예산을 두고 공방이 발생함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942903"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "의·한 협진 활성화 추진",
+     "title": "의·한 협진 표준진료 모형 추진",
      "body": "보건복지부가 의·한 협진 활성화를 위해 질환별 표준진료 모형 개발과 합리적인 협진 수가체계 도입을 추진함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906"
@@ -31,27 +15,44 @@
     },
     {
      "section": "정책",
-     "title": "희귀질환 77개 신규 지정",
+     "title": "국가관리대상 희귀질환 77개 지정",
      "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825"
      ]
+    },
+    {
+     "section": "정책",
+     "title": "간호사 교대제 시범사업 본사업 검토",
+     "body": "간호사 교대제 개선 시범사업 참여 이후 신규 간호사 이직률이 감소하여 정부가 본사업 전환을 검토함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "희귀·중증난치질환자 본인부담 인하",
+     "body": "오는 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
+     ]
     }
    ],
    "implications": [
-    "간호사 교대제 개선 시범사업의 본사업 전환 검토에 따른 원내 간호 인력 운영 체계 점검",
-    "질병관리청의 국가관리대상 희귀질환 신규 지정에 따른 원내 관련 진료과 대응 검토"
+    "간호사 교대제 개선 시범사업 성과에 따른 본사업 전환 검토에 선제적 대응 검토",
+    "국가관리대상 희귀질환 신규 지정 및 12월부터 시행되는 본인부담률 7% 인하에 따른 원내 환자 관리 체계 정비"
    ],
-   "count": 4,
+   "count": 5,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-25 01:10",
-   "sig": "3:1g1ae92",
+   "generatedAt": "2026-11-25 06:38",
+   "sig": "3:123x7c3",
    "links": [
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942903",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
    ]
   },
   {
