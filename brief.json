@@ -2105,64 +2105,71 @@
  "weekly": {
   "date": "2026-11-24",
   "from": "2026-11-18",
-  "headline": "정부가 의료 AI 보상체계 개편, 중증·필수 의료 수가 신설 및 지역의료 강화를 추진함",
+  "headline": "정부가 의료 AI 성과 중심 보상체계 개편과 필수·중증의료 지원을 강화하며 임상 현장 연계 정책을 본격화함.",
   "points": [
    {
     "section": "정책",
-    "title": "의료 AI 보상 및 투자 개편",
-    "body": "보건복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하는 방안을 검토함. 아울러 지역·필수·공공 의료 AX 가속화를 위해 의료 현장과 헬스케어 AI 민간 투자를 연결하는 펀드 운용사 및 서울대병원과의 업무협약을 추진함.",
+    "title": "의료 AI 성과 중심 보상체계 개편",
+    "body": "보건복지부가 의료 인공지능 건강보험 보상 체계를 단순 도입 지원에서 환자 편익과 임상 성과 중심으로 전환하는 개편을 검토 중임. 지역·필수·공공 의료 AX 가속화를 위해 건보 보상체계 개편과 민간 투자 연계를 병행 추진할 예정임.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
     ]
    },
    {
     "section": "정책",
-    "title": "필수·취약 의료 수가 및 지원",
-    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여 적용을 받아 12월부터 등재될 예정임. 또한 중증 당뇨병 환자 지원 확대를 위한 인슐린자동주입기 요양비 보험급여 기준 개정안이 발령됨.",
+    "title": "권역심뇌혈관센터 14곳 재지정 의결",
+    "body": "보건복지부가 전국 14개 권역심뇌혈관질환센터 재지정 평가 결과를 심의·의결함. 강원대병원, 제주대병원, 안동병원 3개소는 조건부 재지정 대상으로 분류되어 향후 매년 별도 점검 및 관리를 받게 됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "장기기증 및 심뇌혈관 지표",
-    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상 적정화를 추진하고 상급종합병원 지정평가에 기증 면담 연계율 지표 반영을 검토함. 아울러 전국 14개 권역심뇌혈관질환센터 재지정 평가를 완료하고 조건부 재지정 기관에 대한 매년 점검을 실시함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
     ]
    },
    {
     "section": "정책",
-    "title": "전공의 수련 및 예산 지원",
-    "body": "보건복지부 수련환경평가위원회가 2027년도 상반기 전공의 임용시험 시행계획을 공지함. 또한 연말 의료급여 예산 부족에 따른 미지급금 문제를 정부 예비비와 내년도 예산을 통해 연내 및 연초에 해소할 계획임.",
+    "title": "장기기증 수가 신설 및 상종 지표 반영",
+    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설과 기증자 관리료 보상 적정화를 추진함. 상급종합병원 제7기 지정평가 지표에 기증 면담 연계율을 반영하는 방안도 검토 과제로 포함됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942861",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "CAR-T 등재 및 당뇨기기 급여 확대",
+    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 적용받아 12월부터 2.8억 원에 등재될 예정임. 아울러 중증 당뇨병 환자 지원을 위한 지속주입형·디지털펜형 인슐린자동주입기 요양비 보험급여 기준 개정안이 발령됨.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 인력 운영 갈등",
-    "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원을 운영하는 인력 통합 운영을 강행한다고 반발하며 결의대회를 개최함.",
+    "title": "서울대병원 헬스케어 AI 실증 협약",
+    "body": "보건복지부, 서울대병원, 펀드 운용사가 지역·필수·공공 의료 AX 가속화를 위한 헬스케어 AI 민간 투자 연결 지원 업무협약을 추진함. 병원 현장 실증과 민간 투자를 결합한 디지털 헬스케어 도입 움직임이 가시화됨.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "울산대병원 인력 통합 운영 갈등",
+    "body": "울산대학교병원 노동조합이 흑자 경영 기조 속에서 최소 인력 중심의 인력 통합 운영을 강행한다고 반발함. 노조 측은 일방적 인력 운영 방침 철회를 촉구하며 병원 내 결의대회를 개최함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
     ]
    }
   ],
   "implications": [
-   "보건복지부가 추진하는 의료 AI 보상체계 개편과 민간 투자 연계 사업에 발맞추어 원내 AI 기반 임상 성과 창출 및 실증 사업 참여를 준비함.",
-   "상급종합병원 지정평가 지표 반영이 검토되는 장기기증 활성화 정책에 대응하여 뇌사추정자 상담·신고 체계 및 기증 면담 연계 프로세스를 점검함."
+   "상급종합병원 제7기 지정평가에 기증 면담 연계율 지표 반영 검토에 대응하여 원내 뇌사추정자 발굴·상담 및 신고 연계 프로세스 사전 점검",
+   "정부의 의료 AI 보상체계 개편 방향에 부합하도록 원내 도입 추진 중인 AI 기술의 임상적 유효성 및 환자 성과 평가 데이터 관리 체계 마련",
+   "12월 국산 1호 CAR-T 치료제 림카토 급여 등재에 따른 혈액암 환자 처방 프로토콜 및 원내 치료 환경 정비 검토"
   ],
-  "count": 13,
+  "count": 11,
   "picks": 0,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-24 07:40",
-  "sig": "3:19l9s55"
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-24 11:01",
+  "sig": "3:1quca0t"
  },
  "monthly": {
   "date": "2026-11-24",
