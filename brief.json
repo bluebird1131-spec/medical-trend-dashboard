@@ -2108,74 +2108,71 @@
   }
  ],
  "weekly": {
-  "date": "2026-11-24",
-  "from": "2026-11-18",
-  "headline": "이번 주 정부 보건의료 정책은 의료 AI 성과 보상, 필수의료 지원 및 수가체계 개편에 집중됨",
+  "date": "2026-11-25",
+  "from": "2026-11-19",
+  "headline": "정부가 의·한 협진, 장기기증 인센티브, 신규 급여 등 보건의료 제도 개선을 본격 추진한다.",
   "points": [
    {
     "section": "정책",
-    "title": "의료 AI 수가체계 및 투자 개편",
-    "body": "복지부가 의료 인공지능 보상 체계를 단순 도입 방식에서 환자 편익과 임상 성과 중심으로 개편하는 방안을 검토함. 또한 지역·필수·공공 의료 인공지능 전환(AX) 가속화를 위해 민간 투자 연결 및 병원 실증 연계를 추진함.",
+    "title": "의·한 협진 표준진료 모형 개발 추진",
+    "body": "보건복지부가 질환별 표준진료 모형 개발과 합리적인 협진 수가체계 도입을 추진함.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906"
     ]
    },
    {
     "section": "정책",
-    "title": "필수·공공의료 수가 및 지원 확대",
-    "body": "복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상 적정화를 추진함. 아울러 의·한 협진 활성화를 위한 질환별 표준진료 모형 개발과 합리적인 협진 수가체계 도입을 추진함.",
+    "title": "장기기증 활성화 수가 신설 및 지표 반영",
+    "body": "보건복지부가 뇌사추정자 상담·신고 수가를 신설하고 상급종합병원 제7기 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
     ]
    },
    {
     "section": "정책",
-    "title": "권역심뇌혈관센터 재지정 및 간호제도",
-    "body": "복지부가 전국 14개 권역심뇌혈관질환센터를 재지정하고 3개소를 조건부로 지정하여 매년 별도 점검과 관리를 실시함. 또한 간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 낮아져 정부가 본사업 전환을 검토함.",
+    "title": "권역심뇌혈관질환센터 14곳 재지정",
+    "body": "보건복지부가 14개 권역심뇌혈관질환센터를 재지정하고 3개소를 조건부 재지정하여 매년 별도 점검·관리할 예정임.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
     ]
    },
    {
     "section": "정책",
-    "title": "건강보험 급여 확대 및 제도 정비",
-    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여 적용을 받아 12월부터 등재될 예정임. 질병관리청은 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
+    "title": "CAR-T 치료제 및 당뇨 기기 급여",
+    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 받아 등재되고 중증 당뇨병 환자용 인슐린자동주입기 급여 기준이 개정됨.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
     ]
    },
    {
     "section": "병원",
-    "title": "대구가톨릭대병원 파업 대응",
-    "body": "대구가톨릭대학교의료원이 노사 조정 결렬로 총파업을 예고하며 비상진료체계 가동에 나섬. 현장 노사 갈등 속에서 차질 없는 비상진료체계 유지를 추진함.",
+    "title": "대구가톨릭대의료원 총파업 예고",
+    "body": "대구가톨릭대학교의료원이 노사 조정 결렬로 총파업을 예고하며 비상진료체계 가동에 나섬.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
     ]
    },
    {
     "section": "병원",
-    "title": "울산대병원 인력 운영 반발",
-    "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원을 운영하는 인력 통합 운영을 강행한다고 반발하며 결의대회를 개최함. 원내 인력 운영 방안을 두고 노사 간 갈등이 이어짐.",
+    "title": "울산대병원 노조 인력 운영 반발",
+    "body": "울산대학교병원 노조가 흑자 경영 중에도 최소 인력으로 병원을 운영하는 인력 통합 운영에 반발하며 결의대회를 개최함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
     ]
    }
   ],
   "implications": [
-   "상급종합병원 제7기 지정평가에 기증 면담 연계율 지표 반영이 검토됨에 따라 장기·인체조직 기증 활성화 프로세스와 원내 인센티브 연계 방안을 검토함.",
-   "정부의 의료 AI 보상체계 개편 및 민간 투자 연계 기조에 발맞추어 원내 인공지능 기술 실증 사업 참여와 임상 성과 데이터 확보를 준비함."
+   "상급종합병원 제7기 지정평가에 대비하여 장기기증 면담 연계율 지표 관리 체계를 사전 점검해야 함",
+   "정부의 장기기증 활성화 수가 신설 및 뇌사추정자 관리료 보상 정책에 발맞추어 원내 기증 활성화 프로세스를 재정비함",
+   "노조의 인력 운영 반발 및 타지역 병원 파업 사례와 관련하여 원내 인력 수급 및 비상진료대책을 면밀히 검토함"
   ],
-  "count": 16,
+  "count": 13,
   "picks": 0,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-24 14:01",
-  "sig": "3:ns21ig"
+  "generatedAt": "2026-11-25 01:36",
+  "sig": "3:abaz0m"
  },
  "monthly": {
   "date": "2026-11-24",
