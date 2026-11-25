@@ -2194,90 +2194,94 @@
   "sig": "3:4utajx"
  },
  "monthly": {
-  "date": "2026-11-25",
-  "from": "2026-10-27",
-  "headline": "정부가 지역 및 필수의료 중심의 수가 구조 혁신과 건강보험 보장성 강화를 본격 추진하고 있다.",
+  "date": "2026-11-26",
+  "from": "2026-10-28",
+  "headline": "정부가 지역·필수의료 수가 구조 혁신과 AI·디지털 기반 의료체계 개편을 본격화하고 있다.",
   "points": [
    {
     "section": "정책",
     "title": "지역·필수의료 수가 구조 혁신",
-    "body": "정부가 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 2조 7000억원을 선투입하고, 검체검사와 CT·MRI 수가를 조정하여 필수의료 보상을 강화하는 수가 구조 혁신 방안을 추진함.",
+    "body": "정부가 2조 7000억 원 규모의 재정을 선투입하여 중증수술 및 필수의료 수가를 인상하고 검체·CT·MRI 수가 조정을 추진함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
     ]
    },
    {
     "section": "정책",
-    "title": "희귀·중증난치질환자 지원 확대",
-    "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하되며, 신속등재 시범사업을 통한 치료제 건보 진입이 추진됨.",
+    "title": "의료전달체계 및 공공의료 개편",
+    "body": "제1차 보건의료발전계획 수립과 공공병원 별도 수가체계 도입을 추진하며, 국립대병원 중심으로 지역완결적 필수의료 거점 육성을 강화함.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492464&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942375",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 및 디지털헬스 지원",
-    "body": "보건복지부가 지역·필수·공공 의료 인공지능(AX) 가속화를 위해 헬스케어 AI 민간 투자 연계를 지원하고 원격중환자실 네트워크를 확대함.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "보건의료인력 및 수련 제도",
-    "body": "국회에서 병원급 전체 보건의료인력 적정기준 제도화 법안이 발의되었으며, 2027년도 전공의 정원 수도권·비수도권 배분 방안을 두고 논의가 이어짐.",
+    "title": "의료인력 및 수련 제도 정비",
+    "body": "병원급 전체 보건의료인력 적정기준 제도화 추진과 함께 전공의 정원 배정 및 보호수련시간 확보를 둘러싼 논의가 지속됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171735"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941896"
     ]
    },
    {
     "section": "정책",
-    "title": "의료기관 평가 및 안전 관리",
-    "body": "정부가 의료기관 지정·평가·인증 제도에 정보보호 지표 반영을 검토하고, 응급실 등 필수의료 현장 수사 가이드라인 마련을 추진함.",
+    "title": "의료 AI 및 디지털 제도 정비",
+    "body": "보건복지부가 단순 기술 도입을 넘어 환자 편익과 임상 성과 중심의 의료 AI 보상체계 개편과 정보보호 강화를 추진함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "취약계층 의료비 지원 및 약가 제도",
+    "body": "희귀·중증난치질환자 건강보험 본인부담률을 10%에서 7%로 인하하고, 필수의약품 퇴장방지약 지정 및 신속등재 시범사업을 확대함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492464&tag=&nPage=1"
     ]
    },
    {
     "section": "병원",
-    "title": "삼성서울병원, 통합 플랫폼 구축",
-    "body": "삼성서울병원 심장뇌혈관병원이 EMR 기반 심장·뇌혈관질환 통합 레지스트리 플랫폼을 구축하고 실제 진료 현장 운영 가능성을 확인헸음.",
+    "title": "주요 병원 중증·AI 플랫폼 구축",
+    "body": "삼성서울병원이 심장·뇌혈관질환 통합 레지스트리 플랫폼을 구축하고, 부산대병원이 글로벌 허브 메디컬센터 건립 전략을 공유함.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853"
     ]
    },
    {
     "section": "병원",
-    "title": "전남대병원, 새병원 신축 추진",
-    "body": "전남대병원이 새병원 건립 방식을 단일 통합동 신축으로 변경하고 2031년 준공을 목표로 사업을 추진함.",
+    "title": "첨단 스마트 기술 및 센터 재지정",
+    "body": "은평성모병원이 RFID 기반 가납 의료기기 통합관리시스템을 구축하였고, 성빈센트병원이 경기 남부 소아전문응급의료센터로 재지정됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171870"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171617"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 수가 구조 혁신과 재정 투입 방향에 맞춰 원내 중증 수술 및 응급진료 시스템의 수가 청구 전략을 정비해야 함.",
-   "의료기관 평가 인증 시 정보보호 지표 반영과 사이버 위협 증가 추세에 대응하여 원내 정보보호 전담 인력과 보안 인프라를 강화해야 함.",
-   "정부의 의료 AI 실증 및 원격중환자실 네트워크 확대 기조에 발맞추어 원내 스마트 병원 기술 도입과 임상 연구 연계를 적극 검토해야 함."
+   "정부의 필수의료 수가 구조 혁신과 중증 수술 수가 인상 기조에 발맞추어 원내 중증·응급 진료 프로세스를 재정비하고 관련 수가 청구 전략을 수립해야 함.",
+   "의료기관 평가 및 인증에 ‘정보보호’ 지표 반영이 검토됨에 따라 원내 사이버 보안 체계와 정보보호 인프라를 선제적으로 강화해야 함.",
+   "정부의 AI 및 디지털헬스케어 실증 연계 정책에 대응하여 원내 임상 데이터 활용과 의료 AI 솔루션 도입을 적극 검토해야 함."
   ],
-  "count": 202,
-  "picks": 22,
+  "count": 189,
+  "picks": 19,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-25 14:31",
-  "sig": "3:1nkfb6l"
+  "generatedAt": "2026-11-26 00:13",
+  "sig": "3:zg2a9e"
  }
 }
