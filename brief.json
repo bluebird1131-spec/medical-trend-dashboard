@@ -2183,91 +2183,80 @@
  "monthly": {
   "date": "2026-11-25",
   "from": "2026-10-27",
-  "headline": "정부가 지역 및 필수의료 강화와 의료 AI·디지털 전환 중심의 건강보험 수가 구조 개편과 제도 정비를 본격화함",
+  "headline": "정부가 지역 및 필수의료 중심의 수가 구조 혁신과 건강보험 보장성 강화를 본격 추진하고 있다.",
   "points": [
    {
     "section": "정책",
-    "title": "지역·필수의료 수가 및 재정 투입",
-    "body": "정부가 내년 1월부터 건강보험 재정 2조 7000억원을 지역·필수의료 인프라에 선투입하고 분만·신생아 분야 지역우대 수가와 중증수술 수가 인상을 추진함.",
+    "title": "지역·필수의료 수가 구조 혁신",
+    "body": "정부는 내년 1월부터 지역 및 필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억 원을 우선 투입하고, 검체검사와 CT·MRI 수가를 조정하여 보상 체계를 전면 개편함 [18, 171].",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
     ]
    },
    {
     "section": "정책",
-    "title": "검체검사 및 진료비 수가 체계 개편",
-    "body": "검체검사 702개 항목 수가 인하와 위·수탁기관 직접 정산체계 도입을 확정하고, 만성질환 관리료 적용 확대 등 건강보험 지출 구조 혁신을 추진함.",
+    "title": "취약계층 의료비 부담 완화",
+    "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하되며, 소아·응급 필수의약품 등이 퇴장방지의약품으로 지정되어 약가가 개선됨 [14, 25].",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942673"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1"
     ]
    },
    {
     "section": "정책",
-    "title": "필수의료 인력 지원 및 수련체계 정비",
-    "body": "국립대병원 전문의 채용 지원 예산 편성, 고위험 분만 인력 인건비 지원 확대 논의와 함께 전공의 정원 배정 및 수련환경 개선 방안이 추진됨.",
+    "title": "공공보건의료 및 인력 지원",
+    "body": "제3차 공공보건의료 기본계획에 따라 국립대병원을 지역 중증·필수의료 거점으로 육성하고, 지방의료원 필수의료 인건비 등을 증액하는 방안이 추진됨 [50, 81].",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료 AI 및 디지털헬스케어 제도화",
-    "body": "의료 AI 보상 체계를 단순 도입 방식에서 환자 성과 중심으로 개편하고, 비대면진료 제도화 고시 제정과 원격중환자실 네트워크 확대를 추진함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
-     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492497&tag=&nPage=1",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "공공보건의료 기본계획 및 전달체계 개편",
-    "body": "제1차 보건의료발전계획 수립과 제3차 공공보건의료 기본계획을 통해 공공병원 별도 수가체계 전환 및 국립대병원 중심의 지역 중증·필수 거점 육성을 추진함.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942573",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
     ]
    },
    {
-    "section": "병원",
-    "title": "첨단 의료장비 도입 및 인프라 확충",
-    "body": "인천세종병원이 다빈치SP 단일공 로봇을 이용한 동시 수술에 성공했으며, 부산대병원은 글로벌 허브 메디컬센터 건립 계획을 공유함.",
+    "section": "정책",
+    "title": "의료 AI 및 디지털헬스 확산",
+    "body": "정부는 환자 성과 중심의 의료 인공지능 보상 체계 개편을 검토하고, 원격중환자실 협력 네트워크 사업을 서울 권역 등으로 확대함 [39, 160].",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942940"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 안전망 및 수사 가이드라인",
+    "body": "경찰청과 보건복지부가 필수의료 분야 의료사고 수사 시 진료 공간 밖에서 우선 압수수색을 진행하는 수사 가이드라인 마련을 추진함 [108].",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044275"
     ]
    },
    {
     "section": "병원",
-    "title": "스마트 병원 시스템 및 AI 활용 확대",
-    "body": "은평성모병원이 RFID 기술을 활용한 가납 의료기기 통합관리시스템을 구축하였고, 삼성서울병원은 AX추진단을 통해 AI 임상연구를 확대로 운영 방향을 발표함.",
+    "title": "특성화센터 및 인프라 확충",
+    "body": "부산대병원이 글로벌 허브 메디컬센터 건립 계획을 공유하고, 세브란스병원이 서울 서북권 권역응급의료센터로 신규 지정되어 개소함 [10, 118].",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "첨단 디지털 장비 도입",
+    "body": "은평성모병원이 가납 의료기기 RFID 통합관리시스템을 구축하고, 건양대병원이 단일공 로봇수술 1000례를 달성함 [57, 98].",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171694"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 수가 구조 개편과 중증 수술 수가 인상 기조에 맞춰 원내 중증진료 및 필수의료 수가 청구 전략을 정비함",
-   "검체검사 위·수탁 직접 정산체계 개편과 진료비 지급 방식 변경에 대응하여 원내 검체검사 프로세스 및 청구 시스템을 점검함",
-   "정부의 의료 AI 및 원격중환자실 확대 정책에 발맞추어 원내 스마트 병원 인프라와 AI 기반 환자 모니터링 시스템 도입을 검토함"
+   "정부의 지역·필수의료 수가 2조 7000억 원 투입 기조에 맞춰 중증·응급 중심의 진료 실적과 환자 성과 관리를 고도화해야 함",
+   "원격중환자실 및 의료 AI 보상 체계 개편에 대응하여 원내 스마트 병원 인프라와 AI 기반 환자 모니터링 시스템을 선제적으로 정비해야 함",
+   "검체검사 수가 인하 및 위·수탁 정산 방식 개편에 따른 재정적 영향을 분석하고 원가 절감 방안을 마련해야 함"
   ],
-  "count": 200,
+  "count": 194,
   "picks": 22,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-25 08:01",
-  "sig": "3:r2591v"
+  "generatedAt": "2026-11-25 11:31",
+  "sig": "3:17razsx"
  }
 }
