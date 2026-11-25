@@ -3,70 +3,46 @@
   {
    "date": "2026-11-25",
    "from": "2026-11-24",
-   "headline": "인천세종병원 단일공 로봇 동시 수술 성공과 복지부의 특수의료장비 규제 개편 검토",
+   "headline": "간호사 교대제 시범사업 성과 및 희귀질환 국가관리 확대·본인부담 인하 정책 동향",
    "points": [
-    {
-     "section": "병원",
-     "title": "단일공 로봇 동시 수술 성공",
-     "body": "인천세종병원이 아시아 최초로 다빈치SP 단일공 로봇을 이용한 직장류수술과 비만대사수술 동시 시행에 성공함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942940"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "특수의료장비 공동활용병상제 폐지 검토",
-     "body": "보건복지부가 CT와 MRI 등 특수의료장비 설치 기준 개선을 위해 공동활용병상제 폐지를 검토함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044847"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "의·한 협진 표준진료 모형 추진",
-     "body": "보건복지부가 의·한 협진 활성화를 위해 질환별 표준진료 모형 개발과 합리적인 협진 수가체계 도입을 추진함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906"
-     ]
-    },
     {
      "section": "정책",
      "title": "간호사 교대제 시범사업 성과",
-     "body": "간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 낮아지고 정부가 본사업 전환을 검토함.",
+     "body": "간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 감소하였으며 정부가 본사업 전환을 검토 중임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
      ]
     },
     {
      "section": "정책",
-     "title": "희귀·중증난치질환 본인부담률 인하",
-     "body": "오는 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
+     "title": "희귀질환 77개 국가관리 지정",
+     "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "희귀·중증난치 본인부담률 인하",
+     "body": "오는 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하될 예정임.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
      ]
     }
    ],
    "implications": [
-    "다빈치SP 단일공 로봇을 활용한 다중 술기 적용 사례를 벤치마킹하여 고난도 로봇 수술 영역 확대를 검토함",
-    "복지부의 특수의료장비 공동활용병상제 폐지 검토 동향에 따른 향후 CT·MRI 등 장비 도입 전략을 점검함"
+    "간호사 교대제 본사업 전환 검토에 따른 원내 근무조 운영 및 인력 배치 방안 점검",
+    "국가관리대상 희귀질환 확대에 따른 관련 질환자 진료 및 등록 관리 체계 정비",
+    "희귀·중증난치질환자 본인부담률 7% 인하 적용에 따른 원무 행정 시스템 사전 준비"
    ],
-   "count": 12,
+   "count": 3,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-25 07:11",
-   "sig": "3:5hbwp9",
+   "generatedAt": "2026-11-25 09:07",
+   "sig": "3:alswlf",
    "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942903",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942906",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492646&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942945",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942940",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942931",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942917",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044847",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
    ]
   },
