@@ -3,46 +3,55 @@
   {
    "date": "2026-11-25",
    "from": "2026-11-24",
-   "headline": "간호사 교대제 시범사업 성과 및 희귀질환 국가관리 확대·본인부담 인하 정책 동향",
+   "headline": "정부의 2027년도 전공의 5대5 배분 추진과 희귀질환 국가관리 확대 등 보건의료 주요 동향",
    "points": [
     {
      "section": "정책",
-     "title": "간호사 교대제 시범사업 성과",
-     "body": "간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 감소하였으며 정부가 본사업 전환을 검토 중임.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "희귀질환 77개 국가관리 지정",
-     "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
+     "title": "국가관리대상 희귀질환 77개 확대",
+     "body": "질병관리청이 '다발-계통 위축' 등을 국가관리대상 희귀질환으로 신규 지정함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825"
      ]
     },
     {
      "section": "정책",
-     "title": "희귀·중증난치 본인부담률 인하",
-     "body": "오는 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하될 예정임.",
+     "title": "간호사 교대제 시범사업 본사업 검토",
+     "body": "간호사 교대제 개선 시범사업 참여 이후 신규 간호사 이직률이 낮아지면서 정부가 본사업 전환을 검토함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "2027년도 전공의 정원 5대5 배분 추진",
+     "body": "보건복지부가 수도권과 비수도권 간 전공의 정원을 5대 5로 배분하는 방안을 추진하면서 의료계 반발이 확산됨.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "희귀·중증난치질환자 본인부담률 인하",
+     "body": "오는 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
      ]
     }
    ],
    "implications": [
-    "간호사 교대제 본사업 전환 검토에 따른 원내 근무조 운영 및 인력 배치 방안 점검",
-    "국가관리대상 희귀질환 확대에 따른 관련 질환자 진료 및 등록 관리 체계 정비",
-    "희귀·중증난치질환자 본인부담률 7% 인하 적용에 따른 원무 행정 시스템 사전 준비"
+    "간호사 교대제 개선 시범사업 성과에 따른 본사업 전환 동향에 맞춘 원내 간호사인력 운영 체계 정비 검토",
+    "2027년도 수도권·비수도권 전공의 5대 5 배분 방침에 따른 진료 및 수련 체계 변화 대응 검토",
+    "질병관리청의 희귀질환 77개 추가 지정 및 본인부담률 7% 인하에 따른 관련 환자 진료 지원 강화 검토"
    ],
-   "count": 3,
+   "count": 4,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-25 09:07",
-   "sig": "3:alswlf",
+   "generatedAt": "2026-11-25 09:20",
+   "sig": "3:11o5h2d",
    "links": [
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
    ]
   },
