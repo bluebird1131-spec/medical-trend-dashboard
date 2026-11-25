@@ -3,70 +3,56 @@
   {
    "date": "2026-11-26",
    "from": "2026-11-25",
-   "headline": "타병원 첨단 장비 도입과 응급의료 및 전공의 수련 관련 정책 개편 동향",
+   "headline": "원주세브란스의 로봇 기관지내시경 도입과 복지부의 응급실 보호 강화 정책 시행",
    "points": [
     {
      "section": "병원",
-     "title": "원주세브란스 로봇 내시경 도입",
-     "body": "연세대 원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 아이온을 도입하여 진료를 개시함.",
+     "title": "로봇 기관지내시경 도입",
+     "body": "연세대 원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 아이온을 도입하고 진료를 개시함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967"
      ]
     },
     {
      "section": "병원",
-     "title": "삼성서울병원 심장뇌혈관 플랫폼",
-     "body": "삼성서울병원이 EMR 기반의 심장·뇌혈관질환 통합 레지스트리 플랫폼을 구축하고 실제 진료 현장에서 운영 가능성을 확인함.",
+     "title": "대구가톨릭대병원 총파업",
+     "body": "대구가톨릭대병원 노조가 8년 만에 총파업에 돌입하여 병원 측이 비상진료체계를 가동함.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942993"
      ]
     },
     {
      "section": "정책",
-     "title": "응급의료 동의 절차 및 보호 강화",
-     "body": "보건복지부가 응급환자 진료 시 보호자가 없거나 동의를 거부해도 다른 의료인 1명 이상의 동의를 받아 처치할 수 있도록 응급의료법 시행규칙을 개정함.",
+     "title": "응급실 폭행 가해자 조치",
+     "body": "보건복지부가 응급실 폭행 가해자의 퇴거 및 출입 제한 조치와 응급진료 기준 명확화를 추진함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492655&tag=&nPage=1",
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "응급환자 진료 동의 간소화",
+     "body": "보건복지부가 보호자가 없거나 동의를 거부하는 응급환자에 대해 다른 의료인 1명 이상의 동의로 응급처치가 가능하도록 응급의료법 시행규칙을 개정함.",
+     "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "의료질평가 및 전공의 관리 강화",
-     "body": "전공의 분리조치 의사를 즉시 확인하지 않은 병원에 대해 보건복지부가 의료질평가 교육수련 영역 등급을 제외한 것이 정당하다는 법원 판결이 나옴.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044861"
      ]
     }
    ],
    "implications": [
-    "원주세브란스기독병원의 로봇 기관지내시경 도입 사례를 참고하여 원내 호흡기 진단 및 첨단 장비 확충 검토",
-    "삼성서울병원의 EMR 기반 심장·뇌혈관질환 통합 레지스트리 플랫폼 구축 사례를 벤치마킹하여 관련 질환 진료정보 통합 시스템 개선 추진",
-    "개정된 응급의료법 시행규칙에 따른 응급환자 동의 절차 및 응급실 폭행 가해자 퇴거·출입 제한 규정을 원내 응급실 운영 지침에 반영"
+    "타 지역 상급종합병원의 첨단 호흡기 진료 장비 도입 동향에 따른 원내 장비 경쟁력 검토",
+    "정부의 응급실 폭행 방지 및 응급진료 기준 강화에 따른 원내 응급실 보안 및 대응 지침 점검",
+    "응급의료법 시행규칙 개정에 따른 원내 응급환자 진료 프로세스 정비"
    ],
-   "count": 17,
+   "count": 4,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-26 06:39",
-   "sig": "3:1p3prcv",
+   "generatedAt": "2026-11-26 08:53",
+   "sig": "3:9wxb0b",
    "links": [
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492655&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942925",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942913",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942951",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942948",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942921",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044861",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492660&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492659&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172132",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942992",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942993",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044899"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
    ]
   },
   {
