@@ -2114,69 +2114,71 @@
  "weekly": {
   "date": "2026-11-25",
   "from": "2026-11-19",
-  "headline": "이번 주 정부 보건의료 정책은 국립의전원, 전공의 배분, 취약계층 수가 개선 및 장기기증 활성화를 중심으로 추진됨.",
+  "headline": "정부가 희귀질환 본인부담 인하와 상급종합병원 지표 개편 등 보건의료 제도 개선을 본격 추진한다.",
   "points": [
    {
     "section": "정책",
-    "title": "국립의전원 설립 및 운영 기준",
-    "body": "정부가 국립의학전문대학원 설립 및 운영에 관한 법률 시행령 제정안을 국무회의에서 의결함. 이를 통해 조직, 운영 및 재정지원 기준이 마련됨.",
+    "title": "희귀질환 관리 및 본인부담 인하",
+    "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정하였으며, 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
     "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492646&tag=&nPage=1"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942916",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
     ]
    },
    {
     "section": "정책",
-    "title": "전공의 수도권·지방 5대 5 배분",
-    "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진함. 이로 인해 부실수련 우려 등 의료계 반발이 확산됨.",
+    "title": "필수·중증의료 수가 및 지원 확대",
+    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 적용받아 12월 등재되며, 중증 당뇨병 환자를 위한 인슐린자동주입기 요양비 보험급여 기준이 개정됨.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "취약계층 및 중증질환 보장 강화",
-    "body": "희귀·중증난치질환자의 건강보험 본인부담률이 7%로 인하되고 국산 첫 CAR-T 치료제 림카토가 12월부터 급여 적용됨. 또한 중증 당뇨병 환자 의료기기 요양비 보험급여 기준 개정안이 발령됨.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
     ]
    },
    {
     "section": "정책",
-    "title": "장기기증 인센티브 및 수가 신설",
-    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상 적정화를 추진함. 나아가 상급종합병원 제7기 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
+    "title": "장기기증 활성화 및 평가 지표 연계",
+    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상을 추진하며, 제7기 상급종합병원 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
     ]
    },
    {
-    "section": "병원",
-    "title": "인천세종병원 단일공 로봇 동시 수술",
-    "body": "인천세종병원이 아시아 최초로 다빈치SP 단일공 로봇을 이용한 직장류수술과 비만대사수술 동시 시행에 성공함. 첨단 로봇수술 영역 확대의 선례를 보여줌.",
+    "section": "정책",
+    "title": "전공의 정원 배분 및 간호사 지원",
+    "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진하며, 간호사 교대제 시범사업의 본사업 전환을 검토함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942940"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
     ]
    },
    {
     "section": "병원",
-    "title": "대구가톨릭의료원 파업 예고",
-    "body": "대구가톨릭대학교의료원이 노사 조정 결렬로 총파업을 예고하며 비상진료체계 가동에 나섬. 병원 현장의 인력 및 노사 갈등 대응 체계 점검이 요구됨.",
+    "title": "대구가톨릭대의료원 파업 예고",
+    "body": "대구가톨릭대학교의료원이 노사 조정 결렬로 총파업을 예고하면서 비상진료체계 가동에 나섬.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "울산대병원 인력 운영 노사 갈등",
+    "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원을 운영하는 인력 통합 운영을 강행한다고 반발하며 결의대회를 개최함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
     ]
    }
   ],
   "implications": [
-   "상급종합병원 제7기 지정평가에 장기기증 면담 연계율 지표 반영 검토에 따라 원내 장기기증 활성화 프로세스 정비",
-   "전공의 5대 5 지역 배분 정책에 대비하여 수련 교육 질 관리 및 비수도권 수련 환경 개선 대책 마련",
-   "희귀·중증난치질환 본인부담률 인하 및 신규 급여 항목(국산 CAR-T 등) 적용에 따른 원내 처방 및 환자 안내 체계 준비"
+   "제7기 상급종합병원 지정평가에 기증 면담 연계율 지표 반영 검토에 따라 원내 장기기증 상담 및 신고 체계를 정비함.",
+   "간호사 교대제 시범사업 성과와 연계하여 원내 간호인력 근무 환경 개선 및 본사업 전환 대비책을 마련함."
   ],
-  "count": 21,
+  "count": 15,
   "picks": 0,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-25 07:11",
-  "sig": "3:9frgi1"
+  "generatedAt": "2026-11-25 10:31",
+  "sig": "3:1rjd0uh"
  },
  "monthly": {
   "date": "2026-11-25",
