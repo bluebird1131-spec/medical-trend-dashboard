@@ -3,12 +3,28 @@
   {
    "date": "2026-11-25",
    "from": "2026-11-24",
-   "headline": "국가관리 희귀질환 확대와 간호사 교대제 시범사업 성과 등 보건의료 동향",
+   "headline": "삼성서울병원 심장·뇌혈관 통합 플랫폼 구축과 정부의 희귀질환 및 응급의료 제도 개편 추진",
    "points": [
     {
+     "section": "병원",
+     "title": "삼성서울병원 통합 플랫폼 구축",
+     "body": "삼성서울병원 심장뇌혈관병원이 EMR 기반의 심장·뇌혈관질환 통합 레지스트리 플랫폼을 구축하고 실제 진료현장에서 운영 가능성을 확인.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853"
+     ]
+    },
+    {
      "section": "정책",
-     "title": "국가관리 희귀질환 77개 신규 지정",
-     "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함에 따라 전체 지정 질환이 1,465개로 확대됨.",
+     "title": "응급의료 동의절차 및 규정 개정",
+     "body": "위급 응급환자에 대한 응급의료 동의 절차 개선과 응급구조사 배치 규정을 담은 응급의료법 시행규칙이 개정·공포됨.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492655&tag=&nPage=1"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "국가관리 희귀질환 77개 추가",
+     "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정하여 총 1465개로 확대됨.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942916"
@@ -16,40 +32,33 @@
     },
     {
      "section": "정책",
-     "title": "희귀·중증난치질환자 본인부담률 인하",
-     "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하 적용될 예정임.",
+     "title": "희귀·중증난치 본인부담률 인하",
+     "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
      ]
-    },
-    {
-     "section": "정책",
-     "title": "간호사 교대제 시범사업 본사업 전환 검토",
-     "body": "간호사 교대제 개선 시범사업 이후 신규 간호사 이직률이 감소함에 따라 정부가 본사업 전환을 검토 중임.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "2027년도 전공의 정원 5대 5 배분 추진",
-     "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진하면서 의료계 반발이 확산됨.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
-     ]
     }
    ],
    "implications": [
-    "국가관리 희귀질환 확대 및 본인부담률 인하에 따른 원내 희귀질환 환자 진료 및 산정특례 안내 체계 정비 검토",
-    "간호사 교대제 시범사업 성과와 연계한 원내 근무환경 개선 및 본사업 전환 대비 검토"
+    "삼성서울병원의 EMR 기반 심장·뇌혈관질환 통합 레지스트리 플랫폼 구축 사례를 벤치마킹하여 원내 중증 질환 진료정보 연계 방안 검토",
+    "오는 12월부터 시행되는 희귀·중증난치질환자 건강보험 본인부담률 인하(10%→7%) 정책에 따른 원내 원무 및 환자 응대 시스템 정비 검토",
+    "개정된 응급의료법 시행규칙에 따른 원내 응급환자 동의 절차 및 응급구조사 배치 현황 점검"
    ],
-   "count": 6,
+   "count": 14,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-25 09:24",
-   "sig": "3:bpvlkt",
+   "generatedAt": "2026-11-25 13:34",
+   "sig": "3:fth3vv",
    "links": [
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492655&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942925",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942913",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942951",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942948",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942921",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044861",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
@@ -2114,12 +2123,12 @@
  "weekly": {
   "date": "2026-11-25",
   "from": "2026-11-19",
-  "headline": "정부가 희귀질환 본인부담 인하와 상급종합병원 지표 개편 등 보건의료 제도 개선을 본격 추진한다.",
+  "headline": "정부가 취약계층 본인부담 완화와 필수의료·응급 관리 체계를 강화하는 가운데, 병원 현장은 수련 및 인력 운영에 대응하고 있음.",
   "points": [
    {
     "section": "정책",
-    "title": "희귀질환 관리 및 본인부담 인하",
-    "body": "질병관리청이 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정하였으며, 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
+    "title": "희귀·중증난치질환 본인부담 인하",
+    "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨. 또한 다발-계통 위축 등 77개 질환이 국가관리대상 희귀질환으로 신규 지정됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
@@ -2129,56 +2138,60 @@
    },
    {
     "section": "정책",
-    "title": "필수·중증의료 수가 및 지원 확대",
-    "body": "국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 적용받아 12월 등재되며, 중증 당뇨병 환자를 위한 인슐린자동주입기 요양비 보험급여 기준이 개정됨.",
+    "title": "응급의료 및 장기기증 체계 개편",
+    "body": "위급 응급환자에 대한 동의 절차 개선과 응급구조사 배치 규정을 담은 응급의료법 시행규칙이 개정됨. 아울러 복지부는 뇌사추정자 상담·신고 수가 신설 및 상급종합병원 지정평가 내 기증 면담 연계율 지표 반영을 검토함.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "장기기증 활성화 및 평가 지표 연계",
-    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설 및 기증자 관리료 보상을 추진하며, 제7기 상급종합병원 지정평가에 기증 면담 연계율 지표 반영을 검토함.",
-    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492655&tag=&nPage=1",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
     ]
    },
    {
     "section": "정책",
-    "title": "전공의 정원 배분 및 간호사 지원",
-    "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진하며, 간호사 교대제 시범사업의 본사업 전환을 검토함.",
+    "title": "전공의 정원 배분 및 수련 관리",
+    "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진하면서 의료계 반발이 확산됨. 법원은 전공의 분리조치 의사를 즉시 확인하지 않은 병원에 대해 의료질평가 교육수련 영역 등급을 제외한 처분이 정당하다고 판결함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044861",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
     ]
    },
    {
-    "section": "병원",
-    "title": "대구가톨릭대의료원 파업 예고",
-    "body": "대구가톨릭대학교의료원이 노사 조정 결렬로 총파업을 예고하면서 비상진료체계 가동에 나섬.",
+    "section": "정책",
+    "title": "권역심뇌혈관센터 재지정 및 급여 확대",
+    "body": "복지부가 전국 14개 권역심뇌혈관질환센터를 재지정하고 3곳을 조건부 재지정함. 국산 첫 CAR-T 치료제 림카토가 건강보험 급여를 적용받고 중증 당뇨병 환자의 인슐린자동주입기 요양비 급여기준이 개정됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "심장·뇌혈관 통합 플랫폼 구축",
+    "body": "삼성서울병원이 EMR 기반의 심장·뇌혈관질환 통합 레지스트리 플랫폼을 구축하고 실제 진료현장에서 운영 가능성을 확인헸음. 이는 심뇌혈관질환 관리 강화 기조에 맞춘 현장 도입 사례임.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853"
     ]
    },
    {
     "section": "병원",
     "title": "울산대병원 인력 운영 노사 갈등",
-    "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원을 운영하는 인력 통합 운영을 강행한다고 반발하며 결의대회를 개최함.",
+    "body": "울산대병원 노조가 흑자 경영에도 최소 인력으로 병원을 운영하는 인력 통합 운영을 강행한다고 반발하며 결의대회를 개최함. 병원 현장의 인력 관리와 노사 소통 필요성이 대두됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044704"
     ]
    }
   ],
   "implications": [
-   "제7기 상급종합병원 지정평가에 기증 면담 연계율 지표 반영 검토에 따라 원내 장기기증 상담 및 신고 체계를 정비함.",
-   "간호사 교대제 시범사업 성과와 연계하여 원내 간호인력 근무 환경 개선 및 본사업 전환 대비책을 마련함."
+   "상급종합병원 제7기 지정평가 지표 반영 검토에 대비하여 뇌사추정자 상담 및 장기·인체조직 기증 면담 연계율 관리 체계를 사전 점검해야 함.",
+   "정부의 2027년도 비수도권 전공의 5대 5 배분 정책과 전공의 수련 환경 평가 기준 강화에 발맞추어 원내 수련 교육 체계를 재정비해야 함.",
+   "권역심뇌혈관질환센터 운영 평가 및 관리 강화 기조에 맞추어 원내 심장·뇌혈관 진료 정보 연계와 실시간 모니터링 시스템을 보완해야 함."
   ],
-  "count": 15,
+  "count": 23,
   "picks": 0,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-25 10:31",
-  "sig": "3:1rjd0uh"
+  "generatedAt": "2026-11-25 13:34",
+  "sig": "3:4utajx"
  },
  "monthly": {
   "date": "2026-11-25",
