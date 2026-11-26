@@ -1,6 +1,70 @@
 {
  "days": [
   {
+   "date": "2026-11-27",
+   "from": "2026-11-26",
+   "headline": "보건의료데이터 활용 가이드라인 개정과 장애인 의료 수가 추진 동향",
+   "points": [
+    {
+     "section": "병원",
+     "title": "안저영상 AI 비급여 진입",
+     "body": "메디웨일의 안저영상 AI 솔루션이 혁신의료기술 비급여 목록에 등재되면서 관련 시장이 확대됨.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942996"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의료데이터 활용 가이드라인 개정",
+     "body": "보건복지부가 정형 의료데이터 가명처리 기준 제시와 외부 위탁 허용 등을 담은 가이드라인을 전부 개정함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "장애인 진료 수가 및 지원 추진",
+     "body": "보건복지부가 발달장애인 의료 접근성 강화를 위한 시설 지원과 건강보험 별도 수가 신설을 검토함.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "AI 관련 규제 및 시험 방지 대책",
+     "body": "식약처가 AI 가짜 전문가 추천 광고를 금지하고, 복지부가 레지던트 필기시험에서 AI 부정행위 차단 조치를 추진함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943008",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998"
+     ]
+    }
+   ],
+   "implications": [
+    "보건의료데이터 활용 가이드라인 개정에 따른 외부 위탁 및 LLM 활용 방안 검토",
+    "안저영상 AI 솔루션의 비급여 시장 진입 동향에 맞춘 원내 도입 검토",
+    "발달장애인 진료 관련 향후 건강보험 수가 신설에 대비한 원내 체계 정비"
+   ],
+   "count": 9,
+   "picks": 0,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-27 00:34",
+   "sig": "3:1a0ucjr",
+   "links": [
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943008",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942997",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942996",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901"
+   ]
+  },
+  {
    "date": "2026-11-26",
    "from": "2026-11-25",
    "headline": "타지역 병원의 첨단장비 및 특성화센터 도입과 복지부의 보건의료데이터 및 수가 제도 개편 동향",
@@ -2008,97 +2072,6 @@
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171459",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044093"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "from": "2026-10-27",
-   "headline": "의료 AI 수가 개편과 고위험분만 인력 지원 추진 속 응급실 압수수색 여파로 의료계 반발 확산",
-   "points": [
-    {
-     "section": "정책",
-     "title": "의료 AI 수가 및 고위험분만 지원",
-     "body": "정부는 의료 AI 제품별 임상 지표 연동 기관 보상 수가 체계를 구체화하고 있으며, 고위험 분만 인력난 해소를 위한 권역모자의료센터 전문간호사 및 PA 인건비 지원 공감을 표명함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "응급실 재실시간 수가 및 국가건강검진",
-     "body": "응급실 재실시간 평가 결과의 건보 수가 연동 제외를 두고 빅5 특혜 논란이 제기되었으며, 국가건강검진 검체검사의 동일 위수탁 개편 추진에 개원가가 반발함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "울산 필수의료 강화 및 ASP 시범사업",
-     "body": "울산시와 울산대병원 등 지역 의료기관이 필수의료 특별회계 신설에 대응해 책임의료기관 역할 구체화를 논의했으며, 질병관리청은 상급종합병원 등 항생제 적정사용 관리 시범사업 3차 연도 참여기관을 공모함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876"
-     ]
-    }
-   ],
-   "implications": [
-    "정부의 의료 AI 제품별 임상 지표 연동 수가 개편안에 맞춰 원내 AI 진단 솔루션의 임상 성과 지표 관리 및 보상 체계 연동 방안 검토",
-    "고위험분만 및 권역모자의료센터 운영과 관련해 전문간호사 및 PA 인건비 정부 지원 확대 정책 동향에 맞춘 인력 운영 전략 수립",
-    "울산시의 필수의료 특별회계 신설 및 책임의료기관 역할 강화 기조에 발맞추어 지역 의료공백 해소 사업 연계 검토"
-   ],
-   "count": 44,
-   "picks": 7,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-28 13:33",
-   "sig": "3:ggvdrc",
-   "links": [
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941826",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171366",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941883",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941876",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492335&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171452",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171447",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171446",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171440",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941966",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941949",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941959",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941465",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941945",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941955",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941944",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941950",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941953",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044070",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044068",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044065",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3043995",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044063",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044058",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044060",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044056",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044052",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044051",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044055",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044045",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044015",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941946",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941940",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941924",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044053",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044050",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171442",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171441",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171439",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171438",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171437"
    ]
   }
  ],
