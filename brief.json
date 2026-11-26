@@ -2083,22 +2083,12 @@
  "weekly": {
   "date": "2026-11-26",
   "from": "2026-11-20",
-  "headline": "정부가 응급의료 동의 간소화와 희귀질환 본인부담 완화 등 제도 개편을 추진함.",
+  "headline": "정부가 희귀·중증질환 보장성을 대폭 강화하고 응급의료 및 장기기증 등 필수의료 제도 정비에 집중하는 흐름.",
   "points": [
    {
     "section": "정책",
-    "title": "응급의료 동의절차 개선",
-    "body": "응급환자 보호자가 없거나 거부할 경우 다른 의료인 1명 이상의 동의로 처치가 가능하도록 응급의료법 시행규칙이 개정됨. 응급실 폭행 가해자 퇴거 및 출입 제한 조치도 함께 추진됨.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492655&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "희귀·중증난치질환자 지원 확대",
-    "body": "12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨. 아울러 질병관리청은 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
+    "title": "희귀·난치질환 보장 확대",
+    "body": "보건복지부가 12월부터 희귀·중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 인하하는 시행령 개정안을 의결함. 질병관리청은 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정해 총 1465개로 확대함.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
@@ -2108,131 +2098,157 @@
    },
    {
     "section": "정책",
-    "title": "전공의 정원 배분 및 수련 관리",
-    "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진함. 전공의 분리조치 이행 여부가 의료질평가 교육수련 영역 등급에 반영됨.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044861",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "장기기증 및 당뇨 환자 지원",
-    "body": "보건복지부가 뇌사추정자 상담·신고 수가 신설 및 상급종합병원 지정평가 내 기증 면담 연계율 지표 반영을 검토함. 중증 당뇨병 환자를 위한 인슐린자동주입기 요양비 보험급여 기준도 개정됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "원주세브란스 로봇 내시경 도입",
-    "body": "연세대 원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 아이온을 도입하고 진료를 시작함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "삼성서울병원 통합 플랫폼 구축",
-    "body": "삼성서울병원 심장뇌혈관병원이 EMR 기반의 심장·뇌혈관질환 통합 레지스트리 플랫폼을 구축하고 실제 진료현장 운영 가능성을 확인함.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853"
-    ]
-   }
-  ],
-  "implications": [
-   "상급종합병원 지정평가 지표 반영 검토에 대비하여 뇌사추정자 상담 및 장기기증 면담 연계 프로세스를 점검함.",
-   "응급의료법 시행규칙 개정에 따라 원내 응급환자 진료 동의 절차 및 응급실 보안·폭행 방지 대책을 정비함."
-  ],
-  "count": 28,
-  "picks": 0,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-26 06:40",
-  "sig": "3:1gngqtv"
- },
- "monthly": {
-  "date": "2026-11-26",
-  "from": "2026-10-28",
-  "headline": "정부가 건강보험 수가 구조 혁신과 필수의료 재정 투입을 본격화하며 의료전달체계 개편을 추진하고 있다",
-  "points": [
-   {
-    "section": "정책",
-    "title": "지역·필수의료 수가 및 재정 선투입",
-    "body": "정부는 내년 1월부터 건강보험 재정 2조 7000억원을 지역 및 필수의료 인프라 강화에 우선 투입하고, 분만·신생아 분야 지역우대 수가와 상급종합병원 중증수술 수가 인상을 추진함.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "검체검사 및 경증 진료 수가 인하",
-    "body": "내년 1월부터 검체검사 702개 항목의 수가를 인하하고 위·수탁기관 직접 정산체계를 도입하는 등 2조 6000억원 규모의 지출 감축을 병행함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "희귀·중증난치질환자 본인부담 완화",
-    "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 인하하고, 신속등재 대상 약제 선정 등을 통해 보장을 확대함.",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492464&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료인력 기준 및 수련제도 개편",
-    "body": "병원급 전체 보건의료인력 적정기준 제도화가 추진되고, 2027년도 전공의 정원 수도권·비수도권 5대5 배정 방안이 추진되면서 의료계 반발이 제기됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "응급실 진료 및 환자 보호 절차 개선",
-    "body": "응급환자 보호자가 없거나 동의를 거부해도 다른 의료인 동의로 응급처치가 가능해지고, 응급실 폭행 가해자 퇴거·출입 제한 등 의료진 보호 조치가 강화됨.",
+    "title": "응급실 진료권·안전 강화",
+    "body": "보건복지부가 보호자가 없거나 동의를 거부해도 다른 의료인 1명 이상 동의 시 응급처치를 허용하는 응급의료법 시행규칙을 개정함. 아울러 응급실 폭행 가해자에 대한 퇴거 및 출입 제한 조치와 응급진료 기준 명확화를 함께 추진함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
     ]
    },
    {
+    "section": "정책",
+    "title": "장기기증 활성화 수가 신설",
+    "body": "보건복지부가 뇌사추정자 상담 및 신고 수가 신설과 기증자 관리료 보상 적정화를 추진함. 향후 제7기 상급종합병원 지정평가 지표에 기증 면담 연계율을 반영하는 방안을 검토 중임.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942805"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "전공의 정원 비수도권 배분",
+    "body": "정부가 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진함. 이에 대해 의료계 일각에서 부실수련 우려 등 반발이 제기됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
+    ]
+   },
+   {
     "section": "병원",
-    "title": "대형병원 첨단 로봇수술 장비 도입",
-    "body": "원주세브란스기독병원이 강원 최초로 로봇 기관지내시경을 도입하는 등 주요 병원들이 첨단 진단 및 수술 장비 도입을 확대함.",
+    "title": "로봇 기관지내시경 도입",
+    "body": "연세대 원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 '아이온'을 도입하고 진료를 개시함. 폐암 등 호흡기 질환 검사의 정밀도 향상을 도모함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967"
     ]
    },
    {
     "section": "병원",
-    "title": "의료 AI 및 데이터 통합 플랫폼 구축",
-    "body": "삼성서울병원이 심장·뇌혈관질환 통합 레지스트리 플랫폼을 구축하고, 양산부산대병원이 PDA 활용 범위를 진료 과정까지 확대하는 등 스마트 병원 전환이 가속화됨.",
+    "title": "대구가톨릭대병원 총파업",
+    "body": "대구가톨릭대학교의료원 노동조합이 노사 조정 결렬로 8년 만에 총파업에 돌입함. 병원 측은 환자 불편과 진료 공백 최소화를 위해 비상진료체계를 가동함.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044853",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044342"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942993",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
     ]
    }
   ],
   "implications": [
-   "정부의 지역·필수의료 수가 2조 7000억원 선투입 및 중증수술 수가 인상 기조에 맞춰 중증·응급 중심의 원내 진료 포트폴리오를 재정비해야 함",
-   "검체검사 수가 인하 및 위·수탁 직접 정산 제도시행에 따른 수익성 변동에 선제적으로 대응해야 함",
-   "전공의 수도권·비수도권 5대 5 배정 방안과 병원급 적정인력기준 제도화에 대비하여 효율적인 인력 운영 전략을 수립해야 함"
+   "12월 시행되는 희귀·중증난치질환 본인부담률 인하(10%→7%) 및 77개 신규 지정 질환에 맞춘 원무 전산·수납 시스템 사전 정비 추진",
+   "보건복지부의 제7기 상급종합병원 지정평가 내 기증 면담 연계율 지표 반영 검토에 대응한 원내 뇌사추정자 발굴 및 상담 연계 프로세스 점검",
+   "응급환자 보호자 동의 부재 시 의료인 동의 기반 처치 개정 규칙 및 응급실 난동 가해자 대응 지침에 맞춘 원내 응급진료·보안 매뉴얼 보완"
   ],
-  "count": 198,
+  "count": 15,
+  "picks": 0,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-26 10:02",
+  "sig": "3:ghqz3f"
+ },
+ "monthly": {
+  "date": "2026-11-26",
+  "from": "2026-10-28",
+  "headline": "정부가 지역 및 필수의료 중심의 건강보험 수가 구조 혁신과 AI·디지털헬스케어 인프라 연계를 가속화하고 있음",
+  "points": [
+   {
+    "section": "정책",
+    "title": "필수의료 중심 수가 구조 대수술",
+    "body": "정부는 검체검사 및 CT·MRI 수가를 조정해 마련한 재정으로 내년 1월부터 지역·필수의료 인프라에 2조7000억원을 우선 투입하고 중증 수술 수가를 인상함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "공공 및 지역의료 인프라 확충",
+    "body": "정부는 제3차 공공보건의료 기본계획과 지역의대 신설을 추진하며 국립대병원과 지방의료원의 진료역량 및 인건비 지원을 확대함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942573",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942295",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044285",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492437&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171609",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942223"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 및 원격중환자실 확대",
+    "body": "보건복지부는 AI 기반 원격중환자실 협력 네트워크를 서울 권역 등으로 확대하고 환자 성과 중심의 의료 AI 보상체계 개편을 검토함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171951",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171929",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942016",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "환자 안전 및 취약계층 지원 강화",
+    "body": "응급실 폭행 방지 및 수사 가이드라인이 마련되는 한편, 오는 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044291",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171618",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942230",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "보건의료인력 및 시험 관리 강화",
+    "body": "병원급 전체 보건의료인력 적정기준 제도화가 추진되고 국가시험에서 AI 스마트안경 등 첨단기기 부정행위 방지 감독이 강화됨.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "첨단 로봇수술 장비 도입 확산",
+    "body": "원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경을 도입하는 등 주요 병원들의 첨단 의료장비 도입이 이어짐.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "스마트 병원 인프라 고도화",
+    "body": "은평성모병원이 국내 의료기관 최초로 RFID 기반 가납 의료기기 통합관리시스템을 구축하며 운영 효율화를 도모함.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759"
+    ]
+   }
+  ],
+  "implications": [
+   "내년 1월부터 시행되는 검체검사 및 영상수가 인하에 대응하여 병원 내 원가 절감 및 진료 수익 구조 재편 방안 마련",
+   "정부의 지역·필수의료 수가 인상 및 중증 수술 보상 강화 기조에 맞춘 중증·응급 중심의 진료 역량 집중",
+   "정부의 원격중환자실 및 의료 AI 보상체계 개편에 발맞춘 원내 디지털헬스케어 기술 실증 및 인프라 연계 검토"
+  ],
+  "count": 185,
   "picks": 19,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-26 06:41",
-  "sig": "3:11qilqz"
+  "generatedAt": "2026-11-26 10:03",
+  "sig": "3:1yt7brp"
  }
 }
