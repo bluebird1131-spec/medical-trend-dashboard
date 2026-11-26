@@ -3,56 +3,78 @@
   {
    "date": "2026-11-26",
    "from": "2026-11-25",
-   "headline": "원주세브란스의 로봇 기관지내시경 도입과 복지부의 응급실 보호 강화 정책 시행",
+   "headline": "타지역 병원의 첨단장비 및 특성화센터 도입과 복지부의 보건의료데이터 및 수가 제도 개편 동향",
    "points": [
     {
      "section": "병원",
-     "title": "로봇 기관지내시경 도입",
-     "body": "연세대 원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 아이온을 도입하고 진료를 개시함.",
+     "title": "원주세브란스 로봇 기관지내시경 도입",
+     "body": "연세대 원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경을 도입하여 진료를 개시함.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967"
      ]
     },
     {
      "section": "병원",
-     "title": "대구가톨릭대병원 총파업",
-     "body": "대구가톨릭대병원 노조가 8년 만에 총파업에 돌입하여 병원 측이 비상진료체계를 가동함.",
+     "title": "이대목동병원 PTSD 통합치료센터 개소",
+     "body": "이대목동병원이 심리, 약물, 뇌신경 조절 치료를 아우르는 국내 최초 PTSD 전문 통합치료센터를 개소함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942993"
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144"
      ]
     },
     {
      "section": "정책",
-     "title": "응급실 폭행 가해자 조치",
-     "body": "보건복지부가 응급실 폭행 가해자의 퇴거 및 출입 제한 조치와 응급진료 기준 명확화를 추진함.",
+     "title": "보건의료데이터 활용 가이드라인 전면 개정",
+     "body": "보건복지부가 정형 의료데이터 가명처리 기준 제시와 외부 위탁 길을 여는 가이드라인 전부개정안을 발표함.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915"
      ]
     },
     {
      "section": "정책",
-     "title": "응급환자 진료 동의 간소화",
-     "body": "보건복지부가 보호자가 없거나 동의를 거부하는 응급환자에 대해 다른 의료인 1명 이상의 동의로 응급처치가 가능하도록 응급의료법 시행규칙을 개정함.",
+     "title": "발달장애인 진료 건강보험 수가 신설 추진",
+     "body": "보건복지부가 발달장애인 의료접근성 강화를 위해 거점병원 확대 및 별도 수가 마련을 추진함.",
      "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "응급의료 진료 기준 및 환자 보호 강화",
+     "body": "보건복지부가 보호자 동의 없는 응급처치 허용 및 응급실 폭행 가해자 퇴거·출입 제한 조치를 추진함.",
+     "links": [
+      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
      ]
     }
    ],
    "implications": [
-    "타 지역 상급종합병원의 첨단 호흡기 진료 장비 도입 동향에 따른 원내 장비 경쟁력 검토",
-    "정부의 응급실 폭행 방지 및 응급진료 기준 강화에 따른 원내 응급실 보안 및 대응 지침 점검",
-    "응급의료법 시행규칙 개정에 따른 원내 응급환자 진료 프로세스 정비"
+    "원주세브란스기독병원의 로봇 기관지내시경 도입 사례를 참고하여 호흡기 진료 분야 첨단 장비 확충 검토",
+    "이대목동병원의 PTSD 전문 통합치료센터 운영 모델을 벤치마킹하여 원내 특성화 정신건강 인프라 구축 검토",
+    "보건의료데이터 활용 가이드라인 개정에 발맞추어 원내 의료데이터의 가명처리 외부 위탁 및 AI 활용 방안 점검"
    ],
-   "count": 4,
+   "count": 14,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-26 08:53",
-   "sig": "3:9wxb0b",
+   "generatedAt": "2026-11-26 14:05",
+   "sig": "3:1o0p8gw",
    "links": [
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943008",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942997",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942996",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942993",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971",
+    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144"
    ]
   },
   {
