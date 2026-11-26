@@ -3,55 +3,55 @@
   {
    "date": "2026-11-27",
    "from": "2026-11-26",
-   "headline": "보건의료데이터 활용 가이드라인 개정과 장애인 의료 수가 추진 동향",
+   "headline": "보건의료데이터 활용 기준 개정과 심평원 수가 개편 및 울산대병원 인력 관련 동향 발생",
    "points": [
     {
      "section": "병원",
-     "title": "안저영상 AI 비급여 진입",
-     "body": "메디웨일의 안저영상 AI 솔루션이 혁신의료기술 비급여 목록에 등재되면서 관련 시장이 확대됨.",
+     "title": "울산대병원 보조인력 운영 갈등",
+     "body": "울산대병원이 간호·간병통합서비스 병동 축소 및 보조인력 운영 방식 변경을 추진하는 가운데, 전공의들이 인력구조조정 중단을 촉구함.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044934"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "안저영상 AI 비급여 시장 확대",
+     "body": "메디웨일의 안저영상 AI 솔루션이 혁신의료기술 비급여 목록에 임상등재되며 안저영상 AI 시장이 3파전으로 확대됨.",
      "links": [
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942996"
      ]
     },
     {
      "section": "정책",
-     "title": "의료데이터 활용 가이드라인 개정",
-     "body": "보건복지부가 정형 의료데이터 가명처리 기준 제시와 외부 위탁 허용 등을 담은 가이드라인을 전부 개정함.",
+     "title": "보건의료데이터 활용 가이드라인 개정",
+     "body": "보건복지부가 정형 의료데이터 가명처리 기준 제시와 외부 위탁 길을 열고 LLM 활용 기준을 담은 보건의료데이터 활용 가이드라인 전부개정안을 발표함.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017"
      ]
     },
     {
      "section": "정책",
-     "title": "장애인 진료 수가 및 지원 추진",
-     "body": "보건복지부가 발달장애인 의료 접근성 강화를 위한 시설 지원과 건강보험 별도 수가 신설을 검토함.",
+     "title": "건강보험 수가 및 비급여 관리 개편",
+     "body": "건강보험심사평가원이 과보상된 검체·특수영상 수가를 인하하고 지역·필수의료 수가를 인상하는 수가 개편을 추진하며, 복지부가 2027년 비급여 가격 공개 항목을 896개로 확대할 예정임.",
      "links": [
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "AI 관련 규제 및 시험 방지 대책",
-     "body": "식약처가 AI 가짜 전문가 추천 광고를 금지하고, 복지부가 레지던트 필기시험에서 AI 부정행위 차단 조치를 추진함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943008",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492680&tag=&nPage=1",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943030",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985"
      ]
     }
    ],
    "implications": [
-    "보건의료데이터 활용 가이드라인 개정에 따른 외부 위탁 및 LLM 활용 방안 검토",
-    "안저영상 AI 솔루션의 비급여 시장 진입 동향에 맞춘 원내 도입 검토",
-    "발달장애인 진료 관련 향후 건강보험 수가 신설에 대비한 원내 체계 정비"
+    "울산대병원 내 간호·간병통합서비스 병동 및 보조인력 운영 방식 변경과 관련한 내부 갈등 해소 방안 검토",
+    "보건의료데이터 활용 가이드라인 개정에 따른 의료데이터 가명처리 외부 위탁 및 AI 기반 환자 정보 보호 기준 정비 검토",
+    "심평원의 검체·특수영상 수가 인하 및 지역·필수의료 수가 인상 기조에 따른 병원 차원의 재정 및 진료 포트폴리오 대응 검토"
    ],
-   "count": 9,
+   "count": 16,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-27 00:34",
-   "sig": "3:1a0ucjr",
+   "generatedAt": "2026-11-27 06:41",
+   "sig": "3:t66y96",
    "links": [
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
@@ -61,7 +61,14 @@
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942996",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492680&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492674&tag=&nPage=1",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492671&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943030",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044934"
    ]
   },
   {
@@ -2078,138 +2085,58 @@
  "weekly": {
   "date": "2026-11-27",
   "from": "2026-11-21",
-  "headline": "보건복지부와 질병관리청은 희귀질환 보장 강화, 장애인 수가 및 응급의료·데이터 활용 제도를 집중 추진함.",
+  "headline": "정부가 수가 체계 개편과 비급여 관리를 강화하고 필수 및 지역의료 지원 대책을 추진함",
   "points": [
    {
     "section": "정책",
-    "title": "희귀·중증난치 본인부담 인하",
-    "body": "오는 12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨. 또한 질병관리청은 다발-계통 위축 등 77개 질환을 국가관리대상 희귀질환으로 신규 지정함.",
+    "title": "수가 체계 개편 및 본인부담 인하",
+    "body": "건강보험심사평가원이 검체 및 특수영상 수가를 인하하고 지역 및 필수의료 수가를 인상하는 수가 개편을 추진함. 12월부터는 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하됨.",
     "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942916",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824"
     ]
    },
    {
     "section": "정책",
-    "title": "장애인 및 응급의료 수가·제도",
-    "body": "보건복지부는 발달장애인 진료 보상을 위한 건강보험 수가 신설과 거점병원 확대를 추진함. 아울러 보호자 동의가 없거나 거부해도 타 의료인 동의로 응급처치가 가능하도록 응급의료법 시행규칙을 개정함.",
+    "title": "비급여 보고 및 가격 공개 확대",
+    "body": "보건복지부가 비급여관리정책협의체를 개최하고 2027년 비급여 가격 공개 항목을 896개로 확대할 예정임. 국산 첫 CAR-T 치료제 림카토의 건강보험 급여 등재와 인슐린자동주입기 요양비 급여기준 개정도 추진됨.",
     "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492680&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943030",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172054",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942840"
     ]
    },
    {
     "section": "정책",
-    "title": "보건의료데이터 가이드라인 개정",
-    "body": "보건복지부와 한국보건의료정보원은 정형 의료데이터 가명처리 외부 위탁 길을 열고 LLM 등 AI 활용 기준을 담은 가이드라인을 전부 개정함. 식약처는 AI 가짜 전문가 추천 광고를 금지하는 시행규칙을 시행함.",
+    "title": "의료데이터 가이드라인 전면 개정",
+    "body": "보건복지부와 한국보건의료정보원이 보건의료데이터 활용 가이드라인을 전부 개정하여 가명처리 외부 위탁 길을 열고 위험도에 따른 심의 차등화를 도입함. 식약처는 AI를 활용한 가짜 전문가 추천 광고를 금지하는 시행규칙을 시행함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943008",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "전공의 배분 및 시험 대책",
-    "body": "정부는 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 추진함. 보건복지부는 12월 레지던트 1년차 필기시험에서 AI 부정행위를 차단하기 위해 전파탐지기 동원 및 앞치마 착용 조치를 추진함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "원주세브란스 로봇내시경 도입",
-    "body": "연세대 원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 아이온을 도입하고 진료를 시작함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "이대목동 PTSD 센터 개소",
-    "body": "이대목동병원이 국내 최초로 PTSD 환자 대상 심리치료, 약물치료, 뇌신경 조절 치료를 아우르는 전문 통합치료센터를 개소함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144"
-    ]
-   }
-  ],
-  "implications": [
-   "보건의료데이터 활용 가이드라인 개정에 발맞춰 원내 의료데이터의 안전한 가명처리 및 외부 위탁·AI(LLM) 활용 거버넌스 정비 검토",
-   "발달장애인 진료 수가 신설 및 장애인 의료이용 지원 정책에 연계하여 원내 관련 인프라 및 진료 프로세스 점검",
-   "희귀·중증난치질환자 본인부담률 7% 인하 및 국가관리 희귀질환 확대에 따른 원내 환자 원무·청구 시스템 사전 적용 준비"
-  ],
-  "count": 24,
-  "picks": 0,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-27 00:12",
-  "sig": "3:1gb5cj4"
- },
- "monthly": {
-  "date": "2026-11-27",
-  "from": "2026-10-29",
-  "headline": "정부는 필수의료 보상 강화와 의료 AI·데이터 활용 제도 정비를 통해 보건의료체계의 구조적 혁신을 가속화하고 있음",
-  "points": [
-   {
-    "section": "정책",
-    "title": "수가 구조 개편 및 필수의료 보상 강화",
-    "body": "정부는 건정심 의결에 따라 검체검사 수가를 인하하는 등 재원을 재조정하여 필수의료 보상 강화와 과보상 영역 조정을 추진하고 있음. 총 4건의 관련 정책 발표를 통해 진료량 중심에서 환자 성과와 필수의료 중심으로 수가 체계를 개편하고 있음",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "보건의료데이터 가이드라인 개정 및 AI 활용 제도화",
-    "body": "보건복지부는 정형 의료데이터 가명처리 외부 위탁 길을 열고 LLM 활용 기준을 신설하는 가이드라인 전부개정안을 발표함. 총 3건의 발표를 통해 AI 시대에 맞추어 보건의료데이터의 안전한 활용과 민간 투자 연계를 지원하고 있음",
-    "links": [
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017"
     ]
    },
    {
     "section": "정책",
-    "title": "취약계층 의료 지원 및 본인부담률 인하",
-    "body": "정부는 희귀 및 중증난치질환자의 건강보험 본인부담률을 10%에서 7%로 인하하고, 발달장애인 의료 접근성 강화를 위한 별도 수가 신설을 추진함. 총 4건의 정책을 통해 취약계층의 의료비 부담을 낮추고 의료 이용 지원을 확대하고 있음",
+    "title": "필수·응급의료 및 취약계층 보상",
+    "body": "보건복지부가 응급실 폭행 가해자 퇴거 조치와 보호자 동의 없는 응급처치 허용 등 응급의료법 시행규칙을 개정함. 아울러 발달장애인 진료를 위한 거점병원 확대와 별도 수가 마련, 질병관리청의 희귀질환 77개 추가지정을 추진함.",
     "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료인력 적정기준 제도화 및 수련 체계 개편",
-    "body": "국회와 정부는 병원급 전 보건의료인력의 적정기준 제도화 법안을 추진하고, 2027년도 전공의 정원을 수도권과 비수도권에 5대 5로 배분하는 방안을 검토함. 총 3건의 관련 동향에서 의료인력 배치 기준과 수련 환경 정비가 추진되고 있음",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "응급의료 체계 정비 및 안전망 강화",
-    "body": "정부는 응급환자 진료 시 다른 의료인 1명 이상의 동의로 응급처치를 허용하고, 응급실 폭행 가해자 퇴거 등 현장 보호 조치를 명확히 함. 총 3건의 발표를 통해 응급의료 현장의 법적 부담을 완화하고 대응 체계를 정비하고 있음",
-    "links": [
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942916"
     ]
    },
    {
     "section": "병원",
     "title": "타지역 병원 첨단 장비 및 센터 도입",
-    "body": "원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경을 도입했으며, 이대목동병원이 국내 최초로 PTSD 전문 통합치료센터를 개소함. 두 병원은 첨단 진료 장비 확충과 전문화된 특성화 센터 운영을 통해 임상 역량을 강화하고 있음",
+    "body": "원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 아이온을 도입하여 진료를 시작함. 이대목동병원은 국내 최초로 PTSD 환자를 위한 전문 통합치료센터를 개소함.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144"
@@ -2217,23 +2144,109 @@
    },
    {
     "section": "병원",
-    "title": "주요 병원 중증진료 강화 및 연구 혁신",
-    "body": "삼성서울병원은 중증·난치질환 치료 역량 강화와 AX추진단을 통한 AI 임상연구 확대를 핵심 운영 방향으로 발표함. 부산대병원은 개원 70주년을 맞아 글로벌 허브 메디컬센터 건립 계획을 공유하며 발전 전략을 추진함",
+    "title": "울산대병원 인력 운영 갈등 발생",
+    "body": "울산대병원이 간호·간병통합서비스 병동 축소 및 보조인력 운영 방식 변경을 추진하는 가운데 전공의들이 인력구조조정 중단을 촉구함. 대구가톨릭대병원도 노사 조정 결렬로 총파업에 돌입하여 비상진료체계를 가동함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044934",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942993",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172082"
+    ]
+   }
+  ],
+  "implications": [
+   "정부의 검체·특수영상 수가 인하와 지역·필수의료 수가 인상 기조에 맞춰 원내 진료과별 수익 구조 변화를 분석하고 대비해야 함.",
+   "2027년 비급여 가격 공개 항목 확대에 선제적으로 대응하여 원내 비급여 가격 관리 체계를 재정비해야 함.",
+   "보건의료데이터 활용 가이드라인 개정에 발맞추어 병원 보유 의료데이터의 가명처리 외부 위탁 및 AI 연구 활용 절차를 검토해야 함."
+  ],
+  "count": 31,
+  "picks": 0,
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-27 06:42",
+  "sig": "3:1qctvm3"
+ },
+ "monthly": {
+  "date": "2026-11-27",
+  "from": "2026-10-29",
+  "headline": "정부가 필수의료 보상 강화와 의료 AI·데이터 활용 제도 정비를 본격화함",
+  "points": [
+   {
+    "section": "정책",
+    "title": "수가 체계 개편과 필수의료 보상",
+    "body": "정부는 검체검사 등 과보상 영역의 수가를 인하하는 반면, 지역·필수의료 및 중증난치질환 환자 본인부담률 인하 등 보상 체계를 개편함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료전달체계 및 인력 기준 강화",
+    "body": "상급종합병원 구조전환과 함께 국립대병원 채용 지원, 지방의료원 예산 증액, 병원급 전 의료인력 적정기준 제도화를 추진함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942573",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "보건의료데이터 및 AI 제도 정비",
+    "body": "복지부가 보건의료데이터 활용 가이드라인을 전면 개정하여 가명처리 외부 위탁 길을 열고 LLM 및 AI 활용 기준을 신설함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "응급·필수의료 안전망 및 수사 지침",
+    "body": "경찰청과 복지부가 필수의료 분야 수사 시 진료공간 밖에서 우선 압수수색을 진행하는 수사 가이드라인 마련을 추진함.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492425&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171601"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "비대면진료 제도화 및 관리 강화",
+    "body": "복지부가 비대면진료 실시 및 관리에 관한 고시 제정안을 행정예고하고 12월 정식 시행에 따른 처방 제한과 보고 기준을 마련함.",
+    "links": [
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171861",
+     "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492497&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "첨단 의료장비 도입 및 인프라 확충",
+    "body": "원주세브란스기독병원이 강원 최초로 로봇 기관지내시경을 도입하는 등 주요 병원들이 첨단 장비와 특성화 센터를 확충함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "디지털 혁신 및 AI 진료 적용",
+    "body": "삼성서울병원과 해운대백병원 등이 AI 임상연구 확대와 업무 분장 혼선 해소를 위한 AI 챗봇 도입 등 디지털 혁신을 추진함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044422",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171694"
     ]
    }
   ],
   "implications": [
-   "정부의 수가 구조 개편과 필수의료 보상 강화 기조에 맞추어 울산대학교병원의 중증·응급 중심 진료 실적과 성과 지표 관리 체계를 정비함",
-   "개정된 보건의료데이터 가이드라인에 발맞춰 원내 의료데이터의 가명처리 및 안전한 외부 활용, AI 기반 임상 연구 인프라를 점검함",
-   "병원급 의료인력 적정기준 제도화 및 전공의 배분 정책 변화에 대응하여 원내 간호인력 및 필수진료과 전문의 수급·관리 계획을 재검토함"
+   "정부의 검체검사 수가 인하 및 수가 구조 혁신 기조에 맞춰 병원 내 검사 파트 수익성 변동에 대비한 원가 절감 방안을 검토함.",
+   "전면 개정된 보건의료데이터 가이드라인에 발맞추어 원내 LLM 및 의료 AI 활용 시 환자 정보 보호 및 서버 운영 기준을 엄격히 준수함.",
+   "응급실 및 필수의료 분야 수사 가이드라인 시행에 발맞추어 원내 응급의료 센터의 법적 대응 체계와 안전 매뉴얼을 재정비함."
   ],
-  "count": 184,
+  "count": 191,
   "picks": 16,
   "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-27 00:15",
-  "sig": "3:1ttvmr5"
+  "generatedAt": "2026-11-27 06:42",
+  "sig": "3:jtpaqm"
  }
 }
