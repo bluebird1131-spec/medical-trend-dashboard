@@ -1,6 +1,62 @@
 {
  "days": [
   {
+   "date": "2026-11-28",
+   "from": "2026-11-27",
+   "headline": "복지부의 공공정책급여 입법예고 및 심평원의 제약사 지원 내역 확인 서비스 제공 동향",
+   "points": [
+    {
+     "section": "병원",
+     "title": "제약사 경제적 이익 내역 확인",
+     "body": "건강보험심사평가원이 제약사 등이 의료기관에 제공한 경제적 이익 내역을 의료기관이 직접 대조하고 확인할 수 있는 서비스를 제공함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943042"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "공공정책급여 신설 및 본인부담 면제",
+     "body": "보건복지부가 필수진료체계 유지를 위한 공공정책급여를 도입하고 지역 가산분 본인부담을 면제하는 국민건강보험법 하위법령 개정안을 입법예고함.",
+     "links": [
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "의사국시 시험장 부정행위 차단 강화",
+     "body": "한국보건의료인국가시험원이 컴퓨터시험(CBT) 대상 휴대전화 회수 및 소지품 관리 등 부정행위 방지 조치를 강화함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943038"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "혁신형 제약기업 인증 발표 임박",
+     "body": "혁신형 제약기업 신규 인증 심사가 완료되어 12월 중 보건복지부에서 최종 발표될 예정임.",
+     "links": [
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044941"
+     ]
+    }
+   ],
+   "implications": [
+    "공공정책급여 신설 및 지역 가산분 본인부담 면제 개정안에 따른 원내 수가 및 진료비 청구 체계 정비 검토",
+    "심평원의 제약사 제공 경제적 이익 내역 직접 확인 서비스 도입에 따른 원내 관리 프로세스 점검"
+   ],
+   "count": 5,
+   "picks": 0,
+   "model": "gemini-flash-lite-latest",
+   "generatedAt": "2026-11-28 00:15",
+   "sig": "3:k7zz95",
+   "links": [
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943042",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943038",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044941"
+   ]
+  },
+  {
    "date": "2026-11-27",
    "from": "2026-11-26",
    "headline": "정부의 공공정책급여 도입 등 필수의료 중심 수가 개편과 지역 의료체계 유지 방안 발표",
@@ -1970,106 +2026,6 @@
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171492",
     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171490"
    ]
-  },
-  {
-   "date": "2026-10-29",
-   "from": "2026-10-28",
-   "headline": "보건복지부가 내년 1월부터 지역·필수의료에 2조 7000억원을 투입하고 검체검사 및 수가 체계 전면 개편을 추진함.",
-   "points": [
-    {
-     "section": "병원",
-     "title": "하이브리드 뇌동맥류 치료",
-     "body": "서울성모병원이 뇌동맥류 치료에서 개두술과 혈관 내 시술을 결합한 하이브리드 치료를 적극 도입함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941894"
-     ]
-    },
-    {
-     "section": "병원",
-     "title": "생체 간 공여자 로봇수술법",
-     "body": "삼성서울병원 의료진이 주도하여 생체 간 공여자 복강경 및 로봇 수술법에 대한 첫 국제 합의문을 마련함.",
-     "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044108"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "지역·필수의료 2.7조원 先투입",
-     "body": "정부가 건정심에서 내년 1월부터 지역·필수의료 인프라 강화를 위해 건강보험 재정 2조 7000억원을 투입하고 분만·신생아 분야 지역우대 수가를 적용하기로 함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "검체검사 지급체계 개편",
-     "body": "복지부가 내년 1월부터 검체검사 702개 항목의 수가를 인하하고, 건강보험공단이 위·수탁기관에 직접 지급하는 구분 지급 방식을 도입함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "원격중환자실 네트워크 확대",
-     "body": "보건복지부가 거점병원과 지역 협력병원을 연계하는 원격중환자실 협력 네트워크 사업을 기존 강원·충북에 이어 서울 권역까지 확대함.",
-     "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102"
-     ]
-    }
-   ],
-   "implications": [
-    "내년 1월부터 시행되는 지역·필수의료 수가 인상 및 중증 수술·시술수가 20% 인상 기조에 맞춰 원내 관련 진료과의 수가 청구 및 수익성 분석을 선제적으로 검토함.",
-    "검체검사 수가 인하 및 건공단의 직접 정산 체계 개편에 대응하여 원내 진단검사의학과와 수탁 기관 간의 업무 프로세스 점검을 추진함."
-   ],
-   "count": 37,
-   "picks": 6,
-   "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-10-29 13:40",
-   "sig": "3:bbak0l",
-   "links": [
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941991",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941994",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044079",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044020",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044018",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941925",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492353&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492351&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492350&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492345&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942015",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941771",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942003",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941993",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942000",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941894",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941901",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941999",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044108",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044104",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044109",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044105",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044102",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044106",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044047",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044074",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941944",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492342&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492341&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171460",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044077",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044078",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171469",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171459",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044093"
-   ]
   }
  ],
  "weekly": {
@@ -2136,94 +2092,101 @@
   "sig": "3:s6zu7s"
  },
  "monthly": {
-  "date": "2026-11-27",
-  "from": "2026-10-29",
-  "headline": "정부가 수가 구조 개편과 필수의료 보상 강화에 주력하며 의료전달체계의 전면적인 변화를 추진하고 있다.",
+  "date": "2026-11-28",
+  "from": "2026-10-30",
+  "headline": "정부가 첫 보건의료발전계획을 앞두고 필수의료 보상 강화와 행위량 탈피 수가 개편을 본격화하며 지역완결 의료망 구축에 집중하는 추세임.",
   "points": [
    {
     "section": "정책",
-    "title": "수가 체계의 혁신과 필수의료 보상",
-    "body": "복지부가 검체검사 수가 인하 등 과보상 영역을 조정하고 환자 성과와 필수의료 중심의 보상 강화를 정례화함.",
+    "title": "가치기반 수가 전환 및 필수의료 보상 체계 개편",
+    "body": "정부가 26년 만에 보건의료발전계획 수립을 추진하는 가운데 검체·영상 등 과보상 영역을 낮추고 필수·공공 진료를 우대하는 가치기반 수가 구조 혁신을 가속화함. 소아·응급 퇴장방지의약품 약가 개선과 더불어 진료량 중심에서 벗어난 공공정책급여 및 성과 보상 도입을 입법예고함.",
     "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171475",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "공공정책급여 도입과 지역완결 의료",
-    "body": "필수진료체계 유지를 위한 공공정책급여 신설과 함께 권역심뇌혈관질환센터 재지정 및 지역 가산분 본인부담 면제를 추진함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942375",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171523"
     ]
    },
    {
     "section": "정책",
-    "title": "의료인력 기준 강화 및 수련 체계 개편",
-    "body": "병원급 전 보건의료인력 적정기준 제도화 추진과 함께 수도권·비수도권 전공의 정원 배정 방식이 논의됨.",
+    "title": "병원급 의료인력 기준 법제화 및 자격 관리 강화",
+    "body": "국회와 정부가 간호사에 이어 병원급 전 보건의료인력에 대한 적정 배치 기준 마련과 접수·진료실 내 전문의·일반의 구분 표시 의무화를 추진 중임. 국립대병원 필수의료 전문의 채용 지원 예산 편성과 함께 첨단 AI 기기를 활용한 국시 부정행위 감독 통제도 대폭 강화하는 추세임.",
     "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942390",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943038",
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171735"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
     ]
    },
    {
     "section": "정책",
-    "title": "의료 AI 및 데이터 활용 제도 정비",
-    "body": "질병청의 건강도우미 챗봇 개방과 함께 환자 의료정보 활용 LLM의 국내 서버 운영 등 데이터 활용 가이드라인이 개정됨.",
+    "title": "지역완결형 전달체계 연계 및 질환 관리 통합",
+    "body": "보훈병원과 지역 필수의료기관을 묶는 보훈 생활권 책임 네트워크 제안 등 공공·지역완결 의료망 구축 논의가 본격화됨. 분절 운영되던 만성질환 관리사업의 통합 연계 개편을 검토하며 지자체 주도 의료공백 해소와 권역 거점병원 육성 방안을 지속 구체화함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941976",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942171"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942375",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942350",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044386",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
     ]
    },
    {
     "section": "정책",
-    "title": "취약계층 의료비 부담 완화 및 안전망",
-    "body": "희귀·중증난치질환자의 건강보험 본인부담률 인하와 소아·응급 필수의약품의 퇴장방지약 지정 및 약가 개선이 시행됨.",
+    "title": "의료기관 인증 내 정보보호 신설 및 급여재정 대응",
+    "body": "랜섬웨어 등 사이버 위협에 대응해 정부가 의료기관 평가·인증 항목에 정보보호 지표 반영을 검토하고 민관 협의체를 가동함. 한편 의료급여 수급자 증가로 발생한 9000억원 규모의 진료비 지급 지연 우려에 대해 예비비 편성 및 긴급 재원 확보에 착수함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044824",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492435&tag=&nPage=1"
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942576",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942187",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941612"
     ]
    },
    {
     "section": "병원",
-    "title": "첨단 장비 도입과 특성화센터 개소",
-    "body": "원주세브란스기독병원이 강원 최초로 로봇 기관지내시경을 도입하고, 이대목동병원이 국내 첫 PTSD 전문 통합치료센터를 개소함.",
+    "title": "상급종합병원의 연구 부속병원화 및 인프라 대형화",
+    "body": "강북삼성병원이 연구 역량 확대를 위해 성균관대 부속병원 전환을 검토하고 부산대병원이 개원 70주년을 맞아 글로벌 허브 메디컬센터 건립 계획을 발표함. 전남대병원 역시 단일 통합동 신축으로 건립 방식을 변경하는 등 지역 거점 대형병원들의 인프라 재편이 활발함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942380",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171870"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "전문 질환 센터 개소 및 첨단 단일공 수술로봇 확산",
+    "body": "이대목동병원의 PTSD 전문 통합치료센터 개소 및 세브란스병원의 서북권 권역응급의료센터 신규 가동 등 특성화 센터 확충이 이어짐. 건양대병원과 국제성모병원의 단일공 로봇수술 1000례 달성을 비롯해 로봇 기관지내시경 등 신기종 첨단 장비 도입이 전국적으로 확산됨.",
     "links": [
      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "진료 역량 강화와 스마트 병원 전환",
-    "body": "부산대병원이 글로벌 허브 메디컬센터 건립 계획을 공유하고, 은평성모병원이 RFID 기반 의료기기 통합관리시스템을 구축함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171759"
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171573",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171560"
     ]
    }
   ],
   "implications": [
-   "정부의 수가 구조 개편과 필수의료 보상 강화 기조에 맞춰 중증·응급 중심의 진료 포트폴리오 재편 검토",
-   "병원급 적정인력기준 제도화 및 의료인력 운영 정책 변화에 선제적으로 대응하기 위한 인력 관리 체계 점검",
-   "환자 의료정보 활용 LLM 국내 서버 운영 원칙 및 의료 AI 관련 데이터 가이드라인 준수 체계 정비"
+   "검체·영상 검사 수가 인하 및 중증·필수의료·공공정책급여 확대에 대응한 진료과별 수익성 시뮬레이션 및 중증 진료 중심 운영 구조 고도화 추진",
+   "병원급 전 보건의료인력 적정기준 법제화 및 전문의·일반의 표시 의무화 발의에 대비한 원내 직종별 인력 배치 현황 점검 및 표시 시스템 선제 정비",
+   "의료기관 평가·인증 내 정보보호 지표 도입 검토 및 전산 장애 리스크에 대비한 원내 사이버 보안 인프라 투자 및 모의 점검 체계 강화"
   ],
-  "count": 184,
-  "picks": 16,
-  "model": "gemini-flash-lite-latest",
-  "generatedAt": "2026-11-27 13:36",
-  "sig": "3:12dk4pb"
+  "count": 174,
+  "picks": 14,
+  "model": "gemini-flash-latest",
+  "generatedAt": "2026-11-28 00:17",
+  "sig": "3:f0pk5e"
  }
 }
