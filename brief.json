@@ -3,57 +3,77 @@
   {
    "date": "2026-11-28",
    "from": "2026-11-27",
-   "headline": "복지부의 공공정책급여 입법예고 및 심평원의 제약사 지원 내역 확인 서비스 제공 동향",
+   "headline": "보건복지부의 공공정책급여 도입 및 7개 질병군 포괄수가 전면 개정 추진",
    "points": [
     {
-     "section": "병원",
-     "title": "제약사 경제적 이익 내역 확인",
-     "body": "건강보험심사평가원이 제약사 등이 의료기관에 제공한 경제적 이익 내역을 의료기관이 직접 대조하고 확인할 수 있는 서비스를 제공함.",
-     "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943042"
-     ]
-    },
-    {
      "section": "정책",
-     "title": "공공정책급여 신설 및 본인부담 면제",
-     "body": "보건복지부가 필수진료체계 유지를 위한 공공정책급여를 도입하고 지역 가산분 본인부담을 면제하는 국민건강보험법 하위법령 개정안을 입법예고함.",
+     "title": "공공정책급여 및 지역 가산 도입",
+     "body": "필수진료체계 유지를 위해 성과 기반 진료비 차등 지급과 공공정책급여가 도입되고 지역 가산분 본인부담이 면제될 예정임.",
      "links": [
       "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943062"
      ]
     },
     {
      "section": "정책",
-     "title": "의사국시 시험장 부정행위 차단 강화",
-     "body": "한국보건의료인국가시험원이 컴퓨터시험(CBT) 대상 휴대전화 회수 및 소지품 관리 등 부정행위 방지 조치를 강화함.",
+     "title": "7개 질병군 포괄수가 6년 만에 개정",
+     "body": "맹장 수술 등 7개 질병군 포괄수가가 전면 개정되어 적정 보상체계가 마련되고 환자 의료비 부담이 완화됨.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943038"
+      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492696&tag=&nPage=1",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044980"
      ]
     },
     {
      "section": "정책",
-     "title": "혁신형 제약기업 인증 발표 임박",
-     "body": "혁신형 제약기업 신규 인증 심사가 완료되어 12월 중 보건복지부에서 최종 발표될 예정임.",
+     "title": "비대면진료 본수가 적용 및 가산 폐지",
+     "body": "내년 1월부터 비대면진료에 정규 건강보험 수가가 적용되며 기존 시범사업의 30% 일괄 가산은 폐지됨.",
      "links": [
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044941"
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943092",
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044982"
+     ]
+    },
+    {
+     "section": "정책",
+     "title": "도수치료 추가 치료 횟수 재산정",
+     "body": "새로운 수술 및 골절로 추가 치료가 필요할 경우 도수치료의 인정 횟수를 재산정하기로 함.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943090"
+     ]
+    },
+    {
+     "section": "병원",
+     "title": "제약사 경제적 이익 지출 내역 확인",
+     "body": "건강보험심사평가원을 통해 제약사 등이 의료기관에 제공한 경제적 이익 내역을 의료기관이 직접 대조하고 확인할 수 있게 됨.",
+     "links": [
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943042"
      ]
     }
    ],
    "implications": [
-    "공공정책급여 신설 및 지역 가산분 본인부담 면제 개정안에 따른 원내 수가 및 진료비 청구 체계 정비 검토",
-    "심평원의 제약사 제공 경제적 이익 내역 직접 확인 서비스 도입에 따른 원내 관리 프로세스 점검"
+    "공공정책급여 및 성과 기반 진료비 차등 지급 제도의 입법예고에 따라 필수진료체계 운영과 연계된 정부 지원 방안을 검토함.",
+    "내년 1월부터 시행되는 비대면진료 본수가 전환과 30% 가산 폐지에 따른 원내 수가 체계 정비를 검토함.",
+    "건강보험심사평가원의 경제적 이익 지출 내역 직접 확인 서비스를 활용하여 관련 내역 관리 체계를 점검함."
    ],
-   "count": 5,
+   "count": 13,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-28 00:15",
-   "sig": "3:k7zz95",
+   "generatedAt": "2026-11-28 06:37",
+   "sig": "3:bge2is",
    "links": [
     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943042",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943038",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044941"
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044941",
+    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492696&tag=&nPage=1",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943092",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943090",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943064",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943061",
+    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943062",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044982",
+    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044980"
    ]
   },
   {
@@ -2029,40 +2049,35 @@
   }
  ],
  "weekly": {
-  "date": "2026-11-27",
-  "from": "2026-11-21",
-  "headline": "정부가 공공정책급여 도입과 행위량 탈피 수가 개편을 본격화하며 지역·필수의료 보상 강화 및 환자 부담 완화에 집중함.",
+  "date": "2026-11-28",
+  "from": "2026-11-22",
+  "headline": "정부가 필수 및 지역의료 강화를 위해 공공정책급여 도입과 수가 개편을 추진하고 본인부담을 인하함.",
   "points": [
    {
     "section": "정책",
-    "title": "공공정책급여 도입 및 지역 가산 본인부담 면제",
-    "body": "보건복지부가 환자가 적은 지역의 필수진료 유지를 위한 공공정책급여 도입 및 지역 가산분 본인부담 면제를 담은 국민건강보험법 하위법령 개정안을 입법예고함. 성과 기반 진료비 차등 지급과 함께 필수의료 인프라 유지를 지원할 예정임.",
+    "title": "공공정책급여 및 성과 차등제 도입",
+    "body": "복지부가 환자가 적은 지역에서도 필수진료체계를 유지할 수 있도록 성과 기반 진료비 차등 지급과 공공정책급여 제도를 도입함.",
     "links": [
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969"
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943062"
     ]
    },
    {
     "section": "정책",
-    "title": "행위량 중심 탈피 수가 혁신 및 필수의료 인상",
-    "body": "건강보험심사평가원이 진료행위량 중심 수가 체계 탈피를 선언하고 수가 개편 설명회를 개최함. 과보상된 검체 및 특수영상 수가는 인하하고 지역·필수의료 수가는 인상하는 방향으로 개편을 본격화함.",
+    "title": "질병군 포괄수가 및 비대면진료 수가 개편",
+    "body": "건강보험 7개 질병군 포괄수가를 6년 만에 전면 개정하고 내년 1월부터 비대면진료 본수가를 적용하면서 일괄 가산을 폐지함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985"
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492696&tag=&nPage=1",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943092",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044982",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044980"
     ]
    },
    {
     "section": "정책",
-    "title": "응급실 의료진 보호 및 진료권 강화 입법",
-    "body": "보건복지부가 응급실 폭행 가해자에 대한 퇴거 및 출입 제한 조치와 명확한 응급진료 기준 마련을 추진함. 또한 보호자가 없거나 동의를 거부하는 상황에서도 다른 의료인 1명 이상의 동의로 응급처치가 가능하도록 응급의료법 시행규칙을 개정함.",
-    "links": [
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "희귀·중증난치질환 본인부담 완화 및 대상 확대",
-    "body": "국민건강보험법 시행령 개정으로 12월부터 희귀·중증난치질환자의 건강보험 본인부담률이 기존 10%에서 7%로 인하됨. 질병관리청은 다발-계통 위축을 비롯한 77개 질환을 국가관리대상 희귀질환으로 신규 지정해 총 1465개로 확대함.",
+    "title": "희귀·중증난치질환자 본인부담률 인하",
+    "body": "12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하되며 77개 질환이 국가관리대상 희귀질환으로 신규 지정됨.",
     "links": [
      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044825",
      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
@@ -2071,122 +2086,113 @@
     ]
    },
    {
-    "section": "병원",
-    "title": "타지역 병원 첨단 의료장비 도입 및 특성화센터 개소",
-    "body": "원주세브란스기독병원이 강원도 최초로 로봇 기관지내시경 아이온을 도입해 본격적인 진료를 시작함. 이대목동병원은 심리·약물·뇌신경 조절 치료를 연계한 국내 첫 PTSD 전문 통합치료센터를 개소함.",
+    "section": "정책",
+    "title": "응급실 폭행 방지 및 응급진료 기준 명확화",
+    "body": "복지부가 응급실 폭행 가해자 퇴거 및 출입 제한 조치를 추진하고 보호자가 없거나 동의를 거부해도 다른 의료인 동의로 응급처치를 허용함.",
     "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967",
+     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172137",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942971"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "울산대병원 인력 개편 노사 갈등",
+    "body": "간호·간병통합서비스 병동 축소 및 보조인력 운영 방식 변경을 두고 노사 갈등이 이어지는 가운데 전공의들이 투쟁 지지 성명을 발표함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943064",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044934"
+    ]
+   }
+  ],
+  "implications": [
+   "정부의 공공정책급여 신설과 지역 가산분 본인부담 면제 정책에 발맞추어 필수진료체계 유지 및 지역 의료 공백 해소 지원 사업에 대비함.",
+   "건강보험 7개 질병군 포괄수가 개정 및 검체·특수영상 수가 인하 등 수가 혁신 기조에 맞춰 원내 진료 수익 구조를 재검토함."
+  ],
+  "count": 32,
+  "picks": 0,
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-28 06:38",
+  "sig": "3:1u6j7of"
+ },
+ "monthly": {
+  "date": "2026-11-28",
+  "from": "2026-10-30",
+  "headline": "정부는 필수의료 수가 보상 체계 개편과 공공정책급여 도입을 본격화하며 지역 완결적 의료 전달체계 구축을 가속화하고 있음",
+  "points": [
+   {
+    "section": "정책",
+    "title": "필수의료 보상 강화 및 공공정책급여 신설",
+    "body": "정부는 건정심 의결에 따라 필수의료 보상 강화를 본격 실행하며, 환자가 적은 지역에서도 필수진료체계 유지를 지원하는 '공공정책급여' 도입을 추진함.",
+    "links": [
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "수가 구조 혁신 및 검체검사·비대면진료 개편",
+    "body": "심평원은 검체검사 수가 인하 및 진료행위량 중심 탈피를 추진하고, 내년부터 비대면진료 본수가 적용과 30% 일괄 가산 폐지를 확정함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943092",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "희귀·중증난치질환 환자 의료비 부담 완화",
+    "body": "12월부터 희귀 및 중증난치질환자의 건강보험 본인부담률이 10%에서 7%로 인하되고, 신속등재 시범사업을 통한 치료제 건보 진입이 추진됨.",
+    "links": [
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492645&tag=&nPage=1",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492464&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "전공의 정원 배정 및 의료인력 적정기준 추진",
+    "body": "정부는 2027년도 전공의 정원 수도권·비수도권 5대5 배정을 추진하는 한편, 병원급 전 의료인력 적정기준 제도화와 간호사 교대제 본사업 전환을 검토함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
+     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044818",
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878"
+    ]
+   },
+   {
+    "section": "정책",
+    "title": "의료 AI 투자 연계 및 데이터 활용 심의 차등화",
+    "body": "복지부는 의료 현장과 헬스케어 AI 민간 투자를 연결하는 펀드 운용을 지원하고, 보건의료데이터 위험도에 따른 심의 차등화 가이드라인을 발표함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017",
+     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492577&tag=&nPage=1"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "첨단 로봇수술 장비 도입 및 확산",
+    "body": "원주세브란스기독병원이 강원 지역 최초로 로봇 기관지내시경을 도입하는 등 주요 병원의 첨단 장비 도입이 이어짐.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967"
+    ]
+   },
+   {
+    "section": "병원",
+    "title": "특성화 센터 및 전문 치료 인프라 구축",
+    "body": "이대목동병원이 국내 최초 PTSD 전문 통합치료센터를 개소하고, 부산대병원이 글로벌 허브 메디컬센터 건립 전략을 공유함.",
+    "links": [
+     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
      "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144"
     ]
    }
   ],
   "implications": [
-   "지역 가산분 본인부담 면제 및 공공정책급여 도입 예고에 따른 원내 필수진료체계 유지 방안 및 원무 청구 기준 검토",
-   "검체·특수영상 수가 인하 및 지역·필수의료 수가 인상 방침에 대비한 진료과별 수익 영향 분석 및 대응 전략 수립",
-   "12월 시행되는 희귀·중증난치질환 본인부담률 인하(7%) 및 신규 지정 77개 질환에 대한 원내 수납·전산 시스템 사전 정비"
+   "정부의 필수의료 보상 강화 및 공공정책급여 도입 기조에 맞춰 원내 중증·응급 중심 진료체계의 수익성 보전 전략을 선제적으로 수립해야 함",
+   "의료 AI 및 데이터 활용 가이드라인 개정에 발맞춰 원내 의료데이터의 안전한 활용 체계를 정비하고 임상 실증 사업에 적극 참여해야 함",
+   "전공의 정원 5대5 배정 및 병원급 인력 적정기준 제도화 추세에 대응하여 간호 인력 및 수련 환경의 효율적 운영 방안을 마련해야 함"
   ],
-  "count": 24,
-  "picks": 0,
-  "model": "gemini-flash-latest",
-  "generatedAt": "2026-11-27 13:36",
-  "sig": "3:s6zu7s"
- },
- "monthly": {
-  "date": "2026-11-28",
-  "from": "2026-10-30",
-  "headline": "정부가 첫 보건의료발전계획을 앞두고 필수의료 보상 강화와 행위량 탈피 수가 개편을 본격화하며 지역완결 의료망 구축에 집중하는 추세임.",
-  "points": [
-   {
-    "section": "정책",
-    "title": "가치기반 수가 전환 및 필수의료 보상 체계 개편",
-    "body": "정부가 26년 만에 보건의료발전계획 수립을 추진하는 가운데 검체·영상 등 과보상 영역을 낮추고 필수·공공 진료를 우대하는 가치기반 수가 구조 혁신을 가속화함. 소아·응급 퇴장방지의약품 약가 개선과 더불어 진료량 중심에서 벗어난 공공정책급여 및 성과 보상 도입을 입법예고함.",
-    "links": [
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044271",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044173",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044203",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942071",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492688&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044969",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171540",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171523"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "병원급 의료인력 기준 법제화 및 자격 관리 강화",
-    "body": "국회와 정부가 간호사에 이어 병원급 전 보건의료인력에 대한 적정 배치 기준 마련과 접수·진료실 내 전문의·일반의 구분 표시 의무화를 추진 중임. 국립대병원 필수의료 전문의 채용 지원 예산 편성과 함께 첨단 AI 기기를 활용한 국시 부정행위 감독 통제도 대폭 강화하는 추세임.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942695",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942528",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942348",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942390",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943038",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942878",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044503"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "지역완결형 전달체계 연계 및 질환 관리 통합",
-    "body": "보훈병원과 지역 필수의료기관을 묶는 보훈 생활권 책임 네트워크 제안 등 공공·지역완결 의료망 구축 논의가 본격화됨. 분절 운영되던 만성질환 관리사업의 통합 연계 개편을 검토하며 지자체 주도 의료공백 해소와 권역 거점병원 육성 방안을 지속 구체화함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942375",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942350",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492589&tag=&nPage=1",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044696",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044386",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492452&tag=&nPage=1",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171647"
-    ]
-   },
-   {
-    "section": "정책",
-    "title": "의료기관 인증 내 정보보호 신설 및 급여재정 대응",
-    "body": "랜섬웨어 등 사이버 위협에 대응해 정부가 의료기관 평가·인증 항목에 정보보호 지표 반영을 검토하고 민관 협의체를 가동함. 한편 의료급여 수급자 증가로 발생한 9000억원 규모의 진료비 지급 지연 우려에 대해 예비비 편성 및 긴급 재원 확보에 착수함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942624",
-     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044576",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171962",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942576",
-     "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492526&tag=&nPage=1",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942187",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=941612"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "상급종합병원의 연구 부속병원화 및 인프라 대형화",
-    "body": "강북삼성병원이 연구 역량 확대를 위해 성균관대 부속병원 전환을 검토하고 부산대병원이 개원 70주년을 맞아 글로벌 허브 메디컬센터 건립 계획을 발표함. 전남대병원 역시 단일 통합동 신축으로 건립 방식을 변경하는 등 지역 거점 대형병원들의 인프라 재편이 활발함.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942380",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942344",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171870"
-    ]
-   },
-   {
-    "section": "병원",
-    "title": "전문 질환 센터 개소 및 첨단 단일공 수술로봇 확산",
-    "body": "이대목동병원의 PTSD 전문 통합치료센터 개소 및 세브란스병원의 서북권 권역응급의료센터 신규 가동 등 특성화 센터 확충이 이어짐. 건양대병원과 국제성모병원의 단일공 로봇수술 1000례 달성을 비롯해 로봇 기관지내시경 등 신기종 첨단 장비 도입이 전국적으로 확산됨.",
-    "links": [
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942967",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172144",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942221",
-     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942188",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171573",
-     "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1171560"
-    ]
-   }
-  ],
-  "implications": [
-   "검체·영상 검사 수가 인하 및 중증·필수의료·공공정책급여 확대에 대응한 진료과별 수익성 시뮬레이션 및 중증 진료 중심 운영 구조 고도화 추진",
-   "병원급 전 보건의료인력 적정기준 법제화 및 전문의·일반의 표시 의무화 발의에 대비한 원내 직종별 인력 배치 현황 점검 및 표시 시스템 선제 정비",
-   "의료기관 평가·인증 내 정보보호 지표 도입 검토 및 전산 장애 리스크에 대비한 원내 사이버 보안 인프라 투자 및 모의 점검 체계 강화"
-  ],
-  "count": 174,
+  "count": 182,
   "picks": 14,
-  "model": "gemini-flash-latest",
-  "generatedAt": "2026-11-28 00:17",
-  "sig": "3:f0pk5e"
+  "model": "gemini-flash-lite-latest",
+  "generatedAt": "2026-11-28 06:38",
+  "sig": "3:eu2m55"
  }
 }
