@@ -3,69 +3,46 @@
   {
    "date": "2026-11-27",
    "from": "2026-11-26",
-   "headline": "보건의료데이터 활용 기준 개정과 심평원 수가 개편 및 울산대병원 인력 관련 동향 발생",
+   "headline": "울산대병원 인력 운영 반발과 보건복지부의 발달장애인·수가·데이터 정책 추진 동향",
    "points": [
     {
      "section": "병원",
-     "title": "울산대병원 보조인력 운영 갈등",
+     "title": "울산대병원 인력 구조조정 반발",
      "body": "울산대병원이 간호·간병통합서비스 병동 축소 및 보조인력 운영 방식 변경을 추진하는 가운데, 전공의들이 인력구조조정 중단을 촉구함.",
      "links": [
       "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044934"
      ]
     },
     {
-     "section": "병원",
-     "title": "안저영상 AI 비급여 시장 확대",
-     "body": "메디웨일의 안저영상 AI 솔루션이 혁신의료기술 비급여 목록에 임상등재되며 안저영상 AI 시장이 3파전으로 확대됨.",
+     "section": "정책",
+     "title": "발달장애인 진료 별도 수가 추진",
+     "body": "보건복지부가 발달장애인 의료접근성 제고를 위해 거점병원 확대와 별도 수가 마련을 검토함.",
      "links": [
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942996"
+      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901"
      ]
     },
     {
      "section": "정책",
-     "title": "보건의료데이터 활용 가이드라인 개정",
-     "body": "보건복지부가 정형 의료데이터 가명처리 기준 제시와 외부 위탁 길을 열고 LLM 활용 기준을 담은 보건의료데이터 활용 가이드라인 전부개정안을 발표함.",
+     "title": "수가 혁신 및 데이터 심의 차등화",
+     "body": "심평원이 과보상된 검체·특수영상 수가를 인하하고 지역·필수의료 수가를 인상하는 개편을 추진하며, 복지부는 위험도에 따른 보건의료데이터 심의 차등화 가이드라인 전부개정안을 발표함.",
      "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
-      "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
+      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
       "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017"
-     ]
-    },
-    {
-     "section": "정책",
-     "title": "건강보험 수가 및 비급여 관리 개편",
-     "body": "건강보험심사평가원이 과보상된 검체·특수영상 수가를 인하하고 지역·필수의료 수가를 인상하는 수가 개편을 추진하며, 복지부가 2027년 비급여 가격 공개 항목을 896개로 확대할 예정임.",
-     "links": [
-      "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492680&tag=&nPage=1",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943030",
-      "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985"
      ]
     }
    ],
    "implications": [
-    "울산대병원 내 간호·간병통합서비스 병동 및 보조인력 운영 방식 변경과 관련한 내부 갈등 해소 방안 검토",
-    "보건의료데이터 활용 가이드라인 개정에 따른 의료데이터 가명처리 외부 위탁 및 AI 기반 환자 정보 보호 기준 정비 검토",
-    "심평원의 검체·특수영상 수가 인하 및 지역·필수의료 수가 인상 기조에 따른 병원 차원의 재정 및 진료 포트폴리오 대응 검토"
+    "간호·간병통합서비스 병동 및 보조인력 운영 방안 변경 시 원내 구성원과의 소통 체계 강화 검토",
+    "정부의 발달장애인 거점병원 확대 및 별도 수가 추진 동향에 따른 원내 대응 검토",
+    "심평원의 검체·특수영상 수가 인하 및 필수의료 수가 인상 기조에 따른 경영 전략 수립"
    ],
-   "count": 16,
+   "count": 4,
    "picks": 0,
    "model": "gemini-flash-lite-latest",
-   "generatedAt": "2026-11-27 06:41",
-   "sig": "3:t66y96",
+   "generatedAt": "2026-11-27 09:00",
+   "sig": "3:1yjqxx0",
    "links": [
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492668&tag=&nPage=1",
-    "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1172150",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943008",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943001",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942997",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942996",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942998",
-    "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044915",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044901",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492680&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492674&tag=&nPage=1",
-    "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492671&tag=&nPage=1",
-    "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943030",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=942985",
     "https://www.dailymedi.com/news/news_view.php?ca_id=22&wr_id=943017",
     "https://www.docdocdoc.co.kr/news/articleView.html?idxno=3044934"
